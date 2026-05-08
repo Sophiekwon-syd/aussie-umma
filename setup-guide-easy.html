@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Setup — Carousel Automation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --bg: #0a0a0b;
+        --bg2: #111113;
+        --bg3: #19191d;
+        --ink: #e8e5e0;
+        --ink2: rgba(232, 229, 224, 0.68);
+        --ink3: rgba(232, 229, 224, 0.36);
+        --ink4: rgba(232, 229, 224, 0.12);
+        --accent: #c6f135;
+        --accent-dim: rgba(198, 241, 53, 0.1);
+        --col-blue: #5ea8ff;
+        --col-green: #4dd87a;
+        --col-purple: #c084ff;
+        --col-pink: #ff5ea0;
+        --col-yellow: #f0d64a;
+        --col-orange: #ff9f5a;
+        --col-teal: #3de8cc;
+        --col-red: #ff5555;
+        --ui: "Plus Jakarta Sans", sans-serif;
+        --mono: "JetBrains Mono", monospace;
+      }
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html { scroll-behavior: smooth; }
+      body {
+        background: var(--bg);
+        font-family: var(--ui);
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--ink);
+        line-height: 1.65;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background-image:
+          repeating-linear-gradient(0deg, transparent, transparent 32px, rgba(255,255,255,0.012) 32px, rgba(255,255,255,0.012) 33px),
+          repeating-linear-gradient(90deg, transparent, transparent 32px, rgba(255,255,255,0.006) 32px, rgba(255,255,255,0.006) 33px);
+      }
+      body::before, body::after {
+        content: "";
+        position: fixed;
+        border-radius: 50%;
+        pointer-events: none;
+        filter: blur(120px);
+        opacity: 0.07;
+        z-index: 0;
+      }
+      body::before {
+        width: 500px; height: 500px;
+        background: var(--col-purple);
+        top: -100px; left: -100px;
+      }
+      body::after {
+        width: 400px; height: 400px;
+        background: var(--col-teal);
+        bottom: -80px; right: -80px;
+      }
+
+      .page {
+        position: relative;
+        z-index: 1;
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 44px 24px 80px;
+      }
+
+      .header {
+        margin-bottom: 40px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--ink4);
+      }
+      .header h1 {
+        font-size: clamp(24px, 5vw, 36px);
+        font-weight: 800;
+        color: var(--ink);
+        line-height: 1.15;
+        letter-spacing: -0.5px;
+      }
+      .header h1 em {
+        font-style: normal;
+        color: var(--accent);
+      }
+      .header-sub {
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--ink2);
+        margin-top: 8px;
+      }
+      .header-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 5px 12px;
+        border-radius: 100px;
+        background: var(--accent-dim);
+        border: 1px solid rgba(198,241,53,0.2);
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 14px;
+      }
+
+      .outcome-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-bottom: 32px;
+      }
+      .outcome-item {
+        border: 1px solid var(--ink4);
+        border-radius: 12px;
+        padding: 18px;
+        text-align: center;
+      }
+      .outcome-icon { font-size: 22px; margin-bottom: 8px; display: block; }
+      .outcome-label { font-size: 13px; font-weight: 600; color: var(--ink2); }
+
+      .prereq-block {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid var(--ink4);
+        border-radius: 14px;
+        padding: 24px;
+        margin-bottom: 16px;
+      }
+      .prereq-title {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--col-pink);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .prereq-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 10px 0;
+        font-size: 14px;
+        color: var(--ink2);
+        line-height: 1.5;
+        border-bottom: 1px solid var(--ink4);
+      }
+      .prereq-item:last-child { border-bottom: none; }
+      .prereq-item i { margin-top: 3px; color: var(--col-teal); font-size: 15px; flex-shrink: 0; }
+      .prereq-item strong { color: var(--ink); display: block; }
+
+      .step-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 18px;
+        margin-bottom: 0;
+        position: relative;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+      .step-row.visible { opacity: 1; transform: translateY(0); }
+      .step-row::before {
+        content: "";
+        position: absolute;
+        left: 21px;
+        top: 50px;
+        bottom: -4px;
+        width: 1px;
+        background: repeating-linear-gradient(
+          to bottom,
+          var(--ink3) 0px, var(--ink3) 4px,
+          transparent 4px, transparent 8px
+        );
+      }
+      .step-row:last-child::before { display: none; }
+
+      .step-n {
+        flex-shrink: 0;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 800;
+        background: var(--bg2);
+        position: relative;
+        z-index: 2;
+      }
+      .step-content {
+        flex: 1;
+        min-width: 0;
+        padding-bottom: 36px;
+      }
+      .step-label {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: var(--ink);
+        letter-spacing: -0.2px;
+      }
+      .step-desc {
+        font-size: 14px;
+        color: var(--ink2);
+        margin-bottom: 14px;
+        line-height: 1.55;
+      }
+
+      /* Chat prompt box — the key UI element for this guide */
+      .chat-prompt {
+        background: rgba(94, 168, 255, 0.05);
+        border: 1px solid rgba(94, 168, 255, 0.25);
+        border-radius: 14px;
+        padding: 20px 22px;
+        margin: 14px 0;
+        position: relative;
+      }
+      .chat-prompt-label {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--col-blue);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .chat-prompt-body {
+        font-size: 14px;
+        color: var(--ink);
+        line-height: 1.7;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+      .chat-prompt-body .fill {
+        background: rgba(240, 214, 74, 0.15);
+        border: 1px solid rgba(240, 214, 74, 0.35);
+        border-radius: 4px;
+        padding: 1px 6px;
+        color: var(--col-yellow);
+        font-weight: 600;
+        cursor: text;
+      }
+      .chat-copy-btn {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        background: rgba(94, 168, 255, 0.12);
+        border: 1px solid rgba(94, 168, 255, 0.3);
+        color: var(--col-blue);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        font-family: var(--ui);
+        transition: all 0.2s;
+      }
+      .chat-copy-btn:hover { background: rgba(94, 168, 255, 0.2); }
+
+      .cmd-block {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(0,0,0,0.4);
+        border: 1px solid var(--ink4);
+        border-radius: 10px;
+        padding: 12px 18px;
+        font-family: var(--mono);
+        font-size: 14px;
+        color: var(--accent);
+        margin: 10px 0;
+        cursor: copy;
+        transition: all 0.2s;
+        word-break: break-all;
+      }
+      .cmd-block:hover { border-color: var(--ink3); filter: brightness(1.1); }
+      .cmd-block i { color: var(--ink3); font-size: 12px; flex-shrink: 0; }
+
+      .note {
+        font-size: 14px;
+        color: var(--ink2);
+        margin-top: 10px;
+        line-height: 1.55;
+      }
+      .note .hi { color: var(--ink); font-weight: 600; }
+      .note a { color: var(--col-blue); }
+
+      .tip-block {
+        background: rgba(198,241,53,0.05);
+        border: 1px solid rgba(198,241,53,0.15);
+        border-radius: 12px;
+        padding: 16px 20px;
+        margin: 14px 0;
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+      }
+      .tip-block i { color: var(--accent); font-size: 16px; margin-top: 3px; flex-shrink: 0; }
+      .tip-block p { font-size: 14px; color: var(--ink2); line-height: 1.5; }
+      .tip-block strong { color: var(--accent); }
+
+      .warn-block {
+        background: rgba(255,85,85,0.06);
+        border: 1px solid rgba(255,85,85,0.2);
+        border-radius: 12px;
+        padding: 16px 20px;
+        margin: 14px 0;
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+      }
+      .warn-block i { color: var(--col-red); font-size: 16px; margin-top: 2px; flex-shrink: 0; }
+      .warn-block p { font-size: 14px; color: var(--ink2); line-height: 1.5; }
+      .warn-block strong { color: var(--ink); }
+
+      .info-block {
+        background: rgba(77,216,122,0.05);
+        border: 1px solid rgba(77,216,122,0.2);
+        border-radius: 12px;
+        padding: 16px 20px;
+        margin: 14px 0;
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+      }
+      .info-block i { color: var(--col-green); font-size: 16px; margin-top: 2px; flex-shrink: 0; }
+      .info-block p { font-size: 14px; color: var(--ink2); line-height: 1.5; }
+      .info-block strong { color: var(--col-green); }
+
+      .sub-steps { margin: 10px 0; }
+      .sub-step {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        padding: 7px 0;
+        font-size: 14px;
+        color: var(--ink2);
+        line-height: 1.5;
+      }
+      .sub-step-num {
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--ink3);
+        min-width: 22px;
+        flex-shrink: 0;
+        padding-top: 2px;
+      }
+      .sub-step .hi { color: var(--ink); font-weight: 600; }
+
+      .output-tree {
+        font-family: var(--mono);
+        font-size: 13px;
+        color: var(--ink2);
+        line-height: 1.8;
+        padding: 18px;
+        background: rgba(0,0,0,0.3);
+        border-radius: 10px;
+        border: 1px solid var(--ink4);
+        margin: 14px 0;
+      }
+      .output-tree .hi { color: var(--col-green); font-weight: 500; }
+
+      .daily-box {
+        background: var(--bg2);
+        border: 1px solid var(--ink4);
+        border-radius: 14px;
+        padding: 24px;
+        margin-top: 36px;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+      .daily-box i { color: var(--col-purple); font-size: 24px; flex-shrink: 0; margin-top: 2px; }
+      .daily-box h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+      .daily-box p { font-size: 14px; color: var(--ink2); line-height: 1.55; }
+
+      .success-box {
+        background: rgba(77,216,122,0.06);
+        border: 1px solid rgba(77,216,122,0.25);
+        border-radius: 14px;
+        padding: 28px;
+        margin-top: 44px;
+        text-align: center;
+      }
+      .success-box i { color: var(--col-green); font-size: 28px; margin-bottom: 10px; display: block; }
+      .success-box p { font-size: 15px; color: var(--ink2); line-height: 1.6; }
+      .success-box .hi { color: var(--col-green); font-weight: 700; }
+
+      .trouble-section { margin-top: 52px; }
+      .trouble-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .trouble-item {
+        background: var(--bg2);
+        border: 1px solid var(--ink4);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 12px;
+      }
+      .trouble-q {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--col-orange);
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .trouble-a { font-size: 14px; color: var(--ink2); line-height: 1.6; }
+      .trouble-a a { color: var(--col-blue); }
+      .trouble-a code {
+        font-family: var(--mono);
+        font-size: 13px;
+        background: rgba(255,255,255,0.06);
+        padding: 1px 6px;
+        border-radius: 4px;
+      }
+
+      .copy-toast {
+        position: fixed;
+        bottom: 32px;
+        left: 50%;
+        transform: translateX(-50%) translateY(100px);
+        background: var(--col-green);
+        color: #000;
+        padding: 10px 22px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        z-index: 1000;
+        transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        pointer-events: none;
+      }
+      .copy-toast.show { transform: translateX(-50%) translateY(0); }
+
+      .footer {
+        margin-top: 56px;
+        text-align: center;
+        border-top: 1px dashed var(--ink4);
+        padding-top: 28px;
+      }
+      .footer .note { font-size: 13px; }
+      .footer a { color: var(--ink3); }
+      .footer a:hover { color: var(--ink2); }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+
+      <header class="header">
+        <div class="header-badge"><i class="fa-solid fa-star"></i> No coding needed</div>
+        <h1>Set Up Your<br /><em>Carousel Factory</em></h1>
+        <p class="header-sub">
+          You talk to Claude. Claude does the rest. No terminal commands to memorise.
+        </p>
+      </header>
+
+      <div class="outcome-row">
+        <div class="outcome-item">
+          <span class="outcome-icon"><i class="fa-solid fa-images"></i></span>
+          <span class="outcome-label">20 ready-to-post<br />PNG cards</span>
+        </div>
+        <div class="outcome-item">
+          <span class="outcome-icon"><i class="fa-solid fa-comments"></i></span>
+          <span class="outcome-label">Just copy &amp;<br />paste prompts</span>
+        </div>
+        <div class="outcome-item">
+          <span class="outcome-icon"><i class="fa-solid fa-clock"></i></span>
+          <span class="outcome-label">~20 min<br />first run</span>
+        </div>
+      </div>
+
+      <section class="prereq-block">
+        <div class="prereq-title"><i class="fa-solid fa-circle-info"></i> What you need</div>
+        <div class="prereq-item">
+          <i class="fa-solid fa-check-circle"></i>
+          <div>
+            <strong>Claude Pro subscription — $20/month</strong>
+            Sign up at <a href="https://claude.ai/pro" style="color:var(--accent)" target="_blank">claude.ai/pro</a> before starting.
+          </div>
+        </div>
+        <div class="prereq-item">
+          <i class="fa-solid fa-check-circle"></i>
+          <div>
+            <strong>A Mac or Windows computer</strong>
+            Any laptop or desktop made in the last 8 years will work.
+          </div>
+        </div>
+        <div class="prereq-item">
+          <i class="fa-solid fa-check-circle"></i>
+          <div>
+            <strong>Node.js installed</strong>
+            This is a free tool that Claude Code needs to run.
+            <a href="https://nodejs.org" style="color:var(--col-blue)" target="_blank">Download the LTS version here</a>
+            — click the big green button, run the installer, done.
+          </div>
+        </div>
+      </section>
+
+      <main style="margin-top: 44px;">
+
+        <!-- STEP 1 -->
+        <div class="step-row">
+          <div class="step-n" style="border-color:var(--col-pink);color:var(--col-pink)">1</div>
+          <div class="step-content">
+            <div class="step-label">Install Claude Code</div>
+            <div class="step-desc">
+              Claude Code is the app that runs your carousel factory. You install it once with a single command.
+            </div>
+            <div class="sub-steps">
+              <div class="sub-step">
+                <span class="sub-step-num">1.</span>
+                <span>Open <span class="hi">Terminal</span> on Mac (Cmd+Space → type "Terminal" → Enter) or <span class="hi">PowerShell</span> on Windows (Start → type "PowerShell" → Enter).</span>
+              </div>
+              <div class="sub-step">
+                <span class="sub-step-num">2.</span>
+                <span>Click the command below to copy it, then paste it in Terminal and press <span class="hi">Enter</span>.</span>
+              </div>
+            </div>
+            <div class="cmd-block copyable-cmd">
+              <i class="fa-regular fa-copy"></i>npm install -g @anthropic-ai/claude-code
+            </div>
+            <div class="sub-steps" style="margin-top:14px">
+              <div class="sub-step">
+                <span class="sub-step-num">3.</span>
+                <span>Wait for it to finish (about 30 seconds). Then type <span class="hi">claude</span> and press Enter.</span>
+              </div>
+              <div class="sub-step">
+                <span class="sub-step-num">4.</span>
+                <span>Follow the login prompts — it will ask you to sign in with your Claude Pro account.</span>
+              </div>
+            </div>
+            <div class="tip-block" style="margin-top:14px">
+              <i class="fa-solid fa-lightbulb"></i>
+              <p>Once you see a <strong>&gt;</strong> prompt inside Claude Code, you're ready for Step 2.</p>
+            </div>
+            <div class="warn-block">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <p>
+                <strong>"npm: command not found"?</strong> Node.js is not installed yet.
+                <a href="https://nodejs.org" style="color:var(--col-blue)" target="_blank">Download Node.js (LTS)</a>,
+                run the installer, close Terminal, reopen it, then try the command again.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step-row">
+          <div class="step-n" style="border-color:var(--col-green);color:var(--col-green)">2</div>
+          <div class="step-content">
+            <div class="step-label">Set Up the Project</div>
+            <div class="step-desc">
+              You are now inside Claude Code. Fill in your details in the prompt below, then copy the whole thing and paste it in.
+              Claude will download the template and set it up for you automatically.
+            </div>
+
+            <div class="chat-prompt" id="setupPrompt">
+              <div class="chat-prompt-label">
+                <i class="fa-solid fa-message"></i> Paste this into Claude Code — fill in the <span style="color:var(--col-yellow)">yellow fields</span> first
+              </div>
+              <button class="chat-copy-btn" onclick="copyPrompt('setupPrompt')">Copy</button>
+              <div class="chat-prompt-body">Please set up my carousel automation project. Do this in order:
+
+1. Clone https://github.com/Sophiekwon-syd/carousel-automation-template.git into the current folder
+2. Go into the cloned folder
+3. Copy config.example.json → config.json, tone-guide.example.md → tone-guide.md, and topic-memory.example.json → topic-memory.json
+4. Edit config.json with my brand details:
+   - brand.name = "<span class="fill">Your Brand Name</span>"
+   - brand.account = "<span class="fill">@yourhandle</span>"
+   - content.niche = "<span class="fill">What your account covers, e.g. Korean parenting in Australia</span>"
+   - content.target_audience = "<span class="fill">Who reads your content, e.g. Korean mums living in Australia</span>"
+5. Tell me when it's done and confirm which folder the project is in</div>
+            </div>
+
+            <div class="info-block">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>
+                <strong>Approve the prompts.</strong> Claude will ask for permission to access your files and run commands.
+                Click <strong>Yes</strong> or <strong>Allow</strong> each time — this is how it does the work for you.
+              </p>
+            </div>
+            <div class="tip-block">
+              <i class="fa-solid fa-lightbulb"></i>
+              <p>
+                <strong>Not sure what to write?</strong> Just describe yourself naturally and Claude will figure it out. For example:
+                "I run a Korean parenting account in Australia — my handle is @aussie.umma and I post tips for Korean mums raising kids here."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step-row">
+          <div class="step-n" style="border-color:var(--col-yellow);color:var(--col-yellow)">3</div>
+          <div class="step-content">
+            <div class="step-label">Generate Your First Carousels</div>
+            <div class="step-desc">
+              Once Claude confirms the setup is complete, paste this command. That's the whole pipeline — research, copy, design, QA, screenshots — done automatically.
+            </div>
+            <div class="cmd-block copyable-cmd" style="font-size:16px;padding:14px 20px;color:var(--accent)">
+              <i class="fa-regular fa-copy"></i>/daily-run
+            </div>
+            <div class="note" style="margin-top:12px">
+              This takes about <span class="hi">15–20 minutes</span> on your first run. You'll see progress in the terminal as it works through each stage.
+            </div>
+            <div class="warn-block">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <p>
+                <strong>Keep clicking "Allow".</strong> Claude will ask permission to search the web, create files, and run the screenshot tool.
+                Every prompt is part of the pipeline — approve them all.
+              </p>
+            </div>
+            <div class="tip-block">
+              <i class="fa-solid fa-lightbulb"></i>
+              <p>
+                <strong>Don't close the window</strong> while it's running. Leave Terminal open until you see the final summary message.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="step-row">
+          <div class="step-n" style="border-color:var(--col-purple);color:var(--col-purple)">4</div>
+          <div class="step-content">
+            <div class="step-label">Find Your Images</div>
+            <div class="step-desc">
+              When the run completes, your PNG cards are saved here:
+            </div>
+            <div class="output-tree">
+              carousel-automation-template/<br />
+              └── outputs/<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;└── <span class="hi">2026-05-08/</span> ← today's date<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span class="hi">images/</span><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span class="hi">topic-name-01.png</span><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── topic-name-02.png<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ...<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── topic-name-10.png
+            </div>
+            <div class="note">
+              Open Finder (Mac) or File Explorer (Windows) and navigate to the <span class="hi">images/</span> folder.
+              Upload the PNGs to Instagram in order — 01 is the cover, 10 is the CTA.
+            </div>
+            <div class="tip-block">
+              <i class="fa-solid fa-lightbulb"></i>
+              <p>
+                <strong>Want to see what a finished carousel looks like?</strong>
+                Open <span class="hi">examples/carousel-example.html</span> in your browser before running — that's the visual reference the pipeline targets.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="step-row">
+          <div class="step-n" style="border-color:var(--col-blue);color:var(--col-blue)">5</div>
+          <div class="step-content">
+            <div class="step-label">Run It Every Day</div>
+            <div class="step-desc">
+              From now on, generating a fresh batch of carousels takes two things: open Claude Code in the right folder, then run the command.
+            </div>
+            <div class="sub-steps">
+              <div class="sub-step">
+                <span class="sub-step-num">1.</span>
+                <span>Open Terminal (Mac) or PowerShell (Windows).</span>
+              </div>
+              <div class="sub-step">
+                <span class="sub-step-num">2.</span>
+                <span>Type this to open Claude Code in your project — copy, paste, Enter:</span>
+              </div>
+            </div>
+            <div class="cmd-block copyable-cmd">
+              <i class="fa-regular fa-copy"></i>cd ~/carousel-automation-template &amp;&amp; claude
+            </div>
+            <div class="sub-steps" style="margin-top:4px">
+              <div class="sub-step">
+                <span class="sub-step-num">3.</span>
+                <span>Once Claude Code opens, type:</span>
+              </div>
+            </div>
+            <div class="cmd-block copyable-cmd">
+              <i class="fa-regular fa-copy"></i>/daily-run
+            </div>
+            <div class="note" style="margin-top:8px">
+              That's it. New carousels in your <span class="hi">outputs/</span> folder every time.
+            </div>
+            <div class="tip-block">
+              <i class="fa-solid fa-lightbulb"></i>
+              <p>
+                <strong>Folder not found?</strong> Ask Claude where it saved the project in Step 2 and use that path instead.
+                For example: <code style="font-family:var(--mono);font-size:13px">cd ~/Desktop/carousel-automation-template &amp;&amp; claude</code>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <div class="success-box">
+        <i class="fa-solid fa-circle-check"></i>
+        <p>
+          You're set up. Run <span class="hi">/daily-run</span> any time you want a fresh batch of carousels.<br />
+          New research. New copy. New designs. Every time.
+        </p>
+      </div>
+
+      <section class="trouble-section">
+        <div class="trouble-title"><i class="fa-solid fa-wrench"></i> Something went wrong?</div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> "npm: command not found"</div>
+          <div class="trouble-a">
+            Node.js is not installed.
+            <a href="https://nodejs.org" target="_blank">Download the LTS version from nodejs.org</a>,
+            run the installer, close Terminal completely, reopen it, then try Step 1 again.
+          </div>
+        </div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> Claude stopped mid-way and nothing happened</div>
+          <div class="trouble-a">
+            It likely hit a permission prompt and waited for you. Scroll up in the terminal window — there may be a "Yes/No" or "Allow/Deny" question. Answer it and it will continue. If it's stuck with no question, type <code>/daily-run</code> again.
+          </div>
+        </div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> I can't find the images folder</div>
+          <div class="trouble-a">
+            Ask Claude directly inside Claude Code: "Where did you save the project, and where are today's PNG files?" It will tell you the exact path and you can navigate to it in Finder or File Explorer.
+          </div>
+        </div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> "permission denied"</div>
+          <div class="trouble-a">
+            Mac: System Settings → Privacy &amp; Security → Full Disk Access → add Terminal.<br />
+            Windows: right-click PowerShell → Run as Administrator.
+          </div>
+        </div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> PNG files are empty or missing</div>
+          <div class="trouble-a">
+            The screenshot tool needs a browser to be installed. Paste this in Terminal:
+            <code>npx puppeteer browsers install chrome</code>
+            Then go back to Claude Code and run <code>/daily-run</code> again.
+          </div>
+        </div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> The carousels are on topics I don't want</div>
+          <div class="trouble-a">
+            Open Claude Code in the project folder and say: "Edit config.json — add [topic] to the topics_to_avoid list." Claude will update the file so future runs skip it.
+          </div>
+        </div>
+
+        <div class="trouble-item">
+          <div class="trouble-q"><i class="fa-solid fa-circle-xmark"></i> Something else went wrong</div>
+          <div class="trouble-a">
+            Just ask Claude. Describe what happened and it will work through it with you — that's what it's there for.
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="note">
+          More comfortable with Terminal and Git? See <a href="setup-guide.html">setup-guide.html</a> for the developer version.
+        </p>
+      </footer>
+    </div>
+
+    <div class="copy-toast" id="copyToast"></div>
+
+    <script>
+      // Scroll-in animation
+      const rows = document.querySelectorAll(".step-row");
+      const obs = new IntersectionObserver(
+        (entries) => { entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add("visible"); }); },
+        { threshold: 0.1 }
+      );
+      rows.forEach((r) => obs.observe(r));
+
+      // Toast helper
+      function showToast(msg) {
+        const t = document.getElementById("copyToast");
+        t.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${msg}`;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2000);
+      }
+
+      // Copy command blocks
+      document.querySelectorAll(".copyable-cmd").forEach((el) => {
+        el.addEventListener("click", () => {
+          const text = el.innerText.replace(/^\s*\s*/, "").trim();
+          navigator.clipboard.writeText(text).then(() => showToast("Copied!"));
+        });
+      });
+
+      // Copy chat prompts (text only, no HTML)
+      function copyPrompt(id) {
+        const el = document.getElementById(id).querySelector(".chat-prompt-body");
+        const text = el.innerText.trim();
+        navigator.clipboard.writeText(text).then(() => showToast("Prompt copied!"));
+      }
+    </script>
+  </body>
+</html>

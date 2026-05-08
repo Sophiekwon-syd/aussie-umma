@@ -1,0 +1,51 @@
+{
+  "topic": "Health Intelligence",
+  "angle": "Why new health routines fail in the first three weeks — and how to fix it",
+  "summary": "Most people abandon health routines not from lack of motivation but from lack of body literacy. Learning to read your own body's signals — sleep quality, energy patterns, hunger cues — is the skill that makes any routine sustainable.",
+  "definition": "Health Intelligence (HQ) is the ability to accurately read your own health status, seek relevant information, and translate it into self-care decisions. It sits alongside IQ and EQ as a third measurable intelligence.",
+  "key_facts": [
+    {
+      "fact": "People who track even one health metric daily are 2.4× more likely to maintain a new health habit after 90 days",
+      "source": "Journal of Medical Internet Research, 2023"
+    },
+    {
+      "fact": "73% of people who start a new health routine quit within 3 weeks",
+      "source": "Behaviour Change meta-analysis, University of Melbourne, 2022"
+    },
+    {
+      "fact": "Sleep quality, not duration, is the strongest predictor of daily energy levels",
+      "source": "Sleep Foundation, 2024"
+    }
+  ],
+  "common_misconception": "Most people think health routines fail because of willpower. The real reason is misalignment — copying someone else's routine instead of responding to your own body's signals.",
+  "practical_steps": [
+    "Track your sleep and wake time every day for two weeks — even just writing it down creates awareness",
+    "Pick the one health metric that feels most out of control and focus there first",
+    "Notice the patterns in your own data before adding any new habit"
+  ],
+  "contrasting_approaches": [
+    {
+      "label": "Medical management",
+      "description": "Using medicine or procedures to address specific health issues"
+    },
+    {
+      "label": "Evidence-based management",
+      "description": "Using personal data and research-backed habits to improve daily wellbeing"
+    },
+    {
+      "label": "Holistic management",
+      "description": "Looking at the whole person — body, environment, relationships — as an interconnected system"
+    }
+  ],
+  "hook": "You don't need more willpower. You need to learn the language your body is already speaking.",
+  "do_examples": [
+    "Observe and record your own patterns first",
+    "Celebrate small, consistent changes",
+    "Use simple tools — a note on your phone is enough"
+  ],
+  "dont_examples": [
+    "Copy someone else's routine without adapting it",
+    "Chase perfection and quit when you miss a day",
+    "Rely on complex apps that create more friction than insight"
+  ]
+}

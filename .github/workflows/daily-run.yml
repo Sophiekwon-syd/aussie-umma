@@ -1,0 +1,44 @@
+name: Daily Carousel
+on:
+  schedule:
+    - cron: '30 17 * * *'   # 2:30am KST (UTC+9 → 17:30 UTC)
+    - cron: '30 7 * * *'    # 5:30pm AEST (UTC+10 → 07:30 UTC)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Install browser for screenshots
+        run: npx puppeteer browsers install chrome
+
+      - name: Run daily pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: claude --dangerously-skip-permissions -p "/daily-run"
+
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: carousel-pngs
+          path: outputs/
+          if-no-files-found: warn
+          retention-days: 7
+          overwrite: true
+
+      - name: Commit and push outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add outputs/ topic-memory.json
+          git diff --cached --quiet || git commit -m "carousel: ${{ github.run_id }}"
+          git push origin main

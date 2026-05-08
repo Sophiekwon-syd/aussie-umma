@@ -1,0 +1,13 @@
+{
+  "name": "carousel-automation-template",
+  "version": "1.0.0",
+  "description": "A template for automated social media carousels using AI and Puppeteer.",
+  "main": "screenshot.js",
+  "scripts": {
+    "screenshots": "node scripts/screenshot.js",
+    "daily-run": "node scripts/screenshot.js templates/sample.html"
+  },
+  "dependencies": {
+    "puppeteer": "^24.42.0"
+  }
+}

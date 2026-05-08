@@ -1,0 +1,51 @@
+{
+  "_readme": "Copy this file to config.json and edit every value. Do NOT commit config.json — it contains your personal brand data.",
+
+  "brand": {
+    "name": "YOUR BRAND NAME",
+    "account": "@your.instagram.handle",
+    "_note_name": "Shown in the footer of every card (e.g. 'AUSSIE UMMA'). Keep it short — 2-3 words max.",
+    "_note_account": "Shown in the top-right of every card except the cover. Include the @ symbol."
+  },
+
+  "content": {
+    "niche": "What your account covers in one sentence. Be specific — not 'tips' but 'brain-science-backed health habits for busy Korean professionals'.",
+    "target_audience": "Who reads your content. Include their age range, language, what they want, and what frustrates them. The copywriter writes in this audience's language.",
+    "tone": "How your brand sounds in one sentence. Give a specific voice example, not an abstract label. E.g. 'A knowledgeable friend who explains complex things over coffee, never condescending, always ends with what to do next.'",
+    "topics_to_avoid": [
+      "Saturated topic you never want covered",
+      "Another topic your audience doesn't care about"
+    ],
+    "_note_avoid": "List topics that are either off-brand or too saturated in your niche. The trend-researcher will never suggest these. Leave empty [] if you have no restrictions.",
+    "recurring_themes": [
+      "Theme cluster 1 (e.g. 'Dopamine and attention')",
+      "Theme cluster 2 (e.g. 'Sleep and energy')",
+      "Theme cluster 3"
+    ],
+    "_note_themes": "Broad topic areas the trend-researcher prioritizes. These are not individual topics — they're clusters it tries to match trending content against. 3-6 items is ideal.",
+    "search_contexts": [
+      "Platform + search format (e.g. 'Korean TikTok tags: #건강꿀팁 #생활꿀팍')",
+      "Specific community or source (e.g. 'Blind app burnout posts')",
+      "Content signal (e.g. 'YouTube shorts with 500K+ views in wellness')"
+    ],
+    "_note_search": "Where the trend-researcher looks for trending signals. Be specific about platforms, hashtags, communities, and what indicates 'trending' (view count, save count, comment volume). 3-5 contexts.",
+    "cta_text": "저장하기 →",
+    "_note_cta": "Text shown on the save button on Card 10. Most Korean accounts use '저장하기 →'. Change only if your brand uses different CTA language."
+  },
+
+  "design": {
+    "theme": "dark-modern",
+    "accent_primary": "#C6F135",
+    "accent_secondary": "#3B82F6",
+    "_note_theme": "Currently only 'dark-modern' is supported. The design system in tokens.css is built for dark backgrounds.",
+    "_note_primary": "Main accent color (hex). Used for highlights, badges, buttons, dots, glows. Default neon lime. Alternatives: #FFB347 (warm), #5EEAD4 (calm), #FF6B6B (energy), #94A3B8 (professional).",
+    "_note_secondary": "Secondary accent (hex). Used for the second approach block border on Card 06. Default blue. Change only if you have a specific two-color scheme."
+  },
+
+  "pipeline": {
+    "carousels_per_run": 2,
+    "cards_per_carousel": 10,
+    "_note_count": "How many carousels to produce per run. Default 2. Each carousel = 1 topic × 10 cards. More carousels = longer runtime and more API tokens.",
+    "_note_cards": "Cards per carousel. The system is designed and tested for exactly 10. Other counts are untested — the 10-card narrative arc and component assignments will break."
+  }
+}

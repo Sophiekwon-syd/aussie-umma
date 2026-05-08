@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(xargs -I{} file {})",
+      "WebSearch",
+      "Bash(python3 *)",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/qa_check.sh)",
+      "Bash(/tmp/qa_check.sh /Users/sophiekwon/projects/carousel-automation-template/outputs/2026-05-08/au-school-readiness.html \"au-school-readiness\")",
+      "Bash(/tmp/qa_check.sh /Users/sophiekwon/projects/carousel-automation-template/outputs/2026-05-08/working-mum-resources.html \"working-mum-resources\")",
+      "Bash(npm list *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(npm ls *)",
+      "Bash(sed -n '/^    <style>/,/^    <\\\\/style>/p' outputs/2026-05-08/au-school-readiness.html)",
+      "Bash(sed -n '/^    <style>/,/^    <\\\\/style>/p' examples/carousel-example.html)",
+      "Bash(sed -n '13,524p' /Users/sophiekwon/projects/carousel-automation-template/outputs/2026-05-08/au-school-readiness.html)",
+      "Bash(sed -n '13,569p' /Users/sophiekwon/projects/carousel-automation-template/examples/carousel-example.html)",
+      "Bash(git *)"
+    ]
+  }
+}
