@@ -6,7 +6,7 @@
 <title>Pipeline Diagram — Carousel Automation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 :root {
@@ -25,8 +25,8 @@
   --col-teal:   #4af0d8;
   --col-red:    #ff6060;
 
-  --hand: 'Space Grotesk', sans-serif;
-  --body: 'DM Sans', sans-serif;
+  --hand: 'Space Grotesk', 'Noto Sans KR', sans-serif;
+  --body: 'DM Sans', 'Noto Sans KR', sans-serif;
   --mono: 'JetBrains Mono', monospace;
 }
 
@@ -355,28 +355,64 @@ body {
 .step-row:nth-child(8)  { animation-delay: .40s }
 .step-row:nth-child(9)  { animation-delay: .45s }
 .step-row:nth-child(10) { animation-delay: .50s }
+
+.lang-toggle {
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+  padding: 3px;
+  z-index: 100;
+}
+.lang-btn {
+  padding: 4px 10px;
+  border-radius: 16px;
+  border: none;
+  background: transparent;
+  color: rgba(232,224,208,0.45);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.04em;
+  font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
+}
+.lang-btn.active {
+  background: rgba(255,255,255,0.14);
+  color: #e8e0d0;
+}
 </style>
 </head>
 <body>
 
+<div class="lang-toggle">
+  <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  <button class="lang-btn" data-lang="kr" onclick="setLang('kr')">KR</button>
+</div>
+
 <div class="side-notes">
-  <div class="side-note">
+  <div class="side-note" data-i18n-html="sn1">
     <span class="sn-col" style="color:var(--col-yellow)">CLAUDE.md</span><br>
     Brand rules — auto-loaded by every agent in the pipeline
   </div>
-  <div class="side-note">
+  <div class="side-note" data-i18n-html="sn2">
     <span class="sn-col" style="color:var(--col-teal)">topic-memory</span><br>
     30-day topic log — prevents repeated topics
   </div>
-  <div class="side-note">
+  <div class="side-note" data-i18n-html="sn3">
     <span class="sn-col" style="color:var(--col-blue)">Sequential</span><br>
     Each agent waits for the previous result before starting
   </div>
-  <div class="side-note">
+  <div class="side-note" data-i18n-html="sn4">
     <span class="sn-col" style="color:var(--col-green)">html-card skill</span><br>
     Shared design system — template.html + tokens.css
   </div>
-  <div class="side-note">
+  <div class="side-note" data-i18n-html="sn5">
     <span class="sn-col" style="color:var(--col-pink)">Output</span><br>
     10 cards × 2 carousels = 20 PNGs per run
   </div>
@@ -386,13 +422,13 @@ body {
 
   <div class="title-bar">
     <div>
-      <h1>Carousel Automation — <em>Full Pipeline</em></h1>
-      <div class="title-sub">
+      <h1 data-i18n-html="h1">Carousel Automation — <em>Full Pipeline</em></h1>
+      <div class="title-sub" data-i18n-html="title_sub">
         Runs daily via GitHub Actions — generates 2 Instagram carousels per run<br>
         Trend research → Copy in your audience's language → 10-card HTML → PNG screenshots → Git push
       </div>
     </div>
-    <a href="index.html" class="back-link">&larr; Back</a>
+    <a href="index.html" class="back-link" data-i18n="back">← Back</a>
   </div>
 
 
@@ -402,7 +438,7 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-yellow)"></div>
-        <span style="color:var(--col-yellow)">GitHub Actions cron trigger</span>
+        <span style="color:var(--col-yellow)" data-i18n="step1">GitHub Actions cron trigger</span>
       </div>
       <div class="boxes">
         <div class="box box-fill-yellow">Daily 00:00 UTC</div>
@@ -411,7 +447,7 @@ body {
         <div class="arr">→</div>
         <div class="box box-fill-yellow">claude -p "/daily-run"</div>
       </div>
-      <div class="note">
+      <div class="note" data-i18n-html="note_s1">
         <span class="hi">cron: '0 0 * * *'</span> — also supports manual trigger via workflow_dispatch
       </div>
     </div>
@@ -424,7 +460,7 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-orange)"></div>
-        <span style="color:var(--col-orange)">Orchestrator agent starts</span>
+        <span style="color:var(--col-orange)" data-i18n="step2">Orchestrator agent starts</span>
       </div>
       <div class="boxes" style="margin-bottom:10px">
         <div class="box box-fill-orange">config.json loaded</div>
@@ -434,7 +470,7 @@ body {
         <div class="box box-chalk" style="font-size:13px">Brand rules · no-emoji · design tokens</div>
       </div>
       <div class="wide-block" style="border-color:rgba(232,147,90,0.3)">
-        <div class="wide-block-title" style="color:var(--col-orange);font-size:13px">run-log.json initialised</div>
+        <div class="wide-block-title" style="color:var(--col-orange);font-size:13px" data-i18n="wb_s2">run-log.json initialised</div>
         <div style="font-family:var(--mono);font-size:13px;color:rgba(232,224,208,0.88);line-height:1.8">
           { "status": <span style="color:var(--col-blue)">"running"</span>,<br>
           &nbsp;&nbsp;"started_at": <span style="color:var(--col-green)">"00:00:14Z"</span>,<br>
@@ -442,7 +478,7 @@ body {
           &nbsp;&nbsp;"steps_total": <span style="color:var(--col-yellow)">10</span> }
         </div>
       </div>
-      <div class="note">Orchestrator is the only agent that writes files — sub-agents return results, never write directly</div>
+      <div class="note" data-i18n="note_s2">Orchestrator is the only agent that writes files — sub-agents return results, never write directly</div>
     </div>
   </div>
 
@@ -453,7 +489,7 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-blue)"></div>
-        <span style="color:var(--col-blue)">trend-researcher agent</span>
+        <span style="color:var(--col-blue)" data-i18n="step3">trend-researcher agent</span>
       </div>
       <div class="boxes" style="margin-bottom:8px">
         <div class="box box-teal" style="font-size:13px">topic-memory.json</div>
@@ -468,7 +504,7 @@ body {
         <div class="box box-fill-blue" style="font-size:13px">TOPIC_3</div>
         <div class="box box-fill-blue" style="font-size:13px">TOPIC_4</div>
       </div>
-      <div class="note">Uses <span class="hi">search_contexts</span> from config.json — topics already used in the last 30 days are automatically excluded</div>
+      <div class="note" data-i18n-html="note_s3">Uses <span class="hi">search_contexts</span> from config.json — topics already used in the last 30 days are automatically excluded</div>
     </div>
   </div>
 
@@ -479,11 +515,11 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-purple)"></div>
-        <span style="color:var(--col-purple)">topic-researcher agent × 2</span>
-        <span class="seq-tag" style="margin-left:8px">sequential</span>
+        <span style="color:var(--col-purple)" data-i18n="step4">topic-researcher agent × 2</span>
+        <span class="seq-tag" style="margin-left:8px" data-i18n="seq_tag">sequential</span>
       </div>
       <div class="wide-block" style="border-color:rgba(200,136,255,0.3)">
-        <div class="wide-block-title" style="color:var(--col-purple)">Runs once per selected topic</div>
+        <div class="wide-block-title" style="color:var(--col-purple)" data-i18n="wb_s4">Runs once per selected topic</div>
         <div class="inner-row">
           <div class="box box-purple" style="font-size:13px">TOPIC_N received</div>
           <div class="arr">→</div>
@@ -492,7 +528,7 @@ body {
           <div class="box box-fill-purple" style="font-size:13px">research_N.json returned</div>
         </div>
         <hr class="chalk-divider">
-        <div style="font-size:13px;color:var(--chalk2);margin-bottom:8px">research_N.json shape</div>
+        <div style="font-size:13px;color:var(--chalk2);margin-bottom:8px" data-i18n="research_shape">research_N.json shape</div>
         <div class="token-row">
           <div class="token-id" style="border-color:var(--col-purple);color:var(--col-purple);font-family:var(--mono);font-size:12.5px">hook</div>
           <div class="token-id" style="border-color:var(--col-purple);color:var(--col-purple);font-family:var(--mono);font-size:12.5px">empathy_qs</div>
@@ -502,7 +538,7 @@ body {
           <div class="token-id" style="border-color:var(--col-purple);color:var(--col-purple);font-family:var(--mono);font-size:12.5px">cta_text</div>
         </div>
       </div>
-      <div class="note">Sources: communities in your <span class="hi">search_contexts</span> + official / health references relevant to your niche</div>
+      <div class="note" data-i18n-html="note_s4">Sources: communities in your <span class="hi">search_contexts</span> + official / health references relevant to your niche</div>
     </div>
   </div>
 
@@ -513,8 +549,8 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-teal)"></div>
-        <span style="color:var(--col-teal)">content-planner agent × 2</span>
-        <span class="seq-tag" style="margin-left:8px">sequential</span>
+        <span style="color:var(--col-teal)" data-i18n="step5">content-planner agent × 2</span>
+        <span class="seq-tag" style="margin-left:8px" data-i18n="seq_tag">sequential</span>
       </div>
       <div class="boxes" style="margin-bottom:8px">
         <div class="box box-teal" style="font-size:13px">research_N passed in</div>
@@ -524,7 +560,7 @@ body {
         <div class="box box-fill-teal" style="font-size:13px">outline_N.json returned</div>
       </div>
       <div class="wide-block" style="border-color:rgba(74,240,216,0.25)">
-        <div class="wide-block-title" style="color:var(--col-teal);font-size:13px">Designs card structure (type + headline brief per card)</div>
+        <div class="wide-block-title" style="color:var(--col-teal);font-size:13px" data-i18n="wb_s5">Designs card structure (type + headline brief per card)</div>
         <div class="inner-row">
           <div class="box box-teal" style="font-size:12.5px">card types: cover · empathy · body · cta</div>
           <div class="box box-teal" style="font-size:12.5px">body variants: A B C D E F rotated</div>
@@ -543,8 +579,8 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-pink)"></div>
-        <span style="color:var(--col-pink)">copywriter agent × 2</span>
-        <span class="seq-tag" style="margin-left:8px">sequential</span>
+        <span style="color:var(--col-pink)" data-i18n="step6">copywriter agent × 2</span>
+        <span class="seq-tag" style="margin-left:8px" data-i18n="seq_tag">sequential</span>
       </div>
       <div class="boxes" style="margin-bottom:8px">
         <div class="box box-pink" style="font-size:13px">research_N + outline_N</div>
@@ -575,11 +611,11 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-green)"></div>
-        <span style="color:var(--col-green)">carousel-developer agent × 2</span>
-        <span class="seq-tag" style="margin-left:8px">sequential</span>
+        <span style="color:var(--col-green)" data-i18n="step7">carousel-developer agent × 2</span>
+        <span class="seq-tag" style="margin-left:8px" data-i18n="seq_tag">sequential</span>
       </div>
       <div class="wide-block" style="border-color:rgba(90,200,120,0.3)">
-        <div class="wide-block-title" style="color:var(--col-green)">Builds 10 HTML cards per carousel</div>
+        <div class="wide-block-title" style="color:var(--col-green)" data-i18n="wb_s7">Builds 10 HTML cards per carousel</div>
         <div class="inner-row" style="margin-bottom:12px">
           <div class="box box-fill-green" style="font-size:13px">copy_N.json received</div>
           <div class="arr">→</div>
@@ -588,7 +624,7 @@ body {
           <div class="box box-fill-green" style="font-size:13px">topic-slug.html written</div>
         </div>
         <div style="background:rgba(255,255,255,0.03);border-radius:6px;padding:10px 12px;margin-bottom:8px">
-          <div style="font-size:12.5px;color:var(--chalk2);margin-bottom:8px">Card sequence (always 10)</div>
+          <div style="font-size:12.5px;color:var(--chalk2);margin-bottom:8px" data-i18n="card_seq">Card sequence (always 10)</div>
           <div class="token-row">
             <div class="token-id" style="border-color:var(--col-yellow);color:var(--col-yellow);font-family:var(--mono);font-size:12.5px">01 Cover</div>
             <div class="token-id" style="border-color:var(--col-pink);color:var(--col-pink);font-family:var(--mono);font-size:12.5px">02 Empathy</div>
@@ -603,12 +639,12 @@ body {
           </div>
         </div>
         <div class="inner-row">
-          <div style="font-size:13px;color:var(--chalk2)">Output:</div>
+          <div style="font-size:13px;color:var(--chalk2)" data-i18n="output_label">Output:</div>
           <div class="box box-chalk" style="font-family:var(--mono);font-size:12.5px">topic-one.html</div>
           <div class="box box-chalk" style="font-family:var(--mono);font-size:12.5px">topic-two.html</div>
         </div>
       </div>
-      <div class="note">1080 × 1350 px fixed — design system: .claude/skills/html-card/tokens.css</div>
+      <div class="note" data-i18n="note_s7">1080 × 1350 px fixed — design system: .claude/skills/html-card/tokens.css</div>
     </div>
   </div>
 
@@ -619,25 +655,25 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-red)"></div>
-        <span style="color:var(--col-red)">qa-engineer agent</span>
-        <span style="font-size:12.5px;color:rgba(232,224,208,0.72);margin-left:4px">validates both HTML files</span>
+        <span style="color:var(--col-red)" data-i18n="step8">qa-engineer agent</span>
+        <span style="font-size:12.5px;color:rgba(232,224,208,0.72);margin-left:4px" data-i18n="step8_sub">validates both HTML files</span>
       </div>
       <div class="sampling-grid">
         <div class="sampling-cell" style="border-color:var(--col-red)">
-          <div class="sc-title" style="color:var(--col-red)">Card count</div>
-          <div style="font-size:13px;color:rgba(232,224,208,0.88)">Exactly 10 per file<br>otherwise → FAIL</div>
+          <div class="sc-title" style="color:var(--col-red)" data-i18n="sc_count_title">Card count</div>
+          <div style="font-size:13px;color:rgba(232,224,208,0.88)" data-i18n-html="sc_count_body">Exactly 10 per file<br>otherwise → FAIL</div>
         </div>
         <div class="sampling-cell" style="border-color:var(--col-red)">
-          <div class="sc-title" style="color:var(--col-red)">Emoji check</div>
-          <div style="font-size:13px;color:rgba(232,224,208,0.88)">U+1F000+ range<br>any found → FAIL</div>
+          <div class="sc-title" style="color:var(--col-red)" data-i18n="sc_emoji_title">Emoji check</div>
+          <div style="font-size:13px;color:rgba(232,224,208,0.88)" data-i18n-html="sc_emoji_body">U+1F000+ range<br>any found → FAIL</div>
         </div>
         <div class="sampling-cell" style="border-color:var(--col-red)">
-          <div class="sc-title" style="color:var(--col-red)">CTA card</div>
-          <div style="font-size:13px;color:rgba(232,224,208,0.88)">Card 10: exactly<br>one CTA button</div>
+          <div class="sc-title" style="color:var(--col-red)" data-i18n="sc_cta_title">CTA card</div>
+          <div style="font-size:13px;color:rgba(232,224,208,0.88)" data-i18n-html="sc_cta_body">Card 10: exactly<br>one CTA button</div>
         </div>
         <div class="sampling-cell" style="border-color:var(--col-red)">
-          <div class="sc-title" style="color:var(--col-red)">Footer</div>
-          <div style="font-size:13px;color:rgba(232,224,208,0.88)">Every card must<br>have a .sig bar</div>
+          <div class="sc-title" style="color:var(--col-red)" data-i18n="sc_footer_title">Footer</div>
+          <div style="font-size:13px;color:rgba(232,224,208,0.88)" data-i18n-html="sc_footer_body">Every card must<br>have a .sig bar</div>
         </div>
       </div>
       <div class="boxes" style="margin-top:4px">
@@ -655,8 +691,8 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-pink)"></div>
-        <span style="color:var(--col-pink)">asset-producer agent</span>
-        <span style="font-size:12.5px;color:rgba(232,224,208,0.72);margin-left:4px">Puppeteer screenshots</span>
+        <span style="color:var(--col-pink)" data-i18n="step9">asset-producer agent</span>
+        <span style="font-size:12.5px;color:rgba(232,224,208,0.72);margin-left:4px" data-i18n="step9_sub">Puppeteer screenshots</span>
       </div>
       <div class="boxes" style="margin-bottom:8px">
         <div class="box box-fill-pink" style="font-size:13px">HTML × 2</div>
@@ -666,13 +702,13 @@ body {
         <div class="box box-fill-pink" style="font-size:13px">20 PNGs saved</div>
       </div>
       <div class="wide-block" style="border-color:rgba(255,106,173,0.25)">
-        <div style="font-size:13px;color:var(--chalk2);margin-bottom:8px">Output path</div>
+        <div style="font-size:13px;color:var(--chalk2);margin-bottom:8px" data-i18n="output_path">Output path</div>
         <div class="token-row" style="flex-wrap:wrap;gap:5px">
           <div class="token-id" style="font-family:var(--mono);border-color:var(--col-pink);color:var(--col-pink);font-size:12.5px">images/topic-slug-01.png</div>
           <div style="color:var(--chalk2)">···</div>
           <div class="token-id" style="font-family:var(--mono);border-color:var(--col-pink);color:var(--col-pink);font-size:12.5px">images/topic-slug-10.png</div>
         </div>
-        <div style="margin-top:6px;font-size:13px;color:var(--chalk2)">2 carousels × 10 cards = <span style="color:var(--col-pink);font-weight:700">20 PNGs</span> (1080 × 1350 px, @2x)</div>
+        <div style="margin-top:6px;font-size:13px;color:var(--chalk2)" data-i18n-html="output_count">2 carousels × 10 cards = <span style="color:var(--col-pink);font-weight:700">20 PNGs</span> (1080 × 1350 px, @2x)</div>
       </div>
     </div>
   </div>
@@ -684,7 +720,7 @@ body {
     <div class="step-content">
       <div class="step-label">
         <div class="dot" style="background:var(--col-orange)"></div>
-        <span style="color:var(--col-orange)">Memory update + Git commit + Push</span>
+        <span style="color:var(--col-orange)" data-i18n="step10">Memory update + Git commit + Push</span>
       </div>
       <div class="boxes" style="margin-bottom:10px">
         <div class="box box-fill-orange" style="font-size:13px">topic-memory.json updated</div>
@@ -698,22 +734,148 @@ body {
         <div class="arr">→</div>
         <div class="box box-fill-orange" style="font-size:13px">git push main</div>
       </div>
-      <div class="note"><span class="hi">One commit per file</span> — HTML, PNG folder, and run-log.json each get their own commit</div>
+      <div class="note" data-i18n-html="note_s10"><span class="hi">One commit per file</span> — HTML, PNG folder, and run-log.json each get their own commit</div>
     </div>
   </div>
 
 
-  <div class="bottom-strip">
+  <div class="bottom-strip" data-i18n-html="bottom">
     Daily midnight → Trend research → Copy in audience's language → HTML build → QA → Screenshots → Git Push<br>
     <strong>Trigger → Research × 2 → Plan × 2 → Copy × 2 → Build × 2 → QA → Assets → Memory → Git</strong>
   </div>
 
   <div class="footer-nav">
-    <a href="index.html">&larr; Home</a>
-    <a href="setup-guide-easy.html">Easy Setup</a>
-    <a href="setup-guide.html">Developer Setup</a>
+    <a href="index.html" data-i18n="fnav_home">← Home</a>
+    <a href="setup-guide-easy.html" data-i18n="fnav_easy">Easy Setup</a>
+    <a href="setup-guide.html" data-i18n="fnav_dev">Developer Setup</a>
   </div>
 
 </div>
+
+<script>
+var I18N = {
+  en: {
+    title: 'Pipeline Diagram — Carousel Automation',
+    h1: 'Carousel Automation — <em>Full Pipeline</em>',
+    title_sub: 'Runs daily via GitHub Actions — generates 2 Instagram carousels per run<br>Trend research → Copy in your audience\'s language → 10-card HTML → PNG screenshots → Git push',
+    back: '← Back',
+    step1: 'GitHub Actions cron trigger',
+    step2: 'Orchestrator agent starts',
+    step3: 'trend-researcher agent',
+    step4: 'topic-researcher agent × 2',
+    step5: 'content-planner agent × 2',
+    step6: 'copywriter agent × 2',
+    step7: 'carousel-developer agent × 2',
+    step8: 'qa-engineer agent',
+    step8_sub: 'validates both HTML files',
+    step9: 'asset-producer agent',
+    step9_sub: 'Puppeteer screenshots',
+    step10: 'Memory update + Git commit + Push',
+    seq_tag: 'sequential',
+    note_s1: '<span class="hi">cron: \'0 0 * * *\'</span> — also supports manual trigger via workflow_dispatch',
+    note_s2: 'Orchestrator is the only agent that writes files — sub-agents return results, never write directly',
+    note_s3: 'Uses <span class="hi">search_contexts</span> from config.json — topics already used in the last 30 days are automatically excluded',
+    note_s4: 'Sources: communities in your <span class="hi">search_contexts</span> + official / health references relevant to your niche',
+    note_s7: '1080 × 1350 px fixed — design system: .claude/skills/html-card/tokens.css',
+    note_s10: '<span class="hi">One commit per file</span> — HTML, PNG folder, and run-log.json each get their own commit',
+    wb_s2: 'run-log.json initialised',
+    wb_s4: 'Runs once per selected topic',
+    wb_s5: 'Designs card structure (type + headline brief per card)',
+    wb_s7: 'Builds 10 HTML cards per carousel',
+    card_seq: 'Card sequence (always 10)',
+    output_label: 'Output:',
+    sc_count_title: 'Card count',
+    sc_count_body: 'Exactly 10 per file<br>otherwise → FAIL',
+    sc_emoji_title: 'Emoji check',
+    sc_emoji_body: 'U+1F000+ range<br>any found → FAIL',
+    sc_cta_title: 'CTA card',
+    sc_cta_body: 'Card 10: exactly<br>one CTA button',
+    sc_footer_title: 'Footer',
+    sc_footer_body: 'Every card must<br>have a .sig bar',
+    output_path: 'Output path',
+    output_count: '2 carousels × 10 cards = <span style="color:var(--col-pink);font-weight:700">20 PNGs</span> (1080 × 1350 px, @2x)',
+    bottom: 'Daily midnight → Trend research → Copy in audience\'s language → HTML build → QA → Screenshots → Git Push<br><strong>Trigger → Research × 2 → Plan × 2 → Copy × 2 → Build × 2 → QA → Assets → Memory → Git</strong>',
+    fnav_home: '← Home',
+    fnav_easy: 'Easy Setup',
+    fnav_dev: 'Developer Setup',
+    research_shape: 'research_N.json shape',
+    sn1: '<span class="sn-col" style="color:var(--col-yellow)">CLAUDE.md</span><br>Brand rules — auto-loaded by every agent in the pipeline',
+    sn2: '<span class="sn-col" style="color:var(--col-teal)">topic-memory</span><br>30-day topic log — prevents repeated topics',
+    sn3: '<span class="sn-col" style="color:var(--col-blue)">Sequential</span><br>Each agent waits for the previous result before starting',
+    sn4: '<span class="sn-col" style="color:var(--col-green)">html-card skill</span><br>Shared design system — template.html + tokens.css',
+    sn5: '<span class="sn-col" style="color:var(--col-pink)">Output</span><br>10 cards × 2 carousels = 20 PNGs per run',
+  },
+  kr: {
+    title: '파이프라인 다이어그램 — 캐러셀 자동화',
+    h1: '캐러셀 자동화 — <em>전체 파이프라인</em>',
+    title_sub: 'GitHub Actions로 매일 자동 실행 — 1회 실행당 인스타그램 캐러셀 2개 생성<br>트렌드 조사 → 타겟 언어로 카피 → 10장 HTML → PNG 스크린샷 → Git 푸시',
+    back: '← 돌아가기',
+    step1: 'GitHub Actions cron 트리거',
+    step2: '오케스트레이터 에이전트 시작',
+    step3: 'trend-researcher 에이전트',
+    step4: 'topic-researcher 에이전트 × 2',
+    step5: 'content-planner 에이전트 × 2',
+    step6: 'copywriter 에이전트 × 2',
+    step7: 'carousel-developer 에이전트 × 2',
+    step8: 'qa-engineer 에이전트',
+    step8_sub: '두 HTML 파일 검증',
+    step9: 'asset-producer 에이전트',
+    step9_sub: 'Puppeteer 스크린샷',
+    step10: '메모리 업데이트 + Git 커밋 + 푸시',
+    seq_tag: '순차 실행',
+    note_s1: '<span class="hi">cron: \'0 0 * * *\'</span> — workflow_dispatch로 수동 실행도 가능합니다',
+    note_s2: '오케스트레이터만 파일을 직접 씁니다. 서브 에이전트는 결과를 반환할 뿐, 직접 쓰지 않습니다',
+    note_s3: 'config.json의 <span class="hi">search_contexts</span>를 사용합니다. 최근 30일 내 사용된 주제는 자동으로 제외됩니다',
+    note_s4: '출처: <span class="hi">search_contexts</span>에 설정된 커뮤니티 + 해당 분야 공식/전문 레퍼런스',
+    note_s7: '1080 × 1350 px 고정 크기 — 디자인 시스템: .claude/skills/html-card/tokens.css',
+    note_s10: '<span class="hi">파일당 커밋 하나</span> — HTML, PNG 폴더, run-log.json은 각각 별도 커밋합니다',
+    wb_s2: 'run-log.json 초기화',
+    wb_s4: '선택된 주제마다 한 번 실행',
+    wb_s5: '카드 구조 설계 (카드별 타입 + 헤드라인 개요)',
+    wb_s7: '캐러셀당 HTML 카드 10장 생성',
+    card_seq: '카드 순서 (항상 10장)',
+    output_label: '출력:',
+    sc_count_title: '카드 수',
+    sc_count_body: '파일당 정확히 10장<br>아니면 → 실패',
+    sc_emoji_title: '이모지 검사',
+    sc_emoji_body: 'U+1F000+ 범위<br>발견되면 → 실패',
+    sc_cta_title: 'CTA 카드',
+    sc_cta_body: '카드 10: 정확히<br>CTA 버튼 하나',
+    sc_footer_title: '푸터',
+    sc_footer_body: '모든 카드에<br>.sig 바가 있어야 함',
+    output_path: '출력 경로',
+    output_count: '캐러셀 2개 × 카드 10장 = <span style="color:var(--col-pink);font-weight:700">PNG 20장</span> (1080 × 1350 px, @2x)',
+    bottom: '매일 자정 → 트렌드 조사 → 타겟 언어로 카피 작성 → HTML 빌드 → QA → 스크린샷 → Git 푸시<br><strong>트리거 → 조사 × 2 → 계획 × 2 → 카피 × 2 → 빌드 × 2 → QA → 에셋 → 메모리 → Git</strong>',
+    fnav_home: '← 홈',
+    fnav_easy: '쉬운 설치',
+    fnav_dev: '개발자 설치',
+    research_shape: 'research_N.json 구조',
+    sn1: '<span class="sn-col" style="color:var(--col-yellow)">CLAUDE.md</span><br>브랜드 규칙 — 파이프라인의 모든 에이전트에 자동 로드',
+    sn2: '<span class="sn-col" style="color:var(--col-teal)">topic-memory</span><br>30일 주제 기록 — 반복 주제 방지',
+    sn3: '<span class="sn-col" style="color:var(--col-blue)">순차 실행</span><br>각 에이전트는 이전 결과를 받은 후 시작',
+    sn4: '<span class="sn-col" style="color:var(--col-green)">html-card 스킬</span><br>공유 디자인 시스템 — template.html + tokens.css',
+    sn5: '<span class="sn-col" style="color:var(--col-pink)">결과물</span><br>카드 10장 × 캐러셀 2개 = 실행당 PNG 20장',
+  }
+};
+
+function setLang(lang) {
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    var k = el.dataset.i18n;
+    if (I18N[lang] && I18N[lang][k] !== undefined) el.textContent = I18N[lang][k];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
+    var k = el.dataset.i18nHtml;
+    if (I18N[lang] && I18N[lang][k] !== undefined) el.innerHTML = I18N[lang][k];
+  });
+  if (I18N[lang] && I18N[lang].title) document.title = I18N[lang].title;
+  document.documentElement.lang = lang === 'kr' ? 'ko' : 'en';
+  document.querySelectorAll('.lang-btn').forEach(function(b) {
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+  localStorage.setItem('lang', lang);
+}
+
+setLang(localStorage.getItem('lang') || 'en');
+</script>
 </body>
 </html>
