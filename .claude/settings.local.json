@@ -20,7 +20,10 @@
       "Bash(sed -n '13,524p' /Users/sophiekwon/projects/carousel-automation-template/outputs/2026-05-08/au-school-readiness.html)",
       "Bash(sed -n '13,569p' /Users/sophiekwon/projects/carousel-automation-template/examples/carousel-example.html)",
       "Bash(git *)",
-      "Bash(gh api *)"
+      "Bash(gh api *)",
+      "Bash(sed -i '' 's|class=\"td lg\" style=\"text-align: center; margin-bottom: 20px\"|class=\"td md\" style=\"text-align: center; margin-bottom: 20px\"|' templates/sample.html)",
+      "Bash(sed -i '' 's|class=\"td lg\" style=\"text-align:center;margin-bottom:20px\"|class=\"td md\" style=\"text-align:center;margin-bottom:20px\"|' outputs/2026-05-15/*.html)",
+      "Bash(sed -i '' 's|class=\"td lg\" style=\"text-align:center;margin-bottom:24px\"|class=\"td md\" style=\"text-align:center;margin-bottom:24px\"|' templates/component-gallery.html)"
     ]
   }
 }
