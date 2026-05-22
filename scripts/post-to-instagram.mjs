@@ -23,8 +23,16 @@ const baseDir = path.join('outputs', date);
 const runLog = JSON.parse(await fs.readFile(path.join(baseDir, 'run-log.json'), 'utf8'));
 const config = JSON.parse(await fs.readFile('config.json', 'utf8'));
 
-const results = [];
+const logPath = path.join(baseDir, 'instagram-log.json');
+const existingResults = await readExistingResults(logPath);
+const alreadyPostedSlugs = new Set(existingResults.map((r) => r.slug));
+if (alreadyPostedSlugs.size > 0) {
+  console.log(`Found existing instagram-log.json with ${alreadyPostedSlugs.size} posted slug(s): ${[...alreadyPostedSlugs].join(', ')}`);
+}
+
+const results = [...existingResults];
 let topicIndex = 0;
+let postedThisRun = 0;
 
 for (const topic of runLog.topics) {
   topicIndex += 1;
@@ -35,6 +43,11 @@ for (const topic of runLog.topics) {
   }
 
   const slug = path.basename(topic.carousel_file, '.html');
+
+  if (alreadyPostedSlugs.has(slug)) {
+    console.log(`[skip] ${slug} — already posted (in instagram-log.json)`);
+    continue;
+  }
   const imgDir = path.join(baseDir, 'images');
   const files = (await fs.readdir(imgDir))
     .filter((f) => f.startsWith(`${slug}-`) && f.endsWith('.png'))
@@ -56,7 +69,7 @@ for (const topic of runLog.topics) {
   console.log(`\n[${topicIndex}/${runLog.topics.length}] ${topic.topic}`);
   console.log(`  slug=${slug}  images=${urls.length}`);
 
-  if (topicIndex > 1) {
+  if (postedThisRun > 0) {
     console.log(`  pausing ${DELAY_BETWEEN_POSTS_MS / 1000}s before next post...`);
     await sleep(DELAY_BETWEEN_POSTS_MS);
   }
@@ -86,19 +99,35 @@ for (const topic of runLog.topics) {
     carousel_container_id: carouselId,
     ig_media_id: postId,
     image_urls: urls,
+    posted_at: new Date().toISOString(),
   });
+  postedThisRun += 1;
 }
 
-const logPath = path.join(baseDir, 'instagram-log.json');
-await fs.writeFile(
-  logPath,
-  JSON.stringify(
-    { date, posted_at: new Date().toISOString(), repo: REPO, ref: REF, results },
-    null,
-    2,
-  ),
-);
-console.log(`\nWrote ${logPath} — ${results.length} post(s) published.`);
+if (postedThisRun === 0) {
+  console.log(`\nNo new posts to publish — all eligible topics already in ${logPath}.`);
+} else {
+  await fs.writeFile(
+    logPath,
+    JSON.stringify(
+      { date, last_run_at: new Date().toISOString(), repo: REPO, ref: REF, results },
+      null,
+      2,
+    ),
+  );
+  console.log(`\nWrote ${logPath} — ${postedThisRun} new post(s) this run, ${results.length} total.`);
+}
+
+async function readExistingResults(p) {
+  try {
+    const raw = await fs.readFile(p, 'utf8');
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed.results) ? parsed.results.filter((r) => r.ig_media_id) : [];
+  } catch (err) {
+    if (err.code === 'ENOENT') return [];
+    throw err;
+  }
+}
 
 function buildCaption(copy, topicEntry, config) {
   const cover = copy.cards.find((c) => c.type === 'cover') || {};
