@@ -5,6 +5,9 @@ on:
     - cron: '30 7 * * *'    # 5:30pm AEST (UTC+10 → 07:30 UTC)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
