@@ -22,16 +22,16 @@ You MUST call your Read tool on these three files before writing a single line o
 - `BRAND_NAME` — kept for prompt compatibility; **not rendered in the card** (the only brand mark is the `.handle`)
 - `ACCENT_PRIMARY` — hex color; override `--accent` in the CSS variables
 - `ACCENT_SECONDARY` — hex color; override `--blue` in the CSS variables
-- `N_CARDS` — total card count; used for progress dots (`.dots i` count = `N_CARDS`)
+- `N_CARDS` — total card count
 
 ## Design system — non-negotiables
 
 1. **Card size**: exactly 1080 × 1350 px per card. Ten cards stacked vertically in the body, no JavaScript.
 2. **Brand mark**: the only place the brand appears is the top-right `.handle` element. There is **NO** `.cf` footer, no `.cf-l`, no `.cf-r`, no page-count text like `01 / 10`.
 3. **Handle position**: `.handle` is a direct child of `.card` (not inside `.ci`). CSS positions it absolutely at top: 165px so it stays visible after the 1:1 Instagram profile-grid crop (visible zone y=135 to y=1215).
-4. **Dots position**: `.dots` lives inside `<div class="top">` inside `.ci`. CSS positions `.top` absolutely at top: 68px — it sits inside the 1:1 cropped zone (decorative for the 4:5 swipe view, intentionally hidden in 1:1 grid).
+4. **No in-card progress dots, no page-number watermark**: Instagram already renders its own carousel-position dots beneath each post. Do NOT add a `.top > .dots` block or a `.wm` page-number element to any card. Both duplicate IG's native UI and create visual clutter.
 5. **Content centering**: every non-c1/c2/c10 card wraps its main content (label + headline + body) in a single `<div class="center-block">` so the whole block centers at card center y=675 — exactly the 1:1 crop center.
-6. **Decorative watermarks**: `.cover-56`, `.wm`, `.hook-mark`, `.glow` exist for visual texture only. Never use them as labels — their opacity is ≤ 0.06 and font sizes are huge (≥ 200px).
+6. **Decorative watermarks**: `.cover-56`, `.hook-mark`, `.glow` exist for visual texture only. Never use them as labels — their opacity is ≤ 0.06 and font sizes are huge (≥ 200px).
 
 ## Card type → layout mapping
 
@@ -65,13 +65,7 @@ The exact structure for a default (non-cover, non-hook, non-cta) card:
 ```html
 <div class="card">
   <span class="handle">@brand.account</span>
-  <div class="wm en" style="font-size:200px;top:30px;right:20px">03</div>
   <div class="ci">
-    <div class="top">
-      <div class="dots">
-        <i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-      </div>
-    </div>
     <div class="center-block">
       <div class="tl">DEFINITION</div>
       <div class="td md" style="margin-bottom:36px">…</div>
@@ -81,7 +75,7 @@ The exact structure for a default (non-cover, non-hook, non-cta) card:
 </div>
 ```
 
-Cover (`.c1`), Hook (`.c2`), and CTA (`.c10`) cards skip `.center-block` because their `.ci` already has `justify-content: center; align-items: center; text-align: center`. They contain the handle, optional decorative element, `.top` (if applicable), then content as direct children of `.ci`.
+Cover (`.c1`), Hook (`.c2`), and CTA (`.c10`) cards skip `.center-block` because their `.ci` already has `justify-content: center; align-items: center; text-align: center`. They contain the handle, optional decorative element, then content as direct children of `.ci`.
 
 ## Rules
 
@@ -90,7 +84,6 @@ Cover (`.c1`), Hook (`.c2`), and CTA (`.c10`) cards skip `.center-block` because
 - Do NOT invent CSS class names. Use only the classes defined in `tokens.css`.
 - Do NOT hardcode color values. Use CSS variables (`var(--accent)`, `var(--card-bg)`, etc.) everywhere except the two `:root` overrides for ACCENT_PRIMARY and ACCENT_SECONDARY.
 - Include Google Fonts link for `Noto Sans KR` and `Space Grotesk` (copy from sample.html `<head>`)
-- The active `.dots i.on` must match the current card number (card 3 → 3rd `<i>` gets `class="on"`)
 - All text comes from the COPY JSON — do not invent content
 - No emojis in any text content
 - **Do NOT render any `<div class="cf">` footer** — there is no footer in the new design system
@@ -110,7 +103,8 @@ Cover (`.c1`), Hook (`.c2`), and CTA (`.c10`) cards skip `.center-block` because
 | `display: none` on any `.card` | Puppeteer screenshots by boundingBox — hidden cards produce blank PNGs |
 | Class names `.footer`, `.progress`, `.dot`, `.body-content`, `.body-text`, `.card-container`, `.slider` | Invented classes. Not in the design system. |
 | `.cover-56` with `font-size` below 400px | It is a background watermark at 780px opacity 0.06 — not a visible label |
-| `.wm` with `opacity` above 0.06 or `content: attr(...)` | It is a background watermark — not a corner label |
+| Any `<div class="dots">` inside a card | Removed from the design system — Instagram renders its own carousel-position dots beneath the post |
+| Any `<div class="wm">` page-number watermark on any card | Removed from the design system — duplicates Instagram's native carousel UI |
 | Any `nextCard()`, `prevCard()`, `showSlide()` function | JavaScript carousel pattern. Wrong. |
 
 ## Self-check before calling Write
