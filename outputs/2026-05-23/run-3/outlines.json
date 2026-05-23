@@ -1,0 +1,136 @@
+[
+  {
+    "topic": "호주 육아휴직 26주 완전 정복: 2026년 7월 바뀐 PPL 제도, 한국 엄마가 꼭 알아야 할 것",
+    "slug": "ppl-26-weeks-guide",
+    "carousel_index": 1,
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "narrative_role": "주제 소개 — 2026년 PPL 26주 확대라는 즉각적 관심 유발 주제를 강렬하게 제시",
+        "focus": "26주로 늘어난 호주 육아휴직, 나는 해당되나? 핵심 정보를 지금 알아야 한다는 설정"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "narrative_role": "공감 — 많은 한국 엄마들이 PPL을 제대로 모르고 놓치는 현실을 짚기",
+        "focus": "PPL이 26주가 됐는데도 왜 받지 못하는 엄마들이 있는가? 자격 조건을 모르거나 잘못 알고 있어서"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "narrative_role": "정보 — PPL이 정확히 무엇인지, 무엇이 바뀌었는지 명확하게 정의",
+        "focus": "PPL(Parental Leave Pay)의 정의: 정부가 최저임금 기준으로 지급하는 육아휴직 급여. 2026.7.1부터 26주"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "narrative_role": "정보 — 핵심 숫자들로 PPL의 규모와 가치를 구체화",
+        "focus": "26주, $948/주, $24,648 총액, 슈퍼 12% 추가, 20일 파트너 예약일 — 숫자가 설득력"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "narrative_role": "정보 — PPL 신청 타이밍과 준비 루틴을 실용적으로 제시",
+        "focus": "출산 3개월 전 신청, 비자/소득/근무 기간 미리 확인, 파트너 분과 PPL 계획 함께 세우기"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "narrative_role": "정보 — PPL 수급 가능 여부를 비자 유형별로 분류해 명확하게 안내",
+        "focus": "시민권자, 영주권자(PR), 임시 비자 소지자 세 범주로 나눠 자격 조건 차이 설명"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "narrative_role": "정보 — 신청 전 확인해야 할 체크리스트로 독자가 즉시 행동하게 함",
+        "focus": "소득 기준, 비자 유형, 2년 대기 기간, 근무 330시간, myGov 계정, 파트너 PPL 계획"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "narrative_role": "정보 — PPL 관련 흔한 오해와 올바른 접근을 대비",
+        "focus": "하면 안 되는 것(늦게 신청, 파트너 몫 포기, 소득 신고 실수) vs 해야 하는 것(미리 계획, myGov 연동, 슈퍼 확인)"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "narrative_role": "확신 — PPL 신청을 실제로 완료하기 위한 단계별 행동 지침",
+        "focus": "Step 1: myGov 계정 확인/생성, Step 2: 자격 조건 셀프 체크, Step 3: 출산 3개월 전 Centrelink 신청"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "narrative_role": "확신 — 저장하고 주변 엄마들과 공유하도록 유도",
+        "focus": "PPL 정보를 놓치지 않도록 저장 유도, 비슷한 상황의 친구에게 공유 독려"
+      }
+    ]
+  },
+  {
+    "topic": "엄마 번아웃 회복법: 호주에서 고립된 채 육아할 때 나를 지키는 방법",
+    "slug": "mum-burnout-recovery",
+    "carousel_index": 2,
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "narrative_role": "주제 소개 — 번아웃이라는 무거운 단어를 부드럽게 꺼내며 '나 얘기네' 반응 유도",
+        "focus": "호주에서 혼자 육아하며 지쳐있는 엄마들에게 '번아웃은 이상한 게 아니야'라는 메시지"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "narrative_role": "공감 — 번아웃의 현실적인 증상을 질문 형태로 거울처럼 보여주기",
+        "focus": "아이 앞에서만 에너지가 바닥나는 느낌, '도망가고 싶다'는 생각이 드는 경험 — 이것이 번아웃의 신호"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "narrative_role": "정보 — 번아웃을 명확하게 정의하고 단순 피로와의 차이를 짚기",
+        "focus": "번아웃은 만성 스트레스로 인한 감정적·신체적·정신적 소진. 단순 피로와 달리 쉬어도 나아지지 않는 것이 특징"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "narrative_role": "정보 — 이민 엄마들의 번아웃 취약성을 데이터로 뒷받침",
+        "focus": "이민 엄마 번아웃 위험 요인 데이터, PANDA 번호, Mental Health Plan 10회, 20분 미니 루틴 효과"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "narrative_role": "정보 — 오늘부터 바로 시작할 수 있는 미니 자기 돌봄 루틴 제시",
+        "focus": "하루 20분 혼자만의 시간, 15분 산책, 커피 한 잔 혼자 마시기 — 작고 반복 가능한 루틴"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "narrative_role": "정보 — 호주에서 활용 가능한 지원 유형을 카테고리별로 안내",
+        "focus": "무료 전화 지원(PANDA), GP를 통한 Medicare 심리 상담, 커뮤니티 연결(Playgroup, 한인 카페)"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "narrative_role": "정보 — 번아웃 자가 점검 체크리스트로 독자가 자신의 상태를 인식하게 함",
+        "focus": "번아웃 여부를 스스로 확인하는 4가지 신호 체크리스트, 2주 기준 전문 도움 타이밍"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "narrative_role": "정보 — 번아웃 상태에서 흔히 하는 실수와 올바른 대응 대비",
+        "focus": "하면 안 되는 것(혼자 다 참기, SNS 과도한 비교, 쉬는 것에 죄책감 갖기) vs 해야 하는 것(GP 방문, 작은 루틴, 도움 요청)"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "narrative_role": "확신 — 번아웃에서 회복하기 위한 실질적인 3단계",
+        "focus": "Step 1: 번아웃 인정하기(진단), Step 2: 오늘 당장 하나 바꾸기(미니 루틴), Step 3: 전문 도움 연결하기(GP/PANDA)"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "narrative_role": "확신 — 나를 돌보는 것이 아이에게도 최선임을 상기시키며 저장 유도",
+        "focus": "엄마가 건강해야 아이도 건강하다. 이 카드를 저장해두고 지친 날 꺼내보기"
+      }
+    ]
+  }
+]
