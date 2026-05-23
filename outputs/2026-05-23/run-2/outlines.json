@@ -1,0 +1,138 @@
+{
+  "carousels": [
+    {
+      "topic": "2026 CCS 3일 보장 제도 완전 정복: 호주 어린이집 보조금, 이렇게 바뀌었어요",
+      "slug": "ccs-3day-guarantee",
+      "target_audience": "호주에 사는 25-40세 한국인 엄마. 어린이집 비용을 부담하며 CCS를 사용 중이거나 처음 신청을 고려하는 엄마",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_role": "주목을 끄는 커버 — 2026년 CCS가 바뀌었다는 사실을 한 눈에 전달",
+          "key_message": "2026년부터 일하지 않아도 주 3일 어린이집 보조금을 받을 수 있다"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_role": "공감형 훅 — 보조금 받는지 모르고 있었던 엄마들의 실제 상황",
+          "key_message": "일 안 해도 CCS 받을 수 있는데, 아직 신청도 못 했나요?"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_role": "CCS와 3일 보장 제도의 정의를 명확히 설명",
+          "key_message": "CCS(Child Care Subsidy)란 무엇이고, 3일 보장이 무슨 뜻인가"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_role": "구체적 수치로 신뢰를 높임 — 소득별 보조율과 시간 데이터",
+          "key_message": "소득 $85,279 이하 → 90% 보조, 주 3일 자동 보장, 최대 100시간 가능"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_role": "단계적 실행 루틴 — 처음 CCS를 신청하거나 업데이트하는 절차",
+          "key_message": "myGov에서 신청 → 소득 입력 → 보육시설 연결 순서"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_role": "CCS 수혜 유형 3가지로 분류 — 어떤 경우에 얼마나 받는지",
+          "key_message": "전업맘(72시간), 파트타임 워킹맘(72-100시간), 풀타임 워킹맘(100시간)"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_role": "신청 전 준비물 체크리스트",
+          "key_message": "신청에 필요한 4가지: myGov 계정, 소득 정보, 아이 정보, 보육시설 정보"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_role": "흔한 실수와 올바른 방법 대조",
+          "key_message": "소득을 낮게 신고하지 말 것, 소득 변화 시 즉시 업데이트할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_role": "지금 당장 할 수 있는 3단계 행동 가이드",
+          "key_message": "오늘 myGov 접속 → CCS 현황 확인 → 업데이트 또는 신규 신청"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_role": "저장을 유도하는 마무리 카드",
+          "key_message": "이 정보를 저장해두고 주변 한국 엄마들과 공유하세요"
+        }
+      ]
+    },
+    {
+      "topic": "한국어 살리기: 호주에서 바이링구얼 아이 한국어 실력 지키는 실전 전략",
+      "slug": "korean-heritage-language",
+      "target_audience": "호주에 사는 25-40세 한국인 엄마. 아이가 영어 환경에서 자라면서 한국어를 잊어가는 것을 걱정하는 엄마",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_role": "주목을 끄는 커버 — 호주 바이링구얼 아이 한국어 유지의 중요성",
+          "key_message": "영어는 학교에서 배우고, 한국어는 엄마가 지켜줘야 합니다"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_role": "공감형 훅 — 아이가 한국어로 대답하지 않을 때의 엄마 심정",
+          "key_message": "한국어로 말하면 영어로 대답하는 아이, 그냥 두어도 될까요?"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_role": "헤리티지 언어와 이중언어 개념 정의",
+          "key_message": "헤리티지 언어란 무엇이고, 왜 어릴 때 지키는 것이 중요한가"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_role": "연구 데이터로 중요성 입증",
+          "key_message": "집에서 한국어 자료가 풍부한 아이는 한국어·영어 어휘력이 모두 높다"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_role": "하루 20분 한국어 유지 루틴 3가지",
+          "key_message": "아침 동화책, 저녁 한국 노래, 할머니 영상통화 — 작은 루틴이 쌓입니다"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_role": "가족 언어 정책 3가지 유형 비교",
+          "key_message": "OPOL, ML@H, 혼합 방식 — 우리 집에 맞는 방법 고르기"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_role": "한국어 환경 만들기 체크리스트",
+          "key_message": "오늘부터 집에서 할 수 있는 4가지 한국어 환경 만들기"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_role": "흔한 오해와 올바른 대응 방법",
+          "key_message": "코드스위칭을 막으려 하지 말 것, 부모는 계속 한국어로 말할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_role": "토요일 한국어 학교 등록 3단계",
+          "key_message": "지역 한국어 학교 찾기 → 상담 → 등록"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_role": "저장을 유도하는 마무리 카드",
+          "key_message": "한국어를 지키는 것은 아이에게 주는 가장 큰 선물입니다"
+        }
+      ]
+    }
+  ]
+}
