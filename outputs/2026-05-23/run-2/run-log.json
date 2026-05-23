@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-23T13:00:00.000Z",
+  "finished_at": "2026-05-23T13:02:00.000Z",
+  "out_dir": "outputs/2026-05-23/run-2",
+  "topics": [
+    {
+      "topic": "2026 CCS 3일 보장 제도 완전 정복: 호주 어린이집 보조금, 이렇게 바뀌었어요",
+      "slug": "ccs-3day-guarantee",
+      "html_file": "outputs/2026-05-23/run-2/ccs-3day-guarantee.html",
+      "cards": 10,
+      "outcome": "success",
+      "qa_passed": true,
+      "pre_qa_checks": {
+        "no_javascript": true,
+        "no_system_fonts": true,
+        "google_fonts_present": true,
+        "design_tokens_present": true,
+        "no_invented_classes": true
+      }
+    },
+    {
+      "topic": "한국어 살리기: 호주에서 바이링구얼 아이 한국어 실력 지키는 실전 전략",
+      "slug": "korean-heritage-language",
+      "html_file": "outputs/2026-05-23/run-2/korean-heritage-language.html",
+      "cards": 10,
+      "outcome": "success",
+      "qa_passed": true,
+      "pre_qa_checks": {
+        "no_javascript": true,
+        "no_system_fonts": true,
+        "google_fonts_present": true,
+        "design_tokens_present": true,
+        "no_invented_classes": true
+      }
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-01.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-02.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-03.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-04.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-05.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-06.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-07.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-08.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-09.png",
+    "outputs/2026-05-23/run-2/images/ccs-3day-guarantee-10.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-01.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-02.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-03.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-04.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-05.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-06.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-07.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-08.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-09.png",
+    "outputs/2026-05-23/run-2/images/korean-heritage-language-10.png"
+  ],
+  "qa_failures": []
+}
