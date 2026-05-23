@@ -91,9 +91,9 @@ body {
   letter-spacing: -2px;
   word-break: keep-all;
 }
-.td.xl { font-size: 112px; }
-.td.lg { font-size: 96px; }
-.td.md { font-size: 84px; }
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
 .tb {
   font-size: 30px;
   font-weight: 400;
@@ -112,7 +112,7 @@ body {
   letter-spacing: 6px;
   text-transform: uppercase;
   color: var(--ink3);
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 .ta { color: var(--accent); }
 .tm { color: var(--ink3); }
