@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-23T18:34:24.362Z",
+  "finished_at": "2026-05-23T18:46:15.848Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26340377909",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 육아휴직 26주 완전 정복: 2026년 7월 바뀐 PPL 제도, 한국 엄마가 꼭 알아야 할 것",
+      "slug": "ppl-26-weeks-guide",
+      "html_file": "outputs/2026-05-23/run-3/ppl-26-weeks-guide.html",
+      "copy_file": "outputs/2026-05-23/run-3/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "엄마 번아웃 회복법: 호주에서 고립된 채 육아할 때 나를 지키는 방법",
+      "slug": "mum-burnout-recovery",
+      "html_file": "outputs/2026-05-23/run-3/mum-burnout-recovery.html",
+      "copy_file": "outputs/2026-05-23/run-3/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-01.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-02.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-03.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-04.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-05.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-06.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-07.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-08.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-09.png",
+    "outputs/2026-05-23/run-3/images/ppl-26-weeks-guide-10.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-01.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-02.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-03.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-04.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-05.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-06.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-07.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-08.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-09.png",
+    "outputs/2026-05-23/run-3/images/mum-burnout-recovery-10.png"
+  ]
+}
