@@ -1,8 +1,8 @@
 {
   "date": "2026-05-23",
-  "last_run_at": "2026-05-23T04:41:26Z",
+  "last_run_at": "2026-05-23T13:35:27.593Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "030cd95c683daed57c98f4d851f632f34e866a87",
+  "ref": "d4b15f45e27e6c8db38606c0c40c68e5fccf3418",
   "results": [
     {
       "topic": "호주 유치원(Kindy) 준비: 한국 엄마가 알아야 할 분리불안 대응",
@@ -17,6 +17,44 @@
       "ig_media_id": "18366854257230822",
       "posted_at": "2026-05-23T04:41:26Z",
       "note": "Reconstructed from run 26323642586 log; workflow push failed due to permissions."
+    },
+    {
+      "topic": "2026 CCS 3일 보장 제도 완전 정복: 호주 어린이집 보조금, 이렇게 바뀌었어요",
+      "slug": "ccs-3day-guarantee",
+      "carousel_container_id": "18092945630089110",
+      "ig_media_id": "17874571632486460",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/ccs-3day-guarantee-10.png"
+      ],
+      "posted_at": "2026-05-23T13:33:24.788Z"
+    },
+    {
+      "topic": "한국어 살리기: 호주에서 바이링구얼 아이 한국어 실력 지키는 실전 전략",
+      "slug": "korean-heritage-language",
+      "carousel_container_id": "18092946041089110",
+      "ig_media_id": "18113280580865635",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/d4b15f45e27e6c8db38606c0c40c68e5fccf3418/outputs/2026-05-23/run-2/images/korean-heritage-language-10.png"
+      ],
+      "posted_at": "2026-05-23T13:35:27.593Z"
     }
   ]
 }
