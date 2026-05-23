@@ -1,5 +1,9 @@
 name: Post to Instagram
 on:
+  workflow_run:
+    workflows: ["Daily Carousel"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       date:
@@ -14,6 +18,7 @@ jobs:
   post:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
