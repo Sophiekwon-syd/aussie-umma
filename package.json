@@ -7,7 +7,7 @@
     "screenshots": "node scripts/screenshot.js",
     "daily-run": "node scripts/screenshot.js templates/sample.html"
   },
-  "dependencies": {
-    "puppeteer": "^24.42.0"
+  "devDependencies": {
+    "puppeteer": "^25.0.4"
   }
 }
