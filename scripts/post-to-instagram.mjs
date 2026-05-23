@@ -5,7 +5,7 @@ import path from 'node:path';
 const API = 'https://graph.facebook.com/v21.0';
 const IG_TOKEN = process.env.IG_ACCESS_TOKEN;
 const IG_USER_ID = process.env.IG_USER_ID;
-const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/carousel-automation-template';
+const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/aussie-umma';
 const REF = process.env.GITHUB_SHA || 'main';
 const DELAY_BETWEEN_POSTS_MS = 60_000;
 const POLL_INTERVAL_MS = 5_000;

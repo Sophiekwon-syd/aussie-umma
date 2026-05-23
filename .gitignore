@@ -1,9 +1,5 @@
 node_modules/
-outputs/
 .DS_Store
-config.json
-tone-guide.md
-topic-memory.json
 .cache/
 
 # Pipeline run artifacts (root-level, from early runs)

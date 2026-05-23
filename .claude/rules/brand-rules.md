@@ -34,4 +34,5 @@ These rules apply to every agent in the pipeline. No exceptions.
 
 - One commit per file
 - No Co-Authored-By trailers
-- Do not commit `node_modules/`, `outputs/`, `config.json`, `tone-guide.md`, `topic-memory.json`
+- Do not commit `node_modules/` or `.cache/`
+- `outputs/`, `config.json`, `tone-guide.md`, and `topic-memory.json` ARE tracked in this personal repo (required by the Post to Instagram workflow, which fetches PNGs via raw.githubusercontent.com)
