@@ -19,6 +19,9 @@ jobs:
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
 
+      - name: Install Korean fonts for screenshot fallback
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-noto-cjk fonts-noto-cjk-extra && fc-cache -f
+
       - name: Install browser for screenshots
         run: npx puppeteer browsers install chrome
 
