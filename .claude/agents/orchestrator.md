@@ -20,15 +20,21 @@ Read `.claude/skills/html-card/tokens.css` in full and store the **entire raw te
 
 Read `.claude/skills/html-card/template.html` in full and store the **entire raw text** as `CARD_TEMPLATE`. You will inject this verbatim into every carousel-developer prompt.
 
-**Determine the output directory — never overwrite a previous run:**
+**Determine the output directory — every run lives in its own `run-N/` subdirectory, never at the top level:**
 
 1. Start with `BASE = outputs/YYYY-MM-DD/`
-2. If `BASE/run-log.json` does not exist → use `OUT_DIR = BASE`
-3. If it exists, find the next available slot: check `BASE/run-2/run-log.json`, `BASE/run-3/run-log.json`, … until you find a path that does not exist. Use that directory as `OUT_DIR`.
+2. Find the lowest integer `N ≥ 1` such that `BASE/run-N/run-log.json` does not exist.
+3. Use `OUT_DIR = BASE/run-N/`.
 
 Create `OUT_DIR` if it does not exist. Use `OUT_DIR` as the root for every file written in this run (research JSONs, outlines, copy JSONs, HTML files, run-log).
 
-Write `OUT_DIR/run-log.json` immediately with `"status": "running"` and the start timestamp.
+Note: `BASE/instagram-log.json` lives at the top level of the date directory (not inside any `run-N/`). It is the per-date posting ledger and is shared across all runs of the day. Do not write or move it.
+
+Write `OUT_DIR/run-log.json` immediately with these fields:
+- `"status": "running"`
+- `"started_at"`: ISO-8601 start timestamp
+- `"trigger_source"`: `"github-actions"` if the `GITHUB_RUN_ID` environment variable is set, otherwise `"local"`
+- `"github_run_id"`: the value of `GITHUB_RUN_ID` if set, otherwise `null`
 
 ## Step 1 — Trend Research
 
@@ -191,8 +197,27 @@ Update `topic-memory.json`:
 Update `OUT_DIR/run-log.json` with:
 - `"status": "complete"` (or `"partial"` if any carousel failed)
 - `finished_at` timestamp
-- `topics` array with each topic and its outcome
-- `produced_assets` list of all PNG paths
+- `topics` array with each topic and its outcome — **every topic object MUST use these exact field names**:
+
+  ```
+  {
+    "carousel_index": 1,                                       // 1-based index within this run
+    "topic": "<full topic title>",
+    "slug": "<file-safe slug>",                                // matches html basename
+    "html_file": "outputs/<date>/run-N/<slug>.html",           // repo-rooted path
+    "copy_file": "outputs/<date>/run-N/copy_<index>.json",     // repo-rooted path
+    "cards": 10,
+    "status": "complete",                                      // or "failed"
+    "qa_status": "passed",                                     // or "failed"
+    "png_count": 10
+  }
+  ```
+
+  Do NOT use `outcome`/`qa_passed` — downstream consumers (Instagram poster, analytics) read `status`/`qa_status`.
+
+- `produced_assets` list of all PNG paths (repo-rooted, inside `OUT_DIR/images/`)
+
+Preserve the fields already written at start: `started_at`, `trigger_source`, `github_run_id`. Do not drop them when finalising the log.
 
 Print a clean summary to the user: topics covered, carousels produced, PNG count, any failures.
 
