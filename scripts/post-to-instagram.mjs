@@ -20,8 +20,34 @@ const args = parseArgs(process.argv.slice(2));
 const date = args.date || new Date().toISOString().slice(0, 10);
 const baseDir = path.join('outputs', date);
 
-const runLog = JSON.parse(await fs.readFile(path.join(baseDir, 'run-log.json'), 'utf8'));
 const config = JSON.parse(await fs.readFile('config.json', 'utf8'));
+
+const runDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
+  .filter((e) => e.isDirectory() && /^run-\d+$/.test(e.name))
+  .map((e) => path.join(baseDir, e.name))
+  .sort((a, b) => {
+    const na = Number(path.basename(a).slice(4));
+    const nb = Number(path.basename(b).slice(4));
+    return na - nb;
+  });
+
+if (runDirs.length === 0) {
+  console.error(`No run-N/ subdirectories found in ${baseDir} — nothing to post.`);
+  process.exit(1);
+}
+
+const allTopics = [];
+for (const runDir of runDirs) {
+  try {
+    const log = JSON.parse(await fs.readFile(path.join(runDir, 'run-log.json'), 'utf8'));
+    for (const t of log.topics || []) {
+      allTopics.push({ ...t, _runDir: runDir });
+    }
+  } catch (err) {
+    console.warn(`[skip run] ${runDir} — cannot read run-log.json: ${err.message}`);
+  }
+}
+console.log(`Discovered ${runDirs.length} run(s), ${allTopics.length} topic(s) total.`);
 
 const logPath = path.join(baseDir, 'instagram-log.json');
 const existingResults = await readExistingResults(logPath);
@@ -34,7 +60,7 @@ const results = [...existingResults];
 let topicIndex = 0;
 let postedThisRun = 0;
 
-for (const topic of runLog.topics) {
+for (const topic of allTopics) {
   topicIndex += 1;
 
   const passedQa = topic.qa_status === 'passed';
@@ -55,29 +81,32 @@ for (const topic of runLog.topics) {
     console.log(`[skip] ${slug} — already posted (in instagram-log.json)`);
     continue;
   }
-  const imgDir = path.join(baseDir, 'images');
+
+  const runDir = topic._runDir;
+  const imgDir = path.join(runDir, 'images');
   const files = (await fs.readdir(imgDir))
     .filter((f) => f.startsWith(`${slug}-`) && f.endsWith('.png'))
     .sort();
 
   if (files.length !== 10) {
-    console.error(`[skip] ${slug} — expected 10 images, found ${files.length}`);
+    console.error(`[skip] ${slug} — expected 10 images in ${imgDir}, found ${files.length}`);
     continue;
   }
 
+  const runDirUrl = runDir.split(path.sep).join('/');
   const urls = files.map(
-    (f) => `https://raw.githubusercontent.com/${REPO}/${REF}/${baseDir}/images/${f}`,
+    (f) => `https://raw.githubusercontent.com/${REPO}/${REF}/${runDirUrl}/images/${f}`,
   );
 
   const copyFile = topic.copy_file
     ? path.basename(topic.copy_file)
     : `copy_${topic.carousel_index}.json`;
-  const copyPath = path.join(baseDir, copyFile);
+  const copyPath = path.join(runDir, copyFile);
   const copy = JSON.parse(await fs.readFile(copyPath, 'utf8'));
   const caption = buildCaption(copy, topic, config);
 
-  console.log(`\n[${topicIndex}/${runLog.topics.length}] ${topic.topic}`);
-  console.log(`  slug=${slug}  images=${urls.length}`);
+  console.log(`\n[${topicIndex}/${allTopics.length}] ${topic.topic}`);
+  console.log(`  run=${path.basename(runDir)}  slug=${slug}  images=${urls.length}`);
 
   if (postedThisRun > 0) {
     console.log(`  pausing ${DELAY_BETWEEN_POSTS_MS / 1000}s before next post...`);
@@ -116,7 +145,7 @@ for (const topic of runLog.topics) {
 
 if (postedThisRun === 0) {
   if (results.length === 0) {
-    console.log(`\nNo new posts to publish — 0 eligible topics in ${path.join(baseDir, 'run-log.json')}.`);
+    console.log(`\nNo new posts to publish — 0 eligible topics across ${runDirs.length} run(s) in ${baseDir}.`);
   } else {
     console.log(`\nNo new posts to publish — all eligible topics already in ${logPath}.`);
   }
