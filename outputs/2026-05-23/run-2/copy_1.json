@@ -1,0 +1,136 @@
+{
+  "topic": "2026 CCS 3일 보장 제도 완전 정복: 호주 어린이집 보조금, 이렇게 바뀌었어요",
+  "slug": "ccs-3day-guarantee",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "CCS 2026",
+      "headline": "어린이집 보조금 <em>완전히</em> 바뀌었어요",
+      "subtitle": "일 안 해도 주 3일 — 2026 CCS 3일 보장 제도 완전 정복"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "어린이집 보내고 싶은데 <strong>일 안 하면 보조금 못 받는다고</strong> 들었죠?",
+      "answer": "2026년 1월부터 바뀌었어요. 일 안 해도 주 3일은 보조금 받아요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "기본 개념",
+      "term": "CCS란?",
+      "explanation": "CCS(Child Care Subsidy)는 호주 정부가 어린이집 비용 일부를 대신 내주는 제도예요. 2026년 1월 5일부터 <strong>'3일 보장(3 Day Guarantee)'</strong>이 생겨, 일하지 않아도 2주에 72시간(주 3일)은 자동으로 보조금을 받을 수 있게 됐어요.",
+      "punchline": "전업맘도 이제 CCS 받을 수 있어요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "핵심 숫자",
+      "headline": "이 숫자만 <em>기억하세요</em>",
+      "chips": [
+        "소득 $85,279 이하 → 최대 90% 보조",
+        "주 3일(2주 72시간) 자동 보장",
+        "주 5일까지 최대 100시간 가능",
+        "소득 $535,279 이상 → 수혜 불가"
+      ],
+      "explanation": "내 CCS 비율은 가족 합산 소득(ATI) 기준이에요. 급여 외 렌트·투자 소득도 포함되니 실제 소득보다 높게 계산될 수 있어요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "신청 순서",
+      "headline": "처음 신청하는 엄마 — 이 순서로 하세요",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "<strong>myGov 계정 만들기</strong> — my.gov.au 에서 Centrelink 연결"
+        },
+        {
+          "label": "STEP 2",
+          "text": "<strong>CCS 신청</strong> — Centrelink에서 'Child Care Subsidy' 신청 후 소득 입력"
+        },
+        {
+          "label": "STEP 3",
+          "text": "<strong>보육시설 연결</strong> — 시설 측에서 CCS 적용을 처리해줘요. 고지서에 자동 반영"
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "수혜 유형",
+      "headline": "우리 집은 어느 경우일까요?",
+      "items": [
+        {
+          "title": "전업맘 또는 파트타임",
+          "description": "2주 72시간(주 3일) 자동 보장 — 활동 테스트 없이도 받을 수 있어요"
+        },
+        {
+          "title": "파트타임 워킹맘",
+          "description": "2주에 48시간 미만 활동 — 72시간 초과 보조를 받으려면 활동 기록이 필요해요"
+        },
+        {
+          "title": "풀타임 워킹맘",
+          "description": "2주에 48시간 이상 활동 → 최대 100시간(주 5일)까지 보조금 받을 수 있어요"
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "준비물 확인",
+      "headline": "CCS 신청 전 이 4가지 준비하세요",
+      "intro": "준비물이 있으면 신청이 훨씬 빠르게 끝나요.",
+      "items": [
+        "myGov 계정과 Centrelink 연결 확인",
+        "가족 합산 연간 소득 추정치 (파트너 소득 포함)",
+        "자녀 정보 — 생년월일, Medicare 번호",
+        "이용할 보육시설 이름과 Provider ID"
+      ],
+      "takeaway": "기존 CCS 수혜자는 아무것도 안 해도 자동 적용돼요"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이건 하지 마세요 vs 이렇게 하세요",
+      "do": [
+        "소득이 바뀌면 즉시 myGov에서 업데이트하기",
+        "렌트·투자 소득까지 포함해 정확한 ATI 입력하기",
+        "2주에 72시간 초과가 필요하면 활동 기록 유지하기"
+      ],
+      "dont": [
+        "소득을 실제보다 낮게 신고하지 말 것 — 나중에 환수 대상이 돼요",
+        "활동 테스트가 완전히 없어졌다고 착각하지 말 것 — 72시간 초과는 여전히 필요",
+        "보육시설 변경 시 CCS 업데이트 잊지 말 것"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "지금 바로",
+      "headline": "오늘 할 수 있는 3가지",
+      "steps": [
+        {
+          "title": "myGov 접속해서 CCS 현황 확인",
+          "description": "이미 CCS를 받고 있다면 my.gov.au에서 현재 비율과 승인된 시간을 확인하세요"
+        },
+        {
+          "title": "StartingBlocks에서 계산기 돌려보기",
+          "description": "startingblocks.gov.au → CCS Calculator에서 우리 집 예상 보조율을 무료로 확인할 수 있어요"
+        },
+        {
+          "title": "아직 신청 안 했다면 오늘 신청 시작",
+          "description": "myGov → Centrelink → 'Apply for Child Care Subsidy' — 10분이면 완료"
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "놓치면 <em>아까운</em> 돈",
+      "message": "해마다 수천 달러를 돌려받을 수 있어요. <strong>신청을 미루면 그만큼 손해예요.</strong>",
+      "comment_prompt": "저장하기 →"
+    }
+  ]
+}
