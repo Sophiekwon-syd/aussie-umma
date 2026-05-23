@@ -37,12 +37,19 @@ let postedThisRun = 0;
 for (const topic of runLog.topics) {
   topicIndex += 1;
 
-  if (topic.status !== 'success') {
-    console.log(`[skip] ${topic.topic} — status=${topic.status}`);
+  const passedQa = topic.qa_status === 'passed';
+  const statusOk = topic.status === 'success' || topic.status === 'complete';
+  if (!passedQa && !statusOk) {
+    console.log(`[skip] ${topic.topic} — qa_status=${topic.qa_status} status=${topic.status}`);
     continue;
   }
 
-  const slug = path.basename(topic.carousel_file, '.html');
+  const htmlFile = topic.html_file || topic.carousel_file;
+  if (!htmlFile) {
+    console.log(`[skip] ${topic.topic} — no html_file/carousel_file in run-log`);
+    continue;
+  }
+  const slug = path.basename(htmlFile, '.html');
 
   if (alreadyPostedSlugs.has(slug)) {
     console.log(`[skip] ${slug} — already posted (in instagram-log.json)`);
@@ -62,7 +69,10 @@ for (const topic of runLog.topics) {
     (f) => `https://raw.githubusercontent.com/${REPO}/${REF}/${baseDir}/images/${f}`,
   );
 
-  const copyPath = path.join(baseDir, path.basename(topic.copy_file));
+  const copyFile = topic.copy_file
+    ? path.basename(topic.copy_file)
+    : `copy_${topic.carousel_index}.json`;
+  const copyPath = path.join(baseDir, copyFile);
   const copy = JSON.parse(await fs.readFile(copyPath, 'utf8'));
   const caption = buildCaption(copy, topic, config);
 
@@ -105,7 +115,11 @@ for (const topic of runLog.topics) {
 }
 
 if (postedThisRun === 0) {
-  console.log(`\nNo new posts to publish — all eligible topics already in ${logPath}.`);
+  if (results.length === 0) {
+    console.log(`\nNo new posts to publish — 0 eligible topics in ${path.join(baseDir, 'run-log.json')}.`);
+  } else {
+    console.log(`\nNo new posts to publish — all eligible topics already in ${logPath}.`);
+  }
 } else {
   await fs.writeFile(
     logPath,
