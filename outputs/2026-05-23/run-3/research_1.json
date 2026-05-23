@@ -1,0 +1,70 @@
+{
+  "topic": "호주 육아휴직 26주 완전 정복: 2026년 7월 바뀐 PPL 제도, 한국 엄마가 꼭 알아야 할 것",
+  "slug": "ppl-26-weeks-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    {
+      "fact": "2026년 7월 1일부터 호주 정부 육아휴직(PPL)이 26주(130일)로 확대된다. 이는 2024년 20주에서 시작해 2025년 24주, 2026년 26주로 단계적으로 늘어난 최종 단계다.",
+      "source": "Services Australia / Department of Social Services"
+    },
+    {
+      "fact": "지급액은 국가 최저임금 기준으로 세전 주당 $948.10 (일당 $189.62). 26주 전체를 받으면 세전 약 $24,648에 달한다.",
+      "source": "Services Australia 2026"
+    },
+    {
+      "fact": "2026년 7월 1일부터 PPL에 슈퍼애뉴에이션(12%)도 지급된다. 해당 회계연도가 끝난 후 수급자의 슈퍼 펀드로 직접 입금된다.",
+      "source": "Services Australia, Moore Australia"
+    },
+    {
+      "fact": "파트너 예약 일수: 26주 중 20일(4주)은 배우자 전용으로 예약되며, 미사용 시 소멸된다('use it or lose it'). 이를 통해 공동 육아 참여를 유도한다.",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "유연한 사용 방식: 연속 사용, 분할 사용(작은 단위), 단일 일수 사용 모두 가능. 단 아이의 두 번째 생일 이전까지 모두 소진해야 한다.",
+      "source": "xemplo.com / fairworkmate.com.au"
+    },
+    {
+      "fact": "소득 요건: 개인 조정 과세 소득이 $180,007 이하(2024-25 회계연도 기준). 초과 시 가족 합산 $360,014 이하 요건 적용 가능.",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "근무 요건(Work Test): 출산·입양 전 13개월 중 10개월 이상 근무, 해당 기간 내 330시간 이상 근무(주 1일 수준).",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "영주권자 대기 기간: 2019년 1월 1일 이후 영주권 취득자는 104주(2년) 대기 기간을 출산 전에 완료해야 PPL 수급 가능. 임시 비자 파트너(309/820)도 동일 조건.",
+      "source": "Services Australia - Residence rules for PPL"
+    },
+    {
+      "fact": "기술이민 등 일부 임시 비자 소지자는 PPL 수급 불가 — 영주권 또는 특정 비자 유형(시민권, 특별 카테고리 비자 등)만 해당. 2026년 4월 기준 기술이민자 형평성 관련 청원이 진행 중.",
+      "source": "visahq.com / Services Australia"
+    },
+    {
+      "fact": "신청은 Centrelink(myGov)를 통해 출산 3개월 전부터 가능. 출산 28일 후부터 지급 시작.",
+      "source": "Services Australia"
+    }
+  ],
+  "statistics": [
+    { "value": "26주", "description": "2026년 7월부터 확대되는 PPL 총 기간", "source": "Services Australia 2026" },
+    { "value": "$948.10/주", "description": "세전 주간 지급액 (국가 최저임금 기준)", "source": "Services Australia 2026" },
+    { "value": "$24,648", "description": "26주 전체 지급 시 세전 총액", "source": "Moore Australia" },
+    { "value": "20일", "description": "배우자 전용 예약 일수 (미사용 시 소멸)", "source": "Services Australia" },
+    { "value": "104주", "description": "2019년 이후 PR 취득자의 PPL 수급을 위한 의무 대기 기간", "source": "Services Australia" },
+    { "value": "330시간", "description": "13개월 중 근무 요건 시간 (주 약 1일 수준)", "source": "Services Australia" }
+  ],
+  "angles": [
+    "한국 엄마들이 자주 모르는 PPL 수급 요건 — 특히 영주권자 104주 대기 규정",
+    "파트너 20일 예약제 — 남편을 PPL에 '끌어들이는' 제도적 장치",
+    "슈퍼 추가 지급 — 육아휴직이 노후까지 영향을 미친다",
+    "유연 사용법 — 복직 후 분할 사용, 어린이집 운영 비수기에 맞추기",
+    "내가 해당되는지 빠르게 체크하는 방법 (소득 기준, 비자 유형, 근무 기간)"
+  ],
+  "common_questions": [
+    "영주권자인데 바로 받을 수 있나요?",
+    "남편이 PPL을 받으면 내 기간이 줄어드나요?",
+    "파트타임으로 일해도 받을 수 있나요?",
+    "슈퍼는 언제 들어오나요?",
+    "신청은 어떻게, 언제 해야 하나요?"
+  ]
+}
