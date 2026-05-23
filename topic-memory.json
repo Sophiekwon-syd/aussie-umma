@@ -1,0 +1,64 @@
+{
+  "used": [
+    {
+      "topic": "호주 학교 입학 준비: 한국 엄마가 놓치기 쉬운 것들",
+      "date": "2026-05-08",
+      "carousel_file": "outputs/2026-05-08/au-school-readiness.html",
+      "cards": 10
+    },
+    {
+      "topic": "워킹맘의 시간 관리: 호주 육아 커뮤니티 리소스 활용법",
+      "date": "2026-05-08",
+      "carousel_file": "outputs/2026-05-08/working-mum-resources.html",
+      "cards": 10
+    },
+    {
+      "topic": "겨울 감기철 대비: 호주 GP 방문 전 준비물과 진료 팁",
+      "date": "2026-05-08",
+      "carousel_file": "outputs/2026-05-08/run-2/winter-gp-preparation.html",
+      "cards": 10
+    },
+    {
+      "topic": "한국 할머니 없이 육아하기: 엄마 혼자 감당하는 아이 질문 대응법",
+      "date": "2026-05-08",
+      "carousel_file": "outputs/2026-05-08/run-2/solo-parenting-questions.html",
+      "cards": 10
+    },
+    {
+      "topic": "호주 어린이집 기간(gaps) 관리: 학기 중 미니 방학 대비하기",
+      "date": "2026-05-08",
+      "carousel_file": "outputs/2026-05-08/run-3/school-term-gaps.html",
+      "cards": 10
+    },
+    {
+      "topic": "한국 할머니 방문 후 육아 루틴 정리하기: 의존에서 독립으로",
+      "date": "2026-05-08",
+      "carousel_file": "outputs/2026-05-08/run-3/grandparent-visit-transition.html",
+      "cards": 10
+    },
+    {
+      "topic": "겨울 방학 준비: 호주 학교 2주 가을방학 어떻게 보낼까",
+      "date": "2026-05-15",
+      "carousel_file": "outputs/2026-05-15/autumn-school-holidays.html",
+      "cards": 10
+    },
+    {
+      "topic": "호주 아이 영어 발음 vs 한국 액센트: 바이링구얼 육아 중 발음 고민",
+      "date": "2026-05-15",
+      "carousel_file": "outputs/2026-05-15/bilingual-english-accent.html",
+      "cards": 10
+    },
+    {
+      "topic": "호주 유치원(Kindy) 준비: 한국 엄마가 알아야 할 분리불안 대응",
+      "date": "2026-05-23",
+      "carousel_file": "outputs/2026-05-23/kindy-separation-anxiety.html",
+      "cards": 10
+    },
+    {
+      "topic": "엄마의 친구 만들기: 호주에서 고립감 벗기 위한 실질적 커뮤니티 전략",
+      "date": "2026-05-23",
+      "carousel_file": "outputs/2026-05-23/community-isolation-strategy.html",
+      "cards": 10
+    }
+  ]
+}
