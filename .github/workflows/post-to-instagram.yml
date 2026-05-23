@@ -35,9 +35,15 @@ jobs:
 
       - name: Commit instagram-log.json
         run: |
+          shopt -s nullglob
+          files=(outputs/*/instagram-log.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No instagram-log.json files to commit — skipping commit step."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add outputs/*/instagram-log.json
+          git add "${files[@]}"
           git diff --cached --quiet || git commit -m "instagram: posted run ${{ github.run_id }}"
           git push origin main
