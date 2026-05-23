@@ -31,24 +31,20 @@ Read the HTML file and check every gate. A file must pass ALL gates.
 - [ ] **Full CSS variable set** — ALL of these must appear in the `:root` block: `--bg`, `--card-bg`, `--elevated`, `--ink`, `--ink2`, `--ink3`, `--ink4`, `--accent`, `--accent-dim`, `--blue`, `--red`, `--border`, `--font-kr`, `--font-en`, `--font-display`. Missing any one → fail.
 - [ ] **Correct token values** — `--card-bg: #080808`, `--accent: #d4ff00` (or the ACCENT_PRIMARY override), `--elevated: #0e0e0e`. If the file still uses old values like `--card-bg: #0a0a0a` or `--accent: #c6f135`, fail.
 - [ ] **Cards are static** — `.card` CSS must NOT contain `position: absolute` or `opacity: 0`. Cards must be visible and stacked vertically in document flow.
-- [ ] **Core structural classes present** — `.ci`, `.top`, `.handle`, `.dots`, `.center-block` must all appear in BOTH the CSS and the HTML.
+- [ ] **Core structural classes present** — `.ci`, `.handle`, `.center-block` must all appear in BOTH the CSS and the HTML.
 - [ ] **No footer remnants** — the HTML must NOT contain `<div class="cf">`, `<span class="cf-l">`, `<span class="cf-r">`, `<hr class="top-rule">`, or any page-counter text matching `\d+\s*/\s*\d+` (e.g. `03 / 10`). These belong to the old design system and have been removed.
+- [ ] **No in-card carousel dots, no page-number watermark** — `<div class="dots">` and `<div class="wm">` must NOT appear in any card HTML. Instagram renders its own carousel-position dots beneath each post; in-card duplicates were removed from the design system.
 - [ ] **No double arrow on cover** — `<div class="cover-cta">` must contain exactly one arrow, supplied by `<span>→</span>`. The text before that span must NOT include `→` (or any other arrow character). Match-fail pattern: `class="cover-cta">[^<]*→[^<]*<span>→</span>`.
-- [ ] **`.handle` is at card level** — `.handle` must be a direct child of `.card`, NOT nested inside `.ci > .top`. The pattern `<div class="top">...<span class="handle">` is wrong.
+- [ ] **`.handle` is at card level** — `.handle` must be a direct child of `.card`, NOT nested inside `.ci`. 
 - [ ] **`.handle` styling** — its CSS must have `position: absolute; top: 165px; right: 90px` (so it's visible after 1:1 crop). It must include a leading dot via `::before` with `background: var(--accent)` (the live indicator).
-- [ ] **`.top` is absolute** — its CSS must have `position: absolute; top: 68px` (dots row sits in the 1:1 cropped zone).
 - [ ] **Default cards use `.center-block`** — every card that is not `.c1`, `.c2`, or `.c10` must contain a `<div class="center-block">` inside its `.ci`. The TL, TD, and body content must live inside that wrapper.
 - [ ] **No invented classes** — the following class names must NOT appear: `.card-content`, `.card-heading`, `.card-body`, `.card-cta`, `.card-footer`, `.carousel-container`, `.progress-dots`, `.progress`, `.dot`, `.body-content`, `.body-text`, `.body-headline`, `.definition-card`, `.cta-button`, `.slider`. These are signs the agent ignored the design system.
 - [ ] **`.cover-56` is a background watermark** — its CSS must have `font-size` ≥ 400px and `opacity` ≤ 0.06. If it is styled as a small visible label (font-size < 100px), fail.
-- [ ] **`.wm` is a background watermark** — its CSS must have `opacity` ≤ 0.06. If `.wm` uses `content: attr(...)` or is a tiny corner label, fail.
 
 ### Structure
 
 - [ ] Exactly `CARDS_PER_CAROUSEL` elements with class `card`
 - [ ] Every `.card` has exactly one `.handle` element as a direct child
-- [ ] Every `.card` except the Cover (`.c1`) has a `.top` element containing `.dots`
-- [ ] The `.dots` progress indicator on each card has exactly one active dot (`.on`) matching the card's position (card 3 → 3rd `<i>`)
-- [ ] Each `.dots` element has exactly `CARDS_PER_CAROUSEL` `<i>` children
 
 ### Dimensions
 
