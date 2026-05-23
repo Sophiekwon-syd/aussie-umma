@@ -7,13 +7,8 @@
 
   <div class="card [card-class]">
     <span class="handle">@brand.account</span>     <!-- absolute, top-right, visible in 1:1 -->
-    [optional: .glow, .wm, .cover-56 decorative elements]
+    [optional: .glow, .cover-56 decorative elements]
     <div class="ci">
-      <div class="top">
-        <div class="dots">                          <!-- absolute, top-left, cropped in 1:1 -->
-          <i></i><i class="on"></i><i></i>...
-        </div>
-      </div>
       <div class="center-block">                    <!-- wraps content so it centers vertically -->
         [card content: .tl, .td, body, etc.]
       </div>
@@ -23,7 +18,7 @@
   KEY DESIGN RULES (per the new design system)
   - No `.cf` footer. Brand identity is the `.handle` at top-right only.
   - `.handle` lives at top-right (y=165, visible in 1:1 crop), styled with a leading green pulse dot.
-  - `.dots` row stays at y=68 (in the 1:1 cropped zone) — purely decorative for 4:5 swipe view.
+  - Instagram renders its own carousel-position dots below the post, so DO NOT add `.dots` or `.wm` (page number watermark). Both are redundant and visually noisy.
   - Wrap all main content in `.center-block` so the whole block centers at the card center (y=675).
   - Card 01 (Cover) uses `.c1` and centers its content via `.c1 .ci` — no `.center-block` needed.
   - Card 02 (Hook) uses `.c2` and centers via `.c2 .ci`.
@@ -51,9 +46,6 @@
   <span class="handle">[BRAND_ACCOUNT]</span>
   <div class="hook-mark">?</div>
   <div class="ci">
-    <div class="top">
-      <div class="dots"><i></i><i class="on"></i><!-- ...remaining dots --></div>
-    </div>
     <div class="hook-q">[HOOK_QUESTION_WITH_<strong>BOLD_PART</strong>]</div>
     <div class="hook-ans">[ONE_LINE_ANSWER]</div>
   </div>
@@ -67,11 +59,7 @@
 -->
 <div class="card">
   <span class="handle">[BRAND_ACCOUNT]</span>
-  <div class="wm en" style="font-size:200px;top:30px;right:20px">[CARD_NUMBER]</div>
   <div class="ci">
-    <div class="top">
-      <div class="dots"><!-- ...dots with active .on on current card --></div>
-    </div>
     <div class="center-block">
       <div class="tl">[SECTION_LABEL]</div>
       <div class="td md" style="margin-bottom:36px">[HEADLINE_LINE1]<br />[HEADLINE_LINE2]</div>
@@ -87,9 +75,6 @@
   <span class="handle">[BRAND_ACCOUNT]</span>
   <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
   <div class="ci">
-    <div class="top">
-      <div class="dots"><!-- ...dots with last one .on --></div>
-    </div>
     <div class="badge badge-a en" style="margin-bottom:28px">SAVE & SHARE</div>
     <div class="td lg" style="text-align:center;margin-bottom:20px">
       [CLOSING_LINE1]<br /><span class="ta">[ACCENT_PART]</span> [CLOSING_LINE2]
