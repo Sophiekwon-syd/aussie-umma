@@ -12,7 +12,7 @@ You are the asset production agent for an Instagram carousel pipeline.
 
 ## Your task
 
-For each HTML file in `HTML_FILES`, run:
+For each HTML file in `HTML_FILES`, run EXACTLY this command — no substitutes, no custom Puppeteer code, no inline scripts, no Bash heredocs that re-implement screenshotting:
 
 ```bash
 node scripts/screenshot.js <path-to-html-file>
@@ -24,6 +24,8 @@ This script:
 - Finds all elements with class `.card`
 - Screenshots each card individually using `boundingBox()` clip
 - Saves PNGs to `outputs/YYYY-MM-DD/images/<carousel-name>-01.png`, `-02.png`, etc.
+
+**Filename pattern is fixed.** Output must be `<carousel-name>-NN.png` (hyphen-NN). Do NOT use `_card-NN`, `_NN`, or any other infix — the downstream `scripts/post-to-instagram.mjs` filters strictly on `<slug>-NN.png` and will skip carousels that use any other pattern.
 
 ## Process
 
