@@ -20,8 +20,8 @@ These rules apply to every agent in the pipeline. No exceptions.
 
 - Exactly `pipeline.cards_per_carousel` cards per HTML file — no more, no fewer
 - Every card: 1080px × 1350px
-- Every card has a footer with brand name left, page number right
-- The active dot in the progress indicator must match the card's position
+- The brand handle (`.handle`) sits at top-right of every card; there is no footer
+- No in-card carousel-position dots or page-number watermark — Instagram renders its own carousel UI beneath the post
 
 ## Tone rules
 
