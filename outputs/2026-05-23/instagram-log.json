@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-23",
+  "last_run_at": "2026-05-23T04:41:26Z",
+  "repo": "Sophiekwon-syd/aussie-umma",
+  "ref": "030cd95c683daed57c98f4d851f632f34e866a87",
+  "results": [
+    {
+      "topic": "호주 유치원(Kindy) 준비: 한국 엄마가 알아야 할 분리불안 대응",
+      "slug": "kindy-separation-anxiety",
+      "ig_media_id": "18084508199568891",
+      "posted_at": "2026-05-23T04:39:16Z",
+      "note": "Reconstructed from run 26323642586 log; workflow push failed due to permissions."
+    },
+    {
+      "topic": "엄마의 친구 만들기: 호주에서 고립감 벗기 위한 실질적 커뮤니티 전략",
+      "slug": "community-isolation-strategy",
+      "ig_media_id": "18366854257230822",
+      "posted_at": "2026-05-23T04:41:26Z",
+      "note": "Reconstructed from run 26323642586 log; workflow push failed due to permissions."
+    }
+  ]
+}
