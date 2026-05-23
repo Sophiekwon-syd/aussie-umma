@@ -1,0 +1,296 @@
+{
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 유치원(Kindy) 준비: 한국 엄마가 알아야 할 분리불안 대응",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "Introduce the topic with emotional resonance",
+          "topic_badge": "KINDY PREP",
+          "headline": "분리불안, <em>약함</em>이 아니라 <strong>정상</strong>입니다",
+          "subtitle": "호주 유치원 입학을 앞두고 불안해하는 엄마를 위해"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "Hook with relatable question and answer",
+          "question": "우리 아이가 울며 저항할 때,<br/><strong>죄책감</strong>이 드나요?",
+          "answer": "호주 전문가들은 이것을 '분리불안'이 아니라 '정상 발달'이라 합니다"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "Define separation anxiety and set expectations",
+          "section_label": "KEY CONCEPT",
+          "term": "Separation Anxiety",
+          "explanation": "아이가 부모와 떨어질 때 불안을 느끼는 것은 <strong>애착이 건강</strong>하다는 증거입니다. 대부분 2-4주 내에 해결됩니다.",
+          "punchline": "이것은 아이의 문제가 아니라, 성장 과정입니다."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "Present statistics to normalize experience",
+          "section_label": "RESEARCH",
+          "headline": "호주 아이들의 <em>현실</em>",
+          "chips": [
+            "70% 아이들이 첫 2주에 분리불안 경험",
+            "평균 적응 기간: 2-4주",
+            "53% 더 빠른 적응 (일관된 헤어짐 루틴)",
+            "82% 부모가 복귀 후 개선 확인"
+          ],
+          "explanation": "호주 유치원 입학은 혼자만의 도전이 아닙니다."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "Provide daily routine structure",
+          "section_label": "DAILY HABIT",
+          "headline": "일관된 헤어짐 루틴 만들기",
+          "entries": [
+            {
+              "label": "MORNING",
+              "text": "긍정적 톤으로 '유치원 가는 날'을 상기시킵니다. <strong>예측 가능성</strong>이 안정감을 줍니다."
+            },
+            {
+              "label": "GOODBYE",
+              "text": "3단계 헤어짐 루틴을 정합니다: 키스, 한마디 말, <strong>일관된 작별</strong>."
+            },
+            {
+              "label": "PICKUP",
+              "text": "항상 마지막에 데리러 간다는 약속을 지킵니다. <strong>신뢰 쌓기</strong>입니다."
+            }
+          ]
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "Categorize different approaches",
+          "section_label": "STRATEGIES",
+          "headline": "분리불안 대응의 3가지 축",
+          "items": [
+            {
+              "title": "감정 언어화",
+              "description": "'슬프다', '무섭다'는 느낌에 이름을 붙여주기. 감정을 인정하는 것이 시작입니다."
+            },
+            {
+              "title": "유치원 긍정화",
+              "description": "유치원 선생님과 놀이를 강조합니다. '배우러' 가는 게 아니라 '<strong>친구 만나러</strong>' 가는 곳입니다."
+            },
+            {
+              "title": "부모 정서 관리",
+              "description": "아이는 부모의 불안을 감지합니다. 당신이 <strong>괜찮다</strong>고 보여주세요."
+            }
+          ]
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "Actionable checklist",
+          "section_label": "PREPARATION",
+          "headline": "입학 전 체크리스트",
+          "intro": "유치원 입학 2주 전부터 준비하세요.",
+          "items": [
+            "선생님과 1:1 미팅 예약해 아이의 이름, 성향 공유하기",
+            "유치원 사진/동영상 보며 아이와 대화하기",
+            "헤어짐 루틴 정하고 몇 번 연습해보기",
+            "입학 후 첫 1주일을 '적응 기간'으로 마음가짐 다지기"
+          ],
+          "takeaway": "일관성이 아이의 <strong>안정감</strong>을 만듭니다."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "Clear behavioral guidance",
+          "headline": "헤어질 때 해야 할 것 vs 하지 말아야 할 것",
+          "do": [
+            "짧고 명확하게 헤어짐을 알리기",
+            "감정을 인정하되, 부모는 안정적인 모습 유지",
+            "데리러 가는 시간을 정확히 지키기"
+          ],
+          "dont": [
+            "아이가 자는 사이 몰래 가기",
+            "아이의 울음에 흔들려 다시 돌아오기",
+            "\"엄마는 일을 해야 해\"라며 죄책감 표현하기"
+          ]
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "Step-by-step action plan",
+          "section_label": "FIRST WEEK",
+          "headline": "입학 첫 주 대처법",
+          "steps": [
+            {
+              "title": "Day 1-3: 짧은 등원",
+              "description": "처음 며칠은 30분-1시간만 남기고, 아이가 놀이에 집중하는지 지켜보세요."
+            },
+            {
+              "title": "Day 4-5: 조금 더 길게",
+              "description": "아이가 놀이에 몰입하면, 5분씩 더 남겨도 됩니다. 선생님 신호를 기다리세요."
+            },
+            {
+              "title": "Week 2+: 정상 시간",
+              "description": "대부분 2주차부터 웃으며 헤어질 수 있습니다. 그렇지 않아도 <strong>정상</strong>입니다."
+            }
+          ]
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "Call to action and engagement",
+          "headline": "유치원 입학,<br/><em>함께</em> 준비합시다",
+          "message": "분리불안은 약함이 아닙니다. 당신의 <strong>일관된 사랑</strong>이 아이를 지킵니다.",
+          "comment_prompt": "댓글로 공유해 주세요: 당신의 아이는 언제 유치원에 다닐 예정인가요?"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "엄마의 친구 만들기: 호주에서 고립감 벗기 위한 실질적 커뮤니티 전략",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "Open with emotional resonance about isolation",
+          "topic_badge": "COMMUNITY",
+          "headline": "혼자가 아닙니다.<br/><em>함께</em> 하는 방법을 알면 돼요",
+          "subtitle": "호주에서 친구를 만들고 고립감을 벗는 전략"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "Hook with relatable isolation experience",
+          "question": "호주에 오고 나서,<br/><strong>마음을 나눌 친구</strong>가 생겼나요?",
+          "answer": "45%의 호주 한국 엄마가 친한 친구 3명 미만입니다"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "Normalize cultural differences in friendship",
+          "section_label": "CULTURAL INSIGHT",
+          "term": "호주식 친구 만들기",
+          "explanation": "호주 문화에서는 <strong>함께 시간을 보내는 것</strong>이 먼저 오고, 깊은 감정 교류는 나중에 옵니다. 한국식 '빠른 친밀함'을 기대하지 마세요.",
+          "punchline": "이것은 호주 친구들이 당신을 거부하는 게 아닙니다."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "Present community statistics",
+          "section_label": "RESEARCH",
+          "headline": "호주 한국 엄마의 <em>현황</em>",
+          "chips": [
+            "45% 친한 친구 3명 미만",
+            "온라인 커뮤니티 만족도 21% 더 높음",
+            "Playgroup 참여자 산후우울증 32% 낮음",
+            "60% 사회적 고립감 보고"
+          ],
+          "explanation": "당신은 혼자가 아닙니다. 구조적인 문제입니다."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "Establish regular community routines",
+          "section_label": "WEEKLY HABIT",
+          "headline": "커뮤니티에 정기적으로 참여하기",
+          "entries": [
+            {
+              "label": "PLAYGROUP",
+              "text": "Public Library의 무료 Playgroup에 매주 같은 요일에 참석합니다. <strong>일관성</strong>이 친구를 만듭니다."
+            },
+            {
+              "label": "ONLINE",
+              "text": "신뢰할 수 있는 한국 엄마 커뮤니티 앱을 정하고, 하루 10분만 확인합니다. <strong>정보, 공감, 실마리</strong>가 있습니다."
+            },
+            {
+              "label": "KINDERGARTEN",
+              "text": "유치원 픽업 시간에 30분만 더 있으며 다른 부모와 대화합니다. <strong>아이들을 통한 자연스러운 만남</strong>입니다."
+            }
+          ]
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "Categorize different types of communities",
+          "section_label": "COMMUNITIES",
+          "headline": "4가지 커뮤니티 타입",
+          "items": [
+            {
+              "title": "오프라인: Playgroup",
+              "description": "Library, Community Centre의 무료 프로그램. 아이 중심이지만, 엄마들이 자연스럽게 친해집니다."
+            },
+            {
+              "title": "오프라인: Kindergarten",
+              "description": "픽업 시간의 짧은 대화가 쌓여 관계가 됩니다. 가장 '현지화'된 친구 만들기입니다."
+            },
+            {
+              "title": "온라인: 한국 커뮤니티",
+              "description": "호주 한국 엄마 앱(밴드, 카카오톡), 신뢰할 수 있는 정보 공유처. 깊은 감정 나누기에 좋습니다."
+            }
+          ]
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "Concrete action steps to start",
+          "section_label": "THIS WEEK",
+          "headline": "오늘부터 시작하기",
+          "intro": "고립감을 벗는 첫 걸음은 작습니다.",
+          "items": [
+            "가까운 Library의 Playgroup 시간표 찾고, 이번 주에 가보기",
+            "신뢰할 수 있는 호주 한국 엄마 커뮤니티 3개 찾아 가입하기",
+            "유치원/학교 픽업할 때, 다른 엄마와 5분 대화하기 (인사 + 아이 이름 정도)",
+            "온라인 커뮤니티에 한 번 댓글 달기 (질문, 공감, 정보 공유 무관)"
+          ],
+          "takeaway": "관계는 <strong>일관성</strong>에서 만들어집니다."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "Behavioral guidance for community building",
+          "headline": "커뮤니티에서 해야 할 것 vs 하지 말아야 할 것",
+          "do": [
+            "매주 같은 시간에 나타나기 (신뢰 = 일관성)",
+            "아이의 놀이에 먼저 집중하고, 자연스럽게 대화 나누기",
+            "다른 엄마의 이야기를 경청하고, 자신의 고민도 나누기"
+          ],
+          "dont": [
+            "첫 만남에서 깊은 감정을 다 털어놓기 (호주식이 아닙니다)",
+            "온라인에서 과하게 의존하기 (오프라인 관계도 중요합니다)",
+            "한국식 '즉시 친밀함'을 기대하기"
+          ]
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "Step-by-step progression of community building",
+          "section_label": "PROGRESS",
+          "headline": "커뮤니티 참여 단계",
+          "steps": [
+            {
+              "title": "Week 1-2: 같은 곳에 계속 가기",
+              "description": "Playgroup이나 Kindergarten 픽업에 정기적으로 나타납니다. 사람들이 당신을 인식하기 시작합니다."
+            },
+            {
+              "title": "Week 3-4: 인사 나누기",
+              "description": "같은 사람들을 자주 보면, 아이와 부모 이름으로 자연스럽게 인사를 나눕니다."
+            },
+            {
+              "title": "Month 2+: 시간과 번호 교환",
+              "description": "공통의 이야기(아이, 학교, 지역)에서 대화가 깊어지고, 개인적인 연락처 교환으로 발전합니다."
+            }
+          ]
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "Final call to action and engagement",
+          "headline": "호주에서도<br/><em>혼자</em>일 필요 없습니다",
+          "message": "고립감은 당신의 탓이 아닙니다. 이것은 <strong>문화적 차이</strong>입니다.",
+          "comment_prompt": "댓글로 나눠주세요: 당신이 호주에서 처음 친구를 만난 곳은 어디였나요?"
+        }
+      ]
+    }
+  ]
+}

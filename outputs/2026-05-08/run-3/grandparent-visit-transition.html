@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUSSIE UMMA - Grandparent Visit Transition</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #050505;
+  --card-bg: #0a0a0a;
+  --elevated: #141414;
+  --ink: #f0f0f0;
+  --ink2: #aaaaaa;
+  --ink3: #666666;
+  --ink4: #333333;
+  --accent: #c6f135;           /* override with ACCENT_PRIMARY */
+  --accent-dim: rgba(198, 241, 53, 0.1);
+  --blue: #3b82f6;             /* override with ACCENT_SECONDARY */
+  --red: #ef4444;
+  --border: rgba(255, 255, 255, 0.06);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #020202;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 40px 20px 80px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 68px 0;
+  position: relative;
+  z-index: 2;
+}
+.cf {
+  padding: 0 68px;
+  height: 68px;
+  margin-bottom: 160px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.cf-l {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--ink4);
+  text-transform: uppercase;
+}
+.cf-r {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink4);
+  letter-spacing: 1px;
+}
+.dots {
+  display: flex;
+  gap: 6px;
+}
+.dots i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 22px;
+  border-radius: 4px;
+}
+.td {
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: -1px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 78px; }
+.td.md { font-size: 64px; }
+.tb {
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.8;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 22px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  width: fit-content;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  border: none;
+}
+.div-a {
+  width: 36px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.035;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 1;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(100px);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.handle {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink3);
+}
+.top-rule {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 680px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.04;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -20px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 30%, var(--card-bg) 72%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 28px;
+  max-width: 75%;
+}
+.c1 .cover-cta {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.75;
+  word-break: keep-all;
+  max-width: 88%;
+}
+.c2 .hook-q strong {
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 1.08em;
+}
+.c2 .hook-ans {
+  margin-top: 40px;
+  font-size: 20px;
+  color: var(--accent);
+  font-weight: 600;
+}
+.hook-mark {
+  font-family: var(--font-en);
+  font-size: 260px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.035;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  line-height: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Definition */
+.def-hl {
+  background: linear-gradient(180deg, transparent 52%, var(--accent-dim) 52%);
+  padding: 0 4px;
+}
+.def-box {
+  margin-top: 36px;
+  padding: 24px 30px;
+  border-radius: 14px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 22px;
+  color: var(--ink3);
+  line-height: 1.7;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+.chip {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.chip .cd {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 70px;
+  padding-top: 4px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.65;
+}
+.rb-x strong { font-weight: 700; }
+
+/* Approaches */
+.ap {
+  padding: 26px 28px;
+  border-radius: 14px;
+  background: var(--elevated);
+  border-left: 4px solid var(--ink4);
+  margin-bottom: 12px;
+}
+.ap:last-child { margin-bottom: 0; }
+.ap:nth-child(1) { border-left-color: var(--accent); }
+.ap:nth-child(2) { border-left-color: var(--blue); }
+.ap:nth-child(3) { border-left-color: var(--ink3); }
+.ap-t {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.ap-d {
+  font-size: 20px;
+  color: var(--ink2);
+  line-height: 1.6;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 24px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 9px;
+  height: 9px;
+  min-width: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: auto;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Do/Don't */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  flex: 1;
+}
+.cc {
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+.cc.do {
+  background: rgba(198, 241, 53, 0.05);
+  border: 1px solid rgba(198, 241, 53, 0.1);
+}
+.cc.dn {
+  background: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.1);
+}
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.ci-item {
+  font-size: 19px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 8px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.ci-item::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  min-width: 5px;
+  border-radius: 50%;
+  margin-top: 9px;
+}
+.cc.do .ci-item::before { background: var(--accent); }
+.cc.dn .ci-item::before { background: var(--red); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.25;
+  line-height: 1;
+  min-width: 60px;
+}
+.si-c {
+  flex: 1;
+  padding-top: 2px;
+}
+.si-t {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.si-d {
+  font-size: 19px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 48px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 32px;
+}
+.cta-hint {
+  margin-top: 24px;
+  font-size: 20px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+<!-- Card 01 -->
+<div class="card c1">
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">0</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">MENTAL HEALTH</div>
+    <div style="margin-bottom:16px;">
+      <div class="td xl">할머니가 떠난 후, <span class="ta">혼자가</span> 아닙니다</div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">할머니 방문 후 아이의 변화와 엄마의 피로는 정상입니다. 이 시간을 잘 관리하면 다시 안정된 루틴으로 돌아갈 수 있습니다.</div>
+    <div class="cover-cta">더 알아보기 <span>→</span></div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">01 / 10</span>
+  </div>
+</div>
+<!-- Card 02 -->
+<div class="card c2">
+  <div class="hook-mark">?</div>
+  <div class="ci" style="padding-top:52px">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+      <div class="hook-q">혹시 이런 경험 있으신가요? 할머니가 떠나고 나면 아이들은 <strong>수면 문제, 떼쓰기</strong>가 늘어나고, 당신은 '혼자 다시'라는 부담감으로 번아웃을 느끼는...</div>
+      <div class="hook-ans">그건 당신의 실패가 아니라 아이가 사랑하는 사람을 그리워하는 자연스러운 반응입니다.</div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">02 / 10</span>
+  </div>
+</div>
+<!-- Card 03 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">DEFINITION</div>
+    <div style="margin-top:28px; margin-bottom:20px;">
+      <div class="td md"><span class="def-hl">적응 기간 (Adjustment Period)</span></div>
+    </div>
+    <hr class="div-a" style="margin:0 0 28px" />
+    <div class="tb">할머니가 떠난 후 아이들이 새로운 루틴에 적응하는 <strong>3-4주</strong>를 적응 기간이라고 합니다. 이 시기는 정상이며, 참으면 안정화됩니다. 아이도 엄마도 이 과정을 겪습니다.</div>
+    <div class="def-box">
+      <div class="def-box-text">버티면 새로운 루틴이 자리잡힙니다.</div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">03 / 10</span>
+  </div>
+</div>
+<!-- Card 04 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">KEY INSIGHT</div>
+    <div class="td md" style="margin:28px 0;"><span class="ta">3-4주</span>가 가장 어려운 시간입니다</div>
+    <div class="chips">
+      <div class="chip"><div class="cd"></div>적응 기간</div>
+      <div class="chip"><div class="cd"></div>정상 반응</div>
+      <div class="chip"><div class="cd"></div>시간이 치료</div>
+      <div class="chip"><div class="cd"></div>버텨낼 수 있음</div>
+    </div>
+    <div class="tb" style="margin-top:28px;">할머니 방문 후 3-4주가 부모와 아이 모두에게 가장 스트레스가 높은 기간입니다. 연구에 따르면 이 기간을 이해하고 버티는 부모들이 덜 피로하고 아이들도 더 빨리 안정화됩니다.</div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">04 / 10</span>
+  </div>
+</div>
+<!-- Card 05 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">TIMELINE</div>
+    <div class="td md" style="margin:28px 0;">할머니 방문 전부터 준비하세요</div>
+    <div>
+      <div class="rb">
+        <div class="rb-t">방문 중</div>
+        <div class="rb-x">'엄마 시간'(아침 루틴, 잠자리 이야기)을 유지하세요. <strong>할머니와 엄마의 역할을 구분</strong>하는 것이 중요합니다.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">떠나기 1-2주 전</div>
+        <div class="rb-x">아이에게 '할머니가 떠나고 엄마와 함께할 거야'라고 천천히 <strong>준비 대화</strong>를 하세요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">떠난 첫 주</div>
+        <div class="rb-x">아이들에게 작은 특별함(영화 함께 보기, 공원 가기)을 제공해서 <strong>'엄마와의 시간'이 특별</strong>함을 알려주세요.</div>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">05 / 10</span>
+  </div>
+</div>
+<!-- Card 06 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">APPROACHES</div>
+    <div class="td md" style="margin:28px 0;">3가지 전환 방식이 있습니다</div>
+    <div class="ap">
+      <div class="ap-t">즉시 복귀 (Immediate Return)</div>
+      <div class="ap-d">할머니가 떠나자마자 정상 루틴으로 돌아갑니다. 효율적이지만 아이의 불안을 간과할 수 있습니다.</div>
+    </div>
+    <div class="ap">
+      <div class="ap-t">점진적 전환 (Gradual Transition)</div>
+      <div class="ap-d">1-2주에 걸쳐 천천히 루틴을 재설정합니다. 아이에게 심리적 완충시간을 주지만 부모가 인내심이 필요합니다.</div>
+    </div>
+    <div class="ap">
+      <div class="ap-t">유연한 대응 (Temporary Flexibility)</div>
+      <div class="ap-d">첫 주는 규칙을 완화하고 2주차부터 정상화합니다. 가정 분위기는 부드럽지만 일관성 부족 가능성이 있습니다.</div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">06 / 10</span>
+  </div>
+</div>
+<!-- Card 07 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">FIRST WEEK</div>
+    <div class="td md" style="margin:28px 0;">첫 주, 할 수 있는 작은 것들</div>
+    <div class="tb" style="margin-bottom:28px;">적응 기간은 거창한 대책이 필요한 게 아닙니다. 작은 관심과 이해가 가장 중요합니다.</div>
+    <div class="ai">
+      <div class="ai-d"></div>
+      <div>아이와 함께 특별한 시간 만들기 (영화, 공원, 그림 그리기)</div>
+    </div>
+    <div class="ai">
+      <div class="ai-d"></div>
+      <div>아이의 감정 변화 수용하기 ('할머니가 그리우니까 슬픈 거 맞아')</div>
+    </div>
+    <div class="ai">
+      <div class="ai-d"></div>
+      <div>자신을 위한 자기 관리 시간 5분만 확보하기 (명상, 산책, 친구와 통화)</div>
+    </div>
+    <div class="takeaway">당신의 감정을 무시하지 마세요.</div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">07 / 10</span>
+  </div>
+</div>
+<!-- Card 08 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl" style="text-align:center;">이렇게 하면 도움이 되고, 이건 피하세요</div>
+    <div class="cg" style="margin-top:28px;">
+      <div class="cc do">
+        <div class="cc-l">DO</div>
+        <div class="ci-item">
+          <span>할머니 방문 중부터 아이와의 특정 루틴(잠자리, 아침) 유지하기</span>
+        </div>
+        <div class="ci-item">
+          <span>아이의 감정 변화를 허용하고 공감하기</span>
+        </div>
+        <div class="ci-item">
+          <span>친구, 커뮤니티와 대화해서 '나만 힘든 게 아니'라는 걸 알아차리기</span>
+        </div>
+      </div>
+      <div class="cc dn">
+        <div class="cc-l">DON'T</div>
+        <div class="ci-item">
+          <span>할머니가 안 해준 것들을 모두 완벽하게 하려고 애쓰기</span>
+        </div>
+        <div class="ci-item">
+          <span>아이의 떼나 불안을 '버릇'이라고만 생각하고 무시하기</span>
+        </div>
+        <div class="ci-item">
+          <span>자신의 피로와 감정을 무시하고 '엄마는 괜찮아'라고 억누르기</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">08 / 10</span>
+  </div>
+</div>
+<!-- Card 09 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">ACTION PLAN</div>
+    <div class="td md" style="margin:28px 0;">적응 기간을 버티는 3단계</div>
+    <div class="si">
+      <div class="si-n">1</div>
+      <div class="si-c">
+        <div class="si-t">1단계: 사전 준비</div>
+        <div class="si-d">할머니가 떠나기 1-2주 전부터 아이와 이별 대화를 시작하세요. 예측이 불안을 줄입니다.</div>
+      </div>
+    </div>
+    <div class="si">
+      <div class="si-n">2</div>
+      <div class="si-c">
+        <div class="si-t">2단계: 첫 주 지지</div>
+        <div class="si-d">아이에게 작은 특별함을 제공하고, 아이의 감정 변화를 수용합니다. 완벽한 루틴보다 공감이 중요합니다.</div>
+      </div>
+    </div>
+    <div class="si">
+      <div class="si-n">3</div>
+      <div class="si-c">
+        <div class="si-t">3단계: 2-3주 후 정상화</div>
+        <div class="si-d">천천히 정상 루틴으로 돌아갑니다. 3-4주 후면 새로운 루틴이 자리잡힙니다.</div>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">09 / 10</span>
+  </div>
+</div>
+<!-- Card 10 -->
+<div class="card c10">
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+      <div class="badge badge-a en" style="margin-bottom:28px">SAVE & SHARE</div>
+      <div class="td lg" style="text-align:center;margin-bottom:20px;">혼자가 아니라는 것을 <span class="ta">기억</span>하세요</div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <p class="tb" style="text-align:center;max-width:80%;">이 적응 기간은 당신의 부모됨이 부족해서가 아닙니다. <strong>아이들이 사랑하는 사람을 그리워하는 자연스러운 반응</strong>일 뿐입니다. 저장해두고, 친구들과 공유하세요.</p>
+      <div class="cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+        </svg>
+        저장하기 →
+      </div>
+      <p class="cta-hint">할머니 방문 후 가장 힘들었던 순간은 언제였나요? 당신의 경험을 댓글로 나눠주세요.</p>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">10 / 10</span>
+  </div>
+</div>
+</body>
+</html>

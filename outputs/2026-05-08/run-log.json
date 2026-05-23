@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-08",
+  "status": "complete",
+  "started_at": "2026-05-08T08:00:00Z",
+  "finished_at": "2026-05-08T08:45:00Z",
+  "pipeline": {
+    "carousels_per_run": 2,
+    "cards_per_carousel": 10
+  },
+  "topics": [
+    {
+      "topic": "호주 학교 입학 준비: 한국 엄마가 놓치기 쉬운 것들",
+      "topic_slug": "au-school-readiness",
+      "carousel_file": "outputs/2026-05-08/au-school-readiness.html",
+      "cards": 10,
+      "qa_status": "passed",
+      "qa_checks": {
+        "card_count": "passed",
+        "emoji_check": "passed",
+        "footer_elements": "passed",
+        "progress_indicators": "passed",
+        "html_structure": "passed"
+      }
+    },
+    {
+      "topic": "워킹맘의 시간 관리: 호주 육아 커뮤니티 리소스 활용법",
+      "topic_slug": "working-mum-resources",
+      "carousel_file": "outputs/2026-05-08/working-mum-resources.html",
+      "cards": 10,
+      "qa_status": "passed",
+      "qa_checks": {
+        "card_count": "passed",
+        "emoji_check": "passed",
+        "footer_elements": "passed",
+        "progress_indicators": "passed",
+        "html_structure": "passed"
+      }
+    }
+  ],
+  "produced_assets": {
+    "total_pngs": 20,
+    "au_school_readiness": [
+      "outputs/2026-05-08/images/au-school-readiness-card-01.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-02.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-03.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-04.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-05.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-06.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-07.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-08.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-09.png",
+      "outputs/2026-05-08/images/au-school-readiness-card-10.png"
+    ],
+    "working_mum_resources": [
+      "outputs/2026-05-08/images/working-mum-resources-card-01.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-02.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-03.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-04.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-05.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-06.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-07.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-08.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-09.png",
+      "outputs/2026-05-08/images/working-mum-resources-card-10.png"
+    ]
+  },
+  "errors": []
+}

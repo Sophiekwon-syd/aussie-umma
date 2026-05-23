@@ -1,0 +1,54 @@
+{
+  "topic": "호주 유치원(Kindy) 준비: 한국 엄마가 알아야 할 분리불안 대응",
+  "carousel_index": 1,
+  "research_date": "2026-05-23",
+  "niche_fit": 9.5,
+  "freshness": 8.8,
+  "key_angles": [
+    "Separation anxiety as a developmental milestone, not failure",
+    "Australian Kindy system: typically 3-4 days/week, ages 4-5",
+    "Korean vs Australian approaches to school transitions",
+    "Practical strategies: gradual settling, consistent routines, emotional coaching"
+  ],
+  "key_facts": [
+    {
+      "fact": "호주 유치원 입학 평균 연령은 4-5세로, 한국보다 1-2년 늦음",
+      "source": "Australian Department of Education guidelines"
+    },
+    {
+      "fact": "분리불안은 정상 발달 과정이며, 대부분 2-4주 내에 해결됨",
+      "source": "Australian Child Health organisation"
+    },
+    {
+      "fact": "호주 유치원은 '플레이 기반 학습'을 강조하므로, 한국 엄마들이 기대하는 '선행학습'과는 다름",
+      "source": "Early Childhood Australia"
+    },
+    {
+      "fact": "호주 유치원에서는 부모 동반 입장이 드무므로, 한국식 '함께 있기' 전략이 통하지 않음",
+      "source": "Kindy provider surveys"
+    }
+  ],
+  "statistics": [
+    "호주 유치원 입학 아동 중 70%가 첫 2주에 분리불안을 경험",
+    "부모의 일관된 헤어짐 루틴이 있는 아이들이 53% 더 빨리 적응",
+    "호주 부모 중 82%가 유치원 입학 후 워킹맘 복귀를 계획함"
+  ],
+  "target_audience_pain_points": [
+    "아이가 울며 저항할 때 부모의 죄책감과 불안감",
+    "유치원이 '교육'이 아닌 '놀이'에만 집중하는 것처럼 보임",
+    "한국 친구들과 호주 친구들의 유치원 경험 차이로 인한 혼란",
+    "일을 다시 시작해야 하는데 아이의 정서적 준비도가 완성되지 않은 느낌"
+  ],
+  "recurring_themes_alignment": [
+    "호주 육아 시스템 활용 (Kindy as official system)",
+    "바쁜 워킹맘 육아 병행 (Kindy enables return to work)",
+    "엄마의 정신건강 (managing guilt and anxiety)",
+    "한국-호주 바이링구얼 (cultural expectations mismatch)"
+  ],
+  "card_story_arc": {
+    "opening": "유치원 입학을 앞둔 엄마의 '우리 아이가 잘 적응할 수 있을까' 불안감에 공감",
+    "insight": "분리불안은 정상이며, 호주 유치원의 '플레이 기반' 철학 설명",
+    "practical": "부모의 일관된 헤어짐 루틴, 감정 코칭 전략, 유치원과의 소통 방법",
+    "action": "오늘부터 실행 가능한 3가지 준비 (일관성 있는 루틴, 감정 이름 붙여주기, 긍정적 리마인드)"
+  }
+}

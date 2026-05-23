@@ -1,0 +1,69 @@
+{
+  "date": "2026-05-08",
+  "run_directory": "outputs/2026-05-08/run-2",
+  "status": "complete",
+  "started_at": "2026-05-08T09:30:00Z",
+  "finished_at": "2026-05-08T10:15:00Z",
+  "pipeline": {
+    "carousels_per_run": 2,
+    "cards_per_carousel": 10
+  },
+  "topics": [
+    {
+      "topic": "겨울 감기철 대비: 호주 GP 방문 전 준비물과 진료 팁",
+      "topic_slug": "winter-gp-preparation",
+      "carousel_file": "outputs/2026-05-08/run-2/winter-gp-preparation.html",
+      "cards": 10,
+      "qa_status": "passed",
+      "qa_checks": {
+        "card_count": "passed",
+        "emoji_check": "passed",
+        "footer_elements": "passed",
+        "progress_indicators": "passed",
+        "html_structure": "passed"
+      }
+    },
+    {
+      "topic": "한국 할머니 없이 육아하기: 엄마 혼자 감당하는 아이 질문 대응법",
+      "topic_slug": "solo-parenting-questions",
+      "carousel_file": "outputs/2026-05-08/run-2/solo-parenting-questions.html",
+      "cards": 10,
+      "qa_status": "passed",
+      "qa_checks": {
+        "card_count": "passed",
+        "emoji_check": "passed",
+        "footer_elements": "passed",
+        "progress_indicators": "passed",
+        "html_structure": "passed"
+      }
+    }
+  ],
+  "produced_assets": {
+    "total_pngs": 20,
+    "winter_gp_preparation": [
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-01.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-02.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-03.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-04.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-05.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-06.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-07.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-08.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-09.png",
+      "outputs/2026-05-08/run-2/images/winter-gp-preparation-card-10.png"
+    ],
+    "solo_parenting_questions": [
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-01.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-02.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-03.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-04.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-05.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-06.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-07.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-08.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-09.png",
+      "outputs/2026-05-08/run-2/images/solo-parenting-questions-card-10.png"
+    ]
+  },
+  "errors": []
+}

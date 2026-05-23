@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>호주 학교 입학 준비</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #050505;
+        --card-bg: #0a0a0a;
+        --elevated: #141414;
+        --ink: #f0f0f0;
+        --ink2: #aaaaaa;
+        --ink3: #666666;
+        --ink4: #333333;
+        --accent: #c6f135;
+        --accent-dim: rgba(198, 241, 53, 0.1);
+        --blue: #3b82f6;
+        --red: #ef4444;
+        --border: rgba(255, 255, 255, 0.06);
+        --font-kr: "Noto Sans KR", sans-serif;
+        --font-en: "Space Grotesk", sans-serif;
+      }
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #020202;
+        font-family: var(--font-kr);
+        color: var(--ink);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        padding: 40px 20px 80px;
+        -webkit-font-smoothing: antialiased;
+      }
+      .card {
+        width: 1080px;
+        height: 1350px;
+        background: var(--card-bg);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        z-index: 50;
+        opacity: 0.03;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        background-size: 200px 200px;
+      }
+      .ci {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 52px 68px 0;
+        position: relative;
+        z-index: 2;
+      }
+      .cf {
+        padding: 0 68px;
+        height: 68px;
+        margin-bottom: 160px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 2;
+      }
+      .cf-l {
+        font-family: var(--font-en);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: var(--ink4);
+        text-transform: uppercase;
+      }
+      .cf-r {
+        font-family: var(--font-en);
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--ink4);
+        letter-spacing: 1px;
+      }
+      .dots {
+        display: flex;
+        gap: 6px;
+      }
+      .dots i {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--ink4);
+        display: block;
+      }
+      .dots i.on {
+        background: var(--accent);
+        width: 22px;
+        border-radius: 4px;
+      }
+      .td {
+        font-weight: 900;
+        line-height: 1.02;
+        letter-spacing: -1px;
+        word-break: keep-all;
+      }
+      .td.xl { font-size: 96px; }
+      .td.lg { font-size: 78px; }
+      .td.md { font-size: 64px; }
+      .tb {
+        font-size: 27px;
+        font-weight: 400;
+        color: var(--ink2);
+        line-height: 1.8;
+        word-break: keep-all;
+      }
+      .tb strong {
+        font-weight: 700;
+        color: var(--ink);
+      }
+      .tl {
+        font-family: var(--font-en);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: var(--ink3);
+      }
+      .ta { color: var(--accent); }
+      .tm { color: var(--ink3); }
+      .en { font-family: var(--font-en); }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 22px;
+        border-radius: 100px;
+        font-size: 16px;
+        font-weight: 700;
+        width: fit-content;
+      }
+      .badge-a {
+        background: var(--accent);
+        color: #000;
+      }
+      .divider {
+        width: 100%;
+        height: 1px;
+        background: var(--border);
+        border: none;
+      }
+      .div-a {
+        width: 36px;
+        height: 3px;
+        background: var(--accent);
+        border-radius: 2px;
+        border: none;
+      }
+      .wm {
+        position: absolute;
+        font-family: var(--font-en);
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.035;
+        pointer-events: none;
+        z-index: 1;
+        line-height: 1;
+      }
+      .glow {
+        position: absolute;
+        border-radius: 50%;
+        background: var(--accent);
+        filter: blur(100px);
+        opacity: 0.05;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+      }
+      .handle {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--ink3);
+      }
+      .top-rule {
+        width: 100%;
+        height: 1px;
+        background: var(--border);
+        margin-top: 20px;
+        flex-shrink: 0;
+      }
+
+      /* Cover */
+      .cover-56 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: var(--font-en);
+        font-size: 680px;
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.04;
+        line-height: 1;
+        pointer-events: none;
+        z-index: 1;
+        letter-spacing: -20px;
+      }
+      .cover-56::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(ellipse at center, transparent 30%, var(--card-bg) 72%);
+      }
+      .c1 .ci {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .c1 .cover-sub {
+        margin-bottom: 28px;
+        max-width: 75%;
+      }
+      .c1 .cover-cta {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--accent);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      /* Hook */
+      .c2 .ci {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .c2 .hook-q {
+        font-size: 38px;
+        font-weight: 400;
+        color: var(--ink2);
+        line-height: 1.75;
+        word-break: keep-all;
+        max-width: 88%;
+      }
+      .c2 .hook-q strong {
+        font-weight: 700;
+        color: var(--ink);
+        font-size: 1.08em;
+      }
+      .c2 .hook-ans {
+        margin-top: 40px;
+        font-size: 20px;
+        color: var(--accent);
+        font-weight: 600;
+      }
+      .hook-mark {
+        font-family: var(--font-en);
+        font-size: 260px;
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.035;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        line-height: 1;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      /* Definition */
+      .def-hl {
+        background: linear-gradient(180deg, transparent 52%, var(--accent-dim) 52%);
+        padding: 0 4px;
+      }
+      .def-box {
+        margin-top: 36px;
+        padding: 24px 30px;
+        border-radius: 14px;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+      }
+      .def-box-text {
+        font-size: 22px;
+        color: var(--ink3);
+        line-height: 1.7;
+      }
+      .def-box-text strong {
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      /* Data chips */
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 20px 0;
+      }
+      .chip {
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .chip .cd {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+
+      /* Routine */
+      .rb {
+        display: flex;
+        gap: 20px;
+        padding: 22px 0;
+        border-bottom: 1px solid var(--border);
+        align-items: flex-start;
+      }
+      .rb:last-child { border-bottom: none; }
+      .rb-t {
+        font-family: var(--font-en);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: var(--accent);
+        min-width: 70px;
+        padding-top: 4px;
+        text-transform: uppercase;
+      }
+      .rb-x {
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--ink);
+        line-height: 1.65;
+      }
+      .rb-x strong { font-weight: 700; }
+
+      /* Approaches */
+      .ap {
+        padding: 26px 28px;
+        border-radius: 14px;
+        background: var(--elevated);
+        border-left: 4px solid var(--ink4);
+        margin-bottom: 12px;
+      }
+      .ap:last-child { margin-bottom: 0; }
+      .ap:nth-child(1) { border-left-color: var(--accent); }
+      .ap:nth-child(2) { border-left-color: var(--blue); }
+      .ap:nth-child(3) { border-left-color: var(--ink3); }
+      .ap-t {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      .ap-d {
+        font-size: 20px;
+        color: var(--ink2);
+        line-height: 1.6;
+      }
+
+      /* Actions / Checklist */
+      .ai {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 18px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 24px;
+        color: var(--ink);
+        line-height: 1.5;
+      }
+      .ai:last-child { border-bottom: none; }
+      .ai-d {
+        width: 9px;
+        height: 9px;
+        min-width: 9px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+      .takeaway {
+        margin-top: auto;
+        padding: 20px 24px;
+        border-radius: 12px;
+        background: var(--accent-dim);
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      /* Do/Don't */
+      .cg {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        flex: 1;
+      }
+      .cc {
+        border-radius: 14px;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+      }
+      .cc.do {
+        background: rgba(198, 241, 53, 0.05);
+        border: 1px solid rgba(198, 241, 53, 0.1);
+      }
+      .cc.dn {
+        background: rgba(239, 68, 68, 0.05);
+        border: 1px solid rgba(239, 68, 68, 0.1);
+      }
+      .cc-l {
+        font-family: var(--font-en);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+      .cc.do .cc-l { color: var(--accent); }
+      .cc.dn .cc-l { color: var(--red); }
+      .ci-item {
+        font-size: 19px;
+        color: var(--ink2);
+        line-height: 1.6;
+        padding: 8px 0;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .ci-item::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        min-width: 5px;
+        border-radius: 50%;
+        margin-top: 9px;
+      }
+      .cc.do .ci-item::before { background: var(--accent); }
+      .cc.dn .ci-item::before { background: var(--red); }
+
+      /* Steps */
+      .si {
+        display: flex;
+        gap: 24px;
+        padding: 20px 0;
+        align-items: flex-start;
+      }
+      .si-n {
+        font-family: var(--font-en);
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.25;
+        line-height: 1;
+        min-width: 60px;
+      }
+      .si-c { flex: 1; padding-top: 2px; }
+      .si-t {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 6px;
+      }
+      .si-d {
+        font-size: 19px;
+        color: var(--ink2);
+        line-height: 1.55;
+      }
+
+      /* CTA */
+      .c10 .ci {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 18px 48px;
+        border-radius: 100px;
+        background: var(--accent);
+        color: #000;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 32px;
+      }
+      .cta-hint {
+        margin-top: 24px;
+        font-size: 20px;
+        color: var(--ink3);
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- ═══════ CARD 01 · Cover ═══════ -->
+    <div class="card c1">
+      <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+      <div class="cover-56">SR</div>
+      <div class="ci">
+        <div class="badge badge-a en" style="margin-bottom:40px">School Ready</div>
+        <div style="margin-bottom:16px">
+          <div class="td xl">호주 학교<br /><span class="ta">입학 준비</span></div>
+        </div>
+        <hr class="div-a" style="margin:0 auto 24px" />
+        <div class="cover-sub tb">한국과는 완전히 달라요</div>
+        <div class="cover-cta">슬라이드 넘기기 <span>→</span></div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">01 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 02 · Hook ═══════ -->
+    <div class="card c2">
+      <div class="hook-mark">?</div>
+      <div class="ci" style="padding-top:52px">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" />
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+          <div class="hook-q">
+            학교 리스트에 준비물이 없다고 했는데<br /><strong>정말 아무것도 안 사도 될까요?</strong>
+          </div>
+          <div class="hook-ans">
+            맞아요 — 호주 입학은 생각보다 훨씬 단순합니다
+          </div>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">02 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 03 · Definition ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:220px;bottom:-30px;right:20px">SR</div>
+      <div class="ci" style="justify-content:center">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:40px" />
+        <div class="tl" style="margin-bottom:20px">Definition</div>
+        <div class="td lg" style="margin-bottom:10px">
+          <span class="def-hl">호주식 준비</span>란
+        </div>
+        <hr class="div-a" style="margin:24px 0" />
+        <div class="tb" style="max-width:92%">
+          교과서나 학용품이 아닙니다. <strong>아이의 독립성</strong>입니다. 혼자 화장실 가기, 신발끈 묶기, 점심 보따리 풀기. 이게 정말 전부예요.
+        </div>
+        <div class="def-box">
+          <div class="def-box-text">
+            학교에 들어가기 전, 가장 중요한 준비물은 <strong>자신감</strong>입니다
+          </div>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">03 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 04 · Data ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:200px;top:30px;right:20px">04</div>
+      <div class="ci" style="justify-content:center">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:40px" />
+        <div class="tl" style="margin-bottom:20px">Key Facts</div>
+        <div class="td md" style="margin-bottom:8px">
+          알아두면<br /><span class="ta">놀라운</span> 호주 학교
+        </div>
+        <div class="chips">
+          <div class="chip"><span class="cd"></span>1월 입학</div>
+          <div class="chip"><span class="cd"></span>12월 종업</div>
+          <div class="chip"><span class="cd"></span>도시락 필수</div>
+          <div class="chip"><span class="cd"></span>교과서 제공</div>
+        </div>
+        <div class="tb" style="margin-top:8px">
+          한국과 반대로 1월에 시작해 12월에 끝나요. 준비물은 도시락, 물통, 모자 세 가지면 <strong>충분합니다</strong>.
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">04 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 05 · Routine ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:200px;top:30px;right:20px">05</div>
+      <div class="ci" style="justify-content:center">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:40px" />
+        <div class="tl" style="margin-bottom:20px">Daily Life</div>
+        <div class="td md" style="margin-bottom:32px">
+          호주 유치원의<br />하루
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+          <div class="rb">
+            <span class="rb-t">AM</span>
+            <span class="rb-x">선생님 주도 아닌 <strong>놀이 중심 수업</strong>으로 하루 시작</span>
+          </div>
+          <div class="rb">
+            <span class="rb-t">PM</span>
+            <span class="rb-x"><strong>사교 능력, 자신감, 적응력</strong>을 키우는 그룹 활동</span>
+          </div>
+          <div class="rb">
+            <span class="rb-t">EVE</span>
+            <span class="rb-x">숙제 없이 <strong>가족과 보내는</strong> 여유로운 저녁</span>
+          </div>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">05 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 06 · Categories ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:200px;top:30px;right:20px">06</div>
+      <div class="ci" style="justify-content:center">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:40px" />
+        <div class="tl" style="margin-bottom:20px">Normal Phases</div>
+        <div class="td md" style="margin-bottom:32px">
+          이건 모두<br />정상이에요
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px;">
+          <div class="ap">
+            <div class="ap-t">분리불안</div>
+            <div class="ap-d">첫 주 울음은 모든 아이가 겪는 자연스러운 과정입니다</div>
+          </div>
+          <div class="ap">
+            <div class="ap-t">느린 적응</div>
+            <div class="ap-d">2–3주면 대부분의 아이들이 학교 생활에 익숙해집니다</div>
+          </div>
+          <div class="ap">
+            <div class="ap-t">언어 장벽</div>
+            <div class="ap-d">영어 노출이 부족해도 학교에서 자연스럽게 흡수합니다</div>
+          </div>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">06 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 07 · Checklist ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:200px;top:30px;right:20px">07</div>
+      <div class="ci">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:36px" />
+        <div class="tl" style="margin-bottom:18px">Must Know</div>
+        <div class="td md" style="margin-bottom:10px">
+          꼭 알아야 할<br /><span class="ta">추가 비용</span>
+        </div>
+        <p class="tb" style="margin-bottom:24px;font-size:23px">
+          학비 외에도 예산을 미리 준비하세요
+        </p>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+          <div class="ai"><span class="ai-d"></span>Voluntary Contribution: 연간 $200–$500</div>
+          <div class="ai"><span class="ai-d"></span>교복 또는 체육복 구입</div>
+          <div class="ai"><span class="ai-d"></span>소풍 및 특별활동비</div>
+          <div class="ai"><span class="ai-d"></span>방과후 프로그램 (선택사항)</div>
+        </div>
+        <div class="takeaway">학교 웹사이트에서 비용 미리 확인하기</div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">07 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 08 · Do / Don't ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:200px;top:30px;right:20px">08</div>
+      <div class="ci" style="justify-content:center">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:40px" />
+        <div class="tl" style="margin-bottom:20px">Do & Don't</div>
+        <div class="td md" style="margin-bottom:28px">
+          이렇게 vs<br />이렇게 말고
+        </div>
+        <div class="cg">
+          <div class="cc do">
+            <div class="cc-l en">Do</div>
+            <div class="ci-item">아이에게 픽업 시간 정확히 알려주기</div>
+            <div class="ci-item">교사와 짧고 자주 소통하기</div>
+            <div class="ci-item">학교를 긍정적으로 이야기하기</div>
+          </div>
+          <div class="cc dn">
+            <div class="cc-l en">Don't</div>
+            <div class="ci-item">한국 기준으로 준비물 많이 사기</div>
+            <div class="ci-item">다른 아이와 학업 비교하기</div>
+            <div class="ci-item">분리불안을 이상하게 여기기</div>
+          </div>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">08 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 09 · Steps ═══════ -->
+    <div class="card">
+      <div class="wm en" style="font-size:200px;top:30px;right:20px">09</div>
+      <div class="ci" style="justify-content:center">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i>
+          </div>
+        </div>
+        <hr class="top-rule" style="margin-bottom:40px" />
+        <div class="tl" style="margin-bottom:20px">Start Now</div>
+        <div class="td md" style="margin-bottom:32px">
+          이렇게<br /><span class="ta">준비하세요</span>
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+          <div class="si">
+            <span class="si-n en">01</span>
+            <div class="si-c">
+              <div class="si-t">학교 웹사이트에서 준비물 확인</div>
+              <div class="si-d">Checklist를 다운로드하고 정말 필요한 것만 사세요</div>
+            </div>
+          </div>
+          <div class="si">
+            <span class="si-n en">02</span>
+            <div class="si-c">
+              <div class="si-t">오리엔테이션에 꼭 참석하기</div>
+              <div class="si-d">아이도 교실을 미리 보면 첫날 불안이 줄어요</div>
+            </div>
+          </div>
+          <div class="si">
+            <span class="si-n en">03</span>
+            <div class="si-c">
+              <div class="si-t">독립심 연습 시작하기</div>
+              <div class="si-d">화장실 혼자 가기, 신발끈 묶기를 미리 연습해두세요</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">09 / 10</span>
+      </div>
+    </div>
+
+    <!-- ═══════ CARD 10 · CTA ═══════ -->
+    <div class="card c10">
+      <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+      <div class="ci">
+        <div class="top">
+          <span class="handle">@aussie.umma</span>
+          <div class="dots">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i>
+          </div>
+        </div>
+        <hr class="top-rule" />
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+          <div class="badge badge-a en" style="margin-bottom:28px">SAVE & SHARE</div>
+          <div class="td lg" style="text-align:center;margin-bottom:20px">
+            당신의 차분함이<br /><span class="ta">아이의</span> 용기입니다
+          </div>
+          <hr class="div-a" style="margin:0 auto 24px" />
+          <p class="tb" style="text-align:center;max-width:80%">
+            거창한 준비는 필요 없어요. <strong>아이에게 학교가 안전한 곳</strong>이라는 믿음을 심어주세요.
+          </p>
+          <div class="cta-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+            </svg>
+            저장하기
+          </div>
+          <p class="cta-hint">첫 입학을 앞두고 있다면 댓글로 나눠주세요</p>
+        </div>
+      </div>
+      <div class="cf">
+        <span class="cf-l">Aussie Umma</span>
+        <span class="cf-r en">10 / 10</span>
+      </div>
+    </div>
+
+  </body>
+</html>

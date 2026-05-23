@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-08T09:30:00Z",
+  "finished_at": "2026-05-08T17:45:00Z",
+  "run_number": 3,
+  "date": "2026-05-08",
+  "topics": [
+    {
+      "topic": "호주 어린이집 기간(gaps) 관리: 학기 중 미니 방학 대비하기",
+      "carousel_file": "outputs/2026-05-08/run-3/school-term-gaps.html",
+      "outcome": "complete",
+      "qa_status": "pass"
+    },
+    {
+      "topic": "한국 할머니 방문 후 육아 루틴 정리하기: 의존에서 독립으로",
+      "carousel_file": "outputs/2026-05-08/run-3/grandparent-visit-transition.html",
+      "outcome": "complete",
+      "qa_status": "pass"
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-08/run-3/images/school-term-gaps-01.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-02.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-03.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-04.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-05.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-06.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-07.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-08.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-09.png",
+    "outputs/2026-05-08/run-3/images/school-term-gaps-10.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-01.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-02.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-03.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-04.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-05.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-06.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-07.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-08.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-09.png",
+    "outputs/2026-05-08/run-3/images/grandparent-visit-transition-10.png"
+  ]
+}

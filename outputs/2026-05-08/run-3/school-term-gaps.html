@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUSSIE UMMA - School Term Gaps Planning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #050505;
+  --card-bg: #0a0a0a;
+  --elevated: #141414;
+  --ink: #f0f0f0;
+  --ink2: #aaaaaa;
+  --ink3: #666666;
+  --ink4: #333333;
+  --accent: #c6f135;           /* override with ACCENT_PRIMARY */
+  --accent-dim: rgba(198, 241, 53, 0.1);
+  --blue: #3b82f6;             /* override with ACCENT_SECONDARY */
+  --red: #ef4444;
+  --border: rgba(255, 255, 255, 0.06);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #020202;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 40px 20px 80px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 68px 0;
+  position: relative;
+  z-index: 2;
+}
+.cf {
+  padding: 0 68px;
+  height: 68px;
+  margin-bottom: 160px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.cf-l {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--ink4);
+  text-transform: uppercase;
+}
+.cf-r {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink4);
+  letter-spacing: 1px;
+}
+.dots {
+  display: flex;
+  gap: 6px;
+}
+.dots i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 22px;
+  border-radius: 4px;
+}
+.td {
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: -1px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 78px; }
+.td.md { font-size: 64px; }
+.tb {
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.8;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 22px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  width: fit-content;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  border: none;
+}
+.div-a {
+  width: 36px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.035;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 1;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(100px);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.handle {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink3);
+}
+.top-rule {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 680px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.04;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -20px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 30%, var(--card-bg) 72%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 28px;
+  max-width: 75%;
+}
+.c1 .cover-cta {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.75;
+  word-break: keep-all;
+  max-width: 88%;
+}
+.c2 .hook-q strong {
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 1.08em;
+}
+.c2 .hook-ans {
+  margin-top: 40px;
+  font-size: 20px;
+  color: var(--accent);
+  font-weight: 600;
+}
+.hook-mark {
+  font-family: var(--font-en);
+  font-size: 260px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.035;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  line-height: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Definition */
+.def-hl {
+  background: linear-gradient(180deg, transparent 52%, var(--accent-dim) 52%);
+  padding: 0 4px;
+}
+.def-box {
+  margin-top: 36px;
+  padding: 24px 30px;
+  border-radius: 14px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 22px;
+  color: var(--ink3);
+  line-height: 1.7;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+.chip {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.chip .cd {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 70px;
+  padding-top: 4px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.65;
+}
+.rb-x strong { font-weight: 700; }
+
+/* Approaches */
+.ap {
+  padding: 26px 28px;
+  border-radius: 14px;
+  background: var(--elevated);
+  border-left: 4px solid var(--ink4);
+  margin-bottom: 12px;
+}
+.ap:last-child { margin-bottom: 0; }
+.ap:nth-child(1) { border-left-color: var(--accent); }
+.ap:nth-child(2) { border-left-color: var(--blue); }
+.ap:nth-child(3) { border-left-color: var(--ink3); }
+.ap-t {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.ap-d {
+  font-size: 20px;
+  color: var(--ink2);
+  line-height: 1.6;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 24px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 9px;
+  height: 9px;
+  min-width: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: auto;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Do/Don't */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  flex: 1;
+}
+.cc {
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+.cc.do {
+  background: rgba(198, 241, 53, 0.05);
+  border: 1px solid rgba(198, 241, 53, 0.1);
+}
+.cc.dn {
+  background: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.1);
+}
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.ci-item {
+  font-size: 19px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 8px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.ci-item::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  min-width: 5px;
+  border-radius: 50%;
+  margin-top: 9px;
+}
+.cc.do .ci-item::before { background: var(--accent); }
+.cc.dn .ci-item::before { background: var(--red); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.25;
+  line-height: 1;
+  min-width: 60px;
+}
+.si-c {
+  flex: 1;
+  padding-top: 2px;
+}
+.si-t {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.si-d {
+  font-size: 19px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 48px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 32px;
+}
+.cta-hint {
+  margin-top: 24px;
+  font-size: 20px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+<!-- Card 01 -->
+<div class="card c1">
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">0</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">SCHOOL HOLIDAYS</div>
+    <div style="margin-bottom:16px;">
+      <div class="td xl">4번의 방학, <span class="ta">미리 준비하면</span> 위기 아닙니다</div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">호주 학교는 4번 방학을 가집니다. 계획하지 않으면 매번 '어라, 또 방학이네' 하며 보육 위기를 맞이하게 됩니다.</div>
+    <div class="cover-cta">더 알아보기 <span>→</span></div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">01 / 10</span>
+  </div>
+</div>
+<!-- Card 02 -->
+<div class="card c2">
+  <div class="hook-mark">?</div>
+  <div class="ci" style="padding-top:52px">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+      <div class="hook-q">혹시 이런 경험 있으신가요? 방학 일정을 모르다가 마지막 순간에 <strong>어라, 또 방학이네?</strong> 하면서 보육 대책을 세우게 되는...</div>
+      <div class="hook-ans">그건 당신의 계획 실패가 아니라 호주 학교 시스템을 몰랐기 때문입니다.</div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">02 / 10</span>
+  </div>
+</div>
+<!-- Card 03 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">DEFINITION</div>
+    <div style="margin-top:28px; margin-bottom:20px;">
+      <div class="td md"><span class="def-hl">호주 학교의 방학 구조</span></div>
+    </div>
+    <hr class="div-a" style="margin:0 0 28px" />
+    <div class="tb">호주는 4개 학기(Term 1, 2, 3, 4)로 운영되며, 각 학기 사이에 <strong>1-2주씩 방학</strong>이 있고 연말에는 6주 여름방학이 있습니다. 한국의 3개월 여름방학과는 완전히 다릅니다.</div>
+    <div class="def-box">
+      <div class="def-box-text">각 방학마다 별도의 보육 계획이 필요합니다.</div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">03 / 10</span>
+  </div>
+</div>
+<!-- Card 04 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">KEY INSIGHT</div>
+    <div class="td md" style="margin:28px 0;">방학 중 보육비는 <span class="ta">20-40%</span> 올라갑니다</div>
+    <div class="chips">
+      <div class="chip"><div class="cd"></div>보육비 증가</div>
+      <div class="chip"><div class="cd"></div>미리 신청 필수</div>
+      <div class="chip"><div class="cd"></div>수요 많음</div>
+      <div class="chip"><div class="cd"></div>비용 계획 필요</div>
+    </div>
+    <div class="tb" style="margin-top:28px;">호주 학교 방학 중 보육비가 일반적으로 20-40% 증가합니다. 왜? 모든 아이들이 방학을 가지기 때문에 보육 수요가 폭증하고, 많은 보육 서비스가 임시 직원을 고용해야 하기 때문입니다.</div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">04 / 10</span>
+  </div>
+</div>
+<!-- Card 05 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">TIMELINE</div>
+    <div class="td md" style="margin:28px 0;">방학 준비, 언제부터 시작할까요?</div>
+    <div>
+      <div class="rb">
+        <div class="rb-t">1월-2월</div>
+        <div class="rb-x">학년 시작 전 전체 학기/방학 일정을 받아서 <strong>캘린더에 표시</strong>하세요. 이게 출발점입니다.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">3-6월</div>
+        <div class="rb-x">각 방학마다 필요한 보육 옵션을 조사하고, 직장에 미리 알려서 유연한 근무 계획을 세우세요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">2-3개월 전</div>
+        <div class="rb-x">6월 말 겨울방학부터 시작해서, <strong>holiday care 신청</strong>을 미리하세요. 대기자 명단이 길 수 있습니다.</div>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">05 / 10</span>
+  </div>
+</div>
+<!-- Card 06 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">OPTIONS</div>
+    <div class="td md" style="margin:28px 0;">4가지 보육 옵션을 알아봅시다</div>
+    <div class="ap">
+      <div class="ap-t">School Holiday Care</div>
+      <div class="ap-d">학교에서 제공하는 공식 프로그램. 아이가 익숙한 환경에서 지낼 수 있지만 비용이 높고 미리 신청해야 합니다.</div>
+    </div>
+    <div class="ap">
+      <div class="ap-t">개인 보육 (Nanny/Babysitter)</div>
+      <div class="ap-d">유연성이 높고 1대1 관심을 받을 수 있지만, 비용이 많이 들고 구하기 어렵습니다.</div>
+    </div>
+    <div class="ap">
+      <div class="ap-t">혼합 계획</div>
+      <div class="ap-d">방학을 여러 부분으로 나누어 holiday care, 집에서 보기, 유연근무를 조합. 가장 현실적이고 비용 효율적입니다.</div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">06 / 10</span>
+  </div>
+</div>
+<!-- Card 07 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">START TODAY</div>
+    <div class="td md" style="margin:28px 0;">오늘부터 할 수 있는 3가지</div>
+    <div class="tb" style="margin-bottom:28px;">방학 대책은 거창하지 않습니다. 오늘부터 작은 것부터 시작하세요.</div>
+    <div class="ai">
+      <div class="ai-d"></div>
+      <div>학교에 전체 학기/방학 일정표 요청하기</div>
+    </div>
+    <div class="ai">
+      <div class="ai-d"></div>
+      <div>직장 상사에게 'holiday 기간엔 유연근무가 필요할 수 있다'고 미리 알리기</div>
+    </div>
+    <div class="ai">
+      <div class="ai-d"></div>
+      <div>한인 커뮤니티(Naver, Blind, playgroup)에서 다른 부모들의 방학 대책 묻기</div>
+    </div>
+    <div class="takeaway">계획의 첫 단계는 '정보 수집'입니다.</div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">07 / 10</span>
+  </div>
+</div>
+<!-- Card 08 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl" style="text-align:center;">이렇게 준비하고, 이건 피하세요</div>
+    <div class="cg" style="margin-top:28px;">
+      <div class="cc do">
+        <div class="cc-l">DO</div>
+        <div class="ci-item">
+          <span>연초에 전체 학기 일정을 확인하기</span>
+        </div>
+        <div class="ci-item">
+          <span>holiday care가 필요한 주의 2-3개월 전에 신청하기</span>
+        </div>
+        <div class="ci-item">
+          <span>여러 보육 옵션을 조합해서 비용과 스트레스 줄이기</span>
+        </div>
+      </div>
+      <div class="cc dn">
+        <div class="cc-l">DON'T</div>
+        <div class="ci-item">
+          <span>방학 일정을 모르고 있다가 마지막 순간에 계획 세우기</span>
+        </div>
+        <div class="ci-item">
+          <span>holiday care 하나에만 의존하기 (비용 높고 자리 제한적)</span>
+        </div>
+        <div class="ci-item">
+          <span>혼자만 해결하려고 생각하기</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">08 / 10</span>
+  </div>
+</div>
+<!-- Card 09 -->
+<div class="card ">
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div class="tl">ACTION PLAN</div>
+    <div class="td md" style="margin:28px 0;">여름방학을 완벽하게 준비하는 순서</div>
+    <div class="si">
+      <div class="si-n">1</div>
+      <div class="si-c">
+        <div class="si-t">1단계: 일정 확인</div>
+        <div class="si-d">학교에서 받은 일정을 캘린더에 표시하고, 각 방학 기간의 보육 수요를 파악하세요.</div>
+      </div>
+    </div>
+    <div class="si">
+      <div class="si-n">2</div>
+      <div class="si-c">
+        <div class="si-t">2단계: 옵션 조사</div>
+        <div class="si-d">holiday care, 개인 보육, 가족 지원 등 각 옵션의 비용과 신청 마감일을 확인하세요.</div>
+      </div>
+    </div>
+    <div class="si">
+      <div class="si-n">3</div>
+      <div class="si-c">
+        <div class="si-t">3단계: 조율 및 신청</div>
+        <div class="si-d">직장과 유연근무를 조율하고, 2-3개월 전에 holiday care 신청을 완료하세요.</div>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">09 / 10</span>
+  </div>
+</div>
+<!-- Card 10 -->
+<div class="card c10">
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="top">
+      <span class="handle">@aussie.umma</span>
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+    </div>
+    <hr class="top-rule" />
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;">
+      <div class="badge badge-a en" style="margin-bottom:28px">SAVE & SHARE</div>
+      <div class="td lg" style="text-align:center;margin-bottom:20px;">계획하면 <span class="ta">절반</span>은 성공입니다</div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <p class="tb" style="text-align:center;max-width:80%;">호주 방학은 예측 가능합니다. <strong>지금 바로</strong> 학년 일정을 받아서 준비를 시작하세요. 당신은 혼자가 아닙니다.</p>
+      <div class="cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+        </svg>
+        저장하기 →
+      </div>
+      <p class="cta-hint">당신의 방학 대책은 어떤가요? 효과 있었던 팁이 있다면 댓글로 나눠주세요.</p>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cf-l">AUSSIE UMMA</span>
+    <span class="cf-r en">10 / 10</span>
+  </div>
+</div>
+</body>
+</html>

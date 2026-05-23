@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-23T09:22:00Z",
+  "finished_at": "2026-05-23T09:45:00Z",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 유치원(Kindy) 준비: 한국 엄마가 알아야 할 분리불안 대응",
+      "html_file": "outputs/2026-05-23/kindy-separation-anxiety.html",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "엄마의 친구 만들기: 호주에서 고립감 벗기 위한 실질적 커뮤니티 전략",
+      "html_file": "outputs/2026-05-23/community-isolation-strategy.html",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-23/images/kindy-separation-anxiety-01.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-02.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-03.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-04.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-05.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-06.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-07.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-08.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-09.png",
+    "outputs/2026-05-23/images/kindy-separation-anxiety-10.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-01.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-02.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-03.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-04.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-05.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-06.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-07.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-08.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-09.png",
+    "outputs/2026-05-23/images/community-isolation-strategy-10.png"
+  ],
+  "summary": {
+    "carousels_produced": 2,
+    "total_cards": 20,
+    "total_pngs": 20,
+    "qa_failures": 0,
+    "qa_passes": 2
+  }
+}

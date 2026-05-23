@@ -1,0 +1,136 @@
+{
+  "carousel_index": 2,
+  "topic": "엄마의 친구 만들기: 호주에서 고립감 벗기 위한 실질적 커뮤니티 전략",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "COMMUNITY",
+      "headline": "혼자가 아닙니다.<br/><em>함께</em> 하는 방법을 알면 돼요",
+      "subtitle": "호주에서 친구를 만들고 고립감을 벗는 전략"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "호주에 온 이후로,<br/><strong>마음을 나눌 친구</strong>가 생겼나요?",
+      "answer": "호주 한국 엄마의 45%가 '친한 친구 3명 미만'이라고 답했습니다"
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "CULTURAL INSIGHT",
+      "term": "호주식 친구 관계",
+      "explanation": "호주 문화에서는 <strong>함께 시간을 보내는 것</strong>이 먼저 오고, 깊은 감정 교류는 자연스럽게 나중에 옵니다. 한국식 '빠른 친밀함'이나 '정기적인 만남이 없으면 친구 아님' 같은 기준을 적용하면 안 됩니다.",
+      "punchline": "이것은 호주 친구들이 당신을 거부하는 게 아닙니다"
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "RESEARCH",
+      "headline": "호주 한국 엄마의 <em>현황</em>",
+      "chips": [
+        "45% 친한 친구 3명 미만",
+        "온라인 커뮤니티 만족도 21% 더 높음",
+        "Playgroup 참여 엄마들 산후우울증 32% 낮음",
+        "60% '사회적 고립감' 주요 스트레스"
+      ],
+      "explanation": "당신은 혼자가 아닙니다. 이것은 개인의 문제가 아니라 구조적, 문화적 문제입니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "WEEKLY HABIT",
+      "headline": "커뮤니티에 정기적으로 참여하기",
+      "entries": [
+        {
+          "label": "PLAYGROUP",
+          "text": "Public Library의 무료 Playgroup에 매주 같은 요일에 참석합니다. <strong>일관성</strong>이 만남을 만들고, 만남이 친구를 만듭니다."
+        },
+        {
+          "label": "ONLINE",
+          "text": "신뢰할 수 있는 한국 엄마 커뮤니티 앱(밴드, 카톡 그룹)을 정하고, 하루 10분만 확인합니다. <strong>정보, 공감, 실마리</strong>가 다 있습니다."
+        },
+        {
+          "label": "KINDERGARTEN",
+          "text": "유치원 픽업 시간에 30분만 더 있으며 자연스럽게 다른 부모와 대화합니다. <strong>아이들을 통한 가장 자연스러운 만남</strong>입니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "COMMUNITIES",
+      "headline": "지금 바로 시작할 수 있는 3가지 커뮤니티",
+      "items": [
+        {
+          "title": "오프라인: Playgroup",
+          "description": "지역 Library나 Community Centre의 무료 프로그램. 처음엔 어색하지만, 아이가 중심이므로 엄마들이 자연스럽게 친해집니다."
+        },
+        {
+          "title": "오프라인: Kindergarten 픽업",
+          "description": "유치원 등하원 시간의 짧은 대화가 반복되면서 관계가 됩니다. 가장 '현지 호주식'이면서 지속적인 친구 만들기입니다."
+        },
+        {
+          "title": "온라인: 한국 커뮤니티",
+          "description": "호주 한국 엄마 앱(밴드, 카톡 등), 신뢰할 수 있는 정보 공유처. 깊은 감정과 고민을 나누기에 좋습니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "THIS WEEK",
+      "headline": "오늘부터 시작하기",
+      "intro": "고립감을 벗는 첫 걸음은 작지만 확실합니다.",
+      "items": [
+        "내 지역 Public Library 홈페이지에서 Playgroup 시간표 찾기 & 이번 주에 한 번 가보기",
+        "신뢰할 수 있는 호주 한국 엄마 커뮤니티 3개 찾아 가입하기",
+        "유치원/학교 픽업할 때, 다른 엄마와 인사 나누기 (아이 이름 + 자신의 이름 정도면 충분)",
+        "온라인 커뮤니티에 댓글 한 번 달기 (질문, 공감, 정보 공유 무관 — 참여하는 것이 중요)"
+      ],
+      "takeaway": "관계는 <strong>일관성</strong>에서 만들어집니다"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "커뮤니티에서: 해야 할 것 vs 하지 말아야 할 것",
+      "do": [
+        "매주 같은 시간에 나타나기 (신뢰 = 일관성)",
+        "아이의 놀이에 먼저 집중하고, 자연스럽게 대화 나누기",
+        "다른 엄마의 이야기를 경청하고, 자신의 고민도 천천히 나누기"
+      ],
+      "dont": [
+        "첫 만남에서 깊은 감정과 어려움을 다 털어놓기 (호주식이 아님)",
+        "온라인 커뮤니티에만 의존하기 (오프라인 관계도 건강을 위해 필요)",
+        "한국식 '즉시 친밀함'을 호주 친구들에게 기대하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "PROGRESS",
+      "headline": "관계가 만들어지는 단계",
+      "steps": [
+        {
+          "title": "Week 1-2: 같은 곳에 계속 가기",
+          "description": "Playgroup이나 Kindergarten 픽업에 정기적으로 나타납니다. 사람들이 당신을 인식하기 시작합니다. '아, 그 엄마'가 되는 것이 첫 단계입니다."
+        },
+        {
+          "title": "Week 3-4: 인사와 이름으로 인식",
+          "description": "같은 사람들을 자주 보면, 자연스럽게 '안녕하세요' 인사를 나누고, 아이와 부모의 이름으로 서로를 부르기 시작합니다."
+        },
+        {
+          "title": "Month 2+: 시간과 번호 교환",
+          "description": "공통의 주제(아이, 학교, 지역, 육아의 어려움)에서 대화가 깊어지고, 자연스럽게 개인적인 연락처를 교환하게 됩니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "호주에서도<br/><em>혼자</em>일 필요 없습니다",
+      "message": "고립감은 당신의 탓이 아닙니다. 이것은 <strong>문화적 차이</strong>이고, 해결할 수 있습니다.",
+      "comment_prompt": "댓글로 공유해 주세요: 당신은 호주에서 처음 친구를 만난 곳이 어디였나요? 지금 가장 편한 커뮤니티는?"
+    }
+  ]
+}

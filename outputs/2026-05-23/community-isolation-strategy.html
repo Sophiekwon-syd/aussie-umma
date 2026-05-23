@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Isolation Strategy - AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 32px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+<!-- Card 1: Cover -->
+<div class="card c1">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">02</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">COMMUNITY</div>
+    <div style="margin-bottom:16px">
+      <div class="td xl">혼자가 아닙니다.<br/><span class="ta">함께</span> 하는 방법을 알면 돼요</div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">호주에서 친구를 만들고 고립감을 벗는 전략</div>
+    <div class="cover-cta">저장하기 → </div>
+  </div>
+</div>
+
+<!-- Card 2: Hook -->
+<div class="card c2">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="hook-q">호주에 온 이후로,<br/><strong>마음을 나눌 친구</strong>가 생겼나요?</div>
+    <div class="hook-ans">호주 한국 엄마의 45%가 '친한 친구 3명 미만'</div>
+  </div>
+</div>
+
+<!-- Card 3: Definition -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">03</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">CULTURAL INSIGHT</div>
+      <div class="td md" style="margin-bottom:36px">호주식 친구 관계</div>
+      <div class="def-box">
+        <div class="def-box-text">호주 문화에서는 <strong>함께 시간을 보내는 것</strong>이 먼저 오고, 깊은 감정 교류는 자연스럽게 나중에 옵니다. 한국식 '빠른 친밀함'을 적용하면 안 됩니다.</div>
+      </div>
+      <div style="margin-top:40px;padding:32px;border-radius:20px;background:var(--accent-dim);text-align:center;font-size:28px;font-weight:900;color:var(--accent);border:1px solid var(--accent-dim);">이것은 호주 친구들이 당신을 거부하는 게 아닙니다</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 4: Data -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">04</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">RESEARCH</div>
+      <div class="td md" style="margin-bottom:36px">호주 한국 엄마의 <em>현황</em></div>
+      <div class="chips">
+        <div class="chip"><span class="cd"></span>45% 친한 친구 3명 미만</div>
+        <div class="chip"><span class="cd"></span>온라인 커뮤니티 만족도 21% 더 높음</div>
+        <div class="chip"><span class="cd"></span>Playgroup 참여 엄마들 산후우울증 32% 낮음</div>
+        <div class="chip"><span class="cd"></span>60% '사회적 고립감' 주요 스트레스</div>
+      </div>
+      <p style="font-size:24px;color:var(--ink2);line-height:1.55;">당신은 혼자가 아닙니다. 이것은 개인의 문제가 아니라 구조적, 문화적 문제입니다.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 5: Routine -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">05</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">WEEKLY HABIT</div>
+      <div class="td md" style="margin-bottom:36px">커뮤니티에 정기적으로 참여하기</div>
+      <div class="rb">
+        <div class="rb-t">PLAYGROUP</div>
+        <div class="rb-x">Public Library의 무료 Playgroup에 매주 같은 요일에 참석합니다. <strong>일관성</strong>이 만남을 만듭니다.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">ONLINE</div>
+        <div class="rb-x">신뢰할 수 있는 한국 엄마 커뮤니티 앱을 정하고, 하루 10분만 확인합니다. <strong>정보, 공감, 실마리</strong>가 있습니다.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">KINDERGARTEN</div>
+        <div class="rb-x">유치원 픽업 시간에 30분만 더 있으며 자연스럽게 대화합니다. <strong>아이들을 통한 가장 자연스러운 만남</strong>입니다.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 6: Categories -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">06</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">COMMUNITIES</div>
+      <div class="td md" style="margin-bottom:36px">지금 바로 시작할 수 있는 3가지</div>
+      <div class="ap">
+        <div class="ap-t">오프라인: Playgroup</div>
+        <div class="ap-d">지역 Library나 Community Centre의 무료 프로그램. 처음엔 어색하지만, 아이가 중심이므로 엄마들이 자연스럽게 친해집니다.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">오프라인: Kindergarten</div>
+        <div class="ap-d">유치원 등하원 시간의 짧은 대화가 반복되면서 관계가 됩니다. 가장 '현지 호주식'이면서 지속적인 친구 만들기입니다.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">온라인: 한국 커뮤니티</div>
+        <div class="ap-d">호주 한국 엄마 앱, 신뢰할 수 있는 정보 공유처. 깊은 감정과 고민을 나누기에 좋습니다.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 7: Checklist -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">07</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">THIS WEEK</div>
+      <div class="td md" style="margin-bottom:36px">오늘부터 시작하기</div>
+      <p style="font-size:24px;color:var(--ink2);margin-bottom:32px;">고립감을 벗는 첫 걸음은 작지만 확실합니다.</p>
+      <div class="ai"><span class="ai-d"></span>내 지역 Public Library 홈페이지에서 Playgroup 시간표 찾기 & 이번 주에 가보기</div>
+      <div class="ai"><span class="ai-d"></span>신뢰할 수 있는 호주 한국 엄마 커뮤니티 3개 찾아 가입하기</div>
+      <div class="ai"><span class="ai-d"></span>유치원/학교 픽업할 때, 다른 엄마와 인사 나누기</div>
+      <div class="ai"><span class="ai-d"></span>온라인 커뮤니티에 댓글 한 번 달기 (참여하는 것이 중요)</div>
+      <div class="takeaway">관계는 <strong>일관성</strong>에서 만들어집니다</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 8: Do/Don't -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">08</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">GUIDANCE</div>
+      <div class="td md" style="margin-bottom:36px;">커뮤니티에서: 해야 할 것 vs 하지 말아야 할 것</div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">DO</div>
+          <div class="ci-item">매주 같은 시간에 나타나기</div>
+          <div class="ci-item">아이의 놀이에 먼저 집중하기</div>
+          <div class="ci-item">다른 엄마의 이야기 경청하기</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">DON'T</div>
+          <div class="ci-item">첫 만남에서 깊은 감정 다 털어놓기</div>
+          <div class="ci-item">온라인에만 의존하기</div>
+          <div class="ci-item">호주식 '천천한 친밀함' 기대 못 하기</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 9: Steps -->
+<div class="card">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="wm en" style="font-size:200px;top:30px;right:20px">09</div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div>
+    </div>
+    <div class="center-block">
+      <div class="tl">PROGRESS</div>
+      <div class="td md" style="margin-bottom:36px;">관계가 만들어지는 단계</div>
+      <div class="si">
+        <div class="si-n">1</div>
+        <div class="si-c">
+          <div class="si-t">Week 1-2: 같은 곳에 계속 가기</div>
+          <div class="si-d">Playgroup이나 Kindergarten 픽업에 정기적으로 나타납니다. 사람들이 당신을 인식하기 시작합니다.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">2</div>
+        <div class="si-c">
+          <div class="si-t">Week 3-4: 인사와 이름으로 인식</div>
+          <div class="si-d">같은 사람들을 자주 보면, 자연스럽게 인사를 나누고, 아이와 부모의 이름으로 서로를 부르기 시작합니다.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">3</div>
+        <div class="si-c">
+          <div class="si-t">Month 2+: 시간과 번호 교환</div>
+          <div class="si-d">공통의 주제에서 대화가 깊어지고, 자연스럽게 개인적인 연락처를 교환하게 됩니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10: CTA -->
+<div class="card c10">
+  <span class="handle">@AUSSIE.UMMA</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="top">
+      <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div>
+    </div>
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE & SHARE</div>
+    <div class="td lg" style="text-align:center;margin-bottom:20px;">호주에서도<br/><span class="ta">혼자</span>일 필요 없습니다</div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%;">고립감은 당신의 탓이 아닙니다. 이것은 <strong>문화적 차이</strong>이고, 해결할 수 있습니다.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">댓글로 공유해 주세요: 호주에서 처음 친구를 만난 곳이 어디였나요?</p>
+  </div>
+</div>
+
+</body>
+</html>

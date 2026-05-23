@@ -1,0 +1,87 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-15T00:00:00Z",
+  "finished_at": "2026-05-15T23:59:59Z",
+  "carousels_per_run": 2,
+  "cards_per_carousel": 10,
+  "topics": [
+    {
+      "rank": 1,
+      "topic": "겨울 방학 준비: 호주 학교 2주 가을방학 어떻게 보낼까",
+      "carousel_file": "outputs/2026-05-15/autumn-school-holidays.html",
+      "research_file": "outputs/2026-05-15/research_1.json",
+      "copy_file": "outputs/2026-05-15/copy_1.json",
+      "recurring_theme": "바쁜 워킹맘 육아 병행 전략",
+      "status": "success",
+      "cards_produced": 10,
+      "png_files": [
+        "outputs/2026-05-15/images/autumn-school-holidays-card-01.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-02.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-03.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-04.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-05.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-06.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-07.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-08.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-09.png",
+        "outputs/2026-05-15/images/autumn-school-holidays-card-10.png"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "호주 아이 영어 발음 vs 한국 액센트: 바이링구얼 육아 중 발음 고민",
+      "carousel_file": "outputs/2026-05-15/bilingual-english-accent.html",
+      "research_file": "outputs/2026-05-15/research_2.json",
+      "copy_file": "outputs/2026-05-15/copy_2.json",
+      "recurring_theme": "한국-호주 바이링구얼 육아",
+      "status": "success",
+      "cards_produced": 10,
+      "png_files": [
+        "outputs/2026-05-15/images/bilingual-english-accent-card-01.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-02.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-03.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-04.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-05.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-06.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-07.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-08.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-09.png",
+        "outputs/2026-05-15/images/bilingual-english-accent-card-10.png"
+      ]
+    }
+  ],
+  "qa_results": {
+    "carousel_1": {
+      "file": "autumn-school-holidays.html",
+      "checks_passed": 5,
+      "script_check": "PASS",
+      "system_fonts_check": "PASS",
+      "google_fonts_check": "PASS",
+      "css_tokens_check": "PASS",
+      "class_names_check": "PASS",
+      "status": "approved"
+    },
+    "carousel_2": {
+      "file": "bilingual-english-accent.html",
+      "checks_passed": 5,
+      "script_check": "PASS",
+      "system_fonts_check": "PASS",
+      "google_fonts_check": "PASS",
+      "css_tokens_check": "PASS",
+      "class_names_check": "PASS",
+      "status": "approved"
+    }
+  },
+  "produced_assets": {
+    "total_png_files": 20,
+    "carousel_1_pngs": 10,
+    "carousel_2_pngs": 10,
+    "output_directory": "outputs/2026-05-15/images"
+  },
+  "summary": {
+    "carousels_completed": 2,
+    "carousels_failed": 0,
+    "total_cards_produced": 20,
+    "all_qa_passed": true
+  }
+}
