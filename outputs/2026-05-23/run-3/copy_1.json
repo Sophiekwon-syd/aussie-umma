@@ -1,0 +1,136 @@
+{
+  "topic": "호주 육아휴직 26주 완전 정복: 2026년 7월 바뀐 PPL 제도, 한국 엄마가 꼭 알아야 할 것",
+  "slug": "ppl-26-weeks-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "PPL 완전 정복",
+      "headline": "육아휴직이 <em>26주</em>로 늘었어요",
+      "subtitle": "2026년 7월부터 바뀐 호주 PPL, 우리 가족은 받을 수 있을까요?"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "PPL이 26주가 됐는데도 <strong>놓치는 엄마들</strong>이 있어요",
+      "answer": "자격 조건을 정확히 모르면, 신청도 못 해요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "PPL이란",
+      "term": "Parental Leave Pay",
+      "explanation": "정부가 출산·입양 후 일을 쉬는 부모에게 <strong>최저임금 기준으로 지급</strong>하는 육아휴직 급여예요. 고용주 복지가 아니라 Centrelink를 통한 정부 지원입니다.",
+      "punchline": "2026년 7월 1일부터 최대 26주. 역대 최장이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "핵심 숫자",
+      "headline": "얼마나 <em>받을 수 있을까요</em>",
+      "chips": [
+        "26주 — 총 130일",
+        "$948 / 주 (세전)",
+        "총 $24,648 (세전)",
+        "슈퍼 12% 별도 추가"
+      ],
+      "explanation": "파트너에게도 20일(4주)이 따로 예약돼요. 파트너가 안 쓰면 소멸되니, 함께 계획을 세워야 해요. (Services Australia 2026)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "신청 준비 루틴",
+      "headline": "출산 전에 미리 챙겨야 해요",
+      "entries": [
+        {
+          "label": "D-90",
+          "text": "myGov 계정에 Centrelink 연동 여부 확인. <strong>미리 연동해두면</strong> 신청이 훨씬 빨라요."
+        },
+        {
+          "label": "D-60",
+          "text": "비자 유형과 영주권 취득일 확인. <strong>2년 대기 조건</strong>에 해당하는지 지금 계산해보세요."
+        },
+        {
+          "label": "D-30",
+          "text": "파트너와 PPL 일수 분배 협의. <strong>20일은 파트너 전용</strong>이라 미사용 시 소멸돼요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "비자별 자격",
+      "headline": "내 비자, 받을 수 있나요?",
+      "items": [
+        {
+          "title": "시민권자",
+          "description": "대기 기간 없이 바로 자격 해당. 소득·근무 요건만 충족하면 신청 가능해요."
+        },
+        {
+          "title": "영주권자(PR)",
+          "description": "2019년 1월 1일 이후 PR 취득 시 출산 전까지 104주(2년) 대기 필수. 취득일 기준으로 계산하세요."
+        },
+        {
+          "title": "임시 비자 소지자",
+          "description": "기술이민 등 일반 임시 비자는 수급 불가. 임시 파트너 비자(309/820)는 동일한 2년 대기 조건 적용돼요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "신청 전 체크리스트",
+      "headline": "이 4가지, 지금 확인해보세요",
+      "intro": "신청 전에 이 조건들을 먼저 확인하면 실수 없이 진행할 수 있어요.",
+      "items": [
+        "개인 연간 소득이 $180,007 이하인가요? (2024-25 기준)",
+        "출산 전 13개월 중 10개월 이상, 330시간 이상 근무했나요?",
+        "PR 취득일이 출산일 기준 2년 이상 전인가요?",
+        "myGov 계정에 Centrelink가 연동돼 있나요?"
+      ],
+      "takeaway": "4가지 모두 해당되면 지금 바로 신청하세요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "PPL 신청, 이건 꼭 피하세요",
+      "do": [
+        "출산 3개월 전에 미리 신청 준비를 시작하세요",
+        "파트너 20일 예약분을 함께 계획에 포함하세요",
+        "슈퍼가 제대로 연동돼 있는지 Centrelink에서 확인하세요"
+      ],
+      "dont": [
+        "출산 후에야 서두르지 마세요 — 준비 기간이 촉박해져요",
+        "파트너 몫 20일을 그냥 포기하지 마세요 — 소멸되면 돌아오지 않아요",
+        "소득 신고를 부정확하게 하지 마세요 — 나중에 환수 청구될 수 있어요"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "신청 3단계",
+      "headline": "이 순서대로 하면 돼요",
+      "steps": [
+        {
+          "title": "myGov 계정 확인",
+          "description": "my.gov.au에 로그인해서 Centrelink가 연동돼 있는지 확인하세요. 없으면 지금 바로 연동하세요."
+        },
+        {
+          "title": "자격 조건 셀프 체크",
+          "description": "비자 유형, PR 취득일, 소득, 근무 시간을 기록해서 자격 여부를 직접 계산해보세요."
+        },
+        {
+          "title": "Centrelink에서 신청",
+          "description": "출산 3개월 전부터 신청 가능해요. myGov 로그인 후 Centrelink — Parental Leave Pay 메뉴로 이동하세요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "이 정보, 지금 <em>저장해두세요</em>",
+      "message": "임신 중이거나 출산을 계획 중인 엄마라면 <strong>지금이 확인할 타이밍</strong>이에요. 내 자격 여부를 모르면 26주를 통째로 놓칠 수 있어요.",
+      "comment_prompt": "궁금한 게 있으면 댓글로 남겨주세요."
+    }
+  ]
+}
