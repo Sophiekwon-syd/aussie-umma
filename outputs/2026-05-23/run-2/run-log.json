@@ -2,15 +2,19 @@
   "status": "complete",
   "started_at": "2026-05-23T13:00:00.000Z",
   "finished_at": "2026-05-23T13:02:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26329076397",
   "out_dir": "outputs/2026-05-23/run-2",
   "topics": [
     {
+      "carousel_index": 1,
       "topic": "2026 CCS 3일 보장 제도 완전 정복: 호주 어린이집 보조금, 이렇게 바뀌었어요",
       "slug": "ccs-3day-guarantee",
       "html_file": "outputs/2026-05-23/run-2/ccs-3day-guarantee.html",
       "cards": 10,
-      "outcome": "success",
-      "qa_passed": true,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10,
       "pre_qa_checks": {
         "no_javascript": true,
         "no_system_fonts": true,
@@ -20,12 +24,14 @@
       }
     },
     {
+      "carousel_index": 2,
       "topic": "한국어 살리기: 호주에서 바이링구얼 아이 한국어 실력 지키는 실전 전략",
       "slug": "korean-heritage-language",
       "html_file": "outputs/2026-05-23/run-2/korean-heritage-language.html",
       "cards": 10,
-      "outcome": "success",
-      "qa_passed": true,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10,
       "pre_qa_checks": {
         "no_javascript": true,
         "no_system_fonts": true,
