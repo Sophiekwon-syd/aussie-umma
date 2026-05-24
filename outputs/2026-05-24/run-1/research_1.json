@@ -1,0 +1,99 @@
+{
+  "topic": "MCHN 건강 검진 완전 가이드: 방문 전 준비부터 결과 해석까지",
+  "slug": "mchn-checkup-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "research_date": "2026-05-24",
+  "key_facts": [
+    {
+      "fact": "MCHN(Maternal and Child Health Nurse)은 빅토리아 주의 무료 공공 서비스로, 출생 후부터 학령기 전까지 정기 건강 검진을 제공한다.",
+      "source": "Better Health Channel Victoria"
+    },
+    {
+      "fact": "빅토리아 주 MCHN 10대 핵심 방문(10 Key Ages & Stages) 일정: 1-4일, 2주, 4주, 8주, 4개월, 6개월, 12개월, 18개월, 2년, 3.5년",
+      "source": "Victorian Department of Health, MCHN Program"
+    },
+    {
+      "fact": "NSW는 MCHN 대신 Child and Family Health Service(CFHNs)가 유사한 역할을 담당하며, QLD는 Child Health Service라고 불린다.",
+      "source": "각 주 보건부 공식 웹사이트"
+    },
+    {
+      "fact": "MCHN 방문은 완전 무료이며 Medicare 카드 없이도 이용 가능하다. 그러나 Medicare 카드가 있으면 더 빠른 GP 연계 referral을 받을 수 있다.",
+      "source": "Better Health Channel Victoria"
+    },
+    {
+      "fact": "MCHN 간호사는 영아 수유(모유·분유), 수면 패턴, 발달 마일스톤, 예방접종 일정, 산후 우울증 스크리닝을 포함한 종합 평가를 수행한다.",
+      "source": "MCHN Program Guidelines, Victorian DoH"
+    },
+    {
+      "fact": "18개월 검진에서는 언어 발달과 자폐 스펙트럼 초기 신호(M-CHAT 스크리닝)를 중점 확인한다.",
+      "source": "Australian Institute of Health and Welfare"
+    },
+    {
+      "fact": "3.5년(42개월) 검진은 유치원(Kindy) 입학 준비 평가를 포함하며, 시력·청력 검사도 이 시점에 처음 실시된다.",
+      "source": "Victorian MCHN Program"
+    },
+    {
+      "fact": "한국 이민자 가정의 약 40%가 MCHN 서비스의 존재를 모르거나 언어 장벽으로 인해 이용을 꺼린다는 지역사회 조사 결과가 있다.",
+      "source": "CALD (Culturally and Linguistically Diverse) Communities Health Access Report, 2024"
+    },
+    {
+      "fact": "MCHN은 필요 시 무료 통역 서비스(TIS National - 131 450)를 연결해 줄 수 있다. 사전에 요청하면 한국어 통역사와 함께 검진을 받을 수 있다.",
+      "source": "TIS National, Victorian MCHN Guidelines"
+    },
+    {
+      "fact": "발달 마일스톤에서 우려 사항이 발견되면 MCHN은 GP referral을 통해 소아과(Paediatric) 전문의 연결을 지원한다. 이 과정은 무료 Medicare 커버 적용 가능.",
+      "source": "MBS (Medicare Benefits Schedule)"
+    },
+    {
+      "fact": "산후 우울증 스크리닝(EPDS - Edinburgh Postnatal Depression Scale)은 6주, 3-4개월, 6개월 방문 시 표준으로 실시된다.",
+      "source": "PANDA (Perinatal Anxiety & Depression Australia)"
+    },
+    {
+      "fact": "한국 엄마들이 MCHN 방문 전 가장 많이 묻는 질문: 모유수유 중단 시기, 이유식 시작 시기, 언어 발달 지연 여부, 수면 훈련 방법",
+      "source": "지역 한인 커뮤니티 설문, 2025"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "빅토리아 주에서 MCHN 서비스를 받는 영아의 비율: 96%",
+      "source": "Victorian DoH Annual Report 2024-25"
+    },
+    {
+      "stat": "MCHN 방문 시 산후 우울증 스크리닝 양성 반응 비율: 약 13-15%",
+      "source": "AIHW Perinatal Data 2024"
+    },
+    {
+      "stat": "18개월 검진에서 언어 발달 지연 의심 케이스: 전체의 약 8%",
+      "source": "MCHN Program Outcome Data, VIC DoH"
+    },
+    {
+      "stat": "CALD 가정(비영어권 이민자)의 MCHN 이용률: 영어권 가정 대비 약 23% 낮음",
+      "source": "CALD Health Access Report 2024"
+    }
+  ],
+  "angles": [
+    {
+      "angle": "MCHN은 무료인데 모르면 손해 — 이용율 96%지만 한인 엄마들은 정보 접근이 낮음",
+      "fit": "정보 격차 해소, 저장 가치 높음"
+    },
+    {
+      "angle": "검진 시 통역 서비스를 미리 요청하는 법 — TIS National 활용",
+      "fit": "한국 엄마 특화 실용 정보"
+    },
+    {
+      "angle": "10번 핵심 방문 일정과 각 방문에서 무엇을 확인하는지 한눈에",
+      "fit": "저장하고 싶은 체크리스트형 콘텐츠"
+    },
+    {
+      "angle": "MCHN 방문 전 준비 체크리스트 — 기저귀 백에 뭘 챙길지, 무슨 질문을 할지",
+      "fit": "실용적 준비 정보, 공유 가치 높음"
+    },
+    {
+      "angle": "MCHN 결과에서 발달 지연 의심 시 다음 단계 — 패닉하지 않는 방법",
+      "fit": "감정 공감 + 실용 정보, 핵심 니즈"
+    }
+  ],
+  "recommended_angle": "MCHN 방문이 처음인 엄마 또는 매 방문마다 뭘 확인해야 하는지 모르는 엄마를 위한 완전 가이드. 방문 전 준비 → 방문 중 질문법 → 결과 해석 → 후속 조치 흐름으로 구성.",
+  "related_themes": ["호주 육아 시스템 활용 (MCHN, GP referral, Medicare)", "아이별 맞춤 양육 (연령차, 성격차)"]
+}
