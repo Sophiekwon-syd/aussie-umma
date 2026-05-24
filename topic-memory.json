@@ -95,6 +95,18 @@
       "date": "2026-05-24",
       "carousel_file": "outputs/2026-05-24/run-1/extracurricular-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 스크린타임 관리: 16세 미만 소셜미디어 금지 이후 실전 가이드",
+      "date": "2026-05-24",
+      "carousel_file": "outputs/2026-05-24/run-2/screen-time-management-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "아이 수면 루틴 만들기: 호주 소아과 권고 기준과 실전 취침 타임테이블",
+      "date": "2026-05-24",
+      "carousel_file": "outputs/2026-05-24/run-2/child-sleep-routine-guide.html",
+      "cards": 10
     }
   ]
 }
