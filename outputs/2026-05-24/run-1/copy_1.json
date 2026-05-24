@@ -1,0 +1,133 @@
+{
+  "topic": "MCHN 건강 검진 완전 가이드: 방문 전 준비부터 결과 해석까지",
+  "slug": "mchn-checkup-guide",
+  "account": "@aussie.umma",
+  "brand_name": "AUSSIE UMMA",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "MCHN GUIDE",
+      "headline": "아는 엄마만 <em>제대로</em> 쓰는",
+      "subtitle": "MCHN 건강 검진, 방문 전 준비부터 결과 해석까지"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "MCHN 방문 때마다 <strong>뭘 물어봐야 하는지</strong> 모르고 그냥 나온 적 있으신가요?",
+      "answer": "준비 없이 가면 10분이 그냥 지나가요. 이 카드 보고 가세요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS MCHN",
+      "term": "MCHN",
+      "explanation": "Maternal and Child Health Nurse. 출생부터 학령기 전까지 아이의 발달을 <strong>무료로</strong> 추적해주는 호주의 공공 간호사 서비스예요.",
+      "punchline": "GP가 아프면 가는 곳이라면, MCHN은 건강할 때 가는 곳이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "KEY VISITS",
+      "headline": "출생부터 3.5세까지, <em>총 10번</em>의 무료 검진",
+      "chips": ["1-4일", "2주 · 4주 · 8주", "4·6·12·18개월", "2세 · 3.5세"],
+      "explanation": "이 10번의 방문은 빅토리아 주 기준 핵심 일정이에요. 각 방문마다 확인하는 항목이 달라요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "BEFORE YOU GO",
+      "headline": "방문 전 3가지 준비",
+      "entries": [
+        {
+          "label": "01",
+          "text": "<strong>질문 목록</strong>을 미리 적어두세요. 막상 가면 생각이 안 나요."
+        },
+        {
+          "label": "02",
+          "text": "Child Health Record <strong>수첩</strong>을 반드시 챙겨요. 예방접종 기록이 들어있어요."
+        },
+        {
+          "label": "03",
+          "text": "영어가 불편하면 통역 서비스(TIS 131 450)를 <strong>미리 요청</strong>하세요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "WHAT THEY CHECK",
+      "headline": "MCHN에서 실제로 보는 것 3가지",
+      "items": [
+        {
+          "title": "발달 마일스톤",
+          "description": "언어, 운동, 사회성 발달이 연령에 맞는지 확인해요. 18개월에는 자폐 초기 신호도 스크리닝해요."
+        },
+        {
+          "title": "수유와 영양",
+          "description": "모유수유 어려움, 이유식 시작 시기, 체중 증가 곡선을 함께 봐요."
+        },
+        {
+          "title": "엄마 정신건강",
+          "description": "EPDS 질문지로 산후 우울증을 스크리닝해요. 솔직하게 답하는 게 중요해요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "MUST-ASK",
+      "headline": "방문 시 꼭 물어봐야 할 것 4가지",
+      "intro": "MCHN 간호사에게 이 4가지는 꼭 확인하세요.",
+      "items": [
+        "수면 패턴이 이 나이에 정상인가요?",
+        "이유식 시작 또는 다음 단계는 언제가 좋을까요?",
+        "발달이 또래와 비교해 괜찮은가요?",
+        "다음 예방접종은 언제, 어디서 받아야 하나요?"
+      ],
+      "takeaway": "모르면 물어봐도 돼요. 그게 MCHN의 역할이에요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "MCHN 방문, 이렇게 하세요",
+      "do": [
+        "수면 부족, 수유 어려움 등 솔직하게 말하기",
+        "정신적으로 힘들다면 EPDS에 사실대로 답하기",
+        "우려되는 점은 작은 것도 꺼내기"
+      ],
+      "dont": [
+        "괜찮은 척 다 넘기기",
+        "한국 기준이랑 비교하며 혼자 판단하기",
+        "발달 지연 의심 시 인터넷 검색으로 결론 내리기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "IF CONCERNS ARISE",
+      "headline": "발달 지연 의심 결과가 나왔다면",
+      "steps": [
+        {
+          "title": "패닉하지 않기",
+          "description": "MCHN은 조기 발견을 위한 스크리닝이에요. 의심 = 확진이 아니에요."
+        },
+        {
+          "title": "GP Referral 요청",
+          "description": "MCHN 간호사에게 GP 소견서(referral)를 요청하면 소아과 연결이 빨라져요."
+        },
+        {
+          "title": "소아과 전문의 연결",
+          "description": "Medicare 적용으로 비용 부담이 줄어요. CDM 플랜으로 추가 지원도 가능해요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "다음 MCHN 방문 전에 <em>꺼내보세요</em>",
+      "message": "준비된 엄마가 <strong>10분을 제대로</strong> 씁니다. 이 카드를 저장해두면 매번 도움이 돼요.",
+      "comment_prompt": "여러분은 MCHN에서 가장 도움됐던 게 뭔가요? 댓글로 알려주세요."
+    }
+  ]
+}
