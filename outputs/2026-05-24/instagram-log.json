@@ -1,8 +1,8 @@
 {
   "date": "2026-05-24",
-  "last_run_at": "2026-05-24T09:45:32.401Z",
+  "last_run_at": "2026-05-24T18:54:34.656Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "010d73f014d9b9e346cee9ff5c98ff60544720dd",
+  "ref": "5035fd9cb5c5881aef0c53051d50285389f1b370",
   "results": [
     {
       "topic": "MCHN 건강 검진 완전 가이드: 방문 전 준비부터 결과 해석까지",
@@ -41,6 +41,44 @@
         "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/010d73f014d9b9e346cee9ff5c98ff60544720dd/outputs/2026-05-24/run-1/images/extracurricular-guide-10.png"
       ],
       "posted_at": "2026-05-24T09:45:32.401Z"
+    },
+    {
+      "topic": "호주 아이 스크린타임 관리: 16세 미만 소셜미디어 금지 이후 실전 가이드",
+      "slug": "screen-time-management-guide",
+      "carousel_container_id": "18093183608089110",
+      "ig_media_id": "18442322782187812",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/screen-time-management-guide-10.png"
+      ],
+      "posted_at": "2026-05-24T18:52:35.882Z"
+    },
+    {
+      "topic": "아이 수면 루틴 만들기: 호주 소아과 권고 기준과 실전 취침 타임테이블",
+      "slug": "child-sleep-routine-guide",
+      "carousel_container_id": "18093184106089110",
+      "ig_media_id": "18064279079433744",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5035fd9cb5c5881aef0c53051d50285389f1b370/outputs/2026-05-24/run-2/images/child-sleep-routine-guide-10.png"
+      ],
+      "posted_at": "2026-05-24T18:54:34.656Z"
     }
   ]
 }
