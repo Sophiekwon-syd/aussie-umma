@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-24T09:29:13.000Z",
+  "finished_at": "2026-05-24T09:40:12.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26357567247",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "MCHN 건강 검진 완전 가이드: 방문 전 준비부터 결과 해석까지",
+      "slug": "mchn-checkup-guide",
+      "html_file": "outputs/2026-05-24/run-1/mchn-checkup-guide.html",
+      "copy_file": "outputs/2026-05-24/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 초등학교 방과 후 활동 고르기: 비용·시간·아이 성향 체크리스트",
+      "slug": "extracurricular-guide",
+      "html_file": "outputs/2026-05-24/run-1/extracurricular-guide.html",
+      "copy_file": "outputs/2026-05-24/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-01.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-02.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-03.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-04.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-05.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-06.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-07.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-08.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-09.png",
+    "outputs/2026-05-24/run-1/images/mchn-checkup-guide-10.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-01.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-02.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-03.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-04.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-05.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-06.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-07.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-08.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-09.png",
+    "outputs/2026-05-24/run-1/images/extracurricular-guide-10.png"
+  ]
+}
