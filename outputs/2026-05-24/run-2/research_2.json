@@ -1,0 +1,57 @@
+{
+  "topic": "아이 수면 루틴 만들기: 호주 소아과 권고 기준과 실전 취침 타임테이블",
+  "slug": "child-sleep-routine-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    "호주 아동 건강 기관들(SCHN, Raising Children Network, Healthdirect)은 나이별 수면 시간 권고치를 공식 발표하고 있다.",
+    "영아(0-1세): 14-17시간 (낮잠 포함), 유아(1-3세): 11-14시간 (낮잠 포함), 미취학(3-5세): 10-13시간, 초등(5-11세): 9-11시간.",
+    "5-11세 아이가 오전 7시에 일어나야 한다면 밤 9시 이전에 잠자리에 들어야 한다.",
+    "수면 부족은 정신건강 문제, 성장 저하, 비만, 학업 성취 저하와 연관된다.",
+    "한국 육아 문화에서는 부모-아이 함께 자기(co-sleeping)가 흔한데, 연구에 따르면 이는 야간 각성 증가 및 수면 문제와 연관된다.",
+    "수면 개시 연관 장애(Sleep Onset Association Disorder): 아이가 부모 없이 혼자 잠드는 법을 모르면 야간에 깼을 때도 부모가 필요하게 된다.",
+    "호주 아동 수면 문제는 영아기(17.1%)에 가장 높고 중기 아동기(7.7%)로 감소한다 (호주 종단 연구 결과).",
+    "취침 루틴 30-45분: 목욕 → 잠옷 → 양치 → 책 읽기 → 소등의 일정한 순서가 권고된다.",
+    "수면 적합 환경: 조용하고, 어둡고, 20-22도 온도가 최적.",
+    "취침 1시간 전 모든 스크린 끄기 - 블루라이트는 수면 호르몬 멜라토닌 분비를 억제한다."
+  ],
+  "statistics": [
+    { "stat": "유아(1-3세): 11-14시간 수면 필요", "source": "SCHN (Sydney Children's Hospital Network), 호주 정부 보건부" },
+    { "stat": "미취학(3-5세): 10-13시간 수면 필요", "source": "호주 정부 24시간 움직임 가이드라인" },
+    { "stat": "초등(5-11세): 9-11시간 수면 필요", "source": "Raising Children Network, SCHN" },
+    { "stat": "수면 문제 발생률: 영아기 17.1% → 중기 아동기 7.7%", "source": "호주 종단 연구 (Longitudinal Study of Australian Children)" },
+    { "stat": "혼자 잠드는 어려움이 8-9세 수면 문제 위험 가장 높음", "source": "PMC 아동 수면 행동 연구" }
+  ],
+  "angles": [
+    "한국 엄마들이 흔히 하는 실수: 아이 졸릴 때까지 기다렸다가 재우기 (너무 늦어짐)",
+    "나이별 수면 시간 권고치를 모르면 아이를 너무 늦게 재운다",
+    "호주 전문가들이 권장하는 취침 루틴 30-45분 공식",
+    "한국 문화의 함께 자기 vs 호주 독립 수면: 어떻게 균형을 잡을까",
+    "수면 환경 최적화: 온도, 빛, 소음 조절 실전 팁"
+  ],
+  "practical_tips": [
+    "아이 나이에 맞는 수면 시간 계산: 기상 시간 역산해서 취침 시간 정하기",
+    "매일 같은 순서의 취침 루틴 30-45분 만들기: 목욕 → 잠옷 → 양치 → 책 1-2권 → 소등",
+    "취침 1시간 전 스크린 모두 끄기 (TV, 태블릿, 스마트폰 포함)",
+    "방 온도 20-22도 유지, 빛 차단 커튼 사용",
+    "아이가 혼자 잠드는 연습 - '졸리지만 아직 깨어 있을 때' 침대에 눕히기",
+    "MCHN 방문 시 수면 문제 상담하기 - 수면 클리닉 referral 요청 가능",
+    "Children's Hospital at Westmead, Tresillian 수면 서비스 활용 가능"
+  ],
+  "australian_resources": [
+    "Raising Children Network: raisingchildren.net.au",
+    "SCHN (Sydney Children's Hospital Network): schn.health.nsw.gov.au",
+    "Tresillian 수면 서비스: tresillian.org.au",
+    "Healthdirect: healthdirect.gov.au",
+    "Children's Health Queensland: childrens.health.qld.gov.au",
+    "MCHN (Maternal & Child Health Nurse) - 수면 문제 상담 및 referral 가능"
+  ],
+  "sources": [
+    "https://www.schn.health.nsw.gov.au/kids-health-hub/healthy-sleep-children/sleep-recommendations-age",
+    "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/bedtime-routines",
+    "https://www.healthdirect.gov.au/sleep-tips-for-children",
+    "https://www.tresillian.org.au/toddler/sleep/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6859188/",
+    "https://www.childrens.health.qld.gov.au/health-a-to-z/healthy-sleep"
+  ]
+}
