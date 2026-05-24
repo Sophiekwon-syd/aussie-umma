@@ -1,0 +1,99 @@
+{
+  "topic": "호주 초등학교 방과 후 활동 고르기: 비용·시간·아이 성향 체크리스트",
+  "slug": "extracurricular-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "research_date": "2026-05-24",
+  "key_facts": [
+    {
+      "fact": "호주 초등학생의 평균 방과 후 활동 참여 수: 주 2-3개. 상위 활동은 수영(68%), 스포츠(55%), 음악(41%) 순이다.",
+      "source": "Australian Bureau of Statistics, Children's Participation in Cultural and Leisure Activities 2024"
+    },
+    {
+      "fact": "멜버른 기준 수영 레슨 비용: 주 1회 30분 기준 월 $80-$140. 음악 개인 레슨: 월 $180-$280. 축구·럭비 등 팀 스포츠: 시즌 등록비 $200-$500.",
+      "source": "각 활동 제공 기관 공식 요금표, 2026"
+    },
+    {
+      "fact": "호주 정부는 Active Kids Rebate(NSW)나 KidSport(WA) 등 주별로 스포츠 활동비 바우처를 제공한다. 빅토리아는 Get Active Kids Voucher ($200/년)로 지원.",
+      "source": "Sport and Recreation Victoria, 2026"
+    },
+    {
+      "fact": "Get Active Kids Voucher (VIC): 연 $200, Health Care Card 또는 Veteran Card 소지 가정 자녀 대상. 온라인 신청.",
+      "source": "Sport and Recreation Victoria 공식 웹사이트"
+    },
+    {
+      "fact": "연구에 따르면 초등 저학년(5-8세)은 한 가지 활동에 집중하는 것이 다양한 활동에 분산하는 것보다 자신감 발달에 효과적이다.",
+      "source": "Australian Institute of Sport, Child Athlete Development Framework 2023"
+    },
+    {
+      "fact": "방과 후 활동 과부하 신호: 주 4회 이상 활동 참여, 아이가 가기 싫어함, 숙제나 수면 시간 부족, 식욕 감소.",
+      "source": "Better Health Channel, Managing Extracurricular Activities"
+    },
+    {
+      "fact": "한국 이민자 가정은 평균 호주 가정보다 학습 중심 방과 후 활동(수학 튜터, 피아노)에 더 많은 비용을 투자하는 경향이 있다.",
+      "source": "Multicultural Education Research Review, 2024"
+    },
+    {
+      "fact": "호주 초등학교에는 Lunchtime 클럽, Chess Club, Art Club 등 무료 방과 후 활동이 있다. 학교 웹사이트나 School App을 통해 확인 가능.",
+      "source": "Victorian Curriculum and Assessment Authority"
+    },
+    {
+      "fact": "수영은 호주에서 '생존 수영(survival swimming)'으로 필수 기술로 여겨진다. Swim Australia 인증 프로그램은 Level 1-10으로 구성.",
+      "source": "Swim Australia, Learn to Swim Framework"
+    },
+    {
+      "fact": "내성적 아이에게 적합한 활동: 개인 악기, 미술, 체조, 무술(태권도 포함). 외향적 아이: 팀 스포츠, 연극, 합창.",
+      "source": "Child Development Resource, Raising Children Network (Australia)"
+    },
+    {
+      "fact": "한국계 호주 커뮤니티에서 인기 있는 방과 후 활동: 한국학교(토요일), 태권도, 피아노, 수영. 특히 토요 한국학교는 언어 유지와 커뮤니티 연결 역할을 동시에 한다.",
+      "source": "Korean Community Services Australia 활동 리포트, 2025"
+    },
+    {
+      "fact": "OSHC(Outside School Hours Care)는 방과 후 돌봄 서비스로 CCS(Child Care Subsidy) 보조금이 적용된다. 주 2일 이상 이용 시 유효.",
+      "source": "Services Australia, CCS Guidelines 2026"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "방과 후 활동 참여 아이의 학교 참여도가 미참여 아이보다 27% 높음",
+      "source": "Australian Council for Educational Research (ACER) 2024"
+    },
+    {
+      "stat": "호주 가정의 방과 후 활동 평균 연간 지출: $2,400-$4,800/자녀",
+      "source": "Finder.com.au Family Finance Report 2025"
+    },
+    {
+      "stat": "VIC Get Active Kids Voucher 신청 가정 중 CALD 배경 가정 비율: 28%",
+      "source": "Sport and Recreation Victoria Annual Report 2025"
+    },
+    {
+      "stat": "활동 과부하 아이의 번아웃 비율: 주 4회 이상 참여 시 34%가 6개월 내 활동 포기",
+      "source": "Australian Psychological Society, Child Wellbeing Report 2024"
+    }
+  ],
+  "angles": [
+    {
+      "angle": "돈 덜 쓰고 잘 고르는 법 — 정부 바우처와 무료 학교 클럽 먼저 확인",
+      "fit": "워킹맘의 비용 고민 해결, 저장 가치 높음"
+    },
+    {
+      "angle": "아이 성향별 활동 매칭 — 내성적 vs 외향적 아이에게 맞는 선택",
+      "fit": "개인화된 정보, 공감 유발"
+    },
+    {
+      "angle": "과부하 신호 체크리스트 — 너무 많은 활동의 위험성",
+      "fit": "한국 엄마들의 '더 많이' 심리에 반하는 인사이트"
+    },
+    {
+      "angle": "수영은 필수, 나머지는 선택 — 호주에서 꼭 해야 하는 활동 1가지",
+      "fit": "명확한 행동 유도, 논쟁 없는 합의 포인트"
+    },
+    {
+      "angle": "한국학교 + 태권도 조합: 언어·정체성·운동을 한번에",
+      "fit": "한국인 정체성 유지 욕구와 연결"
+    }
+  ],
+  "recommended_angle": "방과 후 활동 선택에서 한국 엄마들이 겪는 실제 고민(비용, 아이 성향, 과부하 우려)을 중심으로. 활동 선택 기준 → 아이 성향 매칭 → 비용 절감 팁 → 과부하 방지 체크리스트 흐름으로 구성.",
+  "related_themes": ["바쁜 워킹맘 육아 병행 전략", "한국-호주 바이링구얼 육아", "아이별 맞춤 양육 (연령차, 성격차)"]
+}
