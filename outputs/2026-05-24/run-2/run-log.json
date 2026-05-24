@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-24T18:37:55.000Z",
+  "finished_at": "2026-05-24T18:49:02.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26369483941",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 스크린타임 관리: 16세 미만 소셜미디어 금지 이후 실전 가이드",
+      "slug": "screen-time-management-guide",
+      "html_file": "outputs/2026-05-24/run-2/screen-time-management-guide.html",
+      "copy_file": "outputs/2026-05-24/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "아이 수면 루틴 만들기: 호주 소아과 권고 기준과 실전 취침 타임테이블",
+      "slug": "child-sleep-routine-guide",
+      "html_file": "outputs/2026-05-24/run-2/child-sleep-routine-guide.html",
+      "copy_file": "outputs/2026-05-24/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-01.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-02.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-03.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-04.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-05.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-06.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-07.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-08.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-09.png",
+    "outputs/2026-05-24/run-2/images/screen-time-management-guide-10.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-01.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-02.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-03.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-04.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-05.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-06.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-07.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-08.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-09.png",
+    "outputs/2026-05-24/run-2/images/child-sleep-routine-guide-10.png"
+  ]
+}
