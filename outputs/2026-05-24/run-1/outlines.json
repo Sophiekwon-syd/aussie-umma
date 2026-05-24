@@ -1,0 +1,138 @@
+{
+  "outlines": [
+    {
+      "topic": "MCHN 건강 검진 완전 가이드: 방문 전 준비부터 결과 해석까지",
+      "slug": "mchn-checkup-guide",
+      "carousel_index": 1,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "아직도 MCHN이 뭔지 모르는 엄마들의 시선을 잡는다. '무료'와 '아는 사람만 안다'는 느낌으로 호기심 유발.",
+          "key_message": "MCHN은 무료 건강 검진인데, 한국 엄마들이 잘 모르고 지나친다."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "MCHN 방문 전 막연한 불안감을 가진 엄마들의 공감을 끌어낸다.",
+          "key_message": "검진 때 뭘 봐요? 뭘 물어봐야 하죠? — 이 카드 하나로 해결된다."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "MCHN이 무엇인지 명확히 정의한다.",
+          "key_message": "MCHN = Maternal and Child Health Nurse. 호주 무료 아동 발달 전문 간호사 서비스."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "10번 핵심 방문 일정을 숫자로 전달한다.",
+          "key_message": "출생 후 1-4일부터 3.5세까지, 총 10번의 무료 검진 포인트"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "방문 전 준비 루틴 3가지를 알려준다.",
+          "key_message": "방문 전: 질문 목록 준비 / 수첩(Child Health Record) 챙기기 / 통역 필요 시 미리 요청"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "MCHN에서 실제로 무엇을 확인하는지 3가지 카테고리로 나눈다.",
+          "key_message": "발달 마일스톤 확인 / 수유·영양 평가 / 엄마 정신건강 스크리닝"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "방문 시 꼭 물어봐야 할 질문 체크리스트를 제공한다.",
+          "key_message": "수면·수유·발달·다음 예방접종 일정 — 이 4개는 반드시 확인"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "한국 엄마들이 MCHN에서 자주 하는 실수를 바로잡는다.",
+          "key_message": "DO: 솔직하게 어려움 말하기 / DON'T: 괜찮은 척 숨기기"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "발달 지연 의심 결과가 나왔을 때 대처 3단계를 안내한다.",
+          "key_message": "패닉 금지 → MCHN의 GP referral 요청 → 소아과 전문의 연결"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장을 유도하고 팔로우로 연결한다.",
+          "key_message": "다음 MCHN 방문 전 이 카드 꺼내보세요. 저장하기."
+        }
+      ]
+    },
+    {
+      "topic": "호주 초등학교 방과 후 활동 고르기: 비용·시간·아이 성향 체크리스트",
+      "slug": "extracurricular-guide",
+      "carousel_index": 2,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "방과 후 활동 선택 고민 중인 엄마들의 시선을 잡는다.",
+          "key_message": "수영? 피아노? 태권도? — 다 시키고 싶은데 다 시키면 안 되는 이유"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "과부하 죄책감과 '다 시켜야 한다'는 압박감에 공감한다.",
+          "key_message": "아이가 활동 가기 싫다고 할 때, 엄마는 어떻게 해야 하나?"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "방과 후 활동의 진짜 목적을 재정의한다.",
+          "key_message": "Extracurricular = 학습이 아닌 사회성·체력·자신감 발달의 장"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "호주 초등학생 방과 후 활동 현황과 비용 데이터를 전달한다.",
+          "key_message": "자녀 1인당 연간 $2,400-$4,800 지출, 수영 참여율 68%"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "활동 선택 전 엄마가 거쳐야 할 3단계 루틴을 안내한다.",
+          "key_message": "아이 의견 먼저 / 주 2회 이하로 시작 / 한 시즌 해보고 결정"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "아이 성향별 활동 카테고리 3가지를 제안한다.",
+          "key_message": "내성적: 개인 악기·미술·체조 / 외향적: 팀스포츠·연극 / 바이링구얼: 한국학교·태권도"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "활동 과부하 신호 체크리스트를 제공한다.",
+          "key_message": "주 4회 초과, 가기 싫다고 함, 숙제·수면 부족, 식욕 감소 — 이 중 2개 이상이면 줄여야 한다"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "방과 후 활동 선택에서 흔한 실수와 좋은 접근을 대비한다.",
+          "key_message": "DO: 아이 의견 듣기 / DON'T: 엄마가 원하는 활동 강요"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "비용 절감 3단계를 실용적으로 안내한다.",
+          "key_message": "학교 무료 클럽 먼저 → 정부 바우처(Get Active Kids $200) 신청 → 그다음 유료 등록"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장과 공유를 유도한다.",
+          "key_message": "활동 선택 시즌, 이 체크리스트 저장해두세요. 저장하기."
+        }
+      ]
+    }
+  ]
+}
