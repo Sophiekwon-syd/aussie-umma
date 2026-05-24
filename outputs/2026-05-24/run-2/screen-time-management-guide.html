@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>호주 아이 스크린타임 관리 | @aussie.umma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;           /* overridden: ACCENT_PRIMARY */
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;             /* overridden: ACCENT_SECONDARY */
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Centered content block */
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches / Cards */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't Grid */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+<!-- Card 01: Cover -->
+<div class="card c1">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">S</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">스크린타임</div>
+    <div style="margin-bottom:16px">
+      <div class="td lg">우리 아이 스크린,<br />얼마나 <span class="ta">괜찮을까요</span></div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">호주 법이 바뀐 지금, 집에서 실제로 할 수 있는 것들</div>
+    <div class="cover-cta">저장하기 <span>→</span></div>
+  </div>
+</div>
+
+<!-- Card 02: Hook -->
+<div class="card c2">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="hook-q">밥 먹을 때도, 잠들 때도,<br />아이 손에서 <strong>스마트폰이 안 떨어지나요?</strong></div>
+    <div class="hook-ans">혼자 고민하지 마세요. 호주 엄마들 모두 같은 전쟁 중이에요.</div>
+  </div>
+</div>
+
+<!-- Card 03: Definition -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">LAW CHANGE</div>
+      <div class="td md" style="margin-bottom:36px">16세 미만<br /><span class="ta">소셜미디어 금지법</span></div>
+      <div class="def-box">
+        <div class="def-box-text">
+          2025년 12월부터 호주는 세계 최초로 16세 미만의 소셜미디어 계정 개설을 <strong>법으로 금지</strong>했어요. Instagram, TikTok, YouTube 등 주요 플랫폼이 대상이에요. 아이나 부모에게 벌금은 없고, 플랫폼 측이 최대 4,950만 달러 책임을 져요.
+        </div>
+      </div>
+      <div class="tb" style="margin-top:36px;font-size:26px;">법이 생겼다고 집에서 할 일이 사라지는 건 아니에요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 04: Data -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">GUIDELINES</div>
+      <div class="td md" style="margin-bottom:36px">호주 정부가 정한<br /><span class="ta">나이별 기준</span></div>
+      <div class="chips">
+        <div class="chip"><span class="cd"></span>2세 미만: 스크린 0분</div>
+        <div class="chip"><span class="cd"></span>2-5세: 하루 최대 1시간</div>
+        <div class="chip"><span class="cd"></span>5-17세: 오락용 하루 2시간</div>
+        <div class="chip"><span class="cd"></span>모든 연령: 취침 1시간 전 스크린 금지</div>
+      </div>
+      <div class="tb">이 기준을 지키는 호주 미취학 아동은 17-23%뿐이에요. 못 지켜도 죄책감 갖지 마세요. 대신 오늘 하나씩 바꿔보는 거예요. <span class="tm">(출처: Australian Government Dept of Health, AIFS)</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 05: Routine -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">DAILY RHYTHM</div>
+      <div class="td md" style="margin-bottom:48px">스크린타임<br /><span class="ta">하루 루틴 만들기</span></div>
+      <div class="rb">
+        <div class="rb-t">아침</div>
+        <div class="rb-x">등원 전 스크린 없음. 아침 밥상은 <strong>스크린 프리 존</strong>으로 선언하세요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">방과후</div>
+        <div class="rb-x">귀가 후 30분 자유 시간 먼저. 그 다음 <strong>지정된 스크린 시간</strong>을 주세요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">저녁</div>
+        <div class="rb-x">취침 1시간 전 전체 스크린 종료. 이 시간부터 <strong>수면 루틴</strong>으로 전환이에요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 06: Categories -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">SCREEN TYPES</div>
+      <div class="td md" style="margin-bottom:48px">스크린이 다 같은<br /><span class="ta">스크린은 아니에요</span></div>
+      <div class="ap">
+        <div class="ap-t">패시브 스크린</div>
+        <div class="ap-d">유튜브 자동재생, TV 보기처럼 아이가 그냥 보기만 하는 것. 가장 제한이 필요한 유형이에요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">인터랙티브 스크린</div>
+        <div class="ap-d">할머니와 영상통화, 부모와 함께 보는 영상. 연결과 소통이 목적이면 다르게 볼 수 있어요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">교육 스크린</div>
+        <div class="ap-d">아이가 직접 만들거나 배우는 앱. 종류와 목적을 먼저 보고 시간을 정하세요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 07: Checklist -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">CHECK NOW</div>
+      <div class="td md" style="margin-bottom:16px">우리 집 스크린타임<br /><span class="ta">점검 4가지</span></div>
+      <div class="tb" style="margin-bottom:36px;font-size:24px;">오늘 밤 바로 확인해보세요.</div>
+      <div class="ai"><span class="ai-d"></span>식탁 위에 스마트폰 없애기 완료했나요?</div>
+      <div class="ai"><span class="ai-d"></span>침실에 TV·태블릿 없는 환경 만들었나요?</div>
+      <div class="ai"><span class="ai-d"></span>취침 1시간 전 스크린 끄는 규칙이 있나요?</div>
+      <div class="ai"><span class="ai-d"></span>아이와 스크린 규칙에 대해 대화한 적 있나요?</div>
+      <div class="takeaway">4개 중 2개만 바꿔도 달라져요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 08: Do/Don't -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="td md" style="margin-bottom:16px">스크린타임 관리,<br /><span class="ta">이렇게 해보세요</span></div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">Do</div>
+          <div class="ci-item">나이별 권고 기준을 기준점으로 삼고 조금씩 줄여가기</div>
+          <div class="ci-item">스크린을 끄는 대신 대체 활동을 먼저 제안하기</div>
+          <div class="ci-item">아이와 함께 규칙을 정하고 냉장고에 붙여두기</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">Don't</div>
+          <div class="ci-item">스크린을 보상이나 벌로 사용하기</div>
+          <div class="ci-item">아이가 떼쓴다고 시간을 늘려주기</div>
+          <div class="ci-item">부모는 스마트폰 보면서 아이에게만 끄라고 하기</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 09: Steps -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">ACTION PLAN</div>
+      <div class="td md" style="margin-bottom:48px">오늘부터<br /><span class="ta">3단계로 시작하세요</span></div>
+      <div class="si">
+        <div class="si-n">1</div>
+        <div class="si-c">
+          <div class="si-t">현재 파악하기</div>
+          <div class="si-d">이번 주 하루 아이의 스크린 시간을 체크해보세요. 어디서 가장 많이 쓰는지 파악이 먼저예요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">2</div>
+        <div class="si-c">
+          <div class="si-t">하나씩 바꾸기</div>
+          <div class="si-d">식사 시간과 취침 1시간 전, 이 두 구간만 먼저 스크린 프리로 만드세요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">3</div>
+        <div class="si-c">
+          <div class="si-t">대체 활동 채우기</div>
+          <div class="si-d">그 시간을 뭐로 채울지 아이와 함께 정하세요. 호주 도서관 프로그램, Playgroup도 좋은 옵션이에요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10: CTA -->
+<div class="card c10">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+    <div class="td lg" style="text-align:center;margin-bottom:20px">
+      내일의 나를 위해<br /><span class="ta">지금</span> 저장하세요
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%">규칙은 한 번에 안 잡혀도 괜찮아요.<br /><strong>오늘 하나만 바꿔도</strong> 충분히 잘하고 있는 거예요.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">우리 집 스크린타임 규칙, 댓글로 나눠주세요.</p>
+  </div>
+</div>
+
+</body>
+</html>
