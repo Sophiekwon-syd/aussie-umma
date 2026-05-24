@@ -1,0 +1,48 @@
+{
+  "topic": "호주 아이 스크린타임 관리: 16세 미만 소셜미디어 금지 이후 실전 가이드",
+  "slug": "screen-time-management-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    "2025년 12월 10일부터 호주는 세계 최초로 16세 미만의 소셜미디어 계정 가입을 법으로 금지했다 (Online Safety Amendment Act 2024).",
+    "금지 대상 플랫폼: Facebook, Instagram, Snapchat, Threads, TikTok, Twitch, X(트위터), YouTube, Kick, Reddit 등.",
+    "위반 시 벌금은 플랫폼 측에 부과(최대 4,950만 달러). 아이나 부모에게는 벌금이 없다.",
+    "호주 정부 24시간 움직임 가이드라인에 따르면: 2세 미만 - 스크린타임 금지, 2-5세 - 하루 최대 1시간, 5-17세 - 하루 오락용 스크린 최대 2시간.",
+    "실제로 호주 미취학 아동의 17-23%만이 스크린타임 권고 기준을 충족한다.",
+    "10-15세의 96%가 소셜미디어를 사용했으며, 72%가 유해 콘텐츠를 본 경험이 있고, 절반 이상이 사이버불링 경험이 있다.",
+    "법 시행 후 연구에 따르면 14-15세의 약 75%가 이미 금지령을 따르지 않는 것으로 나타났다.",
+    "스크린 블루라이트는 멜라토닌 분비를 억제해 수면을 방해하며, 취침 1시간 전 스크린 사용 금지가 권고된다.",
+    "Pinterest 2026 육아 트렌드 보고서에 따르면 부모들은 '스크린 스마트, 경험 풍부'한 육아 방식으로 전환 중이다.",
+    "호주 eSafety Commissioner는 플랫폼마다 다른 연령 인증 방식을 사용하므로 각 플랫폼 공식 안내를 따를 것을 권고한다."
+  ],
+  "statistics": [
+    { "stat": "16세 미만 소셜미디어 금지", "source": "Online Safety Amendment (Social Media Minimum Age) Act 2024, 시행일 2025년 12월 10일" },
+    { "stat": "2세 미만: 스크린 0분, 2-5세: 하루 1시간 이내, 5-17세: 오락용 하루 2시간 이내", "source": "호주 정부 24시간 움직임 가이드라인 (Australian Government Department of Health)" },
+    { "stat": "미취학 아동 83%, 초등생 85%가 권고 기준 초과", "source": "Australian Institute of Family Studies" },
+    { "stat": "10-15세의 96%가 소셜미디어 사용", "source": "호주 정부 자료 (eSafety Commissioner)" },
+    { "stat": "14-15세의 75%가 이미 금지령 미준수", "source": "2026년 연구, Harvard Gazette 보도" }
+  ],
+  "angles": [
+    "소셜미디어 금지법이 생겼는데, 집에서 우리 아이 스크린타임은 어떻게 관리해야 할까?",
+    "나이별 스크린타임 권고 기준을 모르는 한국 엄마들에게 실질적인 수치 제공",
+    "법이 있어도 아이가 우회하면 어떻게? 집에서 엄마가 할 수 있는 현실적인 대화법",
+    "스크린타임 줄이는 대신 무엇을 채울까 - 호주 커뮤니티 자원 연결"
+  ],
+  "practical_tips": [
+    "취침 1시간 전 모든 스크린 끄기 - 멜라토닌 보호",
+    "아이와 함께 어떤 플랫폼이 소중한지 대화하고 대안 연락처 마련하기",
+    "가족 미디어 계획 세우기: 스크린 OK 시간대, 스크린 프리 시간대 명확히",
+    "패시브 스크린(유튜브 무한 시청) vs 인터랙티브 스크린(영상통화, 창작) 구분",
+    "호주 eSafety Commissioner 웹사이트(esafety.gov.au)에서 연령별 가이드 참고",
+    "2세 미만: 영상통화 제외 스크린 없음, 2-5세: 최대 1시간, 5세 이상: 2시간 + 취침 전 제한",
+    "취침 1시간 전 스크린 차단 루틴을 '마법의 시간'으로 프레임 바꾸기"
+  ],
+  "sources": [
+    "https://www.esafety.gov.au/parents/social-media-age-restrictions",
+    "https://www.infrastructure.gov.au/media-communications/internet/online-safety/social-media-minimum-age",
+    "https://www.schn.health.nsw.gov.au/kids-health-hub/screen-time/recommended-screen-time-australian-children",
+    "https://aifs.gov.au/resources/short-articles/too-much-time-screens",
+    "https://newsroom.pinterest.com/news/parenting-trend-report-2026/",
+    "https://news.harvard.edu/gazette/story/2026/05/would-social-media-ban-for-children-work-here-australia-offers-lessons/"
+  ]
+}
