@@ -1,0 +1,136 @@
+{
+  "topic": "아이 수면 루틴 만들기: 호주 소아과 권고 기준과 실전 취침 타임테이블",
+  "slug": "child-sleep-routine-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "수면 루틴",
+      "headline": "재우는 데 <em>2시간</em> 걸리고 있나요",
+      "subtitle": "호주 소아과 기준으로 보는 아이 수면, 오늘 밤부터 바꿔요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "아이를 재우고 나면 이미 <strong>내 시간은 없어진 건가요?</strong>",
+      "answer": "재우는 전쟁, 루틴 하나로 30분으로 줄일 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "SLEEP SCIENCE",
+      "term": "수면 루틴이란",
+      "explanation": "매일 <strong>같은 순서</strong>로 같은 시간에 반복되는 취침 전 행동 패턴이에요. 뇌가 '이제 잘 시간이다'라는 신호를 받아 수면 호르몬 멜라토닌이 자연스럽게 분비돼요. Raising Children Network와 Tresillian이 공식 권고하는 방법이에요.",
+      "punchline": "습관이 아니라 뇌과학이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "SLEEP HOURS",
+      "headline": "우리 아이, 하루 <em>몇 시간</em> 자야 할까요",
+      "chips": [
+        "유아(1-3세): 11-14시간",
+        "미취학(3-5세): 10-13시간",
+        "초등(5-11세): 9-11시간",
+        "오전 7시 기상 = 밤 8-9시 취침"
+      ],
+      "explanation": "이 수치는 낮잠 포함이에요. 수면 부족은 성장 저하, 행동 문제, 학습 집중력 저하로 이어질 수 있어요. (출처: SCHN, 호주 정부 보건부, Raising Children Network)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "BEDTIME PLAN",
+      "headline": "30분 취침 루틴 공식",
+      "entries": [
+        {
+          "label": "목욕",
+          "text": "따뜻한 물로 10분. 체온이 내려가면서 <strong>졸음 신호</strong>가 시작돼요."
+        },
+        {
+          "label": "잠옷+양치",
+          "text": "이 두 가지가 반복되면 아이 뇌가 <strong>'잘 준비 완료'</strong> 신호를 받아요."
+        },
+        {
+          "label": "책 읽기",
+          "text": "1-2권. 엄마 목소리가 가장 좋은 <strong>수면 유도</strong> 도구예요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "SLEEP BLOCKERS",
+      "headline": "수면을 방해하는 3가지 유형",
+      "items": [
+        {
+          "title": "환경 요인",
+          "description": "방이 너무 밝거나, 덥거나, 시끄러울 때. 20-22도, 암막 커튼, 조용한 공간이 기본이에요."
+        },
+        {
+          "title": "습관 요인",
+          "description": "부모 옆에서만 잠드는 패턴. 아이가 밤에 깨면 다시 잠들기 위해 부모를 찾게 돼요."
+        },
+        {
+          "title": "스크린 요인",
+          "description": "취침 전 태블릿·TV 사용. 블루라이트가 멜라토닌 분비를 막아 잠드는 데 더 오래 걸려요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "TONIGHT",
+      "headline": "오늘 밤 수면 환경 점검 4가지",
+      "intro": "지금 바로 확인해보세요.",
+      "items": [
+        "침실 온도 20-22도 맞춰져 있나요?",
+        "빛 차단 커튼이나 암막 블라인드 있나요?",
+        "취침 1시간 전 스크린을 끄고 있나요?",
+        "매일 같은 순서로 재우고 있나요?"
+      ],
+      "takeaway": "오늘 밤 한 가지만 바꿔도 달라져요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "수면 루틴, 이렇게 해보세요",
+      "do": [
+        "아이가 졸리기 전에 침대에 눕히기 (완전히 잠들기 전 단계에서)",
+        "취침 시간은 주말에도 30분 이상 다르지 않게 유지하기",
+        "루틴 전 과격한 놀이보다 조용한 활동으로 전환하기"
+      ],
+      "dont": [
+        "아이가 졸릴 때까지 기다렸다가 재우기 (너무 늦어짐)",
+        "오늘 힘들다고 루틴을 건너뛰기",
+        "취침 직전에 신나는 게임이나 달리기 하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "START TONIGHT",
+      "headline": "수면 루틴, 3단계로 시작하세요",
+      "steps": [
+        {
+          "title": "1단계: 취침 시간 정하기",
+          "description": "아이 기상 시간에서 역산해 취침 시간을 정하세요. 오전 7시 기상이면 밤 8-9시 취침이에요."
+        },
+        {
+          "title": "2단계: 30분 루틴 만들기",
+          "description": "목욕 → 잠옷 → 양치 → 책 읽기 → 소등. 순서를 정하고 매일 같게 유지하세요."
+        },
+        {
+          "title": "3단계: MCHN에 상담하기",
+          "description": "2주 해도 나아지지 않으면 MCHN 방문 시 꼭 말하세요. Tresillian 수면 서비스 연결도 가능해요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "오늘 밤이 달라지는 <em>첫날</em>이에요",
+      "message": "루틴은 3일 만에 완성되지 않아요. <strong>일주일만 꾸준히</strong> 해보세요.",
+      "comment_prompt": "우리 아이 취침 시간, 댓글로 알려주세요."
+    }
+  ]
+}
