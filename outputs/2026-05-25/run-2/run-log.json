@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-25T00:00:00.000Z",
+  "finished_at": "2026-05-25T00:30:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26415520128",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 치과 무료 혜택 완전 정복: 한국 엄마가 모르는 CDBS 활용법",
+      "slug": "cdbs-child-dental-guide",
+      "html_file": "outputs/2026-05-25/run-2/cdbs-child-dental-guide.html",
+      "copy_file": "outputs/2026-05-25/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "워킹맘 저녁 루틴: 퇴근 후 2시간을 지키는 실전 육아 전략",
+      "slug": "working-mum-evening-routine",
+      "html_file": "outputs/2026-05-25/run-2/working-mum-evening-routine.html",
+      "copy_file": "outputs/2026-05-25/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-01.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-02.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-03.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-04.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-05.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-06.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-07.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-08.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-09.png",
+    "outputs/2026-05-25/run-2/images/cdbs-child-dental-guide-10.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-01.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-02.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-03.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-04.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-05.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-06.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-07.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-08.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-09.png",
+    "outputs/2026-05-25/run-2/images/working-mum-evening-routine-10.png"
+  ]
+}
