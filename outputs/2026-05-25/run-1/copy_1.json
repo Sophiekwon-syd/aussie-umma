@@ -1,0 +1,132 @@
+{
+  "carousel_index": 1,
+  "topic": "호주 Medicare로 심리 상담 받기: 엄마를 위한 Mental Health Plan 완전 가이드",
+  "slug": "medicare-mental-health-plan-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "MENTAL HEALTH",
+      "headline": "심리 상담도 <em>Medicare</em>로",
+      "subtitle": "엄마의 마음 건강, GP 한 번으로 시작할 수 있어요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "상담 받고 싶은데 <strong>얼마인지, 어떻게 해야 하는지</strong> 몰라서 그냥 버티고 있진 않으셨나요?",
+      "answer": "Medicare로 연간 최대 20회, 리베이트 받고 상담받을 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS IT",
+      "term": "Mental Health Treatment Plan",
+      "explanation": "GP가 작성하는 공식 치료 계획서예요. 이 문서 하나로 <strong>심리 상담에 Medicare 리베이트</strong>가 적용돼요. 특별히 아픈 사람만 받는 게 아니에요.",
+      "punchline": "힘들다고 솔직하게 말하는 것, 그게 시작이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "BY THE NUMBERS",
+      "headline": "호주 엄마 <em>5명 중 1명</em>이 산후우울증 경험",
+      "chips": ["연 최대 20회 커버", "세션당 137 AUD 리베이트", "무료 통역 이용 가능", "GP 1회 방문으로 시작"],
+      "explanation": "이민자 엄마는 비이민자 대비 산후우울증 위험이 1.5배 높아요. 혼자 버티지 않아도 돼요. (출처: PANDA, 2024)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "HOW IT WORKS",
+      "headline": "GP 방문 한 번으로 시작하는 3단계",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "GP 예약할 때 <strong>'mental health plan 받고 싶다'</strong>고 미리 말해요. Extended consult가 필요해요."
+        },
+        {
+          "label": "STEP 2",
+          "text": "GP가 플랜을 작성하고 <strong>상담사 referral</strong>을 발급해줘요. 여기서 끝이에요."
+        },
+        {
+          "label": "STEP 3",
+          "text": "한국어 가능 상담사를 찾아 <strong>첫 세션을 예약</strong>해요. Embrace Multicultural Mental Health 디렉토리 추천해요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "WHO YOU CAN SEE",
+      "headline": "플랜으로 만날 수 있는 전문가 3가지",
+      "items": [
+        {
+          "title": "심리 상담사 (Psychologist)",
+          "description": "불안, 우울, 스트레스, 번아웃. 가장 일반적으로 연결되는 전문가예요."
+        },
+        {
+          "title": "사회복지사 (Social Worker)",
+          "description": "육아 부담, 고립감, 생활 스트레스. 실질적인 자원 연결도 도와줘요."
+        },
+        {
+          "title": "작업치료사 (OT)",
+          "description": "루틴 만들기, 자기관리가 어려울 때. 생활 속 전략을 같이 짜줘요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "BEFORE YOU GO",
+      "headline": "GP 방문 전 이 4가지 준비하세요",
+      "intro": "짧은 진료 시간을 최대한 활용하려면 미리 준비하는 게 중요해요.",
+      "items": [
+        "예약할 때 'mental health plan 원한다'고 명확하게 말하기",
+        "최근 3개월 수면, 기분, 식욕 변화를 간단히 메모해두기",
+        "한국어 상담사를 원하는지 미리 결정하기",
+        "Bulk-billing 상담사를 원하는지 확인하기"
+      ],
+      "takeaway": "준비할수록 짧은 시간을 최대로 활용할 수 있어요"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "상담 신청할 때 이것만 기억해요",
+      "do": [
+        "GP에게 솔직하게 '요즘 많이 힘들어요' 라고 말하기",
+        "Embrace Multicultural Mental Health에서 한국어 상담사 찾기",
+        "첫 예약 전 Bulk-billing 여부와 대기 기간 확인하기"
+      ],
+      "dont": [
+        "'좀 있으면 나아지겠지' 하며 혼자 버티기",
+        "상담 받는 게 약한 사람이나 하는 거라고 생각하기",
+        "비용이 걱정돼 플랜 신청 자체를 포기하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "START TODAY",
+      "headline": "오늘 바로 시작하는 3단계",
+      "steps": [
+        {
+          "title": "GP 클리닉에 전화하기",
+          "description": "'Mental health plan 때문에 extended consultation 예약하고 싶다'고 말해요. 딱 이 한 문장이면 돼요."
+        },
+        {
+          "title": "한국어 상담사 찾기",
+          "description": "Embrace Multicultural Mental Health 사이트(embracemhp.org.au)에서 언어 필터로 Korean 선택해요."
+        },
+        {
+          "title": "10회 후 연장 기억하기",
+          "description": "10회 사용 후 GP 리뷰 방문으로 추가 10회를 연장할 수 있어요. 플랜은 계속 이어져요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "당신의 마음 건강도 <em>Medicare</em>가 지켜줘요",
+      "message": "아이를 돌보는 엄마도 <strong>돌봄 받을 자격</strong>이 있어요. 이 정보가 필요한 엄마에게 꼭 전해주세요.",
+      "comment_prompt": "상담 받아본 경험 있으신가요? 댓글로 나눠주세요"
+    }
+  ]
+}
