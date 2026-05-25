@@ -1,0 +1,132 @@
+{
+  "carousel_index": 2,
+  "topic": "호주 초등학교 학부모 참여 완전 가이드: 한국 엄마가 학교와 소통하는 법",
+  "slug": "primary-school-parent-engagement-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "SCHOOL LIFE",
+      "headline": "호주 학교, 이렇게 <em>소통</em>하면 돼요",
+      "subtitle": "인터뷰 준비부터 학교 앱까지, 한국 엄마를 위한 실전 가이드"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "선생님 인터뷰 앞두고 <strong>영어로 뭐라고 해야 할지</strong> 몰라 밤새 걱정해본 적 있으신가요?",
+      "answer": "준비된 질문 3가지면 10분을 완벽하게 활용할 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS IT",
+      "term": "Parent-Teacher Interview",
+      "explanation": "학기당 1회, 담임 교사와 <strong>10~15분 동안 아이 이야기를 나누는 시간</strong>이에요. 문제를 신고하는 자리가 아니라 파트너십을 쌓는 시간이에요.",
+      "punchline": "먼저 연락하는 부모를 호주 교사는 긍정적으로 봐요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "BY THE NUMBERS",
+      "headline": "학부모 참여가 높을수록 <em>아이 성취도</em>도 높아요",
+      "chips": ["출석률 12% 향상", "학업 성취 유의미하게 향상", "67% 학교 앱으로 정보 수신", "인터뷰는 10~15분"],
+      "explanation": "이민자 가정에서 학부모 참여도가 높을수록 아이 학업 성취도가 유의미하게 높아요. (출처: ACER, 2023)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "SCHOOL YEAR ROUTINE",
+      "headline": "학기 처음부터 인터뷰까지 3단계 루틴",
+      "entries": [
+        {
+          "label": "학기 초",
+          "text": "<strong>학교 앱 설치</strong>하고 담임 교사 이메일 주소 확보해요. 이것만 해도 반은 시작한 거예요."
+        },
+        {
+          "label": "학기 중",
+          "text": "Seesaw 또는 Class Dojo를 매주 확인하고 <strong>코멘트로 반응</strong>해요. 선생님도 알아봐요."
+        },
+        {
+          "label": "인터뷰 전",
+          "text": "질문 3~5개 미리 준비해요. <strong>영어 소통이 불편하면 TIS(131 450)</strong>에 무료 통역 예약해요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "COMMUNICATION CHANNELS",
+      "headline": "호주 학교 소통 채널 3가지",
+      "items": [
+        {
+          "title": "학교 앱 (Seesaw / Class Dojo)",
+          "description": "아이의 학교생활을 사진·영상으로 실시간 확인해요. 뉴스레터도 여기서 받아요."
+        },
+        {
+          "title": "이메일",
+          "description": "담임 교사와 직접 1:1로 소통하는 채널이에요. 걱정되는 점은 48시간 내 답장을 기대해요."
+        },
+        {
+          "title": "Parent-Teacher Interview",
+          "description": "학기당 1회 공식 대면 소통이에요. 준비해서 가면 아이에 대해 훨씬 많은 걸 알 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "INTERVIEW PREP",
+      "headline": "인터뷰 전 이 4가지 준비하세요",
+      "intro": "10분이 짧게 느껴지지 않으려면 들어가기 전에 준비해야 해요.",
+      "items": [
+        "아이가 학교에서 즐거워하는 것과 힘들어하는 것 각 1가지 메모",
+        "질문 3가지 영어로 준비 (학습 수준, 사회성, 가정에서 도울 방법)",
+        "영어 소통 부담 있으면 TIS National 131 450으로 통역 사전 예약",
+        "우선순위 높은 질문부터 물어볼 순서 정해두기"
+      ],
+      "takeaway": "준비된 부모가 10분을 100% 활용해요"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "학교 소통, 이렇게 해요",
+      "do": [
+        "걱정되는 점은 인터뷰 전에 이메일로 미리 교사에게 알리기",
+        "Seesaw 포스트에 코멘트 달아 적극적으로 반응하기",
+        "Reading Volunteer 등 봉사로 학교 문화를 직접 체험하기"
+      ],
+      "dont": [
+        "'연락하면 까다로운 부모로 보일까봐' 걱정하며 망설이기",
+        "학교 뉴스레터를 읽지 않고 넘기기",
+        "인터뷰 당일에 처음으로 선생님과 이야기 시작하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "THIS TERM",
+      "headline": "이번 인터뷰 시즌 실전 3단계",
+      "steps": [
+        {
+          "title": "인터뷰 예약 확인",
+          "description": "학교 앱이나 이메일에서 인터뷰 날짜 확인하고 바로 예약해요. 인기 시간대는 빨리 마감돼요."
+        },
+        {
+          "title": "질문 3가지 준비",
+          "description": "'How is my child doing in reading and writing?', 'What can I do at home?', 'Are there any social concerns?' 이 3가지면 충분해요."
+        },
+        {
+          "title": "인터뷰 후 아이와 나누기",
+          "description": "선생님이 말한 내용을 아이와 함께 이야기해요. 아이도 자신이 중요하다고 느껴요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "호주 학교 소통, 이제 <em>어렵지 않아요</em>",
+      "message": "인터뷰 준비가 처음인 엄마에게 <strong>이 카드 저장해두면</strong> 언제든 꺼내볼 수 있어요.",
+      "comment_prompt": "인터뷰에서 가장 유용했던 질문이 뭔가요? 댓글로 나눠주세요"
+    }
+  ]
+}
