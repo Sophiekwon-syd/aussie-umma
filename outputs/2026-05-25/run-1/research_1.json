@@ -1,0 +1,38 @@
+{
+  "topic": "호주 Medicare로 심리 상담 받기: 엄마를 위한 Mental Health Plan 완전 가이드",
+  "slug": "medicare-mental-health-plan-guide",
+  "angle": "GP를 통해 Mental Health Treatment Plan을 받아 심리 상담사(psychologist)를 보조금 혜택으로 만나는 방법을 단계별로 안내",
+  "why_now": "산후우울증·육아 고립감·워킹맘 번아웃이 누적되는 가을-겨울 시즌에 정신건강 지원 정보 수요가 급증. 2025년 Medicare Better Access 제도 유지 확정 이후 혜택 접근 방법에 대한 질문이 한인 커뮤니티 카페에 다시 증가함.",
+  "source": "Naver Cafe '호주 육아' 게시판, Blind '호주 생활' 섹션",
+  "theme": "엄마의 정신건강 (번아웃, 고립감, 자기돌봄)",
+  "key_facts": [
+    "Medicare Mental Health Treatment Plan은 GP 방문 1회로 신청 가능",
+    "연간 최대 20회 심리 상담(psychologist)에 Medicare 리베이트 적용 — 표준 리베이트는 세션당 약 137.05 AUD (2024-25 기준)",
+    "GP가 Mental Health Treatment Plan 작성 시 Extended consultation(30분+)이 필요하며 별도 Medicare 코드 적용",
+    "한국어 가능 심리 상담사는 'Embrace Multicultural Mental Health' 디렉토리에서 검색 가능",
+    "Medicare 리베이트 후 본인 부담금은 상담사에 따라 0~100 AUD 이상 차이남 — bulk-billing 여부 사전 확인 필수",
+    "통역 서비스(TIS National 131 450)를 GP 방문에 무료로 활용 가능",
+    "심리 상담 외 사회복지사(social worker), 작업치료사(OT)도 동일 플랜으로 커버됨",
+    "리뷰 방문(review appointment)을 통해 플랜을 연장하며 추가 세션 허용됨",
+    "호주 전국 정신건강 위기 지원 라인: Lifeline 13 11 14, Beyond Blue 1300 22 4636",
+    "산후우울증 전문: PANDA (1300 726 306), 한국어 지원 세션 운영 병원 일부 존재"
+  ],
+  "statistics": [
+    "호주 여성 5명 중 1명이 산후우울증 경험 (PANDA, 2024)",
+    "이민자 엄마는 비이민자 대비 산후우울증 위험 1.5배 높음 (Perinatal Anxiety & Depression Australia)",
+    "Better Access 이용자 중 30%가 첫 방문 이후 서비스를 중단함 — 접근 장벽이 주요 원인"
+  ],
+  "common_barriers": [
+    "GP에게 '힘들다'고 말하는 것 자체가 어색하고 부끄러움",
+    "한국어 상담사 찾기 어려움",
+    "bulk-billing 상담사 예약 대기 기간이 길어 포기",
+    "심리 상담 = 심각한 병이라는 인식"
+  ],
+  "action_steps": [
+    "GP 예약 시 '정신건강 플랜을 받고 싶다'고 미리 언급 (extended consult 예약 필요)",
+    "GP가 Mental Health Treatment Plan 작성 → 상담사 referral 발급",
+    "Embrace Multicultural Mental Health 또는 Australian Psychological Society 디렉토리에서 상담사 검색",
+    "첫 세션 전 bulk-billing 여부와 대기 기간 확인",
+    "10회 후 리뷰 방문으로 추가 10회 연장 신청"
+  ]
+}
