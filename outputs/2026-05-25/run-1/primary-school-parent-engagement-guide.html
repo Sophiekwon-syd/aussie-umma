@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primary School Parent Engagement Guide — AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches / Cards */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't Grid */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+<!-- Card 01: Cover -->
+<div class="card c1">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">SCH</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">SCHOOL LIFE</div>
+    <div style="margin-bottom:16px">
+      <div class="td xl">호주 학교, 이렇게 <span class="ta">소통</span>하면 돼요</div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">인터뷰 준비부터 학교 앱까지, 한국 엄마를 위한 실전 가이드</div>
+    <div class="cover-cta">스와이프해서 확인하세요 <span>→</span></div>
+  </div>
+</div>
+
+<!-- Card 02: Hook -->
+<div class="card c2">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="hook-q">선생님 인터뷰 앞두고 <strong>영어로 뭐라고 해야 할지</strong> 몰라 밤새 걱정해본 적 있으신가요?</div>
+    <div class="hook-ans">준비된 질문 3가지면 10분을 완벽하게 활용할 수 있어요.</div>
+  </div>
+</div>
+
+<!-- Card 03: Definition -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">WHAT IS IT</div>
+      <div class="td md" style="margin-bottom:36px">Parent-Teacher<br /><span class="ta">Interview</span></div>
+      <div class="def-box">
+        <div class="def-box-text">학기당 1회, 담임 교사와 <strong>10~15분 동안 아이 이야기를 나누는 시간</strong>이에요. 문제를 신고하는 자리가 아니라 파트너십을 쌓는 시간이에요.</div>
+      </div>
+      <div class="tb" style="margin-top:36px;font-size:26px;color:var(--ink3);">먼저 연락하는 부모를 호주 교사는 긍정적으로 봐요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 04: Data -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">BY THE NUMBERS</div>
+      <div class="td md" style="margin-bottom:16px">학부모 참여가 높을수록<br /><span class="ta">아이 성취도</span>도 높아요</div>
+      <div class="chips">
+        <div class="chip"><span class="cd"></span>출석률 12% 향상</div>
+        <div class="chip"><span class="cd"></span>학업 성취 유의미하게 향상</div>
+        <div class="chip"><span class="cd"></span>67% 학교 앱으로 정보 수신</div>
+        <div class="chip"><span class="cd"></span>인터뷰는 10~15분</div>
+      </div>
+      <div class="tb" style="font-size:24px;">이민자 가정에서 학부모 참여도가 높을수록 아이 학업 성취도가 유의미하게 높아요. <span style="color:var(--ink3);font-size:20px;">(출처: ACER, 2023)</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 05: Routine -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">SCHOOL YEAR ROUTINE</div>
+      <div class="td md" style="margin-bottom:48px">학기 처음부터 인터뷰까지<br />3단계 루틴</div>
+      <div class="rb">
+        <div class="rb-t">학기 초</div>
+        <div class="rb-x"><strong>학교 앱 설치</strong>하고 담임 교사 이메일 주소 확보해요. 이것만 해도 반은 시작한 거예요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">학기 중</div>
+        <div class="rb-x">Seesaw 또는 Class Dojo를 매주 확인하고 <strong>코멘트로 반응</strong>해요. 선생님도 알아봐요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">인터뷰 전</div>
+        <div class="rb-x">질문 3~5개 미리 준비해요. <strong>영어 소통이 불편하면 TIS(131 450)</strong>에 무료 통역 예약해요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 06: Categories -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">COMMUNICATION CHANNELS</div>
+      <div class="td md" style="margin-bottom:48px">호주 학교 소통 채널 <span class="ta">3가지</span></div>
+      <div class="ap">
+        <div class="ap-t">학교 앱 (Seesaw / Class Dojo)</div>
+        <div class="ap-d">아이의 학교생활을 사진·영상으로 실시간 확인해요. 뉴스레터도 여기서 받아요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">이메일</div>
+        <div class="ap-d">담임 교사와 직접 1:1로 소통하는 채널이에요. 걱정되는 점은 48시간 내 답장을 기대해요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">Parent-Teacher Interview</div>
+        <div class="ap-d">학기당 1회 공식 대면 소통이에요. 준비해서 가면 아이에 대해 훨씬 많은 걸 알 수 있어요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 07: Checklist -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">INTERVIEW PREP</div>
+      <div class="td md" style="margin-bottom:20px">인터뷰 전<br />이 4가지 준비하세요</div>
+      <div class="tb" style="margin-bottom:32px;font-size:24px;">10분이 짧게 느껴지지 않으려면 들어가기 전에 준비해야 해요.</div>
+      <div class="ai"><span class="ai-d"></span>아이가 학교에서 즐거워하는 것과 힘들어하는 것 각 1가지 메모</div>
+      <div class="ai"><span class="ai-d"></span>질문 3가지 영어로 준비 (학습 수준, 사회성, 가정에서 도울 방법)</div>
+      <div class="ai"><span class="ai-d"></span>영어 소통 부담 있으면 TIS National 131 450으로 통역 사전 예약</div>
+      <div class="ai"><span class="ai-d"></span>우선순위 높은 질문부터 물어볼 순서 정해두기</div>
+      <div class="takeaway">준비된 부모가 10분을 100% 활용해요</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 08: Do/Don't -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="td md" style="margin-bottom:16px">학교 소통,<br />이렇게 해요</div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">Do</div>
+          <div class="ci-item">걱정되는 점은 인터뷰 전에 이메일로 미리 교사에게 알리기</div>
+          <div class="ci-item">Seesaw 포스트에 코멘트 달아 적극적으로 반응하기</div>
+          <div class="ci-item">Reading Volunteer 등 봉사로 학교 문화를 직접 체험하기</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">Don't</div>
+          <div class="ci-item">'연락하면 까다로운 부모로 보일까봐' 걱정하며 망설이기</div>
+          <div class="ci-item">학교 뉴스레터를 읽지 않고 넘기기</div>
+          <div class="ci-item">인터뷰 당일에 처음으로 선생님과 이야기 시작하기</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 09: Steps -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">THIS TERM</div>
+      <div class="td md" style="margin-bottom:48px">이번 인터뷰 시즌<br /><span class="ta">실전 3단계</span></div>
+      <div class="si">
+        <div class="si-n">1</div>
+        <div class="si-c">
+          <div class="si-t">인터뷰 예약 확인</div>
+          <div class="si-d">학교 앱이나 이메일에서 인터뷰 날짜 확인하고 바로 예약해요. 인기 시간대는 빨리 마감돼요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">2</div>
+        <div class="si-c">
+          <div class="si-t">질문 3가지 준비</div>
+          <div class="si-d">'How is my child doing in reading and writing?', 'What can I do at home?', 'Are there any social concerns?' 이 3가지면 충분해요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">3</div>
+        <div class="si-c">
+          <div class="si-t">인터뷰 후 아이와 나누기</div>
+          <div class="si-d">선생님이 말한 내용을 아이와 함께 이야기해요. 아이도 자신이 중요하다고 느껴요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10: CTA -->
+<div class="card c10">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+    <div class="td lg" style="text-align:center;margin-bottom:20px">
+      호주 학교 소통, 이제<br /><span class="ta">어렵지 않아요</span>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%">인터뷰 준비가 처음인 엄마에게 <strong>이 카드 저장해두면</strong> 언제든 꺼내볼 수 있어요.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">인터뷰에서 가장 유용했던 질문이 뭔가요? 댓글로 나눠주세요</p>
+  </div>
+</div>
+
+</body>
+</html>
