@@ -119,6 +119,18 @@
       "date": "2026-05-25",
       "carousel_file": "outputs/2026-05-25/run-1/primary-school-parent-engagement-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 치과 무료 혜택 완전 정복: 한국 엄마가 모르는 CDBS 활용법",
+      "date": "2026-05-25",
+      "carousel_file": "outputs/2026-05-25/run-2/cdbs-child-dental-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "워킹맘 저녁 루틴: 퇴근 후 2시간을 지키는 실전 육아 전략",
+      "date": "2026-05-25",
+      "carousel_file": "outputs/2026-05-25/run-2/working-mum-evening-routine.html",
+      "cards": 10
     }
   ]
 }
