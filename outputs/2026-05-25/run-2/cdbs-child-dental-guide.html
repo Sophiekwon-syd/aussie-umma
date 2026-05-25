@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDBS Child Dental Guide — AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    /*
+      PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+      Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+      Do NOT invent new variables. Do NOT modify any other values.
+    */
+
+    :root {
+      --bg: #050505;
+      --card-bg: #080808;
+      --elevated: #0e0e0e;
+      --ink: #ffffff;
+      --ink2: #cccccc;
+      --ink3: #888888;
+      --ink4: #333333;
+      --accent: #C6F135;           /* overridden: ACCENT_PRIMARY */
+      --accent-dim: rgba(198, 241, 53, 0.15);
+      --blue: #3B82F6;             /* overridden: ACCENT_SECONDARY */
+      --red: #ff4d4d;
+      --border: rgba(255, 255, 255, 0.07);
+      --font-kr: "Noto Sans KR", sans-serif;
+      --font-en: "Space Grotesk", sans-serif;
+      --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+    }
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #000000;
+      font-family: var(--font-kr);
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 60px 20px 100px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      width: 1080px;
+      height: 1350px;
+      background: var(--card-bg);
+      background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 50;
+      opacity: 0.05;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px 180px;
+    }
+    .ci {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 90px;
+      position: relative;
+      z-index: 2;
+    }
+    .dots {
+      display: flex;
+      gap: 10px;
+    }
+    .dots i {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--ink4);
+      display: block;
+    }
+    .dots i.on {
+      background: var(--accent);
+      width: 28px;
+      border-radius: 4px;
+    }
+    .td {
+      font-family: var(--font-display);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -2px;
+      word-break: keep-all;
+    }
+    .td.xl { font-size: 96px; }
+    .td.lg { font-size: 84px; }
+    .td.md { font-size: 76px; }
+    .tb {
+      font-size: 30px;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.65;
+      word-break: keep-all;
+    }
+    .tb strong {
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .tl {
+      font-family: var(--font-en);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 48px;
+    }
+    .ta { color: var(--accent); }
+    .tm { color: var(--ink3); }
+    .en { font-family: var(--font-en); }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 28px;
+      border-radius: 100px;
+      font-size: 17px;
+      font-weight: 800;
+      width: fit-content;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .badge-a {
+      background: var(--accent);
+      color: #000;
+    }
+    .div-a {
+      width: 56px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 2px;
+      border: none;
+      margin: 32px 0;
+    }
+    .wm {
+      position: absolute;
+      font-family: var(--font-en);
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.05;
+      pointer-events: none;
+      z-index: 1;
+      line-height: 0.8;
+    }
+    .glow {
+      position: absolute;
+      border-radius: 50%;
+      background: var(--accent);
+      filter: blur(160px);
+      opacity: 0.08;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .top {
+      position: absolute;
+      top: 68px;
+      left: 90px;
+      right: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      z-index: 5;
+      margin: 0;
+    }
+    .handle {
+      position: absolute;
+      top: 165px;
+      right: 90px;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      z-index: 10;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .handle::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+    }
+
+    /* Centered content block */
+    .center-block {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Cover */
+    .cover-56 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: var(--font-en);
+      font-size: 780px;
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.06;
+      line-height: 1;
+      pointer-events: none;
+      z-index: 1;
+      letter-spacing: -40px;
+    }
+    .cover-56::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+    }
+    .c1 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .c1 .cover-sub {
+      margin-bottom: 48px;
+      max-width: 85%;
+      font-size: 36px;
+      font-weight: 500;
+    }
+    .c1 .cover-cta {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Hook */
+    .c2 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .c2 .hook-q {
+      font-size: 56px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.35;
+      word-break: keep-all;
+      max-width: 92%;
+    }
+    .c2 .hook-q strong {
+      color: var(--accent);
+      font-weight: 900;
+    }
+    .c2 .hook-ans {
+      margin-top: 56px;
+      font-size: 26px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Definition */
+    .def-hl {
+      background: var(--accent);
+      color: #000;
+      padding: 2px 14px;
+      border-radius: 6px;
+      display: inline-block;
+      font-weight: 800;
+    }
+    .def-box {
+      margin-top: 56px;
+      padding: 40px 48px;
+      border-radius: 24px;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+    }
+    .def-box-text {
+      font-size: 28px;
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .def-box-text strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Data chips */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 40px 0;
+    }
+    .chip {
+      padding: 14px 28px;
+      border-radius: 14px;
+      font-size: 20px;
+      font-weight: 600;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .chip .cd {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* Routine */
+    .rb {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+    }
+    .rb:last-child { border-bottom: none; }
+    .rb-t {
+      font-family: var(--font-en);
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--accent);
+      min-width: 90px;
+      text-transform: uppercase;
+    }
+    .rb-x {
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    .rb-x strong { color: var(--accent); font-weight: 800; }
+
+    /* Approaches / Cards */
+    .ap {
+      padding: 40px 44px;
+      border-radius: 28px;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .ap::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15%;
+      bottom: 15%;
+      width: 5px;
+      background: var(--ink4);
+      border-radius: 0 5px 5px 0;
+    }
+    .ap:nth-child(1)::before { background: var(--accent); }
+    .ap:nth-child(2)::before { background: var(--blue); }
+    .ap:nth-child(3)::before { background: var(--ink3); }
+    .ap-t {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 14px;
+      color: var(--ink);
+    }
+    .ap-d {
+      font-size: 24px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Actions / Checklist */
+    .ai {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .ai:last-child { border-bottom: none; }
+    .ai-d {
+      width: 11px;
+      height: 11px;
+      min-width: 11px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .takeaway {
+      margin-top: 32px;
+      padding: 28px 40px;
+      border-radius: 20px;
+      background: var(--accent-dim);
+      text-align: center;
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+    }
+
+    /* Do/Don't Grid */
+    .cg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .cc {
+      border-radius: 24px;
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+    }
+    .cc.do { border-top: 5px solid var(--accent); }
+    .cc.dn { border-top: 5px solid var(--red); }
+    .cc.cmp { border-top: 5px solid var(--blue); }
+    .cc-l {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+    .cc.do .cc-l { color: var(--accent); }
+    .cc.dn .cc-l { color: var(--red); }
+    .cc.cmp .cc-l { color: var(--blue); }
+    .ci-item {
+      font-size: 22px;
+      color: var(--ink2);
+      line-height: 1.6;
+      padding: 12px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .ci-item::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 1.3em;
+    }
+    .cc.dn .ci-item::before { color: var(--red); }
+    .cc.cmp .ci-item::before { color: var(--blue); }
+
+    /* Steps */
+    .si {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      align-items: flex-start;
+    }
+    .si-n {
+      font-family: var(--font-en);
+      font-size: 64px;
+      font-weight: 800;
+      color: var(--accent);
+      opacity: 0.3;
+      line-height: 1;
+      min-width: 80px;
+    }
+    .si-c {
+      flex: 1;
+    }
+    .si-t {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--ink);
+    }
+    .si-d {
+      font-size: 24px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Timeline */
+    .ti {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      border-left: 3px solid var(--border);
+      margin-left: 5px;
+      padding-left: 36px;
+      position: relative;
+    }
+    .ti::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 42px;
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 15px var(--accent-dim);
+    }
+    .ti:last-child { border-left-color: transparent; }
+    .ti-year {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .ti-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--ink);
+      margin-bottom: 10px;
+    }
+    .ti-desc {
+      font-size: 23px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Comparison row */
+    .cmp-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      padding: 32px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .cmp-row:last-child { border-bottom: none; }
+    .cmp-h {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--ink3);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 14px;
+    }
+    .cmp-v {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.3;
+    }
+    .cmp-v.accent { color: var(--accent); }
+
+    /* Quote */
+    .quote {
+      font-size: 56px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.3;
+      text-align: center;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    .quote strong { color: var(--accent); font-weight: 900; }
+    .quote-author {
+      margin-top: 48px;
+      font-size: 26px;
+      color: var(--accent);
+      font-weight: 700;
+      text-align: center;
+    }
+
+    /* Stat */
+    .stat-val {
+      font-family: var(--font-display);
+      font-size: 260px;
+      font-weight: 900;
+      color: var(--accent);
+      line-height: 1;
+      text-align: center;
+      letter-spacing: -10px;
+    }
+    .stat-label {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--ink);
+      text-align: center;
+      margin-top: 24px;
+    }
+    .stat-desc {
+      font-size: 26px;
+      color: var(--ink2);
+      text-align: center;
+      margin-top: 20px;
+      max-width: 85%;
+    }
+
+    /* CTA */
+    .c10 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 28px 72px;
+      border-radius: 100px;
+      background: var(--accent);
+      color: #000;
+      font-size: 28px;
+      font-weight: 900;
+      margin-top: 56px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .cta-hint {
+      margin-top: 40px;
+      font-size: 22px;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Card 01: Cover -->
+  <div class="card c1">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+    <div class="cover-56">$</div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:40px">MEDICARE DENTAL</div>
+      <div style="margin-bottom:16px">
+        <div class="td xl">아이 치과,<br />사실 <span class="ta">무료</span>였어요</div>
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <div class="cover-sub tb">한국 엄마 대부분이 모르는 CDBS 혜택 — 지금 당장 확인하세요</div>
+      <div class="cover-cta">스와이프해서 확인 <span>→</span></div>
+    </div>
+  </div>
+
+  <!-- Card 02: Hook -->
+  <div class="card c2">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="hook-q">혹시 아이 치과비를 <strong>매번 자비</strong>로 내고 계신가요?</div>
+      <div class="hook-ans">Medicare 혜택으로 최대 $1,095까지 무료로 받을 수 있어요.</div>
+    </div>
+  </div>
+
+  <!-- Card 03: Definition -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">WHAT IS CDBS</div>
+        <div class="td md" style="margin-bottom:36px">아동 치과<br /><span class="ta">혜택 제도</span></div>
+        <div class="def-box">
+          <div class="def-box-text">
+            CDBS(Child Dental Benefits Schedule)는 Services Australia가 운영하는 Medicare 치과 지원 프로그램이에요. <strong>만 2~17세 아이</strong>가 대상이고, 2년 혜택 기간 동안 최대 $1,095를 지원받을 수 있어요.
+          </div>
+        </div>
+        <div class="tb" style="margin-top:36px; font-size:26px;">Family Tax Benefit A를 받고 있다면 대부분 이미 자격이 돼요.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 04: Data -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">CDBS 주요 수치</div>
+        <div class="td md" style="margin-bottom:36px">이 숫자, <span class="ta">몰랐으면</span> 손해예요</div>
+        <div class="chips">
+          <div class="chip"><span class="cd"></span>$1,095 2년 혜택 상한</div>
+          <div class="chip"><span class="cd"></span>2~17세 대상 연령</div>
+          <div class="chip"><span class="cd"></span>350만 명 연간 수혜 아동</div>
+          <div class="chip"><span class="cd"></span>54%만 실제 혜택 사용</div>
+        </div>
+        <div class="tb" style="font-size:26px;">적격 아동의 절반 가까이가 혜택을 쓰지 않아요. 2년 기간이 지나면 잔액은 소멸돼요.<br /><span style="color:var(--ink3);font-size:22px;">(출처: Services Australia 2022–23, AIHW 2024)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 05: Routine -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">CDBS 사용 루틴</div>
+        <div class="td md" style="margin-bottom:36px">3단계로 끝내는<br /><span class="ta">CDBS 활용법</span></div>
+        <div>
+          <div class="rb">
+            <div class="rb-t">STEP 01</div>
+            <div class="rb-x"><strong>잔액 확인</strong> — myGov 로그인 후 Medicare 탭에서 자녀 CDBS 잔액 바로 확인</div>
+          </div>
+          <div class="rb">
+            <div class="rb-t">STEP 02</div>
+            <div class="rb-x"><strong>치과 찾기</strong> — healthdirect.gov.au에서 'bulk billing' 필터로 CDBS 등록 치과 검색</div>
+          </div>
+          <div class="rb">
+            <div class="rb-t">STEP 03</div>
+            <div class="rb-x"><strong>예약 잡기</strong> — 전화해서 'CDBS bulk billing 가능한가요?' 한 마디로 확인</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 06: Categories -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">CDBS 지원 서비스</div>
+        <div class="td md" style="margin-bottom:36px">이 3가지, 모두<br /><span class="ta">무료</span>로 받을 수 있어요</div>
+        <div>
+          <div class="ap">
+            <div class="ap-t">예방 치료</div>
+            <div class="ap-d">정기 검진, X-레이, 불소 처치, 치아 실런트(홈 메우기) — 충치 예방의 핵심</div>
+          </div>
+          <div class="ap">
+            <div class="ap-t">충치 치료</div>
+            <div class="ap-d">충전재 치료(filling), 발치, 젖니 신경 치료 — 이미 생긴 충치도 CDBS로 처리</div>
+          </div>
+          <div class="ap">
+            <div class="ap-t">구강 교육</div>
+            <div class="ap-d">치과 의사에게 올바른 칫솔질 방법, 식습관 교육 — 아이가 직접 배워요</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 07: Checklist -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">첫 치과 방문 체크리스트</div>
+        <div class="td md" style="margin-bottom:36px">예약 전 이 4가지만<br /><span class="ta">확인하세요</span></div>
+        <div class="tb" style="font-size:26px; margin-bottom:28px;">첫 방문 전에 준비하면 당일 훨씬 수월해요.</div>
+        <div>
+          <div class="ai"><span class="ai-d"></span>myGov에서 자녀 CDBS 잔액 확인 완료</div>
+          <div class="ai"><span class="ai-d"></span>healthdirect.gov.au에서 bulk-billing CDBS 치과 1곳 찾기</div>
+          <div class="ai"><span class="ai-d"></span>아이와 함께 치과 역할놀이 또는 치과 그림책 1권 읽기</div>
+          <div class="ai"><span class="ai-d"></span>2년 혜택 만료일 달력에 기록 (잔액 소멸 방지)</div>
+        </div>
+        <div class="takeaway">만 2세 생일 이후 바로 첫 예약 — 빠를수록 좋아요</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 08: Do/Don't -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="td md" style="margin-bottom:16px">CDBS 활용,<br /><span class="ta">이렇게</span> 하세요</div>
+        <div class="cg">
+          <div class="cc do">
+            <div class="cc-l">DO</div>
+            <div class="ci-item">만 2세부터 6개월 주기로 정기 검진 예약</div>
+            <div class="ci-item">Bulk-billing CDBS 등록 치과 사용 — 자비 부담 없이</div>
+            <div class="ci-item">myGov에서 잔액 주기적으로 확인하고 만료 전 사용</div>
+          </div>
+          <div class="cc dn">
+            <div class="cc-l">DON'T</div>
+            <div class="ci-item">CDBS를 몰라서 사립 치과에서 전액 자비 결제</div>
+            <div class="ci-item">아이가 아프기 전까지 치과를 미루는 습관</div>
+            <div class="ci-item">2년 혜택 기간이 지나도록 방치해 잔액 소멸</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 09: Steps -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">오늘 바로 시작</div>
+        <div class="td md" style="margin-bottom:36px">오늘 <span class="ta">3가지</span>만<br />해보세요</div>
+        <div>
+          <div class="si">
+            <div class="si-n">01</div>
+            <div class="si-c">
+              <div class="si-t">myGov 접속</div>
+              <div class="si-d">로그인 후 Medicare → Child Dental Benefits Schedule에서 자녀 잔액 확인. 5분이면 돼요.</div>
+            </div>
+          </div>
+          <div class="si">
+            <div class="si-n">02</div>
+            <div class="si-c">
+              <div class="si-t">치과 검색</div>
+              <div class="si-d">healthdirect.gov.au 접속 → 'Find a dental service' → 'bulk billing' 필터 체크 → 우편번호 입력</div>
+            </div>
+          </div>
+          <div class="si">
+            <div class="si-n">03</div>
+            <div class="si-c">
+              <div class="si-t">예약 전화</div>
+              <div class="si-d">'안녕하세요, CDBS bulk billing 예약 가능한가요?'라고 물어보면 돼요. 그게 전부예요.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 10: CTA -->
+  <div class="card c10">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+      <div class="td lg" style="text-align:center;margin-bottom:20px">
+        이 정보, 주변 엄마한테<br /><span class="ta">꼭</span> 알려주세요
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <p class="tb" style="text-align:center;max-width:80%">많은 가정이 이미 자격이 되는데도 <strong>모르고 자비로 내고 있어요.</strong> 아이 치과는 Medicare 혜택으로 지킬 수 있어요.</p>
+      <div class="cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+        </svg>
+        저장하기 →
+      </div>
+      <p class="cta-hint">댓글에 '치과' 남겨주시면 CDBS 등록 치과 찾는 법 더 자세히 알려드릴게요.</p>
+    </div>
+  </div>
+
+</body>
+</html>
