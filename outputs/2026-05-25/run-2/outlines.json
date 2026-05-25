@@ -1,0 +1,136 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "호주 아이 치과 무료 혜택 완전 정복: 한국 엄마가 모르는 CDBS 활용법",
+    "slug": "cdbs-child-dental-guide",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "focus": "아이 치과, 사실 무료였어요 — CDBS 혜택 완전 정복",
+        "notes": "Hook on the surprise that dental care is actually free — most Korean mums are paying unnecessarily"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "focus": "혹시 아이 치과비 내고 있으신가요? 사실 Medicare 혜택이 있어요",
+        "notes": "Open with the pain point: paying out of pocket. Reveal that CDBS covers up to $1,095"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "focus": "CDBS란 무엇인가: Medicare가 지원하는 아동 치과 혜택",
+        "notes": "Define Child Dental Benefits Schedule — what it is, who runs it (Services Australia), the 2-year cap"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "focus": "숫자로 보는 CDBS 혜택",
+        "notes": "Key stats: $1,095 cap, 2-17세 대상, 3.5M 아이 이용, 54%만 실제 활용"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "focus": "CDBS 사용 3단계 루틴: 확인 → 예약 → 진료",
+        "notes": "Step-by-step routine: 1) Check balance on myGov, 2) Find registered dentist, 3) Book and attend"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "focus": "CDBS로 받을 수 있는 3가지 치과 서비스",
+        "notes": "Three categories: 예방 (검진/불소/실런트), 치료 (충치 치료/발치), 교육 (칫솔질 교육)"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "focus": "첫 치과 방문 전 체크리스트 4가지",
+        "notes": "Checklist: CDBS 잔액 확인, 등록 치과 확인, 아이 불안 줄이기 준비, 2년 만료일 메모"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "focus": "CDBS 활용 DO vs DON'T",
+        "notes": "Do: 만 2세부터 6개월 주기 예약, bulk-billing 치과 찾기, myGov로 잔액 주기적 확인. Don't: 미루기, 비등록 치과 사용, 혜택 만료까지 방치"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "focus": "오늘 당장 시작하는 3단계",
+        "notes": "1) myGov에서 자녀 CDBS 잔액 확인, 2) healthdirect.gov.au에서 bulk-billing 치과 검색, 3) 이번 주 예약 전화"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "focus": "이 정보, 주변 엄마한테 꼭 알려주세요",
+        "notes": "Save and share — many Korean mums don't know about CDBS"
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "워킹맘 저녁 루틴: 퇴근 후 2시간을 지키는 실전 육아 전략",
+    "slug": "working-mum-evening-routine",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "focus": "퇴근 후 2시간 — 워킹맘의 저녁을 바꾸는 루틴",
+        "notes": "Empathetic cover — the 2-hour window after work is the key battleground for working mums"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "focus": "퇴근 후 집에 도착하면 왜 더 지치는 걸까요?",
+        "notes": "Witching hour phenomenon — children's cortisol spike + parent exhaustion colliding"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "focus": "전환 의식(Transition Ritual)이란 무엇인가",
+        "notes": "Define the concept: a deliberate 10-15 min wind-down activity that separates 'care mode' from 'home mode' for children"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "focus": "숫자로 보는 워킹맘 저녁",
+        "notes": "Stats: 2.8시간 평균 저녁 부담, 63% 가장 스트레스 받는 시간대, 루틴 있을 때 행동 문제 30-40% 감소, 5-7pm 아이 코르티솔 피크"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "focus": "워킹맘 저녁 루틴 타임테이블",
+        "notes": "Three key slots: 픽업 후 15분(전환 스낵+자유놀이), 집중 연결 20분, 저녁 준비 15분(배치 준비된 재료)"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "focus": "저녁 루틴을 망치는 3가지 패턴",
+        "notes": "Three sabotage patterns: 픽업 직후 지시/숙제 요구, 화면 즉시 허용으로 전환 건너뛰기, '완벽한 저녁 식사' 집착으로 요리에 40분+"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "focus": "일요일 저녁 30분 배치 준비 체크리스트",
+        "notes": "4 items: 밥솥 예약 또는 밥 미리 짓기, 채소 데쳐 냉장, 단백질 양념 재워두기, 이번 주 메뉴 3개 적어두기"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "focus": "저녁 루틴 DO vs DON'T",
+        "notes": "Do: 픽업 직후 15분 자유시간, 집중 연결 20분, 취침 전 한국어 오디오북. Don't: 픽업 직후 숙제 요구, 스크린으로 전환 대체, 취침 시간 계속 미루기"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "focus": "이번 주부터 시작하는 3단계 저녁 루틴",
+        "notes": "1) 취침 시간 고정 (만 5세 이하 7:30pm / 학령기 8:30pm), 2) 냉장고에 시각적 루틴표 붙이기, 3) 금요일 저녁은 '자유 저녁' 허용"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "focus": "오늘 저녁부터 딱 하나만 바꿔보세요",
+        "notes": "Save and try one thing tonight — low-commitment, confidence-boosting close"
+      }
+    ]
+  }
+]
