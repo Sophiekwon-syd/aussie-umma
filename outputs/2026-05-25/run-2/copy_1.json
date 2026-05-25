@@ -1,0 +1,136 @@
+{
+  "topic": "호주 아이 치과 무료 혜택 완전 정복: 한국 엄마가 모르는 CDBS 활용법",
+  "slug": "cdbs-child-dental-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "MEDICARE DENTAL",
+      "headline": "아이 치과,<br />사실 <em>무료</em>였어요",
+      "subtitle": "한국 엄마 대부분이 모르는 CDBS 혜택 — 지금 당장 확인하세요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 아이 치과비를 <strong>매번 자비</strong>로 내고 계신가요?",
+      "answer": "Medicare 혜택으로 최대 $1,095까지 무료로 받을 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS CDBS",
+      "term": "아동 치과 혜택 제도",
+      "explanation": "CDBS(Child Dental Benefits Schedule)는 Services Australia가 운영하는 Medicare 치과 지원 프로그램이에요. <strong>만 2~17세 아이</strong>가 대상이고, 2년 혜택 기간 동안 최대 $1,095를 지원받을 수 있어요.",
+      "punchline": "Family Tax Benefit A를 받고 있다면 대부분 이미 자격이 돼요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "CDBS 주요 수치",
+      "headline": "이 숫자, <em>몰랐으면</em> 손해예요",
+      "chips": [
+        "$1,095 2년 혜택 상한",
+        "2~17세 대상 연령",
+        "350만 명 연간 수혜 아동",
+        "54%만 실제 혜택 사용"
+      ],
+      "explanation": "적격 아동의 절반 가까이가 혜택을 쓰지 않아요. 2년 기간이 지나면 잔액은 소멸돼요. (출처: Services Australia 2022–23, AIHW 2024)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "CDBS 사용 루틴",
+      "headline": "3단계로 끝내는 CDBS 활용법",
+      "entries": [
+        {
+          "label": "STEP 01",
+          "text": "<strong>잔액 확인</strong> — myGov 로그인 후 Medicare 탭에서 자녀 CDBS 잔액 바로 확인"
+        },
+        {
+          "label": "STEP 02",
+          "text": "<strong>치과 찾기</strong> — healthdirect.gov.au에서 'bulk billing' 필터로 CDBS 등록 치과 검색"
+        },
+        {
+          "label": "STEP 03",
+          "text": "<strong>예약 잡기</strong> — 전화해서 'CDBS bulk billing 가능한가요?' 한 마디로 확인"
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "CDBS 지원 서비스",
+      "headline": "이 3가지, 모두 무료로 받을 수 있어요",
+      "items": [
+        {
+          "title": "예방 치료",
+          "description": "정기 검진, X-레이, 불소 처치, 치아 실런트(홈 메우기) — 충치 예방의 핵심"
+        },
+        {
+          "title": "충치 치료",
+          "description": "충전재 치료(filling), 발치, 젖니 신경 치료 — 이미 생긴 충치도 CDBS로 처리"
+        },
+        {
+          "title": "구강 교육",
+          "description": "치과 의사에게 올바른 칫솔질 방법, 식습관 교육 — 아이가 직접 배워요"
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "첫 치과 방문 체크리스트",
+      "headline": "예약 전 이 4가지만 확인하세요",
+      "intro": "첫 방문 전에 준비하면 당일 훨씬 수월해요.",
+      "items": [
+        "myGov에서 자녀 CDBS 잔액 확인 완료",
+        "healthdirect.gov.au에서 bulk-billing CDBS 치과 1곳 찾기",
+        "아이와 함께 치과 역할놀이 또는 치과 그림책 1권 읽기",
+        "2년 혜택 만료일 달력에 기록 (잔액 소멸 방지)"
+      ],
+      "takeaway": "만 2세 생일 이후 바로 첫 예약 — 빠를수록 좋아요"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "CDBS 활용, 이렇게 하세요",
+      "do": [
+        "만 2세부터 6개월 주기로 정기 검진 예약",
+        "Bulk-billing CDBS 등록 치과 사용 — 자비 부담 없이",
+        "myGov에서 잔액 주기적으로 확인하고 만료 전 사용"
+      ],
+      "dont": [
+        "CDBS를 몰라서 사립 치과에서 전액 자비 결제",
+        "아이가 아프기 전까지 치과를 미루는 습관",
+        "2년 혜택 기간이 지나도록 방치해 잔액 소멸"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "오늘 바로 시작",
+      "headline": "오늘 3가지만 해보세요",
+      "steps": [
+        {
+          "title": "myGov 접속",
+          "description": "로그인 후 Medicare → Child Dental Benefits Schedule에서 자녀 잔액 확인. 5분이면 돼요."
+        },
+        {
+          "title": "치과 검색",
+          "description": "healthdirect.gov.au 접속 → 'Find a dental service' → 'bulk billing' 필터 체크 → 우편번호 입력"
+        },
+        {
+          "title": "예약 전화",
+          "description": "'안녕하세요, CDBS bulk billing 예약 가능한가요?'라고 물어보면 돼요. 그게 전부예요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "이 정보, 주변 엄마한테<br /><em>꼭</em> 알려주세요",
+      "message": "많은 가정이 이미 자격이 되는데도 <strong>모르고 자비로 내고 있어요.</strong> 아이 치과는 Medicare 혜택으로 지킬 수 있어요.",
+      "comment_prompt": "댓글에 '치과' 남겨주시면 CDBS 등록 치과 찾는 법 더 자세히 알려드릴게요."
+    }
+  ]
+}
