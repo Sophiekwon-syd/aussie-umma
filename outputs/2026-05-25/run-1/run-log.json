@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-25T00:00:00.000Z",
+  "finished_at": "2026-05-25T01:00:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26398362402",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 Medicare로 심리 상담 받기: 엄마를 위한 Mental Health Plan 완전 가이드",
+      "slug": "medicare-mental-health-plan-guide",
+      "html_file": "outputs/2026-05-25/run-1/medicare-mental-health-plan-guide.html",
+      "copy_file": "outputs/2026-05-25/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 초등학교 학부모 참여 완전 가이드: 한국 엄마가 학교와 소통하는 법",
+      "slug": "primary-school-parent-engagement-guide",
+      "html_file": "outputs/2026-05-25/run-1/primary-school-parent-engagement-guide.html",
+      "copy_file": "outputs/2026-05-25/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-01.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-02.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-03.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-04.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-05.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-06.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-07.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-08.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-09.png",
+    "outputs/2026-05-25/run-1/images/medicare-mental-health-plan-guide-10.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-01.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-02.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-03.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-04.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-05.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-06.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-07.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-08.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-09.png",
+    "outputs/2026-05-25/run-1/images/primary-school-parent-engagement-guide-10.png"
+  ]
+}
