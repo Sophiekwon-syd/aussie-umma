@@ -1,0 +1,107 @@
+{
+  "topic": "워킹맘 저녁 루틴: 퇴근 후 2시간을 지키는 실전 육아 전략",
+  "slug": "working-mum-evening-routine",
+  "theme": "바쁜 워킹맘 육아 병행 전략",
+  "research_date": "2026-05-25",
+  "context": {
+    "australian_setting": "Most childcare centres close at 6pm; Outside School Hours Care (OSHC) programs run until 6pm in most states. Peak pick-up window is 5–6pm, overlapping with commute and dinner prep.",
+    "the_second_shift": "Australian women employed full-time still perform approximately 64% of household and childcare tasks on weekday evenings (ABS Time Use Survey 2021).",
+    "korean_mum_specific": "Korean-Australian working mums often feel additional pressure to provide home-cooked meals and maintain Korean cultural routines (언어 공부, 한국어 동화 읽기) on top of standard evening demands."
+  },
+  "statistics": [
+    {
+      "stat": "Australian working mothers spend an average of 2.8 hours per weekday evening on childcare and household tasks after paid work ends",
+      "source": "ABS Time Use Survey 2020–21"
+    },
+    {
+      "stat": "Children in households with a consistent bedtime routine show 30–40% fewer behavioural problems at school than children without routines",
+      "source": "Pediatrics Journal, Mindell et al. 2015 (multi-national study including Australia)"
+    },
+    {
+      "stat": "Parents who report a predictable evening routine experience significantly lower evening cortisol levels than parents in unstructured households",
+      "source": "University of Minnesota Center for Child and Family Policy, 2019"
+    },
+    {
+      "stat": "63% of Australian working parents say the period from school/childcare pick-up to bedtime is the most stressful part of their day",
+      "source": "Relationships Australia National Survey 2022"
+    },
+    {
+      "stat": "Children aged 1–5 have a natural cortisol spike between 5–7pm ('witching hour'), making them more likely to be irritable and clingy",
+      "source": "Sleep Health Foundation Australia, 2021"
+    }
+  ],
+  "key_challenges_for_working_mums": [
+    "Childcare/OSHC pick-up deadline pressure (before 6pm, with late fees)",
+    "Children's 'witching hour' (5–7pm) — hunger, tiredness, overstimulation all peak",
+    "Meal preparation while managing demanding children",
+    "Transition stress: child moving from structured care environment back to home",
+    "Korean meal guilt: feeling pressure to cook elaborate Korean dinners every night",
+    "Screen time negotiation after a long day",
+    "Homework support (for school-age children) alongside dinner prep"
+  ],
+  "evidence_based_strategies": [
+    {
+      "strategy": "Transition ritual (전환 의식)",
+      "description": "A 10-15 minute 'landing pad' activity immediately after pick-up — a snack + free play or short audiobook — helps children decompress before demands increase. Research shows this reduces post-pickup meltdowns by up to 35%.",
+      "source": "Occupational Therapy Australia, Sensory Processing guidelines 2022"
+    },
+    {
+      "strategy": "Batch prep Sunday routine",
+      "description": "Preparing 3-4 base ingredients on Sunday (cooked rice, blanched vegetables, marinated protein) reduces weekday evening cooking time from 40 min to under 15 min without sacrificing Korean meal quality.",
+      "source": "Practical nutrition planning, Dietitians Australia"
+    },
+    {
+      "strategy": "The 20-minute connection window",
+      "description": "Spending 20 minutes of undivided attention with each child immediately after the transition ritual (before starting cooking) reduces evening clinginess and bedtime resistance. Children who get this focused time are less likely to interrupt during cooking.",
+      "source": "Gottman Institute parenting research, adapted for Australian context"
+    },
+    {
+      "strategy": "Visual schedule for children",
+      "description": "A posted visual routine chart (pick-up → snack → play → dinner → bath → story → sleep) reduces parent-child conflict about transitions by giving children predictability. Works from age 3+.",
+      "source": "Raising Children Network Australia"
+    },
+    {
+      "strategy": "'Good enough' dinner standard",
+      "description": "Winnicott's 'good enough mother' concept applied to meals: a nutritionally adequate simple meal eaten together is more beneficial than an elaborate meal eaten with a stressed parent. Three-ingredient Korean meals (계란찜 + 밥 + 김, 된장국 + 냉동 만두 + 밥) are sufficient.",
+      "source": "D.W. Winnicott concept; nutritional adequacy standards from NHMRC Australia"
+    },
+    {
+      "strategy": "Fixed bedtime anchor",
+      "description": "A non-negotiable bedtime (e.g., 7:30pm for under 5s, 8:30pm for 6-10 year olds) creates a fixed endpoint that reduces evening sprawl and gives parents recovery time. AIHW recommends 10-13 hrs sleep for 3-5 year olds, 9-11 hrs for 6-13 year olds.",
+      "source": "Australian Institute of Health and Welfare Sleep Recommendations 2023"
+    }
+  ],
+  "sample_evening_routine_framework": {
+    "5:30pm": "Pick-up from childcare/OSHC",
+    "5:45pm": "Landing pad snack + free play (15 min) — no demands, no screens",
+    "6:00pm": "Connection time 20 min — be with the child, let them lead",
+    "6:20pm": "Start dinner (15 min using batch-prepped ingredients)",
+    "6:35pm": "Family dinner at table (Korean meal, however simple)",
+    "7:00pm": "Bath/shower routine",
+    "7:20pm": "Quiet time — Korean story/audiobook or reading",
+    "7:45pm": "Lights out for under-5s / 8:30pm for school-age"
+  },
+  "korean_mum_pain_points": [
+    "퇴근 후 아이 픽업 지각하면 연체료 발생 — 스트레스 속 운전",
+    "집에 도착하면 아이는 배고프고 피곤해서 울고, 엄마는 저녁 준비해야 해서 악순환",
+    "한국 음식을 매일 해주고 싶지만 시간이 없어 죄책감",
+    "남편이 늦게 오면 모든 저녁 루틴을 혼자 감당",
+    "아이가 잠드는 시간이 계속 늦어져 부모 회복 시간이 사라짐",
+    "'오늘도 제대로 못 해준 것 같다'는 저녁 죄책감"
+  ],
+  "practical_tips": [
+    "OSHC 픽업 마감 15분 전 알람 설정 — 습관으로 만들기",
+    "일요일 저녁 30분 batch prep: 밥솥 예약, 채소 데쳐 냉장, 단백질 양념 미리",
+    "아이와 함께 이번 주 저녁 메뉴 3가지 고르기 — 아이 참여로 거부감 줄이기",
+    "시각적 저녁 루틴 차트를 냉장고에 붙여 아이 스스로 확인하게 하기",
+    "취침 30분 전 화면 없애기 — 한국어 오디오북 또는 카세트 플레이어로 대체",
+    "매주 금요일 저녁은 '자유 저녁' — 테이크아웃 또는 냉동식품 활용, 죄책감 없이"
+  ],
+  "angles": [
+    "5시 이후 2시간이 워킹맘의 번아웃을 결정한다",
+    "전환 의식: 픽업 직후 15분이 저녁 전체를 바꾼다",
+    "한국 음식 죄책감을 내려놓는 '충분히 좋은 저녁' 기준",
+    "시각적 루틴표로 아이와의 협상 줄이기",
+    "부모 회복 시간 확보: 아이 취침 후 최소 1시간"
+  ]
+}
