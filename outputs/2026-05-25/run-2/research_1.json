@@ -1,0 +1,79 @@
+{
+  "topic": "호주 아이 치과 무료 혜택 완전 정복: 한국 엄마가 모르는 CDBS 활용법",
+  "slug": "cdbs-child-dental-guide",
+  "theme": "호주 육아 시스템 활용 (MCHN, GP referral, Medicare)",
+  "research_date": "2026-05-25",
+  "key_program": {
+    "name": "Child Dental Benefits Schedule (CDBS)",
+    "administrator": "Services Australia (Medicare)",
+    "established": "2014",
+    "benefit_cap": "$1,095 per child per 2-year benefit period (2024–2025 onward)",
+    "eligible_age_range": "2–17 years",
+    "eligibility_criteria": "Child must be eligible for Medicare AND the family must receive a qualifying government payment such as Family Tax Benefit Part A, a social security payment, or a veteran's entitlement",
+    "how_to_check": "myGov account → Medicare → Child Dental Benefits Schedule, OR call Services Australia on 132 011"
+  },
+  "what_is_covered": [
+    "Examinations and diagnostic x-rays",
+    "Cleaning (scale and clean)",
+    "Fluoride treatments",
+    "Fissure sealants",
+    "Fillings (amalgam and composite)",
+    "Root canal treatment (for baby teeth and permanent teeth)",
+    "Tooth extractions",
+    "Partial dentures (where required)"
+  ],
+  "what_is_not_covered": [
+    "Orthodontic treatment (braces, aligners)",
+    "Purely cosmetic dental procedures",
+    "Hospital or anaesthesia costs",
+    "Services provided in a hospital setting"
+  ],
+  "key_rules": [
+    "Benefit period is 2 calendar years; unused amounts do NOT carry over to the next period",
+    "You must use a CDBS-registered dentist — not all private dentists participate",
+    "Out-of-pocket cost: if the dentist bulk-bills under CDBS, the family pays nothing up to the cap; some dentists charge a gap fee above Medicare's schedule fee",
+    "Check dentist participation via healthdirect.gov.au dental finder or call the dentist directly",
+    "The child's CDBS balance can be checked anytime via Medicare online or Express Plus Medicare app"
+  ],
+  "statistics": [
+    {
+      "stat": "Approximately 3.5 million children received CDBS-funded dental services in 2022–23",
+      "source": "Australian Institute of Health and Welfare (AIHW) 2024"
+    },
+    {
+      "stat": "Children who attend regular dental check-ups from age 2 have up to 40% fewer dental caries by age 5",
+      "source": "Australian Dental Association (ADA) position statement 2023"
+    },
+    {
+      "stat": "Tooth decay is the most common chronic condition among Australian children aged 5–12, affecting about 42% of children's baby teeth",
+      "source": "AIHW Oral Health and Dental Care in Australia 2023"
+    },
+    {
+      "stat": "Only 54% of eligible children actually use their CDBS entitlement each benefit period",
+      "source": "Services Australia Annual Report 2022–23"
+    }
+  ],
+  "korean_mum_pain_points": [
+    "많은 한국 엄마들이 CDBS 존재 자체를 모르고 사립 치과에서 전액 자비 부담",
+    "한국어 가능 치과를 찾다 보면 CDBS 등록이 안 된 곳이 많아 혜택을 못 받음",
+    "myGov 계정 설정이 복잡해 잔액 확인을 포기하는 경우 많음",
+    "아이가 치과를 무서워할까봐 첫 방문을 미루다 상태가 악화되는 경우",
+    "2년 혜택 기간이 지나면 잔액이 소멸된다는 걸 몰라 기회를 놓침",
+    "호주 치과는 예약이 몇 주씩 밀리므로 미리 예약하는 습관이 필요"
+  ],
+  "practical_tips": [
+    "아이 만 2세 생일 이후 바로 첫 치과 예약 — CDBS 잔액 확인 후 bulk-billing 치과 찾기",
+    "Services Australia 홈페이지(servicesaustralia.gov.au)에서 자녀 CDBS 잔액 직접 확인",
+    "healthdirect.gov.au 치과 찾기에서 'bulk billing' 필터로 CDBS 참여 치과 검색",
+    "6개월마다 검진 예약 루틴화 — 학기 초(1월/7월)에 예약하는 습관",
+    "치과 첫 방문 전 놀이로 익숙하게: 집에서 치과 역할놀이, 유아용 치과 그림책 읽기",
+    "2년 만료 전 3개월 이내 잔액 소진 계획 — 사용 가능한 서비스(불소 처치, 실런트 등) 문의"
+  ],
+  "angles": [
+    "많은 가족이 놓치고 있는 실제 혜택: 연간 최대 $1,095",
+    "첫 치과 방문 타이밍과 아이 치과 불안 줄이기",
+    "CDBS 등록 치과 찾는 방법 (한인 커뮤니티에서 공유되는 실전 팁)",
+    "혜택 만료 전 체크리스트",
+    "한국에서 치과 개념과 다른 호주 예방 중심 접근법"
+  ]
+}
