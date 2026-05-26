@@ -1,0 +1,118 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 초등학교 도시락 완전 가이드: 한국 엄마의 실전 준비법",
+      "slug": "school-lunchbox-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "brief": "도시락 주제를 소개하는 커버. 한국 엄마들이 처음 호주 학교 도시락을 쌀 때 당황하는 느낌을 공감하면서, '이걸 알면 된다'는 자신감을 주는 커버."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "brief": "전자레인지도 없고, 견과류도 금지라고? 처음 알았을 때의 당혹감을 질문으로 표현. 답은 '한국 음식이 오히려 완벽하다'."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "brief": "'호주 학교 도시락 규칙'이란 무엇인지 정의. Nut-free policy, cold food 원칙, 5 food group 구성 설명."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "brief": "호주 학교 도시락에 '꼭 들어가야 하는 5가지 식품군' 데이터. 통곡물, 단백질, 유제품, 과일, 채소. chips로 표현."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "brief": "일요일 밤 30분 batch prep 루틴. 계란말이 + 주먹밥 재료 + 야채 손질을 한 번에 해두면 주중 도시락 5분 완성."
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "brief": "한국 음식 중 호주 도시락에 잘 맞는 3가지 카테고리: 긴밥(Gimbap), 주먹밥(Jumeokbap), 계란말이(Gyeran Mari)."
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "brief": "완벽한 호주 학교 도시락 체크리스트. 견과류 없음, 보냉제 포함, 5식품군, 아이 선호 음식, 전날 밤 준비 등."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "brief": "도시락 Do vs Don't. Do: 전날 준비, 아이 참여, 보냉제. Don't: 국물 반찬, 견과류, 김치 원형으로 넣기."
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "brief": "완벽한 도시락 준비 3단계: 1) 학교 정책 확인 → 2) 일요일 batch prep → 3) 아이와 함께 조립."
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "brief": "이 가이드를 저장해두고 다음 학기 도시락 준비에 활용하도록 CTA."
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "Medicare Healthy Kids Check 완전 가이드: 3세 아이 GP 검진, 2026년 이렇게 달라졌어요",
+      "slug": "medicare-healthy-kids-check-3yo",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "brief": "2026년 새로 생긴 3세 Medicare 건강검진 소개. '이 검진 모르면 손해'라는 공감 커버."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "brief": "3세 아이 발달이 걱정되는데 GP에 가야 할지 모르겠다는 고민을 질문으로. 답은 '이제 무료로 받을 수 있다'."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "brief": "'Medicare Healthy Kids Check'가 무엇인지 정의. 2026년 11월 시행, 3세 아동 대상, Medicare 전액 지원."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "brief": "검진에서 확인하는 핵심 영역들 chips로 표현. 신장·체중, 시력, 청력, 언어 발달, 운동 발달, 사회정서 발달."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "brief": "GP 방문 전 준비 루틴: 아이 발달 메모, 궁금한 점 적기, 통역 서비스 예약(TIS 131 450), My Health Record 확인."
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "brief": "검진 후 지원 받을 수 있는 3가지 경로: Thriving Kids 프로그램, Speech Therapy Medicare rebate, FTB Part A 요건 충족."
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "brief": "GP 방문 당일 체크리스트: Medicare 카드, 예방접종 기록, 발달 메모, 아이 좋아하는 장난감(대기 시간용)."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "brief": "Do: 2026년 11월 이후 예약, 발달 우려사항 구체적으로 말하기, 통역 서비스 활용. Don't: 미루기, '괜찮겠지' 넘기기, 검진 기록 분실."
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "brief": "검진 예약부터 완료까지 3단계: 1) GP에 'Healthy Kids Check' 예약 → 2) 검진 받기 → 3) My Health Record에 결과 저장 + 필요시 전문가 연계."
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "brief": "이 카드 저장해두고 2026년 11월에 예약하라는 CTA."
+        }
+      ]
+    }
+  ]
+}
