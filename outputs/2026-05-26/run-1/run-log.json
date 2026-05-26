@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-26T19:34:30.000Z",
+  "finished_at": "2026-05-26T19:46:38.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26470531581",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 초등학교 도시락 완전 가이드: 한국 엄마의 실전 준비법",
+      "slug": "school-lunchbox-guide",
+      "html_file": "outputs/2026-05-26/run-1/school-lunchbox-guide.html",
+      "copy_file": "outputs/2026-05-26/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "Medicare Healthy Kids Check 완전 가이드: 3세 아이 GP 검진, 2026년 이렇게 달라졌어요",
+      "slug": "medicare-healthy-kids-check-3yo",
+      "html_file": "outputs/2026-05-26/run-1/medicare-healthy-kids-check-3yo.html",
+      "copy_file": "outputs/2026-05-26/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-01.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-02.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-03.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-04.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-05.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-06.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-07.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-08.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-09.png",
+    "outputs/2026-05-26/run-1/images/school-lunchbox-guide-10.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-01.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-02.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-03.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-04.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-05.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-06.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-07.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-08.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-09.png",
+    "outputs/2026-05-26/run-1/images/medicare-healthy-kids-check-3yo-10.png"
+  ]
+}
