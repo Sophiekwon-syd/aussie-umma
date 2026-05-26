@@ -1,0 +1,103 @@
+{
+  "topic": "호주 초등학교 도시락 완전 가이드: 한국 엄마의 실전 준비법",
+  "slug": "school-lunchbox-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 초등학생 자녀가 있거나 입학 예정인 엄마.",
+  "key_facts": [
+    {
+      "fact": "호주 대부분의 초등학교는 nut-free(견과류 금지) 정책을 운영한다. 땅콩버터, 아몬드, 캐슈넛 등은 포함 금지.",
+      "source": "Better Health Channel, NSW Government School Guidelines"
+    },
+    {
+      "fact": "호주 학교 점심은 cold food 중심이다. 전자레인지나 핫박스 시설이 없는 학교가 대부분이므로 상온 또는 냉장 보관이 가능한 음식을 준비해야 한다.",
+      "source": "Raising Children Network"
+    },
+    {
+      "fact": "호주 학교 급식 가이드라인은 5가지 식품군 포함을 권장한다: 과일, 채소, 유제품, 단백질(고기/달걀/두부), 통곡물.",
+      "source": "Better Health Channel"
+    },
+    {
+      "fact": "긴밥(Gimbap/Kimbap)은 해초(nori)로 싸여 있어 흘리지 않고 먹을 수 있어 호주 학교 도시락으로 적합하다. 차게 먹어도 맛있다.",
+      "source": "Korean Bapsang, Kimchimari"
+    },
+    {
+      "fact": "주먹밥(Jumeokbap)은 모양을 만들기 쉽고 아이가 골라 먹는 재미가 있어 한국 엄마들 사이에서 인기 있는 도시락 메뉴다.",
+      "source": "Kimchimari, Maangchi"
+    },
+    {
+      "fact": "도시락은 전날 밤 준비가 효과적이다. 아침 등교 준비 중 15-20분 내로 조립 가능.",
+      "source": "The Organised Housewife"
+    },
+    {
+      "fact": "단백질, 과일, 채소, 곡물, 스낵 2개(달콤한 것 1개, 짭조름한 것 1개)가 기본 구성이다.",
+      "source": "NSW Government School Lunchbox Guidelines"
+    },
+    {
+      "fact": "아이를 도시락 준비에 참여시키면 음식을 더 잘 먹는 경향이 있다.",
+      "source": "Raising Children Network"
+    },
+    {
+      "fact": "보냉제(freezer brick) 또는 얼린 물병을 도시락 가방에 넣으면 음식을 오전 내내 신선하게 유지할 수 있다.",
+      "source": "LiveLighter"
+    },
+    {
+      "fact": "학교마다 규정이 다를 수 있으므로 입학 시 학교 newsletter 또는 학교 포털을 통해 도시락 정책 확인이 필요하다.",
+      "source": "Australian school community practice"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "호주 초등학교의 상당수가 견과류 금지(nut-free) 정책을 운영한다.",
+      "source": "North Shore Mums, Australian school data"
+    },
+    {
+      "stat": "아이가 도시락 준비에 참여할 경우 편식이 줄어드는 효과가 있다는 연구 결과가 있다.",
+      "source": "Raising Children Network"
+    }
+  ],
+  "angles": [
+    "한국 엄마가 처음 호주 초등학교 도시락을 준비할 때 가장 당황하는 부분: 전자레인지 없음, 견과류 금지",
+    "한국 음식 중 호주 학교 도시락에 '허용'되는 것 vs '피해야 할' 것",
+    "전날 밤 일괄 준비(batch prep)로 아침 도시락 시간 단축",
+    "아이를 도시락 준비에 참여시켜 편식 줄이기",
+    "5식품군을 맞추면서도 아이가 실제로 먹는 도시락 만들기",
+    "공식 가이드라인 (Better Health Channel, Raising Children)과 한국 엄마 실전 경험 연결"
+  ],
+  "korean_specific_insights": [
+    "주먹밥: 쉽게 만들고, 아이가 좋아하고, 견과류 걱정 없음. 김가루 주먹밥은 냄새가 강하지 않아 교실에서 OK.",
+    "긴밥(김밥): 차게 먹어도 맛있고, 손으로 들고 먹기 좋아 호주 학교 점심에 완벽. 단, 간장 냄새 걱정하는 엄마들은 소스 없이 준비.",
+    "김치는 냄새 문제로 도시락에 포함시키기 어려울 수 있다. 냄새가 강하지 않은 부침개나 김치볶음밥을 주먹밥 형태로 응용.",
+    "계란말이(Gyeran Mari): 단백질 공급, 아이 선호도 높음, 차게 먹어도 OK.",
+    "한국 엄마들이 자주 하는 실수: 국물이 있는 반찬(미역국, 국류) 도시락에 넣기. 흘릴 수 있어 불가."
+  ],
+  "recommended_menu_examples": [
+    {
+      "menu": "Monday",
+      "main": "참치 주먹밥 3개",
+      "side1": "방울토마토 + 오이 스틱",
+      "side2": "치즈 한 조각",
+      "snack": "사과 슬라이스"
+    },
+    {
+      "menu": "Tuesday",
+      "main": "햄 김밥 6개",
+      "side1": "미니 당근 스틱",
+      "side2": "요거트",
+      "snack": "크래커"
+    },
+    {
+      "menu": "Wednesday",
+      "main": "계란말이 샌드위치",
+      "side1": "과일 믹스",
+      "side2": "에다마메",
+      "snack": "쌀과자"
+    }
+  ],
+  "practical_tips": [
+    "일요일 저녁 batch prep: 계란말이, 주먹밥 재료, 야채 손질을 한 번에 준비해두면 주중 도시락 조립이 5-10분으로 단축된다.",
+    "보냉제 2개 사용: 음식 위아래에 두면 더 효과적이다.",
+    "아이에게 '이번 주 뭐 먹고 싶어?' 물어보기. 직접 고른 음식은 잘 먹는다.",
+    "학교 첫 날 전 미리 비슷한 도시락을 집에서 '연습'시키는 것도 좋은 방법이다.",
+    "학교의 allergen 정책을 학기 초 newsletter로 꼭 확인한다."
+  ]
+}
