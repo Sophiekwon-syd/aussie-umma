@@ -1,0 +1,131 @@
+{
+  "topic": "Medicare Healthy Kids Check 완전 가이드: 3세 아이 GP 검진, 2026년 이렇게 달라졌어요",
+  "slug": "medicare-healthy-kids-check-3yo",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "MEDICARE GUIDE",
+      "headline": "3세 건강검진, 이제 <em>무료예요</em>",
+      "subtitle": "2026년 11월 시작, 한국 엄마가 꼭 알아야 할 Medicare 새 혜택"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "3세 아이 발달이 걱정되는데 <strong>GP에 가야 할지</strong> 모르겠죠?",
+      "answer": "이제 Medicare로 무료 전문 건강검진을 받을 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS IT",
+      "term": "Medicare Healthy Kids Check",
+      "explanation": "2026년 11월부터 시행되는 <strong>3세 아동 전용 무료 GP 건강검진</strong>이에요. 신체·발달·사회정서 전 영역을 확인하고, 필요한 경우 전문 지원까지 연계해주는 종합 검진입니다.",
+      "punchline": "이 검진 하나로 아이의 학교 준비도를 미리 점검할 수 있어요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "WHAT THEY CHECK",
+      "headline": "GP가 확인하는 <em>6가지</em> 영역",
+      "chips": ["신장·체중·BMI", "시력·청력", "언어 발달", "운동 발달", "사회·정서 발달", "식습관·수면"],
+      "explanation": "한 번의 GP 방문으로 6가지 영역을 모두 체크하고, 결과는 My Health Record에 저장돼요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "PREP ROUTINE",
+      "headline": "GP 방문 전 준비 루틴",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "아이의 발달 상황 메모: <strong>걱정되는 부분</strong>을 미리 한두 줄 적어가세요."
+        },
+        {
+          "label": "STEP 2",
+          "text": "영어 불편하면 <strong>TIS National(131 450)</strong>에 미리 연락해 한국어 통역 예약."
+        },
+        {
+          "label": "STEP 3",
+          "text": "Medicare 카드 + 예방접종 기록 챙기기. <strong>My Health Record</strong> 설정 확인."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "AFTER THE CHECK",
+      "headline": "검진 후 받을 수 있는 지원 3가지",
+      "items": [
+        {
+          "title": "Thriving Kids 프로그램",
+          "description": "언어치료, 작업치료, 심리 상담을 Medicare rebate로 받을 수 있어요. GP 연계 시 본인 부담 최소화."
+        },
+        {
+          "title": "Speech Therapy Medicare Rebate",
+          "description": "언어 발달 지연 소견 시 GP가 CDM Plan 발행. Medicare rebate 적용 세션을 받을 수 있어요."
+        },
+        {
+          "title": "FTB Part A 요건 충족",
+          "description": "이 검진은 Healthy Start for School 요건으로 인정돼요. 가족세금혜택 유지에 도움이 됩니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "DAY OF CHECKLIST",
+      "headline": "GP 방문 당일, 이것만 챙기세요",
+      "intro": "잊지 않도록 미리 확인하는 체크리스트예요.",
+      "items": [
+        "Medicare 카드 (또는 myGov에서 카드 번호 확인)",
+        "아이 예방접종 기록",
+        "발달 걱정 메모 (언어, 행동, 수면 등)",
+        "아이 좋아하는 장난감 하나 (대기 시간용)"
+      ],
+      "takeaway": "이 4가지면 검진 준비 완료예요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "검진 활용 Do vs Don't",
+      "do": [
+        "2026년 11월 이후 GP에 'Healthy Kids Check' 예약하기",
+        "걱정되는 발달 부분을 구체적으로 말하기",
+        "영어 불편하면 통역 서비스(TIS 131 450) 꼭 활용하기"
+      ],
+      "dont": [
+        "'그냥 괜찮겠지' 하고 검진 미루기",
+        "GP에서 '다 정상'이라고 했을 때 메모 없이 나오기",
+        "Thriving Kids 연계 가능성을 놓치고 그냥 귀가하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "HOW TO",
+      "headline": "검진 예약부터 완료까지 3단계",
+      "steps": [
+        {
+          "title": "GP에 예약 전화하기",
+          "description": "'My child is 3 years old. I'd like to book a Healthy Kids Check please.' 이 한 문장이면 돼요. 2026년 11월 이후 예약 가능해요."
+        },
+        {
+          "title": "검진 받기",
+          "description": "GP가 6가지 영역을 체크해요. 발달 걱정이 있으면 구체적으로 말하세요. 통역이 필요하면 TIS National을 사전 예약하세요."
+        },
+        {
+          "title": "결과 기록하고 다음 단계 확인",
+          "description": "결과는 My Health Record에 저장돼요. GP가 추가 지원을 권고하면 Thriving Kids 또는 CDM Plan을 물어보세요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "3세 검진, <em>미리</em> 알아두세요",
+      "message": "2026년 11월부터 시작되는 이 혜택, 지금 저장해두면 <strong>예약 잊지 않아요</strong>. 우리 아이 발달, 전문가와 함께 확인하세요.",
+      "comment_prompt": "저장하기 →"
+    }
+  ]
+}
