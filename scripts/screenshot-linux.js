@@ -14,7 +14,7 @@ const baseName = path.basename(htmlPath, '.html');
 (async () => {
   const browser = await puppeteer.launch({
     headless: true,
-    executablePath: '/usr/bin/chromium-browser',
+    executablePath: '/usr/bin/google-chrome',
     timeout: 90000,
     args: [
       '--no-sandbox',
