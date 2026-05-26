@@ -1,0 +1,99 @@
+{
+  "topic": "Medicare Healthy Kids Check 완전 가이드: 3세 아이 GP 검진, 2026년 이렇게 달라졌어요",
+  "slug": "medicare-healthy-kids-check-3yo",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 2-4세 자녀가 있고, 호주 GP 시스템에 익숙하지 않은 엄마.",
+  "key_facts": [
+    {
+      "fact": "2026-27 연방 예산에서 3세 아동을 위한 Medicare 건강검진 항목이 새로 신설되었다. 시행일은 2026년 11월 1일.",
+      "source": "Australian Government Budget 2026-27, Department of Health and Aged Care"
+    },
+    {
+      "fact": "이 검진은 'Healthy Kids Check' 또는 'Thriving Kids Health Assessment'라 불리며, Medicare가 전액 지원한다. GP 방문 시 추가 비용 없이 받을 수 있다.",
+      "source": "Services Australia, Budget 2026-27"
+    },
+    {
+      "fact": "검진 내용: 신체 검진(신장·체중·BMI), 시력, 청력, 구강 건강, 운동 발달, 언어 발달, 사회-정서 발달, 식습관, 수면 패턴, 배변 훈련 현황 포함.",
+      "source": "RACGP, Department of Health evaluation reports"
+    },
+    {
+      "fact": "검진 후 필요한 경우 GP가 Thriving Kids 프로그램으로 연계해줄 수 있다. 언어치료(Speech Therapy), 작업치료(Occupational Therapy), 심리 상담 등을 포함하는 지원 프로그램.",
+      "source": "Department of Health and Aged Care, Budget 2026-27"
+    },
+    {
+      "fact": "이 검진은 Healthy Start for School(학교 입학 전 건강검진) 요건을 충족하는 것으로 인정되어, Family Tax Benefit Part A 지급 조건을 유지하는 데 활용할 수 있다.",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "검진 결과는 My Health Record(디지털 건강기록)에 저장되어 향후 GP, MCHN, 학교 입학 시 공유 활용 가능.",
+      "source": "Australian Government Budget 2026-27"
+    },
+    {
+      "fact": "이 검진은 호주에서 2008년 도입되었다가 2014-15년 예산 삭감으로 폐지되었던 'Healthy Kids Check'가 3세 아동용으로 부활한 형태다.",
+      "source": "Medical Republic, MJA (Medical Journal of Australia)"
+    },
+    {
+      "fact": "3세는 언어 발달, 사회성, 운동 능력 등에서 중요한 발달 이정표(milestone) 시점으로, 조기 발견과 개입이 학교 준비도에 큰 영향을 준다.",
+      "source": "RACGP, developmental pediatrics research"
+    },
+    {
+      "fact": "Medicare에서는 기존에 MBS Item 709 (5세 미만 아동 건강검진)와 Item 715 (Aboriginal/Torres Strait Islander 아동)가 있었으나, 새 3세 검진 항목은 일반 가정 대상으로 별도 신설된다.",
+      "source": "Medicare Benefits Schedule"
+    },
+    {
+      "fact": "예약은 2026년 11월 이후 GP에게 'Healthy Kids Check' 또는 'Thriving Kids Assessment'를 요청하면 된다. 영어가 불편한 경우 한국어 통역 서비스(TIS National: 131 450)를 요청할 수 있다.",
+      "source": "Services Australia, TIS National"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "호주 어린이 중 약 20%가 학교 입학 전 발달 취약 요인(developmental vulnerability)을 한 가지 이상 가지고 있다.",
+      "source": "Australian Early Development Census (AEDC)"
+    },
+    {
+      "stat": "3세 이전 언어 발달 지연을 조기 발견해 개입하면 취학 후 학습 성과가 유의미하게 개선된다는 연구 결과가 있다.",
+      "source": "Raising Children Network, Australian research"
+    }
+  ],
+  "angles": [
+    "한국 엄마가 호주 GP에서 3세 검진을 예약하는 법 (구체적 절차)",
+    "이 검진에서 정확히 무엇을 확인하는가 (발달 이정표 체크리스트)",
+    "검진 결과 이상 소견 시 어떤 지원이 연계되는가 (Thriving Kids 프로그램)",
+    "Family Tax Benefit Part A와의 연결 (FTB 요건 충족)",
+    "한국 엄마가 GP 방문 전 알아두면 좋은 준비물과 질문 목록"
+  ],
+  "what_to_expect_at_the_check": [
+    "신장·체중 측정 및 BMI 계산",
+    "시력 간이 검사 (E-chart 또는 picture chart)",
+    "청력 간이 검사",
+    "구강 건강 확인 (치아 충치 여부)",
+    "언어 발달 체크 (3세 기준: 200-300 단어 사용, 짧은 문장 구사)",
+    "대소근육 운동 발달 (뛰기, 계단 오르기, 그리기)",
+    "사회-정서 발달 (또래와의 상호작용, 분리불안 정도)",
+    "식습관 및 수면 패턴 질문",
+    "부모에게 육아 스트레스 및 가족 지원 상황 확인 (엄마 멘탈 건강 포함)"
+  ],
+  "thriving_kids_program": {
+    "description": "GP 검진 후 발달 지원이 필요한 경우 연계되는 정부 프로그램",
+    "supports_available": [
+      "언어치료 (Speech Therapy) — Medicare rebate 적용",
+      "작업치료 (Occupational Therapy) — Medicare rebate 적용",
+      "심리 상담 (Psychology)",
+      "조기 아동 지원 서비스 (Early Childhood Early Intervention)"
+    ],
+    "cost": "GP 연계 시 Medicare rebate 적용으로 본인 부담 최소화 또는 무료"
+  },
+  "family_tax_benefit_link": {
+    "description": "Healthy Kids Check는 Healthy Start for School 요건을 충족한다.",
+    "implication": "만 4세 자녀 대상 FTB Part A 수령 중인 가정은 3세 검진 완료로 이 요건을 미리 충족시킬 수 있다.",
+    "how_to_confirm": "Services Australia 포털 또는 Centrelink에서 확인 가능"
+  },
+  "practical_tips_for_korean_mums": [
+    "GP 방문 시 'Healthy Kids Check for my 3-year-old, please'라고 말하면 된다.",
+    "영어가 불편한 경우 TIS National (131 450)에 전화하면 무료 한국어 통역 서비스 연결이 된다.",
+    "검진 전 아이의 발달 상황을 메모해가면 의사 소통이 수월하다 (예: '아직 두 단어짜리 문장을 잘 못 만들어요').",
+    "검진 결과는 My Health Record에 기록되므로, 이미 My Health Record를 설정해두었는지 확인하자.",
+    "Family Tax Benefit Part A를 수령 중이라면 Centrelink 포털에서 Healthy Start for School 요건 상태를 확인한다.",
+    "만약 GP가 Speech Therapy를 권고하면 Medicare Chronic Disease Management Plan을 통해 5세션까지 rebate를 받을 수 있고, 추가로 Thriving Kids 프로그램으로 더 많은 세션 지원이 가능하다."
+  ]
+}
