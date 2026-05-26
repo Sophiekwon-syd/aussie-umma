@@ -131,6 +131,18 @@
       "date": "2026-05-25",
       "carousel_file": "outputs/2026-05-25/run-2/working-mum-evening-routine.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 초등학교 도시락 완전 가이드: 한국 엄마의 실전 준비법",
+      "date": "2026-05-26",
+      "carousel_file": "outputs/2026-05-26/run-1/school-lunchbox-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "Medicare Healthy Kids Check 완전 가이드: 3세 아이 GP 검진, 2026년 이렇게 달라졌어요",
+      "date": "2026-05-26",
+      "carousel_file": "outputs/2026-05-26/run-1/medicare-healthy-kids-check-3yo.html",
+      "cards": 10
     }
   ]
 }
