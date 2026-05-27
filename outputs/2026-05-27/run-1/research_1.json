@@ -1,0 +1,47 @@
+{
+  "topic": "호주 NAPLAN 완전 가이드: 한국 엄마가 알아야 할 국가시험 준비와 결과 해석법",
+  "slug": "naplan-guide-korean-mums",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 초등학교 자녀 있거나 곧 입학 예정.",
+  "key_facts": [
+    "NAPLAN은 호주 전국 공통 시험으로 Year 3, 5, 7, 9 학생이 매년 3월에 응시한다.",
+    "2026년 NAPLAN 시험 기간은 2026년 3월 11일~23일이었으며, 결과는 6월~8월 사이 학교 경유 가정에 전달된다.",
+    "시험 영역은 4가지: Reading(읽기), Writing(쓰기), Language Conventions(문법·철자), Numeracy(수학).",
+    "Year 3 Writing을 제외한 모든 시험은 2022년부터 온라인 적응형 디지털 플랫폼으로 진행된다.",
+    "온라인 적응형 시험: 학생 답변에 따라 문제 난이도가 자동 조정돼 더 정확한 측정이 가능하다.",
+    "2023년부터 결과 보고 체계가 10개 밴드에서 4개 숙달 수준(Proficiency Levels)으로 바뀌었다.",
+    "4개 숙달 수준: Exceeding(기대 이상), Strong(기대 충족), Developing(발달 중), Needs Additional Support(추가 지원 필요).",
+    "NAPLAN은 합격/불합격 시험이 아니다. 진단 도구로서 아이의 현재 위치를 파악하는 데 쓰인다.",
+    "Year 3가 처음 NAPLAN을 치르는 학년이며, 결과는 베이스라인 진단으로 활용된다.",
+    "Year 5에서는 Year 3 이후 성장 추이를 볼 수 있으며, 이는 선택학교(Selective School) 준비의 참고 자료가 된다.",
+    "NAPLAN 결과는 개인의 잠재력을 정의하지 않는다. 교사 평가 및 학교 내 지속 평가와 함께 해석해야 한다.",
+    "준비 전략: NAPLAN은 수년간 누적된 학습을 평가한다. 벼락치기가 아닌 일상적 읽기·쓰기·수학 연습이 핵심이다.",
+    "결과 보고서에는 4개 영역별 숙달 수준과 전국 평균과의 비교 정보가 포함된다.",
+    "Developing 결과는 실패가 아니다. '아직 기대 수준에 도달 중'이라는 의미이며, 지원이 필요한 영역을 찾는 신호다.",
+    "한국 엄마들이 자주 혼동하는 점: NAPLAN 결과가 낮아도 유급(반 유지)되지 않는다. 호주는 연령별 진급 원칙이다.",
+    "NAPLAN 결과를 받은 후 담임교사와 면담을 요청하면 구체적인 지원 계획을 논의할 수 있다.",
+    "ACARA(호주 교육과정·평가·보고 기구)가 NAPLAN을 운영·감독한다."
+  ],
+  "statistics": [
+    "2026 NAPLAN 시험 기간: 3월 11일~23일",
+    "결과 배포 시기: 6월~8월 (주/준주마다 다름)",
+    "시험 영역: 4개 (Reading, Writing, Language Conventions, Numeracy)",
+    "보고 수준: 4단계 (Exceeding, Strong, Developing, Needs Additional Support)",
+    "적용 학년: Year 3, 5, 7, 9"
+  ],
+  "angles": [
+    "한국 입시 문화와의 비교: NAPLAN은 '잘 봐야 하는 시험'이 아니라 '우리 아이를 더 잘 알기 위한 도구'라는 관점 전환",
+    "결과 해석 가이드: 4단계 숙달 수준의 한국어 의미 풀이",
+    "준비 방법: 일상 속 독서·수학 습관이 가장 좋은 준비",
+    "결과 후 행동: 교사 면담 요청, GP/전문가 의뢰 (필요 시)",
+    "바이링구얼 아이의 NAPLAN: 영어가 모국어가 아닌 아이를 위한 지원 옵션"
+  ],
+  "sources": [
+    "https://www.nap.edu.au/naplan/faqs/naplan--results-reports-performance",
+    "https://braintreecoaching.com.au/blog/naplan-2026-what-parents-need-to-know",
+    "https://www.education.gov.au/national-assessment-program/national-assessment-program-literacy-and-numeracy",
+    "https://ministers.education.gov.au/clare/2026-naplan-tests-begin-years-3-5-7-and-9",
+    "https://www.omishaan.com/2026/04/naplan-results-2026-explained.html",
+    "https://www.onedai.com.au/naplan-results-guide"
+  ]
+}
