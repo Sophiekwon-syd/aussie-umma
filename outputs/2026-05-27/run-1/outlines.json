@@ -1,0 +1,136 @@
+{
+  "outlines": [
+    {
+      "topic": "호주 NAPLAN 완전 가이드: 한국 엄마가 알아야 할 국가시험 준비와 결과 해석법",
+      "slug": "naplan-guide-korean-mums",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "NAPLAN이 무서운 시험이 아님을 암시하며 호기심 유발",
+          "content_direction": "제목: 호주 NAPLAN, 제대로 알면 겁 없다. 부제: Year 3·5 결과 해석부터 준비법까지"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "NAPLAN 결과지를 받고 당황한 엄마들의 공감 유발",
+          "content_direction": "질문: 'Developing'이라고 나왔는데, 우리 아이 뒤처진 건가요? 답: 아니에요. NAPLAN은 그런 시험이 아니에요."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "NAPLAN이 무엇인지 명확히 정의",
+          "content_direction": "NAPLAN = 진단 도구, 합격·불합격 없음. Year 3, 5, 7, 9 / 읽기·쓰기·문법·수학 4영역"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "NAPLAN 핵심 수치와 일정 정보 전달",
+          "content_direction": "시험 기간 3월 11~23일 / 결과 6~8월 / 4영역 / 4단계 숙달 수준 / 적용 학년 Year 3·5·7·9"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "결과 해석 3단계 루틴 제시",
+          "content_direction": "1) 4단계 숙달 수준 확인 2) 영역별 강점·약점 파악 3) 담임교사 면담 요청"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "4개 숙달 수준 카테고리 설명",
+          "content_direction": "Exceeding / Strong / Developing / Needs Additional Support 각각의 의미와 부모 행동 방향"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "결과 받은 후 엄마가 해야 할 체크리스트",
+          "content_direction": "결과지 보관 / 교사 면담 예약 / 강점 영역 칭찬 / 약점 영역 일상 연습 / 타 아이와 비교 금지"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "NAPLAN 준비 DO/DON'T",
+          "content_direction": "DO: 매일 독서, 일상 대화에서 질문 습관, 결과 교사와 공유 / DON'T: 벼락치기, 아이에게 점수 압박, 한국 입시처럼 접근"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "NAPLAN 결과를 실제 도움으로 연결하는 3단계",
+          "content_direction": "Step 1: 결과지 꼼꼼히 읽기 → Step 2: 교사와 면담하기 → Step 3: 필요시 지원 프로그램 연결 (학교 내 지원 또는 외부 튜터)"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장·공유 유도",
+          "content_direction": "NAPLAN 결과가 오는 계절, 이 카드 저장해 두세요. 댓글: 우리 아이 몇 학년에 처음 NAPLAN 봤어요?"
+        }
+      ]
+    },
+    {
+      "topic": "워킹맘 직장 복귀 전략: 호주에서 출산 후 첫 복귀 전 준비 체크리스트",
+      "slug": "return-to-work-checklist",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "직장 복귀를 앞둔 엄마들의 공감 및 정보 예고",
+          "content_direction": "제목: 직장 복귀, 준비됐나요? 부제: 호주 워킹맘이 꼭 알아야 할 복귀 전 체크리스트"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "복귀 앞둔 불안감 공감",
+          "content_direction": "질문: 복귀 날짜는 다가오는데, 뭘 먼저 해야 할지 모르겠어요. 답: 8주 전부터 단계적으로 준비하면 괜찮아요."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "호주 직장 복귀 법적 권리 정의",
+          "content_direction": "원 직위 복귀 보장(Return to Work Guarantee) + 탄력 근무 요청권(Flexible Working Arrangement Right) 정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "2026년 주요 정책 수치 전달",
+          "content_direction": "PPL 26주(7월부터) / 파트너 4주 전용 / CCS 3일 보장(1월부터) / 74% 여성 스트레스 경험 / 72시간 이상 시 Activity Test"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "복귀 준비 타임라인 루틴",
+          "content_direction": "8주 전: 어린이집 등록·CCS 신청 / 4주 전: 고용주 탄력근무 협의 / 1주 전: 어린이집 적응 기간 시작"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "복귀 전 준비해야 할 3가지 영역",
+          "content_direction": "1) 법적 권리 확인 2) 어린이집·CCS 준비 3) 정서적 준비 (Mom Guilt, 번아웃 예방)"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "복귀 전 필수 체크리스트",
+          "content_direction": "어린이집 등록 완료 / CCS 신청 완료 / 긴급 픽업 담당자 등록 / 고용주 복귀 일정 통보 / 탄력근무 서면 요청"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "복귀 준비 DO/DON'T",
+          "content_direction": "DO: 어린이집 적응 기간 충분히 / 탄력 근무 요청 서면으로 / 번아웃 징후 미리 파악 / DON'T: 복귀 1주 전에 갑자기 어린이집 등록 / 죄책감으로 복귀 포기"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "직장 복귀 3단계 실행 플랜",
+          "content_direction": "Step 1: 어린이집+CCS 확정 → Step 2: 고용주와 근무 형태 협의 → Step 3: 아이 적응 기간 + 나의 심리 준비"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장·공유 유도",
+          "content_direction": "복귀 앞둔 엄마들 저장해 두세요. 댓글: 복귀할 때 가장 걱정됐던 게 뭐예요?"
+        }
+      ]
+    }
+  ]
+}
