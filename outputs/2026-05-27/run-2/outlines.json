@@ -1,0 +1,118 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "호주 어린이 알레르기 검사 완전 가이드: GP에서 알레르기 전문의까지",
+    "slug": "allergy-testing-guide",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "아이 알레르기 의심될 때 GP에 가야 하나, 소아과에 가야 하나 — 호주는 다르다. 커버 카드로 시스템 혼란을 공감하며 시작"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "아이 입술이 부어올랐는데 어디로 가야 할지 몰랐던 경험 — 호주 알레르기 시스템, 사실 알면 쉽다"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "Food Allergy vs Food Intolerance — 검사가 필요한 건 food allergy. 두 가지 차이를 명확히 설명"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "호주 어린이 알레르기 통계: 1세 이하 영아 10%, 8대 알레르기 항목, 아나필락시스 입원율 세계 최고 수준"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "GP 방문 → Referral → 알레르기 전문의 — 3단계 의뢰 루틴과 각 단계에서 해야 할 일"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "알레르기 검사 3가지 방법: Skin Prick Test, Blood Test(IgE), Oral Food Challenge — 각각 어떤 경우에 쓰이는지"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "GP 방문 전 준비 체크리스트: 증상 기록, 음식 일기, 영어 표현 준비, 사진 찍기"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "알레르기 의심 시 해야 할 것 vs 하지 말아야 할 것: 응급 대응, EpiPen, 어린이집 알림"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "진단 후 3단계: ASCIA Action Plan 작성 → 어린이집·학교 제출 → 가족 모두 대응법 공유"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "아이 알레르기 정보 저장하고 비슷한 고민하는 엄마에게 공유하기"
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "호주 공립도서관 육아 프로그램 완전 활용법: 무료 Storytime부터 LEGO Club까지",
+    "slug": "library-programs-guide",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "도서관이 그냥 책 빌리는 곳인 줄 알았다면 — 무료 육아 프로그램 보물창고 커버 카드"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "방학 때 아이 데리고 뭐할지 몰라 집에만 있었던 경험 — 사실 동네 도서관이 다 해결해 줬다"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "호주 공립도서관(Public Library)이란: 주민 누구나 무료, 카드 발급도 무료, 한국어 자료도 있다"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "전국 1,500개 지점, 연간 방문자 1억 명, 도서관 Storytime 참여 아동 언어 능력 6개월 앞서"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "도서관 활용 루틴: 주 1회 Storytime → 방학 이벤트 예약 → 디지털 서비스(Libby) 연동"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "연령별 프로그램 3가지: 0-3세 Baby Rhyme Time·Toddler Storytime / 3-5세 Preschool Storytime / 5-12세 LEGO Club·코딩·메이커스페이스"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "도서관 첫 방문 준비 체크리스트: 카드 발급 서류, 앱 설치, 예약 방법, 알림 설정"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "도서관 활용 잘하는 법 vs 놓치는 법: 인기 프로그램 예약 타이밍, 방학 프로그램 조기 마감 주의"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "도서관 첫 이용 3단계: 카드 발급 → 프로그램 예약 → 디지털 서비스 연동 (Libby 앱 설정)"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "우리 동네 도서관 프로그램 확인하고 이번 주 예약하기 — 저장하고 공유하기"
+      }
+    ]
+  }
+]
