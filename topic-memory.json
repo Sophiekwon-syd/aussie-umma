@@ -143,6 +143,18 @@
       "date": "2026-05-26",
       "carousel_file": "outputs/2026-05-26/run-1/medicare-healthy-kids-check-3yo.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 NAPLAN 완전 가이드: 한국 엄마가 알아야 할 국가시험 준비와 결과 해석법",
+      "date": "2026-05-27",
+      "carousel_file": "outputs/2026-05-27/run-1/naplan-guide-korean-mums.html",
+      "cards": 10
+    },
+    {
+      "topic": "워킹맘 직장 복귀 전략: 호주에서 출산 후 첫 복귀 전 준비 체크리스트",
+      "date": "2026-05-27",
+      "carousel_file": "outputs/2026-05-27/run-1/return-to-work-checklist.html",
+      "cards": 10
     }
   ]
 }
