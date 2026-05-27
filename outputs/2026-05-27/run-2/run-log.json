@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-27T19:39:25.000Z",
+  "finished_at": "2026-05-27T19:51:35.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26534185334",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 어린이 알레르기 검사 완전 가이드: GP에서 알레르기 전문의까지",
+      "slug": "allergy-testing-guide",
+      "html_file": "outputs/2026-05-27/run-2/allergy-testing-guide.html",
+      "copy_file": "outputs/2026-05-27/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 공립도서관 육아 프로그램 완전 활용법: 무료 Storytime부터 LEGO Club까지",
+      "slug": "library-programs-guide",
+      "html_file": "outputs/2026-05-27/run-2/library-programs-guide.html",
+      "copy_file": "outputs/2026-05-27/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-01.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-02.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-03.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-04.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-05.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-06.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-07.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-08.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-09.png",
+    "outputs/2026-05-27/run-2/images/allergy-testing-guide-10.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-01.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-02.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-03.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-04.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-05.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-06.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-07.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-08.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-09.png",
+    "outputs/2026-05-27/run-2/images/library-programs-guide-10.png"
+  ]
+}
