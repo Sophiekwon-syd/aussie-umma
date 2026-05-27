@@ -1,0 +1,138 @@
+{
+  "topic": "호주 NAPLAN 완전 가이드: 한국 엄마가 알아야 할 국가시험 준비와 결과 해석법",
+  "slug": "naplan-guide-korean-mums",
+  "account": "@aussie.umma",
+  "brand": "AUSSIE UMMA",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "NAPLAN GUIDE",
+      "headline": "결과지 받기 전에 <em>먼저</em> 읽으세요",
+      "subtitle": "Year 3·5 결과 해석부터 일상 준비법까지, 한국 엄마가 꼭 알아야 할 것"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "결과지에 <strong>'Developing'</strong>이라고 나왔어요. 우리 아이, 뒤처진 건가요?",
+      "answer": "아니에요. NAPLAN은 그런 시험이 아니에요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "NAPLAN이란",
+      "term": "진단 도구. 합격·불합격 없음.",
+      "explanation": "NAPLAN은 Year 3, 5, 7, 9 학생이 매년 3월에 치르는 전국 공통 평가예요. 읽기, 쓰기, 문법, 수학 <strong>4개 영역</strong>을 측정하죠. 점수로 등수를 매기는 시험이 아니라, 지금 우리 아이가 어디에 있는지 파악하는 도구예요.",
+      "punchline": "잘 봐야 하는 시험이 아니라, 잘 알기 위한 시험이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "2026 핵심 수치",
+      "headline": "숫자로 보는 <em>NAPLAN</em>",
+      "chips": [
+        "시험 기간 3월 11~23일",
+        "결과 배포 6~8월",
+        "4개 평가 영역",
+        "4단계 숙달 수준"
+      ],
+      "explanation": "결과지는 학교가 먼저 받아 가정에 배포해요. 주·준주마다 배포 시기가 달라서 6월에 받기도 하고 8월에 받기도 해요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "결과 해석 루틴",
+      "headline": "결과지 받으면 이렇게 하세요",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "4개 영역별 <strong>숙달 수준</strong>을 확인하세요. 전체 점수보다 영역별 패턴이 더 중요해요."
+        },
+        {
+          "label": "STEP 2",
+          "text": "강점 영역은 <strong>충분히 칭찬</strong>하고, 약점 영역은 일상 속 연습 방향을 찾아요."
+        },
+        {
+          "label": "STEP 3",
+          "text": "담임교사에게 <strong>면담을 요청</strong>하세요. 결과지만으로 보이지 않는 맥락을 들을 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "숙달 수준 해석",
+      "headline": "4단계, 이렇게 읽으세요",
+      "items": [
+        {
+          "title": "Exceeding · Strong",
+          "description": "기대 수준 충족 또는 이상이에요. Strong은 '지금 잘 하고 있다'는 뜻이지 '평범하다'는 뜻이 아니에요."
+        },
+        {
+          "title": "Developing",
+          "description": "기대 수준을 향해 나아가고 있어요. 실패가 아니라 '지원이 필요한 영역을 찾았다'는 신호예요."
+        },
+        {
+          "title": "Needs Additional Support",
+          "description": "추가 지원이 필요한 단계예요. 교사와 함께 구체적인 지원 계획을 세우는 게 다음 단계예요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "결과 후 행동",
+      "headline": "결과지 받은 날 해야 할 것",
+      "intro": "결과를 받으면 이 다섯 가지만 기억하세요.",
+      "items": [
+        "결과지 파일로 저장해 두기 (다음 해와 비교 자료)",
+        "담임교사 면담 예약 이메일 보내기",
+        "잘한 영역 아이에게 소리 내어 칭찬하기",
+        "다른 아이 결과와 비교하지 않기"
+      ],
+      "takeaway": "NAPLAN 결과는 우리 아이만의 성장 지도예요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "NAPLAN 준비 DO / DON'T",
+      "do": [
+        "매일 20분 소리 내어 책 읽기",
+        "일상 대화에서 '왜 그렇게 생각해?' 질문 습관",
+        "결과 받은 후 교사와 면담하기"
+      ],
+      "dont": [
+        "시험 전날 벼락치기 문제집 풀기",
+        "점수로 아이에게 압박 주기",
+        "한국 입시처럼 등수와 경쟁으로 접근하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "결과를 도움으로",
+      "headline": "NAPLAN을 실제 지원으로 연결하는 3단계",
+      "steps": [
+        {
+          "title": "결과지 꼼꼼히 읽기",
+          "description": "영역별 숙달 수준과 전국 평균 비교 항목을 함께 확인해요. 전체 수준보다 '어느 영역에서 어떤 패턴'인지가 중요해요."
+        },
+        {
+          "title": "교사와 면담하기",
+          "description": "이메일로 면담을 요청하고, 'NAPLAN 결과를 바탕으로 가정에서 어떻게 도울 수 있을까요?'라고 물어보세요."
+        },
+        {
+          "title": "필요 시 지원 연결하기",
+          "description": "학교 내 지원 프로그램이나 외부 튜터 연결을 고려해요. 영어가 모국어가 아닌 아이에겐 EAL/D 지원을 요청할 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "결과지 오기 전에 <em>저장</em>해 두세요",
+      "message": "NAPLAN 결과는 6~8월에 와요. <strong>미리 알고 있으면</strong> 결과지를 받아도 당황하지 않아요.",
+      "comment_prompt": "우리 아이 몇 학년에 처음 NAPLAN 봤어요? 댓글로 알려주세요."
+    }
+  ]
+}
