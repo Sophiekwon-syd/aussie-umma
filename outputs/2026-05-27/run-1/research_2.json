@@ -1,0 +1,48 @@
+{
+  "topic": "워킹맘 직장 복귀 전략: 호주에서 출산 후 첫 복귀 전 준비 체크리스트",
+  "slug": "return-to-work-checklist",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 육아휴직 중이거나 직장 복귀를 앞두고 있는 워킹맘.",
+  "key_facts": [
+    "2026년 7월 1일부터 호주 정부지원 유급 육아휴직(PPL)이 26주(130일)로 확대된다.",
+    "26주 중 4주(20일)는 '사용하지 않으면 소멸되는' 비출산 파트너 전용 몫이다. 2025년 7월부터 단계적으로 도입됐다.",
+    "직장 복귀 시 '원래 직위 복귀 보장' 권리가 있다. 기존 직위가 없어진 경우 동일 수준의 대체 직위를 받을 권리가 있다 (Fair Work Act).",
+    "직장 복귀 후 탄력 근무(Flexible Working Arrangement)를 요청할 법적 권리가 있다. 고용주는 합당한 사업 이유 없이 거절할 수 없다.",
+    "탄력 근무 예시: 파트타임, 근무 시간대 변경, 재택근무 등.",
+    "어린이집 등록은 복귀 최소 2~3개월 전에 해야 한다. 대기자 명단이 길다.",
+    "2026년 1월 5일부터 CCS 3일 보장 제도 시행: 취업 여부와 관계없이 주 3일(2주당 72시간) 어린이집 보조금이 자동 제공된다.",
+    "72시간 이상이 필요한 경우에만 Activity Test(활동 요건)를 충족해야 한다.",
+    "직장 복귀 전 어린이집 적응 기간(Trial Days)을 1~2주 운영하면 아이와 엄마 모두에게 도움이 된다.",
+    "긴급 대리 픽업 담당자를 어린이집에 사전 등록해 두면 아이 갑작스러운 아픔에 대비할 수 있다.",
+    "모유수유 중인 경우: 호주 법률상 고용주는 수유·유축을 위한 적절한 공간과 휴식 시간을 제공해야 한다.",
+    "복귀 전 고용주와 근무 형태 변경을 최대한 일찍 협의하면 더 유연한 조율이 가능하다.",
+    "업무 효율을 위해 식료품 배달, 냉동 식사 일괄 조리, 기저귀 정기 배송 등 시간 절약 서비스 활용을 권장한다.",
+    "직장 복귀 후 심리적 부담을 줄이기 위해 Medicare Mental Health Plan을 통해 심리 상담을 받을 수 있다 (GP 의뢰 필요).",
+    "COPE(Centre of Perinatal Excellence)는 직장 복귀 후 산후 정서 건강 지원 자료를 무료 제공한다.",
+    "한국 엄마들이 자주 겪는 어려움: 아이 두고 가는 죄책감(Mom Guilt), 영어 환경의 직장 소통 부담, 친정 도움 없이 혼자 해결해야 하는 부담.",
+    "Starting Blocks(startingblocks.gov.au) — 정부 공식 어린이집 검색 사이트."
+  ],
+  "statistics": [
+    "2024년 기준 74%의 여성이 일과 가정 균형에서 스트레스를 느낀다고 보고 (2019년 51%에서 증가)",
+    "28%의 워킹 부모가 육아와 직장 병행 어려움으로 이직을 고려한 적 있다",
+    "2026년 7월부터 정부 PPL 26주 (130일)",
+    "2026년 1월 5일부터 CCS 3일 보장 (주 3일, 2주당 72시간)",
+    "파트너 전용 PPL: 4주 (20일) 사용하지 않으면 소멸"
+  ],
+  "angles": [
+    "실용 체크리스트: 복귀 8주 전, 4주 전, 1주 전으로 나눈 단계별 준비 가이드",
+    "법적 권리 정리: 원 직위 복귀, 탄력 근무 요청권",
+    "어린이집 준비: CCS 신청, 적응 기간, 긴급 픽업 등록",
+    "정서적 측면: Mom Guilt 다루기, 번아웃 예방",
+    "시스템 연계: CCS 3일 보장, PPL 26주 (July 2026)"
+  ],
+  "sources": [
+    "https://www.cope.org.au/new-parents/adjusting-to-parenthood/juggling-priorities-and-returning-to-work/returning-to-work",
+    "https://my.gov.au/en/services/work/returning-to-work/returning-to-work-after-parental-leave/your-rights-when-you-return-from-parental-leave",
+    "https://www.fairwork.gov.au/tools-and-resources/best-practice-guides/parental-leave",
+    "https://www.rosterelf.com/guides/how-to/take-maternity-leave-australia",
+    "https://www.theparenthood.org.au/research_shows_stress_is_growing_among_working_parents",
+    "https://www.ibtimes.com.au/australia-expands-paid-parental-leave-26-weeks-july-2026-offering-families-more-support-1864707",
+    "https://www.servicesaustralia.gov.au/child-care-subsidy-ccs-changes?context=41186"
+  ]
+}
