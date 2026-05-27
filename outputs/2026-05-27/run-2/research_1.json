@@ -1,0 +1,46 @@
+{
+  "topic": "호주 어린이 알레르기 검사 완전 가이드: GP에서 알레르기 전문의까지",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    "호주는 전 세계에서 식품 알레르기 유병률이 가장 높은 나라 중 하나로, 1세 이하 영아의 약 10%가 식품 알레르기를 가지고 있다 (출처: ASCIA, 2023)",
+    "호주 어린이 알레르기 검사의 첫 관문은 항상 GP(일반의)다. GP가 의심 알레르기를 평가하고 필요시 알레르기 전문의(allergist)에게 referral을 발행한다",
+    "GP 방문 시 Medicare를 통해 무료 또는 저비용으로 진료를 받을 수 있으며, 알레르기 전문의 referral이 있으면 Medicare rebate가 적용된다",
+    "주요 알레르기 검사 방법은 두 가지: (1) Skin Prick Test(SPT) — 피부에 소량의 알레르겐을 올려 반응을 보는 검사, (2) Specific IgE Blood Test(RAST) — 혈액 검사로 특정 알레르겐에 대한 항체를 측정",
+    "Skin Prick Test는 20분 내 결과 확인이 가능하며, 알레르기 전문의 클리닉에서 시행한다. 영아(6개월 이상)도 가능",
+    "Food allergy와 food intolerance는 다르다. Food allergy는 면역 반응(두드러기, 아나필락시스), food intolerance는 소화기 문제(복통, 설사). 검사 대상은 food allergy",
+    "호주에서 가장 흔한 어린이 식품 알레르기 8대 항목: 우유, 달걀, 밀, 대두, 땅콩, 견과류, 참깨, 어패류 (출처: ASCIA)",
+    "Anaphylaxis(심각한 알레르기 반응) 과거력이 있는 아이는 에피네프린 자동주사기(EpiPen)가 처방되며, 어린이집·학교에 ASCIA 행동계획서를 제출해야 한다",
+    "알레르기 전문의 대기 기간은 도시 지역 기준 보통 3-6개월이며, 사립 클리닉은 더 빠를 수 있다. Urgent referral(아나필락시스 후)은 우선 예약 가능",
+    "ASCIA(Australasian Society of Clinical Immunology and Allergy) 웹사이트에서 지역별 알레르기 전문의 검색 가능: www.allergy.org.au",
+    "호주 어린이집과 학교는 알레르기 아동을 위한 Allergy Aware 정책을 운영한다. 입학 전 학교·어린이집 원장과 면담하고 행동계획서(ASCIA Action Plan)를 제출해야 함",
+    "한국과 다른 점: 한국에서는 소아과에서 바로 알레르기 검사를 할 수 있지만, 호주에서는 GP → referral → 전문의 순서를 반드시 거쳐야 한다",
+    "GP에게 알레르기 증상을 설명할 때 유용한 영어 표현: 'My child has had hives after eating X', 'There was swelling around the lips', 'We noticed wheezing after contact with pets'",
+    "Medicare Item Number: 알레르기 전문의 첫 방문(새 환자)은 Item 110 또는 116, 후속 방문은 Item 132 적용. Bulk billing 여부는 클리닉마다 다름",
+    "2026년 현재 호주에서는 OIT(Oral Immunotherapy, 경구 면역치료)가 일부 알레르기(특히 땅콩)에 대해 전문 클리닉에서 제공되기 시작했으며, 한국 엄마들 사이에서 관심이 높아지고 있다"
+  ],
+  "statistics": [
+    "호주 어린이 알레르기 유병률: 1세 이하 영아 약 10%, 학령기 아동 약 4-8% (ASCIA 2023)",
+    "땅콩 알레르기는 호주에서 가장 심각한 식품 알레르기로, 어린이 약 3%가 영향을 받음 (FARE/ASCIA)",
+    "호주는 전 세계 아나필락시스 입원율이 가장 높은 국가 중 하나 (Mullins et al., Medical Journal of Australia)",
+    "어린이 식품 알레르기의 약 80%는 학령기 이전에 진단됨",
+    "호주 어린이 4명 중 1명은 어떤 형태의 알레르기 질환(알레르기성 비염, 천식, 습진, 식품 알레르기)을 가지고 있음"
+  ],
+  "angles": [
+    "한국 엄마의 시스템 혼란 해소: GP → referral → 전문의 단계 명확히 설명",
+    "GP 방문 전 준비: 증상 기록 방법, 영어로 증상 설명하는 법",
+    "검사 종류 쉽게 비교: Skin Prick Test vs Blood Test 차이점",
+    "학교·어린이집 제출 서류: ASCIA Action Plan 작성과 제출 방법",
+    "EpiPen 사용법과 보관법: 엄마가 알아야 할 응급 대응",
+    "비용 현실: Medicare rebate vs 비용 발생 구간 명확히",
+    "한국과 다른 점 강조: '소아과 바로 가면 되지 않나요?'라는 오해 해소",
+    "알레르기 있는 아이 유치원·학교 보내기: 실용적인 체크리스트"
+  ],
+  "sources": [
+    "ASCIA (Australasian Society of Clinical Immunology and Allergy) — www.allergy.org.au",
+    "Australian Society of Clinical Immunology and Allergy, 2023 Position Papers",
+    "Medical Journal of Australia — Mullins et al., anaphylaxis hospitalization data",
+    "Australian Department of Health — Medicare Benefits Schedule",
+    "Healthdirect Australia — allergy testing information"
+  ]
+}
