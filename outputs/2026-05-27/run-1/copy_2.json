@@ -1,0 +1,138 @@
+{
+  "topic": "워킹맘 직장 복귀 전략: 호주에서 출산 후 첫 복귀 전 준비 체크리스트",
+  "slug": "return-to-work-checklist",
+  "account": "@aussie.umma",
+  "brand": "AUSSIE UMMA",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "WORKING MUM",
+      "headline": "복귀 날짜는 다가오는데 <em>뭐부터</em> 해야 할까요",
+      "subtitle": "호주 워킹맘이 꼭 알아야 할 직장 복귀 전 단계별 체크리스트"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "복귀 한 달 전인데, <strong>아직 어린이집도 못 잡았어요.</strong> 너무 늦은 건가요?",
+      "answer": "늦었을 수도 있지만, 지금 당장 시작하면 됩니다. 순서대로 알려드릴게요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "알아야 할 권리",
+      "term": "복귀 보장 + 탄력 근무 요청권",
+      "explanation": "호주 Fair Work Act에 따라, 육아휴직 후 복귀 시 <strong>원래 직위로 돌아갈 권리</strong>가 있어요. 직위가 없어진 경우 동등한 수준의 대체 직위를 받을 권리도 있고요. 또한 파트타임, 재택근무 등 <strong>탄력 근무를 요청</strong>할 법적 권리도 있어요.",
+      "punchline": "모르면 못 쓰는 권리, 알면 당당하게 쓸 수 있어요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "2026 핵심 수치",
+      "headline": "복귀 전 알아야 할 <em>숫자들</em>",
+      "chips": [
+        "PPL 26주 (7월부터)",
+        "파트너 전용 4주",
+        "CCS 3일 보장 (주 3일)",
+        "여성 74% 복귀 스트레스"
+      ],
+      "explanation": "2026년 1월부터 취업 여부 관계없이 주 3일 어린이집 보조금이 자동 적용돼요. 72시간 이상 필요한 경우에만 Activity Test를 충족하면 돼요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "복귀 준비 타임라인",
+      "headline": "복귀 8주 전부터 시작하세요",
+      "entries": [
+        {
+          "label": "8주 전",
+          "text": "<strong>어린이집 등록</strong>하고 CCS 신청 완료. 대기가 길어 최대한 일찍 시작해야 해요."
+        },
+        {
+          "label": "4주 전",
+          "text": "고용주에게 복귀 일정 알리고 <strong>탄력 근무 요청</strong>을 서면으로 제출해요."
+        },
+        {
+          "label": "1주 전",
+          "text": "어린이집 <strong>적응 기간(Trial Days)</strong> 시작. 아이도, 엄마도 천천히 준비해요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "준비 영역 3가지",
+      "headline": "이 세 가지를 동시에 챙기세요",
+      "items": [
+        {
+          "title": "법적 권리",
+          "description": "원 직위 복귀 보장, 탄력 근무 요청권. 모르면 못 챙겨요. Fair Work Ombudsman 웹사이트에서 확인하세요."
+        },
+        {
+          "title": "어린이집·CCS 준비",
+          "description": "어린이집 등록, CCS 신청, 긴급 픽업 담당자 등록, 적응 기간 계획. 모두 복귀 8주 전에 완료하는 게 목표예요."
+        },
+        {
+          "title": "정서적 준비",
+          "description": "아이를 두고 나오는 죄책감은 자연스러운 감정이에요. 번아웃 징후를 미리 알아두고, 필요하면 GP에게 Mental Health Plan을 요청할 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "복귀 전 체크리스트",
+      "headline": "복귀 전날까지 확인하세요",
+      "intro": "이 다섯 가지가 완료되면 준비된 거예요.",
+      "items": [
+        "어린이집 등록 완료 + CCS 신청 완료",
+        "긴급 픽업 담당자 어린이집에 등록",
+        "고용주에게 복귀 일정 + 탄력 근무 요청 서면 제출",
+        "어린이집 적응 기간 최소 3~5일 완료"
+      ],
+      "takeaway": "준비가 된 엄마가 더 잘 돌아올 수 있어요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "직장 복귀 준비 DO / DON'T",
+      "do": [
+        "어린이집 적응 기간을 충분히 주기",
+        "탄력 근무 요청은 서면으로 남기기",
+        "번아웃 징후 미리 파악해 두기"
+      ],
+      "dont": [
+        "복귀 1주 전에 갑자기 어린이집 알아보기",
+        "죄책감 때문에 복귀 포기하거나 무기한 미루기",
+        "탄력 근무를 구두로만 요청하고 끝내기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "실행 플랜",
+      "headline": "직장 복귀 3단계 실행 순서",
+      "steps": [
+        {
+          "title": "어린이집과 CCS 확정하기",
+          "description": "startingblocks.gov.au에서 근처 어린이집을 검색하고 등록하세요. CCS는 myGov에서 신청해요. 3일 보장 제도로 주 3일은 기본 보조가 돼요."
+        },
+        {
+          "title": "고용주와 근무 형태 협의하기",
+          "description": "복귀 전 최소 4주 전에 고용주에게 알리고, 파트타임이나 재택 혼용을 원한다면 서면으로 요청하세요. 고용주는 합당한 이유 없이 거절할 수 없어요."
+        },
+        {
+          "title": "아이 적응 + 나의 심리 준비",
+          "description": "어린이집 적응 기간을 충분히 주고, 엄마 본인도 '첫 주는 힘들 수 있다'는 것을 미리 받아들이세요. GP에게 Mental Health Plan을 받아두면 심리 상담을 보조받을 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "복귀 준비, <em>지금</em> 시작하면 됩니다",
+      "message": "완벽하게 준비된 복귀는 없어요. <strong>한 단계씩 체크하는 것</strong>이 가장 좋은 준비예요.",
+      "comment_prompt": "복귀할 때 가장 걱정됐던 게 뭐예요? 댓글로 알려주세요."
+    }
+  ]
+}
