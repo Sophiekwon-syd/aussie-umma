@@ -1,8 +1,8 @@
 {
   "date": "2026-05-28",
-  "last_run_at": "2026-05-28T11:26:25.717Z",
+  "last_run_at": "2026-05-28T20:14:52.590Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "605aaba2233ae30805743302ef239e223576ec5a",
+  "ref": "a767a7251cc0a9933b9e24ec27a38ab702c0755c",
   "results": [
     {
       "topic": "아이 사회성 키우기: 호주에서 한국 아이가 현지 친구 사귀는 실전 전략",
@@ -41,6 +41,44 @@
         "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/605aaba2233ae30805743302ef239e223576ec5a/outputs/2026-05-28/run-1/images/birthday-party-guide-australia-10.png"
       ],
       "posted_at": "2026-05-28T11:26:25.717Z"
+    },
+    {
+      "topic": "호주 독감 예방접종 완전 가이드: 겨울 전 가족 독감 백신 한국 엄마 실전 정보",
+      "slug": "flu-vaccine-guide-australia",
+      "carousel_container_id": "18093880718089110",
+      "ig_media_id": "18113556529730365",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-10.png"
+      ],
+      "posted_at": "2026-05-28T20:12:54.095Z"
+    },
+    {
+      "topic": "호주 공립 vs 사립 학교 선택 가이드: 한국 엄마의 현실적인 비교 체크리스트",
+      "slug": "public-vs-private-school-guide",
+      "carousel_container_id": "18093881225089110",
+      "ig_media_id": "17856382089659637",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a767a7251cc0a9933b9e24ec27a38ab702c0755c/outputs/2026-05-28/run-2/images/public-vs-private-school-guide-10.png"
+      ],
+      "posted_at": "2026-05-28T20:14:52.590Z"
     }
   ]
 }
