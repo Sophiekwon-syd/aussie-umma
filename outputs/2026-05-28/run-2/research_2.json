@@ -1,0 +1,120 @@
+{
+  "topic": "호주 공립 vs 사립 학교 선택 가이드: 한국 엄마의 현실적인 비교 체크리스트",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "research_date": "2026-05-28",
+  "key_facts": [
+    {
+      "fact": "호주 공립학교는 호주 시민권자·영주권자에게 무료. 연간 학부모 자발적 기여금 평균 약 $221. 하지만 교복, 소풍, 준비물 등 실비 발생",
+      "source": "Mamamia.com.au / Report on Government Services 2026",
+      "relevance": "비용 현실 — '완전 무료'가 아님을 전달"
+    },
+    {
+      "fact": "사립학교(Independent) 연간 학비: NSW 기준 초등학교 평균 $18,500, 중고등 평균 $32,000. 상위 GPS/CAS 스쿨은 12학년 기준 $38,000~$52,000",
+      "source": "Savings Mate / exfin.com Private School Fees Australia 2026",
+      "relevance": "비용 현실 전달"
+    },
+    {
+      "fact": "가톨릭학교(Catholic systemic school)는 중간 선택지: 초등 평균 $2,800, 중등 평균 $7,500. 종교 기반이지만 비가톨릭 가정도 입학 가능",
+      "source": "Mamamia.com.au 2026",
+      "relevance": "한국 엄마들이 잘 모르는 세 번째 선택지"
+    },
+    {
+      "fact": "공립·사립·가톨릭 모두 Kindergarten~Year 10은 동일한 '호주 국가 교육과정(Australian Curriculum)' 따름. 커리큘럼 차이는 Year 11~12에서 주로 발생",
+      "source": "Covenant Christian School / Australian Curriculum website",
+      "relevance": "오해 바로잡기 — '사립이 더 잘 가르친다'는 믿음에 균형"
+    },
+    {
+      "fact": "NSW HSC 상위 10개 학교 중 7개가 공립학교(선택제 고등학교). 학업 성과는 학교 유형보다 사회경제적 환경과 학생 선발 방식에 더 연관",
+      "source": "First Migration Service Centre 2026 / media reporting",
+      "relevance": "핵심 인사이트 — 비싼 사립 = 좋은 성적 공식에 반박"
+    },
+    {
+      "fact": "공립학교는 거주지 기반 통학구역(catchment zone) 적용. 원하는 학교 구역으로 이사하는 가정도 존재. 2026년 NSW 여러 학교 catchment 경계 변경됨",
+      "source": "schoolcatchment.com.au / SchoolRank 2026",
+      "relevance": "공립 선택 시 현실적 고려 사항"
+    },
+    {
+      "fact": "선택제 공립 고등학교(Selective High School): NSW에만 있으며 Placement Test 통과 필요. 2026년부터 NSW 내 모든 학교 섹터 학생이 응시 가능",
+      "source": "NSW Department of Education 2026",
+      "relevance": "공부 잘하는 아이를 둔 한국 엄마들에게 매우 관심 높은 옵션"
+    },
+    {
+      "fact": "출석률: 비정부학교(사립·가톨릭) 89.9% vs 공립학교 84.0% (2025년 기준, Year 7~10)",
+      "source": "ABS Schools 2025 / Report on Government Services 2026",
+      "relevance": "환경 차이를 보여주는 데이터"
+    },
+    {
+      "fact": "사립학교 지원 시 대기 기간이 길다: 일부 인기 사립학교는 출생 직후 웨이팅 리스트 등록 권고. 가톨릭학교는 입학 1~2년 전 지원",
+      "source": "First Migration Service Centre 2026",
+      "relevance": "타이밍 — 지금 아이가 어리면 일찍 알아봐야 함"
+    },
+    {
+      "fact": "My School 웹사이트(myschool.edu.au)에서 모든 학교의 NAPLAN 결과, 학생 구성, 재원 정보를 무료로 비교할 수 있음",
+      "source": "myschool.edu.au",
+      "relevance": "실행 가능한 리소스 안내"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "$221/년",
+      "context": "공립 초등학교 연간 평균 학부모 기여금",
+      "source": "Mamamia.com.au 2026"
+    },
+    {
+      "stat": "$18,500~$52,000",
+      "context": "NSW 사립학교 연간 학비 범위 (초등~상위 고등)",
+      "source": "Savings Mate / exfin.com 2026"
+    },
+    {
+      "stat": "7/10",
+      "context": "NSW HSC 상위 10개 학교 중 공립(선택제) 학교 수",
+      "source": "언론 보도 / First Migration Service Centre 2026"
+    },
+    {
+      "stat": "89.9% vs 84.0%",
+      "context": "비정부학교 vs 공립학교 출석률 (Year 7~10, 2025)",
+      "source": "ABS / Productivity Commission 2026"
+    }
+  ],
+  "school_types": [
+    {
+      "type": "공립학교 (Government School)",
+      "cost": "무료 (실비 발생)",
+      "curriculum": "국가 교육과정 동일",
+      "enrolment": "거주지 catchment zone 기반",
+      "pros": "무료, 다양성, 선택제 고등학교 진학 가능",
+      "cons": "catchment 제한, 학교마다 질 차이 있음"
+    },
+    {
+      "type": "가톨릭학교 (Catholic School)",
+      "cost": "초등 평균 $2,800/년, 중등 $7,500/년",
+      "curriculum": "국가 교육과정 + 종교 교육",
+      "enrolment": "지역 본당 우선, 비가톨릭도 가능",
+      "pros": "중간 비용, 가치 교육, 커뮤니티",
+      "cons": "종교 색깔, 입학 우선순위 있음"
+    },
+    {
+      "type": "사립학교 (Independent School)",
+      "cost": "초등 $18,500~, 중등 $32,000~, 상위권 $52,000~",
+      "curriculum": "국가 교육과정 + 학교별 특색 프로그램",
+      "enrolment": "입학시험 또는 인터뷰 + 대기 기간",
+      "pros": "소규모 학급, 다양한 방과 후 프로그램, 네트워크",
+      "cons": "비용 부담, 대기 기간 길 수 있음"
+    }
+  ],
+  "angles": [
+    "한국 엄마들의 오해 — '사립 = 좋은 대학'이 호주에서는 공식이 아님",
+    "가톨릭학교라는 중간 선택지를 모르는 엄마들 많음",
+    "선택제 고등학교(Selective School)이 공립이라는 사실",
+    "My School 웹사이트 활용법 — 어떻게 학교를 비교하는가",
+    "아이 성격과 학습 스타일에 따른 학교 선택 체크리스트"
+  ],
+  "common_questions": [
+    "공립학교는 정말 무료인가요?",
+    "사립학교가 성적이 더 잘 나오나요?",
+    "가톨릭학교는 천주교 신자여야 다닐 수 있나요?",
+    "선택제 고등학교(Selective School)는 어떻게 들어가나요?",
+    "지금 아이가 어린데 언제부터 알아봐야 하나요?"
+  ]
+}
