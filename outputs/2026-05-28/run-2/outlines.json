@@ -1,0 +1,116 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "호주 독감 예방접종 완전 가이드: 겨울 전 가족 독감 백신 한국 엄마 실전 정보",
+    "slug": "flu-vaccine-guide-australia",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "겨울 시즌 독감 백신 타이밍 강조. 지금 맞아야 하는 이유."
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "작년 독감으로 힘들었던 경험 공감 → 백신 정보 부족이 문제임을 제시"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "NIP(국가예방접종프로그램)가 무엇인지, 호주 독감 백신 시스템 기본 설명"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "2025년 사망자 1,700명+, 무료 대상 연령 범위, 접종 시기 통계 등 핵심 수치"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "독감 백신 예약부터 접종까지 실전 루틴 — GP 예약, 질문 목록, 접종 후 주의사항"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "세 가지 접종 대상 카테고리: 아이, 엄마(임산부 포함), 가족 전체"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "GP 방문 전 준비 체크리스트: Medicare 카드, 예방접종 기록, 알레르기 확인 등"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "독감 백신 관련 맞는 행동 vs 틀린 행동 — 오해와 올바른 선택"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "GP에서 독감 백신 받는 3단계: 예약 → 상담 → 접종 후 관리"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "저장 유도 — 겨울 전에 온 가족 접종 완료하라는 행동 촉구"
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "호주 공립 vs 사립 학교 선택 가이드: 한국 엄마의 현실적인 비교 체크리스트",
+    "slug": "public-vs-private-school-guide",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "학교 선택이라는 큰 결정, 지금 제대로 알아야 한다는 메시지"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "'사립이 당연히 낫다'는 믿음에 의문 제기 → 호주는 한국과 다르다는 공감"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "호주 학교 시스템의 세 가지 유형: 공립, 가톨릭, 사립 — 기본 개념 정리"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "비용 통계: 공립 $221/년 vs 가톨릭 $2,800~$7,500 vs 사립 $18,500~$52,000, 출석률 데이터"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "학교 선택 전 엄마가 실천할 리서치 루틴 — My School 검색, 오픈데이 방문, 주변 엄마들에게 물어보기"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "세 학교 유형별 핵심 특징 정리: 공립, 가톨릭, 사립의 장단점 비교"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "학교 선택 체크리스트 — 아이 성향, 통학 거리, 언어 지원, 다양성 환경 등"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "학교 선택 시 맞는 접근 vs 피해야 할 오해 — 비용만 보기, 학교 순위만 보기 등"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "학교 선택 3단계 실행 플랜: 조사 → 방문 → 결정"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "저장 유도 — 학교 선택 시즌 전에 꼭 저장해두라는 CTA"
+      }
+    ]
+  }
+]
