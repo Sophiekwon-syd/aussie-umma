@@ -1,0 +1,120 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "아이 사회성 키우기: 호주에서 한국 아이가 현지 친구 사귀는 실전 전략",
+      "slug": "child-social-skills-australia",
+      "target_audience": "호주에 사는 25-40세 한국인 엄마",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "concept": "아이가 호주 학교에서 혼자 노는 모습을 본 엄마의 공감 포인트. 해결 가능하다는 희망 전달."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "concept": "아이가 학교에서 친구를 못 사귀는 걸 보면서 엄마도 마음이 아프다. 그런데 방법이 있다."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "concept": "호주에서 '친구 사귀기'가 한국과 다른 이유 — 플레이데이트 문화 정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "concept": "이중언어 아이의 사회성 우위에 관한 연구 통계 및 데이터"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "concept": "플레이데이트 약속 잡는 3단계 루틴 — 교사에게 묻기, 부모에게 연락하기, 장소 정하기"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "concept": "아이 성향별 친구 사귀기 전략 3가지 — 수줍음 타는 아이, 활동적인 아이, 언어가 아직 부족한 아이"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "concept": "엄마가 집에서 미리 해줄 수 있는 친구 사귀기 준비 체크리스트"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "concept": "호주 플레이데이트 문화에서 해야 할 것 vs 하지 말아야 할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "concept": "아이가 스스로 친구에게 먼저 다가가는 3단계 — 대화 시작, 공통점 찾기, 다음 약속"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "concept": "아이의 사회성은 연습이다. 저장해 두고 이번 주 하나만 시작해 보세요."
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 학교 생일 파티 완전 가이드: 한국 엄마가 꼭 알아야 할 파티 예절과 선물 준비",
+      "slug": "birthday-party-guide-australia",
+      "target_audience": "호주에 사는 25-40세 한국인 엄마",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "concept": "생일 파티 초대장을 받고 당황한 한국 엄마의 공감 포인트. 호주 파티 문화 완전 정복."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "concept": "얼마짜리 선물 사야 할지, RSVP가 뭔지 — 처음엔 다 막막하다. 알고 나면 쉽다."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "concept": "호주 생일 파티가 한국과 다른 핵심 — 활동 중심 파티 vs 음식 중심 파티"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "concept": "호주 아이 생일 파티 통계 — 연간 초대 횟수, 평균 선물 예산, 파티 트렌드"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "concept": "초대장 받고 → RSVP 보내기 → 선물 준비 → 파티 참석 → 감사 메시지 보내기 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "concept": "초대장 유형 3가지 — 일반 파티, No-gift 파티, 경험형 파티 — 각각 어떻게 대응하나"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "concept": "우리 아이 생일 파티 열 때 준비 체크리스트 — 초대장 배포 규칙, 알레르기 확인, 파티백 준비"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "concept": "호주 생일 파티 에티켓 — 해야 할 것 vs 하지 말아야 할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "concept": "우리 아이 파티 성공적으로 여는 3단계 — 장소 선택, 초대 범위 결정, 예산 관리"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "concept": "이제 초대장 받아도 당황하지 않을 거예요. 저장해 두고 다음 파티 때 꺼내 보세요."
+        }
+      ]
+    }
+  ]
+}
