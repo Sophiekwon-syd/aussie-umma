@@ -1,0 +1,94 @@
+{
+  "topic": "호주 독감 예방접종 완전 가이드: 겨울 전 가족 독감 백신 한국 엄마 실전 정보",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "research_date": "2026-05-28",
+  "key_facts": [
+    {
+      "fact": "2026년 호주 독감 시즌은 6월~9월이 최고조이며, 8월이 가장 활발한 시기",
+      "source": "Doherty Institute / Corporate Care Australia 2026",
+      "relevance": "타이밍 — 지금(5월)이 접종 최적기임을 강조"
+    },
+    {
+      "fact": "ATAGI(호주 예방접종 자문위원회)는 4월 중순부터 접종을 권고. 최고조 전 2주 이상 면역 형성 필요",
+      "source": "Australian Government Department of Health 2026",
+      "relevance": "접종 시기 안내"
+    },
+    {
+      "fact": "2025년 호주에서 독감 관련 사망자 1,700명 이상 — 이번 세기 최고 수치. 2026년은 덜 심각할 것으로 예측되나 여전히 주의 필요",
+      "source": "SMC.org.au / Immunisation Coalition 2026",
+      "relevance": "심각성 인식 — 공포가 아닌 사실 전달"
+    },
+    {
+      "fact": "2026년 백신은 사국가백신(QIV)에서 삼국가백신(TIV)으로 전환. '슈퍼-K(H3N2)' 변종 포함한 새 균주 대응",
+      "source": "TGA (Therapeutic Goods Administration) / The Daily Perspective 2026",
+      "relevance": "올해 백신이 새로 바뀌었다는 정보"
+    },
+    {
+      "fact": "NIP(국가예방접종프로그램) 무료 대상: 생후 6개월~만 5세 미만 아이, 임산부(임신 중 언제든지), 65세 이상, 원주민, 만성질환자",
+      "source": "Australian Government NIP 2026 / health.gov.au",
+      "relevance": "핵심 실용 정보 — 한국 엄마들이 몰랐다가 유용하다고 가장 저장하는 정보"
+    },
+    {
+      "fact": "생후 6개월~만 5세 미만 어린이는 GP에서 무료 접종 가능. NSW, QLD, SA, WA는 만 2세~만 5세 미만 어린이에게 비강(코) 분무 백신도 무료 제공",
+      "source": "SA Health / NSW Health / Queensland Health 2026",
+      "relevance": "구체적 실행 정보 — 어디서 받는지 안내"
+    },
+    {
+      "fact": "퀸즐랜드는 2026년 3월 1일~9월 30일, 생후 6개월 이상 모든 퀸즐랜드 주민에게 무료 독감 백신 제공",
+      "source": "Queensland Health 2026",
+      "relevance": "QLD 거주 한국 엄마들을 위한 추가 정보"
+    },
+    {
+      "fact": "처음 독감 백신을 맞는 만 9세 미만 어린이는 4주 간격으로 2회 접종이 필요",
+      "source": "Australian Immunisation Handbook",
+      "relevance": "몰랐다가 당황하는 정보 — 미리 알면 일정 계획에 도움"
+    },
+    {
+      "fact": "독감 백신은 GP, 약국(pharmacist), MCHN에서 접종 가능. 단, 생후 6개월~만 5세 미만은 GP 권장",
+      "source": "health.gov.au / familydoctor.com.au",
+      "relevance": "접종 장소 안내"
+    },
+    {
+      "fact": "임산부 접종 시 아기에게도 출생 후 수개월간 항체 전달 효과. 임신 중 어느 시기든 접종 가능",
+      "source": "Australian Immunisation Handbook",
+      "relevance": "임산부 또는 임신 예정인 엄마들을 위한 정보"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "1,700명+",
+      "context": "2025년 호주 독감 관련 사망자 수 — 이번 세기 최고",
+      "source": "Immunisation Coalition Australia"
+    },
+    {
+      "stat": "6개월~만 5세",
+      "context": "NIP 무료 독감 백신 어린이 대상 연령",
+      "source": "health.gov.au NIP 2026"
+    },
+    {
+      "stat": "80%",
+      "context": "2026년 6~8월 평균 이상 기온 확률. 더워도 독감은 온다",
+      "source": "Bureau of Meteorology / SMC 2026"
+    },
+    {
+      "stat": "2회",
+      "context": "처음 접종하는 만 9세 미만 아이에게 필요한 접종 횟수 (4주 간격)",
+      "source": "Australian Immunisation Handbook"
+    }
+  ],
+  "angles": [
+    "한국에서는 독감 주사 = 선택, 호주에서는 NIP 무료 프로그램 = 적극 권장 시스템 차이 설명",
+    "아이 처음 접종 시 2회 맞아야 한다는 사실을 모르는 엄마들 많음",
+    "GP 예약 → 어떤 질문을 해야 하는가 실전 가이드",
+    "코 스프레이 백신(비강 분무) vs 주사 — 아이 공포 관점에서 선택지 안내",
+    "임산부 접종 = 뱃속 아기 보호까지"
+  ],
+  "common_questions": [
+    "독감 백신 맞아도 독감 걸리나요?",
+    "아이가 처음 맞는 건데 한 번만 맞아도 되나요?",
+    "GP 예약 없이 약국에서 맞을 수 있나요?",
+    "코 스프레이 백신이 더 낫나요 주사가 더 낫나요?",
+    "작년에 맞았는데 올해 또 맞아야 하나요?"
+  ]
+}
