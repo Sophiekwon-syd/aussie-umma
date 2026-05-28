@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-28T19:56:00Z",
+  "finished_at": "2026-05-28T20:07:48Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26598537881",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 독감 예방접종 완전 가이드: 겨울 전 가족 독감 백신 한국 엄마 실전 정보",
+      "slug": "flu-vaccine-guide-australia",
+      "html_file": "outputs/2026-05-28/run-2/flu-vaccine-guide-australia.html",
+      "copy_file": "outputs/2026-05-28/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 공립 vs 사립 학교 선택 가이드: 한국 엄마의 현실적인 비교 체크리스트",
+      "slug": "public-vs-private-school-guide",
+      "html_file": "outputs/2026-05-28/run-2/public-vs-private-school-guide.html",
+      "copy_file": "outputs/2026-05-28/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-01.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-02.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-03.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-04.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-05.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-06.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-07.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-08.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-09.png",
+    "outputs/2026-05-28/run-2/images/flu-vaccine-guide-australia-10.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-01.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-02.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-03.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-04.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-05.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-06.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-07.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-08.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-09.png",
+    "outputs/2026-05-28/run-2/images/public-vs-private-school-guide-10.png"
+  ]
+}
