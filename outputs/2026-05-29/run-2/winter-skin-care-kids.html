@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>호주 겨울 아이 피부 관리 — AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;           /* overridden with ACCENT_PRIMARY */
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;             /* overridden with ACCENT_SECONDARY */
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Centered content block — wrap non-.top content to keep it visible in 1:1 crop */
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches / Cards */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't Grid */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Timeline */
+.ti {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-left: 3px solid var(--border);
+  margin-left: 5px;
+  padding-left: 36px;
+  position: relative;
+}
+.ti::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 42px;
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--accent-dim);
+}
+.ti:last-child { border-left-color: transparent; }
+.ti-year {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ti-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.ti-desc {
+  font-size: 23px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Comparison row */
+.cmp-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+}
+.cmp-row:last-child { border-bottom: none; }
+.cmp-h {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink3);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+.cmp-v {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.cmp-v.accent { color: var(--accent); }
+
+/* Quote */
+.quote {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+  text-align: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.quote strong { color: var(--accent); font-weight: 900; }
+.quote-author {
+  margin-top: 48px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Stat */
+.stat-val {
+  font-family: var(--font-display);
+  font-size: 260px;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -10px;
+}
+.stat-label {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--ink);
+  text-align: center;
+  margin-top: 24px;
+}
+.stat-desc {
+  font-size: 26px;
+  color: var(--ink2);
+  text-align: center;
+  margin-top: 20px;
+  max-width: 85%;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+<!-- Card 01: Cover -->
+<div class="card c1">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">W</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">WINTER SKIN</div>
+    <div style="margin-bottom:16px">
+      <div class="td xl">겨울 아이 피부,<br />로션만으론 <span class="ta">부족해요</span></div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">호주 겨울 건조 피부 관리<br />한국 엄마 실전 가이드</div>
+    <div class="cover-cta">저장하고 올 겨울 써요 <span>→</span></div>
+  </div>
+</div>
+
+<!-- Card 02: Hook -->
+<div class="card c2">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:400px;height:400px;top:30%;left:50%;transform:translate(-50%,-50%);opacity:0.05;"></div>
+  <div class="ci">
+    <div class="hook-q">매일 로션 발라줬는데<br />왜 아이 피부는 <strong>계속 거칠까요?</strong></div>
+    <div class="hook-ans">방법이 틀렸던 게 아니에요. 순서가 틀렸어요.</div>
+  </div>
+</div>
+
+<!-- Card 03: Definition -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">SKIN BARRIER</div>
+      <div class="td md" style="margin-bottom:36px">피부 장벽이<br />무너지면 <span class="ta">생기는 일</span></div>
+      <div style="margin-bottom: 24px;">
+        <span class="def-hl">피부 장벽 (Skin Barrier)</span>
+      </div>
+      <div class="def-box">
+        <div class="def-box-text">피부 표면의 얇은 보호막이에요. 수분을 안에 가두고 자극을 막아요. 호주 겨울은 <strong>실내 난방과 낮은 습도</strong>가 겹쳐 이 장벽을 빠르게 무너뜨려요.</div>
+      </div>
+      <div class="tb" style="margin-top:32px;font-size:26px;">장벽이 무너지면 로션을 아무리 발라도 수분이 바로 날아가요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 04: Data -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">AUSTRALIA DATA</div>
+      <div class="td md" style="margin-bottom:36px">호주 아이 <em style="color:var(--accent);font-style:normal;">3명 중 1명</em>이<br />습진을 경험해요</div>
+      <div class="chips">
+        <div class="chip"><span class="cd"></span>아동 습진 유병률 30%</div>
+        <div class="chip"><span class="cd"></span>60% 이상 2세 이전 발병</div>
+        <div class="chip"><span class="cd"></span>실내 습도 20-30%까지 하락</div>
+        <div class="chip"><span class="cd"></span>목욕 후 3분 이내 보습이 핵심</div>
+      </div>
+      <div class="tb" style="font-size:24px;">호주는 전 세계에서 아동 습진 유병률이 가장 높은 나라 중 하나예요. 겨울 난방 시 실내 습도가 20%대까지 내려가기도 해요.<br /><span style="color:var(--ink3);font-size:20px;">(출처: ASCIA, Australasian College of Dermatologists)</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 05: Routine -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">BATH ROUTINE</div>
+      <div class="td md" style="margin-bottom:48px">목욕 루틴 <span class="ta">3단계</span></div>
+      <div class="rb">
+        <div class="rb-t">STEP 1</div>
+        <div class="rb-x">물 온도 <strong>37-38°C</strong>, 시간은 5-10분 이내. 뜨거운 목욕은 피부 장벽을 더 무너뜨려요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">STEP 2</div>
+        <div class="rb-x"><strong>비누 프리(soap-free)</strong> 클렌저로 씻기. 일반 비누의 계면활성제는 장벽을 손상시켜요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">STEP 3</div>
+        <div class="rb-x">타올로 두드려 닦고 <strong>3분 이내</strong>에 보습제 바르기. 이 타이밍이 가장 중요해요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 06: Categories -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">MOISTURISER TYPES</div>
+      <div class="td md" style="margin-bottom:48px">보습제, 어떤 타입을<br /><span class="ta">골라야 할까요?</span></div>
+      <div class="ap">
+        <div class="ap-t">로션 (Lotion)</div>
+        <div class="ap-d">수분 함량 높고 흡수 빠름. 봄·여름용. 호주 겨울엔 수분이 너무 빨리 날아가요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">크림 (Cream)</div>
+        <div class="ap-d">로션보다 유분 함량 높음. 호주 겨울 일반 건조 피부에 적합. 가장 균형 잡힌 선택.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">연고 (Ointment)</div>
+        <div class="ap-d">유분 함량 가장 높음. 습진·심한 건조 피부에 효과적. GP가 처방 또는 권고하는 타입.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 07: Checklist -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">WINTER CHECKLIST</div>
+      <div class="td md" style="margin-bottom:24px">겨울 피부 관리<br /><span class="ta">체크리스트</span></div>
+      <div class="tb" style="font-size:24px;margin-bottom:32px;">지금 바로 확인해보세요.</div>
+      <div class="ai"><span class="ai-d"></span>가습기를 켜서 실내 습도 40-60% 유지하기 (필터 주 1회 청소)</div>
+      <div class="ai"><span class="ai-d"></span>비누 프리 씻기 제품으로 교체하기</div>
+      <div class="ai"><span class="ai-d"></span>면 소재 잠옷과 침구 사용하기 (합성섬유는 피부 자극)</div>
+      <div class="ai"><span class="ai-d"></span>아이가 하루 물 1-1.5L 마시도록 챙기기</div>
+      <div class="takeaway">4가지 모두 비용 없이 바꿀 수 있어요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 08: Do/Don't -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="td md" style="margin-bottom:16px">이건 달라요:<br /><span class="ta">한국 vs 호주</span> 겨울 피부</div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">DO</div>
+          <div class="ci-item">미지근한 물(37-38°C)로 짧게 목욕시키기</div>
+          <div class="ci-item">목욕 직후 3분 안에 크림/연고 바르기</div>
+          <div class="ci-item">습진 지속 시 GP에서 hydrocortisone 처방받기</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">DON'T</div>
+          <div class="ci-item">뜨거운 물 목욕 (수분 증발 촉진, 피부 장벽 손상)</div>
+          <div class="ci-item">스테로이드 크림 무조건 기피 (GP 지도 하에 7일 이내 사용은 안전)</div>
+          <div class="ci-item">목욕 후 한참 지나서 보습제 바르기 (이미 수분 날아간 후)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 09: Steps -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">GP VISIT GUIDE</div>
+      <div class="td md" style="margin-bottom:48px">언제 GP에<br /><span class="ta">가야 할까요?</span></div>
+      <div class="si">
+        <div class="si-n">1</div>
+        <div class="si-c">
+          <div class="si-t">이런 증상이면 바로 GP로</div>
+          <div class="si-d">2주 이상 지속, 노란 딱지(감염 징후), 밤에 긁어서 수면 방해, 얼굴·눈 주위로 번짐.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">2</div>
+        <div class="si-c">
+          <div class="si-t">GP에서 일어나는 일</div>
+          <div class="si-d">증상 확인 후 처방 보습제 또는 hydrocortisone 크림 발행. 심할 경우 피부과 referral letter 제공.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">3</div>
+        <div class="si-c">
+          <div class="si-t">피부과 referral과 Medicare</div>
+          <div class="si-d">GP referral 있으면 피부과 진찰비에 Medicare rebate 적용. MBS item 116 기준으로 일부 환급.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10: CTA -->
+<div class="card c10">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+    <div class="td lg" style="text-align:center;margin-bottom:20px">
+      이번 겨울엔 아이 피부,<br /><span class="ta">미리 준비하세요</span>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%">목욕 루틴 하나 바꾸는 것만으로도 달라져요.<br /><strong>3분 안에 보습</strong>, 오늘부터 시작해보세요.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">우리 아이 피부 고민, 댓글로 알려주세요.</p>
+  </div>
+</div>
+
+</body>
+</html>
