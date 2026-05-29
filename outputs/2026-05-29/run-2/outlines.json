@@ -1,0 +1,116 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "호주 겨울 아이 피부 관리: 건조한 계절 한국 엄마 실전 가이드",
+    "slug": "winter-skin-care-kids",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "purpose": "겨울 피부 건조 문제를 한국 엄마 시각에서 소개. 즉각적 저장 유도."
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "purpose": "로션 발라도 계속 건조한 경험 공감. '뭔가 다른 이유가 있다'는 궁금증 유발."
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "purpose": "'피부 장벽(skin barrier)' 개념 설명. 왜 호주 겨울에 특히 무너지는지."
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "purpose": "호주 아동 습진 통계 + 겨울 환경 데이터(실내 습도, 온도). 심각성 인식."
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "purpose": "올바른 목욕 루틴 3단계: 물 온도·시간·목욕 후 3분 보습 타이밍."
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "purpose": "보습제 종류 3가지: 로션 vs 크림 vs 연고. 호주 겨울에 맞는 타입 선택법."
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "purpose": "겨울 피부 관리 체크리스트 4가지. 가습기, 비누 프리, 면 소재, 수분 섭취."
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "purpose": "한국 vs 호주 겨울 피부 관리 방식 차이: 뜨거운 목욕, 스테로이드 크림 기피 등."
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "purpose": "GP 방문 3단계: 언제 가야 하는지 → GP에서 무슨 일이 생기는지 → 전문의 referral 흐름."
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "purpose": "저장 요청 + 다음 겨울 방문 준비 행동 유도."
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "아이 용돈 교육: 호주에서 한국 엄마가 시작하는 금융 리터러시 첫 단계",
+    "slug": "kids-pocket-money-financial-literacy",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "purpose": "용돈 교육의 시작이라는 주제를 흥미롭게 제시. 실용적 저장 가치 강조."
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "purpose": "'얼마나 줘야 해요?' 질문 공감. 금액보다 방법이 중요하다는 인식 전환."
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "purpose": "'금융 리터러시(financial literacy)' 개념. 왜 어릴 때 시작해야 하는지."
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "purpose": "호주 평균 용돈 금액 + 용돈 교육 효과 통계 (저축 습관 2배). 근거 제시."
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "purpose": "3-항아리 루틴: 매주 용돈을 받으면 쓸 돈·저금·나눔으로 나누는 구체적 방법."
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "purpose": "연령대별 3단계: 4-5세(동전 감각) / 6-8세(3항아리 시작) / 9-12세(은행 계좌)."
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "purpose": "용돈 교육 시작 체크리스트 4가지. 금액·방법·규칙·계좌 개설."
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "purpose": "용돈 교육 흔한 실수: 너무 많이 주기, 규칙 없이 주기, 아이 자율성 무시 등."
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "purpose": "은행 계좌 개설 3단계: 어느 은행 선택 → 필요 서류 → 아이와 함께 관리하는 법."
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "purpose": "오늘부터 시작하기 행동 유도. 저장하고 다음 주에 첫 용돈 지급 도전."
+      }
+    ]
+  }
+]
