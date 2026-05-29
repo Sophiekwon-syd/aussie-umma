@@ -1,0 +1,118 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 등교 거부 대응 가이드: 아이가 학교 가기 싫다고 할 때 한국 엄마가 알아야 할 것",
+      "slug": "school-refusal-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "표지: 등교 거부 주제를 강렬하게 제시하며 공감을 유발"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "훅: '아이가 매일 아침 배가 아파요'라는 익숙한 상황으로 엄마들의 공감 포착"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "정의: '등교 거부(School Can't)'가 반항이 아닌 불안 반응임을 명확히 정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "데이터: 호주 등교 거부 통계 — 5명 중 2명, COVID 이후 급증 등 수치로 심각성 전달"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "루틴: 아침 등교 거부를 줄이는 3단계 모닝 루틴 (전날 밤 준비, 일정한 기상, 따뜻한 작별)"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "카테고리: 등교 거부의 주요 원인 3가지 (분리불안, 사회적 불안, 학교 내 부정적 경험)"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "체크리스트: 담임 선생님에게 연락할 때 준비해야 할 4가지 항목"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "Do/Don't: 등교 거부 상황에서 해야 할 것 vs 하지 말아야 할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "단계: GP 방문 → 심리사 리퍼럴 → Medicare Mental Health Plan 신청 3단계"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "CTA: 저장하기 유도 + 비슷한 경험 공유 댓글 유도"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 Family Tax Benefit 완전 가이드: 한국 엄마가 놓치는 가족 수당 신청법",
+      "slug": "family-tax-benefit-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "표지: FTB라는 이름을 전면에 내세워 '이런 게 있었어요?' 반응 유도"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "훅: '신청 안 하면 그냥 버리는 돈' — 못 받고 있는 엄마들의 현실 직격"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "정의: Family Tax Benefit이 뭔지, Part A / Part B 차이 명확히 정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "데이터: 주요 금액 수치 — Part A 2주 $227, Part B 2주 $193, 연말 보충금 $938 등"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "루틴: FTB 수령을 유지하기 위한 연간 3가지 루틴 (예방접종 체크, 소득 업데이트, 세금 신고)"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "카테고리: Part A / Part B / 신생아 보충금 — 3가지 유형별 대상과 금액"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "체크리스트: FTB 신청 전 준비해야 할 4가지 (myGov 계정, 예방접종 최신화, 소득 정보, 자녀 정보)"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "Do/Don't: FTB 신청 및 유지에서 해야 할 것 vs 실수하기 쉬운 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "단계: myGov → Centrelink 연결 → FTB 신청 3단계 가이드"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "CTA: 저장 유도 + '나는 얼마 받아요?' 댓글 유도"
+        }
+      ]
+    }
+  ]
+}
