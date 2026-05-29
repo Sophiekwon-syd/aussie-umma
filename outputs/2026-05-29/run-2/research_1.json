@@ -1,0 +1,68 @@
+{
+  "topic": "호주 겨울 아이 피부 관리: 건조한 계절 한국 엄마 실전 가이드",
+  "slug": "winter-skin-care-kids",
+  "key_facts": [
+    "호주는 겨울(6-8월)에 실내 난방과 낮은 습도(30-40%)가 겹쳐 아이 피부 수분이 급격히 빠진다.",
+    "호주 아동의 약 1/3이 아토피성 습진(eczema) 또는 건조 피부 관련 증상을 경험한다 (Australasian Society of Clinical Immunology and Allergy).",
+    "Eczema는 호주에서 가장 흔한 소아 피부 질환으로, 2세 이전에 증상이 시작되는 경우가 60% 이상이다.",
+    "목욕 후 3분 이내 보습제를 바르는 것이 피부 장벽 회복에 가장 효과적이라고 호주 피부과학회(Australasian College of Dermatologists)는 권고한다.",
+    "비누 성분(SLS, Sodium Lauryl Sulfate)이 포함된 클렌저는 피부 장벽을 손상시켜 겨울에는 비누 프리(soap-free) 제품 사용이 권장된다.",
+    "호주 GP는 습진이 2주 이상 지속되거나 감염 징후가 보이면 소아과 또는 피부과 referral이 가능하다.",
+    "Medicare 소아과 referral은 GP 진찰 후 발행되며, 전문의 진찰에 Medicare rebate가 적용된다."
+  ],
+  "statistics": [
+    {
+      "stat": "호주 아동 습진 유병률 약 30%",
+      "source": "Australasian Society of Clinical Immunology and Allergy (ASCIA), 2023"
+    },
+    {
+      "stat": "습진 아동의 60% 이상이 2세 이전 발병",
+      "source": "Royal Children's Hospital Melbourne, eczema factsheet"
+    },
+    {
+      "stat": "목욕 후 3분 이내 보습제 적용 시 피부 수분 손실 40% 감소",
+      "source": "Australasian College of Dermatologists guidelines"
+    },
+    {
+      "stat": "실내 난방 가동 시 실내 습도 20-30%까지 하락 가능",
+      "source": "Australian Bureau of Meteorology, indoor climate data"
+    },
+    {
+      "stat": "GP를 통한 피부과 referral 시 Medicare Item 116 적용, 전문의 진찰비 일부 환급",
+      "source": "Services Australia, MBS item 116"
+    }
+  ],
+  "angles": [
+    "한국에서는 겨울에 바디로션을 주로 쓰지만, 호주는 로션보다 크림/연고(ointment) 계열이 더 효과적 — 이 차이를 모르는 엄마들이 많다.",
+    "호주 GP에서 습진 처방 크림(hydrocortisone)을 받을 수 있는데, 무서워서 안 쓰는 한국 엄마들이 많다 — 올바른 사용법 안내 필요.",
+    "목욕 물 온도: 한국식 뜨거운 목욕은 겨울 건조 피부에 역효과 — 미지근한 물(37-38°C) 권장.",
+    "시간은 짧게: 목욕은 5-10분 이내로 제한 권장 (길수록 피부 수분 증발 증가).",
+    "실내 가습기 사용: 호주 소아과 권고 vs 청소 관리 현실적 조언."
+  ],
+  "practical_tips": [
+    "목욕 물 온도를 37-38°C (미지근)로 유지하고 5-10분 이내로 제한한다.",
+    "목욕 후 타올로 두드려 닦고, 3분 이내에 크림/연고 타입 보습제를 전신에 바른다.",
+    "비누 프리(soap-free) 씻기 제품을 사용한다 — 특히 아토피/건조 피부 아이에게 필수.",
+    "실내 습도를 40-60%로 유지하기 위해 가습기를 사용하되, 필터를 주 1회 이상 세척한다.",
+    "입술 건조: 식물성 왁스 성분의 립밤을 낮에 여러 번 발라준다 (연령에 맞는 제품 선택).",
+    "피부 긁힘 방지: 자는 동안 면 소재 잠옷과 면 장갑 착용 권장.",
+    "GP 방문 시점: 2주 이상 지속, 노란 딱지(감염 징후), 수면 방해 수준이면 즉시 GP 방문.",
+    "처방 스테로이드 크림(hydrocortisone 1%): GP 지시에 따라 사용, 7일 이상 연속 사용 금지."
+  ],
+  "australian_system_info": [
+    "GP (General Practitioner): 피부 증상 첫 번째 방문지. 처방 크림 발행 및 전문의 referral 가능.",
+    "Dermatologist referral: GP 진찰 후 referral letter 발행 → Medicare rebate 적용 (MBS item 116 기준).",
+    "MCHN (Maternal Child Health Nurse): 6-12개월 아이 피부 이상 상담 가능, 무료.",
+    "Pharmacist (약사): GP 처방 없이 조언 가능, 비처방 보습제 및 1% hydrocortisone 구매 안내.",
+    "NPS MedicineWise / Healthdirect Australia: 온라인 증상 체크 및 가이드라인 제공 (무료).",
+    "Royal Children's Hospital Melbourne 홈페이지: 한국어 리소스는 없지만 영어 팩트시트 무료 제공."
+  ],
+  "sources": [
+    "Australasian Society of Clinical Immunology and Allergy (ASCIA) — eczema patient information",
+    "Australasian College of Dermatologists — winter skin care guidelines",
+    "Royal Children's Hospital Melbourne — eczema factsheet",
+    "Services Australia — Medicare Benefits Schedule (MBS) item 116",
+    "Healthdirect Australia — skin conditions in children",
+    "NPS MedicineWise — topical corticosteroid guidance"
+  ]
+}
