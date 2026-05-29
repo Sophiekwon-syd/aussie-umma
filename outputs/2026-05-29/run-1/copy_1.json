@@ -1,0 +1,136 @@
+{
+  "topic": "호주 등교 거부 대응 가이드: 아이가 학교 가기 싫다고 할 때 한국 엄마가 알아야 할 것",
+  "slug": "school-refusal-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "SCHOOL REFUSAL",
+      "headline": "아이가 학교에<br><em>못 가겠대요</em>",
+      "subtitle": "호주 엄마 10명 중 4명이 겪은 일. 반항이 아닌 불안입니다."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "매일 아침 <strong>배가 아프다</strong>는 아이, 꾀병일까요?",
+      "answer": "사실은요, 그 배 아픔은 진짜입니다. 불안이 몸으로 나오는 거예요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IT IS",
+      "term": "School Can't",
+      "explanation": "등교 거부는 아이가 <strong>의도적으로 거부하는 것이 아닙니다.</strong> 극심한 불안 반응으로 인해 신체적으로 학교에 갈 수 없는 상태입니다. 호주에서는 최근 이를 'School Can't(학교에 갈 수 없음)'으로 재정의했습니다.",
+      "punchline": "반항이 아니라 불안입니다. 아이도 가고 싶은데 못 가는 겁니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "AUSTRALIA STATS",
+      "headline": "호주 부모 <em>10명 중 4명</em>이 겪습니다",
+      "chips": [
+        "39% 부모가 경험 (2024 전국 조사)",
+        "학생의 최대 5% 해당",
+        "COVID 이후 빠르게 증가 중",
+        "연간 최대 10회 Medicare 상담 지원"
+      ],
+      "explanation": "혼자 감당하지 않아도 됩니다. 호주 정부는 이미 이 문제를 심각하게 바라보고 있으며, Medicare를 통해 심리 지원을 받을 수 있습니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "MORNING ROUTINE",
+      "headline": "아침을 예측 가능하게 만드세요",
+      "entries": [
+        {
+          "label": "전날 밤",
+          "text": "교복, 가방, 도시락을 <strong>전날 밤에</strong> 함께 준비합니다. 아침 변수를 줄이면 불안도 줄어요."
+        },
+        {
+          "label": "기상 시간",
+          "text": "매일 <strong>같은 시간</strong>에 일어나는 루틴을 만드세요. 예측 가능한 하루가 아이에게 안정감을 줍니다."
+        },
+        {
+          "label": "작별 인사",
+          "text": "학교 앞에서 <strong>짧고 따뜻한 인사</strong>를 정해두세요. 길게 끌수록 분리가 더 어렵습니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "MAIN CAUSES",
+      "headline": "왜 우리 아이가 못 갈까요",
+      "items": [
+        {
+          "title": "분리불안",
+          "description": "집, 엄마와 떨어지는 것 자체가 두렵습니다. 주로 저학년, 유치원 이후 전환기에 많이 나타납니다."
+        },
+        {
+          "title": "사회적 불안",
+          "description": "또래 관계, 발표, 점심시간 등 사회적 상황이 극도로 스트레스입니다. 언어 차이가 있는 이민 가정 아이에게 더 두드러질 수 있습니다."
+        },
+        {
+          "title": "학교 내 부정적 경험",
+          "description": "불링, 학습 어려움, 선생님과의 관계 등 학교 자체에서 오는 두려움입니다. 구체적으로 어느 순간부터 싫어졌는지 확인해보세요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "CONTACT SCHOOL",
+      "headline": "담임 선생님에게 연락할 때",
+      "intro": "이메일 한 줄이 상황을 바꿉니다. 호주에서는 이 행동이 매우 자연스럽고 환영받습니다.",
+      "items": [
+        "언제부터 시작됐는지 구체적으로 적기",
+        "아이가 어떤 증상을 보이는지 (복통, 두통, 울음 등)",
+        "아이가 특별히 두려워하는 상황이 있는지",
+        "학교 카운슬러 연결을 요청하기"
+      ],
+      "takeaway": "먼저 연락한 엄마가 더 빨리 도움받습니다."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "등교 거부, 이렇게 대응하세요",
+      "do": [
+        "차분하게 '오늘 학교에 갈 거야'라고 말하기 (If 대신 When 언어 사용)",
+        "아이의 감정을 인정하되 등교 기대치는 유지하기",
+        "단계적 복귀 — 첫날은 1시간, 다음날은 반나절부터"
+      ],
+      "dont": [
+        "무조건 억지로 끌고 가기 (불안을 더 강화합니다)",
+        "아이가 원한다고 바로 집에 두기 (회피 패턴이 굳어집니다)",
+        "엄마 자신을 탓하기 (내 잘못이 아닙니다)"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "MEDICARE SUPPORT",
+      "headline": "GP부터 시작하세요",
+      "steps": [
+        {
+          "title": "GP 방문",
+          "description": "신체 증상이 반복된다면 먼저 GP에게. 신체 이상이 없으면 GP가 상황을 평가하고 심리사 또는 소아과 리퍼럴을 줍니다."
+        },
+        {
+          "title": "Mental Health Plan 신청",
+          "description": "GP에게 아이의 Mental Health Treatment Plan을 요청하세요. 이 플랜이 있으면 Medicare로 심리상담 비용 지원이 됩니다."
+        },
+        {
+          "title": "연간 최대 10회 상담",
+          "description": "처음에는 6회까지, 이후 GP 재평가 후 추가 4회 가능. 심리사(Psychologist) 또는 사회복지사(Social Worker)와 상담할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "혼자 버티지 <em>않아도</em> 됩니다",
+      "message": "등교 거부는 <strong>아이의 불안 신호</strong>입니다. 빨리 알아채고 학교, GP와 팀을 이루면 반드시 나아집니다.",
+      "comment_prompt": "우리 아이도 비슷한 경험 있으세요? 댓글로 알려주세요."
+    }
+  ]
+}
