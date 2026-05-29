@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>호주 등교 거부 대응 가이드 — @aussie.umma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    /*
+      PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+      Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+      Do NOT invent new variables. Do NOT modify any other values.
+    */
+
+    :root {
+      --bg: #050505;
+      --card-bg: #080808;
+      --elevated: #0e0e0e;
+      --ink: #ffffff;
+      --ink2: #cccccc;
+      --ink3: #888888;
+      --ink4: #333333;
+      --accent: #C6F135;
+      --accent-dim: rgba(198, 241, 53, 0.15);
+      --blue: #3B82F6;
+      --red: #ff4d4d;
+      --border: rgba(255, 255, 255, 0.07);
+      --font-kr: "Noto Sans KR", sans-serif;
+      --font-en: "Space Grotesk", sans-serif;
+      --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+    }
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #000000;
+      font-family: var(--font-kr);
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 60px 20px 100px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      width: 1080px;
+      height: 1350px;
+      background: var(--card-bg);
+      background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 50;
+      opacity: 0.05;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px 180px;
+    }
+    .ci {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 90px;
+      position: relative;
+      z-index: 2;
+    }
+    .dots {
+      display: flex;
+      gap: 10px;
+    }
+    .dots i {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--ink4);
+      display: block;
+    }
+    .dots i.on {
+      background: var(--accent);
+      width: 28px;
+      border-radius: 4px;
+    }
+    .td {
+      font-family: var(--font-display);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -2px;
+      word-break: keep-all;
+    }
+    .td.xl { font-size: 96px; }
+    .td.lg { font-size: 84px; }
+    .td.md { font-size: 76px; }
+    .tb {
+      font-size: 30px;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.65;
+      word-break: keep-all;
+    }
+    .tb strong {
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .tl {
+      font-family: var(--font-en);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 48px;
+    }
+    .ta { color: var(--accent); }
+    .tm { color: var(--ink3); }
+    .en { font-family: var(--font-en); }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 28px;
+      border-radius: 100px;
+      font-size: 17px;
+      font-weight: 800;
+      width: fit-content;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .badge-a {
+      background: var(--accent);
+      color: #000;
+    }
+    .div-a {
+      width: 56px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 2px;
+      border: none;
+      margin: 32px 0;
+    }
+    .wm {
+      position: absolute;
+      font-family: var(--font-en);
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.05;
+      pointer-events: none;
+      z-index: 1;
+      line-height: 0.8;
+    }
+    .glow {
+      position: absolute;
+      border-radius: 50%;
+      background: var(--accent);
+      filter: blur(160px);
+      opacity: 0.08;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .top {
+      position: absolute;
+      top: 68px;
+      left: 90px;
+      right: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      z-index: 5;
+      margin: 0;
+    }
+    .handle {
+      position: absolute;
+      top: 165px;
+      right: 90px;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      z-index: 10;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .handle::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+    }
+
+    /* Centered content block */
+    .center-block {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Cover */
+    .cover-56 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: var(--font-en);
+      font-size: 780px;
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.06;
+      line-height: 1;
+      pointer-events: none;
+      z-index: 1;
+      letter-spacing: -40px;
+    }
+    .cover-56::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+    }
+    .c1 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .c1 .cover-sub {
+      margin-bottom: 48px;
+      max-width: 85%;
+      font-size: 36px;
+      font-weight: 500;
+    }
+    .c1 .cover-cta {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Hook */
+    .c2 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .c2 .hook-q {
+      font-size: 56px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.35;
+      word-break: keep-all;
+      max-width: 92%;
+    }
+    .c2 .hook-q strong {
+      color: var(--accent);
+      font-weight: 900;
+    }
+    .c2 .hook-ans {
+      margin-top: 56px;
+      font-size: 26px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Definition */
+    .def-hl {
+      background: var(--accent);
+      color: #000;
+      padding: 2px 14px;
+      border-radius: 6px;
+      display: inline-block;
+      font-weight: 800;
+    }
+    .def-box {
+      margin-top: 56px;
+      padding: 40px 48px;
+      border-radius: 24px;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+    }
+    .def-box-text {
+      font-size: 28px;
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .def-box-text strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Data chips */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 40px 0;
+    }
+    .chip {
+      padding: 14px 28px;
+      border-radius: 14px;
+      font-size: 20px;
+      font-weight: 600;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .chip .cd {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* Routine */
+    .rb {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+    }
+    .rb:last-child { border-bottom: none; }
+    .rb-t {
+      font-family: var(--font-en);
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--accent);
+      min-width: 90px;
+      text-transform: uppercase;
+    }
+    .rb-x {
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    .rb-x strong { color: var(--accent); font-weight: 800; }
+
+    /* Approaches / Cards */
+    .ap {
+      padding: 40px 44px;
+      border-radius: 28px;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .ap::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15%;
+      bottom: 15%;
+      width: 5px;
+      background: var(--ink4);
+      border-radius: 0 5px 5px 0;
+    }
+    .ap:nth-child(1)::before { background: var(--accent); }
+    .ap:nth-child(2)::before { background: var(--blue); }
+    .ap:nth-child(3)::before { background: var(--ink3); }
+    .ap-t {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 14px;
+      color: var(--ink);
+    }
+    .ap-d {
+      font-size: 24px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Actions / Checklist */
+    .ai {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .ai:last-child { border-bottom: none; }
+    .ai-d {
+      width: 11px;
+      height: 11px;
+      min-width: 11px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .takeaway {
+      margin-top: 32px;
+      padding: 28px 40px;
+      border-radius: 20px;
+      background: var(--accent-dim);
+      text-align: center;
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+    }
+
+    /* Do/Don't Grid */
+    .cg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .cc {
+      border-radius: 24px;
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+    }
+    .cc.do { border-top: 5px solid var(--accent); }
+    .cc.dn { border-top: 5px solid var(--red); }
+    .cc.cmp { border-top: 5px solid var(--blue); }
+    .cc-l {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+    .cc.do .cc-l { color: var(--accent); }
+    .cc.dn .cc-l { color: var(--red); }
+    .cc.cmp .cc-l { color: var(--blue); }
+    .ci-item {
+      font-size: 22px;
+      color: var(--ink2);
+      line-height: 1.6;
+      padding: 12px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .ci-item::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 1.3em;
+    }
+    .cc.dn .ci-item::before { color: var(--red); }
+    .cc.cmp .ci-item::before { color: var(--blue); }
+
+    /* Steps */
+    .si {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      align-items: flex-start;
+    }
+    .si-n {
+      font-family: var(--font-en);
+      font-size: 64px;
+      font-weight: 800;
+      color: var(--accent);
+      opacity: 0.3;
+      line-height: 1;
+      min-width: 80px;
+    }
+    .si-c {
+      flex: 1;
+    }
+    .si-t {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--ink);
+    }
+    .si-d {
+      font-size: 24px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* CTA */
+    .c10 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 28px 72px;
+      border-radius: 100px;
+      background: var(--accent);
+      color: #000;
+      font-size: 28px;
+      font-weight: 900;
+      margin-top: 56px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .cta-hint {
+      margin-top: 40px;
+      font-size: 22px;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Card 01: Cover -->
+  <div class="card c1">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+    <div class="cover-56">S</div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:40px">SCHOOL REFUSAL</div>
+      <div style="margin-bottom:16px">
+        <div class="td xl">아이가 학교에<br /><span class="ta">못 가겠대요</span></div>
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <div class="cover-sub tb">호주 엄마 10명 중 4명이 겪은 일.<br />반항이 아닌 불안입니다.</div>
+      <div class="cover-cta">끝까지 읽어보세요 <span>→</span></div>
+    </div>
+  </div>
+
+  <!-- Card 02: Hook -->
+  <div class="card c2">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="hook-q">매일 아침 <strong>배가 아프다</strong>는 아이,<br />꾀병일까요?</div>
+      <div class="hook-ans">사실은요, 그 배 아픔은 진짜입니다.<br />불안이 몸으로 나오는 거예요.</div>
+    </div>
+  </div>
+
+  <!-- Card 03: Definition -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">WHAT IT IS</div>
+        <div class="td md" style="margin-bottom:36px"><span class="def-hl">School Can't</span></div>
+        <div class="def-box">
+          <div class="def-box-text">
+            등교 거부는 아이가 <strong>의도적으로 거부하는 것이 아닙니다.</strong> 극심한 불안 반응으로 인해 신체적으로 학교에 갈 수 없는 상태입니다. 호주에서는 최근 이를 'School Can't(학교에 갈 수 없음)'으로 재정의했습니다.
+          </div>
+        </div>
+        <div style="margin-top:40px; font-size:28px; font-weight:700; color:var(--accent); line-height:1.4;">
+          반항이 아니라 불안입니다.<br />아이도 가고 싶은데 못 가는 겁니다.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 04: Data -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">AUSTRALIA STATS</div>
+        <div class="td md" style="margin-bottom:12px">호주 부모 <em style="color:var(--accent)">10명 중 4명</em>이<br />겪습니다</div>
+        <div class="chips">
+          <div class="chip"><span class="cd"></span>39% 부모가 경험 (2024 전국 조사)</div>
+          <div class="chip"><span class="cd"></span>학생의 최대 5% 해당</div>
+          <div class="chip"><span class="cd"></span>COVID 이후 빠르게 증가 중</div>
+          <div class="chip"><span class="cd"></span>연간 최대 10회 Medicare 상담 지원</div>
+        </div>
+        <div class="tb">혼자 감당하지 않아도 됩니다. 호주 정부는 이미 이 문제를 심각하게 바라보고 있으며, Medicare를 통해 심리 지원을 받을 수 있습니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 05: Routine -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">MORNING ROUTINE</div>
+        <div class="td md" style="margin-bottom:36px">아침을 예측 가능하게<br />만드세요</div>
+        <div class="rb">
+          <div class="rb-t">전날 밤</div>
+          <div class="rb-x">교복, 가방, 도시락을 <strong>전날 밤에</strong> 함께 준비합니다. 아침 변수를 줄이면 불안도 줄어요.</div>
+        </div>
+        <div class="rb">
+          <div class="rb-t">기상 시간</div>
+          <div class="rb-x">매일 <strong>같은 시간</strong>에 일어나는 루틴을 만드세요. 예측 가능한 하루가 아이에게 안정감을 줍니다.</div>
+        </div>
+        <div class="rb">
+          <div class="rb-t">작별 인사</div>
+          <div class="rb-x">학교 앞에서 <strong>짧고 따뜻한 인사</strong>를 정해두세요. 길게 끌수록 분리가 더 어렵습니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 06: Categories -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">MAIN CAUSES</div>
+        <div class="td md" style="margin-bottom:36px">왜 우리 아이가<br />못 갈까요</div>
+        <div class="ap">
+          <div class="ap-t">분리불안</div>
+          <div class="ap-d">집, 엄마와 떨어지는 것 자체가 두렵습니다. 주로 저학년, 유치원 이후 전환기에 많이 나타납니다.</div>
+        </div>
+        <div class="ap">
+          <div class="ap-t">사회적 불안</div>
+          <div class="ap-d">또래 관계, 발표, 점심시간 등 사회적 상황이 극도로 스트레스입니다. 언어 차이가 있는 이민 가정 아이에게 더 두드러질 수 있습니다.</div>
+        </div>
+        <div class="ap">
+          <div class="ap-t">학교 내 부정적 경험</div>
+          <div class="ap-d">불링, 학습 어려움, 선생님과의 관계 등 학교 자체에서 오는 두려움입니다. 언제부터 싫어졌는지 확인해보세요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 07: Checklist -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">CONTACT SCHOOL</div>
+        <div class="td md" style="margin-bottom:20px">담임 선생님에게<br />연락할 때</div>
+        <div class="tb" style="margin-bottom:36px">이메일 한 줄이 상황을 바꿉니다. 호주에서는 이 행동이 매우 자연스럽고 환영받습니다.</div>
+        <div class="ai"><span class="ai-d"></span>언제부터 시작됐는지 구체적으로 적기</div>
+        <div class="ai"><span class="ai-d"></span>아이가 어떤 증상을 보이는지 (복통, 두통, 울음 등)</div>
+        <div class="ai"><span class="ai-d"></span>아이가 특별히 두려워하는 상황이 있는지</div>
+        <div class="ai"><span class="ai-d"></span>학교 카운슬러 연결을 요청하기</div>
+        <div class="takeaway">먼저 연락한 엄마가 더 빨리 도움받습니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 08: Do/Don't -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="td md" style="margin-bottom:16px">등교 거부,<br />이렇게 대응하세요</div>
+        <div class="cg">
+          <div class="cc do">
+            <div class="cc-l">Do</div>
+            <div class="ci-item">차분하게 '오늘 학교에 갈 거야'라고 말하기 (If 대신 When 언어 사용)</div>
+            <div class="ci-item">아이의 감정을 인정하되 등교 기대치는 유지하기</div>
+            <div class="ci-item">단계적 복귀 — 첫날은 1시간, 다음날은 반나절부터</div>
+          </div>
+          <div class="cc dn">
+            <div class="cc-l">Don't</div>
+            <div class="ci-item">무조건 억지로 끌고 가기 (불안을 더 강화합니다)</div>
+            <div class="ci-item">아이가 원한다고 바로 집에 두기 (회피 패턴이 굳어집니다)</div>
+            <div class="ci-item">엄마 자신을 탓하기 (내 잘못이 아닙니다)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 09: Steps -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">MEDICARE SUPPORT</div>
+        <div class="td md" style="margin-bottom:36px">GP부터<br />시작하세요</div>
+        <div class="si">
+          <div class="si-n">1</div>
+          <div class="si-c">
+            <div class="si-t">GP 방문</div>
+            <div class="si-d">신체 증상이 반복된다면 먼저 GP에게. 신체 이상이 없으면 GP가 상황을 평가하고 심리사 또는 소아과 리퍼럴을 줍니다.</div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="si-n">2</div>
+          <div class="si-c">
+            <div class="si-t">Mental Health Plan 신청</div>
+            <div class="si-d">GP에게 아이의 Mental Health Treatment Plan을 요청하세요. 이 플랜이 있으면 Medicare로 심리상담 비용 지원이 됩니다.</div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="si-n">3</div>
+          <div class="si-c">
+            <div class="si-t">연간 최대 10회 상담</div>
+            <div class="si-d">처음에는 6회까지, 이후 GP 재평가 후 추가 4회 가능. 심리사 또는 사회복지사와 상담할 수 있습니다.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 10: CTA -->
+  <div class="card c10">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+      <div class="td lg" style="text-align:center;margin-bottom:20px">
+        혼자 버티지<br /><span class="ta">않아도</span> 됩니다
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <p class="tb" style="text-align:center;max-width:80%">등교 거부는 <strong>아이의 불안 신호</strong>입니다.<br />빨리 알아채고 학교, GP와 팀을 이루면<br />반드시 나아집니다.</p>
+      <div class="cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+        </svg>
+        저장하기 →
+      </div>
+      <p class="cta-hint">우리 아이도 비슷한 경험 있으세요? 댓글로 알려주세요.</p>
+    </div>
+  </div>
+
+</body>
+</html>
