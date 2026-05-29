@@ -1,0 +1,107 @@
+{
+  "topic": "호주 등교 거부 대응 가이드: 아이가 학교 가기 싫다고 할 때 한국 엄마가 알아야 할 것",
+  "slug": "school-refusal-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    {
+      "fact": "호주에서 5자녀 중 2명꼴로 등교 거부 경험",
+      "detail": "호주 전국 조사에서 학령기 자녀를 둔 부모의 39%가 지난 1년간 아이가 불안이나 스트레스로 학교에 가지 못한 경험이 있다고 응답함.",
+      "source": "The Educator K/12 survey (theeducatoronline.com)"
+    },
+    {
+      "fact": "COVID 이후 등교 거부율 상승, 최대 5%까지",
+      "detail": "호주 상원 조사(Senate Inquiry)에 따르면 전체 학생의 최대 5%가 등교 거부 문제를 겪고 있으며, COVID-19 이후 급격히 증가함.",
+      "source": "MacKillop Institute — Senate report on school refusal"
+    },
+    {
+      "fact": "등교 거부는 '반항'이 아닌 '극심한 불안 반응'",
+      "detail": "School refusal은 아이가 의도적으로 거부하는 것이 아니라, 극심한 스트레스 반응으로 인해 신체적으로 학교에 갈 수 없는 상태. 흔히 ASD, ADHD, 불안장애, 우울증, 학습장애 등과 연관됨.",
+      "source": "Raising Children Network (raisingchildren.net.au)"
+    },
+    {
+      "fact": "호주에서는 'School Can't(학교에 갈 수 없음)'로 재명명",
+      "detail": "호주에서는 최근 'School Refusal(등교 거부)'을 'School Can't(학교에 갈 수 없음)'로 재정의하여 아이의 의지 문제가 아닌 불안 기반 어려움임을 강조함.",
+      "source": "School Can't Australia (schoolcantaustralia.com.au)"
+    },
+    {
+      "fact": "한국계 이민 부모 자녀의 특별한 위험 요인",
+      "detail": "연구에 따르면 이민 가정 아이들은 두 문화 사이에서 정체성을 형성하는 과정에서 등교 거부를 겪기 쉬움. 부모의 높은 학업 기대치가 아이에게 수치심과 죄책감을 유발할 수 있으며, 호주 거주 한국인 부모의 자녀 대학교육 기대치는 한국 내 부모(92.4%)에 비해 크게 낮아진다(56.8%)는 연구도 있음.",
+      "source": "Frontiers in Psychiatry — School Refusal in Immigrants (2022); Wiley — Escape from Education Fever (2024)"
+    },
+    {
+      "fact": "등교 거부의 주요 원인 4가지",
+      "detail": "1) 분리불안 (집에서 떨어지는 것에 대한 두려움), 2) 사회적 불안 (또래 관계, 발표 등), 3) 학교 내 부정적 경험 (불링, 학습 어려움), 4) 특정 장소나 상황에 대한 공포 (시험, 체육 수업 등)",
+      "source": "Raising Children Network; ReachOut Australia"
+    },
+    {
+      "fact": "조기 대응이 핵심 — 장기화 시 더 어려워짐",
+      "detail": "등교 거부가 장기화되면 사회적 기술 발달 지연, 학업 지연, 우울증 악화 등으로 이어질 수 있어 조기 대응이 매우 중요함.",
+      "source": "Missing School (missingschool.org.au)"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "39%",
+      "context": "호주 부모 중 지난 1년간 자녀가 불안·스트레스로 등교 거부를 경험했다고 응답한 비율",
+      "source": "The Educator K/12 Survey"
+    },
+    {
+      "stat": "최대 5%",
+      "context": "전체 학생 중 등교 거부 문제를 겪는 비율 (Senate Inquiry 추산)",
+      "source": "MacKillop Institute — Senate report on school refusal"
+    },
+    {
+      "stat": "10회",
+      "context": "Medicare Mental Health Plan으로 받을 수 있는 최대 심리상담 횟수 (연간, 개인 상담 기준)",
+      "source": "Services Australia"
+    }
+  ],
+  "angles": [
+    "한국 엄마 시각에서 바라본 등교 거부: '엄마가 잘못 키운 것?' — 자책 대신 시스템 이해하기",
+    "호주 학교, 담임 선생님, GP와 함께 팀을 이루는 대응법",
+    "Medicare Mental Health Plan을 통한 심리상담 지원 활용법",
+    "이민 가정 특유의 문화적 압박이 등교 거부에 미치는 영향",
+    "아침 루틴으로 등교 거부를 줄이는 실전 전략"
+  ],
+  "action_steps": [
+    {
+      "step": 1,
+      "title": "아이와 차분히 대화하기",
+      "description": "어떤 상황이 힘든지 구체적으로 물어보기. '학교 싫어?' 대신 '학교에서 뭐가 제일 힘들어?'처럼 개방형 질문으로 접근."
+    },
+    {
+      "step": 2,
+      "title": "학교 담임 선생님에게 연락하기",
+      "description": "이메일이나 방문으로 상황을 공유하고 협력 관계를 만들기. 학교 카운슬러 연결 요청 가능."
+    },
+    {
+      "step": 3,
+      "title": "GP 방문 — 신체 증상 확인 및 Mental Health Plan 신청",
+      "description": "복통·두통 등 신체 증상이 반복된다면 GP 방문. 신체 이상 없으면 GP가 심리사(Psychologist) 또는 소아과(Paediatrician) 리퍼럴 제공. Medicare Mental Health Treatment Plan으로 연간 최대 10회 상담 지원 가능."
+    },
+    {
+      "step": 4,
+      "title": "아침 루틴 안정화",
+      "description": "전날 밤 준비(도시락, 교복, 가방), 일정한 기상 시간, 출발 전 따뜻한 포옹 루틴으로 아침을 예측 가능하게 만들기."
+    },
+    {
+      "step": 5,
+      "title": "School Can't Australia 커뮤니티 활용",
+      "description": "schoolcantaustralia.com.au — 호주 부모들의 피어 서포트 그룹, 미팅, 페이스북 그룹 제공."
+    }
+  ],
+  "korean_mum_specific_insights": [
+    "한국 엄마들은 종종 '아이가 학교를 싫어하는 것 = 내가 잘못 키운 것'으로 자책하는 경향이 있음. 이건 아이의 불안 문제이지 양육 실패가 아님.",
+    "호주 시스템에서는 GP → 심리사 리퍼럴 경로가 있으며 Medicare로 비용 지원 가능. 한국과 달리 '정신과 가기'에 대한 사회적 낙인이 훨씬 적음.",
+    "담임 선생님에게 '우리 아이가 힘들어한다'고 이메일로 알리는 것이 호주에서는 매우 자연스럽고 환영받는 행동임.",
+    "무조건 등교 강요는 불안을 강화할 수 있음. 단계적 복귀(예: 첫날은 1시간만, 다음날은 반나절)가 효과적."
+  ],
+  "resources": [
+    "raisingchildren.net.au — 호주 정부 육아 정보 사이트 (한국어 없음, 영어)",
+    "schoolcantaustralia.com.au — 등교 거부 부모 커뮤니티",
+    "kidshelpline.com.au — 아이 및 부모 지원",
+    "headtohealth.gov.au — 정신건강 정보",
+    "Medicare Mental Health Plan — GP에서 신청 가능"
+  ]
+}
