@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-29T00:00:00.000Z",
+  "finished_at": "2026-05-29T01:00:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26633283086",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 등교 거부 대응 가이드: 아이가 학교 가기 싫다고 할 때 한국 엄마가 알아야 할 것",
+      "slug": "school-refusal-guide",
+      "html_file": "outputs/2026-05-29/run-1/school-refusal-guide.html",
+      "copy_file": "outputs/2026-05-29/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 Family Tax Benefit 완전 가이드: 한국 엄마가 놓치는 가족 수당 신청법",
+      "slug": "family-tax-benefit-guide",
+      "html_file": "outputs/2026-05-29/run-1/family-tax-benefit-guide.html",
+      "copy_file": "outputs/2026-05-29/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-01.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-02.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-03.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-04.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-05.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-06.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-07.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-08.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-09.png",
+    "outputs/2026-05-29/run-1/images/school-refusal-guide-10.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-01.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-02.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-03.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-04.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-05.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-06.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-07.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-08.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-09.png",
+    "outputs/2026-05-29/run-1/images/family-tax-benefit-guide-10.png"
+  ]
+}
