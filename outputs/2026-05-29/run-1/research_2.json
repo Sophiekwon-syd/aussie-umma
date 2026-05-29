@@ -1,0 +1,118 @@
+{
+  "topic": "호주 Family Tax Benefit 완전 가이드: 한국 엄마가 놓치는 가족 수당 신청법",
+  "slug": "family-tax-benefit-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    {
+      "fact": "FTB는 Part A와 Part B 두 가지로 구성",
+      "detail": "Family Tax Benefit(FTB)는 자녀 양육 비용을 지원하는 호주 정부 지원금. Part A는 자녀 수와 나이에 따라 지급되는 주요 수당, Part B는 한 명의 주 소득자가 있거나 한부모 가정을 위한 추가 수당.",
+      "source": "Services Australia (servicesaustralia.gov.au)"
+    },
+    {
+      "fact": "FTB Part A: 자녀 1인당 최대 2주마다 $227.36 (13세 미만)",
+      "detail": "2026-27 기준. 13세 이상~19세 이하 자녀는 2주마다 최대 $295.82. 가족 합산 소득 $66,722 이하면 최대 금액 지급. 소득 $66,722~$118,771 구간에서 20% 감액.",
+      "source": "Services Australia — FTB Part A payment rates"
+    },
+    {
+      "fact": "FTB Part B: 막내 나이 5세 미만이면 2주마다 최대 $193.34",
+      "detail": "2026-27 기준. 막내 5~18세(재학 중)이면 2주마다 최대 $134.96. 주 소득자 연 소득 $120,007 이하, 부 소득자 연 $6,935 이하이면 수령 가능. 맞벌이 가정도 막내 13세 미만이면 신청 가능.",
+      "source": "Services Australia — FTB Part B payment rates"
+    },
+    {
+      "fact": "연말 보충금(Supplement)은 소득 $80,000 이하 가정에 별도 지급",
+      "detail": "Part A Supplement: 자녀 1인당 연 $938.05. Part B Supplement: 가족당 연 $459.90. 회계연도 종료 후(7월 이후) 세금 신고서 처리 완료 후 자동 지급.",
+      "source": "Services Australia — FTB Supplement"
+    },
+    {
+      "fact": "신생아 보충금(Newborn Supplement)은 FTB Part A와 연계",
+      "detail": "신생아 또는 새로 입양한 아이가 있는 가정에 일회성 Newborn Upfront Payment $683 지급 + FTB Part A를 통해 Newborn Supplement 추가 지원. 둘째 이상 자녀의 경우 금액이 다를 수 있음.",
+      "source": "Services Australia — Newborn Supplement"
+    },
+    {
+      "fact": "FTB 수령 조건: 자녀 돌봄 35% 이상 + 예방접종 최신 상태",
+      "detail": "자녀를 최소 35% 이상 돌봐야 함. 그리고 자녀의 예방접종 기록(Immunisation)이 최신 상태여야 FTB Part A 전액 수령 가능. 예방접종 미완료 시 Part A가 기본 금액으로 감액됨.",
+      "source": "Services Australia — FTB Part A eligibility"
+    },
+    {
+      "fact": "신청 방법: myGov → Centrelink 연결 → 온라인 신청",
+      "detail": "myGov 계정을 만들고 Centrelink에 연결한 후 온라인으로 신청. 출산 전 3개월 전부터 미리 신청 가능. 필요 서류: 자녀 출생 증명, 소득 정보 등.",
+      "source": "myGov (my.gov.au)"
+    },
+    {
+      "fact": "2026-27 예산에서 FTB 구조적 변경 없음",
+      "detail": "2026년 5월 연방 예산에서 FTB 구조 변경 없이 유지. 지급액은 소비자 물가지수(CPI) 기준 소폭 인상. CCS 3일 보장과는 별개 제도.",
+      "source": "Federal Budget 2026-27 — Department of Social Services"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "$227.36",
+      "context": "FTB Part A 13세 미만 자녀 1인당 2주 최대 지급액 (2026-27 기준)",
+      "source": "Services Australia"
+    },
+    {
+      "stat": "$193.34",
+      "context": "FTB Part B 막내 5세 미만 가정 2주 최대 지급액 (2026-27 기준)",
+      "source": "Services Australia"
+    },
+    {
+      "stat": "$938.05",
+      "context": "Part A 연말 보충금 — 자녀 1인당 연간 (소득 $80,000 이하 가정)",
+      "source": "Services Australia"
+    },
+    {
+      "stat": "$66,722",
+      "context": "FTB Part A 최대 금액 수령을 위한 가족 합산 소득 상한선",
+      "source": "Services Australia"
+    }
+  ],
+  "angles": [
+    "한국 엄마가 FTB를 모르거나 제때 신청 못 하는 이유 — '이런 게 있었어요?' 공감 훅",
+    "Part A vs Part B 한눈에 비교 — 내 가정에 해당하는 것 바로 확인하기",
+    "예방접종 연동 조건 — 모르면 Full Rate 못 받는 함정",
+    "신청 절차 단계별 가이드 — myGov부터 Centrelink까지",
+    "연말 보충금(Supplement)이 뭔지 모르는 엄마들을 위한 설명"
+  ],
+  "action_steps": [
+    {
+      "step": 1,
+      "title": "myGov 계정 만들기 (없는 경우)",
+      "description": "my.gov.au 방문 → 계정 생성 → Centrelink 서비스 연결."
+    },
+    {
+      "step": 2,
+      "title": "자녀 예방접종 기록 최신화 확인",
+      "description": "AIR (Australian Immunisation Register)에서 자녀 예방접종 기록 확인. GP 또는 약국에서 미완료 접종 완료. myGov에서 AIR 연동 가능."
+    },
+    {
+      "step": 3,
+      "title": "FTB 신청서 작성",
+      "description": "myGov → Centrelink → '새 주장(New Claim)' → 'Family Tax Benefit 신청' 선택. 소득 정보, 자녀 정보 입력. 출산 전 3개월 전부터 사전 신청 가능."
+    },
+    {
+      "step": 4,
+      "title": "연말 세금 신고 완료",
+      "description": "회계연도 말(6월 30일) 이후 세금 신고(Tax Return) 완료해야 Supplement 지급. myTax 또는 세무사를 통해 신고."
+    },
+    {
+      "step": 5,
+      "title": "소득 변화 시 즉시 Centrelink에 알리기",
+      "description": "직장 복귀, 이직 등으로 소득이 변하면 Centrelink에 즉시 업데이트. 과다 수령 시 나중에 전액 반환해야 할 수 있음."
+    }
+  ],
+  "korean_mum_specific_insights": [
+    "FTB는 영주권자와 시민권자 모두 신청 가능. 임시 비자(Temporary Visa) 보유자는 대부분 해당 없음. 배우자 비자, 파트너 비자 등 일부 임시 비자는 예외.",
+    "한국에는 이와 유사한 제도가 없어서 '이런 돈이 나오는 줄 몰랐다'는 케이스가 많음.",
+    "자녀 예방접종이 최신이 아니면 Part A가 기본 금액(Base Rate)만 지급 — 이 조건을 모르고 지나치는 엄마들이 많음.",
+    "Centrelink에서 한국어 통역 서비스(1800 131 594) 이용 가능. 신청이 어려우면 전화로 도움 요청 가능.",
+    "소득 추정 금액을 Centrelink에 미리 신고해두면 연말 과다수령 방지 가능. 많이 받고 나중에 돌려주는 불상사를 막을 수 있음."
+  ],
+  "resources": [
+    "servicesaustralia.gov.au/family-tax-benefit — 공식 FTB 정보",
+    "my.gov.au — myGov 계정 생성 및 신청",
+    "austax.tools/family-tax-benefit-calculator — FTB 계산기",
+    "Centrelink 다국어 지원: 1800 131 594 (한국어 통역 연결 가능)",
+    "pregnancybirthbaby.org.au — FTB Part A/B 설명 (영어)"
+  ]
+}
