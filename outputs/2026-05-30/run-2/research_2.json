@@ -1,0 +1,98 @@
+{
+  "topic": "워킹맘 아이 픽업 전쟁: 호주 After School Care(OSHC) 신청·대기·취소 실전 가이드",
+  "slug": "oshc-after-school-care-guide",
+  "research_date": "2026-05-30",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마, 직장과 육아를 병행 중",
+  "key_facts": [
+    {
+      "fact": "OSHC(Outside School Hours Care)는 방과 전·후와 방학 중 초등학생을 돌봐주는 서비스로, 거의 모든 호주 초등학교에 연계되어 있다",
+      "source": "NSW Department of Education / SA Education"
+    },
+    {
+      "fact": "2026년 1월 5일부터 3-Day Guarantee 적용: CCS 자격이 있는 모든 가정은 격주 최소 72시간의 보조 보육을 받는다",
+      "source": "Australian Government Department of Education, 2026"
+    },
+    {
+      "fact": "CCS(Child Care Subsidy) 지원 비율: 연소득 $85,279 이하 가정은 90% 지원, 이후 $5,000마다 1%씩 감소",
+      "source": "Services Australia / Fair Foundations"
+    },
+    {
+      "fact": "OSHC 서비스의 CCS 최대 시간당 지원 상한액: $12.81 (2025/2026 회계연도)",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "OSHClub 정책: 대기 예약(waitlist booking)을 취소하면 비용이 부과되지 않지만, 자동으로 정식 예약으로 전환된 후 취소하면 일반 취소 정책 적용",
+      "source": "OSHClub Bookings and Cancellations Policy"
+    },
+    {
+      "fact": "Primary OSHCare 정책: 학기 중 세션은 48시간 전, 방학 프로그램은 7일 전 취소해야 추가 비용 없음",
+      "source": "Primary OSHCare Cancellations Policy"
+    },
+    {
+      "fact": "Camp Australia: 취소는 부모 포털 웹사이트, 앱, 또는 고객센터(1300 105 343)를 통해 가능",
+      "source": "Camp Australia"
+    },
+    {
+      "fact": "OSHC 자리 배정 시 이미 학교에 다니는 학생에게 입학 전 아동보다 우선권을 부여해야 함",
+      "source": "NSW Department of Education OSHC Guide"
+    },
+    {
+      "fact": "캐주얼(임시), 파트타임, 정기, 긴급 등 다양한 이용 방식으로 이용 가능",
+      "source": "SA Education OSHC Services Guide"
+    },
+    {
+      "fact": "Starting Blocks ECEC finder를 통해 근처 OSHC 서비스를 검색할 수 있음",
+      "source": "Australian Government"
+    }
+  ],
+  "angles": [
+    {
+      "angle": "한국 엄마들이 OSHC를 잘 모르는 이유",
+      "description": "한국에서는 학원 문화가 있어 방과 후 시스템이 다름 - OSHC 개념이 낯설고 영어로만 정보가 제공됨"
+    },
+    {
+      "angle": "대기 신청 vs 정식 예약: 자동 전환의 함정",
+      "description": "대기 예약이 자동으로 정식 예약으로 전환되면 취소 정책이 바뀜 - 많은 엄마들이 모르고 비용 청구됨"
+    },
+    {
+      "angle": "CCS로 실제 얼마나 절약되나",
+      "description": "90% 지원 가능 - 구체적인 계산 예시로 '생각보다 훨씬 싸다'는 인식 변화"
+    },
+    {
+      "angle": "3-Day Guarantee 2026: 워킹맘에게 무슨 의미?",
+      "description": "소득 기준과 무관하게 72시간 보장 - 활동 테스트 없이도 받을 수 있는 새 제도"
+    },
+    {
+      "angle": "대기 줄을 빨리 벗어나는 실전 팁",
+      "description": "복수의 OSHC 서비스에 동시 신청, 캐주얼 이용으로 자리 확보, 제공업체 직접 연락 등 실전 전략"
+    }
+  ],
+  "statistics": [
+    { "value": "72시간", "context": "격주 보장 보조 보육 시간 (2026 3-Day Guarantee)", "source": "Australian Government" },
+    { "value": "90%", "context": "연소득 $85,279 이하 가정의 CCS 지원 비율", "source": "Services Australia" },
+    { "value": "$12.81", "context": "OSHC 서비스 시간당 CCS 최대 지원 상한액 (2025/26)", "source": "Services Australia" },
+    { "value": "48시간", "context": "학기 중 세션 취소 가능 최소 사전 통보 기간 (Primary OSHCare 기준)", "source": "Primary OSHCare" }
+  ],
+  "practical_tips": [
+    "학교 입학과 동시에 OSHC 신청 - 대기 시간이 길 수 있음",
+    "복수의 OSHC 제공업체(Camp Australia, OSHClub, 학교 직영 등)에 동시 신청 가능",
+    "대기 중 캐주얼 예약으로 먼저 이용하면 빈자리가 날 때 우선권을 받을 수 있음",
+    "CCS 등록은 myGov → Services Australia에서 직접 신청",
+    "취소 정책은 제공업체마다 다르므로 계약서를 반드시 확인",
+    "방학 프로그램(Vacation Care)은 별도 예약이 필요하며 훨씬 일찍 마감됨",
+    "OSHC 비용 = (시간당 요금 - CCS 지원액) × 이용 시간",
+    "Starting Blocks 사이트(startingblocks.gov.au)에서 지역 OSHC 검색 가능"
+  ],
+  "key_providers": [
+    "Camp Australia (전국 규모)",
+    "OSHClub (전국 규모)",
+    "Primary OSHCare (전국 규모)",
+    "학교 직영 OSHC (각 학교별 상이)"
+  ],
+  "topics_to_avoid_confirmed": [
+    "특정 제공업체 추천 금지 (카테고리로만 설명)",
+    "비자/영주권 관련 CCS 자격 조건 상세 설명 금지 (행정 정보)",
+    "한국 학원 문화 vs 호주 비교 프레임 금지"
+  ]
+}
