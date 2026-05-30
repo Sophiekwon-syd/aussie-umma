@@ -1,0 +1,136 @@
+{
+  "topic": "호주 겨울 방학 Vacation Care 완전 가이드: 예약 전 반드시 알아야 할 것",
+  "slug": "vacation-care-winter-holidays-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "겨울 방학",
+      "headline": "Vacation Care <em>이렇게</em> 쓰면 돼요",
+      "subtitle": "맞벌이 엄마의 겨울 방학 3주, 보조금 받으면서 버티는 법."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "겨울 방학 3주, 아이 <strong>어디에 맡기나</strong> 걱정되시죠?",
+      "answer": "Vacation Care에 보조금 90%까지 나와요. 미리 알면 훨씬 여유로워져요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "처음 들어보셨나요",
+      "term": "Vacation Care란",
+      "explanation": "학기 중 OSHC(방과 후 돌봄)가 방학 동안 운영하는 <strong>공식 아동 돌봄 서비스</strong>예요. 초등학교 연령 아동 대상이며 어린이집 보조금(CCS)이 적용돼요.",
+      "punchline": "사설 시터 아닌, 정부 보조받는 공식 서비스예요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "얼마나 아낄 수 있나요",
+      "headline": "보조금 최대 <em>90%</em>까지",
+      "chips": [
+        "소득 $85,279 미만 → 90%",
+        "일당 $60부터 시작",
+        "시간당 상한 $12.81",
+        "최소 72시간/2주 보장"
+      ],
+      "explanation": "연 소득 $85,279 미만이면 최대 90% CCS 적용. 소득이 높아도 $535,279 미만이면 일부 지원받아요. (출처: Services Australia 2026)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "방학 전 준비 루틴",
+      "headline": "지금부터 3단계로 준비해요",
+      "entries": [
+        {
+          "label": "지금 (6주 전)",
+          "text": "myGov → Centrelink에서 <strong>CCS 등록 상태</strong> 확인. 미등록이면 지금 바로 신청하세요."
+        },
+        {
+          "label": "4주 전",
+          "text": "Vacation Care 제공자에 <strong>아이 등록·예약</strong> 완료. 인기 프로그램은 며칠 만에 마감돼요."
+        },
+        {
+          "label": "1주 전",
+          "text": "아이와 함께 <strong>제공자 방문 또는 프로그램 소개</strong>. 새 환경에 미리 익숙해지게 해주세요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "어디에 맡길까요",
+      "headline": "Vacation Care 유형 3가지",
+      "items": [
+        {
+          "title": "학교 내 OSHC 서비스",
+          "description": "다니는 학교 안에서 운영해서 아이가 익숙한 환경. 먼저 학교 사무실에 문의하세요."
+        },
+        {
+          "title": "전국 체인 제공자",
+          "description": "Camp Australia, TeamKids, OSHClub 등. 여러 지역에서 운영하며 활동이 다양해요."
+        },
+        {
+          "title": "카운슬·지역 센터",
+          "description": "각 지방 정부(카운슬)나 YMCA가 운영하는 프로그램. 비용이 상대적으로 저렴한 경우 많아요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "첫날 보내기 전 체크",
+      "headline": "빠뜨리면 당일에 난감한 4가지",
+      "intro": "첫날 아침 허둥대지 않으려면 미리 확인하세요.",
+      "items": [
+        "CRN(Customer Reference Number) 제공자에 전달 완료",
+        "도시락·간식·물통 준비 (전자레인지 없는 곳 많아요)",
+        "모자와 자외선 차단제 (정책상 필수인 곳 많음)",
+        "알레르기·의약품·특이사항 서면으로 제공자에 전달"
+      ],
+      "takeaway": "미리 알려주면 아이가 훨씬 편해요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "Vacation Care 처음이라면",
+      "do": [
+        "방학 4~6주 전에 미리 예약하기",
+        "CCS 신청을 Vacation Care 예약 전에 먼저 완료",
+        "아이에게 어떤 활동을 할지 미리 이야기해주기"
+      ],
+      "dont": [
+        "당일 등록되는지 제공자에게 전화해서 시도하기",
+        "CCS 없이 일단 보내고 나중에 청구될 거라 기대하기",
+        "처음이라 불안하다고 아이 앞에서 걱정 표정 짓기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "신청부터 첫날까지",
+      "headline": "3단계로 끝내는 준비",
+      "steps": [
+        {
+          "title": "CCS 신청",
+          "description": "myGov에 로그인 후 Centrelink 연결. CCS 클레임 제출. CRN 확인. 처리는 최대 28일 소요되니 서두르세요."
+        },
+        {
+          "title": "제공자 등록·예약",
+          "description": "학교 OSHC 또는 체인 제공자 웹사이트에서 아이 등록 후 방학 기간 예약. 소풍 날짜도 확인하세요."
+        },
+        {
+          "title": "첫날 적응 준비",
+          "description": "가능하면 방학 첫날이 아닌 1~2일 후부터 시작. 짧은 날로 시작해 적응 시간 주세요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "방학 전에 <em>지금</em> 저장하세요",
+      "message": "인기 프로그램은 <strong>방학 6주 전에 마감</strong>돼요. 내년을 위해서라도 저장해두세요.",
+      "comment_prompt": "Vacation Care 써보셨나요? 후기 댓글로 나눠주세요."
+    }
+  ]
+}
