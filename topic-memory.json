@@ -215,6 +215,18 @@
       "date": "2026-05-29",
       "carousel_file": "outputs/2026-05-29/run-2/kids-pocket-money-financial-literacy.html",
       "cards": 10
+    },
+    {
+      "topic": "2026-27 연방 예산 우리 가족 혜택 총정리: 한국 엄마가 챙겨야 할 것들",
+      "date": "2026-05-30",
+      "carousel_file": "outputs/2026-05-30/run-1/2026-27-federal-budget-family-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "호주 겨울 방학 Vacation Care 완전 가이드: 예약 전 반드시 알아야 할 것",
+      "date": "2026-05-30",
+      "carousel_file": "outputs/2026-05-30/run-1/vacation-care-winter-holidays-guide.html",
+      "cards": 10
     }
   ]
 }
