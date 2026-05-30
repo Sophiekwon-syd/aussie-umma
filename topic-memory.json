@@ -227,6 +227,18 @@
       "date": "2026-05-30",
       "carousel_file": "outputs/2026-05-30/run-1/vacation-care-winter-holidays-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 영양제 가이드: 한국 엄마가 GP에게 묻지 못한 비타민·철분 궁금증",
+      "date": "2026-05-30",
+      "carousel_file": "outputs/2026-05-30/run-2/kids-vitamins-supplements-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "워킹맘 아이 픽업 전쟁: 호주 After School Care(OSHC) 신청·대기·취소 실전 가이드",
+      "date": "2026-05-30",
+      "carousel_file": "outputs/2026-05-30/run-2/oshc-after-school-care-guide.html",
+      "cards": 10
     }
   ]
 }
