@@ -1,0 +1,136 @@
+{
+  "topic": "워킹맘 아이 픽업 전쟁: 호주 After School Care(OSHC) 신청·대기·취소 실전 가이드",
+  "slug": "oshc-after-school-care-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "워킹맘 필독",
+      "headline": "3시 픽업<br /><em>어떻게 해요?</em>",
+      "subtitle": "호주 OSHC 신청·대기·취소 실전 가이드"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "OSHC 신청했더니<br /><strong>대기 중</strong>이라고요?",
+      "answer": "대기 예약이 자동으로 정식 예약으로 바뀌면 취소 비용이 나올 수 있어요. 저도 몰랐어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "먼저 알아두기",
+      "term": "OSHC란",
+      "explanation": "Outside School Hours Care의 약자로, <strong>방과 전·후와 방학 중</strong> 초등학생을 돌봐주는 보육 서비스입니다. 거의 모든 호주 초등학교에 연계되어 있습니다.",
+      "punchline": "한국의 학원 역할을 하는 공식 돌봄 시스템입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "CCS 지원 현황",
+      "headline": "소득 $85,279 이하면<br /><em>90%</em> 지원 받아요",
+      "chips": [
+        "2026 3-Day Guarantee",
+        "격주 72시간 무조건 보장",
+        "시간당 상한 $12.81",
+        "CCS는 myGov에서 신청"
+      ],
+      "explanation": "2026년 1월 5일부터 활동 테스트와 관계없이 모든 CCS 자격 가정이 격주 72시간의 보조 보육을 받습니다. (출처: Australian Government Department of Education)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "OSHC 이용 루틴",
+      "headline": "등록부터 픽업까지 4단계",
+      "entries": [
+        {
+          "label": "등록",
+          "text": "학교 입학과 동시에 OSHC 신청. <strong>대기 시간이 길 수 있으니 최대한 빨리</strong> 신청하세요."
+        },
+        {
+          "label": "CCS 신청",
+          "text": "myGov → Services Australia에서 직접 신청. <strong>CCS가 등록되어야 보조금이 자동 적용</strong>됩니다."
+        },
+        {
+          "label": "예약 관리",
+          "text": "제공업체 앱이나 포털로 예약·변경·취소. <strong>취소 기한을 반드시 확인</strong>하세요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "예약 유형 안내",
+      "headline": "OSHC 이용 방식 3가지",
+      "items": [
+        {
+          "title": "정기 예약",
+          "description": "매주 같은 요일·시간에 고정 이용. 가장 안정적이나 자리가 빨리 찬다. 취소 정책이 엄격하다."
+        },
+        {
+          "title": "캐주얼 예약",
+          "description": "필요할 때만 단발성으로 이용. 빈자리가 있을 때만 가능. 대기 중일 때 활용하면 자리 확보에 유리하다."
+        },
+        {
+          "title": "방학 Vacation Care",
+          "description": "학교 방학 중 이용하는 별도 프로그램. 훨씬 일찍 마감되므로 방학 시작 몇 주 전에 미리 예약한다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "신청 전 체크리스트",
+      "headline": "OSHC 신청 전 이것만 확인하세요",
+      "intro": "이 4가지를 미리 확인하면 나중에 당황하지 않습니다.",
+      "items": [
+        "학교 OSHC 제공업체 이름과 연락처를 확인한다",
+        "CCS(childcare subsidy)가 myGov에 등록되어 있다",
+        "대기 예약과 정식 예약의 차이를 이해했다",
+        "취소 정책 - 얼마나 전에 취소해야 비용이 없는지 확인한다"
+      ],
+      "takeaway": "Starting Blocks(startingblocks.gov.au)에서 지역 OSHC 검색 가능"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "OSHC, 이렇게 하세요",
+      "do": [
+        "학교 입학과 동시에 OSHC 신청한다 - 대기가 길다",
+        "여러 제공업체에 동시에 신청해 빠른 자리를 잡는다",
+        "취소 시 기한 내에 앱이나 포털로 직접 처리한다"
+      ],
+      "dont": [
+        "대기 예약이 자동 전환되는 날짜를 모르고 있지 않는다",
+        "방학 Vacation Care를 방학 직전에 예약하려고 하지 않는다",
+        "CCS 등록 없이 먼저 이용하고 나중에 신청하려 하지 않는다"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "대기 탈출 전략",
+      "headline": "OSHC 대기 빠르게 벗어나는 3단계",
+      "steps": [
+        {
+          "title": "복수 제공업체 동시 신청",
+          "description": "학교 직영 OSHC 외에 Camp Australia, OSHClub 등 전국 제공업체에도 동시 신청하면 빈자리가 날 때 기회가 넓어집니다."
+        },
+        {
+          "title": "캐주얼로 먼저 발 들이기",
+          "description": "빈자리가 생길 때 캐주얼 예약으로 먼저 이용하면 서비스에 등록된 기록이 생겨 정기 자리 배정에 유리합니다."
+        },
+        {
+          "title": "제공업체에 직접 연락하기",
+          "description": "포털 대기만 기다리지 말고 서비스 코디네이터에게 직접 전화하세요. 빈자리가 생겼을 때 연락을 먼저 받을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "저장하고 오늘<br /><em>바로 신청하세요</em>",
+      "message": "픽업 걱정은 OSHC로 해결됩니다. <strong>CCS 지원을 받으면 생각보다 훨씬 저렴합니다.</strong>",
+      "comment_prompt": "OSHC 신청 경험, 댓글로 나눠요"
+    }
+  ]
+}
