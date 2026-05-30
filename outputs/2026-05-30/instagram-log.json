@@ -1,8 +1,8 @@
 {
   "date": "2026-05-30",
-  "last_run_at": "2026-05-30T09:49:38.590Z",
+  "last_run_at": "2026-05-30T18:59:06.755Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "c8593b74211c01324f2ebd53c1b240436e38ed1c",
+  "ref": "0f9156eb82d03fa6002224be26da98511940da3d",
   "results": [
     {
       "topic": "2026-27 연방 예산 우리 가족 혜택 총정리: 한국 엄마가 챙겨야 할 것들",
@@ -41,6 +41,44 @@
         "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/c8593b74211c01324f2ebd53c1b240436e38ed1c/outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-10.png"
       ],
       "posted_at": "2026-05-30T09:49:38.590Z"
+    },
+    {
+      "topic": "호주 아이 영양제 가이드: 한국 엄마가 GP에게 묻지 못한 비타민·철분 궁금증",
+      "slug": "kids-vitamins-supplements-guide",
+      "carousel_container_id": "18094226213089110",
+      "ig_media_id": "17921798745146915",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-10.png"
+      ],
+      "posted_at": "2026-05-30T18:57:06.318Z"
+    },
+    {
+      "topic": "워킹맘 아이 픽업 전쟁: 호주 After School Care(OSHC) 신청·대기·취소 실전 가이드",
+      "slug": "oshc-after-school-care-guide",
+      "carousel_container_id": "18094226648089110",
+      "ig_media_id": "17941325733237231",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/0f9156eb82d03fa6002224be26da98511940da3d/outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-10.png"
+      ],
+      "posted_at": "2026-05-30T18:59:06.755Z"
     }
   ]
 }
