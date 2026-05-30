@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-30T18:40:17Z",
+  "finished_at": "2026-05-30T18:51:53Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26691773940",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 영양제 가이드: 한국 엄마가 GP에게 묻지 못한 비타민·철분 궁금증",
+      "slug": "kids-vitamins-supplements-guide",
+      "html_file": "outputs/2026-05-30/run-2/kids-vitamins-supplements-guide.html",
+      "copy_file": "outputs/2026-05-30/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "워킹맘 아이 픽업 전쟁: 호주 After School Care(OSHC) 신청·대기·취소 실전 가이드",
+      "slug": "oshc-after-school-care-guide",
+      "html_file": "outputs/2026-05-30/run-2/oshc-after-school-care-guide.html",
+      "copy_file": "outputs/2026-05-30/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-01.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-02.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-03.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-04.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-05.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-06.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-07.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-08.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-09.png",
+    "outputs/2026-05-30/run-2/images/kids-vitamins-supplements-guide-10.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-01.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-02.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-03.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-04.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-05.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-06.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-07.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-08.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-09.png",
+    "outputs/2026-05-30/run-2/images/oshc-after-school-care-guide-10.png"
+  ]
+}
