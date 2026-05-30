@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-30T00:00:00.000Z",
+  "finished_at": "2026-05-30T01:30:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26680397347",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "2026-27 연방 예산 우리 가족 혜택 총정리: 한국 엄마가 챙겨야 할 것들",
+      "slug": "2026-27-federal-budget-family-guide",
+      "html_file": "outputs/2026-05-30/run-1/2026-27-federal-budget-family-guide.html",
+      "copy_file": "outputs/2026-05-30/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 겨울 방학 Vacation Care 완전 가이드: 예약 전 반드시 알아야 할 것",
+      "slug": "vacation-care-winter-holidays-guide",
+      "html_file": "outputs/2026-05-30/run-1/vacation-care-winter-holidays-guide.html",
+      "copy_file": "outputs/2026-05-30/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-01.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-02.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-03.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-04.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-05.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-06.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-07.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-08.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-09.png",
+    "outputs/2026-05-30/run-1/images/2026-27-federal-budget-family-guide-10.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-01.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-02.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-03.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-04.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-05.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-06.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-07.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-08.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-09.png",
+    "outputs/2026-05-30/run-1/images/vacation-care-winter-holidays-guide-10.png"
+  ]
+}
