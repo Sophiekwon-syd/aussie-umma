@@ -1,0 +1,142 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 영양제 가이드: 한국 엄마가 GP에게 묻지 못한 비타민·철분 궁금증",
+      "slug": "kids-vitamins-supplements-guide",
+      "target_audience": "호주에 사는 25-40세 한국인 엄마",
+      "narrative_arc": "공감(GP에게 묻기 어렵다) → 정보(비타민 D, 철분 각각 설명) → 실천(검사 받는 법, 식단 팁) → 확신(GP 방문으로 해결 가능)",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "영양제 고민이 있는 한국 엄마의 시선을 멈추게 한다",
+          "key_message": "아이 영양제, GP에게 물어봤나요? 겨울 전 꼭 확인해야 할 것들"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "공감 유발 - 영양제를 마음대로 사서 먹이고 싶지만 GP에게 물어보기 어렵다는 현실",
+          "key_message": "혹시 아이 영양제를 직접 사서 먹이고 있나요? GP가 필요 없다고 할까 봐 물어보기 어려우셨죠?"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "비타민 D 결핍이란 무엇인지, 왜 호주 겨울에 문제가 되는지 설명",
+          "key_message": "비타민 D 결핍: 호주 겨울 아이들의 36%가 해당. 햇빛 부족으로 뼈·면역·성장에 영향"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "철분 결핍 관련 핵심 통계와 위험 신호 데이터 제시",
+          "key_message": "영유아 75%가 권장 철분 섭취량 미달. 빈혈까지 가지 않아도 뇌 발달에 영향을 줄 수 있다"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "GP 방문 전 집에서 체크할 수 있는 루틴 제시",
+          "key_message": "아이 철분 부족 체크 루틴: 식사 패턴, 우유 섭취량, 증상 관찰"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "아이에게 필요할 수 있는 영양소 3가지 카테고리 정리",
+          "key_message": "비타민 D / 철분 / 아연 - 각각 어떤 아이에게 필요한가"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "GP에게 가야 하는 상황 체크리스트",
+          "key_message": "이 중 하나라도 해당하면 GP에서 혈액 검사를 받으세요"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "영양제 관련 잘못된 상식과 올바른 행동 대비",
+          "key_message": "영양제 먼저 사지 말고, 검사 먼저. 비타민 C와 함께 먹으면 철분 흡수 높아짐"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "GP에서 혈액 검사 받는 3단계 절차",
+          "key_message": "GP 예약 → 검사 요청 문구 준비 → 결과 확인 및 보충제 처방"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장 유도 및 GP 방문 행동 촉구",
+          "key_message": "이 카드 저장해두고 다음 GP 예약 때 혈액 검사 요청해보세요"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "워킹맘 아이 픽업 전쟁: 호주 After School Care(OSHC) 신청·대기·취소 실전 가이드",
+      "slug": "oshc-after-school-care-guide",
+      "target_audience": "호주에 사는 25-40세 한국인 엄마, 직장과 육아 병행 중",
+      "narrative_arc": "공감(픽업 전쟁의 현실) → 정보(OSHC 제도 설명, CCS 혜택) → 실천(대기 탈출 전략, 취소 정책) → 확신(지금 바로 신청할 수 있다)",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "픽업 전쟁이라는 워킹맘의 현실적 고민으로 시선 잡기",
+          "key_message": "3시 픽업 어떻게 해요? 호주 OSHC 실전 가이드"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "공감 유발 - OSHC를 신청했는데 대기 중이라거나, 취소 비용 청구에 놀란 경험",
+          "key_message": "OSHC 신청했는데 대기라고요? 자동 전환되면 취소 비용이 나올 수도 있어요"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "OSHC가 정확히 무엇인지 처음 듣는 엄마를 위한 설명",
+          "key_message": "OSHC(Outside School Hours Care): 방과 전·후·방학 중 초등학생 돌봄 서비스. 거의 모든 학교에 연계"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "CCS 지원 현황과 2026 변경 사항 데이터로 신뢰감 부여",
+          "key_message": "연소득 $85,279 이하 가정은 90% 지원. 2026년부터 3-Day Guarantee로 72시간 무조건 보장"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "OSHC 신청부터 이용까지 단계별 일상 루틴",
+          "key_message": "등록 → CCS 신청 → 예약 → 취소 관리: 루틴을 만들면 픽업 전쟁이 끝난다"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "OSHC 이용 유형 3가지 분류 설명",
+          "key_message": "정기 예약 / 캐주얼 예약 / 방학 Vacation Care - 상황에 맞게 선택하세요"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "OSHC 신청 전 확인해야 할 체크리스트",
+          "key_message": "OSHC 신청 전 이것만 확인하세요"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "OSHC 이용 시 흔한 실수와 올바른 행동 비교",
+          "key_message": "대기 예약 자동 전환 모르고 있다가 비용 청구 - 이런 실수 하지 마세요"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "대기 탈출을 위한 3단계 실전 전략",
+          "key_message": "OSHC 대기에서 빨리 벗어나는 3단계"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장 유도 및 지금 바로 신청하도록 촉구",
+          "key_message": "이 카드 저장하고 학교 OSHC 담당자에게 지금 바로 연락해보세요"
+        }
+      ]
+    }
+  ]
+}
