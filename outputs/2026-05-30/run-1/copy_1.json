@@ -1,0 +1,136 @@
+{
+  "topic": "2026-27 연방 예산 우리 가족 혜택 총정리: 한국 엄마가 챙겨야 할 것들",
+  "slug": "2026-27-federal-budget-family-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "2026-27 예산",
+      "headline": "우리 가족 혜택 <em>지금 바로</em> 챙기세요",
+      "subtitle": "연방 예산 발표됐어요. 7월 전에 알아야 할 것, 한눈에 정리했어요."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "예산 발표 뉴스, 봤는데 <strong>내 얘기인지 모르겠다고요?</strong>",
+      "answer": "한국어로 정리했어요. 우리 가족에게 실제로 달라지는 것만요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "먼저 알고 시작해요",
+      "term": "연방 예산이란",
+      "explanation": "매년 5월, 호주 정부가 세금을 어디에 쓸지 발표하는 것이에요. 육아휴직, 어린이집 보조, 가족 수당 — 이 모든 게 <strong>예산에서 결정</strong>돼요.",
+      "punchline": "올해는 가족 혜택이 특히 많이 바뀌었어요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "이번 예산, 숫자로 보면",
+      "headline": "가족을 위한 <em>역대급</em> 변화",
+      "chips": [
+        "육아휴직 26주 (7월~)",
+        "+$14,000 혜택 증가",
+        "Thriving Kids $40억",
+        "어린이집 72시간 보장"
+      ],
+      "explanation": "2022년에 비해 적격 가족은 육아휴직으로 $14,000을 더 받아요. (출처: savings.com.au)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "육아휴직 계획 루틴",
+      "headline": "7월 이후 출산 예정이라면",
+      "entries": [
+        {
+          "label": "지금",
+          "text": "Services Australia에서 PPL 26주 <strong>적격 여부 확인</strong>하세요. 시민권·PR·특정 비자 소지자 해당."
+        },
+        {
+          "label": "출산 후",
+          "text": "PPL 기간 중 슈퍼애뉴에이션이 <strong>자동 적립</strong>돼요. 슈퍼 계좌 최신 정보로 등록해두세요."
+        },
+        {
+          "label": "복직 전",
+          "text": "CCS(어린이집 보조) 갱신 신청 미리 해두세요. <strong>복직 날짜와 어린이집 등록</strong>을 함께 확인."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "혜택 3가지 카테고리",
+      "headline": "내 상황에 맞는 혜택 찾기",
+      "items": [
+        {
+          "title": "출산·육아휴직 예정",
+          "description": "PPL 26주 + 슈퍼 기여금 새로 적용. 7월 이후 출산이면 최대 혜택 받아요."
+        },
+        {
+          "title": "어린이집 이용 중",
+          "description": "3일 보장(72시간/2주) 그대로 유지. 방학 중 Vacation Care도 CCS 적용돼요."
+        },
+        {
+          "title": "발달 지연 걱정되는 아이",
+          "description": "Thriving Kids 프로그램 10월 시작. 8세 이하 경증~중등도 발달 지연·자폐 아동 대상."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "지금 당장 체크리스트",
+      "headline": "7월 전에 확인해야 할 4가지",
+      "intro": "해당 항목 있으면 지금 바로 확인하세요.",
+      "items": [
+        "PPL 26주 적격 여부 — Services Australia에서 확인",
+        "슈퍼 계좌 연결 정보 — ATO myGov에서 최신 상태 확인",
+        "CCS 등록 현황 — 갱신 필요 여부 Centrelink에서 체크",
+        "Thriving Kids 해당 — GP에게 발달 평가 의뢰 검토"
+      ],
+      "takeaway": "신청은 미뤄도 혜택은 기다려주지 않아요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이렇게 하세요 vs 이렇게 하지 마세요",
+      "do": [
+        "7월 1일 전에 PPL·CCS 신청 서류 미리 준비",
+        "슈퍼 계좌 정보를 ATO myGov에 정확히 등록",
+        "GP에게 아이 발달 걱정 솔직하게 얘기하기"
+      ],
+      "dont": [
+        "혜택이 자동으로 적용될 거라 기대하고 기다리기",
+        "영어 서류가 어렵다고 신청 자체를 미루기",
+        "Thriving Kids는 NDIS와 같을 거라 생각하고 포기하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Thriving Kids 이용하는 법",
+      "headline": "아이 발달이 걱정될 때 3단계",
+      "steps": [
+        {
+          "title": "GP 방문",
+          "description": "담당 GP에게 '아이 발달이 걱정된다'고 말하세요. 전문가 평가 의뢰서(referral)를 요청하세요."
+        },
+        {
+          "title": "지원 수준 결정",
+          "description": "평가 결과에 따라 경증·중등도이면 Thriving Kids, 중증이면 기존 NDIS로 연결돼요."
+        },
+        {
+          "title": "서비스 시작",
+          "description": "Thriving Kids는 2026년 10월 시범 시작. 지금은 GP referral 받아 대기 등록해두는 것이 좋아요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "모르면 <em>손해</em>인 정보예요",
+      "message": "PPL 26주, 슈퍼 기여금, Thriving Kids — <strong>7월 전에 챙겨야</strong> 달라져요.",
+      "comment_prompt": "이 중에 해당되는 혜택 있으신가요? 댓글로 알려주세요."
+    }
+  ]
+}
