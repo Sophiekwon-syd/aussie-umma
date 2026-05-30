@@ -1,0 +1,82 @@
+{
+  "topic": "호주 겨울 방학 Vacation Care 완전 가이드: 예약 전 반드시 알아야 할 것",
+  "slug": "vacation-care-winter-holidays-guide",
+  "research_date": "2026-05-30",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    {
+      "fact": "Vacation Care(방학 중 돌봄)는 학기 중의 OSHC(Out of School Hours Care)가 방학 동안 운영하는 프로그램이다. 초등학교 연령 아동을 위한 감독 돌봄 및 활동 프로그램 제공.",
+      "source": "careforkids.com.au, campaustralia.com.au"
+    },
+    {
+      "fact": "Vacation Care는 Child Care Subsidy(CCS) 적용 대상이다. 14세 미만이면서 중등학교에 재학 중이 아닌 아동이면 적용 가능.",
+      "source": "Services Australia / Department of Education"
+    },
+    {
+      "fact": "2026년 겨울 방학 날짜 (NSW): 2026년 7월 4일(토) ~ 7월 24일(금) — 약 3주. Victoria: 6월 27일 ~ 7월 12일.",
+      "source": "schoolholidays.com.au / schoolholidays2026.au"
+    },
+    {
+      "fact": "3일 보장(3 Day Guarantee): 2026년 1월 5일부터 모든 CCS 적격 가족은 활동 테스트 무관하게 2주당 최소 72시간(약 3일) 보조 케어 이용 가능. Vacation Care도 포함.",
+      "source": "Camp Australia / Department of Education"
+    },
+    {
+      "fact": "CCS 보조율: 연 소득 $85,279 미만 가정은 최대 90%까지 커버. 소득이 높아질수록 매 $5,000마다 1%씩 감소. $535,279 이하이면 여전히 일부 보조 가능.",
+      "source": "OSHClub / CCS Calculator 2026"
+    },
+    {
+      "fact": "OSHC 시간당 상한선(Hourly Rate Cap): $12.81/시간. 이 상한을 초과하는 제공자 비용은 가족 부담.",
+      "source": "Department of Education CCS hourly rate caps"
+    },
+    {
+      "fact": "Vacation Care 비용: 제공자에 따라 일당 $60부터 시작, 소풍(excursion)이나 특별 활동은 추가 비용 발생.",
+      "source": "careforkids.com.au"
+    },
+    {
+      "fact": "예약 방법: myGov → Centrelink 연결 후 CCS 클레임 제출. Customer Reference Number(CRN) 필요. 처리에 최대 28일 소요. 28일 이내 소급 신청 가능하므로 방학 전 미리 신청 필수.",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "Vacation Care 프로그램 인기 장소는 학교 내 OSHC 서비스, Camp Australia, TeamKids, OSHClub, Primary OSHCare 등 전국 체인 제공자. 인기 프로그램은 개학 후 빠르면 며칠 내에 마감된다.",
+      "source": "campaustralia.com.au, teamkids.com.au"
+    },
+    {
+      "fact": "Vacation Care 활동 예시: 소풍(excursion), 창작 미술·공예, 스포츠, 로봇 공학 워크숍, 매직쇼, 댄스 클래스, 영화 데이 등 다양한 프로그램 운영.",
+      "source": "happyhaven.sa.edu.au / aspire-oshc.com.au"
+    },
+    {
+      "fact": "부모가 직접 아이의 관심사를 제공자에게 미리 알려주면 프로그램에 반영될 수 있다. 도시락(점심+간식), 모자, 자외선 차단제 지참 필수.",
+      "source": "aspire-oshc.com.au"
+    },
+    {
+      "fact": "맞벌이 부부 전략: 첫째 주는 한 부모가 휴가를 내고, 둘째 주는 다른 부모가 휴가를 내는 방식으로 Vacation Care 1주만 필요하도록 조율하는 가족도 있다.",
+      "source": "simplecalendar.com.au / schoolholidayplanner.com.au"
+    }
+  ],
+  "statistics": [
+    { "stat": "72시간 / 2주", "context": "3일 보장 하 최소 보조 Vacation Care 이용 가능 시간", "source": "Department of Education" },
+    { "stat": "최대 90%", "context": "연 소득 $85,279 미만 가정의 CCS 보조율", "source": "OSHClub / CCS 2026" },
+    { "stat": "$12.81/시간", "context": "OSHC CCS 시간당 상한선(2026)", "source": "Department of Education" },
+    { "stat": "$60~", "context": "Vacation Care 일당 기본 비용(제공자별 상이)", "source": "careforkids.com.au" },
+    { "stat": "28일", "context": "CCS 신청 소급 가능 기간 / 처리 소요 시간", "source": "Services Australia" },
+    { "stat": "3주", "context": "NSW 2026년 겨울 방학 기간", "source": "schoolholidays2026.au" }
+  ],
+  "angles": [
+    "처음 Vacation Care를 이용하는 한국 엄마를 위한 단계별 가이드",
+    "CCS 보조 최대로 받는 방법 — 미리 신청하지 않으면 전액 선납",
+    "인기 프로그램 마감 전 예약하는 타이밍 전략",
+    "아이가 Vacation Care 낯설어할 때 미리 준비하는 법",
+    "맞벌이 부부가 겨울 방학 3주를 커버하는 현실적 전략"
+  ],
+  "search_sources": [
+    "https://www.careforkids.com.au/resource-corner/family-finance/is-vacation-care-covered-by-the-childcare-subsidy",
+    "https://campaustralia.com.au/child-care-subsidy-3day-guarantee/",
+    "https://www.servicesaustralia.gov.au/dont-forget-about-child-care-subsidy-for-vacation-care-and-oshc",
+    "https://www.education.gov.au/early-childhood/providers/child-care-subsidy",
+    "https://www.oshclub.com.au/parent-support/child-care-subsidy/",
+    "https://www.simplecalendar.com.au/blog/school-holidays-2026-parents-guide",
+    "https://schoolholidays.com.au/holidays/australia",
+    "https://happyhaven.sa.edu.au/vacation-care/"
+  ]
+}
