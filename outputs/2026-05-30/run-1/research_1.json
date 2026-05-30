@@ -1,0 +1,74 @@
+{
+  "topic": "2026-27 연방 예산 우리 가족 혜택 총정리: 한국 엄마가 챙겨야 할 것들",
+  "slug": "2026-27-federal-budget-family-guide",
+  "research_date": "2026-05-30",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    {
+      "fact": "2026-27 연방 예산에서 가족을 위한 주요 변경 사항이 발표됐다. 2026년 7월 1일부터 정부 지원 유급 육아휴직이 26주(130일)로 확대된다.",
+      "source": "Australian Government Budget 2026-27 / savings.com.au"
+    },
+    {
+      "fact": "2022년 대비 적격 가족은 육아휴직 혜택으로 $14,000 더 많이 받을 수 있게 됐다.",
+      "source": "Federal Budget 2026: How parents will benefit (savings.com.au)"
+    },
+    {
+      "fact": "2026년 7월 1일부터 정부 유급 육아휴직 기간 중 슈퍼애뉴에이션(퇴직연금) 기여금이 직접 개인 슈퍼 계좌로 지급된다. 이는 육아휴직으로 인한 노후 연금 격차를 줄이기 위한 조치다.",
+      "source": "ATO / Australian Government Budget 2026-27"
+    },
+    {
+      "fact": "3일 보장(3 Day Guarantee) 제도: 2026년 1월 5일부터 모든 CCS 적격 가족은 활동 테스트 결과에 관계없이 2주당 최소 72시간의 보조 어린이집을 이용할 수 있다.",
+      "source": "Department of Education / Services Australia"
+    },
+    {
+      "fact": "Thriving Kids 프로그램: 8세 이하 발달 지연·자폐 아동을 위한 새 지원 시스템. 연방+주 정부 합산 $40억(4 billion) 투자, 2026년 10월 1일 시범 운영 시작, 2028년 1월 본격 확대 예정.",
+      "source": "Department of Health / NDIS / budget.gov.au"
+    },
+    {
+      "fact": "Thriving Kids는 경증~중등도 지원 필요 아동(8세 이하, 발달 지연 또는 자폐)을 위한 프로그램이다. 중증 아동은 기존 NDIS 계속 적용.",
+      "source": "Department of Health, Disability and Ageing (health.gov.au)"
+    },
+    {
+      "fact": "어린이집 포함 지원 프로그램(Inclusion Support Program): 추가 필요 아동을 위한 보조 확대에 $5,480만 추가 투자 결정.",
+      "source": "Federal Budget 2026-27 ECEC (thesector.com.au)"
+    },
+    {
+      "fact": "아동 양육비 시스템(Child Support Scheme) 개선에 $1억 8,260만 투자. 더 안전하고 효율적인 아동 양육비 지급을 목표로 한다.",
+      "source": "Budget 2026-27, Department of Social Services"
+    },
+    {
+      "fact": "아동·가족 지원 서비스 통합: 2027년 7월 1일부터 단일 국가 아동·가족 지원 프로그램 도입 예정. $1억 7,170만 5년 지원.",
+      "source": "Federal Budget 2026-27 child and family services summary (cfecfw.org.au)"
+    },
+    {
+      "fact": "어린이집·요양원 등 여성 비중 높은 직종 임금 인상을 위해 $210억 투자. 어린이집 교사 임금 개선 직접 연결.",
+      "source": "Federal Budget 2026 How parents benefit / savings.com.au"
+    }
+  ],
+  "statistics": [
+    { "stat": "26주 (130일)", "context": "2026년 7월 1일부터 확대되는 정부 유급 육아휴직 기간", "source": "Australian Government" },
+    { "stat": "$14,000", "context": "2022년 대비 적격 가족이 더 받게 되는 육아휴직 혜택 금액", "source": "savings.com.au" },
+    { "stat": "72시간 / 2주", "context": "3일 보장 제도 하 최소 보조 어린이집 이용 시간", "source": "Department of Education" },
+    { "stat": "$40억 (4B AUD)", "context": "Thriving Kids 5년 투자 총액 (연방+주)", "source": "budget.gov.au" },
+    { "stat": "2026년 10월 1일", "context": "Thriving Kids 시범 운영 시작일", "source": "NDIS / health.gov.au" },
+    { "stat": "$210억 (21B AUD)", "context": "어린이집 등 여성 비중 직종 임금 인상 투자 총액", "source": "Federal Budget 2026" }
+  ],
+  "angles": [
+    "한국 엄마들이 실제로 챙겨야 할 변경 사항 5가지 요약",
+    "Thriving Kids: 아이가 발달 지연 의심될 때 어떻게 접근하나",
+    "육아휴직 슈퍼 기여금 — 놓치면 손해인 노후 연금 혜택",
+    "어린이집 3일 보장 + 방학 중 Vacation Care CCS 동시 활용",
+    "2026년 7월 이후 육아휴직 계획 중인 엄마를 위한 체크리스트"
+  ],
+  "search_sources": [
+    "https://www.savings.com.au/news/2026-federal-budget-for-parents",
+    "https://budget.gov.au/content/05-care-and-opportunity.htm",
+    "https://www.health.gov.au/our-work/thriving-kids",
+    "https://www.ndis.gov.au/news/11085-thriving-kids",
+    "https://cfecfw.org.au/federal-budget-2026-27-child-and-family-services-sector-summary/",
+    "https://thesector.com.au/article/2026-27-federal-budget-what-it-means-for-early-childhood-education-and-care",
+    "https://www.education.gov.au/early-childhood/providers/child-care-subsidy",
+    "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/how-to-save-more-in-your-super/government-super-contributions/paid-parental-leave-superannuation-contribution"
+  ]
+}
