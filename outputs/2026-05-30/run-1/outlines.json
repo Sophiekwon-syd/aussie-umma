@@ -1,0 +1,138 @@
+{
+  "outlines": [
+    {
+      "topic": "2026-27 연방 예산 우리 가족 혜택 총정리: 한국 엄마가 챙겨야 할 것들",
+      "slug": "2026-27-federal-budget-family-guide",
+      "carousel_index": 1,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_purpose": "예산 발표로 뭔가 바뀌었다는 것을 느끼게 하고, 나에게 직접 연결되는 정보라는 기대감 형성",
+          "content_direction": "2026-27 연방 예산, 가족 혜택 변경, 한국 엄마 필수 정보 강조"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_purpose": "예산 발표를 들었지만 뭐가 바뀌었는지 모르는 답답함에 공감, 이 카드가 해결책임을 약속",
+          "content_direction": "복잡한 예산 뉴스, 영어 기사라 읽기 어려움, 실제로 내 가족에게 뭐가 달라지는지 한눈에"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_purpose": "연방 예산이 가족에게 어떤 의미인지 명확히 정의",
+          "content_direction": "연방 예산 = 정부가 세금으로 뭘 할지 결정하는 것. 가족 혜택 직접 영향 받는 항목들 소개"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_purpose": "수치로 이번 예산의 규모와 혜택을 체감하게 함",
+          "content_direction": "26주 PPL, $14,000 추가 혜택, $40억 Thriving Kids, 72시간/2주 3일 보장 등 핵심 숫자"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_purpose": "PPL 26주 + 슈퍼 기여금 시대에 육아휴직 계획을 어떻게 세우는지 실전 흐름 제시",
+          "content_direction": "출산 전 신청 준비 → 26주 기간 중 슈퍼 자동 적립 → 복직 후 CCS 신청 3단계 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_purpose": "이번 예산의 가족 혜택을 3가지 카테고리로 분류해 한눈에 파악",
+          "content_direction": "① 육아휴직 확대 ② 어린이집 지원 강화 ③ 발달 지연 아동 새 지원(Thriving Kids)"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_purpose": "실제로 내가 지금 해야 할 것들을 체크리스트로 정리",
+          "content_direction": "PPL 신청 확인, CCS 갱신, Thriving Kids 해당 여부 체크, 슈퍼 계좌 확인 등"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_purpose": "예산 혜택 활용 시 자주 하는 실수와 올바른 접근 대비",
+          "content_direction": "Do: 제때 신청, 미리 서류 준비 / Don't: 자동 적용 기대, 신청 미루기"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_purpose": "Thriving Kids 프로그램 접근 방법 — 발달 지연 걱정이 있는 엄마를 위한 실전 3단계",
+          "content_direction": "① GP 방문으로 평가 의뢰 → ② 지원 수준 결정(경증 Thriving Kids / 중증 NDIS) → ③ 서비스 연결"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_purpose": "저장하고 주변 엄마들과 공유하도록 유도",
+          "content_direction": "이 정보 모르면 손해, 저장해두고 7월 전에 챙기세요"
+        }
+      ]
+    },
+    {
+      "topic": "호주 겨울 방학 Vacation Care 완전 가이드: 예약 전 반드시 알아야 할 것",
+      "slug": "vacation-care-winter-holidays-guide",
+      "carousel_index": 2,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_purpose": "겨울 방학이 다가오는 불안감과 기대를 동시에 건드림",
+          "content_direction": "겨울 방학 3주, 맞벌이 엄마의 현실, Vacation Care 완전 가이드 예고"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_purpose": "Vacation Care를 처음 접하거나 CCS 적용을 몰랐던 엄마에게 공감",
+          "content_direction": "방학이 두렵다, 풀타임 돌봄 어떻게 해야 하나, 사실 보조금 받을 수 있다"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_purpose": "Vacation Care가 정확히 무엇인지 한국 엄마 기준으로 설명",
+          "content_direction": "OSHC의 방학 버전, 초등학교 연령 대상, CCS 적용 가능한 공식 돌봄 서비스"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_purpose": "CCS 보조율과 실제 비용을 수치로 체감시킴",
+          "content_direction": "90% 보조, $12.81 시간당 상한, 일당 $60부터 시작, 28일 처리 기간, 72시간/2주 보장"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_purpose": "겨울 방학 6주 전부터 해야 할 준비 루틴 제시",
+          "content_direction": "지금(6주 전) CCS 확인 → 4주 전 예약 → 1주 전 아이와 함께 준비 3단계"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_purpose": "Vacation Care 제공 유형 3가지를 분류해 선택 기준 제공",
+          "content_direction": "① 학교 내 OSHC 서비스 ② 전국 체인 제공자(Camp Australia 등) ③ 카운슬 운영 프로그램"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_purpose": "첫날 보낼 때 반드시 챙겨야 할 것들",
+          "content_direction": "CRN 등록 완료, 예약 확인, 도시락·간식·모자·자외선 차단제 준비, 아이 알레르기 전달"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_purpose": "처음 Vacation Care 이용하는 부모가 하는 실수와 올바른 방법",
+          "content_direction": "Do: 미리 예약, CCS 사전 신청 / Don't: 당일 등록 시도, 전액 선납 후 청구 기대"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_purpose": "CCS 신청 및 Vacation Care 예약 완료까지 3단계 실전 가이드",
+          "content_direction": "① myGov에서 CCS 신청 → ② 제공자에 아이 등록 → ③ 첫날 아이 적응 준비"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_purpose": "겨울 방학 전에 저장하고 지금 바로 준비 시작하도록 유도",
+          "content_direction": "방학 전에 저장해두세요, 늦으면 인기 프로그램 마감"
+        }
+      ]
+    }
+  ]
+}
