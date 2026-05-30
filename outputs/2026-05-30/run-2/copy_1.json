@@ -1,0 +1,136 @@
+{
+  "topic": "호주 아이 영양제 가이드: 한국 엄마가 GP에게 묻지 못한 비타민·철분 궁금증",
+  "slug": "kids-vitamins-supplements-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "아이 건강",
+      "headline": "GP에 묻지 못한<br /><em>영양제 궁금증</em>",
+      "subtitle": "비타민 D, 철분 - 겨울 전 꼭 확인해야 할 것들"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 아이 영양제를<br /><strong>직접 사서 먹이고</strong> 있나요?",
+      "answer": "GP에게 물어봤을 때 '필요 없다'고 할까 봐 말 못 꺼내셨죠. 저도 그랬어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "꼭 알아야 할 것",
+      "term": "비타민 D 결핍",
+      "explanation": "햇빛을 통해 만들어지는 비타민 D는 호주 겨울에 급격히 떨어집니다. <strong>뼈 성장, 면역력, 근육 발달</strong>에 직접 영향을 줍니다.",
+      "punchline": "호주 겨울, 아이들의 36%가 비타민 D 결핍 상태입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "놀라운 수치",
+      "headline": "영유아 <em>75%</em>가 철분<br />권장 섭취량 미달",
+      "chips": [
+        "5세 미만 빈혈 비율 8%",
+        "집중력·성장에 영향",
+        "증상 없는 경우 많음",
+        "혈액 검사로만 확인 가능"
+      ],
+      "explanation": "철분 결핍은 뚜렷한 증상 없이도 뇌 발달과 학습 능력에 영향을 줄 수 있습니다. (출처: Queensland Health, RCH Melbourne)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "집에서 먼저 체크",
+      "headline": "GP 가기 전 3가지 확인",
+      "entries": [
+        {
+          "label": "식사 패턴",
+          "text": "편식이 심하거나 <strong>고기·생선·달걀을 거의 안 먹는</strong> 아이라면 철분 부족 가능성이 있습니다."
+        },
+        {
+          "label": "우유 섭취량",
+          "text": "하루 <strong>500mL 이상 우유를 마시는 아이</strong>는 철분 흡수가 방해받을 수 있습니다."
+        },
+        {
+          "label": "햇빛 노출",
+          "text": "겨울에 실내 활동이 많고 <strong>하루 햇빛을 거의 못 쬐는 아이</strong>는 비타민 D 결핍 위험이 높습니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "영양소 가이드",
+      "headline": "아이에게 부족하기 쉬운 영양소 3가지",
+      "items": [
+        {
+          "title": "비타민 D",
+          "description": "겨울철 햇빛 부족, 실내 생활이 많은 아이. 뼈·면역력에 영향. GP 혈액 검사로 확인 후 보충."
+        },
+        {
+          "title": "철분",
+          "description": "편식하는 아이, 우유를 많이 마시는 아이, 채식 위주인 아이. 피로·집중력 저하의 숨은 원인."
+        },
+        {
+          "title": "아연",
+          "description": "잦은 감기·감염이 반복되는 아이. 면역 기능과 성장에 필요. 고기·견과류·씨앗류로 보충 가능."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "GP 방문 신호",
+      "headline": "이 중 하나라도 해당하면 GP에 가세요",
+      "intro": "혈액 검사는 Medicare로 가능합니다. 편식·피로·창백한 피부는 결핍의 신호일 수 있습니다.",
+      "items": [
+        "아이가 자주 피곤해하거나 쉽게 지쳐 보인다",
+        "피부가 유독 창백하고 집중력이 떨어진다",
+        "겨울 동안 햇빛을 거의 못 쬐었다",
+        "고기·생선 등 철분 풍부 식품을 거의 안 먹는다"
+      ],
+      "takeaway": "검사 요청 문구: 'Can we check vitamin D and iron levels?'"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "영양제, 이렇게 하세요",
+      "do": [
+        "GP에서 혈액 검사 먼저 받고 부족한 것만 보충한다",
+        "철분 보충제는 비타민 C가 풍부한 음식과 함께 먹인다",
+        "비타민 D 보충 시작 후 3개월 뒤 수치 재확인한다"
+      ],
+      "dont": [
+        "검사 없이 여러 종류의 영양제를 동시에 사서 먹이지 않는다",
+        "비타민 D를 권장량 이상 과다 복용하지 않는다 - 독성 위험 있음",
+        "우유를 많이 먹으면 영양이 다 해결된다고 생각하지 않는다"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "이렇게 하세요",
+      "headline": "GP 혈액 검사 받는 3단계",
+      "steps": [
+        {
+          "title": "GP 예약 시 미리 알리기",
+          "description": "'아이 혈액 검사를 받고 싶다'고 예약할 때 말해두면 충분한 진료 시간을 확보할 수 있습니다."
+        },
+        {
+          "title": "검사 요청 문구 준비",
+          "description": "'Can we check vitamin D and iron levels please?' - 이 한 문장이면 됩니다. GP가 처방전을 써줍니다."
+        },
+        {
+          "title": "결과 확인 후 보충 계획",
+          "description": "결과가 나오면 GP와 함께 보충제 용량·기간을 정하세요. 자의로 고용량을 먹이지 않습니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "다음 GP 예약 때<br /><em>꼭 물어보세요</em>",
+      "message": "영양제보다 먼저 검사입니다. Medicare로 받을 수 있고, <strong>결과가 나와야 올바른 보충이 시작됩니다.</strong>",
+      "comment_prompt": "우리 아이 영양제 고민, 댓글로 알려주세요"
+    }
+  ]
+}
