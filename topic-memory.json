@@ -239,6 +239,18 @@
       "date": "2026-05-30",
       "carousel_file": "outputs/2026-05-30/run-2/oshc-after-school-care-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "말이 늦은 아이 대응 가이드: 호주에서 언어치료 받는 법",
+      "date": "2026-05-31",
+      "carousel_file": "outputs/2026-05-31/run-1/speech-delay-guide-australia.html",
+      "cards": 10
+    },
+    {
+      "topic": "2027년 Prep 입학 준비: 호주 학교 첫 입학 지금 시작하는 체크리스트",
+      "date": "2026-05-31",
+      "carousel_file": "outputs/2026-05-31/run-1/prep-2027-enrollment-checklist.html",
+      "cards": 10
     }
   ]
 }
