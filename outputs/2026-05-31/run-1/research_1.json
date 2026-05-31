@@ -1,0 +1,95 @@
+{
+  "topic": "말이 늦은 아이 대응 가이드: 호주에서 언어치료 받는 법",
+  "slug": "speech-delay-guide-australia",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 바이링구얼 육아 중이며 아이 언어 발달 걱정이 있는 엄마들.",
+  "key_facts": [
+    {
+      "fact": "바이링구얼 아이는 언어 발달이 느리다는 것은 근거 없는 오해다",
+      "detail": "Speech Pathology Australia에 따르면, 두 언어를 동시에 배우는 것은 언어 발달 장애의 위험 요인이 아니다. 바이링구얼 아이가 진짜 언어 지연이 있다면 두 언어 모두에서 어려움을 보인다.",
+      "source": "Speech Pathology Australia, abilityrehab.com.au 2026"
+    },
+    {
+      "fact": "아이가 말이 늦다고 느껴지면, 두 언어 합산 어휘로 평가해야 한다",
+      "detail": "각 언어 단독으로는 어휘가 적어 보여도, 두 언어를 합산하면 또래 수준인 경우가 많다. 한 언어만으로 평가하면 부정확한 결과가 나올 수 있다.",
+      "source": "Kids First Children's Services, playwithwordstherapy.com.au"
+    },
+    {
+      "fact": "2026년 3월 1일부터 Medicare M10 항목으로 언어치료 리베이트 확대",
+      "detail": "2026년 3월 1일부터 아동 및 25세 미만 청소년의 말더듬, 말소리 장애, 구개열 등이 Medicare M10 그룹에 추가됐다. GP 레퍼럴 필요. 세션당 리베이트 $87.25 (2026년 2월 기준).",
+      "source": "Speech Pathology Australia, Australian Government Department of Health 2026"
+    },
+    {
+      "fact": "NDIS Early Childhood Approach: 만 6세 미만은 진단 없이도 신청 가능",
+      "detail": "만 6세 미만 아동은 공식 진단 없이도 발달 지연 우려만으로 NDIS Early Childhood Approach 지원을 받을 수 있다. Early Childhood Partner가 가정과 어린이집에서 아동을 관찰 후 지원 여부 결정.",
+      "source": "NDIS.gov.au, Guide to the early childhood approach 2025-2026"
+    },
+    {
+      "fact": "GP 레퍼럴 경로: Chronic Disease Management Plan으로 연간 최대 5회 Medicare 리베이트",
+      "detail": "GP가 만성질환관리계획(CDMP)를 작성하면 연간 5회까지 언어치료 세션에 Medicare 리베이트를 받을 수 있다. 이는 NDIS와 별도로 이용 가능한 경로다.",
+      "source": "RACGP newsGP, MBS item 10970 2026"
+    },
+    {
+      "fact": "민간 언어치료 대기 기간: 2026년 기준 주요 도시 4~8개월",
+      "detail": "수요 급증으로 인해 대부분의 클리닉에서 4~8개월 대기 예상. 일부 온라인(telehealth) 서비스는 대기 없이 바로 이용 가능.",
+      "source": "Accessible Care, 2026 NDIS report"
+    },
+    {
+      "fact": "Thriving Kids 프로그램: 2026년 7월 1일 시작",
+      "detail": "연방 정부가 $20억을 투자하는 Thriving Kids 프로그램이 2026년 7월 1일 시작. 조기 개입 서비스 접근을 간소화하고 NDIS 아동 지원 강화. 초기에는 ECA(Early Childhood Approach) 파트너 확대에 집중.",
+      "source": "Occupational Therapy Australia, orioncare.com.au 2026"
+    },
+    {
+      "fact": "언어 지연 진단 기준: 또래 대비 6개월 이상 늦으면 전문가 상담 권고",
+      "detail": "1~2개월 차이는 정상 범위. 6개월 이상 또래보다 늦으면 GP나 언어치료사 상담 권장. 만 2세가 되어도 단어 50개 미만, 두 단어 조합 없으면 즉시 상담 필요.",
+      "source": "Raising Children Network, MCHN 임상 가이드라인"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "$87.25",
+      "context": "2026년 Medicare M10 언어치료 세션당 리베이트 금액",
+      "source": "Australian Government Department of Health, 2026"
+    },
+    {
+      "stat": "385,000명",
+      "context": "Medicare 언어치료 확대로 새롭게 혜택 받는 아동 및 청소년 수",
+      "source": "Australian Government Department of Health, 2026"
+    },
+    {
+      "stat": "연간 5회",
+      "context": "GP의 CDMP(만성질환관리계획)를 통한 Medicare 언어치료 리베이트 최대 횟수",
+      "source": "MBS item 10970"
+    },
+    {
+      "stat": "최대 28회",
+      "context": "M10 항목을 통해 생애 동안 받을 수 있는 총 리베이트 세션 수 (평가 8회 + 치료 20회)",
+      "source": "Moi Clinic, Medicare 2026"
+    },
+    {
+      "stat": "$20억",
+      "context": "2026년 연방 정부 Thriving Kids 조기 개입 프로그램 투자액",
+      "source": "Occupational Therapy Australia 2026"
+    }
+  ],
+  "angles": [
+    "바이링구얼 아이 말 느린 것, 진짜 걱정해야 하나? (오해와 사실 정리)",
+    "호주에서 언어치료 받는 3가지 경로: GP → Medicare, NDIS, 사립 클리닉",
+    "2026년 3월 Medicare 언어치료 확대, 우리 아이도 해당되나?",
+    "대기 6개월 피하는 법: 온라인 언어치료와 NDIS Early Childhood Approach 활용",
+    "GP 방문 전 준비: 언어 발달 체크리스트와 진료 팁"
+  ],
+  "content_hooks": [
+    "한국어로 말하는 아이, 영어 못한다고 걱정했는데... 이건 오해예요",
+    "GP한테 뭐라고 말해야 언어치료 레퍼럴을 받을 수 있나요?",
+    "6개월 기다리지 않아도 됩니다: 지금 당장 쓸 수 있는 경로"
+  ],
+  "sources": [
+    "Speech Pathology Australia - Medicare Expansion 2026",
+    "NDIS.gov.au - Guide to the Early Childhood Approach",
+    "Australian Government Department of Health - M10 expansion",
+    "abilityrehab.com.au - Bilingual children and speech development",
+    "Raising Children Network - Language delay in children",
+    "RACGP newsGP - Expanded MBS access for GP-referred speech pathology"
+  ]
+}
