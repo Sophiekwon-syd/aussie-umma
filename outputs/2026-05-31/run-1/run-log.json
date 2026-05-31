@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-31T00:00:00Z",
+  "finished_at": "2026-05-31T00:45:00Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26709544792",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "말이 늦은 아이 대응 가이드: 호주에서 언어치료 받는 법",
+      "slug": "speech-delay-guide-australia",
+      "html_file": "outputs/2026-05-31/run-1/speech-delay-guide-australia.html",
+      "copy_file": "outputs/2026-05-31/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "2027년 Prep 입학 준비: 호주 학교 첫 입학 지금 시작하는 체크리스트",
+      "slug": "prep-2027-enrollment-checklist",
+      "html_file": "outputs/2026-05-31/run-1/prep-2027-enrollment-checklist.html",
+      "copy_file": "outputs/2026-05-31/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-01.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-02.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-03.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-04.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-05.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-06.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-07.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-08.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-09.png",
+    "outputs/2026-05-31/run-1/images/speech-delay-guide-australia-10.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-01.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-02.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-03.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-04.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-05.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-06.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-07.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-08.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-09.png",
+    "outputs/2026-05-31/run-1/images/prep-2027-enrollment-checklist-10.png"
+  ]
+}
