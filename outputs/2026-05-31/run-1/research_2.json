@@ -1,0 +1,91 @@
+{
+  "topic": "2027년 Prep 입학 준비: 호주 학교 첫 입학 지금 시작하는 체크리스트",
+  "slug": "prep-2027-enrollment-checklist",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "2022년생(만 4-5세) 자녀를 둔 호주 거주 한국인 엄마. 2027 Prep 입학을 앞두고 준비가 필요한 시점.",
+  "key_facts": [
+    {
+      "fact": "주별 Prep 입학 연령 기준일 (2027년 기준)",
+      "detail": "VIC: 2027년 4월 30일까지 만 5세 / NSW(Kindergarten): 2027년 7월 31일까지 만 5세 / QLD: 2027년 6월 30일까지 만 5세 / SA: 2027년 4월 30일까지 만 5세 / WA: 2027년 6월 30일까지 만 5세 / ACT: 2027년 4월 30일까지 만 5세 / TAS: 2027년 1월 1일까지 만 5세",
+      "source": "Kids First Children's Services, state education department websites 2026"
+    },
+    {
+      "fact": "빅토리아주 2027 Prep 입학 신청 마감: 2026년 7월 31일",
+      "detail": "VIC 기준 입학 신청 기간: 2026년 4월 20일(Term 2 시작)부터 시작. 신청 마감: 2026년 7월 31일. 결과 통보: 2026년 8월 3일~14일. 첫 등교일: 2027년 1월 28일(목).",
+      "source": "vic.gov.au, education.vic.gov.au 2026"
+    },
+    {
+      "fact": "공립학교 Prep 입학은 '지정학교구(neighbourhood school)' 우선 배정",
+      "detail": "Find my School 웹사이트에서 거주 주소 기준 지정학교 확인 가능. 지정학교가 아닌 다른 공립학교에 신청할 수 있지만, 자리가 있을 경우에만 승인됨. 사립학교는 별도 절차.",
+      "source": "education.vic.gov.au Enrolment guidance 2026"
+    },
+    {
+      "fact": "호주의 학교 준비도(School Readiness)는 학업 능력이 아닌 전인적 발달을 본다",
+      "detail": "호주 연구에 따르면 자기 조절 능력과 감정 제어가 학업 능력보다 초기 학교 적응에 더 중요하다. EYLF(Early Years Learning Framework)는 5가지 영역: 정체성·연결성·안녕감·학습 능력·소통 능력을 기준으로 한다.",
+      "source": "actac.com.au, EYLF 2026"
+    },
+    {
+      "fact": "입학 전 필수 독립 기술: 화장실·식사·옷 입기·가방 정리",
+      "detail": "교사는 개인 위생을 도와줄 시간이 없다. 스스로 화장실 가기, 도시락 통 열기, 신발 끈 조이기(벨크로 가능), 유니폼 착탈의가 기본. 이 기술들은 입학 전에 반드시 연습시켜야 한다.",
+      "source": "Occupational Therapy Australia, Edge Early Learning 2026"
+    },
+    {
+      "fact": "사회·정서 준비도: 15~20분 이상 집중 가능, 순서 지키기, 좌절 조절",
+      "detail": "교사가 모든 아이를 개별 관리할 수 없다. 지시 따르기, 집단 활동 참여, 감정 조절, 독립적 놀이 등이 핵심. 학업 선행보다 이 영역이 실질적으로 더 중요하다.",
+      "source": "Kids First Children's Services, Youthrive School Readiness Checklist 2026"
+    },
+    {
+      "fact": "바이링구얼 아이의 학교 준비도 평가: 두 언어를 함께 고려",
+      "detail": "영어가 완벽하지 않아도 의사소통 의지와 기본 사회 기술이 있으면 학교 준비도 충분. 한국어 실력은 유지하되 영어로 기본 요청(화장실, 도움 요청) 가능해야 함.",
+      "source": "Kids First Children's Services, bilingual school readiness research"
+    },
+    {
+      "fact": "학교 투어는 선택이지만 강력 권장",
+      "detail": "대부분의 학교가 Term 2~3에 오픈 데이 또는 개인 투어 기회를 제공한다. 아이를 미리 데려가서 환경을 익히게 하면 분리불안과 등교 거부 예방에 효과적. 한국어 지원 교직원 여부도 이때 확인 가능.",
+      "source": "education.vic.gov.au, Learning Links 2026"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "2026년 7월 31일",
+      "context": "빅토리아주 2027 Prep 입학 신청 마감일",
+      "source": "vic.gov.au 2026"
+    },
+    {
+      "stat": "2027년 1월 28일",
+      "context": "VIC 기준 2027 Prep 첫 등교일",
+      "source": "education.vic.gov.au 2026"
+    },
+    {
+      "stat": "5가지",
+      "context": "EYLF(Early Years Learning Framework) 학교 준비도 평가 영역 수",
+      "source": "Australian Government EYLF 2026"
+    },
+    {
+      "stat": "15~20분",
+      "context": "Prep 입학 전 최소 요구 집중 지속 시간",
+      "source": "School Readiness Checklist, Multiple Australian OT sources"
+    }
+  ],
+  "angles": [
+    "지금이 신청 기간: 빅토리아주 마감은 7월 31일, 서두르세요",
+    "호주 Prep은 학업이 아니라 '자립심'을 본다 — 한국 엄마가 오해하는 것",
+    "바이링구얼 아이, 영어 못해도 Prep 갈 수 있나? 현실 가이드",
+    "입학 전 6개월 동안 연습할 것: 화장실·도시락·옷 입기 독립 루틴",
+    "학교 방문 전 체크리스트: 한국 엄마가 학교에 꼭 물어봐야 할 것"
+  ],
+  "content_hooks": [
+    "VIC에 사시면 지금 당장 신청하셔야 해요, 마감이 7월 31일이에요",
+    "Prep 준비, 영어 단어보다 이게 더 중요해요",
+    "한국 엄마들이 가장 많이 하는 실수: 학업 선행에만 집중하는 것"
+  ],
+  "sources": [
+    "vic.gov.au - Enrolling in Foundation (Prep) 2027",
+    "education.vic.gov.au - Enrolling in primary school for 2027 factsheet",
+    "Kids First Children's Services - School Cut-Off Dates and Readiness Checklist",
+    "actac.com.au - School Readiness EYLF-Aligned Guide",
+    "Edge Early Learning - School Readiness Checklist: 10 Skills Beyond ABCs and 123s",
+    "occupationaltherapy.com.au - Home Strategies for Developing Self-Care Independence for Kindergarten",
+    "Raising Children Network - Starting school"
+  ]
+}
