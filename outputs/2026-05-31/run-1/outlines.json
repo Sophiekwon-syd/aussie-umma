@@ -1,0 +1,138 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "말이 늦은 아이 대응 가이드: 호주에서 언어치료 받는 법",
+      "slug": "speech-delay-guide-australia",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_purpose": "바이링구얼 아이 언어 발달 걱정을 공감하며 시선을 잡는다",
+          "key_idea": "호주에서 말이 늦은 아이, 어떻게 해야 할지 모르는 엄마들을 위한 실전 가이드"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_purpose": "바이링구얼이라 말이 느린 거라는 오해를 정면 반박해 독자를 집중시킨다",
+          "key_idea": "두 언어 때문에 말이 늦다는 건 오해, 진짜 지연은 두 언어 모두에서 나타난다"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_purpose": "언어 지연의 기준을 명확히 정의해 엄마가 상황을 객관적으로 파악하게 한다",
+          "key_idea": "언어 지연 기준: 또래 대비 6개월 이상 늦을 때, 합산 어휘로 판단"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_purpose": "2026년 Medicare 언어치료 확대 정책 수치로 지원 가능성을 구체화한다",
+          "key_idea": "2026년 3월 Medicare 언어치료 확대: 세션당 $87.25, 연 385,000명 혜택"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_purpose": "GP 방문부터 언어치료까지 3단계 접근 루틴을 제시해 실행 가능성을 높인다",
+          "key_idea": "GP → 레퍼럴 → 언어치료: 단계별 접근 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_purpose": "3가지 지원 경로(Medicare, NDIS, 사립)를 비교해 선택지를 명확히 한다",
+          "key_idea": "언어치료 받는 3가지 경로: Medicare M10, NDIS Early Childhood, 사립 클리닉"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_purpose": "GP 방문 전 엄마가 준비할 수 있는 구체적 체크리스트를 제공한다",
+          "key_idea": "GP 방문 전 준비 체크리스트 4가지"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_purpose": "언어 지연 대응에서 흔한 실수와 올바른 행동을 대조해 실수를 예방한다",
+          "key_idea": "언어 지연 대응: 하면 안 되는 것 vs 해야 하는 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_purpose": "오늘부터 실행할 수 있는 3단계 행동 계획을 제시해 확신을 준다",
+          "key_idea": "지금 당장 시작하는 3단계: GP 예약 → 경로 선택 → 가정 지원"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_purpose": "저장을 유도하고 댓글로 고민을 나눌 수 있는 공간을 만든다",
+          "key_idea": "저장하고 필요한 엄마와 나눠요"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "2027년 Prep 입학 준비: 호주 학교 첫 입학 지금 시작하는 체크리스트",
+      "slug": "prep-2027-enrollment-checklist",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_purpose": "Prep 입학이 생각보다 빨리 다가왔다는 긴박감과 공감으로 시선을 잡는다",
+          "key_idea": "2027 Prep 입학, 지금 시작하는 체크리스트"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_purpose": "학업 선행에만 집중하는 한국 엄마들의 공통 오해를 짚어 집중시킨다",
+          "key_idea": "알파벳 외우는 것보다 더 중요한 게 있어요"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_purpose": "호주의 학교 준비도 개념을 정의해 한국식 선행 학습과의 차이를 명확히 한다",
+          "key_idea": "호주의 School Readiness: 학업이 아닌 자립심과 사회성"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_purpose": "주별 마감일과 핵심 날짜를 데이터로 제시해 즉시 행동을 유도한다",
+          "key_idea": "주별 입학 연령 기준일과 VIC 신청 마감 2026년 7월 31일"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_purpose": "입학 전 6개월 동안 엄마가 아이와 연습할 수 있는 일상 루틴을 제시한다",
+          "key_idea": "입학 전 연습 루틴: 화장실 독립, 도시락 열기, 옷 입기 3단계"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_purpose": "학교 준비도 3가지 영역을 카테고리로 나눠 전체 그림을 제시한다",
+          "key_idea": "Prep 준비 3가지 영역: 신체 자립, 사회·정서, 언어·소통"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_purpose": "지금 당장 확인할 수 있는 학교 준비도 체크리스트 4가지를 제공한다",
+          "key_idea": "오늘 집에서 확인하는 Prep 준비도 체크리스트"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_purpose": "한국 엄마들이 자주 하는 실수 vs 효과적인 준비 방법을 대조한다",
+          "key_idea": "Prep 준비: 한국 엄마가 자주 하는 실수 vs 실제 도움이 되는 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_purpose": "입학 신청부터 학교 방문까지 오늘 할 수 있는 3단계를 제시한다",
+          "key_idea": "지금 시작하는 3단계: 학교 찾기 → 신청 → 방문 예약"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_purpose": "저장 유도 및 같은 상황의 엄마들끼리 정보를 나누도록 격려한다",
+          "key_idea": "저장해두고 주변 엄마와 나눠요"
+        }
+      ]
+    }
+  ]
+}
