@@ -1,0 +1,64 @@
+{
+  "topic": "바이링구얼 가정의 독서 루틴: 호주에서 한국어·영어 책 읽기 습관 만들기",
+  "slug": "bilingual-reading-routine-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    "호주 아동의 21.5%가 집에서 영어 외 언어를 사용 — 바이링구얼 육아는 주류",
+    "연구(Frontiers in Psychology, 2024): 4-5세 한국-영어 바이링구얼 아동 36명 대상, 가정 문해 환경이 한국어·영어 어휘 모두에 유의미한 영향",
+    "핵심 발견: 부모가 한국어 문해 활동에 직접적·명시적 방식으로 참여할수록 아동의 한국어 발달에 긍정적",
+    "영어는 간접적 방식(환경 노출)으로도 발달하지만, 한국어는 적극적 개입이 필요",
+    "한국어 리소스(책, 영상 등)가 집에 풍부할수록 한국어·영어·개념 어휘 모두 발달에 긍정적",
+    "AIHW 데이터: 2-3세 때 매일 책 읽어준 아이가 Year 3 NAPLAN 읽기 평균 점수 높음",
+    "집에 아동 도서 30권 이상 보유 시 Year 3 NAPLAN 읽기·수리 점수와 양의 상관관계",
+    "바이링구얼 뇌 연구: 두 언어 관리 경험이 전두엽 인지 통제 기능 강화, 집행기능(inhibitory control, attention) 향상",
+    "바이링구얼 아동의 64%가 수학 이중언어 몰입 프로그램에서 능숙도 달성 (vs 단일언어 55.4%, 2025)",
+    "한국어 독서 습관 위협 요인: 영어 환경 압도, 또래 영어 선호, 한국어 책 접근성 부족",
+    "해결 전략: OPOL (One Parent One Language) 정책, 일관된 한국어 독서 시간, 한국어 독서 환경 조성",
+    "호주 공립 도서관: 한국어 아동 도서 보유 도서관 다수 — 무료 대출 가능",
+    "Digital resources: 리틀팍스, 세이펜 연동 도서, 한국 유아 전집 직구 등 활용 가능",
+    "나이가 들면 한국어 반응이 줄어들어도 계속 한국어로 말 걸기 — 이해력은 유지됨"
+  ],
+  "statistics": [
+    { "stat": "21.5%", "context": "호주 아동 중 집에서 영어 외 언어 사용 비율", "source": "Australian Government, Raising Children Network" },
+    { "stat": "Year 3 NAPLAN 읽기 점수 향상", "context": "2-3세 때 매일 책 읽어준 아이 vs 덜 읽어준 아이 비교", "source": "Australian Institute of Health and Welfare (AIHW)" },
+    { "stat": "30권 이상", "context": "집에 아동 도서 30권 이상 보유 시 NAPLAN 읽기·수리 점수 양의 상관", "source": "AIHW - Australia's Children: Early Learning" },
+    { "stat": "64% vs 55.4%", "context": "이중언어 몰입 프로그램 학생 수학 능숙도 vs 일반 학생 (2025)", "source": "Participate Learning, 2025" }
+  ],
+  "angles": [
+    "왜 한국어 독서는 영어처럼 저절로 되지 않는가 — 능동적 개입의 필요성",
+    "연령별 바이링구얼 독서 루틴 설계 (0-3세, 3-6세, 6세 이상)",
+    "한국어 책 구하는 실질적 방법 (호주 도서관, 직구, 디지털)",
+    "독서 시간을 지키는 루틴 만들기 — 취침 전 한국어, 낮에 영어",
+    "아이가 한국어 책을 거부할 때 대처법",
+    "두 언어 독서가 뇌 발달에 미치는 과학적 효과"
+  ],
+  "korean_mum_pain_points": [
+    "영어책은 학교에서도 읽어주니 한국어책 읽어줄 시간이 없다",
+    "아이가 한국어 책보다 영어책을 더 좋아한다",
+    "호주에서 한국어 아동 도서를 구하기 어렵다",
+    "바이링구얼 독서 루틴을 어떻게 설계해야 할지 모른다",
+    "한국어 독서를 포기하면 나중에 후회할까 봐 걱정된다",
+    "매일 두 언어 책을 읽어주는 게 현실적으로 힘들다"
+  ],
+  "practical_tips": [
+    "취침 전 루틴: 한국어 책 1권 → 영어 책 1권 순서로 고정",
+    "호주 공립 도서관 한국어 섹션 확인 — 멜버른, 시드니, 브리즈번 주요 도서관 한국어 아동 도서 보유",
+    "한국 인터넷 교보문고·예스24 해외 배송 또는 호주 한인 서점 활용",
+    "세이펜 연동 도서 활용 — 혼자도 읽을 수 있어 부모 부재 시에도 한국어 노출 유지",
+    "리틀팍스(Little Fox) 한국어 영어 애니메이션 플랫폼 활용",
+    "OPOL 전략: 엄마는 항상 한국어, 아빠는 영어 — 언어 환경 분리",
+    "한국어 독서 클럽 참여 또는 화상통화로 한국 조부모와 함께 읽기",
+    "아이가 한국어 책 거부 시 억지 금지 — 한국어 오디오북·노래로 대체 후 점진적 복귀",
+    "아동 도서 추천: 보리 그림책, 비룡소, 웅진 그림책 시리즈 (5세 이하), 마법의 시간여행 (학령기)"
+  ],
+  "sources": [
+    "Frontiers in Psychology (2024) - Exploring the influence of the home literacy environment on early literacy and vocabulary skills in Korean-English bilingual children",
+    "PMC/NCBi - Home literacy environment study on 36 Korean-English bilingual children in Australia (4-5 years)",
+    "AIHW - Australia's Children: Early Learning (reading statistics)",
+    "Raising Children Network Australia - Raising bilingual children tips",
+    "SBS Australia - Raising Bilingual Children",
+    "Participate Learning - 7 Research-Backed Brain Benefits of Bilingualism (2025)",
+    "Royal Children's Hospital Melbourne - Bilingualism and language development"
+  ]
+}
