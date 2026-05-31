@@ -1,0 +1,136 @@
+{
+  "topic": "말이 늦은 아이 대응 가이드: 호주에서 언어치료 받는 법",
+  "slug": "speech-delay-guide-australia",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "언어 발달",
+      "headline": "말이 늦으면 <em>어떻게</em> 해야 할까요",
+      "subtitle": "호주에서 언어치료 받는 법, 경로별로 정리했어요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "한국어도 배우고 영어도 배우니까 <strong>말이 느린 거 아닐까요?</strong>",
+      "answer": "그 오해, 오늘 완전히 풀어드릴게요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "언어 지연이란",
+      "term": "Language Delay",
+      "explanation": "두 언어를 배운다고 말이 늦는 건 아니에요. 진짜 언어 지연은 <strong>두 언어 모두에서</strong> 또래 대비 6개월 이상 차이가 날 때입니다. 한 언어만 기준으로 평가하면 잘못된 결론이 나올 수 있어요.",
+      "punchline": "합산 어휘로 판단해야 공정한 평가예요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "2026 Medicare 언어치료 확대",
+      "headline": "세션당 <em>$87.25</em> 리베이트, 3월부터 시작됐어요",
+      "chips": [
+        "리베이트 $87.25/세션",
+        "385,000명 혜택 예상",
+        "GP 레퍼럴 필요",
+        "만 25세 미만 대상"
+      ],
+      "explanation": "2026년 3월 1일부터 말소리 장애·말더듬도 Medicare M10 항목에 추가됐어요. GP에게 레퍼럴 받으면 됩니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "단계별 접근 루틴",
+      "headline": "GP 방문부터 치료까지 흐름을 잡아요",
+      "entries": [
+        {
+          "label": "1단계",
+          "text": "GP 예약: '아이 언어 발달 걱정된다, Speech Pathology 레퍼럴 필요하다'고 <strong>명확히</strong> 말하세요."
+        },
+        {
+          "label": "2단계",
+          "text": "경로 선택: Medicare CDMP(연 5회), M10 리베이트, NDIS Early Childhood 중 <strong>우리 아이에 맞는 것</strong>을 고릅니다."
+        },
+        {
+          "label": "3단계",
+          "text": "가정 지원: 치료 대기 중에도 <strong>매일 책 읽기</strong>와 두 언어로 대화하기를 병행하세요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "언어치료 3가지 경로",
+      "headline": "어떤 경로가 우리 아이에게 맞을까요",
+      "items": [
+        {
+          "title": "Medicare M10 경로",
+          "description": "GP 레퍼럴 후 생애 최대 28회(평가 8회 + 치료 20회) 리베이트. 세션당 $87.25 환급. 말소리 장애·말더듬 포함."
+        },
+        {
+          "title": "NDIS Early Childhood",
+          "description": "만 6세 미만은 공식 진단 없이 신청 가능. Early Childhood Partner가 가정·어린이집 방문 후 지원 결정. GP 통해 연결 요청하세요."
+        },
+        {
+          "title": "사립 클리닉",
+          "description": "대기 없이 빠른 시작 가능(일부 온라인 가능). 비용은 세션당 $150~$250 수준. NDIS 또는 Medicare와 병행 가능."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "GP 방문 준비",
+      "headline": "GP 가기 전 이것만 챙기세요",
+      "intro": "준비가 잘 된 엄마가 더 빠른 레퍼럴을 받아요.",
+      "items": [
+        "아이가 말할 수 있는 단어 목록 (한국어 + 영어 합산) 미리 적어두기",
+        "언제부터 걱정되기 시작했는지 시점 메모하기",
+        "'Speech Pathology referral 받고 싶다'고 직접 요청하기",
+        "MCHN 방문 기록 또는 어린이집 피드백 메모 가져가기"
+      ],
+      "takeaway": "구체적으로 말할수록 레퍼럴이 빨라져요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "언어 지연 대응: 이렇게 하세요",
+      "do": [
+        "두 언어 합산 어휘로 아이 발달 평가하기",
+        "걱정되면 기다리지 말고 GP에 먼저 연락하기",
+        "가정에서 매일 두 언어로 책 읽어주기"
+      ],
+      "dont": [
+        "바이링구얼이라서 당연히 느린 거라고 방치하기",
+        "한국어를 포기하고 영어만 쓰라는 조언 따르기",
+        "대기 기간이 길다는 이유로 아예 포기하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "오늘 바로 시작",
+      "headline": "이번 주에 할 수 있는 3가지",
+      "steps": [
+        {
+          "title": "GP 예약 잡기",
+          "description": "전화 또는 HotDoc 앱으로 GP 예약. 예약 시 '아이 언어 발달 상담'이라고 메모하면 충분한 진료 시간을 확보할 수 있어요."
+        },
+        {
+          "title": "아이 어휘 목록 작성",
+          "description": "한국어와 영어를 합산해서 아이가 사용하는 단어를 적어보세요. 이 목록이 GP 진료의 핵심 자료가 됩니다."
+        },
+        {
+          "title": "NDIS 또는 Medicare 경로 확인",
+          "description": "ndis.gov.au에서 Early Childhood Approach를, health.gov.au에서 M10 항목을 확인하세요. 어느 쪽이 우리 아이에게 맞는지 GP와 함께 결정하면 돼요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "기다리지 않아도 돼요. <em>지금</em> 시작할 수 있어요.",
+      "message": "호주에는 아이를 도울 경로가 <strong>생각보다 많아요.</strong> GP 예약 하나로 첫걸음을 뗄 수 있어요.",
+      "comment_prompt": "우리 아이 언어 발달 걱정되셨던 분, 댓글로 공유해주세요."
+    }
+  ]
+}
