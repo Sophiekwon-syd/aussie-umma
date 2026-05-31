@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-05-31T18:46:12Z",
+  "finished_at": "2026-05-31T18:57:02Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26721184164",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 수영 교육 완전 가이드: 레슨 선택부터 물 안전까지 한국 엄마 실전 정보",
+      "slug": "swimming-lessons-guide-australia",
+      "html_file": "outputs/2026-05-31/run-2/swimming-lessons-guide-australia.html",
+      "copy_file": "outputs/2026-05-31/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "바이링구얼 가정의 독서 루틴: 호주에서 한국어·영어 책 읽기 습득 만들기",
+      "slug": "bilingual-reading-routine-guide",
+      "html_file": "outputs/2026-05-31/run-2/bilingual-reading-routine-guide.html",
+      "copy_file": "outputs/2026-05-31/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-01.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-02.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-03.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-04.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-05.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-06.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-07.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-08.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-09.png",
+    "outputs/2026-05-31/run-2/images/swimming-lessons-guide-australia/card-10.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-01.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-02.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-03.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-04.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-05.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-06.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-07.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-08.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-09.png",
+    "outputs/2026-05-31/run-2/images/bilingual-reading-routine-guide/card-10.png"
+  ]
+}
