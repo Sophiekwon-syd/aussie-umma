@@ -264,5 +264,18 @@
       "carousel_file": "outputs/2026-05-31/run-2/bilingual-reading-routine-guide.html",
       "cards": 10
     }
+    ,
+    {
+      "topic": "호주 어린이집 갑자기 문 닫으면: G8 폐쇄 사태로 배우는 어린이집 리스크 대비법",
+      "date": "2026-06-01",
+      "carousel_file": "outputs/2026-06-01/run-1/childcare-closure-risk-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "2026년 7월부터 바뀌는 PPL 슈퍼 혜택: 출산 후 노후 준비까지 챙기는 법",
+      "date": "2026-06-01",
+      "carousel_file": "outputs/2026-06-01/run-1/ppl-super-contribution-guide.html",
+      "cards": 10
+    }
   ]
 }
