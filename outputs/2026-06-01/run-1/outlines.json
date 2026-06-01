@@ -1,0 +1,120 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "호주 어린이집 갑자기 문 닫으면: G8 폐쇄 사태로 배우는 어린이집 리스크 대비법",
+    "slug": "childcare-closure-risk-guide",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마",
+    "narrative_arc": "공감(내 어린이집도 갑자기 문 닫을 수 있다는 현실 인정) → 정보(G8 사태 실체, CCS 이전, 대안 찾기) → 확신(미리 준비해두면 당황하지 않는다)",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "어린이집이 갑자기 문을 닫는다는 충격적 현실을 제목으로 뽑아 즉각적인 관심 유도. G8 사태를 배경으로 한 실용 가이드 예고."
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "어느 날 갑자기 어린이집 폐쇄 통보를 받은 엄마의 패닉 상황 묘사. 독자의 공감 유도 후 '미리 알면 괜찮다'는 안도감 제시."
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "G8 폐쇄 사태란 무엇인지 간단히 설명. '내 어린이집도 이럴 수 있다'는 인식 전환."
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "G8 폐쇄 규모 수치 제시 (40개 센터, 36,000명 아이, 10% 네트워크 등). 이것이 얼마나 큰 사건인지 숫자로 보여주기."
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "폐쇄 통보를 받은 날 즉시 해야 할 3가지 행동 루틴: (1) CCS 이전 신청 (2) Starting Blocks에서 새 센터 검색 (3) 직장에 상황 알리기."
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "대체 어린이집 옵션 3가지 카테고리: 대형 사설 운영사(빠른 자리), 커뮤니티 센터(안정적), 가정 어린이집 Family Day Care(유연한 시간)."
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "어린이집 리스크 미리 점검하는 체크리스트 4가지: 운영사 규모, 대기자 명단 유지, 계약서 확인, 보증금 환급 조항."
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "어린이집 폐쇄 상황에서 해야 할 것 vs 하지 말아야 할 것. 예: DO — 서면 통보 요청 / DON'T — CCS 즉시 취소하지 말 것."
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "새 어린이집으로 아이 적응시키기 3단계: (1) 사전 방문 (2) 짧은 적응 기간 (3) 집에서 같이 새 루틴 연습."
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "이 카드를 저장해두면 언제든 도움이 된다. 지금 바로 자신의 어린이집 운영사 확인해보기 촉구."
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "2026년 7월부터 바뀌는 PPL 슈퍼 혜택: 출산 후 노후 준비까지 챙기는 법",
+    "slug": "ppl-super-contribution-guide",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마",
+    "narrative_arc": "공감(슈퍼 챙길 여유 없었던 한국 엄마 현실) → 정보(PPL 슈퍼 기여금 제도, 받는 방법, 활용법) → 확신(지금 슈퍼 계좌 확인하면 미래의 나에게 선물이 된다)",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "출산 후 슈퍼도 자동으로 쌓인다는 놀라운 혜택 예고. 7월부터 바뀌는 제도를 강조한 커버."
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "육아로 바빠서 슈퍼를 미뤄두는 한국 엄마의 모습 공감. '사실 신청 안 해도 자동으로 들어오는 돈이 있다'는 반전 제시."
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "PPLSC(Paid Parental Leave Super Contribution)란 무엇인지 정의. ATO가 자동으로 슈퍼 펀드에 넣어주는 12% 기여금."
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "수치로 보는 PPL 슈퍼 혜택: 26주 수령 시 $3,000+, 30세 기준 65세까지 복리 적용 시 약 $6,972 추가."
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "PPL 슈퍼 혜택을 최대로 받기 위한 3가지 확인 루틴: (1) 슈퍼 계좌 하나로 통합 (2) ATO myGov 연결 확인 (3) 납세 파일 번호(TFN) 슈퍼 펀드에 등록."
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "PPL 슈퍼 기여금 관련 3가지 중요 개념 정리: (1) concessional 기여 한도 (2) 슈퍼 통합 필요성 (3) 파트너 PPL 4주 'use it or lose it'."
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "출산 전/후 슈퍼 점검 체크리스트 4가지: 슈퍼 계좌 통합 여부, myGov ATO 연결, TFN 등록, 수혜자(beneficiary) 지정."
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "슈퍼 관리 DO vs DON'T: DO — 슈퍼 여러 개면 지금 통합 / DON'T — PPL 받을 때 슈퍼 펀드 변경하지 말 것 (기여금 행방 불명 위험)."
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "슈퍼 계좌 지금 정리하기 3단계: (1) myGov에서 슈퍼 계좌 전체 조회 (2) 잃어버린 슈퍼 찾기 (3) 하나로 통합하기."
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "이 정보를 저장하고, 오늘 myGov 들어가서 슈퍼 계좌 확인하기. 미래의 나를 위한 5분 투자 촉구."
+      }
+    ]
+  }
+]
