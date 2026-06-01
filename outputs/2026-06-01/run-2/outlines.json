@@ -1,0 +1,118 @@
+{
+  "outlines": [
+    {
+      "topic": "아이 감정 코칭 완전 가이드: 호주에서 화내는 아이에게 말하는 법",
+      "slug": "emotion-coaching-guide",
+      "carousel_index": 1,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "아이가 화낼 때 엄마가 어떻게 반응하는지 — 익숙한 상황으로 커버를 잡아 즉각적인 공감 유발"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "'울지 마' '그러면 안 돼' 라고 말할 때 아이에게 실제로 어떤 일이 일어나는지 질문으로 hook"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "감정 코칭(Emotion Coaching)이 무엇인지 정의 — 가트만 이론 기반으로 단어 정의 제공"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "감정 코칭 효과를 뒷받침하는 호주 연구 데이터 제시 — TIK 프로그램 결과, 수면 통계 등"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "감정 코칭 3단계 실전 루틴: 알아채기 → 이름 붙이기 → 경계 설정"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "부모 반응 유형 3가지: 감정 억제형 / 감정 압도형 / 감정 코칭형"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "감정 코칭 실천 체크리스트 — 오늘 바로 해볼 수 있는 4가지"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "감정 코칭 DO vs DON'T — 아이가 화낼 때 해야 할 것과 하지 말아야 할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "감정 코칭 3단계 상세 가이드 — 엄마 자신 → 아이 감정 언어화 → 해결책 탐색"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장 유도 + 다음 번 화내는 아이 앞에서 오늘 배운 한 가지만 실천해보자는 메시지"
+        }
+      ]
+    },
+    {
+      "topic": "Term 3 복귀 준비: 호주 겨울방학 후 아이 학교 루틴 되돌리는 법",
+      "slug": "term3-routine-reset-guide",
+      "carousel_index": 2,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "Term 3 복귀 준비라는 긴급하고 시의적절한 커버 — '방학이 끝나간다' 공감 유발"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "방학 마지막 날 밤 갑자기 일찍 재우려다 아이와 싸우는 상황 — 공감 질문으로 hook"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "루틴 리셋(Routine Reset)이 무엇인지 — 단번에 바꾸는 게 아닌 점진적 조정의 개념 정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "호주 초등학생 권장 수면 시간 + Term 3 시작일 + 방학 중 수면 지연 통계"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "Term 3 복귀를 위한 3주 루틴 로드맵: 2주 전 수면 조정 → 전날 밤 준비 → 아침 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "루틴 리셋 3가지 핵심 카테고리: 수면 복구 / 아침 루틴 최적화 / 감정 저항 대응"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "Term 3 복귀 전 엄마 체크리스트 — 지금 당장 확인할 5가지"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "Term 3 복귀 DO vs DON'T — 해야 할 것과 하지 말아야 할 것"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "루틴 리셋 3단계: 수면 시간 복구 → 전날 밤 준비 루틴 → 아침 루틴 차트"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장 유도 + 오늘부터 취침 시간 10분 앞당기기 시작하자는 실행 액션 메시지"
+        }
+      ]
+    }
+  ]
+}
