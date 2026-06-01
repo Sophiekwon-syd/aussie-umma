@@ -1,0 +1,78 @@
+{
+  "topic": "호주 어린이집 갑자기 문 닫으면: G8 폐쇄 사태로 배우는 어린이집 리스크 대비법",
+  "slug": "childcare-closure-risk-guide",
+  "research_date": "2026-06-01",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    {
+      "fact": "G8 Education(호주 최대 상장 어린이집 운영사)이 2026년 5월, 전국 40개 센터를 폐쇄한다고 발표했다.",
+      "source": "ibtimes.com.au, cranbournenews.starcommunity.com.au"
+    },
+    {
+      "fact": "40개 폐쇄는 G8의 전체 395개 네트워크의 약 10%에 해당한다.",
+      "source": "ibtimes.com.au"
+    },
+    {
+      "fact": "주별 폐쇄 센터 수: Victoria 12개, Western Australia 12개, NSW 7개, Queensland 5개, South Australia 4개.",
+      "source": "ibtimes.com.au"
+    },
+    {
+      "fact": "영향받는 어린이 약 36,000명, 직원 약 8,800명.",
+      "source": "ibtimes.com.au"
+    },
+    {
+      "fact": "G8이 폐쇄를 발표한 이유: 코로나 이후 출석률 저하, 임금 상승(공정근로위원회 결정), 에너지·유지비 상승, 규제 준수 부담 증가, 직원 학대 사건으로 인한 신뢰 손상.",
+      "source": "ibtimes.com.au, indailysa.com.au"
+    },
+    {
+      "fact": "G8은 영향받는 가족들에게 근처 다른 센터로의 전환 지원을 약속했으나, 지역에 따라 대안이 제한적일 수 있다.",
+      "source": "aussiechildcarenetwork.com.au"
+    },
+    {
+      "fact": "호주 어린이집이 갑자기 문을 닫는 경우, CCS(Child Care Subsidy) 기간 내 이미 납부된 보증금·수수료 환급에 관한 규정은 주별로 다르다.",
+      "source": "servicesaustralia.gov.au"
+    },
+    {
+      "fact": "Services Australia에서는 어린이집 폐쇄 시 CCS 업데이트 및 새 센터 등록 절차를 안내한다.",
+      "source": "servicesaustralia.gov.au"
+    },
+    {
+      "fact": "어린이집이 폐쇄될 경우 아이를 새 환경에 적응시키는 과정은 특히 어린 아이들에게 스트레스가 될 수 있다.",
+      "source": "easternmelburnian.com.au"
+    },
+    {
+      "fact": "Starting Blocks(startingblocks.gov.au)는 Australian Government의 공식 어린이집 검색 사이트로, CCS 인증 센터를 위치 기반으로 검색할 수 있다.",
+      "source": "dss.gov.au"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "G8 폐쇄 센터 40개 / 전체 395개 네트워크 = 약 10%",
+      "source": "ibtimes.com.au"
+    },
+    {
+      "stat": "영향받는 어린이 약 36,000명",
+      "source": "ibtimes.com.au"
+    },
+    {
+      "stat": "영향받는 직원 약 8,800명",
+      "source": "ibtimes.com.au"
+    }
+  ],
+  "practical_angles": [
+    "어린이집이 갑자기 폐쇄될 때 엄마가 즉시 해야 할 3가지 행동",
+    "호주에서 대기자 명단(waitlist) 없이 빨리 어린이집 자리 찾는 법",
+    "CCS(보조금) 새 센터로 이전 신청하는 방법",
+    "폐쇄 통보를 받은 후 보증금·미사용 수수료 환급 요청하는 법",
+    "어린이집 선택 시 운영 리스크를 미리 확인하는 체크리스트",
+    "대형 사설 운영사 vs 커뮤니티 운영 센터 vs 가정 어린이집(Family Day Care) 비교",
+    "Emergency childcare 임시 대안으로 In Home Care(IHC) 활용법",
+    "아이가 새 어린이집에 적응하도록 돕는 방법"
+  ],
+  "context_for_korean_mums": "한국 엄마들은 대기 기간이 길고 영어로 된 안내가 불충분할 때 특히 어려움을 느낀다. G8 폐쇄 소식은 한인 커뮤니티에서도 이미 화제가 되고 있으며, 자신의 어린이집이 G8인지 아닌지 확인하거나, 앞으로 이런 상황을 대비해 미리 준비해야 한다는 걱정이 크다.",
+  "recurring_themes_alignment": [
+    "호주 육아 시스템 활용 (CCS, Services Australia)",
+    "바쁜 워킹맘 육아 병행 전략 (갑작스러운 어린이집 변경 대처)"
+  ]
+}
