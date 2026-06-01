@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026년 7월 PPL 슈퍼 혜택 완전 가이드 — @aussie.umma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+  <!-- Card 01: Cover -->
+  <div class="card c1">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+    <div class="cover-56">02</div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:40px">PPL SUPER GUIDE</div>
+      <div style="margin-bottom:16px">
+        <div class="td xl">출산 후 <span class="ta">슈퍼</span>도</div>
+        <div class="td xl">자동으로 쌓입니다</div>
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <div class="cover-sub tb">2026년 7월부터 PPL에 슈퍼까지 — 놓치면 아까운 혜택 완전 정리</div>
+      <div class="cover-cta">지금 확인하세요 <span>→</span></div>
+    </div>
+  </div>
+
+  <!-- Card 02: Hook -->
+  <div class="card c2">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="hook-q">육아하느라 슈퍼는<br /><strong>나중에 챙기려고</strong> 했는데,<br />신청도 안 했는데<br />돈이 들어온다고요?</div>
+      <div class="hook-ans">맞아요. 7월부터 PPL 받으면 슈퍼도 자동으로 붙습니다.</div>
+    </div>
+  </div>
+
+  <!-- Card 03: Definition -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">WHAT IS THIS</div>
+        <div class="td md" style="margin-bottom:36px">PPLSC란<br /><span class="ta">무엇인가요</span></div>
+        <div class="def-hl en" style="font-size:20px;margin-bottom:28px">PPL SUPER CONTRIBUTION</div>
+        <div class="def-box">
+          <div class="def-box-text">
+            정부 PPL을 받은 부모에게 ATO가 <strong>자동으로 슈퍼 펀드에 12%를 입금</strong>해주는 제도입니다. 별도 신청 없이 회계연도 종료 후 일시불로 들어옵니다.
+          </div>
+        </div>
+        <div class="tb" style="margin-top:32px;font-size:26px;color:var(--accent);font-weight:700;">신청 안 해도 자동입니다. 하지만 계좌는 미리 정리해두세요.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 04: Data -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">THE NUMBERS</div>
+        <div class="td md" style="margin-bottom:36px">얼마나<br /><span class="ta">들어오나요</span></div>
+        <div class="chips">
+          <div class="chip"><span class="cd"></span>PPL 12% 자동 기여</div>
+          <div class="chip"><span class="cd"></span>26주 수령 시 $3,000 이상</div>
+          <div class="chip"><span class="cd"></span>30세 기준 65세까지 약 $6,972</div>
+          <div class="chip"><span class="cd"></span>2026년 7월부터 ATO가 지급</div>
+        </div>
+        <div class="tb">ATO 및 Department of Social Services 기준(2026). 금액은 국가최저임금 기준이며, 복리 효과 수치는 DSS 추산입니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 05: Routine -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">PREP ROUTINE</div>
+        <div class="td md" style="margin-bottom:48px">PPL 슈퍼 제대로<br />받기 위한 3가지 확인</div>
+        <div class="rb">
+          <div class="rb-t">CHECK 01</div>
+          <div class="rb-x"><strong>슈퍼 계좌를 하나로 통합</strong>하세요. 여러 펀드에 흩어져 있으면 기여금이 어디로 갈지 모릅니다.</div>
+        </div>
+        <div class="rb">
+          <div class="rb-t">CHECK 02</div>
+          <div class="rb-x">myGov에서 <strong>ATO와 슈퍼 계좌가 연결</strong>되어 있는지 확인하세요. 연결이 안 되어 있으면 기여금 추적이 어렵습니다.</div>
+        </div>
+        <div class="rb">
+          <div class="rb-t">CHECK 03</div>
+          <div class="rb-x">슈퍼 펀드에 <strong>TFN(세금 파일 번호)이 등록</strong>되어 있는지 확인하세요. TFN 없으면 세율이 높아집니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 06: Categories -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">KEY CONCEPTS</div>
+        <div class="td md" style="margin-bottom:48px">알아두면 좋은<br />3가지 개념</div>
+        <div class="ap">
+          <div class="ap-t">Concessional 기여 한도</div>
+          <div class="ap-d">PPL 슈퍼 기여금은 연간 세전 기여 한도($30,000)에 포함됩니다. 고용주 기여와 합산해 한도 초과 여부를 확인하세요.</div>
+        </div>
+        <div class="ap">
+          <div class="ap-t">슈퍼 통합의 중요성</div>
+          <div class="ap-d">일하다 옮기면서 슈퍼 계좌가 여러 개 생기기 쉽습니다. 통합하면 수수료도 줄고 기여금도 한곳에 모입니다.</div>
+        </div>
+        <div class="ap">
+          <div class="ap-t">파트너 4주 PPL</div>
+          <div class="ap-d">2026년 7월부터 파트너(배우자)에게 4주가 'use it or lose it'으로 배정됩니다. 사용 안 하면 사라지니 미리 계획하세요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 07: Checklist -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">SUPER CHECKLIST</div>
+        <div class="td md" style="margin-bottom:20px">출산 전후<br />슈퍼 점검 4가지</div>
+        <div class="tb" style="margin-bottom:36px;font-size:26px;">지금 확인해두면 나중에 기여금을 온전히 받습니다.</div>
+        <div class="ai"><span class="ai-d"></span>슈퍼 계좌가 여러 개면 ATO myGov에서 통합 신청을 했나요?</div>
+        <div class="ai"><span class="ai-d"></span>슈퍼 펀드에 TFN이 등록되어 있나요?</div>
+        <div class="ai"><span class="ai-d"></span>myGov에서 ATO 서비스가 연결되어 있나요?</div>
+        <div class="ai"><span class="ai-d"></span>슈퍼 수혜자(Beneficiary)가 지정되어 있나요?</div>
+        <div class="takeaway">5분이면 다 확인됩니다. 지금 myGov 열어보세요.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 08: Do/Don't -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="td md" style="margin-bottom:16px">슈퍼 관리<br />이렇게 하세요</div>
+        <div class="cg">
+          <div class="cc do">
+            <div class="cc-l">Do</div>
+            <div class="ci-item">PPL 받기 전에 슈퍼 계좌를 하나로 통합해두세요</div>
+            <div class="ci-item">myGov에서 ATO와 슈퍼 연결 상태를 정기적으로 확인하세요</div>
+            <div class="ci-item">파트너에게도 PPL 4주 사용 계획을 미리 알려두세요</div>
+          </div>
+          <div class="cc dn">
+            <div class="cc-l">Don&#39;t</div>
+            <div class="ci-item">PPL 받는 기간 중에 슈퍼 펀드를 바꾸지 마세요 — 기여금 행방이 불분명해집니다</div>
+            <div class="ci-item">슈퍼 잔액이 적다고 방치하지 마세요 — 잃어버린 슈퍼가 있을 수 있습니다</div>
+            <div class="ci-item">Concessional 한도를 확인 안 하고 추가 기여하지 마세요</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 09: Steps -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">ACTION STEPS</div>
+        <div class="td md" style="margin-bottom:48px">슈퍼 계좌<br />정리하기 3단계</div>
+        <div class="si">
+          <div class="si-n">1</div>
+          <div class="si-c">
+            <div class="si-t">myGov에서 전체 조회</div>
+            <div class="si-d">myGov 로그인 후 ATO 탭에서 내 이름으로 된 슈퍼 계좌 전체를 확인하세요. 잊고 있던 계좌가 나올 수도 있습니다.</div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="si-n">2</div>
+          <div class="si-c">
+            <div class="si-t">잃어버린 슈퍼 찾기</div>
+            <div class="si-d">ATO의 SuperSeeker 기능으로 이전 직장에서 납부된 슈퍼 중 찾지 못한 금액을 검색할 수 있습니다.</div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="si-n">3</div>
+          <div class="si-c">
+            <div class="si-t">하나로 통합하기</div>
+            <div class="si-d">myGov에서 직접 통합 신청이 가능합니다. 수수료와 보험 조건을 비교한 후 메인 펀드 하나를 선택하세요.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 10: CTA -->
+  <div class="card c10">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+      <div class="td lg" style="text-align:center;margin-bottom:20px">
+        미래의 나에게 <span class="ta">5분</span> 투자하세요
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <p class="tb" style="text-align:center;max-width:80%">신청 안 해도 들어오는 돈이지만,<br /><strong>계좌가 정리되어 있어야</strong> 온전히 받습니다. 오늘 myGov 열어서 슈퍼 확인해보세요.</p>
+      <div class="cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+        </svg>
+        저장하기 →
+      </div>
+      <p class="cta-hint">슈퍼 계좌 몇 개 갖고 계세요? 댓글로 알려주세요.</p>
+    </div>
+  </div>
+
+</body>
+</html>
