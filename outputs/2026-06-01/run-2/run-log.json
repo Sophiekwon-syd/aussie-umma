@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-01T21:00:00.000Z",
+  "finished_at": "2026-06-01T21:27:07.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26782304057",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "아이 감정 코칭 완전 가이드: 호주에서 화내는 아이에게 말하는 법",
+      "slug": "emotion-coaching-guide",
+      "html_file": "outputs/2026-06-01/run-2/emotion-coaching-guide.html",
+      "copy_file": "outputs/2026-06-01/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "Term 3 복귀 준비: 호주 겨울방학 후 아이 학교 루틴 되돌리는 법",
+      "slug": "term3-routine-reset-guide",
+      "html_file": "outputs/2026-06-01/run-2/term3-routine-reset-guide.html",
+      "copy_file": "outputs/2026-06-01/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-01.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-02.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-03.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-04.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-05.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-06.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-07.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-08.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-09.png",
+    "outputs/2026-06-01/run-2/images/emotion-coaching-guide-10.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-01.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-02.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-03.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-04.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-05.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-06.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-07.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-08.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-09.png",
+    "outputs/2026-06-01/run-2/images/term3-routine-reset-guide-10.png"
+  ]
+}
