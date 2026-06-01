@@ -1,8 +1,8 @@
 {
   "date": "2026-06-01",
-  "last_run_at": "2026-06-01T13:31:45.534Z",
+  "last_run_at": "2026-06-01T21:35:53.502Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "67cc2891c337838be751a30b4fe2012a63e1a3fe",
+  "ref": "a9c8bd7d8c16604450dec048060c8cf6c20341f0",
   "results": [
     {
       "topic": "호주 어린이집 갑자기 문 닫으면: G8 폐쇄 사태로 배우는 어린이집 리스크 대비법",
@@ -41,6 +41,44 @@
         "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/67cc2891c337838be751a30b4fe2012a63e1a3fe/outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-10.png"
       ],
       "posted_at": "2026-06-01T13:31:45.533Z"
+    },
+    {
+      "topic": "아이 감정 코칭 완전 가이드: 호주에서 화내는 아이에게 말하는 법",
+      "slug": "emotion-coaching-guide",
+      "carousel_container_id": "18094611830089110",
+      "ig_media_id": "18442245757186119",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/emotion-coaching-guide-10.png"
+      ],
+      "posted_at": "2026-06-01T21:33:46.323Z"
+    },
+    {
+      "topic": "Term 3 복귀 준비: 호주 겨울방학 후 아이 학교 루틴 되돌리는 법",
+      "slug": "term3-routine-reset-guide",
+      "carousel_container_id": "18094612088089110",
+      "ig_media_id": "17998047545950092",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/a9c8bd7d8c16604450dec048060c8cf6c20341f0/outputs/2026-06-01/run-2/images/term3-routine-reset-guide-10.png"
+      ],
+      "posted_at": "2026-06-01T21:35:53.502Z"
     }
   ]
 }
