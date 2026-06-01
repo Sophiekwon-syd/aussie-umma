@@ -1,0 +1,137 @@
+{
+  "carousel_index": 1,
+  "topic": "호주 어린이집 갑자기 문 닫으면: G8 폐쇄 사태로 배우는 어린이집 리스크 대비법",
+  "slug": "childcare-closure-risk-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "CHILDCARE GUIDE",
+      "headline": "어린이집이 <em>내일</em> 문 닫는다면",
+      "subtitle": "G8 사태로 배우는 어린이집 리스크 대비법"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "어느 날 갑자기 문자 한 통. '센터가 <strong>폐쇄</strong>됩니다.' 그다음 주부터 아이를 어디 맡기죠?",
+      "answer": "지금 미리 알아두면, 당황하지 않아도 됩니다."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT HAPPENED",
+      "term": "G8 폐쇄 사태",
+      "explanation": "2026년 5월, 호주 최대 어린이집 운영사 G8 Education이 전국 <strong>40개 센터</strong>를 폐쇄한다고 발표했습니다. 내 어린이집은 G8이 아니어도, 이런 일은 어느 운영사에서든 일어날 수 있습니다.",
+      "punchline": "내 센터도 예외가 아닙니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "THE NUMBERS",
+      "headline": "폐쇄 규모가 <em>이 정도</em>입니다",
+      "chips": [
+        "40개 센터 폐쇄",
+        "아이 36,000명 영향",
+        "전체 네트워크의 10%",
+        "Victoria 12개 / NSW 7개"
+      ],
+      "explanation": "G8 Education 발표 기준(2026년 5월). 하루아침에 수만 가족이 대안을 찾아야 했습니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "DAY ONE ROUTINE",
+      "headline": "폐쇄 통보 받은 날, 즉시 할 3가지",
+      "entries": [
+        {
+          "label": "STEP 01",
+          "text": "CentreLink에 연락해 <strong>CCS를 새 센터로 이전</strong>하는 절차를 시작하세요. CCS는 자동으로 이전되지 않습니다."
+        },
+        {
+          "label": "STEP 02",
+          "text": "<strong>startingblocks.gov.au</strong>에서 주변 CCS 인증 센터를 검색하고 대기자 명단에 즉시 등록하세요."
+        },
+        {
+          "label": "STEP 03",
+          "text": "직장 상사에게 <strong>상황을 바로 알리세요.</strong> 늦게 알릴수록 유급 연차·재택 협상이 어려워집니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "YOUR OPTIONS",
+      "headline": "대체 어린이집, 3가지 선택지",
+      "items": [
+        {
+          "title": "대형 사설 센터",
+          "description": "자리가 빨리 날 수 있지만 운영사 리스크가 다시 있습니다. 계약 전 운영 이력을 꼭 확인하세요."
+        },
+        {
+          "title": "커뮤니티 운영 센터",
+          "description": "지자체나 비영리 단체가 운영해 상대적으로 안정적입니다. 대기가 길 수 있으니 평소에 등록해 두세요."
+        },
+        {
+          "title": "가정 어린이집 (Family Day Care)",
+          "description": "개인 가정에서 소규모로 운영. CCS 적용 가능하고 시간이 유연해 워킹맘에게 현실적인 대안입니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "RISK CHECK",
+      "headline": "지금 내 어린이집, 이것만 확인하세요",
+      "intro": "폐쇄 통보 전에 미리 점검할 4가지입니다.",
+      "items": [
+        "운영사가 대형 상장사인지, 커뮤니티 비영리인지 확인했나요?",
+        "계약서에 폐쇄 시 보증금 환급 조항이 있나요?",
+        "백업 대기자 명단에 1곳 이상 등록되어 있나요?",
+        "myGov에서 CCS 계정이 현재 센터와 연결되어 있는지 확인했나요?"
+      ],
+      "takeaway": "지금 한 번 확인해 두면, 나중에 패닉할 일이 없습니다."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "폐쇄 통보 받았을 때",
+      "do": [
+        "서면(이메일·문자)으로 폐쇄 날짜와 이유를 받아두세요",
+        "보증금·미납 수수료 환급을 서면으로 요청하세요",
+        "Services Australia에 CCS 이전 절차를 즉시 문의하세요"
+      ],
+      "dont": [
+        "CCS를 지금 바로 취소하지 마세요 — 새 센터 연결 전까지 유지해야 합니다",
+        "구두 약속만 믿고 다음 달 납부를 진행하지 마세요",
+        "혼자 해결하려 하지 마세요 — 한인 맘카페나 Services Australia에 질문하세요"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "NEW START",
+      "headline": "새 어린이집, 아이 적응시키기 3단계",
+      "steps": [
+        {
+          "title": "입소 전 사전 방문",
+          "description": "아이와 함께 새 센터를 미리 방문하세요. 공간과 선생님에 익숙해지면 첫날 분리불안이 줄어듭니다."
+        },
+        {
+          "title": "짧은 적응 기간 요청",
+          "description": "처음 1-2주는 짧게 맡겼다가 늘려가는 것을 센터에 요청하세요. 대부분의 센터가 transition plan을 제공합니다."
+        },
+        {
+          "title": "집에서 새 루틴 연습",
+          "description": "새 어린이집 이름, 선생님 이름을 대화에 자주 넣어주세요. 익숙한 언어로 먼저 친해지면 아이가 훨씬 빨리 적응합니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "미리 알면 <em>당황하지</em> 않습니다",
+      "message": "어린이집 폐쇄는 예고 없이 옵니다. 하지만 오늘 <strong>5분만 점검</strong>해두면 그날의 패닉이 달라집니다.",
+      "comment_prompt": "내 어린이집 운영사 확인해봤나요? 경험 있으신 분 댓글 남겨주세요."
+    }
+  ]
+}
