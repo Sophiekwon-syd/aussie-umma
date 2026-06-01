@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-01T00:00:00Z",
+  "finished_at": "2026-06-01T13:22:00Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26756901729",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 어린이집 갑자기 문 닫으면: G8 폐쇄 사태로 배우는 어린이집 리스크 대비법",
+      "slug": "childcare-closure-risk-guide",
+      "html_file": "outputs/2026-06-01/run-1/childcare-closure-risk-guide.html",
+      "copy_file": "outputs/2026-06-01/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "2026년 7월부터 바뀌는 PPL 슈퍼 혜택: 출산 후 노후 준비까지 챙기는 법",
+      "slug": "ppl-super-contribution-guide",
+      "html_file": "outputs/2026-06-01/run-1/ppl-super-contribution-guide.html",
+      "copy_file": "outputs/2026-06-01/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-01.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-02.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-03.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-04.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-05.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-06.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-07.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-08.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-09.png",
+    "outputs/2026-06-01/run-1/images/childcare-closure-risk-guide-10.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-01.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-02.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-03.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-04.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-05.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-06.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-07.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-08.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-09.png",
+    "outputs/2026-06-01/run-1/images/ppl-super-contribution-guide-10.png"
+  ]
+}
