@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>호주 아이 편식 대응 가이드 — AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;           /* overridden: ACCENT_PRIMARY */
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;              /* overridden: ACCENT_SECONDARY */
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Centered content block */
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches / Cards */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't Grid */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+<!-- Card 01 — Cover -->
+<div class="card c1">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">PE</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">PICKY EATING</div>
+    <div style="margin-bottom:16px">
+      <div class="td xl">매일 밥상이<br /><span class="ta">전쟁</span>인</div>
+      <div class="td xl">엄마에게</div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">호주 영양사가 알려주는 편식 대응 실전 전략</div>
+    <div class="cover-cta">스와이프하세요 <span>→</span></div>
+  </div>
+</div>
+
+<!-- Card 02 — Hook -->
+<div class="card c2">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:400px;height:400px;top:30%;right:-100px;opacity:0.05;"></div>
+  <div class="ci">
+    <div class="hook-q">오늘도 아이가<br /><strong>반찬을 다 골라냈나요?</strong></div>
+    <div class="hook-ans">사실 편식은 나쁜 버릇이 아닙니다. 발달 단계입니다.</div>
+  </div>
+</div>
+
+<!-- Card 03 — Definition -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">WHAT IS PICKY EATING</div>
+      <div class="td md" style="margin-bottom:16px">편식이란<br /><span class="ta">무엇인가요</span></div>
+      <div style="margin-bottom:24px">
+        <span class="def-hl">편식(Picky Eating)</span>
+      </div>
+      <div class="def-box">
+        <div class="def-box-text">낯선 음식을 거부하거나 특정 질감·색·냄새에 민감하게 반응하는 행동. 2~5세 유아의 최대 50%에서 나타나는 <strong>정상 발달 반응</strong>입니다.</div>
+      </div>
+      <div class="tb" style="margin-top:36px;font-size:24px;color:var(--ink3);">극단적 편식(ARFID)은 다릅니다. 성장이 멈추거나 영양 결핍이 보이면 GP 방문이 먼저예요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 04 — Data -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">BY THE NUMBERS</div>
+      <div class="td md" style="margin-bottom:36px">편식은 <em style="color:var(--accent);font-style:normal;">우리 아이만</em><br />그런 게 아니에요</div>
+      <div class="chips">
+        <div class="chip"><span class="cd"></span>30% 호주 부모가 편식아로 인식</div>
+        <div class="chip"><span class="cd"></span>최대 50% 2~5세 유아에서 발생</div>
+        <div class="chip"><span class="cd"></span>3세가 편식 행동 정점 연령</div>
+        <div class="chip"><span class="cd"></span>12~15회 반복 노출 필요</div>
+      </div>
+      <div class="tb" style="font-size:26px;">같은 음식을 12번 이상 식탁에 올려야 아이가 수용하기 시작합니다. 거부당해도 계속 내놓는 것이 핵심이에요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 05 — Routine -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">DAILY ROUTINE</div>
+      <div class="td md" style="margin-bottom:48px">식탁 루틴<br /><span class="ta">3원칙</span></div>
+      <div class="rb">
+        <div class="rb-t">원칙 1</div>
+        <div class="rb-x">온 가족 <strong>같은 메뉴</strong>. 아이만을 위한 별도 음식은 편식을 강화합니다.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">원칙 2</div>
+        <div class="rb-x">식사 중 <strong>TV·스마트폰 끄기</strong>. 화면은 식욕과 음식 인식을 모두 방해합니다.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">원칙 3</div>
+        <div class="rb-x"><strong>정해진 시간</strong>에 시작하고 끝내기. 간식 시간을 지키면 식욕이 살아납니다.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 06 — Categories -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">TYPES</div>
+      <div class="td md" style="margin-bottom:40px">편식 유형<br /><span class="ta">3가지</span></div>
+      <div class="ap">
+        <div class="ap-t">질감 민감형</div>
+        <div class="ap-d">부드러운 것만 먹거나 씹는 감촉을 극도로 싫어합니다. 비슷한 질감의 대체 식품으로 단계적으로 넓혀가세요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">신식공포증형</div>
+        <div class="ap-d">새로운 음식 자체를 거부합니다. 낯선 음식을 강요 없이 조금씩 식탁에 올리는 반복 노출 전략이 효과적입니다.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">강요 경험형</div>
+        <div class="ap-d">과거에 구역질하거나 강요당한 기억이 특정 음식 거부로 굳어진 경우. 긍정적 식사 경험을 쌓는 것이 먼저입니다.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 07 — Checklist -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">ACTION CHECKLIST</div>
+      <div class="td md" style="margin-bottom:16px">이번 주부터<br /><span class="ta">바꿀 수 있는 것들</span></div>
+      <div class="tb" style="font-size:24px;margin-bottom:32px;color:var(--ink3);">오늘 식사부터 딱 하나씩 바꿔보세요.</div>
+      <div class="ai"><span class="ai-d"></span>아이 몫도 가족과 같은 음식으로 내놓기 (단, 양은 적게)</div>
+      <div class="ai"><span class="ai-d"></span>새 음식을 식탁에 올리되 먹으라고 강요하지 않기</div>
+      <div class="ai"><span class="ai-d"></span>아이를 요리 준비 과정에 참여시키기 (씻기, 넣기 등)</div>
+      <div class="ai"><span class="ai-d"></span>잘 먹었을 때 칭찬하되 음식으로 보상하지 않기</div>
+      <div class="takeaway">작은 시도가 쌓이면 밥상 전쟁은 끝납니다.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 08 — Do/Don't -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="td md" style="margin-bottom:16px">편식 대응<br /><span class="ta">DO vs DON'T</span></div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">Do</div>
+          <div class="ci-item">같은 음식을 아무 말 없이 반복해서 내놓기</div>
+          <div class="ci-item">아이가 시도한 것 자체를 조용히 칭찬하기</div>
+          <div class="ci-item">GP에게 성장 곡선 확인 요청하기</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">Don't</div>
+          <div class="ci-item">한 입만 먹으면 디저트 준다고 흥정하기</div>
+          <div class="ci-item">싫어하는 음식을 억지로 먹이기</div>
+          <div class="ci-item">아이만을 위한 별도 요리를 매번 따로 만들기</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 09 — Steps -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">WHEN TO SEEK HELP</div>
+      <div class="td md" style="margin-bottom:48px">호주 시스템<br /><span class="ta">활용 3단계</span></div>
+      <div class="si">
+        <div class="si-n">01</div>
+        <div class="si-c">
+          <div class="si-t">GP 방문</div>
+          <div class="si-d">성장 곡선 확인과 영양 결핍 여부 체크. 필요 시 전문가 의뢰 레퍼럴을 받을 수 있어요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">02</div>
+        <div class="si-c">
+          <div class="si-t">Community Health 영양사</div>
+          <div class="si-d">GP 레퍼럴로 접근 가능. 소아 영양 상담을 Medicare 벌크빌링으로 받을 수 있습니다.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">03</div>
+        <div class="si-c">
+          <div class="si-t">전문 치료팀</div>
+          <div class="si-d">ARFID가 의심되면 소아과, 언어치료사, 작업치료사가 함께하는 팀 접근이 필요합니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10 — CTA -->
+<div class="card c10">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+    <div class="td lg" style="text-align:center;margin-bottom:20px">
+      밥상 전쟁은<br /><span class="ta">끝낼 수 있어요</span>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%">편식은 고치는 것이 아니라 <strong>기다리는 것</strong>입니다.<br />오늘 딱 하나만 바꿔보세요.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">이 정보가 도움됐다면 다른 엄마에게도 공유해주세요</p>
+  </div>
+</div>
+
+</body>
+</html>
