@@ -1,0 +1,136 @@
+{
+  "topic": "호주 겨울 실내 놀이 완전 가이드: 방학 동안 집에서 할 수 있는 무료·저비용 활동",
+  "slug": "winter-indoor-play-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "WINTER HOLIDAYS",
+      "headline": "방학 2주, <em>계획</em>이 없으면",
+      "subtitle": "집에서 할 수 있는 무료·저비용 실내 놀이 완전 가이드"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "방학 첫날부터 <strong>\"엄마 심심해\"</strong>가 시작되나요?",
+      "answer": "계획 없는 방학은 스크린 방학이 됩니다. 딱 5가지만 준비하면 달라져요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "TERM 2 END DATE",
+      "term": "2026년 겨울방학 일정",
+      "explanation": "호주 Term 2가 끝나면 약 <strong>2주간의 겨울방학</strong>이 시작됩니다. NSW·VIC는 6월 27일~7월 12일, QLD는 6월 20일~7월 5일. 주별로 날짜가 다르니 미리 확인하세요.",
+      "punchline": "방학 전 마지막 주말이 준비할 타이밍입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "FREE RESOURCES",
+      "headline": "돈 안 써도 되는 <em>공공 리소스</em>가 있어요",
+      "chips": [
+        "16세 미만 뮤지엄 무료 입장",
+        "도서관 방학 프로그램 무료",
+        "카운슬 행사 대부분 무료",
+        "집에서 40가지+ 센서리 활동 가능"
+      ],
+      "explanation": "호주 공립 도서관은 방학마다 Storytime, 공예 워크숍, LEGO Club을 무료로 운영합니다. 방학 2주 전에 예약하세요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "DAILY FLOW",
+      "headline": "하루 방학 루틴 3블록",
+      "entries": [
+        {
+          "label": "오전",
+          "text": "<strong>외출 또는 도서관</strong>. 아이의 에너지를 오전에 쓰게 합니다. 추운 날은 실내 공간으로 대체."
+        },
+        {
+          "label": "오후 1",
+          "text": "<strong>조용한 놀이</strong>. 공예, 책 읽기, 퍼즐. 점심 후 차분한 활동으로 낮잠 없는 아이도 쉬게 합니다."
+        },
+        {
+          "label": "오후 2",
+          "text": "<strong>신체 활동</strong>. 쿠션 장애물 코스, 동물 요가, 춤. 잠들기 전 에너지를 소진시킵니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "ACTIVITY TYPES",
+      "headline": "실내 놀이 3가지 카테고리",
+      "items": [
+        {
+          "title": "감각 놀이",
+          "description": "쌀·파스타·콩 담은 감각 통, 밀가루 반죽, 슬라임 만들기. 재료비 거의 없이 집에서 바로 가능합니다."
+        },
+        {
+          "title": "창작 놀이",
+          "description": "재활용 박스로 만드는 성·우주선, 염색 파스타 목걸이, 소금 반죽 공예. 쓰레기를 장난감으로 바꾸는 가장 좋은 방법."
+        },
+        {
+          "title": "신체 놀이",
+          "description": "거실 쿠션 장애물 코스, 동물 요가, 풍선 배드민턴. 좁은 공간에서도 몸을 움직일 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "PREP CHECKLIST",
+      "headline": "방학 전 준비 체크리스트",
+      "intro": "지금 당장 확인하고 예약하세요.",
+      "items": [
+        "지역 도서관 웹사이트에서 방학 프로그램 예약하기",
+        "공예 재료(색종이, 테이프, 재활용 박스) 미리 모아두기",
+        "카운슬 공식 사이트에서 무료 행사 검색하기",
+        "보드게임·퍼즐 꺼내서 접근 쉬운 곳에 놓아두기"
+      ],
+      "takeaway": "준비된 방학은 스크린이 아니라 추억으로 채워집니다."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "방학 활동 DO vs DON'T",
+      "do": [
+        "매일 비슷한 시간에 활동 시작하는 느슨한 루틴 유지",
+        "무료 공공 자원(도서관, 뮤지엄) 적극 활용",
+        "한국어 그림책 읽기를 루틴 한 켠에 끼워넣기"
+      ],
+      "dont": [
+        "종일 무제한 스크린으로 방학 채우기",
+        "비싼 유료 프로그램만 대안으로 생각하기",
+        "아이 혼자 방 안에 두고 알아서 놀게 하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "HOW TO FIND FREE ACTIVITIES",
+      "headline": "무료 활동 찾는 3단계",
+      "steps": [
+        {
+          "title": "지역 도서관 웹사이트 방문",
+          "description": "구글에 '[내 suburb] library school holiday program 2026' 검색. 대부분 예약 필수입니다."
+        },
+        {
+          "title": "카운슬 공식 사이트 확인",
+          "description": "[내 council] council events school holidays 2026으로 검색. 무료 워크숍, 영화 상영 등이 올라옵니다."
+        },
+        {
+          "title": "한인 커뮤니티 카페 확인",
+          "description": "호주 한인 맘 카페에서 지역별 방학 활동 정보를 공유합니다. 이미 다른 엄마가 조사해둔 걸 활용하세요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "방학은 돈이 아니라 <em>계획</em>입니다",
+      "message": "지금 도서관 예약만 해도 방학의 <strong>절반은 채워집니다</strong>.",
+      "comment_prompt": "저장하기 →"
+    }
+  ]
+}
