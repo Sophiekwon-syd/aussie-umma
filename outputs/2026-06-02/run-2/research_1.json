@@ -1,0 +1,44 @@
+{
+  "topic": "호주 아이 편식 대응 가이드: 밥 안 먹는 아이, 호주 영양사가 추천하는 실전 전략",
+  "slug": "picky-eating-guide-australia",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 편식하는 아이 때문에 매 끼니 전쟁을 치르는 엄마들",
+  "research_date": "2026-06-02",
+  "key_facts": [
+    "편식(picky eating)은 전 세계적으로 유아의 6~50%에서 나타나며, 호주 연구에서는 약 30%의 엄마가 자녀를 편식아로 인식한다 (PMC5594597)",
+    "편식은 생후 18개월부터 증가하기 시작해 3세에 정점을 찍고, 6세 이후 안정된다 (Wiley, 2023)",
+    "15개월 기준 호주 아이의 약 20%가 편식아로 분류되며, 유아기(2~5세)에는 최대 50%까지 높아진다 (Better Health Channel, VIC)",
+    "편식의 주원인은 (1) 낯선 음식에 대한 신생아기 방어 반응(신식공포증, food neophobia), (2) 질감·냄새·색깔에 대한 감각 민감성, (3) 부정적 식사 경험(구역질, 강요)이다 (Healthdirect AU)",
+    "호주 영양사 권고: 같은 음식을 12~15회 반복 노출해야 아이가 수용하기 시작한다. 거부당하더라도 계속 식탁에 올려두는 것이 핵심 (First Five Years AU)",
+    "식사 중 TV·스마트폰 사용은 식욕 및 음식 인식 방해 요인으로 호주 보건부 지침에서 금지 권고 (Healthdirect)",
+    "별도의 음식 조리(separate meals)는 편식을 강화한다. 가족 동일 메뉴 원칙이 호주 현장 영양사들이 권고하는 기본 규칙이다 (ATMS Australia)",
+    "아이를 요리 과정에 참여시키면 낯선 식재료에 대한 거부감이 줄어든다 (Queensland Health NEMO Guidelines)",
+    "음식을 보상이나 벌로 사용하지 않는다 — '이거 먹으면 디저트' 방식은 채소 혐오를 오히려 강화한다 (Psychology Today Australia)",
+    "극단적 편식(ARFID: Avoidant/Restrictive Food Intake Disorder)은 일반 편식과 구분해야 하며, 성장 부진이나 영양 결핍이 동반되면 GP 또는 소아 영양사 의뢰가 필요하다",
+    "호주 공공 시스템에서 소아 영양 지도는 Community Health 영양사를 통해 Medicare 벌크빌링으로 접근 가능하다",
+    "한국 엄마 특이 고민: 한국 음식(김치찌개, 국밥 등)을 거부하는 호주 성장 아이 — 한국 문화권 음식에 대한 반복 노출 전략이 특히 중요하다"
+  ],
+  "statistics": [
+    { "stat": "약 30%", "context": "호주 엄마들이 자녀를 편식아로 인식하는 비율 (Australian study)", "source": "PMC5594597" },
+    { "stat": "최대 50%", "context": "2~5세 유아 중 편식 행동을 보이는 비율", "source": "Better Health Channel VIC" },
+    { "stat": "12~15회", "context": "아이가 새 음식을 수용하기까지 필요한 평균 노출 횟수", "source": "First Five Years Australia" },
+    { "stat": "3세", "context": "편식 행동이 정점에 달하는 연령", "source": "Wiley Australian OT Journal 2023" }
+  ],
+  "angles": [
+    "편식은 '나쁜 아이' 문제가 아니라 발달 단계 — 엄마를 안심시키는 공감 앵글",
+    "호주 시스템 활용: Community Health 영양사, GP 의뢰 경로",
+    "한국 음식을 거부하는 아이 — 바이링구얼 식탁 전략",
+    "식탁 전쟁을 끝내는 3가지 원칙 (별도 조리 금지, TV 금지, 보상 금지)",
+    "실전 체크리스트: 이번 주부터 바꿀 수 있는 5가지"
+  ],
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5594597/",
+    "https://onlinelibrary.wiley.com/doi/10.1111/1440-1630.12869",
+    "https://www.betterhealth.vic.gov.au/health/healthyliving/toddlers-and-fussy-eating",
+    "https://www.firstfiveyears.org.au/child-development/raising-a-healthy-eater-expert-advice-and-tools-for-parents-dealing-with-picky-eating",
+    "https://www.healthdirect.gov.au/healthy-eating-for-children",
+    "https://www.health.qld.gov.au/__data/assets/pdf_file/0034/650986/paeds-fussyeaters.pdf",
+    "https://www.atms.com.au/tackling-fussy-eaters-strategies-for-healthy-eating-in-children/",
+    "https://www.psychologytoday.com/au/blog/scientific-mommy/202401/the-emotional-strain-of-picky-eating"
+  ]
+}
