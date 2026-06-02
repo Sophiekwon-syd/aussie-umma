@@ -1,0 +1,42 @@
+{
+  "topic": "호주 겨울 실내 놀이 완전 가이드: 방학 동안 집에서 할 수 있는 무료·저비용 활동",
+  "slug": "winter-indoor-play-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. Term 2 끝, 겨울방학 2주를 앞두고 아이 활동 계획을 세우는 엄마들",
+  "research_date": "2026-06-02",
+  "key_facts": [
+    "2026년 호주 겨울방학(Term 2 종료 후): NSW 6월 27일~7월 12일, VIC 6월 27일~7월 12일, QLD 6월 20일~7월 5일 (각 주 교육청 기준, schoolholidays.com.au 2026)",
+    "호주 공공 도서관은 겨울방학 기간 무료 Storytime, 공예 워크숍, LEGO Club 등 다양한 프로그램을 운영한다 — 비용 없이 참여 가능 (VicBuzz 2026, Healthy Schools ACT)",
+    "멜버른 뮤지엄, NGV(Victoria), ACMI 등 주요 문화기관은 16세 미만 입장 무료 또는 저비용 접근 가능 (VicBuzz 2026)",
+    "홈 센서리 플레이(home sensory play)는 호주 조기교육 전문가들이 겨울방학 실내 활동으로 1순위 권고: 쌀, 파스타, 콩 등을 이용한 감각 통 놀이 (Stepping Stone SA, Edge Early Learning)",
+    "DIY 크래프트 활동: 재활용 박스·테이프로 만드는 성 또는 우주선, 염색 파스타 목걸이, 소금 반죽 공예 등은 비용 없이 집에서 구현 가능 (Better Homes & Gardens AU, Catbears Blog)",
+    "쿠션·담요로 만드는 실내 장애물 코스, 동물 요가 등 신체 활동은 스크린타임 대안으로 호주 소아 건강 전문가들이 강력 권고 (Budding Sproutz)",
+    "한국 엄마 특이 활동: 한국어 그림책 읽기 루틴, 전통 놀이(윷놀이, 딱지치기) 실내 버전은 바이링구얼 육아와 겨울방학을 연결하는 독특한 기회",
+    "Council 주관 무료 활동: 각 지방 의회(council) 웹사이트에 방학 기간 무료 행사 목록이 업로드된다 — 검색 키워드는 '[suburb] school holiday activities 2026' (ACT Government)",
+    "스크린타임 vs 비스크린 활동 균형: 호주 2016년 사회관계망 금지법 이후 부모들의 오프라인 대안 활동에 대한 관심이 급증했다 (Australian Institute of Health and Welfare)",
+    "비 오는 날을 위한 비상 키트: 공예 재료, 보드게임, 요리 키트를 미리 준비해두는 것이 방학 전 엄마들의 핵심 전략으로 소셜미디어에서 화제 (Pinterest 2026, Dolly Dowsie blog)",
+    "호주 가정에서의 '마음챙김' 활동 증가 추세: 요가, 명상, 자연 산책 등이 아이 정서 안정을 위해 권고된다 (Growing Kind AU)"
+  ],
+  "statistics": [
+    { "stat": "2주", "context": "호주 대부분 주의 Term 2 종료 후 겨울방학 기간 (2026년 6월 말~7월 초)", "source": "schoolholidays.com.au 2026" },
+    { "stat": "무료", "context": "16세 미만 멜버른 뮤지엄 입장료", "source": "VicBuzz 2026" },
+    { "stat": "40가지 이상", "context": "집에서 할 수 있는 센서리 플레이 아이디어 (호주 보육 전문 사이트 제공)", "source": "Stepping Stone SA" }
+  ],
+  "angles": [
+    "방학 2주 — 계획 없으면 스크린 2주가 된다. 엄마의 사전 준비 중요성 공감 앵글",
+    "비용 없이 즐기는 공공 리소스 활용법 (도서관, 뮤지엄, 카운슬 행사)",
+    "집에서 당장 할 수 있는 무료 활동 5가지 (쌀 통 놀이, DIY 박스 성, 요가, 요리, 그림책)",
+    "한국어·한국 문화를 녹인 실내 놀이 아이디어",
+    "방학 전 엄마가 준비할 비상 활동 키트 체크리스트"
+  ],
+  "sources": [
+    "https://vicbuzz.com.au/blog/free-school-holiday-activities-melbourne-2026",
+    "https://www.act.gov.au/our-canberra/latest-news/2026/march/budget-friendly-activities-to-keep-the-kids-busy",
+    "https://www.steppingstonesa.com.au/40-sensory-play-activities-at-home/",
+    "https://edgeearlylearning.com.au/8-rainy-day-indoor-activities-the-kids-will-love/",
+    "https://growingkind.com.au/rainy-day-activities-indoor-play-ideas-for-australian-families/",
+    "https://www.dollydowsie.com/2026/05/13/rainy-day-activities-for-kids/",
+    "https://schoolholidays.com.au/holidays/australia",
+    "https://www.catbears.com/blog/rainy-day-activities-for-kids"
+  ]
+}
