@@ -1,0 +1,118 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 소아과 의뢰 완전 가이드: GP에서 소아과 전문의까지 한국 엄마 실전 정보",
+      "slug": "paediatrician-referral-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_purpose": "아이 건강 걱정으로 소아과에 가고 싶은데 어떻게 해야 할지 모르는 엄마에게 공감 + 이 카드셋이 해결책임을 알림"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_purpose": "GP 의뢰서 없이 소아과를 예약하려다 막혔던 경험 → 이 가이드가 필요한 이유 제시"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_purpose": "소아과 전문의(Paediatrician)가 무엇인지, GP와 어떻게 다른지 정확히 정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_purpose": "대기 기간 현실 데이터(ADHD 평균 4개월, 최장 10개월 등)로 미리 움직여야 하는 이유 설명"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_purpose": "GP 방문 전 준비 루틴 3단계: 증상 기록, 영어 표현 정리, 의뢰서 요청 방법"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_purpose": "소아과 종류 3가지: 일반 소아과 / 발달 소아과 / 소아 신경과 — 어떤 경우에 어디로 가야 하는지"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_purpose": "의뢰서 발급 후 첫 예약까지 준비 체크리스트 4가지"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_purpose": "흔한 실수 vs 올바른 접근: 의뢰서 없이 직접 예약 시도, 공립만 기다리기, 비용 걱정에 미루기 등"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_purpose": "GP 방문부터 소아과 초진까지 3단계 실전 로드맵"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_purpose": "아이 걱정을 미루지 말고 오늘 GP에 전화하라는 따뜻한 마무리 + 저장 유도"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "겨울방학 밀프렙 완전 가이드: 바쁜 워킹맘을 위한 주간 가족 식사 준비 전략",
+      "slug": "winter-holiday-meal-prep-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "narrative_purpose": "겨울방학 동안 아이들이 집에 있어 식사 부담이 두 배가 된 워킹맘에게 공감 + 이 가이드가 해결책임을 알림"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "narrative_purpose": "'오늘 저녁 뭐 해?'가 가장 무서운 말인 워킹맘 → 밀프렙으로 이 문제를 해결할 수 있다"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "narrative_purpose": "밀프렙이 '완성 요리'가 아니라 '재료 준비'임을 명확히 — 한국 엄마에게 맞게 재정의"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "narrative_purpose": "일요일 2시간 투자로 주중 4~5시간 절약 가능 데이터 + 식사 관련 mental load 통계"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "narrative_purpose": "일요일 밀프렙 루틴 3단계: 계획(30분) → 장보기 완료 기준 재료 정리(45분) → 조리(45분)"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "narrative_purpose": "냉동 보관 가능한 한국 음식 3카테고리: 국/찌개류 / 볶음·조림류 / 도시락용 반찬류"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "narrative_purpose": "밀프렙 시작 전 준비 체크리스트 4가지 (용기, 라벨, 냉동백, 주간 메뉴판)"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "narrative_purpose": "밀프렙 흔한 실수 vs 올바른 접근: 너무 많이 만들기, 냉동 없이 냉장만 하기, 매주 다른 메뉴 도전 등"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "narrative_purpose": "첫 밀프렙 시작 3단계: 이번 주 저녁 메뉴 3가지 정하기 → 재료 겹치는 것 찾기 → 일요일 오전 2시간 블록 예약"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "narrative_purpose": "이번 일요일부터 딱 한 가지만 미리 만들어보라는 따뜻한 마무리 + 저장 유도"
+        }
+      ]
+    }
+  ]
+}
