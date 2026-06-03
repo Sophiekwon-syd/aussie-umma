@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-03T20:39:01Z",
+  "finished_at": "2026-06-03T20:52:19Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26911457410",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 불안·걱정 대응 완전 가이드: '학교 가기 싫어' 그 이면의 불안, 한국 엄마가 알아야 할 것",
+      "slug": "child-anxiety-guide-australia",
+      "html_file": "outputs/2026-06-03/run-2/child-anxiety-guide-australia.html",
+      "copy_file": "outputs/2026-06-03/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 겨울방학 가족 예산 완전 가이드: 방학 동안 돈 덜 쓰고 잘 보내는 실전 전략",
+      "slug": "winter-holiday-family-budget-guide",
+      "html_file": "outputs/2026-06-03/run-2/winter-holiday-family-budget-guide.html",
+      "copy_file": "outputs/2026-06-03/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-01.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-02.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-03.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-04.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-05.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-06.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-07.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-08.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-09.png",
+    "outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-10.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-01.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-02.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-03.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-04.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-05.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-06.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-07.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-08.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-09.png",
+    "outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-10.png"
+  ]
+}
