@@ -311,6 +311,18 @@
       "date": "2026-06-02",
       "carousel_file": "outputs/2026-06-02/run-2/winter-indoor-play-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 소아과 의뢰 완전 가이드: GP에서 소아과 전문의까지 한국 엄마 실전 정보",
+      "date": "2026-06-03",
+      "carousel_file": "outputs/2026-06-03/run-1/paediatrician-referral-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "겨울방학 밀프렙 완전 가이드: 바쁜 워킹맘을 위한 주간 가족 식사 준비 전략",
+      "date": "2026-06-03",
+      "carousel_file": "outputs/2026-06-03/run-1/winter-holiday-meal-prep-guide.html",
+      "cards": 10
     }
   ]
 }
