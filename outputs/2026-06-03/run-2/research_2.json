@@ -1,0 +1,98 @@
+{
+  "topic": "호주 겨울방학 가족 예산 완전 가이드: 방학 동안 돈 덜 쓰고 잘 보내는 실전 전략",
+  "slug": "winter-holiday-family-budget-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "research_date": "2026-06-03",
+  "key_facts": [
+    {
+      "fact": "2026년 겨울방학 날짜",
+      "detail": "주(州)마다 다르지만 대체로 6월 하순~7월 중순이 겨울방학(Term 2 종료~Term 3 시작). NSW는 6월 27일~7월 11일(2주), VIC·QLD는 6월 말~7월 13일경.",
+      "source": "schoolholidays.com.au, 2026"
+    },
+    {
+      "fact": "호주 가정 식료품비 현황",
+      "detail": "2026년 기준 호주 가정의 평균 주간 식료품 지출은 약 AUD $207, 4인 가족 기준으로는 주 약 $240(연간 약 $12,480)에 달한다. NSW 가정이 $226로 가장 높다.",
+      "source": "Finder.com.au, 2026년 6월"
+    },
+    {
+      "fact": "어린이집·OSHC 방학 중 운영",
+      "detail": "방학 중 일반 OSHC는 문을 닫고 Vacation Care로 전환된다. CCS(Child Care Subsidy)는 Vacation Care에도 적용된다. 2026년 1월부터 도입된 3-Day Guarantee로 주 3일 최소 보조가 보장된다.",
+      "source": "Services Australia, Camp Australia"
+    },
+    {
+      "fact": "방학 중 물가 상승",
+      "detail": "방학 기간 중 숙박, 교통, 엔터테인먼트 비용이 20-30% 상승하는 경향이 있다. 미리 계획할수록 절약 효과가 크다.",
+      "source": "MyBudget.com.au"
+    },
+    {
+      "fact": "무료·저비용 활동 옵션",
+      "detail": "호주 공공도서관은 겨울방학 중 무료 어린이 프로그램을 운영한다. 국립공원 입장은 대부분 무료이며, NSW의 Active Kids Voucher($50)는 연중 사용 가능하다.",
+      "source": "Salvation Army Australia, MyBudget.com.au"
+    }
+  ],
+  "statistics": [
+    { "value": "$207/주", "label": "호주 가정 평균 주간 식료품 지출", "source": "Finder.com.au 2026" },
+    { "value": "20-30%", "label": "방학 기간 중 숙박·엔터 비용 상승률", "source": "MyBudget.com.au" },
+    { "value": "$50", "label": "NSW Active Kids Voucher 금액 (연중 사용 가능)", "source": "Service NSW" },
+    { "value": "2주", "label": "대부분의 주 겨울방학 기간", "source": "schoolholidays.com.au 2026" }
+  ],
+  "budget_strategies": [
+    {
+      "category": "식비 절약",
+      "tips": [
+        "주간 밀프렙으로 방학 중 외식 충동 줄이기 - 도시락, 국, 반찬 미리 준비",
+        "IGA·Aldi 등 할인 마트 활용, 주간 세일 상품 중심으로 장보기",
+        "아이와 함께 요리하기 - 비용 절약 + 방학 활동 두 마리 토끼",
+        "한인 마트 vs 대형마트 품목별 비교 - 쌀·반찬 재료는 한인 마트가 저렴한 경우 많음"
+      ]
+    },
+    {
+      "category": "활동비 절약",
+      "tips": [
+        "공공도서관 무료 겨울방학 프로그램 예약하기 (Storytime, LEGO Club, 크래프트)",
+        "국립공원·해변 산책 - 완전 무료, 아이들에게 자연 체험 제공",
+        "박물관·미술관 무료 또는 할인 입장 (어린이 무료인 경우 많음)",
+        "NSW Active Kids Voucher($50) 활용해 스포츠 수업 등록",
+        "시네마 평일 조조 할인 티켓 활용 (가족 티켓 $6-8 수준)"
+      ]
+    },
+    {
+      "category": "보육비 관리",
+      "tips": [
+        "Vacation Care 조기 등록으로 자리 확보 (방학 전 4-6주 전에 신청)",
+        "CCS가 Vacation Care에도 적용됨을 확인 - 직접 서비스에 문의",
+        "3-Day Guarantee 최대 활용 - 주 3일은 보조 보장",
+        "다른 한국 엄마와 육아 교환(care swap) 협의 - 비용 없이 서로 돌봐주기"
+      ]
+    },
+    {
+      "category": "가계 예산 정리",
+      "tips": [
+        "방학 2주 예산 미리 구체적으로 잡기: 식비, 활동비, 교통비, 비상금",
+        "방학 시작 전 냉장고 재고 파악 후 장보기",
+        "아이와 함께 '방학 버킷리스트' 만들기 - 기대감 관리 + 무분별한 지출 방지",
+        "공공 Wi-Fi 활용해 모바일 데이터 사용량 줄이기"
+      ]
+    }
+  ],
+  "free_activities_by_city": {
+    "sydney": ["무료 박물관(Australian Museum, Powerhouse)", "달링하버 광장 놀이", "Taronga Zoo (멤버십 할인)", "해변 가족 산책"],
+    "melbourne": ["무료 국립미술관(NGV)", "페더레이션 스퀘어 행사", "왕립식물원 피크닉", "도서관 방학 프로그램"],
+    "brisbane": ["사우스뱅크 무료 수영장", "퀸즐랜드 박물관 무료 입장", "시티보타닉가든 피크닉"],
+    "perth": ["Kings Park 무료 탐방", "서호주 박물관 무료 입장", "해변 가족 나들이"]
+  },
+  "working_parent_tips": [
+    "방학 첫날부터 루틴을 정해두기 - 아이 기상, 식사, 활동 시간 고정",
+    "재택근무 가능한 날 조정해 Vacation Care 일수 줄이기",
+    "아이가 독립적으로 할 수 있는 활동 목록 미리 만들어두기 (나이별 맞춤)",
+    "형제자매 있는 경우 큰 아이가 작은 아이 돌봄 역할 분담 (합리적인 범위 내에서)"
+  ],
+  "angles": [
+    "방학 전 3단계 예산 세우기 루틴 (한국 엄마 실전 버전)",
+    "돈 안 드는 겨울방학 활동 리스트 (도시별)",
+    "워킹맘이 Vacation Care 비용 줄이는 법",
+    "식비 절약과 아이 활동을 동시에 잡는 방법 (요리 활동)",
+    "방학 중 해서는 안 되는 지출 실수 Do/Don't"
+  ]
+}
