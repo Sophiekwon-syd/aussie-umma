@@ -1,0 +1,136 @@
+{
+  "topic": "호주 아이 소아과 의뢰 완전 가이드: GP에서 소아과 전문의까지 한국 엄마 실전 정보",
+  "slug": "paediatrician-referral-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "호주 의료 가이드",
+      "headline": "소아과, <em>어떻게</em> 가야 하나요?",
+      "subtitle": "GP 의뢰서부터 첫 진료까지 한국 엄마 실전 가이드"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 이런 경험 있으신가요? 아이가 걱정돼서 소아과를 예약하려 했더니 <strong>'GP 의뢰서부터 받아오세요'</strong> 라는 말을 들었던 적.",
+      "answer": "호주에서 소아과는 GP 없이는 예약조차 안 됩니다. 오늘 그 과정을 정리해 드릴게요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "기본 개념",
+      "term": "소아과 전문의 (Paediatrician)",
+      "explanation": "GP(일반의)가 전반적인 건강을 보는 첫 번째 창구라면, 소아과 전문의는 <strong>아이의 특정 건강 문제를 더 깊이 다루는 전문가</strong>입니다. 호주에서는 전문의를 만나려면 반드시 GP의 의뢰서(referral)가 있어야 Medicare 환급을 받을 수 있어요.",
+      "punchline": "GP는 문, 소아과는 그 문 너머의 전문가입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "현실 데이터",
+      "headline": "대기 기간이 <em>생각보다</em> 깁니다",
+      "chips": [
+        "ADHD 평균 대기 4개월",
+        "최장 대기 10개월",
+        "ASD 진단 비용 $1,400+",
+        "Medicare 환급 약 75%"
+      ],
+      "explanation": "사립 소아과도 빠르지 않습니다. 2026년 기준 ADHD·ASD 관련 평가는 사립이어도 평균 4개월을 기다려야 합니다. 걱정이 생겼다면 지금 바로 GP에 가는 것이 맞습니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "GP 방문 전 준비",
+      "headline": "이 3가지를 챙기면 GP 방문이 달라집니다",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "<strong>증상 일지 작성.</strong> 언제부터, 어떤 행동이, 얼마나 자주 나타나는지 날짜와 함께 적어 가세요."
+        },
+        {
+          "label": "STEP 2",
+          "text": "<strong>핵심 표현 준비.</strong> 'I'm concerned about my child's development'처럼 GP에게 전달할 핵심 문장을 미리 적어 두세요."
+        },
+        {
+          "label": "STEP 3",
+          "text": "<strong>의뢰서 직접 요청.</strong> GP가 먼저 권유하지 않아도 'Can I get a referral to a paediatrician?'이라고 직접 물어보세요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "소아과 종류",
+      "headline": "어떤 소아과로 가야 할까요?",
+      "items": [
+        {
+          "title": "일반 소아과",
+          "description": "만성 질환, 성장 문제, 반복되는 감염 등 전반적인 건강 우려가 있을 때. 첫 전문의 방문으로 가장 일반적인 경로입니다."
+        },
+        {
+          "title": "발달 소아과",
+          "description": "언어 발달 지연, ADHD 의심, 자폐스펙트럼(ASD) 우려가 있을 때. GP에게 'developmental paediatrician'을 요청하세요."
+        },
+        {
+          "title": "소아 신경과",
+          "description": "경련, 두통, 뇌 관련 증상이 있을 때 의뢰됩니다. 일반적으로 일반 소아과를 거쳐 다시 의뢰되는 경우가 많습니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "예약 준비",
+      "headline": "의뢰서 받은 후 할 일 4가지",
+      "intro": "GP에서 의뢰서를 받았다면 이제 시작입니다. 바로 이 4가지를 챙기세요.",
+      "items": [
+        "공립·사립 소아과에 동시에 의뢰 전달 — 먼저 연락 오는 곳으로 가면 됩니다",
+        "예약 확인 SMS를 받으면 날짜·시간·준비물을 메모해 두세요",
+        "Medicare 카드와 아이 예방접종 기록(Immunisation History)을 미리 준비하세요",
+        "첫 진료 전날 아이의 증상 일지를 다시 정리해서 가져가세요"
+      ],
+      "takeaway": "공립과 사립 모두에 의뢰를 보내면 대기 기간을 절반으로 줄일 수 있습니다."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "소아과 의뢰, 이렇게 하세요",
+      "do": [
+        "GP에게 '소아과 의뢰서 주세요'라고 직접 요청하기",
+        "공립·사립 소아과에 동시에 의뢰서 보내기",
+        "증상이 가벼워 보여도 걱정된다면 바로 GP 방문하기"
+      ],
+      "dont": [
+        "의뢰서 없이 소아과에 직접 전화해서 예약 시도하기",
+        "공립 대기자 명단에만 올리고 기다리기만 하기",
+        "비용 걱정에 전문의 방문을 계속 미루기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "실전 로드맵",
+      "headline": "GP부터 소아과 초진까지 3단계",
+      "steps": [
+        {
+          "title": "1단계 — GP 방문",
+          "description": "증상 일지와 핵심 표현을 준비해서 GP를 만나세요. 발달 우려가 있다면 'developmental paediatrician'을 명시해서 의뢰서를 요청하세요."
+        },
+        {
+          "title": "2단계 — 동시 의뢰",
+          "description": "GP에게 공립 병원 외래와 사립 소아과 두 곳에 모두 의뢰서를 보내달라고 요청하세요. 먼저 연락 오는 곳에서 예약을 잡으면 됩니다."
+        },
+        {
+          "title": "3단계 — 첫 진료 준비",
+          "description": "예약이 잡히면 Medicare 카드, 예방접종 기록, 증상 일지를 한꺼번에 준비해서 가세요. 통역이 필요하면 TIS National(131 450)에 사전 신청할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "아이 걱정, <em>오늘</em> 첫걸음",
+      "message": "'조금 더 지켜보자'가 가장 <strong>긴 대기 기간</strong>입니다. 걱정이 생겼다면 오늘 GP에 전화 한 통만 하세요. 의뢰서 한 장이 아이의 앞날을 바꿉니다.",
+      "comment_prompt": "저장하기 →"
+    }
+  ]
+}
