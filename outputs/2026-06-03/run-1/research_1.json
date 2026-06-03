@@ -1,0 +1,38 @@
+{
+  "topic": "호주 아이 소아과 의뢰 완전 가이드: GP에서 소아과 전문의까지 한국 엄마 실전 정보",
+  "slug": "paediatrician-referral-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 영어로 된 호주 의료 시스템 접근성이 낮고, 아이에게 전문적인 진료가 필요할 때 어디서부터 시작해야 할지 막막함을 느끼는 엄마들.",
+  "key_facts": [
+    "호주에서 소아과 전문의(Paediatrician)를 만나려면 반드시 GP 의뢰서(referral)가 필요하다. 의뢰서 없이는 Medicare 환급을 받을 수 없다.",
+    "GP 의뢰서 유효기간: GP 발급 시 최초 방문으로부터 12개월, 전문의 발급 시 3개월.",
+    "공립(Public) vs 사립(Private) 소아과: 공립은 무료지만 대기 기간이 수개월~수년까지 걸릴 수 있다. 사립은 비용이 발생하지만 대기 기간이 상대적으로 짧다.",
+    "사립 소아과 초진 비용은 $300~$500 수준이며 Medicare 환급 후 본인부담금이 발생한다. Medicare Item 110 (일반 전문의 진료, 75% 환급)이 적용된다.",
+    "ADHD, 자폐스펙트럼(ASD) 의심 시 대기 기간이 특히 길어, 일부 지역은 12개월 이상 대기가 일반적이다(2026년 University of Wollongong 자료).",
+    "이중 의뢰 전략(Dual Referral Strategy): 공립과 사립 소아과에 동시에 의뢰를 보낼 수 있다. 공립 예약이 잡히면 사립 예약을 취소하거나 관리를 이전할 수 있다.",
+    "GP에게 '전문의 의뢰가 필요한 이유'를 명확히 설명하는 것이 중요하다. 한국 엄마들은 영어로 증상을 설명하는 데 어려움을 느끼는 경우가 많다.",
+    "소아과 전문의 분야: 일반 소아과(General Paediatrician), 발달 소아과(Developmental Paediatrician), 소아 신경과(Paediatric Neurologist) 등. 발달 관련 우려(언어, ADHD, ASD)는 발달 소아과 의뢰가 적합하다.",
+    "공립 소아과 의뢰는 주로 병원 외래(Hospital Outpatient Clinic) 또는 지역 Community Health Centre를 통해 이뤄진다.",
+    "의뢰서 수령 후 진료 예약까지 절차: 의뢰서 전달 → 트리아지(우선순위 분류) → SMS/전화 연락 → 예약 확정. 긴급 케이스(urgent triage)는 2주 이내, 일반은 수개월."
+  ],
+  "statistics": [
+    "사립 ADHD 평가 대기 기간 평균 약 4개월, 최장 305일(약 10개월) — 호주 학술지 PMC12436960, 2026",
+    "ADHD 진단 비용 평균 $1,400 이상 — University of Wollongong, 2026",
+    "공립 시스템 ADHD/ASD 평가는 사실상 제공되지 않아 대부분 사립 의존 — Services Australia",
+    "Medicare Item 110: 전문의 초진, 환급액 약 $155~$175 수준 (전체 비용의 75%)"
+  ],
+  "angles": [
+    "처음으로 아이에게 발달 우려가 생겼을 때 한국 엄마가 느끼는 막막함과 두려움 → GP 방문부터 단계별 실전 가이드",
+    "공립 vs 사립 선택의 현실적인 고민 — 비용과 대기 기간의 트레이드오프",
+    "영어로 아이 증상 설명하기 — 실용 표현 및 GP 방문 준비 체크리스트",
+    "이중 의뢰 전략으로 대기 기간 최소화하는 법"
+  ],
+  "sources": [
+    "https://www.healthdirect.gov.au/paediatrician",
+    "https://hola.health/paediatrician-referral/",
+    "https://polygon-cow-3w2j.squarespace.com/blog/how-to-get-a-referral-to-a-paediatrician-in-australia",
+    "https://www.uow.edu.au/the-stand/2026/a-12-month-wait-and-a-1400-bill-adhd-diagnosis-in-australia.php",
+    "https://www.servicesaustralia.gov.au/childrens-health-care-covered-medicare",
+    "https://www.melbournepaediatricspecialists.com.au/patient-faqs/"
+  ]
+}
