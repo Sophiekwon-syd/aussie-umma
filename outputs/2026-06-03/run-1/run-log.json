@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-03T12:20:40Z",
+  "finished_at": "2026-06-03T12:32:10Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26884202456",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 소아과 의뢰 완전 가이드: GP에서 소아과 전문의까지 한국 엄마 실전 정보",
+      "slug": "paediatrician-referral-guide",
+      "html_file": "outputs/2026-06-03/run-1/paediatrician-referral-guide.html",
+      "copy_file": "outputs/2026-06-03/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "겨울방학 밀프렙 완전 가이드: 바쁜 워킹맘을 위한 주간 가족 식사 준비 전략",
+      "slug": "winter-holiday-meal-prep-guide",
+      "html_file": "outputs/2026-06-03/run-1/winter-holiday-meal-prep-guide.html",
+      "copy_file": "outputs/2026-06-03/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-01.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-02.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-03.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-04.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-05.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-06.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-07.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-08.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-09.png",
+    "outputs/2026-06-03/run-1/images/paediatrician-referral-guide-10.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-01.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-02.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-03.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-04.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-05.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-06.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-07.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-08.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-09.png",
+    "outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-10.png"
+  ]
+}
