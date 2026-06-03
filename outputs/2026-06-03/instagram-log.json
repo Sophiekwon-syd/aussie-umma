@@ -1,8 +1,8 @@
 {
   "date": "2026-06-03",
-  "last_run_at": "2026-06-03T12:40:09.817Z",
+  "last_run_at": "2026-06-03T21:00:48.848Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "e4c64ddea41dfaa8c2cf7d1ff5a93c4237c3b01d",
+  "ref": "5a1c0bf3174218ed520c4f3042b232c3a45cd483",
   "results": [
     {
       "topic": "호주 아이 소아과 의뢰 완전 가이드: GP에서 소아과 전문의까지 한국 엄마 실전 정보",
@@ -41,6 +41,44 @@
         "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/e4c64ddea41dfaa8c2cf7d1ff5a93c4237c3b01d/outputs/2026-06-03/run-1/images/winter-holiday-meal-prep-guide-10.png"
       ],
       "posted_at": "2026-06-03T12:40:09.817Z"
+    },
+    {
+      "topic": "호주 아이 불안·걱정 대응 완전 가이드: '학교 가기 싫어' 그 이면의 불안, 한국 엄마가 알아야 할 것",
+      "slug": "child-anxiety-guide-australia",
+      "carousel_container_id": "18094953263089110",
+      "ig_media_id": "18135668752490138",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/child-anxiety-guide-australia-10.png"
+      ],
+      "posted_at": "2026-06-03T20:58:37.775Z"
+    },
+    {
+      "topic": "호주 겨울방학 가족 예산 완전 가이드: 방학 동안 돈 덜 쓰고 잘 보내는 실전 전략",
+      "slug": "winter-holiday-family-budget-guide",
+      "carousel_container_id": "18094953551089110",
+      "ig_media_id": "18103640048095113",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/5a1c0bf3174218ed520c4f3042b232c3a45cd483/outputs/2026-06-03/run-2/images/winter-holiday-family-budget-guide-10.png"
+      ],
+      "posted_at": "2026-06-03T21:00:48.848Z"
     }
   ]
 }
