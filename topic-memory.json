@@ -323,6 +323,18 @@
       "date": "2026-06-03",
       "carousel_file": "outputs/2026-06-03/run-1/winter-holiday-meal-prep-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 불안·걱정 대응 완전 가이드: '학교 가기 싫어' 그 이면의 불안, 한국 엄마가 알아야 할 것",
+      "date": "2026-06-03",
+      "carousel_file": "outputs/2026-06-03/run-2/child-anxiety-guide-australia.html",
+      "cards": 10
+    },
+    {
+      "topic": "호주 겨울방학 가족 예산 완전 가이드: 방학 동안 돈 덜 쓰고 잘 보내는 실전 전략",
+      "date": "2026-06-03",
+      "carousel_file": "outputs/2026-06-03/run-2/winter-holiday-family-budget-guide.html",
+      "cards": 10
     }
   ]
 }
