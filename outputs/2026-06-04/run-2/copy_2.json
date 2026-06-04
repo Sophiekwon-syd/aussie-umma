@@ -1,0 +1,136 @@
+{
+  "topic": "호주 Playgroup 완전 가이드: 무료 육아 커뮤니티 리소스 한국 엄마 실전 활용법",
+  "slug": "playgroup-guide-korean-mums",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "PLAYGROUP",
+      "headline": "이거 <em>무료</em>인데 모르셨죠?",
+      "subtitle": "호주 플레이그룹, 한국 엄마 실전 활용 완전 가이드"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "호주에서 아이 <strong>친구도, 엄마 친구도</strong> 없는 그 외로움, 혹시 느껴본 적 있으신가요?",
+      "answer": "플레이그룹 하나로 그 두 가지가 동시에 해결됩니다."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS PLAYGROUP",
+      "term": "플레이그룹이란",
+      "explanation": "0-5세 영유아 자녀를 둔 부모·양육자가 함께 모여 아이들을 놀게 하고 정보를 나누는 <strong>무료·저비용 커뮤니티 모임</strong>입니다. 학기 중 주 1회, 보통 2시간.",
+      "punchline": "호주판 실생활 맘 카페라고 생각하시면 됩니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "RESEARCH SAYS",
+      "headline": "정부가 <em>$1,240만</em>을 투자하는 이유",
+      "chips": [
+        "발달 정상 궤도 47% 더 높다",
+        "발달 취약성 최대 60% 감소",
+        "신체·사회·정서·언어·인지 전 영역 효과",
+        "소득·거주 지역 무관하게 동등한 혜택"
+      ],
+      "explanation": "호주 Playgroup Australia 연구에 따르면, 플레이그룹에 참여한 아이는 초등학교 입학 시 발달이 정상 궤도에 있을 확률이 47% 더 높습니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "FIRST VISIT ROUTINE",
+      "headline": "처음 가는 날, 이렇게 준비하세요",
+      "entries": [
+        {
+          "label": "전날",
+          "text": "playgroupaustralia.org.au에서 <strong>가까운 플레이그룹</strong> 하나 확인. 운영 시간·연락처 저장."
+        },
+        {
+          "label": "당일",
+          "text": "간식, 물, 여벌 옷 챙기기. <strong>영어 걱정은 내려놓고</strong> 일단 들어가 보는 게 핵심입니다."
+        },
+        {
+          "label": "도착 후",
+          "text": "운영자에게 '<strong>처음 왔어요</strong>'라고 말하면 됩니다. 대부분 친절하게 안내해 줍니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "TYPES OF PLAYGROUP",
+      "headline": "어떤 플레이그룹이 나에게 맞을까요?",
+      "items": [
+        {
+          "title": "커뮤니티형",
+          "description": "부모가 직접 운영. 가장 흔하고 무료. 사교 목적으로 좋습니다."
+        },
+        {
+          "title": "지원형 (Supported)",
+          "description": "유아 교육 전문가가 운영. 발달 우려나 육아 스트레스가 있을 때 적합합니다."
+        },
+        {
+          "title": "다문화·한국어형",
+          "description": "한국어 플레이그룹 (예: 빅토리아 Knox Wantirna Hub). 같은 언어권 엄마들과 연결됩니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "BEFORE YOU GO",
+      "headline": "가기 전에 이것만 확인하세요",
+      "intro": "첫 방문 전 간단한 체크리스트입니다.",
+      "items": [
+        "대상 연령 확인 (보통 0-5세, 간혹 0-3세만)",
+        "운영 요일·시간 확인 (학기 중에만 운영하는 곳이 많음)",
+        "장소 확인 — 주차 또는 대중교통 경로 미리 파악",
+        "지원형 플레이그룹은 사전 예약 필요한지 전화 확인"
+      ],
+      "takeaway": "대부분은 당일 방문 가능. 너무 복잡하게 생각하지 않아도 됩니다."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "플레이그룹 첫 방문",
+      "do": [
+        "처음 왔다고 솔직하게 말하기 — 운영자가 도와줍니다",
+        "아이가 노는 동안 옆에 앉아 다른 부모와 눈 맞춤하기",
+        "다음 주에 또 오기 — 두 번째 방문부터 훨씬 편해집니다"
+      ],
+      "dont": [
+        "영어가 완벽하지 않아서 못 간다고 포기하기",
+        "첫날에 깊은 대화를 기대하기 — 처음은 그냥 앉아 있어도 됩니다",
+        "아이가 적응 못 한다고 바로 포기하기 — 보통 2-3번 가면 익숙해집니다"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "HOW TO FIND",
+      "headline": "오늘 10분으로 찾을 수 있습니다",
+      "steps": [
+        {
+          "title": "playgroupaustralia.org.au 검색",
+          "description": "주소나 우편번호를 입력하면 근처 플레이그룹 목록이 나옵니다. 한국어 다문화 플레이그룹 필터도 가능합니다."
+        },
+        {
+          "title": "MCHN 또는 GP에게 묻기",
+          "description": "모자보건 간호사(MCHN)나 주치의(GP)에게 '근처 playgroup 추천해 주세요'라고 하면 지역 맞춤 정보를 줍니다."
+        },
+        {
+          "title": "한인 커뮤니티 SNS 검색",
+          "description": "지역 한인 페이스북 그룹이나 카카오톡 채널에서 '플레이그룹'을 검색하면 같이 다니는 엄마들을 찾을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "이번 학기, <em>한 번만</em> 가보세요",
+      "message": "플레이그룹은 <strong>아이를 위한 것</strong>이면서 동시에 <strong>엄마를 위한 것</strong>입니다. 혼자 다 감당하지 않아도 됩니다.",
+      "comment_prompt": "플레이그룹 다녀본 경험 있으신가요? 댓글로 알려주세요."
+    }
+  ]
+}
