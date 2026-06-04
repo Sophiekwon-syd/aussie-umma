@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-04T00:00:00.000Z",
+  "finished_at": "2026-06-04T00:45:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26974933941",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "아이 자존감 키우기: 호주에서 자신감 있는 아이로 키우는 실전 전략",
+      "slug": "child-self-esteem-guide",
+      "html_file": "outputs/2026-06-04/run-2/child-self-esteem-guide.html",
+      "copy_file": "outputs/2026-06-04/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 Playgroup 완전 가이드: 무료 육아 커뮤니티 리소스 한국 엄마 실전 활용법",
+      "slug": "playgroup-guide-korean-mums",
+      "html_file": "outputs/2026-06-04/run-2/playgroup-guide-korean-mums.html",
+      "copy_file": "outputs/2026-06-04/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-01.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-02.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-03.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-04.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-05.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-06.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-07.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-08.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-09.png",
+    "outputs/2026-06-04/run-2/images/child-self-esteem-guide-10.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-01.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-02.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-03.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-04.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-05.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-06.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-07.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-08.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-09.png",
+    "outputs/2026-06-04/run-2/images/playgroup-guide-korean-mums-10.png"
+  ]
+}
