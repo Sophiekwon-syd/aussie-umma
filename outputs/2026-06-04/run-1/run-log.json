@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-04T11:00:00.000Z",
+  "finished_at": "2026-06-04T11:10:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "26946993505",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 GP 예방접종 스케줄 완전 가이드: 만 4세·만 18개월 무료 백신 놓치지 않는 법",
+      "slug": "immunisation-schedule-guide",
+      "html_file": "outputs/2026-06-04/run-1/immunisation-schedule-guide.html",
+      "copy_file": "outputs/2026-06-04/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주에서 한국 음식 먹이기: 아이 한식 편식 없이 키우는 현실 전략",
+      "slug": "korean-food-for-kids-australia",
+      "html_file": "outputs/2026-06-04/run-1/korean-food-for-kids-australia.html",
+      "copy_file": "outputs/2026-06-04/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-01.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-02.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-03.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-04.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-05.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-06.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-07.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-08.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-09.png",
+    "outputs/2026-06-04/run-1/images/immunisation-schedule-guide-10.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-01.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-02.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-03.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-04.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-05.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-06.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-07.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-08.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-09.png",
+    "outputs/2026-06-04/run-1/images/korean-food-for-kids-australia-10.png"
+  ]
+}
