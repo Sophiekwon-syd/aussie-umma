@@ -1,0 +1,158 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 GP 예방접종 스케줄 완전 가이드: 만 4세·만 18개월 무료 백신 놓치지 않는 법",
+      "slug": "immunisation-schedule-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "section_label": "",
+          "headline": "호주 무료 예방접종, 놓치고 있지 않으세요?",
+          "content_brief": "커버 카드. 예방접종 스케줄 가이드임을 직관적으로 전달. 'GP', '무료', '만 18개월·만 4세' 키워드 포함."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "section_label": "",
+          "headline": "마지막으로 아이 접종 기록 확인한 게 언제예요?",
+          "content_brief": "공감형 훅. 접종 날짜를 놓치거나 한국 기록과 호주 기록을 혼동하는 경험으로 시작. 답변: 지금 당장 확인할 수 있다."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "section_label": "NIP 이란",
+          "headline": "호주 무료 예방접종 시스템, NIP",
+          "content_brief": "NIP(National Immunisation Program) 개념 설명. 출생부터 만 4세까지 무료 제공, Medicare 카드 소지 시 GP에서 무료로 받을 수 있다는 핵심 정보."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "section_label": "접종률 현황",
+          "headline": "절반의 부모는 기록을 확인하지 않는다",
+          "content_brief": "데이터 카드. AIR 기록 확인 비율 41%, 이민자 가정 접종 지연율 1.3배, 호주 5세 미만 접종 완료율 93.9%, 2025년 홍역 11건 발생 수치 제시."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "section_label": "연령별 접종",
+          "headline": "놓치면 안 되는 세 번의 타이밍",
+          "content_brief": "루틴 카드. 12개월, 18개월, 4세 접종 시점을 세 가지 항목으로 정리. 각 시점에 맞아야 할 주요 백신 간략 설명."
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "section_label": "세 가지 상황",
+          "headline": "접종 상황별 대처법",
+          "content_brief": "카테고리 카드. '제때 맞은 경우', '일부 놓친 경우', '한국에서 맞고 온 경우' 세 가지 유형으로 각 상황의 다음 행동 안내."
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "section_label": "지금 당장",
+          "headline": "오늘 바로 할 수 있는 접종 체크리스트",
+          "content_brief": "체크리스트 카드. MyGov 기록 확인, CCS 상태 확인, GP 예약, 한국 기록 번역 등 4가지 즉시 행동 항목. 테이크어웨이: '지금이 가장 좋은 타이밍이에요'."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "section_label": "해야 할 것 vs 하지 말 것",
+          "headline": "접종할 때 Do & Don't",
+          "content_brief": "두 컬럼 카드. Do: 체온 정상 확인 후 방문, 기록 지참, catch-up 요청. Don't: 발열 시 접종, 한국 스케줄 그대로 적용, CCS 연동 무시."
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "section_label": "3단계 실행",
+          "headline": "접종 기록 확인부터 GP 예약까지 3단계",
+          "content_brief": "스텝 카드. 1단계: MyGov에서 AIR 확인, 2단계: 미접종 항목 파악 후 GP 예약, 3단계: GP 방문 시 catch-up schedule 요청."
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "section_label": "",
+          "headline": "오늘 5분, 아이 접종 기록 확인해 보세요",
+          "content_brief": "CTA 카드. MyGov 앱 접속 → AIR 확인 → 미접종 항목 있으면 GP 예약. 저장하기 CTA 포함."
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주에서 한국 음식 먹이기: 아이 한식 편식 없이 키우는 현실 전략",
+      "slug": "korean-food-for-kids-australia",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "section_label": "",
+          "headline": "아이가 한식을 거부할 때, 어떻게 하세요?",
+          "content_brief": "커버 카드. 한식 먹이기 고민을 직접 건드리는 제목. 바이링구얼 정체성, 음식 문화 유지 테마."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "section_label": "",
+          "headline": "도시락에 김밥 넣었다가 냄새 난다는 소리 들어봤어요?",
+          "content_brief": "공감 훅. 학교에서 한식 도시락이 '이상하다'는 소리를 듣는 경험. 답: 전략적으로 접근하면 바꿀 수 있다."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "section_label": "왜 중요한가",
+          "headline": "한식을 먹이는 것은 한국어를 가르치는 것",
+          "content_brief": "정의 카드. 음식과 언어·정체성의 연결 설명. 한국어 유지 그룹에서 성인이 된 후 한식 섭취율이 89%로 높다는 통계 기반."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "section_label": "데이터가 말하는 것",
+          "headline": "노출 횟수가 전부다",
+          "content_brief": "데이터 카드. 8-15번 노출 필요, 한국어 유지 그룹 89% vs 전체 67%, 아이 34% 학교에서 창피 경험, 한국 식품 매출 연평균 22% 성장."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "section_label": "주간 루틴",
+          "headline": "한식 노출을 루틴으로 만드는 법",
+          "content_brief": "루틴 카드. 세 가지 주간 한식 루틴 예시: 주말 밀프렙(냉동 반찬 준비), 평일 저녁 1-2회 한식 메뉴, 아이와 함께 주 1회 요리 활동."
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "section_label": "세 가지 전략",
+          "headline": "상황별 한식 먹이기 전략",
+          "content_brief": "카테고리 카드. '학교 도시락 전략(김밥)', '집 저녁 전략(호주 형식으로 번역)', '문화 행사 전략(학교 multicultural day 활용)' 세 가지."
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "section_label": "이번 주부터",
+          "headline": "한식 거부 아이를 위한 실전 체크리스트",
+          "content_brief": "체크리스트 카드. 4가지 항목: 같은 음식 15번 내놓기 도전, 아이와 함께 요리 1회, 어린이집 allergen 정책 확인, multicultural day에 한식 참여 계획. 테이크어웨이: '포기하지 않는 것이 전략이에요'."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "section_label": "해야 할 것 vs 하지 말 것",
+          "headline": "한식 먹이기 Do & Don't",
+          "content_brief": "두 컬럼 카드. Do: 억지로 먹이지 않고 노출만 하기, 한식을 '맛있는 음식'으로 긍정 프레이밍, 호주 형식으로 변형. Don't: 한 번 거부에 포기, 냄새 강한 음식 강요, 학교 점심에 익숙지 않은 새 음식 첫 시도."
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "section_label": "3단계 접근",
+          "headline": "한식 거부 아이를 바꾸는 3단계",
+          "content_brief": "스텝 카드. 1단계: 거부 없이 노출만(식탁에 올려두기), 2단계: 아이가 좋아하는 재료로 한식 변형(김밥 속 재료 협의), 3단계: 아이를 요리에 참여시켜 주인의식 만들기."
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "section_label": "",
+          "headline": "오늘 저녁, 한식 한 가지 식탁에 올려보세요",
+          "content_brief": "CTA 카드. 거부해도 괜찮다. 노출이 쌓이면 바뀐다. 저장하기 CTA. 댓글 참여 유도: '우리 아이가 제일 좋아하는 한식은?'"
+        }
+      ]
+    }
+  ]
+}
