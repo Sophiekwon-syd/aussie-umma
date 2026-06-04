@@ -1,0 +1,136 @@
+{
+  "topic": "아이 자존감 키우기: 호주에서 자신감 있는 아이로 키우는 실전 전략",
+  "slug": "child-self-esteem-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "SELF-ESTEEM",
+      "headline": "자존감은 <em>지금</em> 만들어집니다",
+      "subtitle": "호주에서 자신감 있는 아이로 키우는 실전 전략"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 이런 경험 있으신가요? 아이한테 <strong>'잘했어!'</strong> 라고 했는데 오히려 다음 번에 더 안 하려 하는 것.",
+      "answer": "칭찬 방법을 조금만 바꾸면 달라집니다."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS SELF-ESTEEM",
+      "term": "자존감이란",
+      "explanation": "자존감은 '잘해야 생기는 것'이 아닙니다. 결과와 무관하게 <strong>'나는 괜찮은 사람이야'</strong> 라고 느끼는 내면의 확신입니다.",
+      "punchline": "성취가 없어도 자존감은 키울 수 있습니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "RESEARCH SAYS",
+      "headline": "만 <em>8세</em> 이전이 결정적입니다",
+      "chips": [
+        "정서 지능 80% 더 높다 (AIFS)",
+        "불안·우울 50% 더 낮다 (AIFS)",
+        "도전 포기 30% 줄어든다 (Mindset Scholars Network)",
+        "과정 칭찬 → 초등 성취도 상승"
+      ],
+      "explanation": "호주 가족연구소(AIFS) 연구에 따르면, 일찍 긍정적 자존감을 키운 아이는 나중에 불안을 경험할 확률이 50% 낮습니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "DAILY ROUTINE",
+      "headline": "매일 쓸 수 있는 자존감 대화 루틴",
+      "entries": [
+        {
+          "label": "아침",
+          "text": "오늘 해보고 싶은 것 하나 물어보기. <strong>선택권</strong>을 주면 자기 효능감이 생깁니다."
+        },
+        {
+          "label": "저녁",
+          "text": "결과가 아닌 <strong>노력</strong>에 주목하기. '오늘 어떤 부분이 열심히 했어?'"
+        },
+        {
+          "label": "취침 전",
+          "text": "아이 감정을 이름 붙여 인정해주기. <strong>'속상했겠다, 그럴 수 있어.'</strong>"
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "TYPES OF PRAISE",
+      "headline": "칭찬에도 종류가 있습니다",
+      "items": [
+        {
+          "title": "과정 칭찬",
+          "description": "'이번에 정말 열심히 준비했네.' 노력과 방법을 인정합니다. 자존감을 키웁니다."
+        },
+        {
+          "title": "능력 칭찬",
+          "description": "'넌 원래 잘하잖아.' 능력을 고정으로 봅니다. 실패 시 자존감이 무너집니다."
+        },
+        {
+          "title": "결과 칭찬",
+          "description": "'100점 받았네, 잘했어.' 점수에만 집중합니다. 점수 없을 때 불안해집니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "SELF-CHECK",
+      "headline": "나도 모르게 하고 있지 않나요?",
+      "intro": "자존감을 방해하는 4가지 패턴을 확인해 보세요.",
+      "items": [
+        "형제자매끼리 비교하기 ('오빠는 잘했는데 왜 너는…')",
+        "실패를 너무 빨리 수습해주기 (아이가 포기를 배웁니다)",
+        "아이 앞에서 엄마 자신을 심하게 비하하기",
+        "호주 기준과 한국 기준을 섞어서 혼란스러운 기대 주기"
+      ],
+      "takeaway": "하나라도 보이면, 오늘부터 딱 하나만 바꿔보세요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "아이가 실패했을 때",
+      "do": [
+        "'이번엔 어떤 부분이 어려웠어?' — 과정을 함께 돌아봅니다",
+        "'다음엔 어떻게 해볼까?' — 해결책을 같이 찾습니다",
+        "'그래도 끝까지 해봤잖아.' — 노력 자체를 인정합니다"
+      ],
+      "dont": [
+        "'왜 이것도 못해?' — 능력을 부정합니다",
+        "'그러니까 내가 뭐랬어.' — 아이를 더 작게 만듭니다",
+        "아무 말 없이 넘기기 — 감정이 해소되지 않습니다"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "BILINGUAL IDENTITY",
+      "headline": "한국 정체성이 자존감이 됩니다",
+      "steps": [
+        {
+          "title": "한국어를 특권으로 설명하기",
+          "description": "두 언어를 쓰는 것이 특별한 능력이라고 알려주세요. '너는 한국어랑 영어 둘 다 할 수 있잖아.'"
+        },
+        {
+          "title": "한국 문화 경험을 자랑거리로",
+          "description": "한국 음식, 명절, 이야기를 친구에게 소개하는 기회를 만들어 주세요. 다름이 자랑이 됩니다."
+        },
+        {
+          "title": "한국 가족과의 연결 유지",
+          "description": "영상 통화, 편지, 사진 공유로 조부모·친척과 연결을 유지하면 아이가 '나는 어디에 속해 있다'고 느낍니다."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "오늘 밤 한 마디만 <em>바꿔보세요</em>",
+      "message": "<strong>'잘했어'</strong> 대신 '<strong>열심히 했네</strong>'로. 그 한 마디가 아이의 자존감을 쌓습니다.",
+      "comment_prompt": "여러분은 어떤 칭찬을 주로 하세요? 댓글로 알려주세요."
+    }
+  ]
+}
