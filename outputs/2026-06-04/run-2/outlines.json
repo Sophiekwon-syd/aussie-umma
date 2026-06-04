@@ -1,0 +1,138 @@
+{
+  "outlines": [
+    {
+      "carousel_index": 1,
+      "topic": "아이 자존감 키우기: 호주에서 자신감 있는 아이로 키우는 실전 전략",
+      "slug": "child-self-esteem-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "주제 소개 — 자존감이 왜 지금 중요한지 호기심 유발",
+          "key_message": "아이 자존감, 지금 이 시기가 가장 중요합니다"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "독자의 공감 유발 — 흔히 하는 칭찬이 역효과를 낼 수 있다는 반전",
+          "key_message": "'잘했어!' 한마디가 오히려 자존감을 낮출 수 있다?"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "자존감의 개념 정의 — 성취감과 자존감의 차이 설명",
+          "key_message": "자존감은 '잘해야 생기는 것'이 아니라 '그냥 나를 괜찮다고 느끼는 것'"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "연구 데이터로 자존감 형성 시기의 중요성 강조",
+          "key_message": "만 8세 이전이 결정적 — AIFS 연구 데이터 제시"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "일상 속 자존감 키우는 3가지 루틴 제시",
+          "key_message": "아침·저녁에 쓸 수 있는 구체적 대화 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "칭찬의 3가지 유형 분류 — 과정/노력/결과 칭찬 비교",
+          "key_message": "어떤 칭찬이 자존감을 키우고 어떤 칭찬이 깎는지"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "자존감을 깎는 말·행동 체크리스트",
+          "key_message": "나도 모르게 하고 있는 4가지 자존감 방해 행동"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "실패했을 때 엄마가 해야 할 말 vs. 하지 말아야 할 말",
+          "key_message": "아이가 실패했을 때 자존감을 지키는 대화법"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "한국계 호주 아이를 위한 이중 정체성 자존감 강화 3단계",
+          "key_message": "한국어·문화가 자존감의 원천이 될 수 있다"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장·공유 유도, 내일부터 실천할 수 있는 한 가지 행동 제안",
+          "key_message": "오늘 밤 아이에게 한 마디 바꿔보세요"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 Playgroup 완전 가이드: 무료 육아 커뮤니티 리소스 한국 엄마 실전 활용법",
+      "slug": "playgroup-guide-korean-mums",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "플레이그룹 소개 — 모르면 손해인 무료 리소스로 포지셔닝",
+          "key_message": "이거 무료인데 대부분의 한국 엄마가 모릅니다"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "고립감 공감 — '호주에서 아이 친구 사귀기 어렵다' 아픈 지점 터치",
+          "key_message": "아이 친구도, 엄마 친구도 없는 그 외로움"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "플레이그룹이 무엇인지 명확하게 정의",
+          "key_message": "플레이그룹 = 호주판 실생활 맘 카페"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "플레이그룹 효과 데이터 — 발달 지표, 정부 투자 규모 제시",
+          "key_message": "47% 더 발달 정상 궤도 — 정부가 $1,240만 투자하는 이유"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "첫 방문 당일 루틴 — 준비부터 도착까지 3단계",
+          "key_message": "처음 가는 날, 이렇게 준비하세요"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "플레이그룹 4가지 유형 분류 — 각 유형별 특징과 어떤 엄마에게 맞는지",
+          "key_message": "커뮤니티형 / 지원형 / 다문화형 / 도서관형"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "첫 방문 전 체크리스트 4가지",
+          "key_message": "가기 전에 이것만 확인하세요"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "플레이그룹에서 해야 할 것 vs. 하지 말아야 할 것",
+          "key_message": "처음 방문할 때 자연스럽게 녹아드는 법"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "지역 플레이그룹 찾는 3단계 실전 가이드",
+          "key_message": "오늘 10분이면 찾을 수 있어요"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장·공유 유도, 이번 주 플레이그룹 찾아보기 행동 제안",
+          "key_message": "이번 학기 한 번만 가봐도 달라집니다"
+        }
+      ]
+    }
+  ]
+}
