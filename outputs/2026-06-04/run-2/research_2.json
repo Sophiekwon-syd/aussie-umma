@@ -1,0 +1,104 @@
+{
+  "topic": "호주 Playgroup 완전 가이드: 무료 육아 커뮤니티 리소스 한국 엄마 실전 활용법",
+  "slug": "playgroup-guide-korean-mums",
+  "research_date": "2026-06-04",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 특히 영아·유아 자녀를 둔 엄마, 호주 육아 커뮤니티 고립감을 느끼는 엄마.",
+  "key_facts": [
+    {
+      "fact": "Playgroup(플레이그룹)은 보통 0-5세 영유아 자녀를 둔 부모·양육자가 함께 모여 아이들을 놀게 하고 정보를 나누는 커뮤니티 모임이다. 주로 주 1회, 학기 중에 운영된다.",
+      "source": "Playgroup Australia"
+    },
+    {
+      "fact": "호주 연방정부는 2025-2026년에 $1,240만(약 120억 원)을 투자해 전국적으로 273개의 신규 플레이그룹을 추가 운영한다.",
+      "source": "Playgroup Australia"
+    },
+    {
+      "fact": "플레이그룹에 참여한 아이는 초등학교 입학 시 발달이 정상 궤도에 있을 확률이 47% 더 높다 (신체·사회·정서·언어·인지 5개 영역 모두 포함).",
+      "source": "Playgroup Australia — 'Playgroups post-pandemic' report"
+    },
+    {
+      "fact": "플레이그룹 혜택은 소득 수준이나 거주 지역에 관계없이 동등하게 나타난다.",
+      "source": "Professor Sally Brinkman, Playgroup Australia research"
+    },
+    {
+      "fact": "플레이그룹과 유아원(preschool)을 함께 이용한 아이는 발달 취약성이 최대 60% 감소한다.",
+      "source": "The Infants' Home Australia"
+    },
+    {
+      "fact": "대부분의 공립 플레이그룹은 무료이거나 $2-5 정도의 소액 회비만 받는다. 일부 지역사회 조직이나 의회(Council)가 운영하는 프로그램은 완전 무료.",
+      "source": "Playgroup Victoria / Local council websites"
+    },
+    {
+      "fact": "호주에는 한국어권 가족을 위한 전용 다문화 플레이그룹이 존재한다. 빅토리아주 Knox(Wantirna Hub)에서는 매주 월요일 오전 9:30-11:30에 한국어 플레이그룹이 운영된다.",
+      "source": "Knox Council / Wantirna Children and Family Centre"
+    },
+    {
+      "fact": "플레이그룹은 부모 고립감 해소에 효과적이다. 특히 다문화 지원 플레이그룹은 새로 이민 온 부모들에게 '지역사회 연결의 게이트웨이' 역할을 한다.",
+      "source": "standard.net.au / Multicultural playgroup pilot report"
+    },
+    {
+      "fact": "MCHN(모자보건 간호사)이나 GP(주치의), 지역 Council에 문의하면 가장 가까운 플레이그룹 정보를 얻을 수 있다. startingblocks.gov.au에서도 검색 가능.",
+      "source": "Playgroup Australia / Services Australia"
+    }
+  ],
+  "statistics": [
+    { "value": "47%", "description": "플레이그룹 참여 아이가 초등학교 입학 시 발달 정상 궤도에 있을 확률 증가", "source": "Playgroup Australia" },
+    { "value": "60%", "description": "플레이그룹+유아원 병행 시 발달 취약성 감소율", "source": "The Infants' Home Australia" },
+    { "value": "$0-$5", "description": "공립 또는 카운슬 운영 플레이그룹의 일반 참가비", "source": "Playgroup Victoria" },
+    { "value": "273개", "description": "2025-2026 연방 예산으로 신규 추가되는 플레이그룹 수", "source": "Australian Government / Playgroup Australia" }
+  ],
+  "types_of_playgroups": [
+    {
+      "type": "Community Playgroup (커뮤니티 플레이그룹)",
+      "description": "부모가 자체적으로 운영하는 가장 일반적인 형태. 학교 강당, 교회 홀, 커뮤니티 센터 등에서 열린다. 주로 무료 또는 소액 회비.",
+      "best_for": "사교 목적, 다른 부모 만나기"
+    },
+    {
+      "type": "Supported Playgroup (서포트 플레이그룹)",
+      "description": "자격을 갖춘 유아 교육 전문가나 패밀리 서포트 워커가 운영한다. 육아 스트레스, 발달 우려, 고립감이 있는 가족에게 추가 지원 제공.",
+      "best_for": "육아 어려움, 발달 우려, 전문가 조언이 필요할 때"
+    },
+    {
+      "type": "Multicultural / Language Playgroup (다문화·언어 플레이그룹)",
+      "description": "특정 문화권 가족을 위한 전용 플레이그룹. 한국어 플레이그룹, 중국어 플레이그룹 등이 있다.",
+      "best_for": "같은 언어권 엄마들과 연결, 한국어 환경 유지"
+    },
+    {
+      "type": "Intergenerational Playgroup (세대 통합 플레이그룹)",
+      "description": "어린 아이와 노인이 함께 참여하는 플레이그룹. 요양원 방문 또는 특별 프로그램 형태.",
+      "best_for": "조부모 없이 키우는 아이에게 어른과의 교류 기회 제공"
+    },
+    {
+      "type": "Library Storytime / Council Playgroup",
+      "description": "지역 도서관이나 카운슬이 운영하는 스토리타임, 음악, 미술 세션. 별도 등록 없이 무료로 참여 가능한 경우가 많다.",
+      "best_for": "등록 없이 바로 시작하기, 도서관 연결"
+    }
+  ],
+  "how_to_find": [
+    "playgroupaustralia.org.au — 주소 입력하면 근처 플레이그룹 검색 가능",
+    "startingblocks.gov.au — 연방정부 공인 육아 서비스 전체 검색",
+    "지역 Council 웹사이트 → Children & Family 섹션",
+    "MCHN(모자보건 간호사)에게 직접 문의",
+    "지역 Facebook 한인 육아 그룹에서 '플레이그룹' 검색",
+    "지역 도서관 → Storytime / Baby Rhyme Time 프로그램 확인"
+  ],
+  "registration_tips": [
+    "대부분의 플레이그룹은 사전 등록 불필요 — 당일 방문 가능",
+    "일부 지원형(supported) 플레이그룹은 사전 예약 필요",
+    "참가 전 주최 측에 연령 범위(age range) 확인 권장 (보통 0-5세)",
+    "한국어 다문화 플레이그룹은 학기 중에만 운영되는 경우가 많음",
+    "처음 방문 시 이름표(name tag)를 나눠주는 곳도 있으니 너무 부담갖지 않아도 됨"
+  ],
+  "benefits_for_mum": [
+    "같은 연령대 아이를 키우는 다른 부모들과 자연스럽게 연결",
+    "호주 육아 정보를 실시간으로 공유받는 채널",
+    "전문가(패밀리 서포트 워커)에게 부담 없이 육아 고민 상담 가능",
+    "아이가 노는 동안 엄마도 잠깐 쉬는 시간 확보",
+    "고립감 해소 — 특히 한국 다문화 플레이그룹은 한국어로 소통 가능"
+  ],
+  "cultural_context": {
+    "korean_mum_barrier": "한국 엄마들이 플레이그룹 참여를 망설이는 주된 이유: 영어 소통 부담, '모르는 사람들과 어색함', 플레이그룹 존재 자체를 모름.",
+    "solution": "한국어 다문화 플레이그룹부터 시작하거나, 한인 커뮤니티 SNS에서 같이 가는 그룹을 먼저 찾는 것이 효과적.",
+    "value_proposition": "플레이그룹은 단순한 놀이 모임이 아니다. 호주 육아 정보 네트워크의 입구이자, 한국의 '맘 카페' 역할을 실생활에서 해주는 공간이다."
+  }
+}
