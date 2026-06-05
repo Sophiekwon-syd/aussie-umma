@@ -1,0 +1,136 @@
+{
+  "topic": "호주 아이 수면제(멜라토닌) 완전 가이드: GP 처방 전 엄마가 꼭 알아야 할 것",
+  "slug": "melatonin-kids-guide-australia",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "SLEEP GUIDE",
+      "headline": "멜라토닌, 아이에게 <em>줘도</em> 될까요?",
+      "subtitle": "호주에서 처방전 없이 사면 안 되는 이유, 지금 알아두세요."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "아이가 잠을 못 자서 멜라토닌을 검색해본 적 있으신가요? 저도 그랬어요. 근데 알고 보니 호주에서는 <strong>처방전이 필요한 약</strong>이었어요.",
+      "answer": "오늘 이 카드, 저장해 두세요. 꼭 필요한 정보예요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS IT",
+      "term": "멜라토닌",
+      "explanation": "멜라토닌은 우리 몸이 밤이 됐다는 신호를 받을 때 분비하는 호르몬이에요. 호주에서는 <strong>처방전 필요 의약품</strong>으로 분류돼 있어요. 건강보조식품이 아닙니다.",
+      "punchline": "한국에서는 쉽게 살 수 있지만, 호주 규정은 달라요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "REAL NUMBERS",
+      "headline": "호주 아이들, 얼마나 <em>많이</em> 먹고 있을까요?",
+      "chips": [
+        "14.4% — 학령기 아동 복용 경험",
+        "71.6% — 처방전 없이 복용",
+        "최대 400% — 직구 제품 용량 초과",
+        "2026 의학저널 — 과잉 사용 경고"
+      ],
+      "explanation": "Royal Children's Hospital 조사(2024) 결과예요. 멜라토닌을 먹인 아이 10명 중 7명이 의사 처방 없이 복용했어요. TGA는 2025년 9월 해외 직구 제품 안전 경보를 발령했어요. (출처: Royal Children's Hospital National Child Health Poll 2024; TGA Safety Alert 2025)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "TRY FIRST",
+      "headline": "약보다 먼저 시도할 수 있는 것들",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "취침 시간을 <strong>매일 같은 시간</strong>으로 고정하세요. 주말도 30분 이상 차이나지 않게."
+        },
+        {
+          "label": "STEP 2",
+          "text": "잠자리 들기 <strong>1시간 전</strong>에 모든 화면을 끄세요. TV, 태블릿, 스마트폰 포함이에요."
+        },
+        {
+          "label": "STEP 3",
+          "text": "목욕 → 조명 낮추기 → 책 읽기 → 소등, <strong>30~45분 루틴</strong>을 2주 동안 꾸준히 해보세요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "WHEN IT'S PRESCRIBED",
+      "headline": "GP가 실제로 처방하는 경우는 이럴 때예요",
+      "items": [
+        {
+          "title": "자폐스펙트럼장애(ASD)",
+          "description": "TGA가 공식 승인한 주요 적응증이에요. ASD 아동의 수면 장애에 처방 가능해요."
+        },
+        {
+          "title": "ADHD 또는 Smith-Magenis 증후군",
+          "description": "특정 발달 조건이 있는 아이에게 GP 또는 소아과 전문의가 처방할 수 있어요."
+        },
+        {
+          "title": "행동 요법으로 해결 안 되는 심각한 만성 불면",
+          "description": "2~4주 이상 수면 문제가 지속되고 학교 생활에 영향이 클 때 GP와 상담 후 처방 가능해요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "SEE YOUR GP IF...",
+      "headline": "이런 상황이라면 GP 예약하세요",
+      "intro": "수면 문제가 아이 일상에 영향을 준다면 혼자 해결하려 하지 마세요.",
+      "items": [
+        "수면 문제가 2~4주 이상 계속될 때",
+        "낮에 집중력이 떨어지고 학교 생활이 힘들어 보일 때",
+        "자다가 코를 심하게 골거나 숨을 멈추는 것 같을 때",
+        "밤마다 극심하게 불안해하거나 공황 반응을 보일 때"
+      ],
+      "takeaway": "GP는 수면 일지를 보면 더 잘 도와줄 수 있어요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "멜라토닌, 이렇게 하세요 vs 하지 마세요",
+      "do": [
+        "수면 문제가 생기면 행동 전략부터 2주간 시도해보기",
+        "지속된다면 GP와 상담하고 처방 받기",
+        "GP가 처방했다면 지시대로만 복용하기"
+      ],
+      "dont": [
+        "해외 직구로 구매해서 아이에게 먹이기",
+        "처방전 없이 약국·건강식품점 제품 구매해 투여하기",
+        "의사 감독 없이 장기간 지속적으로 먹이기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "ACTION PLAN",
+      "headline": "아이 수면 문제, 이 순서로 대응하세요",
+      "steps": [
+        {
+          "title": "1단계: 행동 전략 2주 시도",
+          "description": "취침 루틴 고정, 화면 차단, 침실 환경 개선을 2주 동안 일관되게 실천해보세요."
+        },
+        {
+          "title": "2단계: GP 예약 + 수면 일지 작성",
+          "description": "2주가 지나도 개선이 없으면 GP에 예약하세요. 아이 수면 패턴을 일지로 기록해 가져가면 훨씬 도움이 돼요."
+        },
+        {
+          "title": "3단계: GP 처방 후 복용 (필요 시)",
+          "description": "GP가 필요하다고 판단했을 때만 처방받아 복용하세요. 전문의 의뢰가 필요하면 GP가 연결해 줄 거예요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "이 정보, 필요한 엄마에게 <em>꼭</em> 전달해주세요",
+      "message": "멜라토닌은 건강보조식품이 아니에요. 호주에서는 <strong>처방전이 필요한 약</strong>이에요. 아이 수면 걱정, 혼자 해결하려 하지 마세요.",
+      "comment_prompt": "아이 수면 때문에 고민해본 적 있으신가요? 댓글로 나눠주세요."
+    }
+  ]
+}
