@@ -371,6 +371,18 @@
       "date": "2026-06-05",
       "carousel_file": "outputs/2026-06-05/run-1/winter-holiday-boredom-busting-plan.html",
       "cards": 10
+    },
+    {
+      "topic": "아이 자전거 타기 교육: 호주에서 안전하게 시작하는 실전 가이드",
+      "date": "2026-06-05",
+      "carousel_file": "outputs/2026-06-05/run-2/kids-bike-riding-guide-australia.html",
+      "cards": 10
+    },
+    {
+      "topic": "워킹맘 죄책감 다루기: 일하면서도 좋은 엄마가 될 수 있는 마음가짐 전략",
+      "date": "2026-06-05",
+      "carousel_file": "outputs/2026-06-05/run-2/working-mum-guilt-mindset-guide.html",
+      "cards": 10
     }
   ]
 }
