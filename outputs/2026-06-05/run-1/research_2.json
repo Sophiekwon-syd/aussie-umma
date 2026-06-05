@@ -1,0 +1,75 @@
+{
+  "topic": "겨울방학 아이 심심해 대응 전략: Term 2 방학 2주를 알차게 보내는 실전 플랜",
+  "slug": "winter-holiday-boredom-busting-plan",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마",
+  "key_facts": [
+    "2026년 호주 Term 2 방학 일정: 빅토리아·퀸즐랜드 6월 27일~7월 12일, NSW 7월 6일~17일, 남호주·서호주 7월 4일~19일, ACT 7월 4일~20일. 각 주별로 약 2주간이다.",
+    "호주 겨울방학은 2주로, 긴 여름방학(6~7주)보다 짧아 Vacation Care만으로는 부족하고, 대부분의 워킹맘은 연차 + Vacation Care + 지역 프로그램 조합으로 대응한다.",
+    "멜버른 박물관은 16세 미만 어린이 무료 입장, NGV 상설전시 무료, Royal Botanic Gardens Ian Potter Children's Garden 무료이다.",
+    "호주 공립도서관은 방학 중 무료 Holiday Reading 프로그램, 스토리타임, 공예 워크샵을 운영한다. 각 지방자치단체별로 무료 방학 프로그램을 제공한다.",
+    "호주 Australian Museum(시드니)는 방학 기간 어린이 대상 과학·자연 체험 프로그램을 운영한다.",
+    "워킹맘이 방학 대응에 사용하는 주요 방법: 연차 나눠 쓰기(파트너와 교대), Vacation Care 예약, 가족/지인 돌봄 요청, 홀리데이 캠프 등록.",
+    "Vacation Care(방과후 돌봄 기관의 방학 프로그램)는 CCS(Child Care Subsidy) 대상이 되는 경우가 많아 비용 절감이 가능하다. 단, 자리가 빨리 마감되므로 미리 예약이 중요하다.",
+    "방학 중 아이 심심함 대응의 핵심은 '구조화된 자유시간'이다. 매일 고정된 활동(아침 산책, 독서 시간)과 비구조적 자유 놀이 시간을 균형 있게 배치하는 것이 전문가 권고사항이다.",
+    "요리 함께 하기, 텃밭 가꾸기, 보드게임, 그림 그리기 같은 집안 활동은 비용 없이 아이의 창의력과 독립심을 키울 수 있다.",
+    "겨울방학은 아이가 '지루함을 견디는 능력'을 키울 기회이기도 하다. 미국 소아과학회(AAP)는 적당한 비구조적 시간이 자기 주도성 발달에 중요하다고 강조한다.",
+    "Queensland 겨울방학 활동: Queensland Museum, 로컬 카운슬 무료 이벤트, 자연공원 하이킹, 도서관 프로그램.",
+    "시드니 겨울방학 활동: Australian Museum 과학 프로그램, Taronga Zoo(유료지만 Member 가족은 무료), 지역 쇼핑센터 무료 워크샵, 도서관.",
+    "겨울방학 가족 외출의 숨은 비용은 '이동 중 간식/식사'이다. 도시락을 싸가면 완전 무료 외출이 가능하다."
+  ],
+  "statistics": [
+    { "figure": "약 2주", "context": "호주 Term 2 겨울방학 기간 (대부분의 주에서 약 2주)", "source": "schoolholidays.com.au 2026" },
+    { "figure": "무료", "context": "멜버른 박물관, NGV 상설전시, 대부분의 공립도서관 방학 프로그램 비용", "source": "vicbuzz.com.au / Museums Victoria" },
+    { "figure": "CCS 적용 가능", "context": "Vacation Care 이용 시 CCS 보조금 적용 가능 (가족 소득과 활동 시간에 따라 상이)", "source": "Services Australia" }
+  ],
+  "angles": [
+    "한국 엄마들은 '방학인데 뭘 해야 하지?'라는 불안감을 공통으로 느끼며, 호주 무료 리소스를 잘 모르는 경우가 많다.",
+    "겨울이라 야외 활동이 제한적이라고 생각하지만, 호주 겨울(특히 퀸즐랜드, NSW)은 야외 활동하기에 오히려 적합한 날씨다.",
+    "워킹맘 입장에서 '연차를 얼마나 써야 하나' 걱정이 크므로 Vacation Care + 무료 지역 프로그램 조합 전략이 실용적인 정보가 된다.",
+    "'심심하다'는 아이에게 어떻게 반응해야 하는지에 대한 육아 철학적 관점도 저장 가치가 높다."
+  ],
+  "free_activity_categories": [
+    {
+      "category": "도서관 프로그램",
+      "examples": ["Holiday Reading Challenge", "스토리타임", "공예 워크샵", "LEGO Club"],
+      "cost": "무료"
+    },
+    {
+      "category": "박물관·갤러리",
+      "examples": ["멜버른 박물관(16세 미만 무료)", "Australian Museum 워크샵", "NGV 상설전시", "주립 박물관"],
+      "cost": "무료~저비용"
+    },
+    {
+      "category": "자연·공원",
+      "examples": ["Royal Botanic Gardens", "국립공원 하이킹", "비치 산책(겨울도 가능)", "로컬 파크 피크닉"],
+      "cost": "무료"
+    },
+    {
+      "category": "집안 활동",
+      "examples": ["함께 요리하기", "텃밭 씨앗 심기", "보드게임·퍼즐", "그림·공예"],
+      "cost": "무료"
+    },
+    {
+      "category": "Vacation Care",
+      "examples": ["기존 어린이집·After School Care 방학 프로그램", "CCS 보조금 적용 가능"],
+      "cost": "유료(CCS 할인 가능)"
+    }
+  ],
+  "working_mum_strategies": [
+    "방학 첫날: 2주 일정표를 아이와 함께 만들어 붙여놓기",
+    "파트너와 연차 교대 분배: 각자 3~4일씩 나눠 쓰기",
+    "Vacation Care 방학 전 최소 4주 전에 예약",
+    "지역 카운슬 웹사이트에서 무료 방학 프로그램 목록 미리 확인",
+    "아이에게 매일 아침 '오늘 할 일 하나' 결정하게 하기 (자율성 부여)"
+  ],
+  "boredom_philosophy": "아이가 '심심해'라고 말할 때 즉시 해결해 주지 않아도 된다. '심심함'은 창의성과 자기 주도성이 자라는 순간이다. 5~10분 기다리면 스스로 뭔가를 찾기 시작한다.",
+  "sources": [
+    "https://schoolholidays.com.au/holidays/australia",
+    "https://vicbuzz.com.au/blog/free-school-holiday-activities-melbourne-2026",
+    "https://mumslittleexplorers.com/fun-school-holiday-activities-melbourne/",
+    "https://australian.museum/about/organisation/media-centre/school-holiday-fun-at-the-australian-museum-whats-on-for-curious-kids-this-winter/",
+    "https://kiddipedia.com.au/4-exciting-ways-to-deal-with-boredom-during-winter-school-holidays/",
+    "https://stayathomemum.com.au/family/school/school-holidays/"
+  ]
+}
