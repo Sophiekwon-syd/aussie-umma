@@ -1,0 +1,136 @@
+{
+  "topic": "겨울방학 아이 심심해 대응 전략: Term 2 방학 2주를 알차게 보내는 실전 플랜",
+  "slug": "winter-holiday-boredom-busting-plan",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "WINTER HOLIDAYS",
+      "headline": "방학 2주, <em>계획</em> 없이 가면 전쟁이에요",
+      "subtitle": "호주 엄마들의 실전 겨울방학 플랜. 무료 활동부터 Vacation Care까지."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "방학 첫날 아침 10시, 아이가 말해요. <strong>\"엄마, 심심해.\"</strong> 그 순간, 내가 뭔가 잘못하고 있는 걸까 싶어지죠.",
+      "answer": "아무것도 잘못한 거 없어요. 준비가 조금 필요할 뿐이에요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "REFRAME",
+      "term": "좋은 방학",
+      "explanation": "매 시간 스케줄이 꽉 찬 방학이 좋은 방학이 아니에요. <strong>구조화된 활동 + 자유 놀이 시간</strong>의 균형이 아이의 창의력과 자기 주도성을 키워요.",
+      "punchline": "심심한 시간도 아이에게 필요한 시간이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "KNOW THE DATES",
+      "headline": "2026 겨울방학, <em>우리 주</em>는 언제예요?",
+      "chips": [
+        "VIC·QLD: 6월 27일 ~ 7월 12일",
+        "NSW: 7월 6일 ~ 17일",
+        "SA·WA: 7월 4일 ~ 19일",
+        "Vacation Care: CCS 보조금 적용 가능"
+      ],
+      "explanation": "약 2주 동안의 방학이에요. 긴 여름방학보다 짧지만, 준비 없이 가면 워킹맘에게는 충분히 힘든 기간이에요. 미리 계획하면 훨씬 수월해져요. (출처: schoolholidays.com.au 2026)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "DAILY RHYTHM",
+      "headline": "방학 중 하루 루틴 이렇게 잡아보세요",
+      "entries": [
+        {
+          "label": "오전",
+          "text": "<strong>구조화된 활동</strong> 하나. 도서관 가기, 박물관 방문, 함께 요리하기 등 목적 있는 시간."
+        },
+        {
+          "label": "오후",
+          "text": "<strong>자유 놀이</strong> 시간. 아이가 스스로 뭘 할지 결정하게 두세요. 엄마가 채워주지 않아도 돼요."
+        },
+        {
+          "label": "저녁",
+          "text": "가족 시간. 보드게임, 함께 저녁 만들기, <strong>그날 있었던 일 이야기</strong> 나누기."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "ACTIVITY OPTIONS",
+      "headline": "비용별로 고를 수 있는 방학 활동이에요",
+      "items": [
+        {
+          "title": "무료 활동",
+          "description": "공립도서관 방학 프로그램, 주립 박물관(16세 미만 무료), Royal Botanic Gardens, 지역 카운슬 이벤트."
+        },
+        {
+          "title": "CCS 적용 Vacation Care",
+          "description": "기존 어린이집·After School Care 방학 프로그램은 CCS 보조금이 적용돼요. 4주 전에 예약 필수."
+        },
+        {
+          "title": "저비용 홀리데이 캠프",
+          "description": "스포츠 클럽, 아트 캠프, 과학 체험 캠프 등 주로 1일~3일 과정. 미리 찾아두면 좋은 자리 잡을 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "PRE-HOLIDAY PREP",
+      "headline": "방학 전 이것만 챙겨두세요",
+      "intro": "방학 시작 2주 전에 해두면 방학이 한결 편해져요.",
+      "items": [
+        "Vacation Care 예약 완료 (자리 빨리 마감돼요)",
+        "지역 도서관·카운슬 웹사이트에서 무료 방학 프로그램 확인",
+        "파트너와 연차 교대 계획 조율하기",
+        "아이와 함께 방학 2주 일정표 만들어 냉장고에 붙이기"
+      ],
+      "takeaway": "계획을 아이와 함께 만들면 스스로 지키려 해요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "방학 보내기, 이렇게 하세요 vs 하지 마세요",
+      "do": [
+        "아이가 '심심해'라고 해도 5분은 기다려보기",
+        "무료 지역 리소스 최대한 활용하기",
+        "방학 일정표를 아이와 함께 만들어 주도권 주기"
+      ],
+      "dont": [
+        "매 시간 스케줄을 채워서 아이를 지치게 하기",
+        "화면으로 심심함을 즉각 해결하기",
+        "방학 내내 엄마 혼자 계획 다 짜고 지치기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "YOUR PLAN",
+      "headline": "방학 2주 알차게 보내는 3단계예요",
+      "steps": [
+        {
+          "title": "1단계: 방학 전 일정표 만들기",
+          "description": "Vacation Care 날, 무료 외출 날, 집에서 자유 놀이 날을 구분해서 2주 일정표를 아이와 함께 만드세요."
+        },
+        {
+          "title": "2단계: 무료 지역 프로그램 예약",
+          "description": "도서관, 박물관, 카운슬 이벤트는 대부분 무료지만 예약이 필요해요. 방학 전 주에 한꺼번에 예약해두세요."
+        },
+        {
+          "title": "3단계: '심심해' 대화법 준비",
+          "description": "아이가 심심하다고 할 때 '그럼 뭘 하고 싶어?'라고 되물어보세요. 스스로 생각하게 하는 것이 방학의 진짜 목표예요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "방학 걱정하는 엄마에게 <em>꼭</em> 공유해주세요",
+      "message": "완벽한 방학 계획은 없어요. <strong>준비된 엄마</strong>가 되는 것만으로 충분해요. 이 카드 저장해두고 방학 전날 다시 꺼내보세요.",
+      "comment_prompt": "우리 아이 겨울방학 어떻게 보낼 예정이에요? 댓글로 알려주세요."
+    }
+  ]
+}
