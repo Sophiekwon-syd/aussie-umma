@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-05T00:00:00Z",
+  "finished_at": "2026-06-05T00:45:00Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27010891105",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 수면제(멜라토닌) 완전 가이드: GP 처방 전 엄마가 꼭 알아야 할 것",
+      "slug": "melatonin-kids-guide-australia",
+      "html_file": "outputs/2026-06-05/run-1/melatonin-kids-guide-australia.html",
+      "copy_file": "outputs/2026-06-05/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "겨울방학 아이 심심해 대응 전략: Term 2 방학 2주를 알차게 보내는 실전 플랜",
+      "slug": "winter-holiday-boredom-busting-plan",
+      "html_file": "outputs/2026-06-05/run-1/winter-holiday-boredom-busting-plan.html",
+      "copy_file": "outputs/2026-06-05/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-01.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-02.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-03.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-04.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-05.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-06.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-07.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-08.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-09.png",
+    "outputs/2026-06-05/run-1/images/melatonin-kids-guide-australia-10.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-01.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-02.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-03.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-04.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-05.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-06.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-07.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-08.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-09.png",
+    "outputs/2026-06-05/run-1/images/winter-holiday-boredom-busting-plan-10.png"
+  ]
+}
