@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-06T00:00:00.000Z",
+  "finished_at": "2026-06-06T00:45:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27070790692",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 초등학교 숙제 정책 완전 가이드: 한국 엄마가 알아야 할 숙제 vs. 자유 시간 균형",
+      "slug": "homework-policy-guide-korean-mums",
+      "html_file": "outputs/2026-06-06/run-2/homework-policy-guide-korean-mums.html",
+      "copy_file": "outputs/2026-06-06/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "아이와 함께 요리하기: 바쁜 워킹맘이 아이 식습관과 자립심을 동시에 키우는 주방 루틴",
+      "slug": "cooking-with-kids-working-mum-routine",
+      "html_file": "outputs/2026-06-06/run-2/cooking-with-kids-working-mum-routine.html",
+      "copy_file": "outputs/2026-06-06/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_01.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_02.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_03.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_04.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_05.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_06.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_07.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_08.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_09.png",
+    "outputs/2026-06-06/run-2/images/homework-policy-guide-korean-mums_card_10.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_01.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_02.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_03.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_04.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_05.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_06.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_07.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_08.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_09.png",
+    "outputs/2026-06-06/run-2/images/cooking-with-kids-working-mum-routine_card_10.png"
+  ]
+}
