@@ -1,0 +1,136 @@
+{
+  "topic": "호주 초등학교 숙제 정책 완전 가이드: 한국 엄마가 알아야 할 숙제 vs. 자유 시간 균형",
+  "slug": "homework-policy-guide-korean-mums",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "HOMEWORK GUIDE",
+      "headline": "숙제가 없어도 <em>괜찮아요</em>",
+      "subtitle": "호주 학교 숙제 정책, 한국 엄마가 꼭 알아야 할 것들"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "아이 숙제가 너무 없어서 <strong>불안하셨던 적</strong> 있으신가요?",
+      "answer": "그 불안, 당연한 거예요. 그런데 호주는 원래 이렇게 합니다."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS IT",
+      "term": "호주 숙제 정책",
+      "explanation": "호주는 주(state)마다, 학교마다 숙제 정책이 다릅니다. NSW와 빅토리아주는 <strong>학생 웰빙과 가족 시간을 해치지 않는 범위</strong>에서 숙제를 주도록 명시하고 있어요.",
+      "punchline": "숙제 없는 게 방치가 아니라, 정책입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "THE RESEARCH",
+      "headline": "숙제, 얼마나 <em>해야</em> 할까요",
+      "chips": [
+        "학년 x 10분 = 적정 숙제량",
+        "초등학생 74% 스트레스 원인 1순위",
+        "1시간 초과 시 오히려 역효과",
+        "1학년은 하루 10분이 상한선"
+      ],
+      "explanation": "연구에 따르면 1학년은 10분, 5학년은 50분이 하루 숙제 상한선이에요. 이 기준을 넘으면 학습 효과가 오히려 줄어듭니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "DAILY ROUTINE",
+      "headline": "집에서 할 수 있는 3가지 학습 루틴",
+      "entries": [
+        {
+          "label": "매일 저녁",
+          "text": "즐거운 <strong>독서 15-20분</strong>. 호주 교사들이 가장 강조하는 단 하나의 숙제예요."
+        },
+        {
+          "label": "학교 숙제 후",
+          "text": "<strong>자유 놀이 시간</strong>을 보장하세요. 뇌가 쉬어야 다음 날 더 잘 배웁니다."
+        },
+        {
+          "label": "학기 시작",
+          "text": "담임교사에게 <strong>숙제 정책을 직접 확인</strong>하세요. 학교마다 다를 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "HOMEWORK TYPES",
+      "headline": "호주 초등학교 숙제 3가지 유형",
+      "items": [
+        {
+          "title": "독서 (Reading)",
+          "description": "가장 흔하고 중요한 숙제예요. 매일 15-20분, 아이가 좋아하는 책을 선택하게 해주세요."
+        },
+        {
+          "title": "철자 & 수학 (Spelling & Maths)",
+          "description": "Year 2 이상부터 주어지는 경우가 많아요. 짧고 반복적인 연습이 핵심입니다."
+        },
+        {
+          "title": "프로젝트 (Projects)",
+          "description": "학기 중 1-2회 주어지는 큰 과제예요. 아이가 스스로 하도록 도와주되, 대신 해주지는 마세요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "CHECKLIST",
+      "headline": "학기 시작 전 담임교사에게 확인할 것들",
+      "intro": "학기 첫 주, 담임교사에게 이렇게 물어보세요.",
+      "items": [
+        "우리 반 숙제 정책이 어떻게 되나요?",
+        "독서 기록장(Reading Log)은 어떻게 작성하면 되나요?",
+        "숙제를 못 했을 때 어떻게 해야 하나요?",
+        "집에서 추가로 도울 수 있는 부분이 있을까요?"
+      ],
+      "takeaway": "묻는 것이 가장 정확한 정보예요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "숙제 도움, 이렇게 하세요",
+      "do": [
+        "매일 즐거운 독서 시간 15-20분 만들기",
+        "숙제 후 자유 놀이 시간 충분히 보장하기",
+        "모르는 것은 담임교사에게 직접 물어보기"
+      ],
+      "dont": [
+        "학교 숙제 외에 추가 문제집을 매일 강요하기",
+        "한국식 선행학습으로 아이를 과부하 주기",
+        "숙제 결과물을 기준으로 아이를 평가하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "HOW TO START",
+      "headline": "숙제 습관 만드는 3단계",
+      "steps": [
+        {
+          "title": "시간을 정하세요",
+          "description": "학교 후 간식을 먹고 나서 30분, 또는 저녁 식사 후 — 매일 같은 시간이 가장 중요합니다."
+        },
+        {
+          "title": "환경을 만드세요",
+          "description": "조용하고 정돈된 공간, 핸드폰 없는 테이블. 짧더라도 집중할 수 있는 환경이 핵심이에요."
+        },
+        {
+          "title": "독립심을 키우세요",
+          "description": "먼저 스스로 해보게 두고, 막히면 질문을 유도하세요. '엄마가 알려줄까' 보다 '어떻게 생각해?'가 더 좋아요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "숙제가 없어도 <em>잘 자라고</em> 있어요",
+      "message": "호주 교육 방식이 낯설게 느껴지는 건 당연해요. 그래도 <strong>아이는 지금 충분히 잘 배우고 있습니다.</strong>",
+      "comment_prompt": "우리 아이 학교 숙제 정책, 어떤가요? 댓글로 알려주세요."
+    }
+  ]
+}
