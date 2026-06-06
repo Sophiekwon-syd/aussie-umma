@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-06T00:00:00.000Z",
+  "finished_at": "2026-06-06T00:45:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27058756851",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 아날로그 놀이 가이드: 스크린 없이 창의력 키우는 실전 전략",
+      "slug": "analog-play-guide-australia",
+      "html_file": "outputs/2026-06-06/run-1/analog-play-guide-australia.html",
+      "copy_file": "outputs/2026-06-06/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "워킹맘 에너지 관리: 번아웃 전에 나를 지키는 하루 루틴",
+      "slug": "working-mum-energy-management",
+      "html_file": "outputs/2026-06-06/run-1/working-mum-energy-management.html",
+      "copy_file": "outputs/2026-06-06/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-01.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-02.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-03.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-04.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-05.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-06.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-07.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-08.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-09.png",
+    "outputs/2026-06-06/run-1/images/analog-play-guide-australia-10.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-01.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-02.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-03.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-04.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-05.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-06.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-07.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-08.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-09.png",
+    "outputs/2026-06-06/run-1/images/working-mum-energy-management-10.png"
+  ]
+}
