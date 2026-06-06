@@ -1,0 +1,118 @@
+{
+  "carousels": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 초등학교 숙제 정책 완전 가이드: 한국 엄마가 알아야 할 숙제 vs. 자유 시간 균형",
+      "slug": "homework-policy-guide-korean-mums",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "concept": "호주 학교 숙제가 너무 없다고 느끼는 한국 엄마의 불안을 공감하며, '이게 맞는 거다'라는 확신을 줄 것"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "concept": "아이 숙제가 거의 없어서 불안했던 경험, 한국 교육 기준과 호주의 차이에서 오는 혼란"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "concept": "호주 숙제 정책이란 무엇인지 — 주별 다름, 학교 자율, '학생 웰빙 최우선' 원칙"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "concept": "10분 규칙 + 74% 스트레스 통계 + 1시간 상한선 연구 결과"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "concept": "집에서 숙제를 효과적으로 도와주는 3가지 일과 — 독서 시간, 숙제 환경, 담임 소통"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "concept": "호주 초등학교 3가지 숙제 유형: 독서, 철자/수학, 프로젝트 — 각각 어떻게 도울지"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "concept": "학년 시작 전 담임교사에게 확인해야 할 숙제 관련 4가지 체크리스트"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "concept": "한국 엄마가 흔히 하는 실수(추가 문제집, 선행학습 강요)와 올바른 접근(자유 놀이 보장, 독서 우선)"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "concept": "숙제 습관을 만드는 3단계: 시간 정하기 → 환경 만들기 → 독립심 키우기"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "concept": "저장해두고 학기 시작 때 꺼내보는 가이드로 마무리"
+        }
+      ]
+    },
+    {
+      "carousel_index": 2,
+      "topic": "아이와 함께 요리하기: 바쁜 워킹맘이 아이 식습관과 자립심을 동시에 키우는 주방 루틴",
+      "slug": "cooking-with-kids-working-mum-routine",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "concept": "요리가 '밥 만들기'가 아니라 아이 발달 투자임을 강조하는 커버"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "concept": "'엉망 될까봐 못 시켰다'는 워킹맘의 공통된 두려움 공감"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "concept": "'아이 주방 참여'란 무엇인지 — 완성된 요리가 아니라 과정 참여, 단 하나의 역할도 충분"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "concept": "요리 참여의 6가지 발달 효과 연구 + 편식 감소 데이터"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "concept": "바쁜 워킹맘이 주 2-3회 저녁 요리에 아이를 참여시키는 3단계 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "concept": "연령별 3가지 참여 범주: 2-4세(씻기·뜯기), 5-7세(젓기·계량), 8세 이상(조리 보조)"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "concept": "아이와 요리 시작 전 준비 체크리스트 4가지 + 한국 음식 추천 목록"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "concept": "흔한 실수(결과물 기준 평가, 완벽주의)와 올바른 접근(과정 칭찬, 청소 포함)"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "concept": "첫 번째 아이 요리 참여를 성공시키는 3단계: 역할 정하기 → 함께 하기 → 함께 먹기"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "concept": "이번 주말 한 가지 요리에 아이를 불러보자는 행동 유도"
+        }
+      ]
+    }
+  ]
+}
