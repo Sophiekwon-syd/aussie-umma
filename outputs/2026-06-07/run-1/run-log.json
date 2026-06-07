@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-07T00:00:00.000Z",
+  "finished_at": "2026-06-07T10:30:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27089564823",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 'Thriving Kids' 완전 가이드: 발달 지연·자폐 아이를 둔 한국 엄마가 알아야 할 2026년 10월 변화",
+      "slug": "thriving-kids-guide",
+      "html_file": "outputs/2026-06-07/run-1/thriving-kids-guide.html",
+      "copy_file": "outputs/2026-06-07/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 아이 ADHD 진단 과정 완전 가이드: 의심부터 공식 평가까지 한국 엄마 실전 정보",
+      "slug": "adhd-assessment-guide",
+      "html_file": "outputs/2026-06-07/run-1/adhd-assessment-guide.html",
+      "copy_file": "outputs/2026-06-07/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-01.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-02.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-03.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-04.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-05.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-06.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-07.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-08.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-09.png",
+    "outputs/2026-06-07/run-1/images/thriving-kids-guide-10.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-01.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-02.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-03.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-04.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-05.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-06.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-07.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-08.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-09.png",
+    "outputs/2026-06-07/run-1/images/adhd-assessment-guide-10.png"
+  ]
+}
