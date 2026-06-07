@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-07",
+  "run": 2,
+  "status": "complete",
+  "carousels": [
+    {
+      "topic": "호주 아이 치아교정 완전 가이드: 교정 시작 시기부터 비용 절약까지 한국 엄마 실전 정보",
+      "slug": "kids-orthodontics-guide-australia",
+      "html": "outputs/2026-06-07/run-2/kids-orthodontics-guide-australia.html",
+      "cards": 10,
+      "qa": "pass",
+      "images": [
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-01.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-02.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-03.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-04.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-05.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-06.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-07.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-08.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-09.png",
+        "outputs/2026-06-07/run-2/images/kids-orthodontics-guide-australia-10.png"
+      ]
+    },
+    {
+      "topic": "엄마 두뇌 안개(브레인 포그) 완전 가이드: 출산 후 기억력 저하, 과학적으로 이해하고 일상에서 극복하기",
+      "slug": "mum-brain-fog-guide",
+      "html": "outputs/2026-06-07/run-2/mum-brain-fog-guide.html",
+      "cards": 10,
+      "qa": "pass",
+      "images": [
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-01.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-02.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-03.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-04.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-05.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-06.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-07.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-08.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-09.png",
+        "outputs/2026-06-07/run-2/images/mum-brain-fog-guide-10.png"
+      ]
+    }
+  ]
+}
