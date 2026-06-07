@@ -1,0 +1,46 @@
+{
+  "topic": "호주 아이 ADHD 진단 과정 완전 가이드: 의심부터 공식 평가까지 한국 엄마 실전 정보",
+  "slug": "adhd-assessment-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마, 특히 아이의 집중력·충동성·과잉행동을 걱정하는 엄마",
+  "key_facts": [
+    "호주에서 아이 ADHD 진단은 소아과 전문의(Paediatrician), 정신과 전문의(Psychiatrist), 심리사(Psychologist)가 할 수 있다.",
+    "2026년 NSW, Victoria 주에서 특별 훈련을 받은 GP도 ADHD 진단 및 처방이 가능해졌다 (2026년 2월 개혁 시행).",
+    "첫 단계는 무조건 GP 방문 — GP에게 걱정되는 행동을 설명하고 소아과 의뢰(referral)를 받아야 Medicare 혜택이 적용된다.",
+    "진단에는 단일 검사가 없다 — 부모 인터뷰, 교사 보고서, 행동 평가 설문지, 발달력·의료 기록 검토가 종합적으로 이루어진다.",
+    "아이 ADHD 진단 비용: 첫 해 총 본인 부담금 $1,366~$1,814 수준 (Medicare 혜택 후, 출처: Medivik 2026).",
+    "주요 MBS 항목: 132번(첫 복잡 진료 $650, Medicare 환급 $265.60, 본인 부담 $384.40), 133번(검토 진료 $400, 환급 $133, 부담 $267).",
+    "GP 의뢰서(referral)는 12개월간 유효. 반드시 소아과 방문 전에 받아야 한다.",
+    "평균 대기 시간: 소아과 첫 예약까지 평균 19주; 일부 가족은 2년 이상 대기.",
+    "2026년 1월 1일부터 ADHD 약물 비용: 일반 환자 처방당 $25, 컨세션 카드 소지자 $7.70.",
+    "Extended Medicare Safety Net(EMSN) 임계값 초과 시 추가 본인 부담금의 80%를 Medicare가 지원.",
+    "ADHD 증상 유형: 주의력 결핍형(산만·건망증), 과잉행동-충동형(드묾), 복합형(가장 일반적).",
+    "한국에서는 주로 소아청소년과(소아정신과)에서 진단하며, 한국 부모들이 호주 시스템에서 혼란을 느끼는 이유 중 하나.",
+    "진단 과정에서 학교 교사나 어린이집 선생님의 보고서가 중요하다 — GP 방문 전에 교사에게 걱정되는 점을 먼저 물어보는 것이 도움.",
+    "ADHD 치료: 약물(methylphenidate, dexamphetamine)과 비약물(긍정적 육아법, 구조화된 루틴, 환경 수정) 병행이 권장된다.",
+    "약물 자극제(stimulant)는 어린이에게 가장 많이 연구된 약물 중 하나로 안전하고 중독성이 없다 (출처: Royal Children's Hospital Melbourne)."
+  ],
+  "statistics": [
+    "아이 ADHD 첫 예약 평균 대기 시간: 19주; 최장 2년 (출처: University of Wollongong, 2026)",
+    "첫 해 총 본인 부담금: $1,366~$1,814 (출처: Medivik 2026)",
+    "호주 심리사 125명, 정신과의 16명, 소아과의 7명 / 인구 10만 명당 (출처: UOW 2026)",
+    "2026년 NSW 주 GP 개혁: 100명의 Tier 2 GP가 ADHD 진단 및 치료 시작 예정",
+    "ADHD 약물 비용: 일반 $25/처방, 컨세션 $7.70/처방 (2026년 1월 1일부터)"
+  ],
+  "angles": [
+    "한국 엄마가 아이의 어떤 행동을 보고 ADHD를 의심해야 하는지 — 구체적 증상 설명",
+    "GP 방문부터 소아과 진단까지 단계별 과정 — 한국 시스템과의 차이",
+    "대기 시간이 너무 길 때 어떻게 할 것인가 — 실용적 팁",
+    "비용과 Medicare 혜택 — 실제로 얼마가 드는지",
+    "진단 받은 후 학교·어린이집과 어떻게 소통할 것인가",
+    "약물 치료에 대한 한국 부모들의 걱정 다루기",
+    "교사 보고서의 중요성 — 진단 과정에서 부모가 할 수 있는 준비"
+  ],
+  "sources": [
+    "https://www.uow.edu.au/the-stand/2026/a-12-month-wait-and-a-1400-bill-adhd-diagnosis-in-australia.php",
+    "https://medivik.com.au/adhd-assessment-cost/",
+    "https://www.insightfulminds.com.au/articles/who-is-qualified-to-diagnose-adhd-in-australia",
+    "https://www.rch.org.au/kidsinfo/fact_sheets/Attention_deficit_hyperactivity_disorder_ADHD/",
+    "https://getclarityadhd.com/guides/adhd-medicare-rebates-mbs"
+  ]
+}
