@@ -419,6 +419,18 @@
       "date": "2026-06-07",
       "carousel_file": "outputs/2026-06-07/run-1/adhd-assessment-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 치아교정 완전 가이드: 교정 시작 시기부터 비용 절약까지 한국 엄마 실전 정보",
+      "date": "2026-06-07",
+      "carousel_file": "outputs/2026-06-07/run-2/kids-orthodontics-guide-australia.html",
+      "cards": 10
+    },
+    {
+      "topic": "엄마 두뇌 안개(브레인 포그) 완전 가이드: 출산 후 기억력 저하, 과학적으로 이해하고 일상에서 극복하기",
+      "date": "2026-06-07",
+      "carousel_file": "outputs/2026-06-07/run-2/mum-brain-fog-guide.html",
+      "cards": 10
     }
   ]
 }
