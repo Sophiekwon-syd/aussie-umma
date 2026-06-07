@@ -1,0 +1,138 @@
+{
+  "outlines": [
+    {
+      "topic": "호주 'Thriving Kids' 완전 가이드: 발달 지연·자폐 아이를 둔 한국 엄마가 알아야 할 2026년 10월 변화",
+      "slug": "thriving-kids-guide",
+      "carousel_index": 1,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "발달 지연 아이를 둔 엄마의 공감을 얻고 새 제도를 예고한다",
+          "key_message": "10월부터 호주 정부가 발달 지연 아이 지원 방식을 완전히 바꾼다"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "NDIS 신청이 거절됐거나 대기 중인 엄마의 고통에 공감",
+          "key_message": "NDIS 거절됐다고 포기하지 마세요. 10월부터 새 길이 열립니다."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "Thriving Kids가 무엇인지 한 문장으로 정의",
+          "key_message": "Thriving Kids = 진단 없이 받을 수 있는 발달 지원 프로그램"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "프로그램의 규모와 범위를 숫자로 보여준다",
+          "key_message": "40억 달러 투자, 만 8세 이하, 10월 1일 시작, 진단 불필요"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "Thriving Kids 접근 3단계 루틴을 설명",
+          "key_message": "관찰 → 기록 → GP 방문 3단계"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "받을 수 있는 지원 서비스 3가지 카테고리",
+          "key_message": "언어치료, 작업치료, 심리 지원 — 모두 본인 부담금 없이"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "지금 당장 준비할 수 있는 체크리스트",
+          "key_message": "10월 전에 이 4가지를 준비해두세요"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "흔한 오해와 올바른 행동 대비",
+          "key_message": "NDIS만 기다리지 말고 Thriving Kids도 함께 준비하세요"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "프로그램 신청까지의 실전 단계",
+          "key_message": "GP 방문 → 의뢰 → 서비스 연결 3단계"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장과 공유 유도",
+          "key_message": "이 정보가 필요한 엄마에게 공유해주세요"
+        }
+      ]
+    },
+    {
+      "topic": "호주 아이 ADHD 진단 과정 완전 가이드: 의심부터 공식 평가까지 한국 엄마 실전 정보",
+      "slug": "adhd-assessment-guide",
+      "carousel_index": 2,
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "purpose": "ADHD가 의심되는 아이를 둔 엄마의 불안에 공감하고 정보를 예고",
+          "key_message": "우리 아이 ADHD일까? 호주에서 진단받는 실전 과정"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "purpose": "인터넷 검색만 하다가 지친 엄마의 공감 유도",
+          "key_message": "GP에 가야 한다는 건 알겠는데, 그 다음이 막막하죠?"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "purpose": "ADHD가 정확히 무엇인지 정의",
+          "key_message": "ADHD = 주의력, 행동, 감정 조절에 영향을 미치는 뇌 발달 특성"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "purpose": "진단 비용과 대기 시간을 숫자로 제시",
+          "key_message": "평균 대기 19주, 첫 해 본인 부담금 최대 $1,814"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "purpose": "GP 방문 전 집에서 준비할 수 있는 루틴",
+          "key_message": "증상 기록 → 교사 피드백 → GP 방문 준비 루틴"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "purpose": "진단 가능한 전문가 3가지 유형 설명",
+          "key_message": "소아과의, 정신과의, 심리사 — 누구에게 가야 할까"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "purpose": "GP 방문 전 준비 체크리스트",
+          "key_message": "GP 방문 전 이 4가지를 준비하세요"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "purpose": "ADHD 진단 과정에서 흔한 실수와 올바른 접근",
+          "key_message": "진단을 미루거나 스스로 결론 내리지 마세요"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "purpose": "ADHD 진단 5단계 과정",
+          "key_message": "GP 의뢰 → 소아과 진료 → 검사 → 진단 → 치료 계획"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "purpose": "저장과 공유 유도",
+          "key_message": "같은 걱정을 하는 엄마에게 공유해주세요"
+        }
+      ]
+    }
+  ]
+}
