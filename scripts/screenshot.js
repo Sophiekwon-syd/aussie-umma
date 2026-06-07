@@ -13,7 +13,7 @@ const baseName = path.basename(htmlPath, '.html');
 (async () => {
   const browser = await puppeteer.launch({
     headless: 'new',
-    executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+    executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome',
     timeout: 90000,
     pipe: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--no-first-run', '--no-zygote']
