@@ -1,0 +1,136 @@
+{
+  "topic": "호주 아이 ADHD 진단 과정 완전 가이드: 의심부터 공식 평가까지 한국 엄마 실전 정보",
+  "slug": "adhd-assessment-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "ADHD 진단 가이드",
+      "headline": "우리 아이 ADHD, <em>어떻게</em> 알 수 있을까요",
+      "subtitle": "의심부터 소아과 진단까지, 한국 엄마 실전 가이드"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "GP에 가야 한다는 건 알겠는데, <strong>그 다음이 막막</strong>하죠?",
+      "answer": "소아과까지 가는 길, 단계별로 정리했어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHAT IS ADHD",
+      "term": "ADHD",
+      "explanation": "주의력, 행동, 감정 조절에 영향을 미치는 <strong>뇌 발달 특성</strong>입니다. 게으름이나 나쁜 행동이 아니에요. 아이가 의지가 부족한 것도 아닙니다.",
+      "punchline": "이해하면 대응이 달라집니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "BY THE NUMBERS",
+      "headline": "평균 대기 <em>19주</em>, 비용 최대 $1,814",
+      "chips": [
+        "소아과 평균 대기 19주",
+        "첫 해 본인 부담 최대 $1,814",
+        "GP 의뢰서 12개월 유효",
+        "약값 일반 $25/처방"
+      ],
+      "explanation": "대기 시간과 비용, 미리 알고 준비하면 덜 놀랍니다. Medicare 혜택 후 실제 부담금 기준. (출처: Medivik, University of Wollongong, 2026)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "BEFORE GP VISIT",
+      "headline": "GP 방문 전 집에서 할 3가지",
+      "entries": [
+        {
+          "label": "기록",
+          "text": "아이가 어떤 상황에서 어려움을 보이는지 <strong>날짜·상황·행동</strong> 세 가지를 적어두세요. '산만하다' 보다 '아침 10분 집중 못함'이 GP에게 더 유용합니다."
+        },
+        {
+          "label": "교사",
+          "text": "담임 선생님에게 <strong>학교에서의 행동</strong>을 물어보세요. 교사 관찰 보고서는 소아과 진단 과정에서 가장 중요한 자료 중 하나입니다."
+        },
+        {
+          "label": "질문",
+          "text": "GP 방문 시 'ADHD가 의심됩니다, <strong>소아과에 의뢰</strong>해 주세요'라고 직접 요청하세요. 의뢰서가 있어야 Medicare 혜택이 적용됩니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "WHO CAN DIAGNOSE",
+      "headline": "진단 전문가 3가지 유형",
+      "items": [
+        {
+          "title": "소아과 전문의 (Paediatrician)",
+          "description": "아이 ADHD 진단의 가장 일반적인 경로. GP 의뢰 후 예약. 진단과 약물 처방 모두 가능. 대기 시간이 길 수 있음."
+        },
+        {
+          "title": "심리사 (Psychologist)",
+          "description": "행동·인지 평가를 전문으로 합니다. 약물 처방은 불가능하지만 진단 평가 후 소아과에 연계됩니다. 대기 시간이 상대적으로 짧을 수 있음."
+        },
+        {
+          "title": "훈련된 GP (2026년 개혁)",
+          "description": "NSW, Victoria 주에서 2026년부터 특별 훈련 GP도 ADHD 진단 및 처방 가능. 지역 접근성이 높아졌어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "CHECKLIST",
+      "headline": "GP 방문 전 준비 4가지",
+      "intro": "이 4가지를 준비하면 GP 방문이 훨씬 효율적입니다.",
+      "items": [
+        "최근 2~4주간 아이의 행동 관찰 기록 (날짜·상황·행동 포함)",
+        "담임 선생님에게 학교에서의 행동 패턴 문의 후 메모",
+        "아이의 발달 기록 및 이전 건강 검진 결과 챙기기",
+        "GP에게 '소아과 의뢰서' 요청할 것 메모해두기"
+      ],
+      "takeaway": "준비된 엄마가 더 빠르게 연결됩니다."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이건 하세요 vs 이건 그만",
+      "do": [
+        "GP에게 구체적인 행동 사례를 말하세요",
+        "교사 보고서를 진단 전에 미리 받아두세요",
+        "대기 중에도 행동 기록을 계속 유지하세요"
+      ],
+      "dont": [
+        "인터넷 증상 체크리스트로 스스로 진단 내리기",
+        "ADHD를 의지 부족이나 나쁜 행동으로 생각하기",
+        "대기 시간이 길다고 포기하고 아무것도 안 하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "THE PROCESS",
+      "headline": "ADHD 진단 3단계 과정",
+      "steps": [
+        {
+          "title": "GP 방문 및 소아과 의뢰",
+          "description": "GP에게 관찰 기록을 보여주고 소아과 의뢰서를 받으세요. 의뢰서는 12개월간 유효하며 Medicare 혜택의 기준이 됩니다."
+        },
+        {
+          "title": "소아과 진료 및 평가",
+          "description": "소아과 전문의가 발달력, 의료 기록, 부모·교사 보고서, 행동 평가 설문지를 종합해 진단합니다. 1~3번 방문이 필요할 수 있어요."
+        },
+        {
+          "title": "진단 후 치료 계획",
+          "description": "진단 후 약물 치료와 비약물 전략(루틴 구조화, 긍정 육아법)을 함께 논의합니다. 학교·어린이집과도 지원 계획을 공유할 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "같은 걱정을 하는 <em>엄마</em>에게",
+      "message": "ADHD는 일찍 알수록 <strong>아이에게 맞는 지원</strong>을 더 빨리 시작할 수 있어요. 오늘 GP 예약부터 시작해보세요.",
+      "comment_prompt": "댓글로 궁금한 점 남겨주세요"
+    }
+  ]
+}
