@@ -1,0 +1,51 @@
+{
+  "topic": "호주 세금 환급 시즌 완전 가이드: 워킹맘이 놓치기 쉬운 2025-26 공제 항목",
+  "slug": "tax-return-working-mum-guide",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마. 두 자녀 이상 육아 중이거나 직장과 육아를 병행 중.",
+  "key_facts": [
+    "2025-26 회계연도 세금 환급 신청 기간: 2026년 7월 1일부터 시작. 자기신고(myTax) 마감은 2026년 10월 31일.",
+    "고용주는 2026년 7월 14일까지 Single Touch Payroll(STP) 데이터를 확정해야 하므로, 7월 첫 2주는 신고를 기다리는 것이 권장된다.",
+    "어린이집 비용(Long day care, Family day care, OSHC, Vacation care, 낮잠 보모 등)은 ATO에서 세금 공제 항목으로 인정하지 않는다. 이는 사적 가족 지출로 분류된다.",
+    "대신 정부는 Child Care Subsidy(CCS)를 통해 0-90% 보육비 지원을 제공한다. 이것이 주요 정부 지원 수단이며 세금 신고와 별개다.",
+    "재택근무(Work from Home) 비용은 2025-26년도 시간당 70센트 고정 요율(Fixed Rate Method)로 공제 가능하다. 근무 시간 기록이 반드시 필요하며 추정치는 인정되지 않는다.",
+    "PPL(Parental Leave Pay)은 과세 소득으로 간주되어 세금 신고서에 포함해야 한다. 2025-26년 기준 주당 $948.10, 세전.",
+    "2025년 7월부터 PPL에 12% 슈퍼 기여금이 추가됐다. ATO가 회계연도 종료 후 직접 슈퍼 펀드에 입금한다.",
+    "2026-27년부터 신규 $1,000 표준 공제(Standard Tax Deduction) 도입이 H&R Block에 의해 보고됐다. 영수증 없이 $1,000까지 공제 가능한 간편 방식.",
+    "워킹맘이 자주 놓치는 공제 항목: 유니폼/작업복(세탁 포함), 업무용 전화 사용분, 업무 관련 교육·자격증 비용, 업무용 도서·구독 비용, 조합비(Union fees).",
+    "자녀 교육비, 아이패드 구입비, 커피·식료품 등 일반 가정 지출은 재택근무를 하더라도 공제되지 않는다.",
+    "myGov/myTax를 통해 온라인 자기신고 가능. 세무사(Tax Agent) 이용 시 마감이 2027년 5월까지 연장된다."
+  ],
+  "statistics": [
+    "2025-26 PPL 주당 지급액: $948.10 (세전), 최대 24주 (2025년 7월~2026년 6월 출생). 2026년 7월 이후 출생 시 최대 26주.",
+    "재택근무 공제 요율: 2025-26년도 $0.70/시간 (Fixed Rate Method).",
+    "세금 자기신고 마감: 2026년 10월 31일. 세무사 이용 시 2027년 5월까지 연장 가능.",
+    "고용주 STP 데이터 확정 기한: 2026년 7월 14일."
+  ],
+  "angles": [
+    "한국 엄마들이 '어린이집 비용은 공제 안 되나요?'를 가장 많이 묻는 질문으로 시작해 실제로 공제 가능한 항목을 안내.",
+    "재택근무를 병행하는 워킹맘이 특히 놓치기 쉬운 공제 항목 체크리스트 형식으로 실용 정보 제공.",
+    "PPL 받은 해는 세금이 더 나올 수 있다는 점을 솔직하게 알려주는 공감형 접근.",
+    "7월 세금 환급 시즌 직전 타이밍에 맞춘 '지금 바로 준비하세요' 행동 유도.",
+    "한국 엄마들이 영어로만 된 ATO 안내를 이해하기 어렵다는 접근성 문제를 직접적으로 해결."
+  ],
+  "practical_tips": [
+    "7월 1일 이후 신고 가능하지만, 고용주 STP 확정 전인 7월 14일 이전에는 기다리는 것이 좋다.",
+    "재택근무 시간을 지금부터 기록해두지 않으면 세금 신고 시 추정치를 사용할 수 없다. 캘린더, 로스터, 타임시트 등 어떤 형식이든 기록이 있어야 한다.",
+    "PPL을 받은 해에는 총 과세 소득이 높아질 수 있으므로 예상치 못한 세금 청구가 발생할 수 있다. 미리 인식해두자.",
+    "유니폼·작업복이 있다면 세탁비도 공제 가능하다. 1벌당 최대 $150까지 영수증 없이 가능.",
+    "업무용 휴대폰 사용 비율(예: 업무 50% 사용)을 추정해 통신비 공제 신청 가능.",
+    "myGov 계정과 myTax 링크가 연결되어 있어야 온라인 신고 가능. 미리 확인해두자.",
+    "한국어 지원 세무사(등록 세무사) 이용 시 더 복잡한 상황(육아휴직 중 소득 변화, 두 직장 등)도 정확하게 처리 가능."
+  ],
+  "sources": [
+    "Australian Taxation Office — myTax 2026 Instructions (ato.gov.au)",
+    "Australian Taxation Office — School fees and child care (ato.gov.au)",
+    "Australian Taxation Office — Fixed Rate Method for work from home (ato.gov.au)",
+    "Services Australia — Parental Leave Pay counted as income (servicesaustralia.gov.au)",
+    "H&R Block Australia — $1,000 Standard Tax Deduction 2026-27 (hrblock.com.au)",
+    "SBS News Australia — Tax, super, childcare changes 2026 (sbs.com.au)",
+    "AusTax Tools — Tax Return 2025-26 Guide (austax.tools)",
+    "CCS Checker Australia — Is childcare tax deductible? (ccschecker.com.au)"
+  ]
+}
