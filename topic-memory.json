@@ -407,6 +407,18 @@
       "date": "2026-06-08",
       "carousel_file": "outputs/2026-06-08/run-1/tax-return-working-mum-guide.html",
       "cards": 10
+    },
+    {
+      "topic": "호주 아이 겨울 면역력 관리: 반복되는 감기, GP 언제 가야 할까",
+      "date": "2026-06-08",
+      "carousel_file": "outputs/2026-06-08/run-2/winter-child-immunity-gp-guide.html",
+      "cards": 10
+    },
+    {
+      "topic": "July 2026부터 달라지는 것들: 엄마가 꼭 챙겨야 할 제도 변화 총정리",
+      "date": "2026-06-08",
+      "carousel_file": "outputs/2026-06-08/run-2/july-2026-changes-guide.html",
+      "cards": 10
     }
   ]
 }
