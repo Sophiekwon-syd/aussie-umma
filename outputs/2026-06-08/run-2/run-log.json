@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-08T19:44:14.000Z",
+  "finished_at": "2026-06-08T19:55:33.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27162276897",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 아이 겨울 면역력 관리: 반복되는 감기, GP 언제 가야 할까",
+      "slug": "winter-child-immunity-gp-guide",
+      "html_file": "outputs/2026-06-08/run-2/winter-child-immunity-gp-guide.html",
+      "copy_file": "outputs/2026-06-08/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "July 2026부터 달라지는 것들: 엄마가 꼭 챙겨야 할 제도 변화 총정리",
+      "slug": "july-2026-changes-guide",
+      "html_file": "outputs/2026-06-08/run-2/july-2026-changes-guide.html",
+      "copy_file": "outputs/2026-06-08/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-01.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-02.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-03.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-04.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-05.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-06.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-07.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-08.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-09.png",
+    "outputs/2026-06-08/run-2/images/winter-child-immunity-gp-guide-10.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-01.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-02.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-03.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-04.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-05.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-06.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-07.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-08.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-09.png",
+    "outputs/2026-06-08/run-2/images/july-2026-changes-guide-10.png"
+  ]
+}
