@@ -1,0 +1,136 @@
+{
+  "topic": "호주 세금 환급 시즌 완전 가이드: 워킹맘이 놓치기 쉬운 2025-26 공제 항목",
+  "slug": "tax-return-working-mum-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "TAX RETURN 2026",
+      "headline": "7월이면 <em>세금 환급</em> 시즌",
+      "subtitle": "워킹맘이 놓치기 쉬운 2025-26 공제 항목 완전 정리. 지금 저장하세요."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 이런 경험 있으신가요? <strong>'어린이집 비용, 세금에서 돌려받을 수 있나요?'</strong>",
+      "answer": "이거 몰랐죠? 어린이집 비용은 공제 안 돼요. 대신 놓치고 있는 진짜 공제 항목들이 따로 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "BASICS FIRST",
+      "term": "호주 세금 신고 (Tax Return)",
+      "explanation": "매년 7월 1일~10월 31일, 지난 한 해 소득과 지출을 ATO에 신고하는 과정이에요. myGov의 <strong>myTax</strong>로 직접 온라인 신고가 가능해요.",
+      "punchline": "공제 항목을 제대로 알고 신고하면 환급액이 달라져요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "KEY NUMBERS",
+      "headline": "2025-26 <em>꼭 알아야 할</em> 숫자들",
+      "chips": [
+        "신고 시작: 2026년 7월 1일 (STP 확정 후 7월 14일 이후 권장)",
+        "자기신고 마감: 2026년 10월 31일",
+        "재택근무 공제: 시간당 $0.70 (Fixed Rate)",
+        "PPL 지급액: 주당 $948.10 세전 (최대 24-26주)"
+      ],
+      "explanation": "PPL을 받은 해는 과세 소득이 높아질 수 있어요. 예상치 못한 세금 청구를 미리 알고 준비하세요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "PREPARE NOW",
+      "headline": "세금 신고 전 지금 해야 할 3가지",
+      "entries": [
+        {
+          "label": "지금 바로",
+          "text": "<strong>재택근무 시간을 기록</strong>하세요. 일기, 캘린더, 타임시트 — 형식은 상관없어요. 추정치는 ATO가 인정하지 않아요."
+        },
+        {
+          "label": "7월 전까지",
+          "text": "myGov에서 myTax 링크 <strong>연결 여부를 확인</strong>하세요. 연결 안 되어 있으면 로그인 자체가 안 돼요."
+        },
+        {
+          "label": "7월 14일 이후",
+          "text": "고용주 STP 데이터 확정 후 신고하세요. <strong>너무 빨리 신고하면 소득 정보가 누락</strong>될 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "WHAT YOU CAN CLAIM",
+      "headline": "워킹맘이 실제 공제받을 수 있는 3가지",
+      "items": [
+        {
+          "title": "재택근무 비용",
+          "description": "시간당 $0.70 고정 요율로 계산해요. 인터넷 비용, 전기 사용분도 포함돼요. 근무 시간 기록은 필수예요."
+        },
+        {
+          "title": "업무 관련 지출",
+          "description": "업무용 전화 요금의 업무 사용 비율, 유니폼·작업복 세탁비, 조합비, 업무 관련 도서·구독료를 공제 가능해요."
+        },
+        {
+          "title": "자기계발 비용",
+          "description": "현재 직업과 직접 관련된 교육·자격증 비용은 공제 가능해요. 단, 전혀 새로운 직업을 위한 공부는 해당되지 않아요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "CHECKLIST",
+      "headline": "세금 신고 전 준비물 목록",
+      "intro": "이것들을 미리 모아두면 신고가 훨씬 수월해요.",
+      "items": [
+        "Payment Summary 또는 Income Statement (myGov에서 확인 가능)",
+        "재택근무 시간 기록 (캘린더, 타임시트 등)",
+        "업무 관련 영수증 (유니폼, 교육비, 조합비 등)",
+        "PPL 또는 육아휴직 지급 내역서"
+      ],
+      "takeaway": "영수증이 없어도 유니폼 세탁비는 $150까지 공제 가능해요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "세금 신고 이렇게 vs 이렇게는 위험해요",
+      "do": [
+        "7월 14일 이후, STP 확정 뒤 신고한다",
+        "재택근무 시간을 실시간으로 기록해둔다",
+        "복잡한 상황(PPL+복직 등)은 등록 세무사에게 맡긴다"
+      ],
+      "dont": [
+        "어린이집·학교 비용을 공제 항목으로 신고한다",
+        "재택근무 시간을 연말에 추정해서 넣는다",
+        "7월 1일 되자마자 바로 신고한다"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "HOW TO FILE",
+      "headline": "myTax로 직접 신고하는 3단계",
+      "steps": [
+        {
+          "title": "myGov에 로그인해서 myTax 연결 확인",
+          "description": "ato.gov.au 또는 myGov 앱에 접속해요. ATO 서비스가 myGov 계정에 연결돼 있어야 신고가 가능해요."
+        },
+        {
+          "title": "소득 및 공제 항목 입력",
+          "description": "고용주 소득은 자동으로 채워져요. 재택근무 시간, 업무 관련 지출 등 직접 입력할 항목만 추가해요."
+        },
+        {
+          "title": "검토 후 제출",
+          "description": "예상 환급액 또는 납부액이 표시돼요. 확인 후 제출하면 일반적으로 2주 안에 환급이 들어와요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "7월 전에 <em>저장해두세요</em>",
+      "message": "이 카드 하나면 <strong>워킹맘 세금 환급 준비</strong> 끝이에요. 나중에 찾으려면 사라져요.",
+      "comment_prompt": "저장하기 →"
+    }
+  ]
+}
