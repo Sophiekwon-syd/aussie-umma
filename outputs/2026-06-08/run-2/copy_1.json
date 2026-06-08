@@ -1,0 +1,138 @@
+{
+  "topic": "호주 아이 겨울 면역력 관리: 반복되는 감기, GP 언제 가야 할까",
+  "slug": "winter-child-immunity-gp-guide",
+  "account": "@aussie.umma",
+  "brand_name": "AUSSIE UMMA",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "WINTER HEALTH",
+      "headline": "감기인데 GP\n가야 할까요, <em>말아야</em> 할까요?",
+      "subtitle": "겨울마다 반복되는 그 고민, 이번에 기준 세워요."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "아이가 또 콧물이에요. 어젯밤부터 기침도 시작했고요. <strong>병원에 가야 하나, 좀 더 두고 봐야 하나</strong> — 혹시 이 고민, 매번 하고 계신가요?",
+      "answer": "기준만 알면 그 고민 5초 안에 해결돼요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "WHY IT MATTERS",
+      "term": "바이러스성 감기",
+      "explanation": "아이 감기의 90% 이상은 바이러스가 원인이에요. 항생제가 듣지 않고, <strong>충분한 수분과 휴식</strong>이 가장 효과적인 치료예요.",
+      "punchline": "GP가 필요한 건 나머지 10%, 세균성 감염일 때예요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "KNOW THE NUMBERS",
+      "headline": "겨울 건강, <em>숫자로</em> 이해하기",
+      "chips": [
+        "연간 감기 6~8회 (학령기 기준)",
+        "독감 절정 6~8월",
+        "벌크빌링 인센티브 3배 인상",
+        "Healthdirect 1800 022 222"
+      ],
+      "explanation": "16세 미만 아이 GP 진료는 벌크빌링으로 무료인 클리닉이 훨씬 많아졌어요. 비용 걱정 없이 가도 돼요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "DAILY ROUTINE",
+      "headline": "면역력 루틴, 딱 3가지만",
+      "entries": [
+        {
+          "label": "SLEEP",
+          "text": "학령기 9~11시간, 영유아 11~14시간. <strong>수면이 가장 강력한 면역제</strong>예요."
+        },
+        {
+          "label": "SUN",
+          "text": "겨울에도 매일 30분 야외 활동. 햇빛으로 <strong>비타민 D</strong>를 만들어요."
+        },
+        {
+          "label": "HANDS",
+          "text": "비누로 20초 손 씻기. <strong>감염 예방 효과 1위</strong>, 가장 쉬운 습관이에요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "HEALTHCARE OPTIONS",
+      "headline": "어디로 가야 하나요?",
+      "items": [
+        {
+          "title": "GP (주치의)",
+          "description": "열이 이틀 이상, 증상이 1주일 넘게 지속, 귀·목 통증. 벌크빌링으로 무료 가능."
+        },
+        {
+          "title": "Urgent Care",
+          "description": "호흡이 빨라지거나 수분 섭취 거부. 응급은 아니지만 당일 진료 필요할 때."
+        },
+        {
+          "title": "000 / ED",
+          "description": "숨쉬기 힘들어함, 의식이 흐릿함, 3개월 미만 영아 발열. 즉시 이동."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "GP CHECKLIST",
+      "headline": "오늘 GP 예약이 필요한 순간",
+      "intro": "이 중 하나라도 해당하면 오늘 바로 예약하세요.",
+      "items": [
+        "38.5°C 이상 발열이 48시간 이상 지속",
+        "귀 통증, 목에 흰 반점, 부비동 통증",
+        "기침이나 콧물이 1주일 지나도 낫지 않거나 악화",
+        "아이가 평소와 달리 무기력하거나 수분 섭취를 거부"
+      ],
+      "takeaway": "해당 없으면 집에서 관리해도 괜찮아요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "집에서 감기 대처, 이렇게",
+      "do": [
+        "파라세타몰 또는 이부프로펜으로 열·통증 완화 (용량 꼭 확인)",
+        "생리식염수 스프레이로 코막힘 부드럽게 완화",
+        "12개월 이상이라면 꿀 한 티스푼 — 기침에 효과 있어요"
+      ],
+      "dont": [
+        "처방 없이 항생제 먹이기 — 바이러스엔 효과 없고 내성만 생겨요",
+        "6세 미만 아이에게 기침·감기 시럽 주기 — 권고되지 않아요",
+        "열이 높다고 무조건 응급실로 — 기준 먼저 체크하세요"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "ACTION PLAN",
+      "headline": "아이 아플 때 3단계",
+      "steps": [
+        {
+          "title": "먼저 집에서 관리",
+          "description": "충분한 수분, 휴식, 파라세타몰. 48시간 동안 증상 변화를 지켜봐요."
+        },
+        {
+          "title": "기준 해당 시 GP 예약",
+          "description": "앞 카드의 체크리스트 확인 후 해당 항목 있으면 오늘 GP에 전화하거나 HotDoc으로 예약해요."
+        },
+        {
+          "title": "확신 없으면 Healthdirect",
+          "description": "1800 022 222로 전화하면 24시간 무료로 간호사가 '병원 가야 하나요?' 답해줘요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "겨울 내내 쓸\n<em>판단 기준</em> 생겼어요.",
+      "message": "<strong>저장해두고</strong> 아이 아플 때마다 꺼내 보세요. 매번 고민하는 시간이 줄어들 거예요.",
+      "comment_prompt": "가장 도움이 된 정보가 뭔지 댓글로 알려주세요."
+    }
+  ]
+}
