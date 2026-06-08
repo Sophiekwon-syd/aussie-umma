@@ -1,0 +1,120 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "호주 아이 겨울 면역력 관리: 반복되는 감기, GP 언제 가야 할까",
+    "slug": "winter-child-immunity-gp-guide",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마",
+    "narrative_arc": "공감(아이 반복 감기 걱정) → 정보(기준과 루틴) → 확신(내가 판단할 수 있다)",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "focus": "겨울 시즌 감기 반복 — 이번에는 GP 가야 할까 말까 판단 기준"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "focus": "아이가 또 콧물인데, 이번에도 GP 가야 하나 말아야 하나 고민되는 그 순간"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "focus": "호주 의료 시스템에서 '겨울 감기'의 정의 — 바이러스성 vs 세균성, 왜 이 구분이 중요한가"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "focus": "아이는 연간 6~8회 감기, 독감 시즌 6~8월, 벌크빌링 인센티브 3배 등 핵심 수치"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "focus": "겨울 면역력 일상 루틴 — 수면·햇빛·손 씻기 3가지"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "focus": "GP / Urgent Care / ED — 호주 의료 3곳의 차이와 각각 언제 가야 하는가"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "focus": "GP 방문 필요 체크리스트 — 이 4가지 중 하나라도 해당하면 오늘 예약"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "focus": "집에서 해도 되는 것 vs 하면 안 되는 것 — 아이 감기 대처 Do/Don't"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "focus": "아이 아플 때 3단계 행동 플랜 — 집에서 관리 → GP 연락 → Healthdirect 전화"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "focus": "이 정보 저장하고, 겨울 내내 판단 기준으로 활용하세요"
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "July 2026부터 달라지는 것들: 엄마가 꼭 챙겨야 할 제도 변화 총정리",
+    "slug": "july-2026-changes-guide",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마",
+    "narrative_arc": "공감(뭔가 바뀐다는데 뭔지 모름) → 정보(정확한 변화 내용) → 확신(내가 받을 수 있는 혜택 파악)",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "focus": "7월 1일 달라지는 것들 — 엄마가 꼭 알아야 할 제도 변화"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "focus": "7월부터 바뀐다는 건 알겠는데, 나한테 실제로 뭐가 달라지는 건지 모르겠다는 그 답답함"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "focus": "PPL(육아 휴직 수당)이란 무엇이고, 이번에 왜 중요한가"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "focus": "26주, $948.10, 12%, 4주 파트너 전용 — 핵심 숫자 4가지"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "focus": "변화별 내가 지금 해야 할 일 — PPL, CCS, 슈퍼, 벌크빌링 각각 확인 항목"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "focus": "달라지는 3가지 카테고리 — 육아 휴직 / 보육 보조금 / 의료 접근성"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "focus": "7월 전 반드시 확인해야 할 4가지 체크리스트"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "focus": "PPL 슈퍼 관련 Do/Don't — 해야 할 것과 착각하기 쉬운 것"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "focus": "나한테 맞는 혜택 찾기 3단계 — 출산 예정자 / 현재 PPL 중 / 보육 이용 중 각각 다음 행동"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "focus": "이 카드 저장하고 7월 전에 체크리스트 실행하세요"
+      }
+    ]
+  }
+]
