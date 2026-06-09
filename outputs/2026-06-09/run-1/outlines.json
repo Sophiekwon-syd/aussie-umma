@@ -1,0 +1,136 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "July 2026 어린이집 비용 현실 체크: 워킹맘이 알아야 할 CCS 인상과 지출 전략",
+    "slug": "ccs-july-2026-cost-check",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "purpose": "7월부터 어린이집 비용이 바뀐다는 사실로 주의를 끌고 저장 욕구 자극",
+        "key_message": "7월 6일부터 CCS가 바뀝니다. 내 지출은 줄어드는 걸까요, 늘어나는 걸까요?"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "purpose": "공감 유발 — 어린이집 비용 고지서를 받으며 느끼는 혼란감",
+        "key_message": "CCS 받는데 왜 매달 고지서가 다를까? 뭔가 놓치고 있는 느낌"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "purpose": "CCS Hourly Rate Cap이 무엇인지 명확히 정의",
+        "key_message": "CCS 시간당 상한선(Cap)이란 — 정부가 보조해주는 최대 금액의 기준선"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "purpose": "7월 6일부터 바뀌는 숫자들을 명확하게 보여줌",
+        "key_message": "2026-27 새 Cap 숫자: LDC $15.19, FDC $14.08, OSHC $13.30, 소득 기준 $88,520"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "purpose": "Cap이 내 지출에 실제로 어떤 영향을 미치는지 3가지 시나리오",
+        "key_message": "어린이집 요금과 Cap의 관계: Cap 이하 / Cap과 같음 / Cap 초과 — 세 가지 상황"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "purpose": "가족 상황별 혜택 분류: 한 아이, 두 아이, 소득 구간",
+        "key_message": "내 가족 유형별 CCS 혜택: 첫째만 있는 경우 / 둘째 이하 있는 경우 / 소득 기준선 가까운 경우"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "purpose": "7월 전에 해야 할 체크리스트 4가지",
+        "key_message": "7월 6일 전에 반드시 확인할 것들 — 지금 하지 않으면 나중에 후회"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "purpose": "흔히 하는 실수 vs 올바른 행동 대비",
+        "key_message": "CCS 관리에서 해야 할 것 vs 하지 말아야 할 것"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "purpose": "비용 최적화를 위한 3단계 실천법",
+        "key_message": "내 CCS 비용 최적화 3단계: 확인 → 계산 → 조정"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "purpose": "저장 유도 + 다음 행동 안내",
+        "key_message": "7월 전에 이 카드 저장해두세요. 지금 myGov 열어 소득 업데이트부터 시작하세요."
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "엄마 혼자만의 시간 만들기: 호주 워킹맘의 자기 돌봄 루틴",
+    "slug": "working-mum-me-time-routine",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "purpose": "엄마의 '나만의 시간'이 사실은 가족 전체를 위한 것이라는 역설로 주의 끌기",
+        "key_message": "나를 위한 시간이 아이에게도 가장 좋은 선물입니다"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "purpose": "공감 유발 — 나만의 시간을 원하지만 죄책감이 더 크게 느껴지는 상황",
+        "key_message": "쉬고 싶은데 쉬면 안 될 것 같아. 이 죄책감, 나만 느끼는 거 아니죠?"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "purpose": "자기돌봄(Self-care)의 진짜 의미 — 사치가 아닌 필수",
+        "key_message": "자기돌봄이란 — 엄마가 소진되지 않기 위해 자신을 충전하는 모든 행동"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "purpose": "호주 워킹맘의 현실을 숫자로 보여줌 — '나만의 이야기가 아님' 확인",
+        "key_message": "워킹맘 50%가 매일 죄책감, 60%가 자기돌봄 시간 부족, 80%가 수면 부족"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "purpose": "하루 루틴 속 숨겨진 me-time 3개 찾기",
+        "key_message": "아침 10분 / 점심 15분 / 취침 후 20분 — 하루 45분이 달라집니다"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "purpose": "자기돌봄 유형 3가지 — 신체, 감정, 사회적",
+        "key_message": "자기돌봄의 세 가지 차원: 몸 돌보기 / 감정 돌보기 / 연결 돌보기"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "purpose": "이번 주부터 시작할 수 있는 현실적인 me-time 체크리스트",
+        "key_message": "오늘 당장 할 수 있는 자기돌봄 4가지 — 돈 안 들고 10분이면 충분"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "purpose": "me-time를 방해하는 패턴 vs 실제로 작동하는 전략",
+        "key_message": "자기 시간이 계속 무너지는 이유 vs 실제로 지킬 수 있는 방법"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "purpose": "나만의 자기돌봄 루틴 만들기 3단계",
+        "key_message": "내 루틴 만들기 3단계: 시간 찾기 → 활동 고르기 → 달력에 고정하기"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "purpose": "저장 유도 + 오늘 당장 첫 me-time 시작 독려",
+        "key_message": "오늘 취침 후 딱 10분. 그게 시작입니다. 이 카드 저장해두세요."
+      }
+    ]
+  }
+]
