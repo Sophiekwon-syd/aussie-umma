@@ -1,0 +1,136 @@
+{
+  "topic": "워킹맘 재정 관리: 호주에서 두 아이 키우며 저축하는 실전 가계부 전략",
+  "slug": "working-mum-family-budget-strategy",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "재정 관리",
+      "headline": "두 아이 키우며 <em>저축하는</em> 법",
+      "subtitle": "호주 워킹맘을 위한 실전 가계부 전략"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "일하는데도 <strong>왜 매달 남는 게 없는 걸까요?</strong>",
+      "answer": "더 버는 게 아니라, 흐름을 아는 게 먼저예요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "가계부 전략이란",
+      "term": "재정 관리(Budget Strategy)",
+      "explanation": "절약이 아니에요. 돈이 어디서 와서 어디로 나가는지 <strong>흐름을 파악하는 것</strong>에서 시작해요.",
+      "punchline": "Australian Unity 연구: 예산을 체계적으로 관리하는 가정은 연간 $2,000-$4,000 절약하고 재정 스트레스도 50% 줄어요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "절약 가능 금액",
+      "headline": "이미 받을 수 있는 <em>혜택이에요</em>",
+      "chips": [
+        "CCS 다자녀 연 $15,000+",
+        "식비 월 $200 절감",
+        "에너지 연 $200-500",
+        "에너지 크레딧 $300"
+      ],
+      "explanation": "2026년 CCS 다자녀 보너스: 연소득 $120,000 가정이 두 아이 어린이집을 보낼 경우, 다자녀 높은 비율 적용으로 연 $15,000 이상 절약 가능해요. (출처: ccschecker.com.au)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "재정 관리 루틴",
+      "headline": "세 번만 점검하면 돼요",
+      "entries": [
+        {
+          "label": "월급날",
+          "text": "자동이체 설정으로 저축 먼저 빼요. <strong>의지력이 필요 없는</strong> 방법이에요."
+        },
+        {
+          "label": "매주 1회",
+          "text": "이번 주 식비·외식비 확인. <strong>10분이면</strong> 지출 패턴이 보여요."
+        },
+        {
+          "label": "월말",
+          "text": "이번 달 CCS, 불필요한 구독, 에너지 요금 점검. <strong>한 달에 한 번</strong>이면 충분해요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "절약의 3대 영역",
+      "headline": "여기서 시작하세요",
+      "items": [
+        {
+          "title": "육아비 — CCS 최적화",
+          "description": "CCS 활동 시간을 최신 상태로 유지하세요. 더 많은 시간을 신고하면 더 많은 보조금을 받을 수 있어요. 두 번째 아이는 더 높은 비율이 적용돼요."
+        },
+        {
+          "title": "식비 — 밀플랜 전략",
+          "description": "주간 식단 계획만으로 월 $200 절감 가능해요. 음식 낭비로 사라지는 연 $2,500을 지키는 가장 쉬운 방법이에요."
+        },
+        {
+          "title": "공공요금 — 비교 후 변경",
+          "description": "Energy Made Easy(무료 정부 사이트)에서 전기 요금 비교해보세요. 플랜 변경만으로 연 $200-500 절약할 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "지금 확인하세요",
+      "headline": "이 4가지 먼저 점검해요",
+      "intro": "오늘 당장 할 수 있는 재정 점검 체크리스트예요.",
+      "items": [
+        "Services Australia에서 CCS 활동 시간이 최신 상태인지 확인했나요?",
+        "매달 빠져나가는 구독 서비스를 전부 확인하고 불필요한 것을 해지했나요?",
+        "Energy Made Easy에서 현재 전기 요금 플랜을 비교해봤나요?",
+        "moneysmart.gov.au에서 가계부 도구를 사용해봤나요?"
+      ],
+      "takeaway": "하나만 실행해도 올해 수십만 원이 달라져요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "재정 관리 Do / Don't",
+      "do": [
+        "월급날 저축을 자동이체로 먼저 빼요",
+        "CCS 활동 시간을 정기적으로 업데이트해요",
+        "moneysmart.gov.au 무료 예산 도구를 활용해요"
+      ],
+      "dont": [
+        "남는 돈을 저축하려 하지 마세요 — 남는 돈은 없어요",
+        "CCS 신청만 하고 내용을 업데이트하지 않는 실수를 하지 마세요",
+        "에너지 요금을 비교하지 않고 계속 같은 플랜을 쓰지 마세요"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "실전 3단계",
+      "headline": "이렇게 시작하세요",
+      "steps": [
+        {
+          "title": "현황 파악",
+          "description": "moneysmart.gov.au에서 한 달 지출을 입력해보세요. 어디서 돈이 새는지 처음으로 보이기 시작해요."
+        },
+        {
+          "title": "줄일 곳 찾기",
+          "description": "CCS 업데이트, 구독 해지, 에너지 비교 — 세 가지만 점검해도 연간 수백만 원이 달라져요."
+        },
+        {
+          "title": "저축 자동화",
+          "description": "월급날 정해진 금액을 자동이체해요. 주 $20부터 시작해도 돼요. 비상 자금 3개월치가 목표예요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "오늘 딱 <em>하나</em>만 해요",
+      "message": "moneysmart.gov.au 열고 이번 달 지출 입력해보세요. <strong>10분이면 충분해요.</strong>",
+      "comment_prompt": "지금 가장 지출이 많은 항목이 뭔지 댓글로 알려주세요."
+    }
+  ]
+}
