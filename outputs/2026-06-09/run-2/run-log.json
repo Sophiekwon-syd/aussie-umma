@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-09T19:36:31.000Z",
+  "finished_at": "2026-06-09T19:47:35.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27230763161",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "아이 독립심 키우기: 호주에서 자립적인 아이로 키우는 연령별 실전 가이드",
+      "slug": "child-independence-guide-australia",
+      "html_file": "outputs/2026-06-09/run-2/child-independence-guide-australia.html",
+      "copy_file": "outputs/2026-06-09/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "워킹맘 재정 관리: 호주에서 두 아이 키우며 저축하는 실전 가계부 전략",
+      "slug": "working-mum-family-budget-strategy",
+      "html_file": "outputs/2026-06-09/run-2/working-mum-family-budget-strategy.html",
+      "copy_file": "outputs/2026-06-09/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-01.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-02.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-03.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-04.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-05.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-06.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-07.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-08.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-09.png",
+    "outputs/2026-06-09/run-2/images/child-independence-guide-australia-10.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-01.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-02.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-03.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-04.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-05.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-06.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-07.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-08.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-09.png",
+    "outputs/2026-06-09/run-2/images/working-mum-family-budget-strategy-10.png"
+  ]
+}
