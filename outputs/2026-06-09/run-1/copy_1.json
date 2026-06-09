@@ -1,0 +1,136 @@
+{
+  "topic": "July 2026 어린이집 비용 현실 체크: 워킹맘이 알아야 할 CCS 인상과 지출 전략",
+  "slug": "ccs-july-2026-cost-check",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "CCS 2026-27",
+      "headline": "7월부터 <em>어린이집 비용</em>이 바뀝니다",
+      "subtitle": "내 지출이 줄어드는 건지, 늘어나는 건지 지금 바로 확인하세요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "CCS 받고 있는데 왜 매달 <strong>청구 금액이 다를까요?</strong>",
+      "answer": "Cap 구조를 모르면 계속 헷갈립니다. 지금 정확히 알아둘 때입니다."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "핵심 개념",
+      "term": "CCS 시간당 상한선 (Hourly Rate Cap)",
+      "explanation": "정부가 CCS 보조금을 계산할 때 기준으로 삼는 <strong>최대 시간당 요금</strong>입니다. 어린이집이 Cap보다 높게 청구해도 보조금은 Cap까지만 적용됩니다.",
+      "punchline": "Cap을 넘는 금액은 전액 가족 부담입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "2026년 7월 6일부터",
+      "headline": "새로 바뀌는 <em>4가지 숫자</em>",
+      "chips": [
+        "LDC 취학 전: $15.19/시간",
+        "가정 보육(FDC): $14.08/시간",
+        "OSHC(방과후): $13.30/시간",
+        "90% 보조 기준 소득: $88,520"
+      ],
+      "explanation": "모두 전년 대비 약 3.8% 인상. 단, 어린이집이 Cap보다 높게 받으면 혜택은 제한됩니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "세 가지 상황",
+      "headline": "내 어린이집이 어디에 해당하나요?",
+      "entries": [
+        {
+          "label": "Cap 이하",
+          "text": "어린이집 요금이 $15.19 미만이면 <strong>전액 Cap 적용</strong>. 가장 유리한 상황입니다."
+        },
+        {
+          "label": "Cap 동일",
+          "text": "요금이 정확히 $15.19면 <strong>100% Cap 범위 안</strong>. 계산이 깔끔합니다."
+        },
+        {
+          "label": "Cap 초과",
+          "text": "요금이 $15.19 초과라면 초과분은 <strong>100% 자부담</strong>. 예: $16이면 $0.81/시간 추가 부담."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "가족 유형별 혜택",
+      "headline": "우리 가족은 어떤 경우인가요?",
+      "items": [
+        {
+          "title": "첫째 아이만 보내는 경우",
+          "description": "소득 $88,520 이하라면 90% 보조. 주간 $720 비용 기준 실부담 약 $72/주."
+        },
+        {
+          "title": "둘째 이하 아이도 보내는 경우",
+          "description": "둘째 이하는 최대 95% 보조율 적용 (소득 $146,437 이하). 두 아이 동시에 다닐 때 가장 절약 효과가 큽니다."
+        },
+        {
+          "title": "소득이 기준선 근처인 경우",
+          "description": "소득이 $88,520을 소폭 넘으면 보조율이 90% 아래로 내려가기 시작합니다. myGov에서 정확한 소득 신고가 중요합니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "7월 6일 전에 할 일",
+      "headline": "지금 바로 확인하세요",
+      "intro": "이 4가지를 안 하면 나중에 후회합니다.",
+      "items": [
+        "myGov에서 가족 소득 예상치 최신화 — 잘못된 신고는 연말 정산 때 Debt 발생",
+        "어린이집에 2026-27 시간당 요금 확인 — Cap($15.19) 초과 여부 파악",
+        "둘째 이하 아이 있으면 95% 보조율 적용 여부 확인",
+        "CCSChecker.com.au 계산기로 우리 가족 실제 부담 계산"
+      ],
+      "takeaway": "7월 전에 확인하면 연간 수십만 원을 아낄 수 있습니다"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "CCS 관리, 이렇게 하세요",
+      "do": [
+        "소득 변동 시 즉시 myGov에 업데이트",
+        "어린이집 청구서와 Cap 금액 매달 비교",
+        "3 Day Guarantee(72시간/2주) 최대한 활용"
+      ],
+      "dont": [
+        "소득을 낮게 신고해 보조금 많이 받으려 하기 — 연말 Debt 발생",
+        "Cap 초과 요금인지 모르고 그냥 납부하기",
+        "어린이집 요금 인상 공지를 그냥 지나치기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "비용 최적화 3단계",
+      "headline": "지금 이 순서로 하세요",
+      "steps": [
+        {
+          "title": "확인: 우리 어린이집 요금과 Cap 비교",
+          "description": "어린이집에 2026-27 시간당 요금 문의. $15.19 초과 여부 확인."
+        },
+        {
+          "title": "계산: CCS 계산기로 실제 부담 파악",
+          "description": "CCSChecker.com.au 무료 계산기 활용. 소득, 요금, 이용 시간 입력하면 정확한 본인 부담 금액 나옴."
+        },
+        {
+          "title": "조정: myGov 소득 정보 최신화",
+          "description": "현재 소득 예상치와 다르면 즉시 업데이트. 정확한 신고가 보조금 최적화와 Debt 방지 모두 해결."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "7월 전에 <em>꼭 저장</em>하세요",
+      "message": "이 내용을 알고 준비한 엄마와 모르고 지나친 엄마의 <strong>연간 지출 차이</strong>는 생각보다 큽니다.",
+      "comment_prompt": "우리 어린이집 Cap 초과인지 아직 모르는 분, 댓글로 알려주세요"
+    }
+  ]
+}
