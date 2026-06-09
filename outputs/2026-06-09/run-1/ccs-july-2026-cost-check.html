@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCS July 2026 Cost Check — AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    /*
+      PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+      Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+      Do NOT invent new variables. Do NOT modify any other values.
+    */
+
+    :root {
+      --bg: #050505;
+      --card-bg: #080808;
+      --elevated: #0e0e0e;
+      --ink: #ffffff;
+      --ink2: #cccccc;
+      --ink3: #888888;
+      --ink4: #333333;
+      --accent: #C6F135;
+      --accent-dim: rgba(198, 241, 53, 0.15);
+      --blue: #3B82F6;
+      --red: #ff4d4d;
+      --border: rgba(255, 255, 255, 0.07);
+      --font-kr: "Noto Sans KR", sans-serif;
+      --font-en: "Space Grotesk", sans-serif;
+      --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+    }
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #000000;
+      font-family: var(--font-kr);
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 60px 20px 100px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      width: 1080px;
+      height: 1350px;
+      background: var(--card-bg);
+      background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 50;
+      opacity: 0.05;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px 180px;
+    }
+    .ci {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 90px;
+      position: relative;
+      z-index: 2;
+    }
+    .dots {
+      display: flex;
+      gap: 10px;
+    }
+    .dots i {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--ink4);
+      display: block;
+    }
+    .dots i.on {
+      background: var(--accent);
+      width: 28px;
+      border-radius: 4px;
+    }
+    .td {
+      font-family: var(--font-display);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -2px;
+      word-break: keep-all;
+    }
+    .td.xl { font-size: 96px; }
+    .td.lg { font-size: 84px; }
+    .td.md { font-size: 76px; }
+    .tb {
+      font-size: 30px;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.65;
+      word-break: keep-all;
+    }
+    .tb strong {
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .tl {
+      font-family: var(--font-en);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 48px;
+    }
+    .ta { color: var(--accent); }
+    .tm { color: var(--ink3); }
+    .en { font-family: var(--font-en); }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 28px;
+      border-radius: 100px;
+      font-size: 17px;
+      font-weight: 800;
+      width: fit-content;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .badge-a {
+      background: var(--accent);
+      color: #000;
+    }
+    .div-a {
+      width: 56px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 2px;
+      border: none;
+      margin: 32px 0;
+    }
+    .wm {
+      position: absolute;
+      font-family: var(--font-en);
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.05;
+      pointer-events: none;
+      z-index: 1;
+      line-height: 0.8;
+    }
+    .glow {
+      position: absolute;
+      border-radius: 50%;
+      background: var(--accent);
+      filter: blur(160px);
+      opacity: 0.08;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .top {
+      position: absolute;
+      top: 68px;
+      left: 90px;
+      right: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      z-index: 5;
+      margin: 0;
+    }
+    .handle {
+      position: absolute;
+      top: 165px;
+      right: 90px;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      z-index: 10;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .handle::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+    }
+
+    /* Centered content block */
+    .center-block {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Cover */
+    .cover-56 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: var(--font-en);
+      font-size: 780px;
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.06;
+      line-height: 1;
+      pointer-events: none;
+      z-index: 1;
+      letter-spacing: -40px;
+    }
+    .cover-56::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+    }
+    .c1 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .c1 .cover-sub {
+      margin-bottom: 48px;
+      max-width: 85%;
+      font-size: 36px;
+      font-weight: 500;
+    }
+    .c1 .cover-cta {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Hook */
+    .c2 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .c2 .hook-q {
+      font-size: 56px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.35;
+      word-break: keep-all;
+      max-width: 92%;
+    }
+    .c2 .hook-q strong {
+      color: var(--accent);
+      font-weight: 900;
+    }
+    .c2 .hook-ans {
+      margin-top: 56px;
+      font-size: 26px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Definition */
+    .def-hl {
+      background: var(--accent);
+      color: #000;
+      padding: 2px 14px;
+      border-radius: 6px;
+      display: inline-block;
+      font-weight: 800;
+    }
+    .def-box {
+      margin-top: 56px;
+      padding: 40px 48px;
+      border-radius: 24px;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+    }
+    .def-box-text {
+      font-size: 28px;
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .def-box-text strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Data chips */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 40px 0;
+    }
+    .chip {
+      padding: 14px 28px;
+      border-radius: 14px;
+      font-size: 20px;
+      font-weight: 600;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .chip .cd {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* Routine */
+    .rb {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+    }
+    .rb:last-child { border-bottom: none; }
+    .rb-t {
+      font-family: var(--font-en);
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--accent);
+      min-width: 90px;
+      text-transform: uppercase;
+    }
+    .rb-x {
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    .rb-x strong { color: var(--accent); font-weight: 800; }
+
+    /* Approaches / Cards */
+    .ap {
+      padding: 40px 44px;
+      border-radius: 28px;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .ap::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15%;
+      bottom: 15%;
+      width: 5px;
+      background: var(--ink4);
+      border-radius: 0 5px 5px 0;
+    }
+    .ap:nth-child(1)::before { background: var(--accent); }
+    .ap:nth-child(2)::before { background: var(--blue); }
+    .ap:nth-child(3)::before { background: var(--ink3); }
+    .ap-t {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 14px;
+      color: var(--ink);
+    }
+    .ap-d {
+      font-size: 24px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Actions / Checklist */
+    .ai {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .ai:last-child { border-bottom: none; }
+    .ai-d {
+      width: 11px;
+      height: 11px;
+      min-width: 11px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .takeaway {
+      margin-top: 32px;
+      padding: 28px 40px;
+      border-radius: 20px;
+      background: var(--accent-dim);
+      text-align: center;
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+    }
+
+    /* Do/Don't Grid */
+    .cg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .cc {
+      border-radius: 24px;
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      background: var(--elevated);
+      border: 1px solid var(--border);
+    }
+    .cc.do { border-top: 5px solid var(--accent); }
+    .cc.dn { border-top: 5px solid var(--red); }
+    .cc.cmp { border-top: 5px solid var(--blue); }
+    .cc-l {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+    .cc.do .cc-l { color: var(--accent); }
+    .cc.dn .cc-l { color: var(--red); }
+    .cc.cmp .cc-l { color: var(--blue); }
+    .ci-item {
+      font-size: 22px;
+      color: var(--ink2);
+      line-height: 1.6;
+      padding: 12px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .ci-item::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 1.3em;
+    }
+    .cc.dn .ci-item::before { color: var(--red); }
+    .cc.cmp .ci-item::before { color: var(--blue); }
+
+    /* Steps */
+    .si {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      align-items: flex-start;
+    }
+    .si-n {
+      font-family: var(--font-en);
+      font-size: 64px;
+      font-weight: 800;
+      color: var(--accent);
+      opacity: 0.3;
+      line-height: 1;
+      min-width: 80px;
+    }
+    .si-c {
+      flex: 1;
+    }
+    .si-t {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--ink);
+    }
+    .si-d {
+      font-size: 24px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Timeline */
+    .ti {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      border-left: 3px solid var(--border);
+      margin-left: 5px;
+      padding-left: 36px;
+      position: relative;
+    }
+    .ti::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 42px;
+      width: 16px;
+      height: 16px;
+      background: var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 15px var(--accent-dim);
+    }
+    .ti:last-child { border-left-color: transparent; }
+    .ti-year {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .ti-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--ink);
+      margin-bottom: 10px;
+    }
+    .ti-desc {
+      font-size: 23px;
+      color: var(--ink2);
+      line-height: 1.55;
+    }
+
+    /* Comparison row */
+    .cmp-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      padding: 32px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .cmp-row:last-child { border-bottom: none; }
+    .cmp-h {
+      font-family: var(--font-en);
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--ink3);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 14px;
+    }
+    .cmp-v {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.3;
+    }
+    .cmp-v.accent { color: var(--accent); }
+
+    /* Quote */
+    .quote {
+      font-size: 56px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.3;
+      text-align: center;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    .quote strong { color: var(--accent); font-weight: 900; }
+    .quote-author {
+      margin-top: 48px;
+      font-size: 26px;
+      color: var(--accent);
+      font-weight: 700;
+      text-align: center;
+    }
+
+    /* Stat */
+    .stat-val {
+      font-family: var(--font-display);
+      font-size: 260px;
+      font-weight: 900;
+      color: var(--accent);
+      line-height: 1;
+      text-align: center;
+      letter-spacing: -10px;
+    }
+    .stat-label {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--ink);
+      text-align: center;
+      margin-top: 24px;
+    }
+    .stat-desc {
+      font-size: 26px;
+      color: var(--ink2);
+      text-align: center;
+      margin-top: 20px;
+      max-width: 85%;
+    }
+
+    /* CTA */
+    .c10 .ci {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 28px 72px;
+      border-radius: 100px;
+      background: var(--accent);
+      color: #000;
+      font-size: 28px;
+      font-weight: 900;
+      margin-top: 56px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .cta-hint {
+      margin-top: 40px;
+      font-size: 22px;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Card 01: Cover -->
+  <div class="card c1">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+    <div class="cover-56">CCS</div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:40px">CCS 2026-27</div>
+      <div style="margin-bottom:16px">
+        <div class="td xl">7월부터 <span class="ta">어린이집 비용</span>이 바뀝니다</div>
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <div class="cover-sub tb">내 지출이 줄어드는 건지, 늘어나는 건지 지금 바로 확인하세요</div>
+      <div class="cover-cta">끝까지 확인하기 <span>→</span></div>
+    </div>
+  </div>
+
+  <!-- Card 02: Hook -->
+  <div class="card c2">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="hook-q">CCS 받고 있는데 왜 매달 <strong>청구 금액이 다를까요?</strong></div>
+      <div class="hook-ans">Cap 구조를 모르면 계속 헷갈립니다. 지금 정확히 알아둘 때입니다.</div>
+    </div>
+  </div>
+
+  <!-- Card 03: Definition -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">핵심 개념</div>
+        <div class="td md" style="margin-bottom:36px">CCS <span class="ta">시간당 상한선</span>이란</div>
+        <div class="def-box">
+          <div class="def-box-text">
+            정부가 CCS 보조금을 계산할 때 기준으로 삼는 <strong>최대 시간당 요금</strong>입니다.<br /><br />
+            어린이집이 Cap보다 높게 청구해도 보조금은 Cap까지만 적용됩니다.
+          </div>
+        </div>
+        <div style="margin-top:40px;font-size:32px;font-weight:800;color:var(--accent);">Cap을 넘는 금액은 전액 가족 부담입니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 04: Data -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">2026년 7월 6일부터</div>
+        <div class="td md" style="margin-bottom:36px">새로 바뀌는 <em style="font-style:normal;color:var(--accent);">4가지 숫자</em></div>
+        <div class="chips">
+          <div class="chip"><span class="cd"></span>LDC 취학 전: $15.19/시간</div>
+          <div class="chip"><span class="cd"></span>가정 보육(FDC): $14.08/시간</div>
+          <div class="chip"><span class="cd"></span>OSHC(방과후): $13.30/시간</div>
+          <div class="chip"><span class="cd"></span>90% 보조 기준 소득: $88,520</div>
+        </div>
+        <div class="tb">모두 전년 대비 약 3.8% 인상. 단, 어린이집이 Cap보다 높게 받으면 혜택은 제한됩니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 05: Routine -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">세 가지 상황</div>
+        <div class="td md" style="margin-bottom:36px">내 어린이집이 <span class="ta">어디에</span> 해당하나요?</div>
+        <div class="rb">
+          <div class="rb-t">Cap 이하</div>
+          <div class="rb-x">어린이집 요금이 $15.19 미만이면 <strong>전액 Cap 적용</strong>. 가장 유리한 상황입니다.</div>
+        </div>
+        <div class="rb">
+          <div class="rb-t">Cap 동일</div>
+          <div class="rb-x">요금이 정확히 $15.19면 <strong>100% Cap 범위 안</strong>. 계산이 깔끔합니다.</div>
+        </div>
+        <div class="rb">
+          <div class="rb-t">Cap 초과</div>
+          <div class="rb-x">요금이 $15.19 초과라면 초과분은 <strong>100% 자부담</strong>. 예: $16이면 $0.81/시간 추가 부담.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 06: Categories -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">가족 유형별 혜택</div>
+        <div class="td md" style="margin-bottom:36px">우리 가족은 <span class="ta">어떤 경우</span>인가요?</div>
+        <div class="ap">
+          <div class="ap-t">첫째 아이만 보내는 경우</div>
+          <div class="ap-d">소득 $88,520 이하라면 90% 보조. 주간 $720 비용 기준 실부담 약 $72/주.</div>
+        </div>
+        <div class="ap">
+          <div class="ap-t">둘째 이하 아이도 보내는 경우</div>
+          <div class="ap-d">둘째 이하는 최대 95% 보조율 적용 (소득 $146,437 이하). 두 아이 동시에 다닐 때 가장 절약 효과가 큽니다.</div>
+        </div>
+        <div class="ap">
+          <div class="ap-t">소득이 기준선 근처인 경우</div>
+          <div class="ap-d">소득이 $88,520을 소폭 넘으면 보조율이 90% 아래로 내려가기 시작합니다. myGov에서 정확한 소득 신고가 중요합니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 07: Checklist -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">7월 6일 전에 할 일</div>
+        <div class="td md" style="margin-bottom:36px">지금 <span class="ta">바로</span> 확인하세요</div>
+        <div style="font-size:26px;color:var(--ink2);margin-bottom:24px;">이 4가지를 안 하면 나중에 후회합니다.</div>
+        <div class="ai"><div class="ai-d"></div>myGov에서 가족 소득 예상치 최신화 — 잘못된 신고는 연말 정산 때 Debt 발생</div>
+        <div class="ai"><div class="ai-d"></div>어린이집에 2026-27 시간당 요금 확인 — Cap($15.19) 초과 여부 파악</div>
+        <div class="ai"><div class="ai-d"></div>둘째 이하 아이 있으면 95% 보조율 적용 여부 확인</div>
+        <div class="ai"><div class="ai-d"></div>CCSChecker.com.au 계산기로 우리 가족 실제 부담 계산</div>
+        <div class="takeaway">7월 전에 확인하면 연간 수십만 원을 아낄 수 있습니다</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 08: Do/Don't -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="td md" style="margin-bottom:16px">CCS 관리, <span class="ta">이렇게</span> 하세요</div>
+        <div class="cg">
+          <div class="cc do">
+            <div class="cc-l">Do</div>
+            <div class="ci-item">소득 변동 시 즉시 myGov에 업데이트</div>
+            <div class="ci-item">어린이집 청구서와 Cap 금액 매달 비교</div>
+            <div class="ci-item">3 Day Guarantee(72시간/2주) 최대한 활용</div>
+          </div>
+          <div class="cc dn">
+            <div class="cc-l">Don't</div>
+            <div class="ci-item">소득을 낮게 신고해 보조금 많이 받으려 하기 — 연말 Debt 발생</div>
+            <div class="ci-item">Cap 초과 요금인지 모르고 그냥 납부하기</div>
+            <div class="ci-item">어린이집 요금 인상 공지를 그냥 지나치기</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 09: Steps -->
+  <div class="card">
+    <span class="handle">@aussie.umma</span>
+    <div class="ci">
+      <div class="center-block">
+        <div class="tl">비용 최적화 3단계</div>
+        <div class="td md" style="margin-bottom:36px">지금 이 <span class="ta">순서</span>로 하세요</div>
+        <div class="si">
+          <div class="si-n">01</div>
+          <div class="si-c">
+            <div class="si-t">확인: 우리 어린이집 요금과 Cap 비교</div>
+            <div class="si-d">어린이집에 2026-27 시간당 요금 문의. $15.19 초과 여부 확인.</div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="si-n">02</div>
+          <div class="si-c">
+            <div class="si-t">계산: CCS 계산기로 실제 부담 파악</div>
+            <div class="si-d">CCSChecker.com.au 무료 계산기 활용. 소득, 요금, 이용 시간 입력하면 정확한 본인 부담 금액 나옴.</div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="si-n">03</div>
+          <div class="si-c">
+            <div class="si-t">조정: myGov 소득 정보 최신화</div>
+            <div class="si-d">현재 소득 예상치와 다르면 즉시 업데이트. 정확한 신고가 보조금 최적화와 Debt 방지 모두 해결.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 10: CTA -->
+  <div class="card c10">
+    <span class="handle">@aussie.umma</span>
+    <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+    <div class="ci">
+      <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+      <div class="td lg" style="text-align:center;margin-bottom:20px">
+        7월 전에 <span class="ta">꼭 저장</span>하세요
+      </div>
+      <hr class="div-a" style="margin:0 auto 24px" />
+      <p class="tb" style="text-align:center;max-width:80%">이 내용을 알고 준비한 엄마와 모르고 지나친 엄마의 <strong>연간 지출 차이</strong>는 생각보다 큽니다.</p>
+      <div class="cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+        </svg>
+        저장하기 →
+      </div>
+      <p class="cta-hint">우리 어린이집 Cap 초과인지 아직 모르는 분, 댓글로 알려주세요</p>
+    </div>
+  </div>
+
+</body>
+</html>
