@@ -1,0 +1,78 @@
+{
+  "topic": "July 2026 어린이집 비용 현실 체크: 워킹맘이 알아야 할 CCS 인상과 지출 전략",
+  "slug": "ccs-july-2026-cost-check",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 엄마, 워킹맘, 어린이집 이용 중",
+  "key_facts": [
+    {
+      "fact": "2026-27 CCS 시간당 상한선(Hourly Rate Cap)은 2026년 7월 6일부터 적용",
+      "detail": "Long Day Care (유아, 취학 전): $14.63 → $15.19 / 시간. Family Day Care: $13.56 → $14.08. OSHC: $12.81 → $13.30. 약 3.8% 인상.",
+      "source": "Department of Education / CCSChecker.com.au"
+    },
+    {
+      "fact": "소득 기준선도 상향 조정",
+      "detail": "90% 최대 보조금 기준: 연소득 $85,279 → $88,520. 보조금 0% 기준: $535,279 → $538,520. 가족 소득이 오르지 않았다면 실질적으로 보조금 비율은 동일.",
+      "source": "CCSChecker.com.au 2026-27 Confirmed Figures"
+    },
+    {
+      "fact": "실제 가족 부담은 어린이집이 Cap보다 얼마나 더 청구하느냐에 달려 있음",
+      "detail": "Cap 초과분에 대해서는 CCS 보조금이 없음. 어린이집이 $16/시간을 청구하면, $15.19 cap 초과분 $0.81은 가족이 100% 부담. 현재 전국 평균 LDC 요금: $14.40/시간 (cap 이하). ACT 최고 $16.10/시간.",
+      "source": "CCSChecker.com.au Average Childcare Fees"
+    },
+    {
+      "fact": "2025년 어린이집 비용은 전년 대비 4.6% 상승 (CPI 초과)",
+      "detail": "2024년 12월 → 2025년 12월 기준. 일반 물가보다 빠른 상승. 어린이집 비용 인상은 교사 임금 인상(WRP, 15% 2년간)이 주요 원인.",
+      "source": "CCSChecker.com.au"
+    },
+    {
+      "fact": "어린이집 비용 상승 제한(Fee Growth Cap)이 2026년 8월에 만료",
+      "detail": "2024년 8월~2026년 8월까지 WRP Fee Cap으로 요금 인상 제한 (최대 4.2%/년). 2026년 8월 이후에는 Childcare Services Cost Index(CSCI) 기준으로 전환. 제한 해제 후 요금 인상 가능성 있음.",
+      "source": "CCSChecker.com.au / Department of Education"
+    },
+    {
+      "fact": "3 Day Guarantee 계속 유지",
+      "detail": "2026년 1월부터 시행된 주 3일(72시간/2주) 최소 보장 제도는 2026-27년에도 변경 없이 지속.",
+      "source": "Services Australia"
+    },
+    {
+      "fact": "두 자녀 이상 가정 추가 혜택",
+      "detail": "두 번째 아이 이하에 대해 95% 보조율(연소득 $146,437 이하 기준). 둘째 아이 보내는 가정은 추가 절약 가능.",
+      "source": "CCSChecker.com.au"
+    },
+    {
+      "fact": "가족 소득 신고를 최신 상태로 유지하는 것이 중요",
+      "detail": "Services Australia에 소득을 낮게 신고하면 환급(Debt) 발생. 높게 신고하면 실질 보조금을 못 받음. 연말 Reconciliation에서 조정되지만, 연간 지출 관리에 영향.",
+      "source": "Services Australia"
+    }
+  ],
+  "statistics": [
+    { "stat": "LDC 시간당 cap: $15.19 (2026-27)", "context": "취학 전 아이 기준" },
+    { "stat": "전국 평균 LDC 요금: $14.40/시간", "context": "2025년 12월 기준" },
+    { "stat": "연간 어린이집 비용 상승률: 4.6%", "context": "2024→2025, CPI 초과" },
+    { "stat": "90% CCS 기준 소득: $88,520 이하", "context": "2026-27 기준" },
+    { "stat": "5일 이용 시 주간 평균 비용: $720", "context": "전국 LDC 평균 기준" },
+    { "stat": "둘째 아이 이하 CCS 최대 95%", "context": "소득 $146,437 이하" }
+  ],
+  "angles": [
+    "7월 6일 변경 사항 정확히 이해하기 — cap 인상이 내 지출을 줄여주는 건지 맞는지 체크",
+    "어린이집이 cap 초과 청구할 때 발생하는 '보이지 않는 부담' 설명",
+    "두 자녀 이상 가정이 놓치기 쉬운 95% 보조율 혜택",
+    "2026년 8월 이후 fee cap 만료 후 가격 인상 가능성에 대비하는 전략",
+    "소득 신고 정확성이 왜 중요한지 (연말 debt 방지)",
+    "CCS 계산기 활용해 내 상황에 맞는 실제 비용 파악하는 방법"
+  ],
+  "practical_tips": [
+    "myGov에서 현재 소득 예상치 업데이트 — 연말 Balancing Debt 방지",
+    "어린이집 청구 요금이 cap($15.19)을 초과하는지 확인 — 초과분은 100% 자부담",
+    "두 아이 어린이집 보내는 경우 둘째 이하 95% 혜택 적용 여부 확인",
+    "CCSChecker.com.au 무료 계산기로 2026-27 실제 본인 부담 계산",
+    "2026년 8월 이후 어린이집 요금 인상 공지 주시 — fee cap 만료 이후 인상 가능",
+    "3 Day Guarantee(72시간/2주) 활용해 보조금 최대화"
+  ],
+  "search_sources": [
+    "https://www.ccschecker.com.au/guides/will-ccs-change-2026-27",
+    "https://www.ccschecker.com.au/guides/average-childcare-cost-australia",
+    "https://www.servicesaustralia.gov.au/child-care-subsidy-changes",
+    "https://woodville.org.au/blog/early-learning/child-care-subsidy-2026-explained"
+  ]
+}
