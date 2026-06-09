@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-09T00:00:00.000Z",
+  "finished_at": "2026-06-09T01:00:00.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27200830161",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "July 2026 어린이집 비용 현실 체크: 워킹맘이 알아야 할 CCS 인상과 지출 전략",
+      "slug": "ccs-july-2026-cost-check",
+      "html_file": "outputs/2026-06-09/run-1/ccs-july-2026-cost-check.html",
+      "copy_file": "outputs/2026-06-09/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "엄마 혼자만의 시간 만들기: 호주 워킹맘의 자기 돌봄 루틴",
+      "slug": "working-mum-me-time-routine",
+      "html_file": "outputs/2026-06-09/run-1/working-mum-me-time-routine.html",
+      "copy_file": "outputs/2026-06-09/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-01.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-02.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-03.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-04.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-05.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-06.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-07.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-08.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-09.png",
+    "outputs/2026-06-09/run-1/images/ccs-july-2026-cost-check-10.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-01.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-02.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-03.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-04.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-05.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-06.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-07.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-08.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-09.png",
+    "outputs/2026-06-09/run-1/images/working-mum-me-time-routine-10.png"
+  ]
+}
