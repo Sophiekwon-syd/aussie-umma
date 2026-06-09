@@ -1,0 +1,118 @@
+[
+  {
+    "carousel_index": 1,
+    "topic": "아이 독립심 키우기: 호주에서 자립적인 아이로 키우는 연령별 실전 가이드",
+    "slug": "child-independence-guide-australia",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마. 두 자녀 이상 육아 중이거나 직장과 육아를 병행 중.",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "표지: 아이 독립심 키우기 — 호주에서 자립적인 아이 만들기 연령별 가이드"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "훅: '혼자 다 해줘야 좋은 엄마'라는 믿음이 아이를 더 힘들게 할 수 있다는 반전 제시"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "정의: 독립심이란 무엇인가 — 호주 육아에서 말하는 '자립(independence)'의 의미"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "데이터: 자립심을 기른 아이들의 실제 효과 — 자존감, 학업 동기, 불안 수준 차이"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "루틴: 연령별 자립 루틴 — 2세·5세·8세 각 나이에 맞는 자립 행동 3가지"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "카테고리: 독립심을 키우는 3가지 접근법 — 선택권 주기, 실패 허용하기, 환경 설계하기"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "체크리스트: 오늘부터 시작하는 자립 루틴 체크리스트 4가지"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "두/돈트: 독립심 키우는 것과 방임의 차이 — 해야 할 것과 하지 말아야 할 것"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "스텝: 아이 독립심 키우기 3단계 — 관찰, 기회 주기, 뒤에서 응원하기"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "CTA: 저장하고 오늘 아이에게 작은 자립 과제 하나 줘보기"
+      }
+    ]
+  },
+  {
+    "carousel_index": 2,
+    "topic": "워킹맘 재정 관리: 호주에서 두 아이 키우며 저축하는 실전 가계부 전략",
+    "slug": "working-mum-family-budget-strategy",
+    "target_audience": "호주에 사는 25-40세 한국인 엄마. 두 자녀 이상 육아 중이거나 직장과 육아를 병행 중.",
+    "cards": [
+      {
+        "card": 1,
+        "type": "cover",
+        "concept": "표지: 워킹맘 재정 관리 — 두 아이 키우며 저축하는 실전 가계부 전략"
+      },
+      {
+        "card": 2,
+        "type": "hook",
+        "concept": "훅: 돈을 더 벌어도 왜 남는 게 없는지 — 워킹맘의 재정 현실 공감"
+      },
+      {
+        "card": 3,
+        "type": "definition",
+        "concept": "정의: 가계부 전략이란 — 절약이 아니라 '돈의 흐름 파악'에서 시작하는 것"
+      },
+      {
+        "card": 4,
+        "type": "data",
+        "concept": "데이터: 호주 두 아이 가정 연간 절약 가능 금액 — CCS 활용, 식비 절감, 에너지 절약"
+      },
+      {
+        "card": 5,
+        "type": "routine",
+        "concept": "루틴: 재정 관리 주간 루틴 — 월급날, 주간 점검, 월말 리뷰 3가지 루틴"
+      },
+      {
+        "card": 6,
+        "type": "categories",
+        "concept": "카테고리: 절약의 3대 영역 — 육아비(CCS), 식비, 공공요금"
+      },
+      {
+        "card": 7,
+        "type": "checklist",
+        "concept": "체크리스트: 지금 당장 확인해야 할 4가지 — CCS 업데이트, 구독 서비스, 에너지 비교, moneysmart"
+      },
+      {
+        "card": 8,
+        "type": "do_dont",
+        "concept": "두/돈트: 재정 관리 잘하는 워킹맘 vs 못하는 워킹맘의 차이"
+      },
+      {
+        "card": 9,
+        "type": "steps",
+        "concept": "스텝: 재정 계획 3단계 — 현황 파악, 줄일 곳 찾기, 저축 자동화"
+      },
+      {
+        "card": 10,
+        "type": "cta",
+        "concept": "CTA: 저장하고 오늘 moneysmart.gov.au에서 예산 체크해보기"
+      }
+    ]
+  }
+]
