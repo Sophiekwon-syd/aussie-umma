@@ -1,0 +1,80 @@
+{
+  "topic": "엄마 혼자만의 시간 만들기: 호주 워킹맘의 자기 돌봄 루틴",
+  "slug": "working-mum-me-time-routine",
+  "niche": "한국인 호주 엄마를 위한 육아·건강·라이프스타일 정보",
+  "target_audience": "호주에 사는 25-40세 한국인 워킹맘, 직장과 육아를 병행 중",
+  "key_facts": [
+    {
+      "fact": "호주 부모의 약 60%가 자기돌봄에 쓰는 시간에 불만족",
+      "detail": "National Parenting Pulse Survey 결과. 주당 1회 이상 수면 부족을 경험하는 부모가 80% 이상.",
+      "source": "Life Course Centre, National Parenting Pulse Survey"
+    },
+    {
+      "fact": "워킹맘의 죄책감은 남성보다 훨씬 높음",
+      "detail": "2024 National Working Families Survey: 여성 50%가 매일 죄책감을 경험, 남성 38%. '나만의 시간'을 갖는 것에 대한 죄책감이 자기돌봄의 가장 큰 장벽.",
+      "source": "Parents At Work, 2024 National Working Families Survey"
+    },
+    {
+      "fact": "시간 관리 어려움이 워킹맘 최대 고민 (57%)",
+      "detail": "죄책감(43%)이 두 번째. 이 두 가지가 자기돌봄을 막는 주요 이중 장벽.",
+      "source": "2024 National Working Families Survey"
+    },
+    {
+      "fact": "정기적인 자기돌봄은 스트레스 감소, 생산성 향상, 육아 효율 증가로 이어짐",
+      "detail": "연구에 따르면 규칙적인 자기돌봄은 스트레스를 줄이고 기분을 개선하며 집중력을 높임. 엄마의 정서 조절 능력이 향상될 때 아이의 행동 문제도 감소하는 경향.",
+      "source": "Multiple studies cited in parenting research"
+    },
+    {
+      "fact": "호주 ABS 2024 Time Use Survey: 여성의 무급 육아 시간은 남성의 2배 이상",
+      "detail": "하루 평균 여성 4.1시간 vs 남성 1.9시간. 직장에 다니는 여성도 가정에서의 무급 노동 시간이 유의미하게 더 많음.",
+      "source": "ABS How Australians Use Their Time 2024"
+    },
+    {
+      "fact": "하루 10분 명상이 스트레스를 유의미하게 낮춤",
+      "detail": "짧은 시간이라도 규칙적인 마음챙김(mindfulness) 실천은 스트레스 호르몬(코르티솔) 수치 감소와 상관관계. 꼭 긴 시간이 필요하지 않음.",
+      "source": "Multiple wellness research summaries"
+    },
+    {
+      "fact": "자기돌봄을 '이기적'이 아닌 '필수'로 재정의하는 인식 전환 필요",
+      "detail": "호주 워킹맘 커뮤니티 조사에서 많은 엄마들이 자기돌봄을 '죄책감 없이' 할 수 없다고 보고. '산소마스크 원리' — 내가 먼저 충전되어야 가족을 돌볼 수 있음.",
+      "source": "Working Mumma Australia, Mum & Career research"
+    },
+    {
+      "fact": "이른 아침 시간대가 워킹맘에게 가장 실현 가능한 자기 시간",
+      "detail": "아이들이 일어나기 전 20-30분 활용. 취침 후 아이들이 잠든 뒤 시간도 활용 가능. 점심 시간 짧은 산책도 효과적.",
+      "source": "Working Mumma Australia podcast / Self-care research"
+    }
+  ],
+  "statistics": [
+    { "stat": "워킹맘 50%가 매일 죄책감 경험", "context": "Australia 2024 National Working Families Survey" },
+    { "stat": "부모 60%가 자기돌봄 시간에 불만족", "context": "National Parenting Pulse Survey" },
+    { "stat": "부모 80% 이상이 주 1회 이상 수면 부족", "context": "National Parenting Pulse Survey" },
+    { "stat": "시간 부족: 워킹맘 최대 고충 57%", "context": "2024 National Working Families Survey" },
+    { "stat": "여성 무급 육아 시간 하루 4.1시간 vs 남성 1.9시간", "context": "ABS Time Use Survey 2024" },
+    { "stat": "30% 이상의 부모가 매일 죄책감 느낌", "context": "National Parenting Pulse Survey" }
+  ],
+  "angles": [
+    "'자기돌봄 = 이기심'이라는 죄책감 프레임 깨기 — 충전되어야 줄 수 있음",
+    "바쁜 일상에서 현실적으로 실행 가능한 10-20분 단위 me-time 전략",
+    "아이가 자는 시간 전후, 점심시간 등 '숨겨진 시간' 찾기",
+    "파트너 또는 커뮤니티와의 시간 교환 (시간 스와핑)",
+    "자기돌봄을 스케줄에 '약속처럼' 고정하는 방법",
+    "호주 워킹맘이 쉽게 접근할 수 있는 무료·저비용 자기돌봄 활동"
+  ],
+  "practical_tips": [
+    "아침 5-30분: 아이 전에 일어나 커피 한 잔 + 짧은 스트레칭 또는 독서",
+    "점심 산책: 15분 야외 걷기 — 햇빛과 신선한 공기만으로도 기분 전환",
+    "취침 후 30분: 핸드폰 대신 좋아하는 것 하기 — 단, 수면을 희생하지 않는 범위",
+    "파트너와 주 1-2회 '혼자 시간' 교대 약속 — 달력에 고정",
+    "한인 맘 커뮤니티 또는 플레이그룹에서 아이 돌봄 교환(시간 스와핑)",
+    "자기돌봄 목록을 만들되 복잡하지 않게: 산책, 음악 듣기, 목욕, 전화 통화",
+    "죄책감이 들 때는 '나는 지금 가족을 위해 충전 중'이라고 의식적으로 재구성"
+  ],
+  "emotional_angle": "호주 한국 엄마들은 이민자 고립감 + 워킹맘 죄책감 이중 부담을 안고 있음. 친정 없이 혼자 감당해야 하는 상황에서 자기 시간 갖기는 더 어렵게 느껴짐. 이 콘텐츠는 '그래도 괜찮아'가 아니라 '이렇게 하면 실제로 가능해'의 실천 가이드.",
+  "search_sources": [
+    "https://workingmumma.com.au/podcast-127/",
+    "https://parentsatwork.com.au/2024-national-working-families-survey/",
+    "https://lifecoursecentre.org.au/working-papers/national-parenting-pulse-survey",
+    "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/latest-release"
+  ]
+}
