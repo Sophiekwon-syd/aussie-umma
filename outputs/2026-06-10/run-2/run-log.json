@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-10T19:56:43Z",
+  "finished_at": "2026-06-10T20:08:45Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27302202289",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "아이 회복탄력성 키우기: 호주에서 불안한 아이를 강하게 키우는 실전 전략",
+      "slug": "child-resilience-guide-australia",
+      "html_file": "outputs/2026-06-10/run-2/child-resilience-guide-australia.html",
+      "copy_file": "outputs/2026-06-10/run-2/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "호주 워킹맘 재택근무 완전 가이드: 아이와 집에서 일하면서도 생산적으로 지내는 법",
+      "slug": "working-mum-work-from-home-guide",
+      "html_file": "outputs/2026-06-10/run-2/working-mum-work-from-home-guide.html",
+      "copy_file": "outputs/2026-06-10/run-2/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-01.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-02.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-03.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-04.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-05.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-06.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-07.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-08.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-09.png",
+    "outputs/2026-06-10/run-2/images/child-resilience-guide-australia-10.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-01.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-02.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-03.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-04.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-05.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-06.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-07.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-08.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-09.png",
+    "outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-10.png"
+  ]
+}
