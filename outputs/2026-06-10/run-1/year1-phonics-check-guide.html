@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>호주 Year 1 파닉스 체크 완전 가이드 — AUSSIE UMMA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&family=Space+Grotesk:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #050505;
+  --card-bg: #080808;
+  --elevated: #0e0e0e;
+  --ink: #ffffff;
+  --ink2: #cccccc;
+  --ink3: #888888;
+  --ink4: #333333;
+  --accent: #C6F135;           /* overridden: ACCENT_PRIMARY */
+  --accent-dim: rgba(198, 241, 53, 0.15);
+  --blue: #3B82F6;             /* overridden: ACCENT_SECONDARY */
+  --red: #ff4d4d;
+  --border: rgba(255, 255, 255, 0.07);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  font-family: var(--font-kr);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Centered content block — wrap non-.top content to keep it visible in 1:1 crop */
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches / Cards */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't Grid */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Timeline */
+.ti {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-left: 3px solid var(--border);
+  margin-left: 5px;
+  padding-left: 36px;
+  position: relative;
+}
+.ti::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 42px;
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--accent-dim);
+}
+.ti:last-child { border-left-color: transparent; }
+.ti-year {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ti-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.ti-desc {
+  font-size: 23px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Comparison row */
+.cmp-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+}
+.cmp-row:last-child { border-bottom: none; }
+.cmp-h {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink3);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+.cmp-v {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.cmp-v.accent { color: var(--accent); }
+
+/* Quote */
+.quote {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+  text-align: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.quote strong { color: var(--accent); font-weight: 900; }
+.quote-author {
+  margin-top: 48px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Stat */
+.stat-val {
+  font-family: var(--font-display);
+  font-size: 260px;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -10px;
+}
+.stat-label {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--ink);
+  text-align: center;
+  margin-top: 24px;
+}
+.stat-desc {
+  font-size: 26px;
+  color: var(--ink2);
+  text-align: center;
+  margin-top: 20px;
+  max-width: 85%;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+  </style>
+</head>
+<body>
+
+<!-- Card 01 — Cover -->
+<div class="card c1">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">P</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">PHONICS CHECK</div>
+    <div style="margin-bottom:16px">
+      <div class="td xl">파닉스 체크,<br>이게 <span class="ta">뭔지</span><br>아세요?</div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">2026 Term 3, 호주 Year 1 전국 의무화.<br>한국 엄마가 꼭 알아야 할 것들.</div>
+    <div class="cover-cta">끝까지 읽어보세요 <span>→</span></div>
+  </div>
+</div>
+
+<!-- Card 02 — Hook -->
+<div class="card c2">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="hook-q">선생님한테 <strong>파닉스 체크</strong> 안내문 받았는데, 솔직히 뭔지 잘 모르셨죠?</div>
+    <div class="hook-ans">몰라도 괜찮아요. 지금부터 같이 알아봐요.</div>
+  </div>
+</div>
+
+<!-- Card 03 — Definition -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">WHAT IS IT</div>
+      <div class="td md" style="margin-bottom:36px">파닉스 체크란?</div>
+      <div class="tb" style="margin-bottom:20px">파닉스는 영어 <strong style="color:var(--accent)">소리와 글자의 관계</strong>를 배우는 방법이에요. 파닉스 체크는 아이가 얼마나 잘 소리를 합쳐 읽는지 교사가 확인하는 짧은 평가예요.</div>
+      <div class="def-box">
+        <div class="def-box-text">성적이 아니에요. 교사가 아이를 <strong>더 잘 도와주기 위한</strong> 정보 수집이에요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 04 — Data -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">THE NUMBERS</div>
+      <div class="td md" style="margin-bottom:16px">딱 <span class="ta">40개</span> 단어,<br>딱 7분이에요</div>
+      <div class="chips">
+        <div class="chip"><span class="cd"></span>40개 단어 읽기</div>
+        <div class="chip"><span class="cd"></span>실제 단어 20개</div>
+        <div class="chip"><span class="cd"></span>의사 단어 20개</div>
+        <div class="chip"><span class="cd"></span>소요 시간 5-7분</div>
+      </div>
+      <div class="tb">Term 3 Week 4-6 사이, 담임 선생님과 단둘이 조용한 공간에서 진행해요. 2026년부터 전국 모든 정부 초등학교에서 의무 시행이에요. (출처: 호주 연방 교육부)</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 05 — Routine -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">HOME ROUTINE</div>
+      <div class="td md" style="margin-bottom:48px">집에서 할 수 있는<br>저녁 10분 루틴</div>
+      <div class="rb">
+        <div class="rb-t">DAY 1-5</div>
+        <div class="rb-x">영어 책 한 권 함께 읽기 — 모르는 단어는 <strong>소리 내어 천천히</strong> 읽어보도록 유도하세요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">DAY 3-7</div>
+        <div class="rb-x">의사 단어 놀이 — blick, fot, mip 같은 <strong>만들어진 단어</strong>를 함께 소리 내어 읽어요.</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">DAILY</div>
+        <div class="rb-x">칭찬 먼저 — 결과보다 <strong>시도하는 태도</strong>를 칭찬해 주세요. 자신감이 제일 중요해요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 06 — Categories -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">WORD TYPES</div>
+      <div class="td md" style="margin-bottom:40px">파닉스 체크에 나오는<br>단어 세 가지 유형</div>
+      <div class="ap">
+        <div class="ap-t">실제 단어 (Real Words)</div>
+        <div class="ap-d">cat, ship, jump처럼 실제로 존재하는 단어예요. 뜻을 알아도 되고 몰라도 돼요 — 소리를 읽는 것이 핵심이에요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">의사 단어 (Pseudo-Words)</div>
+        <div class="ap-d">blick, fot, dasp처럼 실제로 없는 만들어진 단어예요. 암기가 아닌 파닉스 규칙을 적용해야 읽을 수 있어요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">소리 합치기 (Blending)</div>
+        <div class="ap-d">개별 소리를 합쳐 단어를 만드는 능력이에요. b-l-i-ck를 합쳐 'blick'으로 읽는 것처럼요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 07 — Checklist -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">PREP CHECKLIST</div>
+      <div class="td md" style="margin-bottom:20px">Term 3 전에<br>챙겨야 할 것들</div>
+      <div class="tb" style="margin-bottom:32px">지금 당장 시작할 수 있는 4가지예요.</div>
+      <div class="ai"><span class="ai-d"></span>매일 저녁 영어 책 읽기 루틴 만들기 (5-10분이면 충분해요)</div>
+      <div class="ai"><span class="ai-d"></span>의사 단어 소리 내어 읽는 연습 — Literacy Hub 무료 자료 활용</div>
+      <div class="ai"><span class="ai-d"></span>선생님께 EAL(영어가 모국어가 아님) 배경 미리 알리기</div>
+      <div class="ai"><span class="ai-d"></span>체크 결과 나오면 추가 지원 방법 교사와 상의할 계획 세우기</div>
+      <div class="takeaway">준비는 아이를 위한 것이지, 점수를 위한 것이 아니에요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 08 — Do/Don't -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="td md" style="margin-bottom:20px">이건 하세요<br>vs 이건 하지 마세요</div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">Do</div>
+          <div class="ci-item">책 읽기와 소리 게임으로 자연스럽게 파닉스 익히기</div>
+          <div class="ci-item">아이가 모르는 단어를 만나면 천천히 소리 내어 읽도록 도와주기</div>
+          <div class="ci-item">체크 결과 나오면 교사와 면담해 집에서 도울 방법 찾기</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">Don't</div>
+          <div class="ci-item">단어 암기 위주로 준비시키기 — 파닉스 체크는 암기로 통과하는 평가가 아니에요</div>
+          <div class="ci-item">결과가 기대에 못 미쳤다고 아이에게 실망감 표현하기</div>
+          <div class="ci-item">바이링구얼이라 불리하다고 미리 걱정하며 포기하기</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 09 — Steps -->
+<div class="card">
+  <span class="handle">@aussie.umma</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">AFTER THE CHECK</div>
+      <div class="td md" style="margin-bottom:40px">결과가 나온 후<br>엄마가 할 일 3가지</div>
+      <div class="si">
+        <div class="si-n">01</div>
+        <div class="si-c">
+          <div class="si-t">결과 공문 확인하기</div>
+          <div class="si-d">학교에서 결과를 담은 편지 또는 리포트를 보내줘요. 통과 기준 미달이어도 성적에 영향 없어요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">02</div>
+        <div class="si-c">
+          <div class="si-t">담임 선생님과 면담 요청</div>
+          <div class="si-d">결과가 어떻든, 집에서 영어 읽기를 어떻게 도와주면 좋을지 교사에게 구체적으로 물어보세요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">03</div>
+        <div class="si-c">
+          <div class="si-t">집에서 지원 방향 정하기</div>
+          <div class="si-d">학교에서 추가 지원을 받게 되면 집에서도 같은 방향으로 연습해 주면 가장 효과적이에요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10 — CTA -->
+<div class="card c10">
+  <span class="handle">@aussie.umma</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+    <div class="td lg" style="text-align:center;margin-bottom:20px">
+      Year 1 엄마라면<br><span class="ta">저장</span>해 두세요
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%">파닉스 체크는 <strong>아이의 부족함을 확인하는 게 아니에요.</strong> 교사가 더 잘 도와주기 위한 과정이에요. 우리 아이의 영어 읽기 여정을 응원해요.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">혹시 이미 파닉스 체크 경험 있으신 분, 댓글로 알려주세요.</p>
+  </div>
+</div>
+
+</body>
+</html>
