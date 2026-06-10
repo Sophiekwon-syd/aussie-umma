@@ -1,8 +1,8 @@
 {
   "date": "2026-06-10",
-  "last_run_at": "2026-06-10T11:32:52.762Z",
+  "last_run_at": "2026-06-10T20:18:25.422Z",
   "repo": "Sophiekwon-syd/aussie-umma",
-  "ref": "679b307123fabb2c7109239539f091977e9135a6",
+  "ref": "38389b8db361864fd18b015611c23baebaddf0a0",
   "results": [
     {
       "topic": "호주 Year 1 파닉스 체크 완전 가이드: Term 3 전 한국 엄마가 꼭 알아야 할 것",
@@ -41,6 +41,44 @@
         "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/679b307123fabb2c7109239539f091977e9135a6/outputs/2026-06-10/run-1/images/working-mum-self-development-guide-card-10.png"
       ],
       "posted_at": "2026-06-10T11:32:52.762Z"
+    },
+    {
+      "topic": "아이 회복탄력성 키우기: 호주에서 불안한 아이를 강하게 키우는 실전 전략",
+      "slug": "child-resilience-guide-australia",
+      "carousel_container_id": "18096086939089110",
+      "ig_media_id": "18118089076692310",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/child-resilience-guide-australia-10.png"
+      ],
+      "posted_at": "2026-06-10T20:16:09.222Z"
+    },
+    {
+      "topic": "호주 워킹맘 재택근무 완전 가이드: 아이와 집에서 일하면서도 생산적으로 지내는 법",
+      "slug": "working-mum-work-from-home-guide",
+      "carousel_container_id": "18096087182089110",
+      "ig_media_id": "17859226497648591",
+      "image_urls": [
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-01.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-02.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-03.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-04.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-05.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-06.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-07.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-08.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-09.png",
+        "https://raw.githubusercontent.com/Sophiekwon-syd/aussie-umma/38389b8db361864fd18b015611c23baebaddf0a0/outputs/2026-06-10/run-2/images/working-mum-work-from-home-guide-10.png"
+      ],
+      "posted_at": "2026-06-10T20:18:25.422Z"
     }
   ]
 }
