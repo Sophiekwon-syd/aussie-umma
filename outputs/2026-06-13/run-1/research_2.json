@@ -1,0 +1,139 @@
+{
+  "topic": "벌크 빌링 아직도 돈 내고 계세요? 2026 GP 무료 진료 최신 가이드",
+  "angle": "2025년 11월부터 시행된 호주 GP 벌크 빌링 확대 정책의 실질적 혜택과 무료 진료를 받는 구체적 방법",
+  "summary": "2025년 11월 1일부터 호주 연방정부는 벌크 빌링 인센티브를 모든 Medicare 대상자로 확대했다. 기존에는 16세 미만 자녀와 컨세션 카드 소지자에게만 적용됐던 혜택이 이제 일반 성인에게도 열렸으며, 2025년 11월~2026년 1월 GP 방문의 81.4%가 벌크 빌링으로 처리됐다. NSW는 별도로 1억 8,900만 달러 규모의 지원 패키지를 통해 GP 클리닉의 벌크 빌링 유지를 장려하고 있다.",
+  "definition": "벌크 빌링(Bulk Billing)이란 의사가 진료비를 Medicare에 직접 청구하는 방식으로, 환자는 본인 부담금(gap fee) 없이 $0으로 진료를 받는 것을 말한다. 의사가 벌크 빌링을 선택하지 않으면 Medicare 리베이트를 초과하는 금액을 환자가 추가로 내야 한다.",
+  "key_facts": [
+    {
+      "fact": "2025년 11월 1일부터 벌크 빌링 인센티브가 모든 Medicare 자격자로 확대됐다. 기존에는 16세 미만 아이와 컨세션 카드 소지자만 해당됐다.",
+      "source": "Australian Government Department of Health — National GP Bulk Billing Snapshot, February 2026"
+    },
+    {
+      "fact": "2025년 11월~2026년 1월 GP 방문의 81.4%가 벌크 빌링으로 처리됐다. 1년 전 같은 기간(77.1%)보다 4.3%포인트 높아진 것으로, 팬데믹 초기 이후 가장 큰 분기 상승폭이다.",
+      "source": "Grattan Institute — 'Bulk-billing rates are up', 2026"
+    },
+    {
+      "fact": "벌크 빌링 100%를 실시하는 클리닉 수가 2025년 11월 이전 약 2,300개에서 2026년 1월 말 3,400개 이상으로 증가했다.",
+      "source": "Grattan Institute — 'Bulk-billing rates are up', 2026"
+    },
+    {
+      "fact": "연방정부는 2025-26 예산에서 벌크 빌링 강화를 위해 79억 달러를 투자했으며, 매년 약 20억 달러의 재정이 투입된다.",
+      "source": "Grattan Institute — 'Bulk-billing rates are up', 2026"
+    },
+    {
+      "fact": "NSW 정부는 2024-25 예산에서 1억 8,900만 달러 규모의 벌크 빌링 지원 패키지를 발표했다. 시드니 메트로 클리닉은 80%, 나머지 NSW는 70% 이상 벌크 빌링 시 급여세 환급 혜택을 받는다.",
+      "source": "NSW Government media release — 'Bulk-billing support to deliver cost-of-living relief for households across NSW'"
+    },
+    {
+      "fact": "NSW 보건부 추산에 따르면 벌크 빌링률이 1% 하락할 때마다 약 3,000명이 GP 대신 응급실을 찾는다.",
+      "source": "NSW Government media release — 'Bulk-billing support to deliver cost-of-living relief for households across NSW'"
+    },
+    {
+      "fact": "16~64세 성인 연령대가 정책 변화로 가장 큰 혜택을 받았다. 이 집단의 벌크 빌링 이용률이 4.2%포인트 상승했다.",
+      "source": "Grattan Institute — 'Bulk-billing rates are up', 2026"
+    },
+    {
+      "fact": "Bulk Billing Practice Incentive Program(BBPIP)에 등록한 클리닉은 모든 서비스를 벌크 빌링할 경우 MBS 급여의 추가 12.5%를 인센티브로 받는다. 첫 지급은 2026년 1월에 이루어졌다.",
+      "source": "Services Australia — 'About the Bulk Billing Practice Incentive Program (BBPIP)'"
+    },
+    {
+      "fact": "MyMedicare에 등록한 환자는 벌크 빌링 혜택 및 장기 텔레헬스 상담에 우선 접근할 수 있다. 등록은 myGov를 통해 무료로 가능하다.",
+      "source": "Australian Government Department of Health — 'Information for MyMedicare patients'"
+    },
+    {
+      "fact": "벌크 빌링 비율은 상승했지만, 벌크 빌링을 하지 않는 클리닉의 gap fee는 2009년 이후 최고 수준이다. 주별로 다르며 태즈메이니아가 평균 $57.91로 가장 높고, 사우스 오스트레일리아가 $44.92로 가장 낮다.",
+      "source": "Medical Republic — 'Bulk billing is up, but so are out-of-pockets', 2026"
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "GP 방문 벌크 빌링률: 2025년 11월~2026년 1월 81.4%",
+      "source": "Australian Government — National GP Bulk Billing Snapshot, Feb 2026"
+    },
+    {
+      "stat": "1년 전 대비 상승폭: +4.3%포인트 (77.1% → 81.4%)",
+      "source": "Grattan Institute, 2026"
+    },
+    {
+      "stat": "전국 벌크 빌링 100% 클리닉: 2,300개 → 3,400개+ (2025년 11월 전후 비교)",
+      "source": "Grattan Institute, 2026"
+    },
+    {
+      "stat": "NSW 벌크 빌링 지원 패키지: $189 million",
+      "source": "NSW Government, 2024"
+    },
+    {
+      "stat": "연방 예산 투자: $7.9 billion (2025-26 예산)",
+      "source": "Australian Government Department of Health"
+    },
+    {
+      "stat": "정부 목표: 2030년까지 벌크 빌링률 90% 달성",
+      "source": "Grattan Institute, 2026"
+    },
+    {
+      "stat": "벌크 빌링 미시행 클리닉의 평균 gap fee: $44.92~$57.91 (주별 차이)",
+      "source": "Medical Republic, 2026"
+    }
+  ],
+  "common_misconception": "많은 사람이 '벌크 빌링은 어린 아이나 연금 수급자에게만 해당된다'고 알고 있다. 2025년 11월 이전까지는 맞는 말이었지만, 지금은 아니다. 정책 변경으로 일반 성인 Medicare 카드 소지자도 벌크 빌링 GP를 이용할 수 있게 됐다.",
+  "practical_steps": [
+    "HotDoc(hotdoc.com.au) 또는 HealthEngine(healthengine.com.au)에서 'Bulk Billing' 필터를 켜고 집 근처 GP를 검색한다.",
+    "myGov 계정을 통해 MyMedicare에 등록하면 벌크 빌링 텔레헬스 상담 포함 추가 혜택을 받을 수 있다.",
+    "GP 클리닉에 예약할 때 반드시 'Do you bulk bill all patients?'라고 직접 물어본다.",
+    "텔레헬스로도 벌크 빌링 진료가 가능하다. 단, 해당 클리닉을 지난 12개월 이내에 방문했거나 MyMedicare에 등록한 경우에 적용된다.",
+    "Medicare 카드가 유효한지 확인한다."
+  ],
+  "contrasting_approaches": [
+    {
+      "label": "벌크 빌링 GP 이용",
+      "description": "환자 본인 부담금 $0. Medicare 카드만 있으면 된다. 단, 클리닉이 벌크 빌링에 참여해야 하며 대기 시간이 길 수 있다."
+    },
+    {
+      "label": "Gap fee 있는 GP 이용",
+      "description": "의사가 Medicare 리베이트보다 높은 금액을 청구하는 방식. 환자가 차액(gap fee)을 직접 부담한다. 평균 $45~$58 수준이다."
+    }
+  ],
+  "hook": "2025년 11월부터 호주의 벌크 빌링 혜택이 아이와 연금자뿐 아니라 모든 Medicare 소지자로 확대됐지만, 많은 한국 엄마들이 아직도 변경 사실을 모르고 매번 $50 이상을 GP 진료비로 내고 있다.",
+  "do_examples": [
+    "예약 전 HotDoc이나 HealthEngine에서 'Bulk Billing' 필터로 클리닉을 확인한다",
+    "myGov에서 MyMedicare 등록을 마치고 벌크 빌링 텔레헬스 혜택을 받는다",
+    "예약 시 전화로 'Do you bulk bill all patients?'라고 직접 확인한다"
+  ],
+  "dont_examples": [
+    "벌크 빌링은 아이나 연금 수급자에게만 해당된다고 생각해 확인도 안 해보고 gap fee를 낸다",
+    "GP 방문마다 gap fee를 내면서도 다른 클리닉을 알아볼 생각을 안 한다",
+    "텔레헬스로 무료 상담이 가능한데도 몰라서 매번 클리닉에 직접 방문해 시간을 쓴다"
+  ],
+  "angles": [
+    {
+      "label": "정책 변화 알림 각도",
+      "description": "2025년 11월의 정책 변경 사실을 중심으로, '이런 혜택이 생겼는데 모르고 계셨나요?' 형식으로 접근."
+    },
+    {
+      "label": "실전 가이드 각도",
+      "description": "벌크 빌링 GP를 찾는 구체적 방법 5단계를 중심으로 구성. HotDoc, HealthEngine, MyMedicare, 텔레헬스 등 실행 가능한 도구 중심."
+    },
+    {
+      "label": "오해 바로잡기 각도",
+      "description": "'벌크 빌링은 컨세션 카드 없으면 안 된다'는 흔한 오해를 정면으로 반박하는 구성."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Australian Government — National GP Bulk Billing Snapshot (Nov 2025 – Jan 2026)",
+      "url": "https://www.health.gov.au/sites/default/files/2026-02/national-gp-bulk-billing-snapshot-1-november-2025-to-31-january-2026.pdf"
+    },
+    {
+      "name": "Grattan Institute — 'Bulk-billing rates are up'",
+      "url": "https://grattan.edu.au/news/bulk-billing-rates-are-up/"
+    },
+    {
+      "name": "NSW Government — 'Bulk-billing support to deliver cost-of-living relief for households across NSW'",
+      "url": "https://www.nsw.gov.au/media-releases/bulk-billing-support-to-deliver-cost-of-living-relief-for-households-across-nsw"
+    },
+    {
+      "name": "Services Australia — About the Bulk Billing Practice Incentive Program (BBPIP)",
+      "url": "https://www.servicesaustralia.gov.au/about-bulk-billing-practice-incentive-program-bbpip?context=20"
+    }
+  ]
+}
