@@ -1,0 +1,131 @@
+{
+  "topic": "호주 Medicare Urgent Care Clinic 완전 가이드",
+  "slug": "medicare-urgent-care-clinic-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "호주 의료 정보",
+      "headline": "예약 없이, <em>무료로</em>.<br />Urgent Care Clinic 이용법",
+      "subtitle": "GP 예약을 기다릴 수 없을 때, 돈 한 푼 안 내고 당일 진료받는 방법"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "아이 열이 39도인데 <strong>GP 예약은 3일 뒤</strong>라고요?",
+      "answer": "응급실까지 가기엔 애매하고, 기다리기엔 너무 걱정될 때 — 그 순간이 바로 UCC를 써야 할 때예요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "Urgent Care Clinic (UCC)",
+      "explanation": "생명을 위협하지는 않지만 <strong>당일 진료가 꼭 필요한</strong> 급성 증상을 위해 Medicare에서 만든 클리닉이에요. 예약도 필요 없고, 의뢰서도 필요 없어요.",
+      "punchline": "Medicare 카드 하나면 됩니다. 본인 부담금 없음."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "숫자로 보면",
+      "headline": "방문자의 <em>45%</em>는 '여기 없었으면 응급실 갔을 것'이라고 했어요",
+      "chips": ["전국 137개 운영", "누적 300만 건 진료", "25% 이상 15세 미만", "90%가 1시간 내 진료"],
+      "explanation": "주말 방문이 25% 이상, 평일 오후 5시 이후도 25% 이상이에요. 바쁜 엄마들이 실제로 많이 쓰고 있다는 뜻이죠. (출처: Australian Government, 2026)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "증상별 판단법",
+      "headline": "아이가 아플 때, 어디로 가야 할까요?",
+      "entries": [
+        {
+          "label": "UCC",
+          "text": "고열, 귀·눈 감염, 경미한 골절, 발진, UTI — <strong>당일 진료가 필요하지만</strong> 생명에 지장은 없는 증상"
+        },
+        {
+          "label": "GP",
+          "text": "예방접종, 정기 건강검진, 만성질환 관리, <strong>처방전 갱신</strong> — 급하지 않은 건 GP 예약으로"
+        },
+        {
+          "label": "000",
+          "text": "흉통, 심한 출혈, 의식 불명, 경련, 영아의 지속적인 고열 — <strong>즉시 응급실</strong>이 필요한 상황"
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "이런 증상이라면",
+      "headline": "UCC에서 되는 것 vs 안 되는 것",
+      "items": [
+        {
+          "title": "UCC로 오세요",
+          "description": "경미한 골절·염좌, 귀·눈 감염, 요로감염, 위장염, 고열, 피부 발진, 소규모 상처 — 이런 증상은 UCC에서 바로 치료돼요."
+        },
+        {
+          "title": "GP 예약을 하세요",
+          "description": "만성질환 관리, 정기 검진, 예방접종, 처방전 갱신처럼 급하지 않은 건 GP 예약이 맞아요."
+        },
+        {
+          "title": "000을 부르세요",
+          "description": "흉통, 호흡 곤란, 심한 출혈, 의식 불명, 경련이 있다면 지체 없이 000으로 연락하세요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "방문 전 체크리스트",
+      "headline": "UCC 가기 전, 이 4가지만 챙기세요",
+      "intro": "처음 가도 당황하지 않으려면 미리 알아두는 게 최고예요.",
+      "items": [
+        "Medicare 카드 지참 (본인 + 아이 카드)",
+        "집 근처 UCC 위치 미리 확인",
+        "TIS National 번호 저장 — 131 450 (무료 통역)",
+        "증상 시작 시간과 경과 간단히 메모"
+      ],
+      "takeaway": "TIS National(131 450)로 한국어 통역 무료로 연결돼요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이렇게 하세요 vs 이러지 마세요",
+      "do": [
+        "Medicare 카드 항상 지갑에 넣어두기",
+        "증상이 생기면 UCC 먼저 검색해보기",
+        "한국어 통역 필요하면 131 450 요청하기"
+      ],
+      "dont": [
+        "가벼운 증상에 응급실 직행하기",
+        "GP 예약 잡힐 때까지 며칠씩 참고 기다리기",
+        "Medicare 카드 없다고 포기하기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "지금 바로",
+      "headline": "집 근처 UCC, 3단계로 찾아보세요",
+      "steps": [
+        {
+          "title": "사이트 접속",
+          "description": "healthdirect.gov.au에 접속해서 검색창에 'Urgent Care Clinic'을 입력하세요."
+        },
+        {
+          "title": "위치 확인",
+          "description": "내 주소나 우편번호를 넣으면 가까운 UCC 목록과 운영 시간이 바로 나와요."
+        },
+        {
+          "title": "번호 저장",
+          "description": "클리닉 번호와 TIS National(131 450)을 지금 바로 연락처에 저장해 두세요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "미리 알면<br /><em>당황하지 않아요</em>",
+      "message": "아이가 아플 때 어디로 가야 할지 몰라 당황했던 경험, 저도 있어요. <strong>UCC를 미리 알아두면</strong> 그 순간이 훨씬 덜 무서워져요.",
+      "comment_prompt": "비슷한 경험 있으신 분, 댓글로 나눠주세요."
+    }
+  ]
+}
