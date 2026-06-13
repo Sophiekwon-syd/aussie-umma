@@ -1,0 +1,156 @@
+{
+  "topics": [
+    {
+      "topic": "호주 Medicare Urgent Care Clinic 완전 가이드",
+      "slug": "medicare-urgent-care-clinic-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "headline": "예약 없이, 무료로. Urgent Care Clinic 이용법",
+          "key_message": "GP 예약을 기다릴 수 없을 때 돈 한 푼 안 내고 당일 진료받을 수 있는 곳이 있다.",
+          "content_notes": "Medicare UCC의 핵심 가치 — 무료, 예약 불필요, 주 7일 — 을 커버 카드에 압축. 브랜드 핸들 @aussie.umma 상단 우측 배치."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "headline": "아이가 열이 39도인데 GP 예약은 3일 뒤?",
+          "key_message": "응급실까지 가기엔 애매하고, 기다리기엔 너무 걱정될 때 — 그 상황이 바로 UCC를 써야 하는 순간이다.",
+          "content_notes": "한국 엄마들이 실제로 겪는 상황(고열, 귀 감염, 급성 복통 등)을 구체적으로 묘사해 '나 얘기다' 반응 유도."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "headline": "Urgent Care Clinic이 뭔가요?",
+          "key_message": "UCC는 생명을 위협하지는 않지만 당일 진료가 필요한 급성 증상을 위한 Medicare 클리닉이다. 예약 없이 방문하며 비용은 전액 Bulk Bill.",
+          "content_notes": "UCC와 GP, 응급실(ED)의 차이를 명확히 구분. 2026년 6월 기준 전국 137개 운영 사실 포함."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "headline": "방문자의 45%는 '여기 없었으면 응급실 갔을 것'이라고 했다",
+          "key_message": "전국 137개 UCC에서 누적 약 300만 건이 진료됐고, 방문자의 25% 이상이 15세 미만 아동이다. 방문자의 90%가 1시간 이내 진료를 받았다.",
+          "content_notes": "출처: Prime Minister of Australia media release, 2026 / MJA 2026. 숫자를 크게 시각화."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "headline": "아이가 아플 때, 어디로 가야 할까?",
+          "key_message": "증상의 경중에 따라 UCC, GP, 응급실 중 어디로 가야 하는지 상황별로 판단할 수 있다.",
+          "content_notes": "세 가지 슬롯: (1) GP 진료 시간 내 경증: GP로 / (2) 저녁·주말 급성 증상: UCC로 / (3) 000이 필요한 응급: 응급실로."
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "headline": "UCC에서 치료되는 증상 vs 아닌 증상",
+          "key_message": "UCC는 경미한 골절, 귀·눈 감염, 고열, UTI 등 당일 처치가 필요한 증상에 적합하다.",
+          "content_notes": "3가지 카테고리: UCC 가는 경우 / GP 가는 경우 / 000 부르는 경우. 각 항목 3-4개씩."
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "headline": "UCC 방문 전 챙길 것 4가지",
+          "key_message": "Medicare 카드, 가까운 UCC 위치, TIS National 번호(131 450), 증상 메모 — 이 네 가지만 미리 알면 당황하지 않는다.",
+          "content_notes": "실행 가능한 체크리스트 4항목. 출처: Healthdirect."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "headline": "이렇게 하세요 vs 이러지 마세요",
+          "key_message": "UCC는 올바르게 쓰면 시간과 돈을 모두 아낄 수 있다.",
+          "content_notes": "DO: 예약 없이 walk-in / Bulk Bill 확인 / 통역 서비스 요청. DON'T: 경미한 증상을 응급실로 / 심각한 응급을 UCC로 / Medicare 카드 없이 방문."
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "headline": "지금 바로 UCC 찾는 방법",
+          "key_message": "healthdirect.gov.au 또는 'Medicare Urgent Care Clinic' 검색으로 집 근처 클리닉을 바로 찾을 수 있다.",
+          "content_notes": "3단계: (1) healthdirect.gov.au 접속 → (2) 가장 가까운 클리닉 저장 → (3) Medicare 카드 지참, 통역 필요 시 131 450."
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "headline": "이 정보, 필요한 엄마에게 꼭 공유해 주세요",
+          "key_message": "UCC를 미리 알아두면 아이가 아플 때 당황하지 않는다. 저장해두고, 같은 상황의 엄마와 나눠주세요.",
+          "content_notes": "cta_text: 저장하기 →. 저장 + 공유 유도."
+        }
+      ]
+    },
+    {
+      "topic": "벌크 빌링 아직도 돈 내고 계세요? 2026 GP 무료 진료 최신 가이드",
+      "slug": "bulk-billing-gp-free-visit-guide-2026",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "headline": "GP 진료비, 이제 안 내도 됩니다 — 2026 벌크 빌링 가이드",
+          "key_message": "2025년 11월부터 GP 무료 진료 혜택이 모든 Medicare 대상자로 확대됐다.",
+          "content_notes": "2025년 11월 정책 변경이라는 뉴스성 훅으로 시선 고정. @aussie.umma 핸들 상단 우측."
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "headline": "GP 갈 때마다 $50 넘게 내고 있었다면?",
+          "key_message": "진료비가 부담돼 GP 방문을 미루고 있었다면, 이미 혜택받을 자격이 생겼는데 모르고 있는 것일 수 있다.",
+          "content_notes": "gap fee 평균 $44.92~$57.91이라는 데이터 활용. 출처: Medical Republic, 2026."
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "headline": "벌크 빌링이 뭔가요?",
+          "key_message": "벌크 빌링은 GP가 Medicare에 직접 청구하는 방식으로, 환자가 진료비를 전혀 내지 않는 것이다.",
+          "content_notes": "벌크 빌링 vs gap fee 개념을 한국어로 명확하게 설명. 2025년 11월 정책 변경 배경 한 줄 포함."
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "headline": "GP 방문 10건 중 8건이 이미 무료",
+          "key_message": "2025년 11월~2026년 1월, GP 방문의 81.4%가 벌크 빌링으로 처리됐다. 전국 벌크 빌링 100% 클리닉이 3,400개를 넘었다.",
+          "content_notes": "출처: Grattan Institute, 2026 / Australian Government, Feb 2026. 81.4% 숫자 크게 시각화."
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "headline": "어떤 상황에서 벌크 빌링 받을 수 있나요?",
+          "key_message": "대면 진료, 전화 텔레헬스, 아이 정기 검진 — 상황별로 조건이 조금씩 다르다.",
+          "content_notes": "세 가지 슬롯: (1) 대면 GP 진료 / (2) 텔레헬스 / (3) 아이 정기 건강검진."
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "headline": "벌크 빌링 GP를 찾는 3가지 방법",
+          "key_message": "온라인 필터 검색, MyMedicare 등록, 예약 시 직접 확인으로 무료 GP를 찾을 수 있다.",
+          "content_notes": "3가지: (1) HotDoc/HealthEngine 'Bulk Billing' 필터 / (2) myGov MyMedicare 등록 / (3) 예약 시 직접 질문."
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "headline": "무료 GP 예약하기 전 확인할 것 4가지",
+          "key_message": "Medicare 카드 유효 여부, 클리닉 벌크 빌링 정책, MyMedicare 등록, 텔레헬스 조건 — 네 가지 미리 확인.",
+          "content_notes": "실행 체크리스트 4항목."
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "headline": "이렇게 하세요 vs 이러지 마세요",
+          "key_message": "벌크 빌링은 알고 찾아야 받는다. 사전 확인이 필수다.",
+          "content_notes": "DO: 예약 전 확인 / HotDoc 필터 / MyMedicare 등록. DON'T: 모든 GP가 자동 무료라고 가정 / Medicare 카드 없이 방문."
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "headline": "오늘 당장 무료 GP 예약하는 법",
+          "key_message": "HotDoc 검색 → 벌크 빌링 확인 → MyMedicare 등록. 이 세 단계면 충분하다.",
+          "content_notes": "3단계 실행 가이드."
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "headline": "이 정보, 필요한 엄마에게 꼭 공유해 주세요",
+          "key_message": "몰라서 돈 내는 일이 없도록. 저장해두고, 같은 상황의 엄마와 나눠주세요.",
+          "content_notes": "cta_text: 저장하기 →. 저장 + 공유 유도."
+        }
+      ]
+    }
+  ]
+}
