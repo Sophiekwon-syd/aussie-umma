@@ -1,0 +1,131 @@
+{
+  "topic": "벌크 빌링 아직도 돈 내고 계세요? 2026 GP 무료 진료 최신 가이드",
+  "slug": "bulk-billing-gp-free-visit-guide-2026",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "호주 의료 정보",
+      "headline": "GP 진료비, 이제 <em>안 내도</em> 됩니다",
+      "subtitle": "2025년 11월부터 바뀐 벌크 빌링, 혹시 아직 모르고 계셨나요?"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "GP 갈 때마다 <strong>$50 넘게</strong> 내고 계셨나요?",
+      "answer": "이미 무료로 받을 자격이 생겼는데, 몰라서 내고 있던 거일 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "벌크 빌링 (Bulk Billing)",
+      "explanation": "GP가 환자 대신 <strong>Medicare에 직접 청구</strong>하는 방식이에요. 진료비를 환자가 전혀 내지 않아도 됩니다.",
+      "punchline": "내 주머니에서 나가는 돈이 없는 진료."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "숫자로 보는 현황",
+      "headline": "GP 방문 10건 중 <em>8건</em>이 이미 무료",
+      "chips": ["81.4% 벌크 빌링", "클리닉 3,400개+", "2025년 11월 확대", "목표 90% (2030)"],
+      "explanation": "GP 방문의 81.4%가 벌크 빌링으로 처리됩니다 (Grattan Institute, 2026). 전국 100% 벌크 빌링 클리닉도 2,300개에서 3,400개 이상으로 늘었어요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "상황별 가이드",
+      "headline": "어떤 상황에서 무료로 받을 수 있나요?",
+      "entries": [
+        {
+          "label": "대면 진료",
+          "text": "Medicare 카드가 있으면 <strong>모든 성인</strong>이 벌크 빌링 가능. 2025년 11월부터 확대됐어요."
+        },
+        {
+          "label": "텔레헬스",
+          "text": "12개월 이내 방문 기록 또는 <strong>MyMedicare 등록</strong>이 있으면 전화 상담도 무료예요."
+        },
+        {
+          "label": "아이 검진",
+          "text": "16세 미만 자녀는 <strong>예전부터</strong> 벌크 빌링 대상이었어요. 정기 검진도 당연히 무료입니다."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "찾는 방법",
+      "headline": "벌크 빌링 GP, 이렇게 찾으세요",
+      "items": [
+        {
+          "title": "온라인 필터 검색",
+          "description": "HotDoc(hotdoc.com.au) 또는 HealthEngine에서 'Bulk Billing' 필터를 선택하면 내 근처 무료 클리닉이 바로 나와요."
+        },
+        {
+          "title": "MyMedicare 등록",
+          "description": "myGov에서 MyMedicare에 등록하면 텔레헬스 벌크 빌링을 우선 접근할 수 있어요."
+        },
+        {
+          "title": "예약 시 직접 확인",
+          "description": "전화 예약할 때 'Do you bulk bill all patients?'라고 꼭 물어보세요. 클리닉마다 정책이 달라요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "체크리스트",
+      "headline": "무료 GP 예약 전, 이 4가지만 확인하세요",
+      "intro": "사실은요, 이 중 하나라도 빠지면 당일에 당황할 수 있어요.",
+      "items": [
+        "Medicare 카드 유효 여부 확인",
+        "클리닉 벌크 빌링 정책 사전 확인",
+        "MyMedicare 등록 완료",
+        "텔레헬스 이용 시 이전 방문 기록 체크"
+      ],
+      "takeaway": "준비만 하면 진료비 $0, 진짜예요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이렇게 하세요 vs 이러지 마세요",
+      "do": [
+        "예약 전에 벌크 빌링 여부를 전화로 확인",
+        "HotDoc에서 필터 걸고 클리닉 검색",
+        "MyMedicare 등록해서 텔레헬스 혜택 확보"
+      ],
+      "dont": [
+        "클리닉 도착 후 처음으로 벌크 빌링 물어보기",
+        "예전에 냈으니까 당연히 내야 한다고 생각하기",
+        "아이만 무료고 나는 아닐 거라고 넘겨짚기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "오늘 바로 시작",
+      "headline": "지금 당장 무료 GP 예약하는 법",
+      "steps": [
+        {
+          "title": "HotDoc에서 검색",
+          "description": "hotdoc.com.au에 접속해서 'Bulk Billing' 필터를 켜면 내 주변 무료 클리닉 목록이 바로 나와요."
+        },
+        {
+          "title": "벌크 빌링 직접 확인",
+          "description": "예약 전 전화로 'Do you bulk bill all patients?'라고 한 번만 물어보세요."
+        },
+        {
+          "title": "MyMedicare 등록",
+          "description": "myGov 앱에서 MyMedicare에 등록하면 텔레헬스 벌크 빌링도 바로 쓸 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "이 정보가<br /><em>필요한 엄마</em>에게",
+      "message": "몰라서 매번 $50씩 내는 일, 이제 없어야 해요. <strong>저장해 두고 필요할 때 꺼내 보세요.</strong>",
+      "comment_prompt": "벌크 빌링 관련 궁금한 점이 있다면 댓글로 남겨주세요"
+    }
+  ]
+}
