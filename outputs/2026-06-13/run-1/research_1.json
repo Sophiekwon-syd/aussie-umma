@@ -1,0 +1,155 @@
+{
+  "topic": "호주 Medicare Urgent Care Clinic 완전 가이드",
+  "angle": "예약 없이 무료로 이용할 수 있는 긴급 의료 서비스 — 한국인 엄마를 위한 실용 안내",
+  "summary": "Medicare Urgent Care Clinic(UCC)은 예약이나 의뢰서 없이 걸어서 방문할 수 있는 무료(Bulk Billed) 긴급 의료 클리닉이다. 생명을 위협하지 않지만 GP 예약을 기다릴 수 없는 급성 증상을 주 7일, 연장 운영 시간에 치료한다. 2026년 6월 기준 전국 137개 클리닉이 운영 중이며, 호주 인구의 5명 중 4명이 차로 20분 이내에 이용 가능하다.",
+  "definition": "Medicare Urgent Care Clinic(UCC)은 호주 연방정부가 운영하는 무료 긴급 의료 클리닉으로, 응급실 방문이 필요하지 않지만 GP 예약 전에 빠른 처치가 필요한 비생명위협적 증상을 치료한다. 메디케어 카드만 있으면 본인 부담금 없이 이용할 수 있으며, 예약 불필요·의뢰서 불필요·주 7일 운영이 핵심 특징이다.",
+  "key_facts": [
+    {
+      "fact": "2026년 6월 기준 전국 137개 Medicare UCC가 운영 중이며, 47개는 지방·농촌·오지 지역에 위치한다.",
+      "source": "Australian Government Department of Health, Disability and Ageing — About Medicare UCCs (2026)"
+    },
+    {
+      "fact": "모든 방문은 완전 Bulk Billed 처리되어 환자 본인 부담금이 전혀 없다. 메디케어 카드만 지참하면 된다.",
+      "source": "Australian Government Department of Health, Disability and Ageing"
+    },
+    {
+      "fact": "2023년 6월 개설 이래 누적 방문 건수가 약 300만 건에 달하며, 방문자의 25% 이상이 15세 미만 아동이다.",
+      "source": "Prime Minister of Australia media release, 2026"
+    },
+    {
+      "fact": "방문자의 90%가 1시간 이내에 진료를 받았으며, 만족도 조사 응답자의 95%가 진료를 '좋음' 또는 '매우 좋음'으로 평가했다.",
+      "source": "InSight+ / MJA — 'Australia now has 137 urgent care clinics. Are they working?' (2026)"
+    },
+    {
+      "fact": "방문자의 45%가 UCC가 없었다면 응급실을 이용하거나 구급차를 불렀을 것이라고 응답했다. 연장 운영 시간에는 이 비율이 48%로 상승한다.",
+      "source": "Prime Minister of Australia media release, 2026"
+    },
+    {
+      "fact": "주말 방문이 전체의 25% 이상, 평일 오후 5시 이후 방문이 25%를 차지한다.",
+      "source": "Prime Minister of Australia media release, 2026"
+    },
+    {
+      "fact": "호주 정부는 2025-26년부터 5년간 18억 달러를 추가 투자해 UCC를 호주 의료시스템의 영구적 구성 요소로 확정했다.",
+      "source": "Prime Minister of Australia — Budget 2025-26 media release"
+    },
+    {
+      "fact": "UCC 방문 1건당 응급실 비용 절감액이 평균 A$381로 추정된다.",
+      "source": "InSight+ / MJA — 'Australia now has 137 urgent care clinics. Are they working?' (2026)"
+    },
+    {
+      "fact": "방문자의 약 10%가 X-ray 또는 병리 검사가 필요했다. 다만 일부 클리닉은 오후 5~6시 이후 영상·병리 서비스가 제한된다.",
+      "source": "InSight+ / MJA — 'Australia now has 137 urgent care clinics. Are they working?' (2026)"
+    },
+    {
+      "fact": "TIS National(전화 131 450)을 통해 통역 서비스를 이용할 수 있으며, 이는 영어가 불편한 환자에게 무료 제공된다.",
+      "source": "Healthdirect — Medicare Urgent Care Clinics"
+    }
+  ],
+  "conditions_treated": {
+    "go_to_ucc": [
+      "경미한 골절 및 염좌(발목 접질림, 손가락 부상 등)",
+      "소규모 열상(봉합이 필요한 작은 상처)",
+      "경미한 화상",
+      "귀 감염, 눈 감염",
+      "요로감염(UTI)",
+      "위장염(구토·설사)",
+      "호흡기 질환(기침, 감기, 경미한 천식)",
+      "벌레 물림, 발진, 피부 감염",
+      "심한 복통",
+      "요통",
+      "고열(생명 위협 수준이 아닌 경우)",
+      "성병(STI) 검사 및 치료"
+    ],
+    "go_to_gp": [
+      "정기 건강검진, 예방접종",
+      "만성질환 관리(당뇨, 고혈압)",
+      "정신건강 상담",
+      "처방전 갱신",
+      "전문의 의뢰"
+    ],
+    "go_to_emergency_000": [
+      "흉통, 호흡 곤란",
+      "심한 출혈",
+      "의식 불명, 경련",
+      "심한 화상",
+      "중독",
+      "감각 소실",
+      "영아의 지속적인 고열"
+    ]
+  },
+  "common_misconception": "많은 사람들이 예약 없이 걸어가면 오래 기다려야 한다거나, GP보다 더 비싸게 나온다고 오해한다. 실제로는 방문자의 90%가 1시간 이내에 진료를 받으며 비용은 완전 무료(Bulk Billed)다.",
+  "practical_steps": [
+    "health.gov.au/find-a-medicare-ucc 또는 healthdirect.gov.au에서 가장 가까운 UCC를 검색한다.",
+    "방문 시 Medicare 카드만 챙기면 된다. 의사 의뢰서(referral)나 예약은 필요 없다.",
+    "영어가 불편하면 TIS National(131 450)에 전화해 무료 통역사를 요청한다.",
+    "아이의 증상이 경미하지만 빠른 처치가 필요한 경우 일요일이나 저녁에도 UCC를 바로 이용할 수 있다.",
+    "X-ray나 혈액 검사가 필요할 경우 클리닉이 해당 서비스를 제공하는지 방문 전 전화로 확인한다.",
+    "방문 후 담당 GP에게 UCC 방문 기록을 공유해 지속적인 케어가 끊기지 않도록 한다."
+  ],
+  "statistics": [
+    {
+      "stat": "전국 137개 UCC 운영 중 (2026년 6월 기준), 47개는 지방·농촌·오지 지역",
+      "source": "Australian Government Department of Health, Disability and Ageing, 2026"
+    },
+    {
+      "stat": "호주 인구의 5명 중 4명이 차로 20분 이내에 UCC 이용 가능",
+      "source": "Prime Minister of Australia media release, 2026"
+    },
+    {
+      "stat": "2023년 6월 이후 누적 약 300만 건 방문, 그 중 25% 이상이 15세 미만 아동",
+      "source": "Prime Minister of Australia media release, 2026"
+    },
+    {
+      "stat": "방문자의 90%가 1시간 이내 진료, 95%가 만족도 '좋음' 이상",
+      "source": "InSight+ / MJA, 2026"
+    },
+    {
+      "stat": "방문자의 45%가 UCC가 없었다면 응급실 또는 구급차를 이용했을 것이라고 응답",
+      "source": "Prime Minister of Australia media release, 2026"
+    },
+    {
+      "stat": "저강도 응급실 방문을 4~10% 감소시킨 것으로 추정, 방문 1건당 A$381 응급실 비용 절감",
+      "source": "InSight+ / MJA, 2026"
+    },
+    {
+      "stat": "정부 투자: 2025-26년부터 5년간 18억 달러 + 2030-31년부터 연간 5억 2560만 달러 영구 지원",
+      "source": "Prime Minister of Australia — Budget 2025-26"
+    }
+  ],
+  "angles": [
+    {
+      "label": "엄마의 시선: 아이가 아플 때 어디로 가야 하나",
+      "description": "저녁, 주말, 공휴일에 아이가 갑자기 아플 때 응급실 vs GP vs UCC 중 어디가 정답인지 명확하게 알려주는 의사결정 가이드."
+    },
+    {
+      "label": "비용 완전 무료: Medicare 카드 하나로 가는 무료 진료소",
+      "description": "Australia 의료비 불안을 가진 이민 가정에게 '돈 걱정 없이 바로 갈 수 있다'는 점에 집중."
+    },
+    {
+      "label": "증상별 분류 가이드: 어디로 가야 할까",
+      "description": "아이 귀 감염은 UCC, 경련은 000, 예방접종은 GP — 증상 유형별로 어디를 가야 하는지 한눈에 보여주는 분류 카드."
+    },
+    {
+      "label": "호주 이민 생활 팁: 아무도 안 알려준 시스템",
+      "description": "한국에서는 모르는, 호주에 살면 꼭 알아야 할 UCC 시스템을 '처음 듣는 유용한 정보'로 포지셔닝."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Australian Government Department of Health, Disability and Ageing — About Medicare Urgent Care Clinics",
+      "url": "https://www.health.gov.au/our-work/medicare-urgent-care-clinics/about-medicare-urgent-care-clinics"
+    },
+    {
+      "name": "Healthdirect Australia — Medicare Urgent Care Clinics",
+      "url": "https://www.healthdirect.gov.au/urgent-care-clinics"
+    },
+    {
+      "name": "Prime Minister of Australia — Major budget boost means Medicare Urgent Care Clinics here to stay",
+      "url": "https://www.pm.gov.au/media/major-budget-boost-means-medicare-urgent-care-clinics-here-stay-0"
+    },
+    {
+      "name": "InSight+ (MJA) — Australia now has 137 urgent care clinics. Are they working?",
+      "url": "https://insightplus.mja.com.au/2026/9/australia-now-has-137-urgent-care-clinics-are-they-working/"
+    }
+  ]
+}
