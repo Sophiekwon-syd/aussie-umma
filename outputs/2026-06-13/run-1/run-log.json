@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-13T10:00:00.000Z",
+  "finished_at": "2026-06-13T10:39:09.000Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "27463809544",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 Medicare Urgent Care Clinic 완전 가이드: 예약 없이 무료로 가는 곳",
+      "slug": "medicare-urgent-care-clinic-guide",
+      "html_file": "outputs/2026-06-13/run-1/medicare-urgent-care-clinic-guide.html",
+      "copy_file": "outputs/2026-06-13/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "벌크 빌링 아직도 돈 내고 계세요? 2026 GP 무료 진료 최신 가이드",
+      "slug": "bulk-billing-gp-free-visit-guide-2026",
+      "html_file": "outputs/2026-06-13/run-1/bulk-billing-gp-free-visit-guide-2026.html",
+      "copy_file": "outputs/2026-06-13/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-01.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-02.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-03.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-04.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-05.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-06.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-07.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-08.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-09.png",
+    "outputs/2026-06-13/run-1/images/medicare-urgent-care-clinic-guide-10.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-01.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-02.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-03.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-04.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-05.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-06.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-07.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-08.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-09.png",
+    "outputs/2026-06-13/run-1/images/bulk-billing-gp-free-visit-guide-2026-10.png"
+  ]
+}
