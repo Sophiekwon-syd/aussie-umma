@@ -41,7 +41,7 @@
   },
 
   "pipeline": {
-    "carousels_per_run": 2,
+    "carousels_per_run": 1,
     "cards_per_carousel": 10
   }
 }
