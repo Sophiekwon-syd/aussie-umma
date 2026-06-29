@@ -5,18 +5,18 @@
 */
 
 :root {
-  --bg: #050505;
-  --card-bg: #080808;
-  --elevated: #0e0e0e;
-  --ink: #ffffff;
-  --ink2: #cccccc;
-  --ink3: #888888;
-  --ink4: #333333;
-  --accent: #d4ff00;           /* Vibrant Lime Green */
-  --accent-dim: rgba(212, 255, 0, 0.15);
-  --blue: #3b82f6;
-  --red: #ff4d4d;
-  --border: rgba(255, 255, 255, 0.07);
+  --bg: #FFF7F0;
+  --card-bg: #FFFCF9;
+  --elevated: #FBF1EA;
+  --ink: #2B2622;
+  --ink2: #6B625B;
+  --ink3: #A89E95;
+  --ink4: #E7DCD2;
+  --accent: #FF6F5E;           /* coral */
+  --accent-dim: rgba(255, 111, 94, 0.14);
+  --blue: #1FB6A6;             /* teal (savings/secondary) */
+  --red: #E5484D;
+  --border: rgba(43, 35, 32, 0.08);
   --font-kr: "Noto Sans KR", sans-serif;
   --font-en: "Space Grotesk", sans-serif;
   --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
@@ -29,8 +29,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #000000;
-  font-family: var(--font-kr);
+  background: var(--bg);
+  font-family: var(--font-en);
   color: var(--ink);
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@ body {
   width: 1080px;
   height: 1350px;
   background: var(--card-bg);
-  background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+  background-image: none;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -55,7 +55,7 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 50;
-  opacity: 0.05;
+  opacity: 0;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 180px 180px;
 }
@@ -632,3 +632,14 @@ body {
   font-size: 22px;
   color: var(--ink3);
 }
+
+/* ===== Bilingual: Korean subtitle (small, muted, beneath the English line) ===== */
+.ko-sub {
+  font-family: var(--font-kr);
+  color: var(--ink3);
+  font-weight: 400;
+  word-break: keep-all;
+}
+.ko-sub.label { font-size: 17px; letter-spacing: 1px; margin-top: 2px; margin-bottom: 44px; }
+.ko-sub.head  { font-size: 30px; line-height: 1.45; margin-top: 18px; }
+.ko-sub.body  { font-size: 21px; line-height: 1.45; margin-top: 8px; }
