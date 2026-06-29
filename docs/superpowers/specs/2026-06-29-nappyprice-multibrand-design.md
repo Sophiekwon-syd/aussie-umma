@@ -98,14 +98,18 @@ unchanged and remain brand-agnostic.
 
 ### 1. Card template (`.claude/skills/html-card/`)
 
-- **tokens.css** — refreshed friendly palette (final values confirmed at review):
-  - background cream `#FFF7F0`
-  - primary text `#2B2622`
-  - accent primary (CTA, price callouts) coral `#FF6F5E`
-  - accent secondary (savings badges/tags) teal `#1FB6A6`
-  - muted (Korean subtitle, secondary text) warm grey `#9B9088`
-  - New text style: subtitle = small size, muted color, tight line-height,
-    sits directly under its English headline/line.
+- **tokens.css** — refreshed friendly palette (FINALIZED via rendered sample):
+  - `--bg` cream `#FFF7F0`, `--card-bg` `#FFFCF9` (flat — no decorative blobs)
+  - `--ink` deep warm charcoal `#2B2622`; `--ink2` secondary `#6B625B`
+  - `--muted` warm grey `#A89E95` (Korean subtitle / secondary)
+  - `--accent` coral `#FF6F5E` — primary: labels, headline highlight, handle dot,
+    CTA, divider
+  - `--teal` `#1FB6A6` — secondary: list numbers and savings/takeaway callouts
+  - `--border` `rgba(43,35,32,0.08)`
+  - Fonts: `--font-en` "Space Grotesk" (English), `--font-kr` "Noto Sans KR" (Korean)
+  - Bilingual text sizing (per rendered sample): headline EN ~78px / KO subtitle
+    ~27px muted; body EN ~34px / KO ~21px muted; takeaway EN ~30px / KO ~20px.
+    The KO subtitle sits directly beneath its English line, smaller and muted.
 - **template.html** — supports two render modes:
   - bilingual: each text element renders English (large, primary) then a Korean
     subtitle line (small, muted) beneath it.
@@ -193,9 +197,15 @@ unchanged and remain brand-agnostic.
 - `outputs/`, brand `config.json`, `tone-guide.md`, and `topic-memory.json` remain
   tracked (the Post-to-Instagram workflow fetches PNGs via raw.githubusercontent).
 
-## Open items to confirm at spec review
+## Resolved design decisions
 
-- Final palette hex values.
-- Whether body copy is bilingual (assumed yes) or English-only with bilingual
-  headlines only.
-- Repo rename on GitHub (operational, not code).
+- Palette finalized (see tokens above), validated against a rendered 1080×1350
+  sample card.
+- Two accents: coral primary + teal for numbers/savings callouts (chosen over
+  coral-only).
+- Flat cream background (decorative corner blobs dropped).
+- Body copy IS bilingual (EN large + KO small/muted), same as headlines.
+
+## Open items (operational, not code)
+
+- Repo rename on GitHub `aussie-umma → nappyprice` (secrets persist across rename).
