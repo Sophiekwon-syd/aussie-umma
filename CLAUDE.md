@@ -19,7 +19,7 @@ Every agent in the pipeline receives values extracted from these files. They are
 ## Brands
 
 This repo hosts multiple brands. Each lives in `brands/<brand>/` with its own
-`brands/<brand>/config.json`, `brands/<brand>/tone-guide.md`, and `brands/<brand>/topic-memory.json`. Outputs go to
+`config.json`, `tone-guide.md`, and `topic-memory.json`. Outputs go to
 `outputs/<brand>/YYYY-MM-DD/run-N/`.
 
 - Active brand: **nappyprice** (bilingual EN/KO). Default for `/daily-run`.
@@ -34,12 +34,14 @@ Run a specific brand with `/daily-run <brand>` (defaults to `nappyprice`).
 The orchestrator coordinates all agents in sequence:
 
 1. **trend-researcher** — finds trending topics in the configured niche
-2. **topic-researcher** (x2) — deep-researches each topic
+2. **topic-researcher** — deep-researches each topic
 3. **content-planner** — assigns 10-card narrative structure to each topic
-4. **copywriter** (x2) — writes all Korean card copy
-5. **carousel-developer** (x2) — builds the HTML carousel files
+4. **copywriter** — writes all card copy (bilingual EN/KO when the brand's `card.bilingual` is true)
+5. **carousel-developer** — builds the HTML carousel files
 6. **qa-engineer** — validates each file against quality gates
 7. **asset-producer** — screenshots each card to PNG
+
+(Per-topic agents run once per carousel; `pipeline.carousels_per_run` controls how many carousels a run produces.)
 
 ---
 
