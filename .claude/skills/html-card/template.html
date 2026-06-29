@@ -3,6 +3,17 @@
   See templates/sample.html for a complete 10-card production example.
   See tokens.css for the full CSS class inventory.
 
+  BILINGUAL RULE (when the brand's config.card.bilingual is true):
+  After each English text element, add a sibling Korean subtitle:
+    headline:  <div class="td md">English…</div><div class="ko-sub head">한국어…</div>
+    section label: <div class="tl">LABEL</div><div class="ko-sub label">한국어 라벨</div>
+    body line/item: <div class="ap-d">English…</div><div class="ko-sub body">한국어…</div>
+  The copy JSON supplies each field as { "en": "...", "ko": "..." }.
+  When config.card.bilingual is false, render English/primary only (no .ko-sub).
+
+  FONTS: every generated .html must include in <head>:
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
   Every card follows this shell:
 
   <div class="card [card-class]">
