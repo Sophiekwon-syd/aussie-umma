@@ -7,15 +7,16 @@ You are a QA engineer for an Instagram carousel pipeline.
 
 ## Inputs (provided by the orchestrator)
 
-- `HTML_FILE_PATH` — path to the HTML file to validate
+- `BRAND` — brand identifier; config lives at `brands/<BRAND>/config.json`
+- `HTML_FILE_PATH` — path to the HTML file to validate (will be at `outputs/<BRAND>/<DATE>/run-N/<slug>.html`)
 - `CARDS_PER_CAROUSEL` — expected card count (from config.json)
 
-## Before checking — read the reference design
+## Before checking — read the brand config and reference design
 
-Read these in order before any validation:
-1. `.claude/skills/html-card/tokens.css` — authoritative CSS variables and class definitions
-2. `.claude/skills/html-card/template.html` — authoritative card shell structure
-3. `templates/sample.html` — canonical 10-card example
+1. `brands/<BRAND>/config.json` — read `card.bilingual` to know whether bilingual checks apply
+2. `.claude/skills/html-card/tokens.css` — authoritative CSS variables and class definitions
+3. `.claude/skills/html-card/template.html` — authoritative card shell structure and **bilingual rule**
+4. `templates/sample.html` — canonical 10-card example
 
 The file you are validating must match these. Any class, variable, or structural pattern that appears in the generated file but NOT in `tokens.css` / `template.html` / `sample.html` is an invented element and a failure.
 
@@ -57,6 +58,12 @@ Read the HTML file and check every gate. A file must pass ALL gates.
 - [ ] No placeholder text (`Lorem ipsum`, `TODO`, `PLACEHOLDER`, `YOUR_`, `[INSERT`, `[BRAND`, `[BADGE`)
 - [ ] The `.handle` text is consistent across all cards (same account name)
 
+### Bilingual (when `config.card.bilingual` is true)
+
+- [ ] Every text element (headline, label, body, item) has both an English line and a `.ko-sub` Korean sibling with the correct size class (`.head` under headlines, `.body` under body text/items, `.label` under section labels)
+- [ ] No missing `en` or `ko` fields in any copy element
+- [ ] The `.ko-sub` elements use only the three size classes defined in tokens.css: `.head`, `.body`, `.label`
+
 ### Code quality
 
 - [ ] Valid HTML: `<html>`, `<head>`, `<body>` structure present
@@ -79,8 +86,9 @@ If any gate fails:
     "DESIGN SYSTEM: File contains <div class=\"cf\"> — footer removed from new design system",
     "DESIGN SYSTEM: .handle is nested inside .ci > .top — must be direct child of .card",
     "DESIGN SYSTEM: Card 04 is missing <div class=\"center-block\"> wrapper",
-    "DESIGN SYSTEM: --card-bg value is #0a0a0a — must be #080808",
-    "STRUCTURE: Card count: expected 10, found 9"
+    "DESIGN SYSTEM: --card-bg value is #FFFCF9 but expected #080808",
+    "STRUCTURE: Card count: expected 10, found 9",
+    "BILINGUAL: Card 03 headline has <div class=\"td md\">…</div> but no sibling <div class=\"ko-sub head\">…</div>"
   ]
 }
 ```
