@@ -23,7 +23,7 @@ trend-researcher ──┬──► topic-researcher ×2 (parallel)
                                                         │
                                                         ▼
                                                  asset-producer
-                                              outputs/YYYY-MM-DD/
+                                   outputs/<brand>/YYYY-MM-DD/run-N/
 ```
 
 ---
@@ -68,15 +68,33 @@ Or the full form:
 claude --agent orchestrator "Run the daily pipeline"
 ```
 
-The orchestrator handles everything from there. First run takes ~5 minutes (subsequent runs are faster as the agents cache patterns). When it finishes, your carousels are in `outputs/YYYY-MM-DD/`.
+The orchestrator handles everything from there. First run takes ~5 minutes (subsequent runs are faster as the agents cache patterns). When it finishes, your carousels are in `outputs/<brand>/YYYY-MM-DD/run-N/`.
+
+---
+
+## Brands
+
+This repo hosts multiple brands. Each brand lives in `brands/<brand>/` with its own `config.json`, `tone-guide.md`, and `topic-memory.json`. Outputs go to `outputs/<brand>/YYYY-MM-DD/run-N/`.
+
+### Available brands
+
+- **nappyprice** (active) — bilingual English/Korean brand; default for `/daily-run`
+- **aussie-umma** (dormant archive) — Korean-only; not scheduled
+
+To run a specific brand:
+
+```
+/daily-run nappyprice
+/daily-run aussie-umma
+```
 
 ---
 
 ## Configuration
 
-All pipeline behaviour is controlled by two files:
+Each brand's pipeline behaviour is controlled by two files in its directory (`brands/<brand>/`):
 
-### `config.json`
+### `brands/<brand>/config.json`
 
 | Field                         | What it controls                                                           |
 | ----------------------------- | -------------------------------------------------------------------------- |
@@ -96,7 +114,7 @@ All pipeline behaviour is controlled by two files:
 
 Start from `config.example.json` — every field has a description.
 
-### `tone-guide.md`
+### `brands/<brand>/tone-guide.md`
 
 Free-form markdown. The copywriter reads this in full before writing. Cover:
 
@@ -149,16 +167,18 @@ Every carousel follows this structure:
 
 ```
 outputs/
-└── 2026-05-07/
-    ├── run-log.json
-    ├── health-intelligence.html
-    ├── health-intelligence/
-    │   ├── card-01.png
-    │   ├── card-02.png
-    │   └── ...card-10.png
-    ├── stress-management.html
-    └── stress-management/
-        └── ...
+└── <brand>/
+    └── 2026-05-07/
+        └── run-1/
+            ├── run-log.json
+            ├── health-intelligence.html
+            ├── health-intelligence/
+            │   ├── card-01.png
+            │   ├── card-02.png
+            │   └── ...card-10.png
+            ├── stress-management.html
+            └── stress-management/
+                └── ...
 ```
 
 ---
@@ -167,21 +187,21 @@ outputs/
 
 ### Changing the language
 
-Edit `content.target_audience` in `config.json`. The copywriter generates in the language of the audience. The trend-researcher adapts its searches to the same language and communities.
+Edit `content.target_audience` in `brands/<brand>/config.json`. The copywriter generates in the language of the audience. The trend-researcher adapts its searches to the same language and communities.
 
 ### Changing the design
 
 The design system lives in `.claude/skills/html-card/tokens.css`. This documents every CSS class and token used across all card layouts.
 
-To change the colour scheme, edit `design.accent_primary` and `design.accent_secondary` in `config.json`.
+To change the colour scheme, edit `design.accent_primary` and `design.accent_secondary` in `brands/<brand>/config.json`.
 
 ### Changing card count
 
-Edit `pipeline.cards_per_carousel` in `config.json`. The system is designed and tested for 10 cards. Other counts will work but the narrative structure in `content-planner` assumes 10 slots.
+Edit `pipeline.cards_per_carousel` in `brands/<brand>/config.json`. The system is designed and tested for 10 cards. Other counts will work but the narrative structure in `content-planner` assumes 10 slots.
 
 ### Adding a topic to the avoid list
 
-Add it to `content.topics_to_avoid` in `config.json`. The trend-researcher and orchestrator both check this list.
+Add it to `content.topics_to_avoid` in `brands/<brand>/config.json`. The trend-researcher and orchestrator both check this list.
 
 ---
 
@@ -199,9 +219,15 @@ The `examples/` directory contains a real pipeline run:
 
 ```
 carousel-automation-template/
-├── config.example.json         ← copy to config.json and edit
-├── tone-guide.example.md       ← copy to tone-guide.md and edit
-├── topic-memory.example.json   ← copy to topic-memory.json
+├── brands/
+│   ├── nappyprice/
+│   │   ├── config.json         ← brand configuration
+│   │   ├── tone-guide.md       ← brand voice guide
+│   │   └── topic-memory.json   ← auto-updated topic tracker
+│   └── aussie-umma/
+│       ├── config.json
+│       ├── tone-guide.md
+│       └── topic-memory.json
 │
 ├── .claude/
 │   ├── agents/
@@ -231,11 +257,11 @@ carousel-automation-template/
     └── carousel-example.html
 ```
 
-Files gitignored (contain your personal brand data):
+Files gitignored (contain personal brand data):
 
-- `config.json`
-- `tone-guide.md`
-- `topic-memory.json`
+- `brands/*/config.json`
+- `brands/*/tone-guide.md`
+- `brands/*/topic-memory.json`
 - `outputs/`
 - `node_modules/`
 
