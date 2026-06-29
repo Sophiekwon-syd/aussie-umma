@@ -7,14 +7,16 @@ You are the pipeline orchestrator for a daily Instagram carousel generator.
 
 ## Before anything else
 
-Read `config.json` and `topic-memory.json`. Extract and hold these values throughout the run:
+Read the `BRAND` from your prompt arguments (defaults to `nappyprice`). Use this value throughout to resolve all file paths.
+
+Read `brands/<BRAND>/config.json` and `brands/<BRAND>/topic-memory.json`. Extract and hold these values throughout the run:
 - `brand.account`, `brand.name`
 - `content.niche`, `content.target_audience`, `content.search_contexts`, `content.topics_to_avoid`, `content.recurring_themes`, `content.cta_text`
 - `design.theme`, `design.accent_primary`, `design.accent_secondary`
 - `pipeline.carousels_per_run`, `pipeline.cards_per_carousel`
 - Today's date in YYYY-MM-DD format
 
-Read `tone-guide.md` in full and hold the complete text.
+Read `brands/<BRAND>/tone-guide.md` in full and hold the complete text.
 
 Read `.claude/skills/html-card/tokens.css` in full and store the **entire raw text** as `CSS_TOKENS`. You will inject this verbatim into every carousel-developer prompt.
 
@@ -22,13 +24,13 @@ Read `.claude/skills/html-card/template.html` in full and store the **entire raw
 
 **Determine the output directory — every run lives in its own `run-N/` subdirectory, never at the top level:**
 
-1. Start with `BASE = outputs/YYYY-MM-DD/`
+1. Start with `BASE = outputs/<BRAND>/YYYY-MM-DD/`
 2. Find the lowest integer `N ≥ 1` such that `BASE/run-N/run-log.json` does not exist.
 3. Use `OUT_DIR = BASE/run-N/`.
 
 Create `OUT_DIR` if it does not exist. Use `OUT_DIR` as the root for every file written in this run (research JSONs, outlines, copy JSONs, HTML files, run-log).
 
-Note: `BASE/instagram-log.json` lives at the top level of the date directory (not inside any `run-N/`). It is the per-date posting ledger and is shared across all runs of the day. Do not write or move it.
+Note: `outputs/<BRAND>/YYYY-MM-DD/instagram-log.json` lives at the top level of the date directory (not inside any `run-N/`). It is the per-date posting ledger and is shared across all runs of the day. Do not write or move it.
 
 Write `OUT_DIR/run-log.json` immediately with these fields:
 - `"status": "running"`
@@ -39,6 +41,7 @@ Write `OUT_DIR/run-log.json` immediately with these fields:
 ## Step 1 — Trend Research
 
 Sub-task the `trend-researcher` agent:
+- Pass: BRAND, `brands/<BRAND>/config.json`, `brands/<BRAND>/topic-memory.json`
 - Pass: NICHE, TARGET_AUDIENCE, SEARCH_CONTEXTS, TOPICS_TO_AVOID, RECURRING_THEMES
 - Pass: the full list of recently-used topics from topic-memory.json
 - Receive: a JSON array of 3–4 topic candidates ranked by freshness and fit
@@ -48,7 +51,7 @@ Select the top `carousels_per_run` topics that have not been used in the last 30
 ## Step 2 — Topic Research (run in parallel, one per topic)
 
 For each selected topic, sub-task the `topic-researcher` agent:
-- Pass: the topic, NICHE, TARGET_AUDIENCE, SEARCH_CONTEXTS
+- Pass: BRAND, the topic, NICHE, TARGET_AUDIENCE, SEARCH_CONTEXTS
 - Receive: structured research JSON with key facts, statistics, and angles
 
 Write each result to `OUT_DIR/research_1.json`, `research_2.json`, etc.
@@ -56,6 +59,7 @@ Write each result to `OUT_DIR/research_1.json`, `research_2.json`, etc.
 ## Step 3 — Content Planning
 
 Sub-task the `content-planner` agent. Inject:
+- BRAND
 - Full content of both research JSONs (raw JSON, not a summary)
 - TARGET_AUDIENCE, RECURRING_THEMES, CARDS_PER_CAROUSEL
 - The following card-type sequence — this is MANDATORY, every topic must use these exact type strings in this exact order:
@@ -86,10 +90,11 @@ For each topic, run Step 4 then Step 5 sequentially. Topics can run in parallel 
 ### Step 4 — Copywriting
 
 Sub-task the `copywriter` agent. Inject:
+- BRAND, `brands/<BRAND>/tone-guide.md`
 - Full content of `research_X.json` (raw JSON, not a summary)
 - Full content of the matching topic object from `outlines.json` (raw JSON, not a summary)
 - TONE, TARGET_AUDIENCE, CTA_TEXT, ACCOUNT, BRAND_NAME
-- Full text of `tone-guide.md` (raw text, not a summary)
+- Full text of `brands/<BRAND>/tone-guide.md` (raw text, not a summary)
 - The following per-card JSON schema — MANDATORY, every card MUST follow its schema exactly:
 
   ```
@@ -138,6 +143,7 @@ If structural keys are missing, retry the agent once with the per-card schema ex
 ### Step 5 — Carousel Development
 
 Sub-task the `carousel-developer` agent. Inject:
+- BRAND
 - Full content of `OUT_DIR/copy_X.json` (raw JSON, not a summary)
 - Full content of `OUT_DIR/research_X.json` (raw JSON, not a summary)
 - OUTPUT_PATH: `OUT_DIR/[topic-slug].html`
@@ -178,19 +184,19 @@ Before calling the QA agent, read the HTML file yourself and check for these ins
 5. Does the file contain class names `.card-content`, `.card-heading`, `.card-body`, `.card-footer`, `.carousel-container`, `.progress`, `.slider`? → FAIL: "Invented class names detected — only design system classes allowed"
 
 If all 5 checks pass, then sub-task the `qa-engineer` agent:
-- Pass: the HTML file path, `cards_per_carousel`
+- Pass: BRAND, the HTML file path, `cards_per_carousel`
 - If QA fails: log the errors, attempt one fix cycle by returning the file to `carousel-developer` with the full error list AND the CSS_TOKENS and CARD_TEMPLATE content
 - If QA fails again: mark that carousel as failed in the run log and continue
 
 ## Step 7 — Asset Production
 
 After all carousels pass QA, sub-task the `asset-producer` agent:
-- Pass: `OUT_DIR/` directory path and the list of validated HTML file paths
+- Pass: BRAND, `OUT_DIR/` directory path and the list of validated HTML file paths
 - Receive: confirmation with the list of PNG files produced
 
 ## Step 8 — Wrap up
 
-Update `topic-memory.json`:
+Update `brands/<BRAND>/topic-memory.json`:
 - Add each successfully produced topic with today's date and its HTML file path
 - Remove entries older than 30 days
 
@@ -204,8 +210,8 @@ Update `OUT_DIR/run-log.json` with:
     "carousel_index": 1,                                       // 1-based index within this run
     "topic": "<full topic title>",
     "slug": "<file-safe slug>",                                // matches html basename
-    "html_file": "outputs/<date>/run-N/<slug>.html",           // repo-rooted path
-    "copy_file": "outputs/<date>/run-N/copy_<index>.json",     // repo-rooted path
+    "html_file": "outputs/<BRAND>/<date>/run-N/<slug>.html",           // repo-rooted path
+    "copy_file": "outputs/<BRAND>/<date>/run-N/copy_<index>.json",     // repo-rooted path
     "cards": 10,
     "status": "complete",                                      // or "failed"
     "qa_status": "passed",                                     // or "failed"
