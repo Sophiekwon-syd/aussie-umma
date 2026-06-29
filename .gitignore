@@ -1,6 +1,7 @@
 node_modules/
 .DS_Store
 .cache/
+.superpowers/
 
 # Pipeline run artifacts (root-level, from early runs)
 assets-produced.json
