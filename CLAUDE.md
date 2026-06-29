@@ -3,8 +3,8 @@
 ## First Step — Always
 
 Before doing anything else, read these two files:
-- `config.json` — brand identity, content niche, design settings, pipeline parameters
-- `tone-guide.md` — voice, sentence style, words to use/avoid, emotional register
+- `brands/<BRAND>/config.json` — brand identity, content niche, design, pipeline params
+- `brands/<BRAND>/tone-guide.md` — voice, sentence style, words to use/avoid
 
 Every agent in the pipeline receives values extracted from these files. They are the single source of truth for what this account is, who it speaks to, and how it sounds.
 
@@ -13,6 +13,19 @@ Every agent in the pipeline receives values extracted from these files. They are
 ## Commands
 
 - **`/daily-run`** — Run the full pipeline: research → plan → copy → build → QA → assets → commit
+
+---
+
+## Brands
+
+This repo hosts multiple brands. Each lives in `brands/<brand>/` with its own
+`brands/<brand>/config.json`, `brands/<brand>/tone-guide.md`, and `brands/<brand>/topic-memory.json`. Outputs go to
+`outputs/<brand>/YYYY-MM-DD/run-N/`.
+
+- Active brand: **nappyprice** (bilingual EN/KO). Default for `/daily-run`.
+- Dormant archive: **aussie-umma** (Korean only; not scheduled).
+
+Run a specific brand with `/daily-run <brand>` (defaults to `nappyprice`).
 
 ---
 
@@ -32,10 +45,10 @@ The orchestrator coordinates all agents in sequence:
 
 ## Directory Structure
 
-- `config.json` — pipeline configuration (edit before first run)
-- `tone-guide.md` — brand voice guide (edit before first run)
-- `topic-memory.json` — auto-updated; tracks topics used in last 30 days
-- `outputs/YYYY-MM-DD/` — all generated files for a given day
+- `brands/<brand>/config.json` — pipeline configuration (edit before first run)
+- `brands/<brand>/tone-guide.md` — brand voice guide (edit before first run)
+- `brands/<brand>/topic-memory.json` — auto-updated; tracks topics used in last 30 days
+- `outputs/<brand>/YYYY-MM-DD/run-N/` — all generated files for a given day
   - `images/` — PNG card exports (1080x1350px)
   - `run-log.json` — high-level execution record
 
