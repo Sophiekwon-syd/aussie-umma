@@ -1,0 +1,104 @@
+{
+  "topic": "Prep 입학 전 무료 시력·청력 검사, 가정통신문 한 장에 달려있다",
+  "slug": "prep-vision-hearing-screening-steps",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "Prep 입학 준비",
+      "headline": "Prep 입학 전, <em>무료</em> 검사 기회가 있다는 것",
+      "subtitle": "가정통신문 한 장으로 시작되는 시력·청력 검사, 알고 계셨나요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "아이가 잘 보고 잘 듣는 것 같아서 <strong>그냥 넘긴 가정통신문</strong>, 혹시 가방 속에 있지 않나요",
+      "answer": "그 종이 한 장이, 아이 평생 시력을 지키는 첫 번째 기회일 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "Prep 입학 전 시력·청력 선별검사",
+      "explanation": "진단이 아니라, <strong>이상이 의심되는 아이를 전문가에게 연결해주는 1차 필터</strong>예요. 약시, 굴절 이상, 중이염으로 인한 난청을 미리 발견하려는 목적이에요.",
+      "punchline": "이름은 주마다 달라도 (NSW StEPS, QLD Prep Vision Screening, VIC MCH, ACT, SA Health and Development Check), 목적은 같아요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "Data",
+      "headline": "100명 중 2명, 그리고 <em>절반</em>이라는 숫자",
+      "chips": ["약시 2/100명", "Prep 30만 명 검사", "유병률 1.9%", "검사율 절반"],
+      "explanation": "QLD에서는 2016년 이후 30만 명 넘는 Prep 학생이 검사를 받았고, 약시는 호주 아동 100명 중 약 2명에게 나타나는 예방 가능한 실명의 주요 원인이에요(Children's Health Queensland). 학령기 아동 약시 유병률은 1.9%(PubMed 연구)였고, 저학년 3명 중 1명은 한때 전음성 난청을 겪는다고 해요(Hear and Say). 그런데 SA는 매년 약 11,000건만 검사돼 대상 아동의 절반 수준에 그쳐요(Optometry Australia)."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "How it works",
+      "headline": "검사는 이런 순서로 진행돼요",
+      "entries": [
+        { "label": "학기 초", "text": "학교나 프리스쿨에서 <strong>동의서(consent form)</strong>가 가정통신문으로 배포돼요." },
+        { "label": "마감일", "text": "서명해서 제출해야 다음 단계로 넘어가요. 결석했다면 보충 일정이 있는지 확인해보세요." },
+        { "label": "검사 당일", "text": "간호사나 검사 담당자가 학교를 방문해 진행하고, 이상 소견이 있으면 GP나 전문가 의뢰 안내를 받게 돼요." }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "Type",
+      "headline": "우리 주는 어디에 해당할까요",
+      "items": [
+        { "title": "학교 주도 일괄 검사", "description": "QLD, NSW, ACT처럼 학교에 검사팀이 방문해 동의서를 받은 아이를 한 번에 검사하는 방식이에요." },
+        { "title": "개별 방문형 검사", "description": "SA CaFHS, VIC MCH 3.5세 방문처럼 부모가 직접 클리닉을 예약해야 하는 방식이라 워킹맘에게는 더 부담이 돼요." },
+        { "title": "놓쳤을 때의 경로", "description": "시기를 완전히 놓쳤어도 GP 의뢰 없이 동네 검안사를 바로 예약하면 돼요." }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Checklist",
+      "headline": "오늘 바로 확인할 수 있는 4가지",
+      "intro": "딱 하나만 바꿔보세요, 학교에 한 번 물어보는 것부터요.",
+      "items": [
+        "동의서 받았는지, 마감일은 언제인지 학교에 직접 물어보기",
+        "영어 동의서는 번역 앱으로라도 정확히 확인하고 서명해서 제출하기",
+        "검사 날짜를 놓쳤다면 보충 일정이 있는지 확인하기",
+        "이미 놓쳤다면 GP 의뢰 없이 동네 검안사 예약하기"
+      ],
+      "takeaway": "동의서 제출까지가 한 세트라는 것, 잊지 마세요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이 차이가 결과를 바꿔요",
+      "do": [
+        "동의서 마감일 직접 확인하기",
+        "번역 앱으로 내용 확인 후 제출하기",
+        "놓쳤다면 바로 검안사 예약하기"
+      ],
+      "dont": [
+        "가정통신문 가방 속에 방치하기",
+        "잘 보이는 것 같다고 검사 건너뛰기",
+        "날짜 놓치면 그냥 다음 기회를 기다리기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Next Step",
+      "headline": "검사를 놓쳤거나 불확실하다면, 이 순서로",
+      "steps": [
+        { "title": "1단계 학교에 확인", "description": "프리스쿨이나 학교에 동의서를 받았는지, 마감일이 언제인지 직접 물어보세요." },
+        { "title": "2단계 검안사 예약", "description": "놓쳤다면 GP 의뢰 없이 동네 검안사에게 바로 예약하면 되고, Medicare 카드가 있으면 만 19세 미만은 3년에 1회 무료 검사가 가능해요." },
+        { "title": "3단계 청력 확인", "description": "청력이 걱정된다면 Hearing Australia 같은 곳에서 별도로 확인할 수 있어요. 단, 이후 처방되는 안경이나 보청기는 별도 비용일 수 있어요." }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "가정통신문 한 장이<br /><em>평생 시력</em>을 지켜요",
+      "message": "나만 몰랐던 게 아니라, 누구나 놓치기 쉬운 절차였어요. <strong>이번 주 학교에 한 번만 물어보세요</strong> — 그리고 이 카드는 저장하기 →로 남겨두세요.",
+      "comment_prompt": "우리 아이 학교는 어떤 방식인지, 댓글로 같이 확인해봐요"
+    }
+  ]
+}
