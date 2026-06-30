@@ -1,6 +1,53 @@
 {
-  "status": "running",
+  "status": "complete",
   "started_at": "2026-06-30T19:20:55Z",
+  "finished_at": "2026-06-30T19:45:00Z",
   "trigger_source": "github-actions",
-  "github_run_id": "28469786970"
+  "github_run_id": "28469786970",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "Prep 입학 전 무료 시력·청력 검사, 가정통신문 한 장에 달려있다",
+      "slug": "prep-vision-hearing-screening-steps",
+      "html_file": "outputs/2026-06-30/run-1/prep-vision-hearing-screening-steps.html",
+      "copy_file": "outputs/2026-06-30/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "둘째 입학, 첫째가 다닌다고 자리가 보장되는 게 아니다",
+      "slug": "sibling-enrolment-priority-second-child",
+      "html_file": "outputs/2026-06-30/run-1/sibling-enrolment-priority-second-child.html",
+      "copy_file": "outputs/2026-06-30/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-01.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-02.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-03.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-04.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-05.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-06.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-07.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-08.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-09.png",
+    "outputs/2026-06-30/run-1/images/prep-vision-hearing-screening-steps-10.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-01.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-02.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-03.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-04.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-05.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-06.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-07.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-08.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-09.png",
+    "outputs/2026-06-30/run-1/images/sibling-enrolment-priority-second-child-10.png"
+  ]
 }
