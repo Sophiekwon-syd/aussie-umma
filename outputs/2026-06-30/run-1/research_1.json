@@ -1,0 +1,69 @@
+{
+  "topic": "Prep 입학 전 무료 시력·청력 검사 (StEPS 등) — 놓치기 쉬운 절차",
+  "angle": "호주 각 주마다 이름과 절차는 다르지만, Prep/Kindy 입학 전후로 모든 아이에게 무료 시력·청력 검사를 받을 기회가 주어진다. 문제는 이 기회가 학교를 통해 나눠주는 동의서 한 장으로 시작되는데, 영어 안내문의 의미를 놓치면 그대로 지나가버린다는 것. 검사를 못 받았어도 GP 없이 바로 검안사(optometrist)를 통해 무료로 받을 수 있다는 사실까지 정리.",
+  "summary": "호주는 주(State)마다 명칭은 다르지만 Prep/Kindy 입학을 전후로 4-5세 아동 전원에게 무료 시력·청력 검사를 제공한다 (NSW StEPS, QLD Prep Vision Screening, VIC MCH 3.5세 비전 체크, ACT Kindergarten Health Check, SA 4-5세 Health and Development Check 등). 검사는 학교/프리스쿨을 통해 배포되는 동의서(consent form)로 시작되는데, 영어 안내문이라 비영어권 부모가 놓치기 쉽고, SA의 경우 실제로 대상 아동의 절반 정도만 검사를 받는 것으로 나타났다. 놓쳤더라도 GP 의뢰 없이 Medicare로 무료(벌크빌) 검안사 검사를 받을 수 있고, 청력은 Hearing Australia 등을 통해 별도로 확인 가능하다.",
+  "definition": "Prep/Kindy 입학 전 시력·청력 검사는 학교 입학 전 아이의 약시(amblyopia), 굴절 이상(원시·난시 등), 삼출성 중이염으로 인한 전음성 난청('glue ear') 등을 조기에 발견하기 위해 주정부가 무료로 운영하는 선별검사(screening) 프로그램이다. 진단이 아니라 '이상이 의심되면 전문가에게 보내는' 1차 필터 역할을 하며, 학교/프리스쿨에서 간호사나 시력검사 담당자가 직접 방문해 진행하는 경우가 많다.",
+  "key_facts": [
+    {
+      "fact": "NSW는 StEPS(Statewide Eyesight Preschooler Screening)를 통해 만 4세 아동에게 무료 시력검사를 제공하며, 프리스쿨/데이케어를 통해 동의서를 받아 진행한다. 다니지 않는 아이는 지역 StEPS 사무실에 직접 연락해 예약해야 한다.",
+      "source": "NSW Health, StEPS Program (health.nsw.gov.au)"
+    },
+    {
+      "fact": "QLD는 Prep Vision Screening Service를 통해 2016년 이후 1,382개 이상 학교에서 30만 명 이상의 Prep 학생을 검사했으며, 약시(lazy eye)는 호주 아동 100명 중 약 2명에게 나타나는 예방 가능한 실명의 주요 원인으로 꼽힌다. 학교 방문 전 온라인 또는 종이 동의서를 가정으로 보낸다.",
+      "source": "Children's Health Queensland (childrens.health.qld.gov.au)"
+    },
+    {
+      "fact": "호주 학령기 아동을 대상으로 한 연구에서 약시(amblyopia) 유병률은 1.9%로 나타났고, 이 중 67.9%는 굴절성, 32.1%는 사시성 원인이었다. 같은 연구는 기존 선별검사로 약시 발견율이 낮다고 지적하며 더 나은 전략이 필요하다고 밝혔다.",
+      "source": "Amblyopia Prevalence and Risk Factors in Australian Preschool Children, PubMed/ScienceDirect"
+    },
+    {
+      "fact": "초등학교 저학년 아동 3명 중 1명은 특정 시점에 어느 정도의 전음성 난청(conductive hearing loss, 흔히 '삼출성 중이염/glue ear'로 인한)을 겪고 있으며, 이는 학습과 행동에 영향을 줄 수 있다.",
+      "source": "Hear and Say, Hear to Learn School Hearing Screening Program (hearandsay.org.au)"
+    },
+    {
+      "fact": "SA(South Australia)는 만 4-5세 Health and Development Check를 통해 매년 약 11,000건의 검사를 진행하는데, 이는 전체 대상 아동의 약 절반 수준에 불과하다. 평일 CaFHS 센터 방문이 필요해 맞벌이 가정이나 데이케어/킨디에 다니는 아이들은 놓치기 쉬운 구조라는 지적이 있다.",
+      "source": "Optometry Australia, 'More than 400 South Australian children each year at risk of permanent vision loss' (optometry.org.au)"
+    },
+    {
+      "fact": "검사를 놓쳤어도 GP 의뢰서 없이 바로 검안사(optometrist)를 찾아가면 되고, Medicare 카드가 있으면 만 19세 미만 아동·청소년은 3년에 1회(필요시 더 자주) 벌크빌(무료)로 시력검사를 받을 수 있다.",
+      "source": "Raising Children Network / healthdirect.gov.au"
+    }
+  ],
+  "common_misconception": "많은 부모가 '아이가 잘 보고 잘 듣는 것 같으니 괜찮다'고 생각하지만, 약시나 가벼운 전음성 난청은 아이 스스로 이상을 인지하거나 표현하지 못하는 경우가 많다. 또 하나, '학교에서 알아서 다 해주겠지' '동의서니까 나중에 다시 오겠지'라고 넘기다가 검사 날짜를 놓치는 경우가 흔하다 — 검사는 보통 1회성 방문이고, 동의서를 안 내면 검사 명단에서 빠지는 구조다.",
+  "practical_steps": [
+    "아이가 다니는 프리스쿨/킨디/학교에 'Prep(또는 Kindy) 입학 전 무료 시력·청력 검사 안내문을 받았는지, 동의서 제출 마감일이 언제인지' 직접 물어보고 확인하기 (주마다 NSW StEPS, QLD Prep Vision Screening, VIC MCH 3.5세 비전 체크, ACT Kindergarten Health Check, SA Health and Development Check 등 이름이 다르므로 거주 주의 정확한 프로그램명을 검색해 확인)",
+    "가정통신문(특히 영어로 된 동의서/consent form)이 오면 '서명해서 돌려보내는 것'까지가 한 세트라는 점을 기억하고, 헷갈리면 학교 사무실이나 교사에게 바로 질문하기",
+    "검사 날짜에 아이가 결석하거나 검사를 놓쳤다면 학교/프리스쿨에 보충(catch-up) 일정이 있는지 먼저 확인하기",
+    "이미 검사 시기를 완전히 놓쳤다면 GP 의뢰 없이 동네 검안사(optometrist)를 예약하면 되고, Medicare 카드만 있으면 대부분 무료(벌크빌)로 검사 가능",
+    "청력이 걱정되면 Hearing Australia 등 아동 대상 무료/저비용 청력 서비스를 통해 별도로 확인하기 — 특히 감기·중이염이 잦았던 아이라면 'glue ear' 가능성을 염두에 두기"
+  ],
+  "contrasting_approaches": [
+    {
+      "label": "학교 주도 일괄 검사 (Active/Passive Consent 방식)",
+      "description": "QLD, NSW, ACT처럼 학교/프리스쿨에 간호사나 검사팀이 방문해 동의서를 받은 아동을 한 번에 검사하는 방식. 효율적이지만 동의서를 놓치거나 결석하면 그 학기/학년의 기회를 통째로 놓칠 수 있다."
+    },
+    {
+      "label": "개별 방문형 검사 (SA, TAS 등 클리닉/MCH 방문 방식)",
+      "description": "SA의 CaFHS, VIC의 Maternal & Child Health 3.5세 방문처럼 부모가 평일에 직접 클리닉이나 센터를 예약·방문해야 하는 방식. 일정 조율이 부모 책임이라 워킹맘 가정은 시간 내기가 더 어렵고, 실제로 SA에서는 대상자의 절반 정도만 검사받는 결과로 이어졌다."
+    }
+  ],
+  "hook": "호주 아이 100명 중 2명은 제때 발견하지 못하면 평생 갈 수도 있는 '약시'를 갖고 있는데, 그 발견 기회가 가정통신문 한 장과 동의서 서명에 달려 있다 — 그리고 SA에서는 그 기회조차 절반의 아이들에게만 닿고 있다.",
+  "do_examples": [
+    "프리스쿨/학교에 '우리 아이 시력·청력 검사 동의서 받으셨나요? 마감일이 언제예요?'라고 먼저 물어보기",
+    "영어로 된 가정통신문이 오면 번역 앱을 써서라도 내용을 정확히 확인하고 서명해서 제출하기",
+    "검사를 놓쳤다면 GP를 거치지 않고 바로 동네 검안사에게 예약 전화하기 (Medicare로 무료)"
+  ],
+  "dont_examples": [
+    "'학교에서 알아서 챙겨주겠지'라고 생각하고 가정통신문을 그냥 가방 속에 방치하기",
+    "아이가 평소 잘 보고 잘 듣는 것 같다는 이유만으로 검사 자체를 건너뛰기",
+    "검사 날짜를 놓치면 '다음 기회가 있겠지' 하고 그대로 넘어가기 (대부분 1회성 방문이라 별도로 챙기지 않으면 기회가 다시 오지 않음)"
+  ],
+  "caveats": [
+    "이 콘텐츠의 핵심 주의사항: 호주는 주(State/Territory)마다 프로그램 이름, 검사 시기, 진행 방식이 다르다 — 카드에는 'NSW는 StEPS, QLD는 Prep Vision Screening처럼 주마다 이름이 다르니, 본인이 거주하는 주와 자녀가 다니는 학교/프리스쿨에 직접 확인하세요'라는 식의 일반 프레임 + 대표 예시 조합으로 구성할 것을 권장.",
+    "WA(서호주)와 NT(노던테리토리)는 이번 리서치에서 NSW/QLD/VIC/SA/ACT만큼 구체적인 1차 출처를 확보하지 못했다 (WA는 'School Entry Health Assessment', NT는 'Healthy Under 5 Kids Program'으로 추정되나 세부 검증 출처 부족) — 카드 본문에 WA/NT 구체 수치를 넣지 말고 '각 주 보건부 웹사이트 확인' 정도로 일반화 권장.",
+    "TAS(태즈메이니아)의 'Healthy Kids Check (CHaPS)'도 2차 출처(Kids Eye Gear 가이드)에서만 확인되어 1차 정부 출처로 재확인되지 않았으므로 구체적 수치 인용은 피할 것.",
+    "약시 유병률 1.9%, '학령기 아동 3명 중 1명 전음성 난청' 등 통계는 모두 출처가 명확한 학술/기관 자료이나, 연구마다 표본·연령대가 달라 '모든 호주 아동'에 일반화하기보다 카드에서는 '연구에 따르면' 식으로 출처를 명시해 인용할 것.",
+    "한국어/한인 커뮤니티에서 이 주제를 직접 다룬 소스는 이번 검색에서 발견되지 않음 — 이는 오히려 '한국 엄마들 사이에서 잘 알려지지 않은 정보'라는 콘텐츠 앵글의 근거가 되며, 정보 공백을 채우는 포지셔닝이 가능함.",
+    "Medicare 벌크빌 안경 처방 관련 세부 비용(안경테/렌즈 비용)은 검사와 별개이며 검사 자체만 무료라는 점을 명확히 구분해서 전달할 것 — '검사는 무료, 이후 처방된 안경/보청기 등은 별도 비용 발생 가능'."
+  ]
+}
