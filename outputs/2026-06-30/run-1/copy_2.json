@@ -1,0 +1,104 @@
+{
+  "topic": "둘째 입학, 첫째가 다닌다고 자리가 보장되는 게 아니다",
+  "slug": "sibling-enrolment-priority-second-child",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "둘째 입학 준비",
+      "headline": "첫째가 다니면<br />둘째도 <em>당연히</em> 될까요",
+      "subtitle": "사실 그 '당연히'가 가장 위험한 가정이에요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "'형제니까 <strong>당연히 되겠지</strong>' 하고 신청을 미루고 계신가요",
+      "answer": "형제자매 우선배정은 자동 보장이 아니라, 자리가 남을 때만 작동하는 2순위 기준이에요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "Local Intake Area (학군) vs Sibling Priority (형제자매 우선배정)",
+      "explanation": "학교마다 법적으로 지정된 거주 구역, local intake area에 사는 아이에게 입학이 먼저 보장돼요. 형제자매 우선배정은 그 구역 배정이 끝나고 <strong>자리가 남았을 때</strong> 구역 밖 지원자 중에서 우선 고려되는 타이브레이커일 뿐이에요.",
+      "punchline": "순서가 바뀌면 결과도 바뀝니다 — 학군이 먼저, 형제는 그다음이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "State by State",
+      "headline": "주마다 기준이 <em>이렇게</em> 다릅니다",
+      "chips": ["VIC 동일주소+동시재학", "NSW 보장 없음 명시", "QLD 계속 재학 조건", "VIC 신청 4.20~7.31"],
+      "explanation": "빅토리아주는 같은 주소에 살며 동시에 재학 중인 형제를 1순위로, 그다음 거리순으로 본다고 밝혀요(Victoria Department of Education, Placement Policy). NSW는 구역 밖 신청 시 형제 재학 여부가 고려 요소 중 하나일 뿐, 합격을 보장하지 않는다고 공식 페이지에 명시돼 있어요(NSW Government). 퀸즐랜드는 형제가 '계속' 재학 중일 때만 학군 내로 간주해요(Queensland Department of Education)."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "준비 흐름",
+      "headline": "둘째 입학 준비, 이 순서로 움직이세요",
+      "entries": [
+        { "label": "STEP 1", "text": "신청 시즌이 열리면 <strong>거주지가 여전히 학군 내인지</strong> 주 교육부 공식 도구로 다시 확인해요." },
+        { "label": "STEP 2", "text": "임대계약서, 공과금 고지서 등 최근 3개월 이내 거주지 증명 서류를 미리 챙겨둬요." },
+        { "label": "STEP 3", "text": "신청서에 '형제자매 동시 재학' 사실을 명확히 적고, 학교에 구역 밖 지원자 합격 이력을 직접 물어봐요." }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "세 가지 대응 방식",
+      "headline": "결과를 가르는 건 한 끗 차이예요",
+      "items": [
+        { "title": "안심형", "description": "형제니까 당연히 될 거라 믿고 마감 직전에 형식적으로 신청서만 제출해요." },
+        { "title": "검증형", "description": "시즌 시작과 동시에 서류를 준비하고, 학교에 정원 현황을 직접 문의하며 백업 학교까지 함께 신청해요." },
+        { "title": "대응형", "description": "거절이나 대기자 명단에 오를 경우를 대비해 이의제기 절차와 백업 학교 카드를 미리 준비해 둬요." }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Checklist",
+      "headline": "신청 전, 오늘 확인해야 할 4가지",
+      "intro": "신청서 제출하기 전에 이것부터 체크해보세요.",
+      "items": [
+        "현재 주소가 목표 학교 학군 안인지 공식 도구로 재확인",
+        "최근 3개월 이내 거주지 증명 서류 준비",
+        "신청서에 형제자매 동시 재학 조건 명확히 기재",
+        "학교 행정실에 구역 밖 지원자 합격 이력 직접 문의"
+      ],
+      "takeaway": "신청 시즌 시작과 동시에 움직이는 것, 그게 핵심이에요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "능동적으로 확인하는 것과 그냥 믿는 것의 차이",
+      "do": [
+        "시즌 시작과 동시에 거주지 증명 서류 준비",
+        "이사 이력 있으면 학군 공식 도구로 재확인",
+        "학교에 구역 밖 지원자 합격 이력 직접 문의"
+      ],
+      "dont": [
+        "첫째가 다닌다는 이유로 마감 직전까지 미루기",
+        "이사 후에도 예전 학군 기준으로 그대로 신청",
+        "'보통 다 된다'는 말만 믿고 서류 준비 생략"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Action Plan",
+      "headline": "둘째 입학 신청, 이 순서로 준비하면 됩니다",
+      "steps": [
+        { "title": "거주지부터 확인", "description": "공식 도구로 학군 내 거주를 재확인하고 증명 서류를 미리 준비해요." },
+        { "title": "정확하게, 빠르게 제출", "description": "신청서에 형제자매 동시 재학 조건을 명확히 기재하고 시즌 시작과 동시에 제출해요." },
+        { "title": "백업까지 챙기기", "description": "백업 학교에도 함께 신청하고, 거절이나 대기 상황에 대비해 이의제기 절차를 미리 알아둬요." }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "당연히보다<br /><em>한 번 더</em> 확인",
+      "message": "둘째도 당연히 될 거라 믿기보다 한 번 더 확인하는 게 우리 아이를 위한 가장 확실한 방법이에요. 이 체크리스트, <strong>저장하기</strong> 눌러서 신청 시즌 내내 옆에 두세요.",
+      "comment_prompt": "같은 학군 고민 중인 한국 엄마가 있다면 이 게시물을 공유해주세요"
+    }
+  ]
+}
