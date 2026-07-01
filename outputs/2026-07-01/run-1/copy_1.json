@@ -1,0 +1,91 @@
+{
+  "topic": "호주 CCS 3 Day Guarantee 완전 가이드: 일 안 해도 주 3일 어린이집 보조금 받는 법",
+  "slug": "ccs-3-day-guarantee-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "2026 CCS 업데이트",
+      "headline": "일 안 해도<br />주 3일 <em>보조금</em>",
+      "subtitle": "활동시험 없이 어린이집 보조금 받는 법, 아직도 모르셨다면"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 아직도 <strong>활동시험 서류</strong>부터 챙기고 계신가요?",
+      "answer": "2026년부터는 그럴 필요가 없어졌어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "3 Day Guarantee",
+      "explanation": "부모의 근무나 학업 시간과 상관없이 <strong>격주 72시간</strong>, 주 3일 상당의 어린이집 보조금을 자동으로 보장하는 제도예요.",
+      "punchline": "72시간까지는 활동시험 없이, 그 이상은 근무 실적을 신고해야 해요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "Key Numbers",
+      "headline": "숫자로 보는 <em>3 Day Guarantee</em>",
+      "chips": ["2026.1.5 시행", "격주 72시간", "최대 100시간", "소득기준 $538,520"],
+      "explanation": "72시간까지는 자동 보장, 100시간까지 늘리려면 활동 실적 신고가 필요해요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "By Household",
+      "headline": "가정별로 이렇게 달라져요",
+      "entries": [
+        { "label": "전업육아", "text": "활동시험 없이 <strong>격주 72시간</strong>이 자동으로 보장돼요." },
+        { "label": "파트타임", "text": "근무시간에 따라 72시간에서 최대 100시간까지 늘릴 수 있어요." },
+        { "label": "풀타임", "text": "격주 48시간 초과 실적을 신고하면 100시간까지 받을 수 있어요." }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "Which Fits You",
+      "headline": "우리 가정엔 어떤 방식이 맞을까",
+      "items": [
+        { "title": "기본 72시간 활용", "description": "서류 부담 없이 주 3일 보육만 이용하고 싶은 가정에 맞아요." },
+        { "title": "확대 100시간 신청", "description": "맞벌이라 보육 시간이 더 필요한 가정은 활동 실적을 신고하세요." },
+        { "title": "소득 구간 재확인", "description": "7월 6일부터 바뀐 소득 기준에 우리 가정이 해당하는지 다시 확인해요." }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Do This Today",
+      "headline": "지금 바로 확인할 것",
+      "intro": "마이가브에서 딱 이것만 확인하면 돼요.",
+      "items": ["현재 CCS 적용 시간이 72시간 이상인지 확인", "100시간이 필요하면 근무 실적 정확히 신고", "7월 이후 예상 소득 업데이트", "어린이집에 자리 확보 여부 별도 문의"],
+      "takeaway": "이미 CCS를 받고 있다면 별도 신청 없이 72시간이 자동 적용돼요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이것만은 헷갈리지 마세요",
+      "do": ["72시간까지만 활동시험 면제라는 것 이해하기", "보조금 비율과 소득 기준은 그대로라는 것 알기", "어린이집 자리는 별도로 확보해야 한다는 것 기억하기"],
+      "dont": ["활동시험이 완전히 없어졌다고 오해하기", "보육비가 무료가 됐다고 착각하기", "자리가 자동으로 확보된다고 안심하기"]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "3 Steps",
+      "headline": "신청 없이도 되지만, 이 3단계는 확인하세요",
+      "steps": [
+        { "title": "1. 현재 상태 확인", "description": "마이가브에서 지금 받고 있는 CCS 시간을 확인해요." },
+        { "title": "2. 필요하면 신고", "description": "100시간이 필요하면 근무·학업 실적을 정확히 입력해요." },
+        { "title": "3. 소득 재확인", "description": "7월 이후 새 소득 구간에 맞춰 예상 소득을 업데이트해요." }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "우리 가정 보육 시간<br /><em>다시</em> 확인해보세요",
+      "message": "마이가브 확인은 <strong>5분</strong>이면 충분해요.",
+      "comment_prompt": "우리 가정은 몇 시간 받고 있는지 댓글로 나눠주세요"
+    }
+  ]
+}
