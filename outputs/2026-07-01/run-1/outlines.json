@@ -1,0 +1,178 @@
+{
+  "topics": [
+    {
+      "topic": "호주 CCS 3 Day Guarantee 완전 가이드: 일 안 해도 주 3일 어린이집 보조금 받는 법",
+      "angle": "2026년 1월부터 시행된 활동시험 폐지 3 Day Guarantee 제도의 정확한 적용 범위와 오해 바로잡기",
+      "slug": "ccs-3-day-guarantee-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "headline": "일 안 해도 주 3일 어린이집 보조금 받는 법",
+          "key_message": "활동시험 없이도 CCS 보조금을 받을 수 있게 된 2026년 새 제도를 소개한다",
+          "content_note": "summary, definition",
+          "layout_hint": "cover badge: '2026 CCS 업데이트'"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "headline": "혹시 아직도 활동시험 서류부터 챙기고 계신가요?",
+          "key_message": "많은 한국 엄마들이 여전히 활동시험이 필요하다고 오해하고 있다는 공감 포인트",
+          "content_note": "hook",
+          "layout_hint": "질문형 훅, 한 줄 답변으로 3 Day Guarantee 존재를 예고"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "headline": "3 Day Guarantee가 정확히 뭔가요",
+          "key_message": "활동시험 없이 격주 72시간(주 3일) 보조금 보육이 보장되는 제도라는 정의",
+          "content_note": "definition",
+          "layout_hint": "def-box에 72시간=주3일 상당 강조"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "headline": "숫자로 보는 3 Day Guarantee",
+          "key_message": "시행일, 보장 시간, 소득 기준 등 핵심 수치를 칩 형태로 제시",
+          "content_note": "key_facts",
+          "layout_hint": "chips: 2026.1.5 시행 / 격주 72시간 / 최대 100시간 / 소득기준 $538,520"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "headline": "가정별로 이렇게 달라져요",
+          "key_message": "근무시간대별로 72시간/100시간 적용이 어떻게 달라지는지 3가지 시간대 예시로 설명",
+          "content_note": "contrasting_approaches, practical_steps",
+          "layout_hint": "entries: 전업 육아 가정 / 파트타임 근무 / 풀타임 맞벌이"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "headline": "우리 가정엔 어떤 방식이 맞을까",
+          "key_message": "72시간 기본 보장 활용 vs 100시간 확대 신청, 두 접근 방식 비교",
+          "content_note": "contrasting_approaches",
+          "layout_hint": "3개 카테고리: 기본 72시간 / 확대 100시간 / 소득 구간 재확인"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "headline": "지금 바로 확인할 것",
+          "key_message": "마이가브에서 확인해야 할 4가지 실전 체크리스트",
+          "content_note": "practical_steps",
+          "layout_hint": "items 4개, takeaway는 자동 적용 여부 강조"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "headline": "이것만은 헷갈리지 마세요",
+          "key_message": "흔한 오해와 올바른 이해를 대비",
+          "content_note": "common_misconception, do_examples, dont_examples",
+          "layout_hint": "do: 정확한 이해 3가지 / dont: 흔한 오해 3가지"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "headline": "신청 없이도 되지만, 이 3단계는 확인하세요",
+          "key_message": "자동 적용 확인부터 소득 업데이트까지 3단계",
+          "content_note": "practical_steps",
+          "layout_hint": "steps 3개: 확인 → 신고(필요시) → 재확인"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "headline": "우리 가정 보육 시간, 다시 확인해보세요",
+          "key_message": "저장 후 배우자와 함께 확인하도록 유도",
+          "content_note": "cta",
+          "layout_hint": "표준 CTA"
+        }
+      ]
+    },
+    {
+      "topic": "2026년 7월부터 육아휴직 26주로 확대: 새로 태어난 아기 부모가 챙겨야 할 PPL 변경사항",
+      "angle": "7월 1일 이후 출생아부터 적용되는 PPL 130일 확대와 신청 타이밍",
+      "slug": "ppl-26-weeks-expansion-guide",
+      "cards": [
+        {
+          "card": 1,
+          "type": "cover",
+          "headline": "육아휴직이 26주로 늘어났어요",
+          "key_message": "7월 1일 이후 출생아부터 PPL이 130일로 확대된다는 사실을 소개",
+          "content_note": "summary",
+          "layout_hint": "cover badge: '2026 PPL 업데이트'"
+        },
+        {
+          "card": 2,
+          "type": "hook",
+          "headline": "이미 신청서 냈는데, 날짜가 늦어서 손해 본 건 아닐까요?",
+          "key_message": "출산 전 미리 신청한 부모들의 불안감에 공감",
+          "content_note": "hook",
+          "layout_hint": "질문형 훅, 자동 반영된다는 안도감으로 답변"
+        },
+        {
+          "card": 3,
+          "type": "definition",
+          "headline": "PPL 130일이 정확히 뭔가요",
+          "key_message": "26주(주5일 기준 130일) 유급 육아휴직 정의와 대상",
+          "content_note": "definition",
+          "layout_hint": "def-box에 120일→130일 변화 강조"
+        },
+        {
+          "card": 4,
+          "type": "data",
+          "headline": "숫자로 보는 PPL 확대",
+          "key_message": "130일, 배우자 전용 20일, 슈퍼 12% 등 핵심 수치",
+          "content_note": "key_facts",
+          "layout_hint": "chips: 130일(26주) / 배우자 전용 20일 / 슈퍼 12% 적립 / 2026.7.1 시행"
+        },
+        {
+          "card": 5,
+          "type": "routine",
+          "headline": "신청 시점별로 이렇게 달라져요",
+          "key_message": "출산 전 신청, 출산 후 신청, 이미 신청 완료 세 가지 케이스별 적용 방식",
+          "content_note": "contrasting_approaches, key_facts",
+          "layout_hint": "entries: 출산 전 신청 / 출산 후 신청 / 이미 접수된 경우"
+        },
+        {
+          "card": 6,
+          "type": "categories",
+          "headline": "부모 두 사람, 이렇게 나눠보세요",
+          "key_message": "부모 공유 몫과 배우자 전용 몫을 어떻게 배분할지 3가지 방식",
+          "content_note": "contrasting_approaches",
+          "layout_hint": "3개 카테고리: 공동 배분 / 배우자 전용 20일 우선 사용 / 순차 사용"
+        },
+        {
+          "card": 7,
+          "type": "checklist",
+          "headline": "지금 바로 확인할 것",
+          "key_message": "마이가브 신청부터 출생증명 제출까지 체크리스트",
+          "content_note": "practical_steps",
+          "layout_hint": "items 4개, takeaway는 자동 10일 추가 강조"
+        },
+        {
+          "card": 8,
+          "type": "do_dont",
+          "headline": "이것만은 헷갈리지 마세요",
+          "key_message": "흔한 오해와 정확한 이해 대비",
+          "content_note": "common_misconception, do_examples, dont_examples",
+          "layout_hint": "do: 정확한 이해 3가지 / dont: 흔한 오해 3가지"
+        },
+        {
+          "card": 9,
+          "type": "steps",
+          "headline": "신청부터 정산까지 3단계",
+          "key_message": "출산 전 신청 → 출생증명 제출 → 130일 정산 확인",
+          "content_note": "practical_steps",
+          "layout_hint": "steps 3개"
+        },
+        {
+          "card": 10,
+          "type": "cta",
+          "headline": "우리 가족 육아휴직, 다시 계산해보세요",
+          "key_message": "저장 후 배우자와 함께 일정 상의하도록 유도",
+          "content_note": "cta",
+          "layout_hint": "표준 CTA"
+        }
+      ]
+    }
+  ]
+}
