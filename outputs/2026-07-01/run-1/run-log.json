@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-07-01T19:22:04Z",
+  "finished_at": "2026-07-01T19:34:14Z",
+  "trigger_source": "github-actions",
+  "github_run_id": "28541786215",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "호주 CCS 3 Day Guarantee 완전 가이드: 일 안 해도 주 3일 어린이집 보조금 받는 법",
+      "slug": "ccs-3-day-guarantee-guide",
+      "html_file": "outputs/2026-07-01/run-1/ccs-3-day-guarantee-guide.html",
+      "copy_file": "outputs/2026-07-01/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    },
+    {
+      "carousel_index": 2,
+      "topic": "2026년 7월부터 육아휴직 26주로 확대: 새로 태어난 아기 부모가 챙겨야 할 PPL 변경사항",
+      "slug": "ppl-26-weeks-expansion-guide",
+      "html_file": "outputs/2026-07-01/run-1/ppl-26-weeks-expansion-guide.html",
+      "copy_file": "outputs/2026-07-01/run-1/copy_2.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-01.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-02.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-03.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-04.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-05.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-06.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-07.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-08.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-09.png",
+    "outputs/2026-07-01/run-1/images/ccs-3-day-guarantee-guide-10.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-01.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-02.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-03.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-04.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-05.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-06.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-07.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-08.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-09.png",
+    "outputs/2026-07-01/run-1/images/ppl-26-weeks-expansion-guide-10.png"
+  ]
+}
