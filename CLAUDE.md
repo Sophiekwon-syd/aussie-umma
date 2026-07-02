@@ -35,7 +35,7 @@ The orchestrator coordinates all agents in sequence:
 
 1. **trend-researcher** — finds trending topics in the configured niche
 2. **topic-researcher** — deep-researches each topic
-3. **content-planner** — assigns 10-card narrative structure to each topic
+3. **content-planner** — assigns a flexible-count narrative structure (7–11 cards, default 9) to each topic
 4. **copywriter** — writes all card copy (bilingual EN/KO when the brand's `card.bilingual` is true)
 5. **carousel-developer** — builds the HTML carousel files
 6. **qa-engineer** — validates each file against quality gates
