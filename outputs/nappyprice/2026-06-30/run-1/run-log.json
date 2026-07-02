@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "started_at": "2026-06-30T11:52:32Z",
+  "trigger_source": "local",
+  "github_run_id": null,
+  "finished_at": "2026-07-02T11:20:00Z",
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "Nappy Unit Pricing Mastery",
+      "slug": "nappy-unit-pricing-mastery",
+      "html_file": "outputs/nappyprice/2026-06-30/run-1/nappy-unit-pricing-mastery.html",
+      "copy_file": "outputs/nappyprice/2026-06-30/run-1/nappy-unit-pricing-mastery-copy.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-01.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-02.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-03.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-04.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-05.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-06.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-07.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-08.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-09.png",
+    "outputs/nappyprice/2026-06-30/run-1/images/nappy-unit-pricing-mastery-10.png"
+  ]
+}
