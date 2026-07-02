@@ -1,0 +1,310 @@
+{
+  "topic": "Nappy Unit Pricing Mastery",
+  "slug": "nappy-unit-pricing-mastery",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": {
+        "en": "Smart Saving",
+        "ko": "현명한 소비"
+      },
+      "headline": {
+        "en": "Stop Overpaying: The <em>Unit Price</em> Trick",
+        "ko": "비싸게 사지 마세요: <em>단가 비교</em>의 비밀"
+      },
+      "subtitle": {
+        "en": "Swipe to save $1,200 on nappies",
+        "ko": "기저귀 값 120만원 아끼는 법"
+      }
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": {
+        "en": "Do you always buy the <strong>biggest box</strong>?",
+        "ko": "항상 <strong>가장 큰 박스</strong>만 구매하시나요?"
+      },
+      "answer": {
+        "en": "It might actually cost you more per change.",
+        "ko": "오히려 한 장당 더 비싸게 사는 걸 수도 있습니다."
+      }
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": {
+        "en": "Definition",
+        "ko": "개념 설명"
+      },
+      "term": {
+        "en": "Unit Pricing",
+        "ko": "단가 비교"
+      },
+      "explanation": {
+        "en": "Calculating the price of <strong>one single nappy</strong>, rather than the price of the whole box.",
+        "ko": "전체 박스 가격이 아닌 <strong>기저귀 한 장당 가격</strong>을 직접 확인하는 방법입니다."
+      },
+      "punchline": {
+        "en": "The only number that truly matters for your budget.",
+        "ko": "우리의 가계부를 지켜주는 유일한 진짜 숫자입니다."
+      }
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": {
+        "en": "The Data",
+        "ko": "데이터 분석"
+      },
+      "headline": {
+        "en": "The <em>Real Cost</em> of 8,000 Changes",
+        "ko": "기저귀 8,000장의 <em>진짜 비용</em>"
+      },
+      "chips": [
+        {
+          "en": "PB Brands: $0.15/ea",
+          "ko": "마트 브랜드: 장당 150원"
+        },
+        {
+          "en": "Premium: $0.50/ea",
+          "ko": "프리미엄: 장당 500원"
+        },
+        {
+          "en": "8k Nappies",
+          "ko": "총 8천 장 사용"
+        },
+        {
+          "en": "Save $1,200/yr",
+          "ko": "연 120만원 절약"
+        }
+      ],
+      "explanation": {
+        "en": "A single baby uses over 6,000 nappies, meaning small differences in unit price add up to huge savings over time.",
+        "ko": "아기 한 명이 쓰는 기저귀가 평균 8천 장에 달하므로, 장당 단가 차이가 쌓여 큰 비용 절감이 됩니다."
+      }
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": {
+        "en": "Daily Routine",
+        "ko": "데일리 루틴"
+      },
+      "headline": {
+        "en": "Smart Nappy Routine",
+        "ko": "똑똑한 기저귀 루틴"
+      },
+      "entries": [
+        {
+          "label": {
+            "en": "Morning",
+            "ko": "낮 시간"
+          },
+          "text": {
+            "en": "Use <strong>budget store brands</strong> for frequent, active changes.",
+            "ko": "자주 교체하는 낮에는 <strong>가성비 마트 브랜드</strong>를 사용하세요."
+          }
+        },
+        {
+          "label": {
+            "en": "Outing",
+            "ko": "외출 시"
+          },
+          "text": {
+            "en": "Use mid-range comfortable nappies for shorter trips.",
+            "ko": "외출 시에는 중간 등급의 편안한 기저귀가 좋습니다."
+          }
+        },
+        {
+          "label": {
+            "en": "Night",
+            "ko": "밤 시간"
+          },
+          "text": {
+            "en": "Save premium nappies for overnight leak protection.",
+            "ko": "흡수율이 높은 프리미엄 기저귀는 밤잠용으로 아끼세요."
+          }
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": {
+        "en": "Approaches",
+        "ko": "선택 방법"
+      },
+      "headline": {
+        "en": "Two Smart Saving Paths",
+        "ko": "가장 현명한 두 가지 저축 경로"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Store Brand Loyalty",
+            "ko": "마트 브랜드 충성"
+          },
+          "description": {
+            "en": "Consistently using supermarket brands to lock in a low price.",
+            "ko": "안정적인 최저 가격을 위해 대형마트 PB 브랜드를 지속적으로 사용합니다."
+          }
+        },
+        {
+          "title": {
+            "en": "Premium Sale Chasing",
+            "ko": "프리미엄 세일 조준"
+          },
+          "description": {
+            "en": "Only buying name-brands when discounted by 30-50%.",
+            "ko": "일반 브랜드가 30-50% 할인할 때만 집중적으로 대량 구매합니다."
+          }
+        },
+        {
+          "title": {
+            "en": "Day/Night Hybrid",
+            "ko": "낮과 밤 하이브리드"
+          },
+          "description": {
+            "en": "Combining cheap day nappies with premium night nappies.",
+            "ko": "낮에는 저렴한 기저귀를, 밤에는 흡수력 좋은 기저귀를 혼용합니다."
+          }
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": {
+        "en": "Checklist",
+        "ko": "체크리스트"
+      },
+      "headline": {
+        "en": "Your Savvy Shopping Checklist",
+        "ko": "장보기 전 필수 체크리스트"
+      },
+      "intro": {
+        "en": "Run these quick checks before tapping your card:",
+        "ko": "결제하기 전에 아래 항목들을 꼭 확인해보세요:"
+      },
+      "items": [
+        {
+          "en": "Look at the unit price in the bottom shelf corner.",
+          "ko": "가격표 구석의 한 장당 단가를 먼저 확인하세요."
+        },
+        {
+          "en": "Calculate unit price manually if shopping online.",
+          "ko": "온라인 쇼핑 시 단가가 없다면 직접 나누어 보세요."
+        },
+        {
+          "en": "Don't assume larger bulk boxes are always cheaper.",
+          "ko": "대용량 박스가 무조건 저렴할 거라는 생각을 버리세요."
+        },
+        {
+          "en": "Verify the unit price before using subscribe-and-save.",
+          "ko": "정기 구독을 신청하기 전에 실제 장당 가격을 대조하세요."
+        }
+      ],
+      "takeaway": {
+        "en": "Compare unit price, not box price.",
+        "ko": "박스 가격이 아닌 한 장당 가격을 비교하세요."
+      }
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": {
+        "en": "Smart Nappy Buying Habits",
+        "ko": "기저귀 구매의 올바른 습관"
+      },
+      "do": [
+        {
+          "en": "Check the per-unit shelf price",
+          "ko": "매대 표지판의 낱개 단가를 확인한다"
+        },
+        {
+          "en": "Compare different pack sizes",
+          "ko": "다양한 패키지 용량을 비교한다"
+        },
+        {
+          "en": "Mix budget and premium brands",
+          "ko": "일반형과 고급형 브랜드를 혼용한다"
+        }
+      ],
+      "dont": [
+        {
+          "en": "Assume big boxes are cheapest",
+          "ko": "큰 박스가 무조건 싸다고 신뢰한다"
+        },
+        {
+          "en": "Buy convenience packs at full price",
+          "ko": "편의점에서 정가로 소형 팩을 구매한다"
+        },
+        {
+          "en": "Ignore price differences over time",
+          "ko": "장기적으로 누적되는 단가 차이를 무시한다"
+        }
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": {
+        "en": "Next Steps",
+        "ko": "실천 단계"
+      },
+      "headline": {
+        "en": "Three Steps to Instant Savings",
+        "ko": "오늘부터 즉시 아끼는 3단계"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Find Unit Price",
+            "ko": "단가 확인하기"
+          },
+          "description": {
+            "en": "Locate the price per single nappy on the store price tag.",
+            "ko": "오프라인 매장 가격표에서 기저귀 한 장당 단가를 먼저 찾으세요."
+          }
+        },
+        {
+          "title": {
+            "en": "Track the Specials",
+            "ko": "할인 주기 추적"
+          },
+          "description": {
+            "en": "Use retailer apps to monitor when your favorite brands go on sale.",
+            "ko": "마트 앱을 활용해 선호하는 브랜드의 할인 알림을 켜두세요."
+          }
+        },
+        {
+          "title": {
+            "en": "Adopt the Hybrid Mix",
+            "ko": "하이브리드 적용"
+          },
+          "description": {
+            "en": "Start using budget brands for daytime and premium for nighttime.",
+            "ko": "낮용과 밤용 기저귀를 구분해 가계부 부담을 줄여보세요."
+          }
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": {
+        "en": "Start <em>saving</em><br />on nappies",
+        "ko": "기저귀 값<br /><em>절약</em>하기"
+      },
+      "message": {
+        "en": "Save this guide for your next supermarket run and <strong>share it</strong> with other Aussie parents!",
+        "ko": "다음 장보기 전에 이 가이드를 꼭 저장하시고, 다른 <strong>초보 부모님들께도 공유</strong>해 주세요!"
+      },
+      "comment_prompt": {
+        "en": "What is your go-to budget nappy brand? Let us know in the comments!",
+        "ko": "가장 추천하는 가성비 기저귀는 무엇인가요? 댓글로 공유해 주세요!"
+      }
+    }
+  ]
+}
