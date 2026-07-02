@@ -21,7 +21,9 @@ These rules apply to every agent in the pipeline. No exceptions.
 
 ## Structure rules
 
-- Exactly `pipeline.cards_per_carousel` cards per HTML file — no more, no fewer
+- Card count within `pipeline.card_count_range` — fit the format to the topic, never pad
+- Required spine in order: cover → hook → … → sheet (save-bait) → cta
+- No more than two consecutive cards of the same type; include at least one `statement` (dark) rhythm card
 - Every card: 1080px × 1350px
 - The brand handle (`.handle`) sits at top-right of every card; there is no footer
 - No in-card carousel-position dots or page-number watermark — Instagram renders its own carousel UI beneath the post
