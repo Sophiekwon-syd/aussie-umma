@@ -12,7 +12,7 @@ You MUST call your Read tool on these files before writing a single line of HTML
 1. `brands/<BRAND>/config.json` — read `card.bilingual` to know whether to emit `.ko-sub` elements; read `design.accent_primary` and `design.accent_secondary` to override CSS variables.
 2. `.claude/skills/html-card/tokens.css` — **paste its full contents verbatim as the `<style>` block**, then override only `--accent` with `design.accent_primary` and `--blue` with `design.accent_secondary`. `tokens.css` is the source of truth for CSS variables and class definitions.
 3. `.claude/skills/html-card/template.html` — authoritative for card shell structure, component class names, and **bilingual rule** (when to emit `.ko-sub` siblings).
-4. `templates/sample.html` — full 10-card production example. Mirror its HTML structure exactly.
+4. `templates/sample.html` — canonical new-system example (9 cards, demonstrating the spine + all new components). Mirror its HTML structure exactly.
 
 ## Inputs (provided by the orchestrator)
 
