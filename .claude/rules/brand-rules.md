@@ -31,7 +31,7 @@ These rules apply to every agent in the pipeline. No exceptions.
 ## Tone rules
 
 - Read `brands/<BRAND>/tone-guide.md` before writing any copy
-- Empathy → insight → confidence arc across the 10 cards
+- Empathy → insight → confidence arc: cover + hook → middle → sheet + cta (7–11 cards per topic)
 - Never drive action through fear or urgency
 - Short sentences. One idea per card. Conclusion first.
 
