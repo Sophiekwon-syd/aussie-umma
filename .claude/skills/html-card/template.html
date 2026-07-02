@@ -101,3 +101,66 @@
     <p class="cta-hint">[HINT_TEXT]</p>
   </div>
 </div>
+
+<!-- Bar compare (type: bar_compare) — the money shot; use for any cost comparison -->
+<div class="card">
+  <span class="handle">[BRAND_ACCOUNT]</span>
+  <div class="ci"><div class="center-block">
+    <div class="tl">[SECTION_LABEL]</div><div class="ko-sub label">[SECTION_LABEL_KO]</div>
+    <div class="td md" style="margin-bottom:8px">[HEADLINE]</div><div class="ko-sub head">[HEADLINE_KO]</div>
+    <div class="bar-cmp">
+      <div class="bar-row"><div class="bar-label"><span>[BAR1_LABEL]</span><span class="bar-val">[BAR1_VALUE]</span></div><div class="bar-track"><div class="bar-fill cost" style="width:[BAR1_RATIO]%"></div></div></div>
+      <div class="bar-row"><div class="bar-label"><span>[BAR2_LABEL]</span><span class="bar-val">[BAR2_VALUE]</span></div><div class="bar-track"><div class="bar-fill save" style="width:[BAR2_RATIO]%"></div></div></div>
+    </div>
+    <p class="tb" style="margin-top:32px">[CAPTION]</p><div class="ko-sub body">[CAPTION_KO]</div>
+  </div></div>
+</div>
+
+<!-- Split contrast (type: split) — two-number face-off -->
+<div class="card">
+  <span class="handle">[BRAND_ACCOUNT]</span>
+  <div class="ci"><div class="center-block">
+    <div class="split">
+      <div class="split-col cost"><div class="split-v">[LEFT_VALUE]</div><div class="split-l">[LEFT_LABEL]</div><div class="ko-sub body">[LEFT_LABEL_KO]</div></div>
+      <div class="split-div"></div>
+      <div class="split-col save"><div class="split-v">[RIGHT_VALUE]</div><div class="split-l">[RIGHT_LABEL]</div><div class="ko-sub body">[RIGHT_LABEL_KO]</div></div>
+    </div>
+    <div class="split-cap">[CAPTION]</div><div class="ko-sub body" style="text-align:center">[CAPTION_KO]</div>
+  </div></div>
+</div>
+
+<!-- Big number (type: big_number) — one hero stat -->
+<div class="card">
+  <span class="handle">[BRAND_ACCOUNT]</span>
+  <div class="ci"><div class="center-block">
+    <div class="tl">[SECTION_LABEL]</div><div class="ko-sub label">[SECTION_LABEL_KO]</div>
+    <div class="big-num">
+      <div class="stat-val">[VALUE]</div>
+      <div class="stat-label">[LABEL]</div><div class="ko-sub head" style="text-align:center">[LABEL_KO]</div>
+      <p class="stat-desc">[CONTEXT]</p><div class="ko-sub body" style="text-align:center">[CONTEXT_KO]</div>
+    </div>
+  </div></div>
+</div>
+
+<!-- Statement (type: statement) — dark rhythm beat; max 2 per carousel -->
+<div class="card dark">
+  <span class="handle">[BRAND_ACCOUNT]</span>
+  <div class="ci">
+    <div class="stmt">[STATEMENT_WITH_<strong>BOLD</strong>]</div>
+    <div class="ko-sub head" style="text-align:center;margin-top:24px">[STATEMENT_KO]</div>
+  </div>
+</div>
+
+<!-- Save-bait sheet (type: sheet) — the screenshot artifact; exactly one per carousel -->
+<div class="card">
+  <span class="handle">[BRAND_ACCOUNT]</span>
+  <div class="ci"><div class="center-block">
+    <div class="sheet"><div class="sheet-tag">[TAG]</div>
+      <div class="sheet-title">[TITLE]</div><div class="ko-sub head">[TITLE_KO]</div>
+      <div class="sheet-row">[ROW1]</div><div class="ko-sub body">[ROW1_KO]</div>
+      <div class="sheet-row">[ROW2]</div><div class="ko-sub body">[ROW2_KO]</div>
+      <div class="sheet-row">[ROW3]</div><div class="ko-sub body">[ROW3_KO]</div>
+      <div class="sheet-foot">[FOOTNOTE]</div><div class="ko-sub body" style="text-align:center">[FOOTNOTE_KO]</div>
+    </div>
+  </div></div>
+</div>
