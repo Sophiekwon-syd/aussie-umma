@@ -1,0 +1,212 @@
+{
+  "type": "carousel",
+  "brand": "nappyprice",
+  "topic": "unit-pricing-mastery",
+  "date": "2026-07-02",
+  "card_count": 9,
+  "cards": [
+    {
+      "type": "cover",
+      "number": 1,
+      "badge": {
+        "en": "Save Smart",
+        "ko": "똑똑한 절약"
+      },
+      "title": {
+        "en": "The shelf-tag number <em>nobody</em> reads",
+        "ko": "모두가 무시하는 가격표의 숫자"
+      },
+      "subtitle": {
+        "en": "Worth $1,200 to your budget",
+        "ko": "연간 1,200달러를 아끼는 비결"
+      },
+      "swipe_cue": {
+        "en": "Swipe",
+        "ko": "슬라이드"
+      }
+    },
+    {
+      "type": "hook",
+      "number": 2,
+      "question": {
+        "en": "You grab the biggest box to save money, right?",
+        "ko": "큰 팩을 사면 저렴할 거라 생각하시죠?"
+      },
+      "answer": {
+        "en": "Sometimes it's the <strong>most</strong> expensive per change.",
+        "ko": "사실 가장 비싼 선택일 수도 있어요."
+      }
+    },
+    {
+      "type": "big_number",
+      "number": 3,
+      "label": {
+        "en": "The gap per change",
+        "ko": "1매당 가격 차이"
+      },
+      "value": "$0.35",
+      "context": {
+        "en": "Between the cheapest store brand and the priciest premium option. Over 6,000 changes in a year, that adds up.",
+        "ko": "가장 싼 세트와 가장 비싼 세트 사이의 격차. 연간 6천 매 이상이면 엄청난 차이예요."
+      }
+    },
+    {
+      "type": "bar_compare",
+      "number": 4,
+      "label": {
+        "en": "The Real Cost",
+        "ko": "실제 비용"
+      },
+      "headline": {
+        "en": "Store brand vs premium brand",
+        "ko": "세트 브랜드 vs 프리미엄 브랜드"
+      },
+      "bars": [
+        {
+          "label": {
+            "en": "Store brand",
+            "ko": "세트 브랜드"
+          },
+          "value": {
+            "en": "$0.15/change",
+            "ko": "1매 15센트"
+          },
+          "ratio": 30
+        },
+        {
+          "label": {
+            "en": "Premium brand",
+            "ko": "프리미엄 브랜드"
+          },
+          "value": {
+            "en": "$0.50/change",
+            "ko": "1매 50센트"
+          },
+          "ratio": 100
+        }
+      ],
+      "caption": {
+        "en": "The teal bar is less than one-third the cost. Over a year, that's real money back in your pocket.",
+        "ko": "초록색이 가격의 1/3 미만. 1년이면 금액 차이가 정말 커요."
+      }
+    },
+    {
+      "type": "statement",
+      "number": 5,
+      "statement": {
+        "en": "6,000+ changes per baby. Small gaps become <strong>$1,200</strong>.",
+        "ko": "연간 6천 매 이상이 필요해요. 작은 차이가 1,200달러 차이가 돼요."
+      }
+    },
+    {
+      "type": "definition",
+      "number": 6,
+      "label": {
+        "en": "The Formula",
+        "ko": "계산법"
+      },
+      "term": {
+        "en": "Unit price",
+        "ko": "1매 당 가격"
+      },
+      "explanation": {
+        "en": "Box price ÷ number of nappies = the only number that matters. Ignore the package size. Check the unit price every time.",
+        "ko": "상자 가격 ÷ 매 수 = 봐야 할 유일한 숫자. 패키지 크기는 무시하세요. 1매당 가격만 비교해요."
+      }
+    },
+    {
+      "type": "sheet",
+      "number": 7,
+      "tag": {
+        "en": "Save This",
+        "ko": "저장하기"
+      },
+      "title": {
+        "en": "Before You Tap Your Card",
+        "ko": "결제 전 확인 목록"
+      },
+      "rows": [
+        {
+          "en": "Calculate the unit price for each option",
+          "ko": "옵션별 1매당 가격 계산"
+        },
+        {
+          "en": "Compare store brand vs premium — the gap is usually 2-3×",
+          "ko": "세트 vs 프리미엄 비교 — 보통 2-3배 차이"
+        },
+        {
+          "en": "Factor in freshness — buy only what you'll use in 3 months",
+          "ko": "유통기한 고려 — 3개월 내 쓸 양만 구매"
+        },
+        {
+          "en": "Check the sale cycle — bulk buy when your top choice is on sale",
+          "ko": "할인 주기 확인 — 가장 싼 옵션 할인 때 대량 구매"
+        }
+      ],
+      "footnote": {
+        "en": "Prices vary by retailer. Always check your local store.",
+        "ko": "가격은 지역마다 달라요. 항상 현지 매장을 확인하세요."
+      }
+    },
+    {
+      "type": "do_dont",
+      "number": 8,
+      "label": {
+        "en": "Smart Habits",
+        "ko": "똑똑한 습관"
+      },
+      "headline": {
+        "en": "Build your savings reflex",
+        "ko": "절약 습관 만들기"
+      },
+      "do": [
+        {
+          "en": "Check unit price before you add to cart",
+          "ko": "카트에 넣기 전에 1매당 가격 확인"
+        },
+        {
+          "en": "Buy the cheap option if quality is similar — you'll recoup it in a month",
+          "ko": "품질이 비슷하면 저렴한 것 선택 — 1개월이면 돈을 아껴요"
+        },
+        {
+          "en": "Stock up when your top choice is 20% off",
+          "ko": "선호하는 제품이 20% 할인할 때 대량 구매"
+        }
+      ],
+      "dont": [
+        {
+          "en": "Buy the biggest box just because it looks cheaper",
+          "ko": "큰 팩이 저렴해 보인다고 바로 사기"
+        },
+        {
+          "en": "Ignore the unit price — it's printed right there",
+          "ko": "1매당 가격 무시하기 — 라벨에 적혀있어요"
+        },
+        {
+          "en": "Stock premium brand at full price — wait for a sale",
+          "ko": "프리미엄 제품을 정가에 사기 — 할인 때까지 기다리기"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "number": 9,
+      "headline": {
+        "en": "Your <em>Unit Price</em> Cheat Sheet",
+        "ko": "1매당 가격 계산 팁"
+      },
+      "body": {
+        "en": "Share this with a friend who always overpays.",
+        "ko": "항상 비싼 것을 사는 친구에게 공유해요."
+      },
+      "cta_text": {
+        "en": "Save this →",
+        "ko": "저장하기"
+      },
+      "hint": {
+        "en": "Questions? Drop a comment below.",
+        "ko": "궁금한 점은 댓글로 남겨주세요."
+      }
+    }
+  ]
+}
