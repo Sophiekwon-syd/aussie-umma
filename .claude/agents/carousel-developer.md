@@ -40,12 +40,15 @@ Paste `.ko-sub` CSS directly from tokens.css — it defines the bilingual sizes 
 
 ## Design system — non-negotiables
 
-1. **Card size**: exactly 1080 × 1350 px per card. Ten cards stacked vertically in the body, no JavaScript.
+1. **Card size**: exactly 1080 × 1350 px per card. All cards (7–11, per the copy JSON) stacked vertically in the body, no JavaScript.
 2. **Brand mark**: the only place the brand appears is the top-right `.handle` element. There is **NO** `.cf` footer, no `.cf-l`, no `.cf-r`, no page-count text like `01 / 10`.
 3. **Handle position**: `.handle` is a direct child of `.card` (not inside `.ci`). CSS positions it absolutely at top: 165px so it stays visible after the 1:1 Instagram profile-grid crop (visible zone y=135 to y=1215).
 4. **No in-card progress dots, no page-number watermark**: Instagram already renders its own carousel-position dots beneath each post. Do NOT add a `.top > .dots` block or a `.wm` page-number element to any card. Both duplicate IG's native UI and create visual clutter.
 5. **Content centering**: every non-c1/c2/c10 card wraps its main content (label + headline + body) in a single `<div class="center-block">` so the whole block centers at card center y=675 — exactly the 1:1 crop center.
 6. **Decorative watermarks**: `.cover-56`, `.hook-mark`, `.glow` exist for visual texture only. Never use them as labels — their opacity is ≤ 0.06 and font sizes are huge (≥ 200px).
+7. **Cost gaps use bars, never chips.** Any price/quantity comparison renders as `bar_compare` or `split`. Do NOT use `.chips` to express a cost gap.
+8. **Statement cards are dark.** A `statement` card uses `<div class="card dark">` and its `.stmt` content centers directly in `.ci` (no `.center-block`). Use the dark card only for `statement` (max 2 per carousel).
+9. **`ratio` drives bar width.** For `bar_compare`, set each `.bar-fill` inline `style="width:<ratio>%"` from the copy JSON `bars[i].ratio`. This is the one allowed inline width; do not invent other inline sizing.
 
 ## Card type → layout mapping
 
@@ -57,6 +60,11 @@ Each card in the copy JSON has a `type` field. Build it using the corresponding 
 | `hook` | `.c2` | (none — `.c2 .ci` centers) | `.hook-mark` (`?`), `.hook-q` with `<strong>`, `.hook-ans` |
 | `definition` | (default) | `.center-block` | `.tl`, `.td.md` with `.def-hl` on term, `.tb` explanation, `.def-box` |
 | `data` / `insight` | (default) | `.center-block` | `.tl`, `.td.md` with `<em>` → `.ta`, `.chips` row of `.chip`, `.tb` explanation |
+| `bar_compare` | (default) | `.center-block` | `.tl`, `.td.md` headline, `.bar-cmp` with `.bar-row` items (each `.bar-label` [label + `.bar-val`] + `.bar-track` > `.bar-fill.cost`/`.bar-fill.save` with inline `width:<ratio>%`), `.tb` caption |
+| `split` | (default) | `.center-block` | `.split` with two `.split-col.cost`/`.split-col.save` (each `.split-v` value + `.split-l` label) around a `.split-div`, then `.split-cap` |
+| `big_number` | (default) | `.center-block` | `.tl`, `.big-num` > `.stat-val` value + `.stat-label` + `.stat-desc` |
+| `statement` | `.card.dark` | (none — content centers in `.ci`) | `.stmt` line with `<strong>` for the punch; no `.center-block` |
+| `sheet` | (default) | `.center-block` | `.sheet` > `.sheet-tag`, `.sheet-title`, one `.sheet-row` per row, `.sheet-foot` |
 | `routine` | (default) | `.center-block` | `.tl`, `.td.md` headline, `.rb` rows with `.rb-t` time label + `.rb-x` text |
 | `categories` / `approaches` | (default) | `.center-block` | `.tl`, `.td.md` headline, `.ap` panels with `.ap-t` + `.ap-d` |
 | `checklist` | (default) | `.center-block` | `.tl`, `.td.md` headline, `.tb` intro, `.ai` items, `.takeaway` callout at end of block |
@@ -126,7 +134,7 @@ Cover (`.c1`), Hook (`.c2`), and CTA (`.c10`) cards skip `.center-block` because
 Write the complete, self-contained HTML file to `OUTPUT_PATH` (which will be `outputs/<BRAND>/<DATE>/run-N/<slug>.html`). Include:
 - All CSS inline in a `<style>` block in `<head>` — the full tokens.css contents with only `--accent` and `--blue` overridden
 - Google Fonts `<link>` in `<head>`
-- All 10 cards in document flow, no JavaScript
+- Every card from the copy JSON in document flow, no JavaScript
 - When bilingual, every text element has an English line + a `.ko-sub` sibling
 
 After writing, confirm the output path and total card count.
@@ -145,3 +153,7 @@ After building the HTML in your head, verify each point. If any fails, fix it be
 8. Is there zero `<script>` in the entire file?
 9. Do all class names appear in `tokens.css` or `template.html` — no invented names?
 10. If `config.card.bilingual` is true: does every text element have an English line AND a `.ko-sub` sibling with size class (`.head`/`.body`/`.label`)? If false: are there zero `.ko-sub` elements?
+11. Does any cost/price gap render as `bar_compare` or `split` (never `.chips`)?
+12. Is there exactly one `sheet` card, and is it the second-to-last card?
+13. Do `statement` cards use `<div class="card dark">` with a `.stmt` line (no `.center-block`)?
+14. Does each `.bar-fill` have an inline `width:<ratio>%` matching the copy JSON?
