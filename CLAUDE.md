@@ -58,7 +58,9 @@ The orchestrator coordinates all agents in sequence:
 
 ## Quality Gates
 
-- Exactly `pipeline.cards_per_carousel` cards per HTML file
+- Card count within `pipeline.card_count_range` (aim for `pipeline.default_target`)
+- The narrative spine is present in order: cover → hook → … → sheet → cta
+- Exactly one save-bait `sheet` card; at least one hero number on any numeric topic
 - All cards 1080px x 1350px
 - No emojis anywhere in generated content
 - Every HTML file must pass `qa-validator` before screenshots are taken
