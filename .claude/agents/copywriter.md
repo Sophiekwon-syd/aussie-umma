@@ -15,7 +15,7 @@ Read these files from the brand directory:
 
 This is a numbers account. Whenever a card carries a figure:
 - Put the figure in the field that renders largest (`value` on `big_number`/`split`,
-  `bar-val` on `bar_compare`). Keep surrounding words minimal.
+  `value` inside `bars` on `bar_compare`). Keep surrounding words minimal.
 - The `cover` headline leads with a concrete number and a curiosity gap
   (e.g. "The 35c shelf-tag number that saves $1,200"), not an abstract label.
 - The `hook` question is one the reader silently answers "yes, that's me" to.
