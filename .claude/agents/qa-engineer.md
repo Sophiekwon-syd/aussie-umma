@@ -40,7 +40,7 @@ Read the HTML file and check every gate. A file must pass ALL gates.
 - [ ] **`.handle` styling** — its CSS must have `position: absolute; top: 165px; right: 90px` (so it's visible after 1:1 crop). It must include a leading dot via `::before` with `background: var(--accent)` (the live indicator).
 - [ ] **Default cards use `.center-block`** — every card that is not `.c1`, `.c2`, or `.c10` must contain a `<div class="center-block">` inside its `.ci`. The TL, TD, and body content must live inside that wrapper.
 - [ ] **No invented classes** — the following class names must NOT appear: `.card-content`, `.card-heading`, `.card-body`, `.card-cta`, `.card-footer`, `.carousel-container`, `.progress-dots`, `.progress`, `.dot`, `.body-content`, `.body-text`, `.body-headline`, `.definition-card`, `.cta-button`, `.slider`. These are signs the agent ignored the design system.
-- [ ] **New components are allowed** — `.bar-cmp`, `.bar-row`, `.bar-label`, `.bar-track`, `.bar-fill`, `.bar-val`, `.split`, `.split-col`, `.split-v`, `.split-l`, `.split-div`, `.split-cap`, `.big-num`, `.card.dark`, `.stmt`, `.sheet`, `.sheet-tag`, `.sheet-title`, `.sheet-row`, `.sheet-foot` are valid (defined in tokens.css). Do not flag these as invented.
+- [ ] **New components are allowed** — `.bar-cmp`, `.bar-row`, `.bar-label`, `.bar-track`, `.bar-fill`, `.bar-val`, `.split`, `.split-col`, `.split-v`, `.split-l`, `.split-div`, `.split-cap`, `.big-num`, `.card.dark`, `.stmt`, `.sheet`, `.sheet-tag`, `.sheet-title`, `.sheet-row`, `.sheet-foot`, `.stat-val`, `.stat-label`, `.stat-desc` are valid (defined in tokens.css). Do not flag these as invented.
 - [ ] **`.cover-56` is a background watermark** — its CSS must have `font-size` ≥ 400px and `opacity` ≤ 0.06. If it is styled as a small visible label (font-size < 100px), fail.
 
 ### Structure
@@ -52,7 +52,7 @@ Read the HTML file and check every gate. A file must pass ALL gates.
 
 - [ ] First card is `cover` (`.c1`), second is `hook` (`.c2`), second-to-last is the `sheet` card (`.sheet` present), last is `cta` (`.c10`).
 - [ ] Exactly one `.sheet` card in the whole file.
-- [ ] On a numeric topic, at least one of `.bar-cmp` / `.split` / `.big-num` (or `.stat-val`) is present.
+- [ ] At least one hero-number component is present: one of `.bar-cmp` / `.split` / `.big-num` / `.stat-val`. (Every nappyprice deck is numbers-driven, so this is unconditional.)
 - [ ] At least one `statement` card: a `<div class="card dark">` with a `.stmt` line. No more than two dark cards.
 - [ ] No cost/price gap rendered with `.chips` — cost gaps must use `.bar-cmp` or `.split`.
 - [ ] No three consecutive cards with identical layout signature (same primary component).
