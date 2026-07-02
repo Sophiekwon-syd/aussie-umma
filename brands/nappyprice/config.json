@@ -35,5 +35,10 @@
 
   "card": { "bilingual": true, "primary": "English", "subtitle": "Korean" },
 
-  "pipeline": { "carousels_per_run": 1, "cards_per_carousel": 10 }
+  "pipeline": {
+    "carousels_per_run": 1,
+    "card_count_range": [7, 11],
+    "default_target": 9,
+    "card_spine": ["cover", "hook", "...", "sheet", "cta"]
+  }
 }
