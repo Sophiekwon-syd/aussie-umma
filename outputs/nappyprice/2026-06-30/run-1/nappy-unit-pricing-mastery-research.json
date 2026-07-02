@@ -1,0 +1,47 @@
+{
+  "topic": "Nappy Unit Pricing Mastery",
+  "angle": "How to look past the box price and calculate cost-per-change to save hundreds of dollars a year.",
+  "summary": "Calculating unit pricing is the ultimate way to reduce baby care expenses. By comparing the cost per individual nappy rather than the overall box price, Australian parents can make smarter purchasing decisions and save significant money over the 2-3 years a child is in nappies.",
+  "definition": "Unit pricing is the practice of breaking down the total cost of a package to show the price of a single item inside (e.g., cost per nappy or cost per 100 wipes).",
+  "key_facts": [
+    {
+      "fact": "A baby typically uses between 6,000 and 8,000 nappies from birth to potty training.",
+      "source": "Australian parenting budget guides 2026"
+    },
+    {
+      "fact": "Store-brand nappies cost $0.15 to $0.30 per unit, whereas premium brands cost $0.45 to $0.75+ per unit.",
+      "source": "Australian supermarket price audit 2026"
+    },
+    {
+      "fact": "Buying bulk boxes during major specials (like 30% to 50% off) reduces the unit price of premium nappies to near store-brand levels.",
+      "source": "Coles, Woolworths, and Chemist Warehouse price tracking"
+    }
+  ],
+  "common_misconception": "Assuming that a larger box of nappies is always cheaper. In reality, smaller or mid-sized packs on catalog special often have a lower unit price than the standard bulk box.",
+  "practical_steps": [
+    "Always check the bottom-left corner of the price tag on supermarket shelves for the cost-per-unit.",
+    "Calculate the unit price yourself when shopping online if it isn't listed (Total Price ÷ Count).",
+    "Use a hybrid strategy: budget-friendly store brand nappies for daytime, premium nappies for overnight."
+  ],
+  "contrasting_approaches": [
+    {
+      "label": "Store Brand Loyalty",
+      "description": "Exclusively using supermarket brands like Aldi Mamia or Coles CUB to maintain a constant low unit price of $0.15–$0.25."
+    },
+    {
+      "label": "Premium Sale Chasing",
+      "description": "Buying premium brands like Huggies ONLY when discounted by 30-50% at Chemist Warehouse, Coles, or Woolworths."
+    }
+  ],
+  "hook": "A single baby uses over 6,000 nappies, meaning a small difference of just 20 cents per nappy adds up to a massive $1,200 extra out of your pocket.",
+  "do_examples": [
+    "Compare the unit price printed in tiny text on the store shelf tag.",
+    "Stock up on bulk boxes only when they drop to their lowest historical unit price.",
+    "Use cheaper nappies during the day when changes are most frequent."
+  ],
+  "dont_examples": [
+    "Assume the larger box automatically offers the best value.",
+    "Buy convenience packs at service stations or local convenience stores.",
+    "Pay full price for premium name-brands without checking competing stores."
+  ]
+}
