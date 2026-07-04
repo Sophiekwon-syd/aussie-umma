@@ -1,0 +1,98 @@
+{
+  "topic": "Cloth Nappies: The 7-Month Break-Even",
+  "angle": "How reusable nappies pay for themselves within 7 months of full-time use",
+  "count_rationale": "10 cards chosen to support the numeric break-even narrative. The topic warrants multiple cost-comparison cards (big_number + split) plus exploration of the three practical approaches (categories). This density is justified by the research depth and the target audience's need for concrete financial reassurance.",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "headline": "8,000 nappies. One decision. Break-even in 7 months.",
+      "subheading_hint": "다이퍼 8,000장. 하나의 결정. 7개월 안에 손익분기점.",
+      "key_message": "Lead with the concrete number (8,000 nappies) and the payoff promise (break-even) to create curiosity and quantified expectation.",
+      "content_note": "From research: 'Each child uses approximately 6–8 nappies per day, totalling 8,000 nappies from birth to toilet training' + 'Break-even timeline is approximately 7 months of full-time cloth nappy use'. This is the hook statement from the research.",
+      "layout_hint": "Large single number (8,000) above headline. Dark/rich background for contrast."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "headline": "You're spending $2,500+ on nappies by toilet training. Want to cut that in half?",
+      "subheading_hint": "화장실 훈련까지 다이퍼에 $2,500 이상을 쓰고 있어요. 그걸 절반으로 줄이고 싶나요?",
+      "key_message": "Yes-question that immediately signals the financial pain point and the relief cloth nappies offer. Speaks to the audience's budget consciousness.",
+      "content_note": "From research: 'Disposable nappies cost $2,500–$4,000 per child over 2.5–3 years until toilet training' vs 'Cloth nappies cost $720–$910 for a full stash plus washing costs ($150–$200 per year), totalling under $1,000'.",
+      "layout_hint": "Conversational tone. Use a question mark. Light background for readability."
+    },
+    {
+      "card": 3,
+      "type": "big_number",
+      "headline": "Disposable: $2,500–$4,000. Cloth: Under $1,000 total.",
+      "subheading_hint": "일회용: $2,500–$4,000. 천연: 총 $1,000 미만.",
+      "key_message": "Stark cost comparison drives home the financial advantage of cloth. The gap is immediate and undeniable.",
+      "content_note": "From research: 'Disposable nappies cost $2,500–$4,000 per child over 2.5–3 years' + 'Cloth nappies cost $720–$910 for a full stash (24 nappies) plus washing costs ($150–$200 per year), totalling under $1,000 for the entire nappy-wearing period.' This includes both upfront stash + all washing costs over the full period.",
+      "layout_hint": "Two columns or side-by-side: left side ($2,500–$4,000 in red or darker shade), right side ($1,000 in green or lighter shade) to emphasize the savings."
+    },
+    {
+      "card": 4,
+      "type": "statement",
+      "headline": "Modern cloth nappies aren't your parents' cloth nappies.",
+      "subheading_hint": "현대식 천 다이퍼는 부모 세대의 것과 다릅니다.",
+      "key_message": "Bold, empowering truth that directly addresses the common misconception in the research. Shifts the narrative from 'hassle' to 'innovation'.",
+      "content_note": "From research common_misconception: 'Cloth nappies smell bad and are labour-intensive to maintain.' Counter: modern MCNs have built-in waterproofing, adjustable snaps, and designs that fit as easily as disposables. This card breaks rhythm and adds emotional reassurance.",
+      "layout_hint": "Dark card background. Single bold headline. No body copy. Add subtle visual of a modern snap/waterproof element if possible."
+    },
+    {
+      "card": 5,
+      "type": "split",
+      "headline": "Cost per nappy: $0.50 (disposable) vs $0.09 (cloth).",
+      "subheading_hint": "다이퍼당 비용: $0.50(일회용) 대 $0.09(천).",
+      "key_message": "Per-unit cost comparison reinforces the numeric advantage. Shows that cloth is cheaper on every single change, not just over time.",
+      "content_note": "From research: 'Disposable nappies cost $0.25–$0.88 per nappy (average $0.50); cloth nappies, when amortised across 8,000 nappies, cost around $0.09 per nappy after the first year.' This is the amortized cost after break-even.",
+      "layout_hint": "Two boxes or circles with large numbers. Emphasize the 5x difference visually. Use calculation notation ($0.50 ÷ $0.09 = 5.5x)."
+    },
+    {
+      "card": 6,
+      "type": "definition",
+      "headline": "Break-even = the month when cloth saves equal your upfront cost.",
+      "subheading_hint": "손익분기점 = 천 다이퍼 절약액이 초기 비용과 같아지는 달.",
+      "key_message": "Define 'break-even' in plain language so readers understand the milestone and its importance. Sets up the 7-month payoff.",
+      "content_note": "From research definition: 'Break-even is the point at which your upfront cloth nappy investment ($400–$1,000) equals the amount you would have spent on disposables in the same timeframe. For Australian families, this occurs around 7 months of daily use. After break-even, cloth nappies continue saving money for every subsequent month until toilet training.'",
+      "layout_hint": "Simple diagram or timeline showing month 0 (upfront cost) → month 7 (break-even) → month 30+ (continuous savings). Use a visual timeline."
+    },
+    {
+      "card": 7,
+      "type": "categories",
+      "headline": "Three ways to go cloth (pick what fits your life).",
+      "subheading_hint": "천 다이퍼를 사용하는 세 가지 방법 (당신의 생활에 맞는 것을 선택하세요).",
+      "key_message": "Acknowledge that cloth isn't one-size-fits-all. Present realistic options so families feel ownership over their choice.",
+      "content_note": "From research contrasting_approaches: (1) 'Full-time cloth (24-nappy stash)' — max savings ($2,000+) by month 7; (2) 'Hybrid or part-time (8–12 nappies)' — moderate savings (~$1,000 over 2.5 years) with less commitment; (3) 'Overnight disposable boost' — cloth full-time day, disposables overnight.",
+      "layout_hint": "Three boxes or cards stacked vertically or in a row. Label each with approach name, upfront cost range, and annual savings. Use checkmarks or badges for pros."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "Do: Start with a trial stash of 8–12. Don't: Buy 24 nappies and panic.",
+      "subheading_hint": "할 것: 8–12개의 시험 묶음으로 시작하세요. 하지 말 것: 24개를 사서 불안해하지 마세요.",
+      "key_message": "Reduce buyer's remorse and decision paralysis by giving permission to start small. Also address detergent/washing myths that create resistance.",
+      "content_note": "From research do_examples: 'Start with a trial stash of 10 nappies at home on weekends to prove to yourself that modern cloth nappies are as easy as disposables.' Also from dont_examples: 'Don't use too much detergent, which causes ammonia smells' + 'Don't commit to 24 nappies immediately if you're unsure. Start with 8–12 for part-time use.'",
+      "layout_hint": "Two-column layout. Left side (green/positive): 'Do' advice. Right side (amber/cautionary): 'Don't' advice. Use icons or checkmarks vs X marks."
+    },
+    {
+      "card": 9,
+      "type": "sheet",
+      "headline": "Cloth Nappy Break-Even Cheat Sheet",
+      "subheading_hint": "천 다이퍼 손익분기점 요점 정리",
+      "key_message": "Screenshot-friendly reference card with all key numbers and timelines for quick recall and sharing.",
+      "content_note": "Synthesize: upfront costs ($400–$1,000), break-even timeline (7 months), annual savings after break-even ($400–$600), cost per nappy ($0.50 disposable vs $0.09 cloth), council rebates (up to $200), nappy count per day (6–8), total nappies needed (8,000), reuse savings (2nd child $400 + washing only).",
+      "layout_hint": "Table format with rows: 'Upfront cost', 'Break-even month', 'Nappies per day', 'Annual savings (after month 7)', 'Cost per nappy', 'Council rebate available', 'Reuse savings (child 2)'. Include footnote: 'Australian prices and availability vary by state/council.'",
+      "content_structure": "Use small/compact font to fit all data. Rows should be scannable. Include a QR code or link to council rebate checker if space allows."
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "Ready to save $2,000? Save this carousel + share with a parent who's drowning in nappy costs.",
+      "subheading_hint": "$2,000를 절약할 준비가 되셨나요? 이 카로셀을 저장하고 다이퍼 비용에 허덕이는 부모님과 공유하세요.",
+      "key_message": "Action prompt that speaks to nappyprice's audience: savers who want to share wins with others. Use specific emotion ('drowning') and specific action ('save + share').",
+      "content_note": "Standard CTA with brand voice: concrete action (save), peer-to-peer sharing (share with another parent), and emotional resonance (drowning in costs).",
+      "layout_hint": "Centered text with clear button/action zones for 'Save' and 'Share'. Include comment prompt: 'Tell us in the comments: Are you cloth or disposable? What's your break-even looking like?'"
+    }
+  ]
+}
