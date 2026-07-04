@@ -34,6 +34,7 @@ When the brand's config has `card.bilingual = true`:
 - For **every** text element, emit the English line, then a sibling `.ko-sub` Korean subtitle with the appropriate size class
 - Size classes: `.ko-sub.label` under section labels (`.tl`), `.ko-sub.head` under headlines (`.td`), `.ko-sub.body` under body text/items
 - Example: `<div class="td md">English…</div><div class="ko-sub head">한국어…</div>`
+- **The `.ko-sub` is always a SIBLING placed AFTER its English element — never a child nested inside it.** This matters most for `.badge`: `.badge` is `display: inline-flex; align-items: center`, so a `.ko-sub` nested inside the badge gets crammed into the coral/teal pill and overlaps the badge text. Correct: `<div class="badge badge-a">NAPPY COSTS</div><span class="ko-sub label">기저귀 비용</span>` — the Korean label sits muted BELOW the pill. Wrong: `<div class="badge badge-a">NAPPY COSTS<span class="ko-sub label">기저귀 비용</span></div>`.
 - When bilingual is false, render English only (fields are strings), no `.ko-sub`
 
 Paste `.ko-sub` CSS directly from tokens.css — it defines the bilingual sizes and styling.
@@ -118,6 +119,7 @@ Cover (`.c1`), Hook (`.c2`), and CTA (`.c10`) cards skip `.center-block` because
 | `<div class="cf">` or `<span class="cf-l">` or `<span class="cf-r">` | Footer is removed from the design system |
 | `<hr class="top-rule" />` | Hidden in the new design; do not include |
 | `.handle` inside `.top` | `.handle` must be a direct child of `.card`, not nested in `.ci > .top` |
+| `<div class="badge …">EN<span class="ko-sub …">한국어</span></div>` | `.badge` is inline-flex — a nested `.ko-sub` is crammed into the pill and overlaps the badge text. The `.ko-sub` must be a SIBLING after the `.badge`, muted below it. |
 | `flex: 1; display: flex; flex-direction: column; justify-content: center` on a wrapper inside `.ci` | Use the `.center-block` class instead; do not inline-style this |
 | `<script>` tag anywhere | Cards are static. Zero JavaScript. |
 | `.card { position: absolute }` or `.card { opacity: 0 }` | Every card must be visible in document flow |
