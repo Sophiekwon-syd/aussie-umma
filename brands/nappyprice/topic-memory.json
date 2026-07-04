@@ -1,6 +1,12 @@
 {
   "used": [
     {
+      "topic": "Cloth Nappies: The 7-Month Break-Even",
+      "date": "2026-07-05",
+      "carousel_file": "outputs/nappyprice/2026-07-05/run-1/cloth-nappies.html",
+      "cards": 10
+    },
+    {
       "topic": "Nappy Unit Pricing Mastery",
       "date": "2026-06-30",
       "carousel_file": "outputs/nappyprice/2026-06-30/run-1/nappy-unit-pricing-mastery.html",
