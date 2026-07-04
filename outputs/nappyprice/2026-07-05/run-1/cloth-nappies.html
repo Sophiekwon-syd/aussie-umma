@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloth Nappies: The 7-Month Break-Even — Nappyprice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --bg: #FFF7F0;
+  --card-bg: #FFFCF9;
+  --elevated: #FBF1EA;
+  --ink: #2B2622;
+  --ink2: #6B625B;
+  --ink3: #A89E95;
+  --ink4: #E7DCD2;
+  --accent: #FF6F5E;
+  --accent-dim: rgba(255, 111, 94, 0.14);
+  --blue: #1FB6A6;
+  --red: #E5484D;
+  --border: rgba(43, 35, 32, 0.08);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--bg);
+  font-family: var(--font-en);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: none;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+.ti {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-left: 3px solid var(--border);
+  margin-left: 5px;
+  padding-left: 36px;
+  position: relative;
+}
+.ti::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 42px;
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--accent-dim);
+}
+.ti:last-child { border-left-color: transparent; }
+.ti-year {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ti-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.ti-desc {
+  font-size: 23px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+.cmp-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+}
+.cmp-row:last-child { border-bottom: none; }
+.cmp-h {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink3);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+.cmp-v {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.cmp-v.accent { color: var(--accent); }
+.quote {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+  text-align: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.quote strong { color: var(--accent); font-weight: 900; }
+.quote-author {
+  margin-top: 48px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+  text-align: center;
+}
+.stat-val {
+  font-family: var(--font-display);
+  font-size: 260px;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -10px;
+}
+.stat-label {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--ink);
+  text-align: center;
+  margin-top: 24px;
+}
+.stat-desc {
+  font-size: 26px;
+  color: var(--ink2);
+  text-align: center;
+  margin-top: 20px;
+  max-width: 85%;
+}
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+.ko-sub {
+  font-family: var(--font-kr);
+  color: var(--ink3);
+  font-weight: 400;
+  word-break: keep-all;
+}
+.ko-sub.label { font-size: 17px; letter-spacing: 1px; margin-top: 2px; margin-bottom: 44px; }
+.ko-sub.head { font-size: 30px; line-height: 1.45; margin-top: 18px; }
+.ko-sub.body { font-size: 21px; line-height: 1.45; margin-top: 8px; }
+.bar-cmp { margin-top: 48px; display: flex; flex-direction: column; gap: 40px; }
+.bar-row { display: flex; flex-direction: column; gap: 14px; }
+.bar-label {
+  display: flex; align-items: baseline; justify-content: space-between;
+  font-size: 30px; font-weight: 700; color: var(--ink);
+}
+.bar-val { font-family: var(--font-en); font-weight: 900; letter-spacing: -1px; }
+.bar-track {
+  height: 46px; border-radius: 12px; background: var(--elevated);
+  border: 1px solid var(--border); overflow: hidden;
+}
+.bar-fill { height: 100%; border-radius: 12px 0 0 12px; }
+.bar-fill.cost { background: var(--accent); }
+.bar-fill.save { background: var(--blue); }
+.split { margin-top: 40px; display: flex; align-items: stretch; gap: 0; position: relative; }
+.split-col { flex: 1; padding: 48px 40px; text-align: center; }
+.split-v {
+  font-family: var(--font-display); font-size: 132px; font-weight: 900;
+  line-height: 1; letter-spacing: -6px;
+}
+.split-col.cost .split-v { color: var(--accent); }
+.split-col.save .split-v { color: var(--blue); }
+.split-l { font-size: 26px; font-weight: 700; color: var(--ink2); margin-top: 20px; }
+.split-div { width: 1px; background: var(--border); align-self: stretch; }
+.split-cap { text-align: center; font-size: 26px; color: var(--ink2); margin-top: 40px; line-height: 1.55; }
+.big-num { text-align: center; margin: 32px 0; }
+.big-num .stat-val { margin: 0 auto; }
+.card.dark { background: var(--ink); }
+.card.dark .handle { color: var(--card-bg); }
+.card.dark .stmt {
+  font-size: 60px; font-weight: 800; line-height: 1.3; text-align: center;
+  color: var(--card-bg); max-width: 92%; margin: 0 auto; word-break: keep-all;
+}
+.card.dark .stmt strong { color: var(--accent); font-weight: 900; }
+.card.dark .ko-sub { color: rgba(255,252,249,0.55); }
+.sheet {
+  margin-top: 40px; border-radius: 28px; background: var(--card-bg);
+  border: 2px solid var(--ink); padding: 44px 48px; position: relative;
+}
+.sheet-tag {
+  position: absolute; top: -18px; left: 44px; background: var(--accent); color: #000;
+  font-family: var(--font-en); font-size: 15px; font-weight: 800; letter-spacing: 3px;
+  text-transform: uppercase; padding: 8px 20px; border-radius: 100px;
+}
+.sheet-title { font-size: 34px; font-weight: 900; color: var(--ink); margin-bottom: 24px; }
+.sheet-row {
+  display: flex; align-items: flex-start; gap: 18px; padding: 20px 0;
+  border-bottom: 1px solid var(--border); font-size: 27px; font-weight: 600;
+  color: var(--ink); line-height: 1.5;
+}
+.sheet-row:last-child { border-bottom: none; }
+.sheet-row::before {
+  content: "✓"; color: var(--blue); font-weight: 900; font-size: 1.1em; line-height: 1.4;
+}
+.sheet-foot { margin-top: 24px; font-size: 22px; color: var(--ink3); text-align: center; }
+  </style>
+</head>
+<body>
+
+<!-- CARD 1: COVER -->
+<div class="card c1">
+  <div class="cover-56">7</div>
+  <div class="handle">@nappyprice</div>
+  <div class="ci">
+    <div class="badge badge-a">NAPPY COSTS</div>
+    <span class="ko-sub label">기저귀 비용</span>
+    <h1 class="td xl">8,000 nappies. One decision. <em>Break-even in 7 months.</em></h1>
+    <span class="ko-sub head">8,000장의 기저귀. 한 가지 선택. <em>7개월 만에 본전 찬다.</em></span>
+    <p class="cover-sub tb">How to cut your nappy spend in half.</p>
+    <span class="ko-sub body">기저귀 비용을 반으로 줄이는 방법.</span>
+  </div>
+</div>
+
+<!-- CARD 2: HOOK -->
+<div class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="ci">
+    <p class="hook-q">You're spending <strong>$2,500+ on nappies</strong> by toilet training. <strong>Want to cut that in half?</strong></p>
+    <span class="ko-sub body" style="max-width: 92%; margin: 0 auto; text-align: center; margin-top: 24px;">배변훈련까지 기저귀에 2,500달러 이상을 쓰고 있어요. <strong>그 돈을 반으로 줄일 수 있다면?</strong></span>
+    <p class="hook-ans">Cloth nappies pay for themselves in 7 months. Then you're banking $400–$600 a year.</p>
+    <span class="ko-sub body" style="color: var(--accent); font-weight: 700; margin-top: 20px;">천 기저귀는 7개월 안에 본전이 돌아와요. 그 이후로는 매년 400~600달러씩 절약된답니다.</span>
+  </div>
+</div>
+
+<!-- CARD 3: BIG NUMBER -->
+<div class="card">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <p class="tl">THE COST DIFFERENCE</p>
+    <span class="ko-sub label" style="margin-bottom: 48px;">비용 차이</span>
+    <div class="big-num">
+      <div class="stat-val">$2,500–$4,000</div>
+      <div class="stat-label">Disposable nappies (birth to toilet training)</div>
+      <span class="ko-sub label" style="margin-top: 12px;">일회용 기저귀 (출생부터 배변훈련까지)</span>
+    </div>
+    <p class="stat-desc">Cloth nappies cost under $1,000 total, including washing.</p>
+    <span class="ko-sub body" style="text-align: center;">천 기저귀는 세탁비를 포함해도 $1,000 미만이에요.</span>
+  </div>
+</div>
+
+<!-- CARD 4: STATEMENT -->
+<div class="card dark">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <p class="stmt">Modern cloth nappies aren't your parents' cloth nappies. <strong>They're easier to use, wash, and way less stinky when done right.</strong></p>
+    <span class="ko-sub body" style="max-width: 92%; margin: 40px auto 0; display: block;">현대식 천 기저귀는 부모님 세대의 천 기저귀가 아니에요. <strong>사용하기도 쉽고, 세탁도 간단하고, 제대로 하면 냄새도 거의 안 난답니다.</strong></span>
+  </div>
+</div>
+
+<!-- CARD 5: SPLIT -->
+<div class="card">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <div class="split">
+      <div class="split-col cost">
+        <div class="split-v">$0.50</div>
+        <div class="split-l">Per nappy</div>
+        <span class="ko-sub label" style="margin-top: 8px;">한 장당</span>
+      </div>
+      <div class="split-div"></div>
+      <div class="split-col save">
+        <div class="split-v">$0.09</div>
+        <div class="split-l">Per nappy</div>
+        <span class="ko-sub label" style="margin-top: 8px;">한 장당</span>
+      </div>
+    </div>
+    <p class="split-cap">Disposable vs cloth, amortised after year 1.</p>
+    <span class="ko-sub body" style="text-align: center; display: block;">일회용 vs 천 기저귀, 1년 후 평균 비용.</span>
+  </div>
+</div>
+
+<!-- CARD 6: DEFINITION -->
+<div class="card">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <p class="tl">WHAT IT MEANS</p>
+    <span class="ko-sub label" style="margin-bottom: 48px;">의미</span>
+    <h2 class="td md"><span class="def-hl">Break-Even</span></h2>
+    <span class="ko-sub head" style="margin-top: 18px;"><span class="def-hl">본전점 (Break-Even)</span></span>
+    <div class="def-box">
+      <p class="def-box-text">The month when cloth nappy savings equal your upfront cost. For Australian families, that's around <strong>7 months of daily use</strong>.</p>
+      <span class="ko-sub body" style="margin-top: 8px;">천 기저귀 절약액이 초기 구매 비용과 같아지는 시점이에요. 호주 가정의 경우, <strong>매일 사용했을 때 약 7개월</strong> 정도예요.</span>
+    </div>
+    <p class="takeaway">After break-even, every nappy is profit.</p>
+    <span class="ko-sub body" style="text-align: center; margin-top: 8px;">본전을 찬 이후로는 매 장마다 이득이에요.</span>
+  </div>
+</div>
+
+<!-- CARD 7: CATEGORIES -->
+<div class="card">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <p class="tl">THREE WAYS TO GO CLOTH</p>
+    <span class="ko-sub label" style="margin-bottom: 48px;">천 기저귀 사용 방법 3가지</span>
+    <h2 class="td md">Pick what fits your life.</h2>
+    <span class="ko-sub head">당신의 생활에 맞는 방법을 선택하세요.</span>
+
+    <div class="ap">
+      <h3 class="ap-t">Full-time cloth (24-nappy stash)</h3>
+      <span class="ko-sub body" style="display: block; margin-top: 6px;">풀타임 천 기저귀 (24장 세트)</span>
+      <p class="ap-d">Use cloth exclusively from birth. Upfront cost: $720–$1,000. Saves you $2,000+ over 2.5 years. Max savings.</p>
+      <span class="ko-sub body" style="margin-top: 8px;">출생부터 천 기저귀만 사용해요. 초기 비용: $720–$1,000. 2.5년간 $2,000 이상 절약. 최대 절감액.</span>
+    </div>
+
+    <div class="ap">
+      <h3 class="ap-t">Hybrid or part-time (8–12 nappies)</h3>
+      <span class="ko-sub body" style="display: block; margin-top: 6px;">혼합형 또는 부분 사용 (8~12장)</span>
+      <p class="ap-d">Use cloth at home, disposables on outings. Upfront cost: $240–$500. Saves you $1,000+ over 2.5 years. Less commitment.</p>
+      <span class="ko-sub body" style="margin-top: 8px;">집에서는 천 기저귀, 외출할 땐 일회용을 써요. 초기 비용: $240–$500. 2.5년간 $1,000 이상 절약. 부담 적음.</span>
+    </div>
+
+    <div class="ap">
+      <h3 class="ap-t">Overnight boost (cloth day, disposable night)</h3>
+      <span class="ko-sub body" style="display: block; margin-top: 6px;">야간 부스트 (낮에는 천, 밤에는 일회용)</span>
+      <p class="ap-d">Use cloth full-time during the day, switch to disposables overnight. Captures 70–80% of total savings.</p>
+      <span class="ko-sub body" style="margin-top: 8px;">낮에는 천 기저귀, 밤에는 일회용을 써요. 전체 절약액의 70~80%를 챙길 수 있어요.</span>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 8: DO/DONT -->
+<div class="card">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <p class="tl">GETTING STARTED</p>
+    <span class="ko-sub label" style="margin-bottom: 48px;">시작하기</span>
+    <h2 class="td md">Getting started (and what to skip).</h2>
+    <span class="ko-sub head">시작하기 (그리고 피해야 할 것들).</span>
+
+    <div class="cg">
+      <div class="cc do">
+        <p class="cc-l">DO</p>
+        <div class="ci-item">Start with a trial stash of 8–12 nappies on weekends.</div>
+        <span class="ko-sub body" style="padding: 12px 0; display: block;">주말에 8~12장 정도로 시작해서 시험해보세요.</span>
+        <div class="ci-item">Use your council's cloth nappy rebate (up to $200).</div>
+        <span class="ko-sub body" style="padding: 12px 0; display: block;">지역 의회의 천 기저귀 리베이트($200까지)를 활용하세요.</span>
+        <div class="ci-item">Track your nappy spending for one month before deciding.</div>
+        <span class="ko-sub body" style="padding: 12px 0; display: block;">결정하기 전에 한 달간 기저귀 비용을 기록해보세요.</span>
+      </div>
+
+      <div class="cc dn">
+        <p class="cc-l">DON'T</p>
+        <div class="ci-item">Don't assume cloth nappies smell bad.</div>
+        <span class="ko-sub body" style="padding: 12px 0; display: block;">천 기저귀가 냄새 난다고 생각하지 마세요.</span>
+        <div class="ci-item">Don't commit to 24 nappies immediately.</div>
+        <span class="ko-sub body" style="padding: 12px 0; display: block;">처음부터 24장을 사지 마세요.</span>
+        <div class="ci-item">Don't forget to check secondhand options and apply for all available rebates.</div>
+        <span class="ko-sub body" style="padding: 12px 0; display: block;">중고 기저귀와 모든 리베이트 프로그램을 확인하는 걸 잊지 마세요.</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 9: SHEET -->
+<div class="card">
+  <div class="handle">@nappyprice</div>
+  <div class="center-block">
+    <p class="tl">CHEAT SHEET</p>
+    <span class="ko-sub label" style="margin-bottom: 48px;">참고 자료</span>
+
+    <div class="sheet">
+      <div class="sheet-tag">Cheat Sheet</div>
+      <h2 class="sheet-title">Cloth Nappy Break-Even: The Numbers</h2>
+      <span class="ko-sub head" style="margin-top: 18px; display: block; margin-bottom: 24px;">천 기저귀 본전점: 숫자로 정리</span>
+
+      <div class="sheet-row">
+        8,000 nappies: birth to toilet training
+        <span class="ko-sub body" style="display: block; margin-top: 8px;">8,000장: 출생부터 배변훈련까지</span>
+      </div>
+      <div class="sheet-row">
+        $2,500–$4,000: cost of disposables (2.5–3 years)
+        <span class="ko-sub body" style="display: block; margin-top: 8px;">$2,500–$4,000: 일회용 기저귀 비용 (2.5~3년)</span>
+      </div>
+      <div class="sheet-row">
+        Under $1,000: cost of cloth nappies (including washing)
+        <span class="ko-sub body" style="display: block; margin-top: 8px;">$1,000 미만: 천 기저귀 비용 (세탁료 포함)</span>
+      </div>
+      <div class="sheet-row">
+        7 months: break-even timeline (full-time use)
+        <span class="ko-sub body" style="display: block; margin-top: 8px;">7개월: 본전 기간 (풀타임 사용)</span>
+      </div>
+      <div class="sheet-row">
+        $400–$600: annual savings per child after break-even
+        <span class="ko-sub body" style="display: block; margin-top: 8px;">연간 $400~$600: 아이당 본전 이후 절약액</span>
+      </div>
+
+      <p class="sheet-foot">Figures based on average Australian nappy costs and council rebate data.</p>
+      <span class="ko-sub label" style="text-align: center; margin-top: 8px;">호주 기저귀 평균 비용 및 지역 의회 리베이트 데이터 기준.</span>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 10: CTA -->
+<div class="card c10">
+  <div class="handle">@nappyprice</div>
+  <div class="ci">
+    <div class="badge badge-a">Save this →</div>
+    <span class="ko-sub label">저장하기</span>
+    <h1 class="td md">Ready to save $2,000? <em>Save this carousel</em> + share with a parent drowning in nappy costs.</h1>
+    <span class="ko-sub head" style="margin-top: 18px;">$2,000을 절약할 준비가 되셨나요? <em>이 캐러셀을 저장하고</em> 기저귀 비용 때문에 힘들어하는 부모님과 공유하세요.</span>
+    <p class="tb">The math checks out. And modern cloth nappies are way easier than you think.</p>
+    <span class="ko-sub body">계산은 맞아요. 그리고 현대식 천 기저귀는 생각보다 훨씬 쉬워요.</span>
+    <button class="cta-btn">Save this →</button>
+    <span class="ko-sub body">저장하기</span>
+    <p class="cta-hint">Have you tried cloth nappies? What was your break-even timeline?</p>
+    <span class="ko-sub body" style="margin-top: 8px;">천 기저귀를 써본 적 있으세요? 당신의 본전점은 몇 개월이었나요?</span>
+  </div>
+</div>
+
+</body>
+</html>
