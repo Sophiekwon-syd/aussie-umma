@@ -9,7 +9,7 @@ const POLL_INTERVAL_MS = 5_000;
 const POLL_MAX_TRIES = 36;
 
 const args = parseArgs(process.argv.slice(2));
-const brand = args.brand || 'nappyprice';
+const brand = args.brand || 'aussie-umma';
 const { token: IG_TOKEN, userId: IG_USER_ID } = resolveBrandSecrets(brand, process.env);
 const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/nappyprice';
 const REF = process.env.GITHUB_SHA || 'main';
