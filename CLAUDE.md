@@ -22,10 +22,10 @@ This repo hosts multiple brands. Each lives in `brands/<brand>/` with its own
 `config.json`, `tone-guide.md`, and `topic-memory.json`. Outputs go to
 `outputs/<brand>/YYYY-MM-DD/run-N/`.
 
-- Active brand: **nappyprice** (bilingual EN/KO). Default for `/daily-run`.
-- Dormant archive: **aussie-umma** (Korean only; not scheduled).
+- Active brand: **aussie-umma** (Korean only). Default for `/daily-run`.
+- Dormant archive: **nappyprice** (bilingual EN/KO; not scheduled).
 
-Run a specific brand with `/daily-run <brand>` (defaults to `nappyprice`).
+Run a specific brand with `/daily-run <brand>` (defaults to `aussie-umma`).
 
 ---
 
