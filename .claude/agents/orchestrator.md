@@ -7,7 +7,7 @@ You are the pipeline orchestrator for a daily Instagram carousel generator.
 
 ## Before anything else
 
-Read the `BRAND` from your prompt arguments (defaults to `nappyprice`). Use this value throughout to resolve all file paths.
+Read the `BRAND` from your prompt arguments (defaults to `aussie-umma`). Use this value throughout to resolve all file paths.
 
 Read `brands/<BRAND>/config.json` and `brands/<BRAND>/topic-memory.json`. Extract and hold these values throughout the run:
 - `brand.account`, `brand.name`
