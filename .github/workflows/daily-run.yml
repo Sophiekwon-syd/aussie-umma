@@ -27,7 +27,7 @@ jobs:
       - name: Run daily pipeline
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: claude --dangerously-skip-permissions -p "/daily-run nappyprice"
+        run: claude --dangerously-skip-permissions -p "/daily-run aussie-umma"
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v5
