@@ -1,6 +1,6 @@
 Run the full daily carousel pipeline.
 
-This command takes an optional `BRAND` argument (defaults to `nappyprice`). It launches the orchestrator agent, which will:
+This command takes an optional `BRAND` argument (defaults to `aussie-umma`). It launches the orchestrator agent, which will:
 
 1. Read `brands/<BRAND>/config.json` and `brands/<BRAND>/topic-memory.json`
 2. Research today's trending topics using the configured SEARCH_CONTEXTS
