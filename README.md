@@ -78,14 +78,14 @@ This repo hosts multiple brands. Each brand lives in `brands/<brand>/` with its 
 
 ### Available brands
 
-- **nappyprice** (active) — bilingual English/Korean brand; default for `/daily-run`
-- **aussie-umma** (dormant archive) — Korean-only; not scheduled
+- **aussie-umma** (active) — Korean-only brand; default for `/daily-run`
+- **nappyprice** (dormant archive) — bilingual English/Korean; not scheduled
 
 To run a specific brand:
 
 ```
-/daily-run nappyprice
 /daily-run aussie-umma
+/daily-run nappyprice
 ```
 
 ---
