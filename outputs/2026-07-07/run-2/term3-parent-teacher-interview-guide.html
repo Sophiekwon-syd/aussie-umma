@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10분 학부모 상담, 질문 없이 가시나요</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #050505;
+        --card-bg: #080808;
+        --elevated: #0e0e0e;
+        --ink: #ffffff;
+        --ink2: #cccccc;
+        --ink3: #888888;
+        --ink4: #333333;
+        --accent: #c6f135;
+        --accent-dim: rgba(198, 241, 53, 0.15);
+        --blue: #3b82f6;
+        --red: #ff4d4d;
+        --border: rgba(255, 255, 255, 0.07);
+        --font-kr: "Noto Sans KR", sans-serif;
+        --font-en: "Space Grotesk", sans-serif;
+        --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+      }
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #000000;
+        font-family: var(--font-kr);
+        color: var(--ink);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 60px 20px 100px;
+        -webkit-font-smoothing: antialiased;
+      }
+      .card {
+        width: 1080px;
+        height: 1350px;
+        background: var(--card-bg);
+        background-image: radial-gradient(circle at 50% 50%, #111 0%, var(--card-bg) 70%);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        z-index: 50;
+        opacity: 0.05;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        background-size: 180px 180px;
+      }
+      .ci {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 90px;
+        position: relative;
+        z-index: 2;
+      }
+      .dots {
+        display: flex;
+        gap: 10px;
+      }
+      .dots i {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--ink4);
+        display: block;
+      }
+      .dots i.on {
+        background: var(--accent);
+        width: 28px;
+        border-radius: 4px;
+      }
+      .td {
+        font-family: var(--font-display);
+        font-weight: 900;
+        line-height: 1.05;
+        letter-spacing: -2px;
+        word-break: keep-all;
+      }
+      .td.xl { font-size: 96px; }
+      .td.lg { font-size: 84px; }
+      .td.md { font-size: 76px; }
+      .tb {
+        font-size: 30px;
+        font-weight: 400;
+        color: var(--ink2);
+        line-height: 1.65;
+        word-break: keep-all;
+      }
+      .tb strong {
+        font-weight: 700;
+        color: var(--ink);
+      }
+      .tl {
+        font-family: var(--font-en);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: var(--ink3);
+        margin-bottom: 48px;
+      }
+      .ta { color: var(--accent); }
+      .tm { color: var(--ink3); }
+      .en { font-family: var(--font-en); }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 12px 28px;
+        border-radius: 100px;
+        font-size: 17px;
+        font-weight: 800;
+        width: fit-content;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .badge-a {
+        background: var(--accent);
+        color: #000;
+      }
+      .div-a {
+        width: 56px;
+        height: 5px;
+        background: var(--accent);
+        border-radius: 2px;
+        border: none;
+        margin: 32px 0;
+      }
+      .wm {
+        position: absolute;
+        font-family: var(--font-en);
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.05;
+        pointer-events: none;
+        z-index: 1;
+        line-height: 0.8;
+      }
+      .glow {
+        position: absolute;
+        border-radius: 50%;
+        background: var(--accent);
+        filter: blur(160px);
+        opacity: 0.08;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .top {
+        position: absolute;
+        top: 68px;
+        left: 90px;
+        right: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        z-index: 5;
+        margin: 0;
+      }
+      .handle {
+        position: absolute;
+        top: 165px;
+        right: 90px;
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--ink);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        z-index: 10;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .handle::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--accent);
+        box-shadow: 0 0 10px var(--accent);
+      }
+
+      .center-block {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      /* Cover */
+      .cover-56 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: var(--font-en);
+        font-size: 780px;
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.06;
+        line-height: 1;
+        pointer-events: none;
+        z-index: 1;
+        letter-spacing: -40px;
+      }
+      .cover-56::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+      }
+      .c1 .ci {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .c1 .cover-sub {
+        margin-bottom: 48px;
+        max-width: 85%;
+        font-size: 36px;
+        font-weight: 500;
+      }
+      .c1 .cover-cta {
+        font-size: 22px;
+        font-weight: 800;
+        color: var(--accent);
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      /* Hook */
+      .c2 .ci {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .c2 .hook-q {
+        font-size: 56px;
+        font-weight: 700;
+        color: var(--ink);
+        line-height: 1.35;
+        word-break: keep-all;
+        max-width: 92%;
+      }
+      .c2 .hook-q strong {
+        color: var(--accent);
+        font-weight: 900;
+      }
+      .c2 .hook-ans {
+        margin-top: 56px;
+        font-size: 26px;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .hook-mark {
+        font-family: var(--font-en);
+        font-size: 380px;
+        font-weight: 700;
+        color: var(--accent);
+        opacity: 0.05;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -55%);
+        line-height: 1;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      /* Definition */
+      .def-hl {
+        background: var(--accent);
+        color: #000;
+        padding: 2px 14px;
+        border-radius: 6px;
+        display: inline-block;
+        font-weight: 800;
+      }
+      .def-box {
+        margin-top: 56px;
+        padding: 40px 48px;
+        border-radius: 24px;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+      }
+      .def-box-text {
+        font-size: 28px;
+        color: var(--ink);
+        line-height: 1.6;
+      }
+      .def-box-text strong {
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      /* Data chips */
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin: 40px 0;
+      }
+      .chip {
+        padding: 14px 28px;
+        border-radius: 14px;
+        font-size: 20px;
+        font-weight: 600;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .chip .cd {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+
+      /* Routine */
+      .rb {
+        display: flex;
+        gap: 32px;
+        padding: 32px 0;
+        border-bottom: 1px solid var(--border);
+        align-items: center;
+      }
+      .rb:last-child { border-bottom: none; }
+      .rb-t {
+        font-family: var(--font-en);
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: var(--accent);
+        min-width: 90px;
+        text-transform: uppercase;
+      }
+      .rb-x {
+        font-size: 28px;
+        font-weight: 500;
+        color: var(--ink);
+        line-height: 1.45;
+      }
+      .rb-x strong { color: var(--accent); font-weight: 800; }
+
+      /* Approaches / Cards */
+      .ap {
+        padding: 40px 44px;
+        border-radius: 28px;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+      }
+      .ap::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 15%;
+        bottom: 15%;
+        width: 5px;
+        background: var(--ink4);
+        border-radius: 0 5px 5px 0;
+      }
+      .ap:nth-child(1)::before { background: var(--accent); }
+      .ap:nth-child(2)::before { background: var(--blue); }
+      .ap:nth-child(3)::before { background: var(--ink3); }
+      .ap-t {
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 14px;
+        color: var(--ink);
+      }
+      .ap-d {
+        font-size: 24px;
+        color: var(--ink2);
+        line-height: 1.55;
+      }
+
+      /* Actions / Checklist */
+      .ai {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding: 24px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 28px;
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .ai:last-child { border-bottom: none; }
+      .ai-d {
+        width: 11px;
+        height: 11px;
+        min-width: 11px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+      .takeaway {
+        margin-top: 32px;
+        padding: 28px 40px;
+        border-radius: 20px;
+        background: var(--accent-dim);
+        text-align: center;
+        font-size: 28px;
+        font-weight: 900;
+        color: var(--accent);
+        border: 1px solid var(--accent-dim);
+      }
+
+      /* Do/Don't Grid */
+      .cg {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        margin-top: 40px;
+      }
+      .cc {
+        border-radius: 24px;
+        padding: 36px;
+        display: flex;
+        flex-direction: column;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+      }
+      .cc.do { border-top: 5px solid var(--accent); }
+      .cc.dn { border-top: 5px solid var(--red); }
+      .cc.cmp { border-top: 5px solid var(--blue); }
+      .cc-l {
+        font-family: var(--font-en);
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+      }
+      .cc.do .cc-l { color: var(--accent); }
+      .cc.dn .cc-l { color: var(--red); }
+      .cc.cmp .cc-l { color: var(--blue); }
+      .ci-item {
+        font-size: 22px;
+        color: var(--ink2);
+        line-height: 1.6;
+        padding: 12px 0;
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+      }
+      .ci-item::before {
+        content: "•";
+        color: var(--accent);
+        font-weight: 900;
+        font-size: 1.3em;
+      }
+      .cc.dn .ci-item::before { color: var(--red); }
+      .cc.cmp .ci-item::before { color: var(--blue); }
+
+      /* Steps */
+      .si {
+        display: flex;
+        gap: 32px;
+        padding: 32px 0;
+        align-items: flex-start;
+      }
+      .si-n {
+        font-family: var(--font-en);
+        font-size: 64px;
+        font-weight: 800;
+        color: var(--accent);
+        opacity: 0.3;
+        line-height: 1;
+        min-width: 80px;
+      }
+      .si-c {
+        flex: 1;
+      }
+      .si-t {
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        color: var(--ink);
+      }
+      .si-d {
+        font-size: 24px;
+        color: var(--ink2);
+        line-height: 1.55;
+      }
+
+      /* CTA */
+      .c10 .ci {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        padding: 28px 72px;
+        border-radius: 100px;
+        background: var(--accent);
+        color: #000;
+        font-size: 28px;
+        font-weight: 900;
+        margin-top: 56px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .cta-hint {
+        margin-top: 40px;
+        font-size: 22px;
+        color: var(--ink3);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Card 01 — Cover -->
+    <div class="card c1">
+      <span class="handle">@aussie.umma</span>
+      <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+      <div class="cover-56">T3</div>
+      <div class="ci">
+        <div class="badge badge-a en" style="margin-bottom:40px">학부모 상담 가이드</div>
+        <div style="margin-bottom:16px">
+          <div class="td xl">10분 상담,<br />질문 없이 <span class="ta">가시나요</span></div>
+        </div>
+        <hr class="div-a" style="margin:0 auto 24px" />
+        <div class="cover-sub tb">Term 3 학부모 상담 앞두고, 질문 리스트부터 같이 준비해봐요</div>
+        <div class="cover-cta">슬라이드 넘기기 <span>→</span></div>
+      </div>
+    </div>
+
+    <!-- Card 02 — Hook -->
+    <div class="card c2">
+      <span class="handle">@aussie.umma</span>
+      <div class="hook-mark">?</div>
+      <div class="ci">
+        <div class="hook-q">듣기만 하다 <strong>깜깜이로</strong> 나온 적, 있으신가요?</div>
+        <div class="hook-ans">질문 몇 개만 미리 적어가도 상담의 밀도가 완전히 달라져요.</div>
+      </div>
+    </div>
+
+    <!-- Card 03 — Definition -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Definition</div>
+          <div class="td md" style="margin-bottom:10px"><span class="def-hl">Parent-Teacher Interview</span></div>
+          <hr class="div-a" style="margin:24px 0" />
+          <div class="tb" style="max-width:92%">학기 중 학교가 마련하는 공식 상담 시간으로, 담임교사가 아이의 <strong>학업·교우관계·정서 발달</strong>을 부모와 짧게 나누는 자리예요.</div>
+          <div class="def-box">
+            <div class="def-box-text">짧지만, 아이에 대한 <strong>가장 밀도 높은 정보</strong>를 얻을 수 있는 시간이에요.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 04 — Data -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Key Insight</div>
+          <div class="td md" style="margin-bottom:8px">상담 시간은<br />생각보다 <span class="ta">짧아요</span></div>
+          <div class="chips">
+            <div class="chip"><span class="cd"></span>10~15분 배정</div>
+            <div class="chip"><span class="cd"></span>전화통역 28일 전</div>
+            <div class="chip"><span class="cd"></span>대면통역 3개월 전</div>
+            <div class="chip"><span class="cd"></span>TIS 무료 제공</div>
+          </div>
+          <div class="tb" style="margin-top:8px">호주 초등학교 학부모 상담은 보통 10~15분 내외로 짧게 진행돼요. 영어가 편하지 않다면 TIS National 통역을 학교를 통해 무료로 신청할 수 있어요.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 05 — Routine -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Before / During / After</div>
+          <div class="td md" style="margin-bottom:32px">상담,<br />이 흐름으로 준비해요</div>
+          <div class="rb">
+            <span class="rb-t">전</span>
+            <span class="rb-x">온라인 예약 후 <strong>질문 리스트</strong>를 미리 적어두기</span>
+          </div>
+          <div class="rb">
+            <span class="rb-t">중</span>
+            <span class="rb-x">이해 안 되는 표현은 그 자리에서 바로 다시 물어보기</span>
+          </div>
+          <div class="rb">
+            <span class="rb-t">후</span>
+            <span class="rb-x">들은 내용을 집에서 아이와 연결해 한 가지만 실천하기</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 06 — Categories -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Approaches</div>
+          <div class="td md" style="margin-bottom:32px">나에게 맞는<br />상담 준비 방식</div>
+          <div class="ap">
+            <div class="ap-t">통역 동반 상담</div>
+            <div class="ap-d">TIS National 무료 통역을 신청해 세부 내용까지 정확하게 파악해요.</div>
+          </div>
+          <div class="ap">
+            <div class="ap-t">질문지 준비형</div>
+            <div class="ap-d">미리 적어간 영어 질문 리스트로 스스로 상담을 이끌어가요.</div>
+          </div>
+          <div class="ap">
+            <div class="ap-t">병행형</div>
+            <div class="ap-d">질문지를 준비하되 중요한 상담은 통역과 함께 확인해요.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 07 — Checklist -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Small Actions</div>
+          <div class="td md" style="margin-bottom:10px">상담 전<br />꼭 준비할 것들</div>
+          <p class="tb" style="margin-bottom:12px;font-size:23px">10분은 짧지만, 준비된 10분은 다릅니다.</p>
+          <div class="ai"><span class="ai-d"></span>학업, 교우관계, 정서, 집에서 도와줄 점 4가지로 질문 나눠 적기</div>
+          <div class="ai"><span class="ai-d"></span>영어 지원 필요하면 학교 오피스에 TIS 통역 미리 요청하기</div>
+          <div class="ai"><span class="ai-d"></span>온라인 예약 시스템에서 상담 시간 확정하기</div>
+          <div class="ai"><span class="ai-d"></span>상담 중 메모할 노트나 메모앱 미리 켜두기</div>
+          <div class="takeaway">질문 하나가 다음 학기를 바꿉니다</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 08 — Do / Don't -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Do &amp; Don't</div>
+          <div class="td md" style="margin-bottom:20px">상담 자리,<br />이렇게 임해보세요</div>
+          <div class="cg">
+            <div class="cc do">
+              <div class="cc-l en">Do</div>
+              <div class="ci-item">카테고리별로 질문 2~3개씩 준비해가기</div>
+              <div class="ci-item">이해 못 한 표현은 바로 다시 물어보기</div>
+              <div class="ci-item">상담 후 내용을 아이와 연결해 실천하기</div>
+            </div>
+            <div class="cc dn">
+              <div class="cc-l en">Don't</div>
+              <div class="ci-item">질문 없이 교사의 말만 듣고 끝내기</div>
+              <div class="ci-item">이해 안 된 표현을 그냥 넘어가기</div>
+              <div class="ci-item">상담 내용을 메모 없이 흘려보내기</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 09 — Steps -->
+    <div class="card">
+      <span class="handle">@aussie.umma</span>
+      <div class="ci">
+        <div class="center-block">
+          <div class="tl">Getting Started</div>
+          <div class="td md" style="margin-bottom:32px">이 순서로<br />상담을 준비해요</div>
+          <div class="si">
+            <span class="si-n en">01</span>
+            <div class="si-c">
+              <div class="si-t">통역 신청하기</div>
+              <div class="si-d">영어가 편하지 않다면 TIS 통역을 미리 예약해요.</div>
+            </div>
+          </div>
+          <div class="si">
+            <span class="si-n en">02</span>
+            <div class="si-c">
+              <div class="si-t">질문 정리하기</div>
+              <div class="si-d">학업·교우관계·정서·가정 지원 4가지로 질문을 나눠 적어요.</div>
+            </div>
+          </div>
+          <div class="si">
+            <span class="si-n en">03</span>
+            <div class="si-c">
+              <div class="si-t">상담 기록하기</div>
+              <div class="si-d">상담 중 들은 표현과 조언을 간단히 메모해요.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 10 — CTA -->
+    <div class="card c10">
+      <span class="handle">@aussie.umma</span>
+      <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+      <div class="ci">
+        <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+        <div class="td lg" style="text-align:center;margin-bottom:20px">다음 상담은<br /><span class="ta">질문</span> 들고 가요</div>
+        <hr class="div-a" style="margin:0 auto 24px" />
+        <p class="tb" style="text-align:center;max-width:80%">짧은 10분도 준비하면 <strong>아이를 더 깊이 이해하는 시간</strong>이 됩니다.</p>
+        <div class="cta-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+          </svg>
+          저장하기 →
+        </div>
+        <p class="cta-hint">학부모 상담에서 물어봤던 질문, 댓글로 공유해주세요</p>
+      </div>
+    </div>
+  </body>
+</html>

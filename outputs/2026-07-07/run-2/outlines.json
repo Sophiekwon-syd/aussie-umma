@@ -1,0 +1,36 @@
+{
+  "topics": [
+    {
+      "topic": "이중언어 아이 언어발달, 정말 늦어질까: 호주에서 두 언어 키우는 한국 엄마가 알아야 할 것",
+      "angle": "두 언어 노출이 언어지연을 유발한다는 오해를 과학적 근거로 풀고, 집에서 한국어 노출을 유지하는 실전 방법을 제시",
+      "cards": [
+        { "card": 1, "type": "cover", "headline": "두 언어 쓰면 말이 늦는다는 오해", "key_message": "이중언어 육아를 하며 '우리 아이만 말이 늦나' 걱정하는 엄마의 마음을 짚어주는 커버", "content_note": "hook 필드와 topic 제목", "layout_hint": "표준 cover 레이아웃" },
+        { "card": 2, "type": "hook", "headline": "혹시 이런 걱정 해보셨나요", "key_message": "아이가 영어와 한국어를 섞어 쓰거나 말이 늦다고 느껴질 때의 불안을 공감형 질문으로 던짐", "content_note": "common_misconception 활용", "layout_hint": "질문+한 줄 답변" },
+        { "card": 3, "type": "definition", "key_message": "이중언어 발달이 무엇인지 plain language로 정의", "content_note": "definition 필드", "layout_hint": "정의 박스" },
+        { "card": 4, "type": "data", "key_message": "ASHA·AAP 등 공식 근거로 이중언어가 언어지연을 유발하지 않는다는 데이터 제시", "content_note": "key_facts 3개를 chips로", "layout_hint": "칩 4개 + 설명" },
+        { "card": 5, "type": "routine", "key_message": "하루 루틴 속에서 한국어 노출을 어떻게 확보하는지 3개 시간대로 보여줌", "content_note": "practical_steps 활용", "layout_hint": "아침/오후/저녁 3개 엔트리" },
+        { "card": 6, "type": "categories", "key_message": "완전 몰입식 vs 혼합 노출식 등 접근법 비교", "content_note": "contrasting_approaches", "layout_hint": "3개 카드형 패널 (완전몰입식, 혼합노출식, 균형유지형)" },
+        { "card": 7, "type": "checklist", "key_message": "오늘부터 시작할 수 있는 4가지 실천 항목", "content_note": "practical_steps + do_examples", "layout_hint": "체크리스트 4개 + 하단 강조 문구" },
+        { "card": 8, "type": "do_dont", "key_message": "코드 스위칭을 대하는 좋은 태도 vs 피해야 할 태도", "content_note": "do_examples / dont_examples", "layout_hint": "2단 그리드" },
+        { "card": 9, "type": "steps", "key_message": "한국어 노출을 자연스럽게 늘리는 3단계 실천 순서", "content_note": "practical_steps 재구성", "layout_hint": "번호 스텝 3개" },
+        { "card": 10, "type": "cta", "key_message": "이중언어는 결핍이 아니라 강점이라는 확신을 주며 저장 유도", "content_note": "hook + CTA", "layout_hint": "저장 유도 카드" }
+      ]
+    },
+    {
+      "topic": "호주 초등학교 Term 3 학부모 상담 완전 가이드: 담임 선생님께 물어봐야 할 질문과 표현",
+      "angle": "짧은 상담 시간을 최대한 활용하는 질문 리스트와 영어 표현, 무료 통역 지원 시스템 안내",
+      "cards": [
+        { "card": 1, "type": "cover", "headline": "10분 학부모 상담, 준비 없이 가시나요", "key_message": "Term 3 학부모 상담을 앞둔 엄마의 긴장감을 짚는 커버", "content_note": "hook 필드", "layout_hint": "표준 cover" },
+        { "card": 2, "type": "hook", "headline": "질문 없이 듣기만 하다 나온 적 있나요", "key_message": "상담을 그냥 흘려보낸 경험에 공감하는 질문", "content_note": "common_misconception", "layout_hint": "질문+답변" },
+        { "card": 3, "type": "definition", "key_message": "parent-teacher interview가 무엇이고 어떻게 예약하는지 정의", "content_note": "definition 필드", "layout_hint": "정의 박스" },
+        { "card": 4, "type": "data", "key_message": "상담 시간은 10~15분, 통역 예약 기한 등 핵심 수치 제시", "content_note": "key_facts", "layout_hint": "칩 4개 + 설명" },
+        { "card": 5, "type": "routine", "key_message": "상담 전-중-후 흐름을 시간 순서로 안내", "content_note": "practical_steps", "layout_hint": "상담 전/상담 중/상담 후 3단계" },
+        { "card": 6, "type": "categories", "key_message": "통역 동반 상담 vs 질문지 준비형 상담 비교", "content_note": "contrasting_approaches", "layout_hint": "3개 패널 (통역동반, 질문지준비, 두가지 병행)" },
+        { "card": 7, "type": "checklist", "key_message": "상담 전 꼭 준비할 4가지", "content_note": "practical_steps", "layout_hint": "체크리스트 4개 + 강조 문구" },
+        { "card": 8, "type": "do_dont", "key_message": "상담에서 잘하는 태도 vs 아쉬운 태도", "content_note": "do_examples / dont_examples", "layout_hint": "2단 그리드" },
+        { "card": 9, "type": "steps", "key_message": "TIS 무료 통역 신청부터 상담 후 정리까지 3단계", "content_note": "practical_steps 재구성", "layout_hint": "번호 스텝 3개" },
+        { "card": 10, "type": "cta", "key_message": "다음 상담은 질문 리스트 들고 당당하게 가자는 확신", "content_note": "hook + CTA", "layout_hint": "저장 유도 카드" }
+      ]
+    }
+  ]
+}

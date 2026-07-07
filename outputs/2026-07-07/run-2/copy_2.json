@@ -1,0 +1,104 @@
+{
+  "topic": "호주 초등학교 Term 3 학부모 상담 완전 가이드: 담임 선생님께 물어봐야 할 질문과 표현",
+  "slug": "term3-parent-teacher-interview-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "학부모 상담 가이드",
+      "headline": "10분 상담,<br />질문 없이 <em>가시나요</em>",
+      "subtitle": "Term 3 학부모 상담 앞두고, 질문 리스트부터 같이 준비해봐요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "듣기만 하다 <strong>깜깜이로</strong> 나온 적, 있으신가요?",
+      "answer": "질문 몇 개만 미리 적어가도 상담의 밀도가 완전히 달라져요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "Parent-Teacher Interview",
+      "explanation": "학기 중 학교가 마련하는 공식 상담 시간으로, 담임교사가 아이의 <strong>학업·교우관계·정서 발달</strong>을 부모와 짧게 나누는 자리예요.",
+      "punchline": "짧지만, 아이에 대한 가장 밀도 높은 정보를 얻을 수 있는 시간이에요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "Key Insight",
+      "headline": "상담 시간은<br />생각보다 <em>짧아요</em>",
+      "chips": ["10~15분 배정", "전화통역 28일 전", "대면통역 3개월 전", "TIS 무료 제공"],
+      "explanation": "호주 초등학교 학부모 상담은 보통 10~15분 내외로 짧게 진행돼요. 영어가 편하지 않다면 TIS National 통역을 학교를 통해 무료로 신청할 수 있어요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "Before / During / After",
+      "headline": "상담,<br />이 흐름으로 준비해요",
+      "entries": [
+        { "label": "전", "text": "온라인 예약 후 <strong>질문 리스트</strong>를 미리 적어두기" },
+        { "label": "중", "text": "이해 안 되는 표현은 그 자리에서 바로 다시 물어보기" },
+        { "label": "후", "text": "들은 내용을 집에서 아이와 연결해 한 가지만 실천하기" }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "Approaches",
+      "headline": "나에게 맞는<br />상담 준비 방식",
+      "items": [
+        { "title": "통역 동반 상담", "description": "TIS National 무료 통역을 신청해 세부 내용까지 정확하게 파악해요." },
+        { "title": "질문지 준비형", "description": "미리 적어간 영어 질문 리스트로 스스로 상담을 이끌어가요." },
+        { "title": "병행형", "description": "질문지를 준비하되 중요한 상담은 통역과 함께 확인해요." }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Small Actions",
+      "headline": "상담 전<br />꼭 준비할 것들",
+      "intro": "10분은 짧지만, 준비된 10분은 다릅니다.",
+      "items": [
+        "학업, 교우관계, 정서, 집에서 도와줄 점 4가지로 질문 나눠 적기",
+        "영어 지원 필요하면 학교 오피스에 TIS 통역 미리 요청하기",
+        "온라인 예약 시스템에서 상담 시간 확정하기",
+        "상담 중 메모할 노트나 메모앱 미리 켜두기"
+      ],
+      "takeaway": "질문 하나가 다음 학기를 바꿉니다"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "상담 자리,<br />이렇게 임해보세요",
+      "do": [
+        "카테고리별로 질문 2~3개씩 준비해가기",
+        "이해 못 한 표현은 바로 다시 물어보기",
+        "상담 후 내용을 아이와 연결해 실천하기"
+      ],
+      "dont": [
+        "질문 없이 교사의 말만 듣고 끝내기",
+        "이해 안 된 표현을 그냥 넘어가기",
+        "상담 내용을 메모 없이 흘려보내기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Getting Started",
+      "headline": "이 순서로<br />상담을 준비해요",
+      "steps": [
+        { "title": "통역 신청하기", "description": "영어가 편하지 않다면 TIS 통역을 미리 예약해요." },
+        { "title": "질문 정리하기", "description": "학업·교우관계·정서·가정 지원 4가지로 질문을 나눠 적어요." },
+        { "title": "상담 기록하기", "description": "상담 중 들은 표현과 조언을 간단히 메모해요." }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "다음 상담은<br /><em>질문</em> 들고 가요",
+      "message": "짧은 10분도 준비하면 <strong>아이를 더 깊이 이해하는 시간</strong>이 됩니다.",
+      "comment_prompt": "학부모 상담에서 물어봤던 질문, 댓글로 공유해주세요"
+    }
+  ]
+}
