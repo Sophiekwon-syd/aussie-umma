@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: "@nappyprice"
+    - generic [ref=e4]:
+      - generic [ref=e5]: 호주 육아 꿀팁
+      - generic [ref=e6]: 호주 도서관
+      - generic [ref=e7]: 무료 육아 프로그램
+      - generic [ref=e8]: 당신 동네에도 이미 있어요
+      - generic [ref=e9]: Baby Rhyme Time · Toddler Time · Storytime
+  - generic [ref=e10]:
+    - generic [ref=e11]: "@nappyprice"
+    - generic [ref=e12]:
+      - generic [ref=e13]: 솔직히 말하면
+      - generic [ref=e14]:
+        - text: 나도 처음엔 몰랐어요.
+        - text: 매주 집 앞 도서관에서
+        - text: 공짜 아기 수업이
+        - text: 열린다는 사실을.
+      - generic [ref=e16]:
+        - text: 근데 알고 나니까 매주 가요.
+        - text: 둘째까지 3년째. 진짜에요.
+  - generic [ref=e17]:
+    - generic [ref=e18]: "@nappyprice"
+    - generic [ref=e19]:
+      - generic [ref=e20]: $0
+      - generic [ref=e21]:
+        - strong [ref=e22]: 전부 무료
+        - text: 예요.
+        - text: 예약도, 회원증도, 주소 제한도
+        - text: 아무것도 필요 없어요.
+      - generic [ref=e23]: 그냥 문 열고 들어가면 끝.
+  - generic [ref=e24]:
+    - generic [ref=e25]: "@nappyprice"
+    - generic [ref=e26]:
+      - generic [ref=e27]: 0 - 12개월
+      - generic [ref=e28]:
+        - text: Baby
+        - text: Rhyme Time
+      - generic [ref=e29]:
+        - text: 아기 무릎에 앉히고
+        - text: 노래 따라 부르는 30분.
+        - text: 생후 6주부터 와도 돼요.
+        - text: 진짜 다들 그렇게 시작해요.
+  - generic [ref=e30]:
+    - generic [ref=e31]: "@nappyprice"
+    - generic [ref=e32]:
+      - generic [ref=e33]: 1 - 3세
+      - generic [ref=e34]:
+        - text: Toddler
+        - text: Time
+      - generic [ref=e35]:
+        - text: 그림책 보고 노래하고
+        - text: 친구랑 인사하고 기다리는 법.
+        - text: 한국에선 문화센터 돈 내고 하는 걸
+        - text: 여기선 공짜로. 말이 돼요?
+  - generic [ref=e36]:
+    - generic [ref=e37]: "@nappyprice"
+    - generic [ref=e38]:
+      - generic [ref=e39]: 3 - 5세
+      - generic [ref=e40]:
+        - text: Story
+        - text: time
+      - generic [ref=e41]:
+        - text: 그림책 읽고 만들기 활동까지
+        - text: 45분 알차게 놀아요.
+        - text: 초등학교 가기 전에
+        - text: 앉아서 수업 듣는 연습, 여기서 끝.
+  - generic [ref=e42]:
+    - generic [ref=e43]: "@nappyprice"
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - text: 육아는
+        - text: 혼자 하는 게 아니에요
+      - generic [ref=e47]:
+        - text: 도서관 프로그램 끝나고 나면
+        - text: 다른 엄마들이 말 걸어요.
+        - text: "\"몇 개월이에요?\" 여기서부터"
+        - text: 연결이 시작되는 거예요.
+  - generic [ref=e48]:
+    - generic [ref=e49]: "@nappyprice"
+    - generic [ref=e50]:
+      - generic [ref=e51]: 걱정 마요
+      - generic [ref=e52]:
+        - text: 영어 못해도
+        - strong [ref=e53]: 진짜 아무 문제 없어요
+        - text: .
+        - text: 사서분들이 다 리드해주고
+        - text: 노래 가사는 매주 똑같아서
+        - text: 두세 번 가면 나도 따라 불러요.
+  - generic [ref=e54]:
+    - generic [ref=e55]: "@nappyprice"
+    - generic [ref=e56]:
+      - generic [ref=e57]: 저장 필수
+      - generic [ref=e58]: 찾는 법 진짜 쉬워요
+      - generic [ref=e59]:
+        - strong [ref=e60]: "1."
+        - text: 구글에 "[지역명] library storytime"
+        - strong [ref=e61]: "2."
+        - text: 카운슬 도서관 사이트 들어가기
+        - strong [ref=e62]: "3."
+        - text: Children's programs에서 요일/시간 확인
+        - strong [ref=e63]: "4."
+        - text: "\"Drop-in\"이면 예약 없이 그냥 고고"
+        - strong [ref=e64]: "5."
+        - text: 5-10분 일찍 가서 자리 잡으면 끝
+      - generic [ref=e65]: 학기 중에만 하니까 방학 전에 확인하세요
+  - generic [ref=e66]:
+    - generic [ref=e67]: "@nappyprice"
+    - generic [ref=e68]:
+      - generic [ref=e69]: 내일 아침, 커피 한 잔 마시면서
+      - generic [ref=e70]:
+        - text: 집 근처 도서관
+        - text: 한 번만 검색해보세요
+      - generic [ref=e72]:
+        - text: 첫 발걸음이 제일 어렵지
+        - text: 두 번째부터는 그냥 루틴이에요.
+        - text: 당신 동네에도 이미 다 있어요.
+      - generic [ref=e73]: 저장하기 →

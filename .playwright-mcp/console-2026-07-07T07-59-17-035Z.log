@@ -1,0 +1,10 @@
+[    5132ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:0
+[    7765ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://nid.naver.com/nidlogin.login?realname=Y&svctype=262144&url=https%3A%2F%2Fclip.naver.com%2Fmy:0
+[   47757ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://nid.naver.com/nidlogin.login:0
+[   93054ms] [ERROR] passkey error NotAllowedError: The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client. @ https://nid.naver.com/login/js/v3/mobile/rcaptcha_ecc.js?v=20260616:1
+[  150858ms] [WARNING] Warning: fragment with name CommonUser_MeUser already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://static-clipcreators.pstatic.net/clip-studio-web-resource/cliphome/real/260625-172900/_next/static/chunks/1667-d90c925e95351994.js:12
+[  151858ms] [WARNING] Warning: fragment with name CommonUser_User already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://static-clipcreators.pstatic.net/clip-studio-web-resource/cliphome/real/260625-172900/_next/static/chunks/1667-d90c925e95351994.js:12

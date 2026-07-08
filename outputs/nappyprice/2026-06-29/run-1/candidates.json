@@ -1,0 +1,34 @@
+[
+  {
+    "topic": "When Supermarkets Put Nappies on Sale: The Timing Pattern Most Aussie Parents Miss",
+    "ranking": 1,
+    "freshness_reason": "Every new parent discovers they've been paying full price for weeks, unaware that nappies cycle on special every 2–3 weeks at both Coles and Woolies. This pattern repeats predictably; parents need to know it exists once.",
+    "fit_score": "high",
+    "why_it_works": "Directly saves money within days of reading. Numbers-driven (fortnightly/tri-weekly cycle). Actionable next step: track sales, stock up during specials. Avoids naming specific retailers while explaining the pattern. Evergreen because sale cycles don't change.",
+    "recurring_theme_match": "Subscribe-and-save and sale-cycle timing"
+  },
+  {
+    "topic": "Cloth vs Disposable: The True 3-Year Cost Difference Every Australian Parent Should Calculate",
+    "ranking": 2,
+    "freshness_reason": "Australian councils are increasing cloth nappy rebates (up to $200). For budget-conscious families, the numbers are compelling: disposable costs $3,500 over 3 years, cloth costs $1,320–$2,070. This is a major decision point for families planning their outlay.",
+    "fit_score": "high",
+    "why_it_works": "Clear, concrete total-cost figures that are evergreen (not dependent on weekly prices). Directly addresses a top household concern: long-term budgeting. Maps to practical trade-off thinking rather than emotional selling. Council rebates add a fresh angle.",
+    "recurring_theme_match": "Reusable vs disposable trade-offs"
+  },
+  {
+    "topic": "Cost Per Nappy: Why Budget Brands Save Up to $500 Over 3 Years (Budget, Mid-Range, Premium Breakdown)",
+    "ranking": 3,
+    "freshness_reason": "Many parents unknowingly overspend on premium or mid-range nappies, not realizing budget supermarket brands ($0.15–$0.30 per nappy) perform equally well for day use vs premium brands ($0.45–$0.70+). The cumulative difference is significant.",
+    "fit_score": "high",
+    "why_it_works": "Concrete unit pricing makes this feel educational, not preachy. Avoids naming brands while explaining the per-nappy cost tiers. Empowers parents to make informed choices. Directly aligns with the tone-guide phrase 'cost per use / cost per change.'",
+    "recurring_theme_match": "Cost-per-use / cost-per-change comparison"
+  },
+  {
+    "topic": "The Budget Hack: Use Different Nappies for Day vs Night (Saves $200+ Per Year)",
+    "ranking": 4,
+    "freshness_reason": "Many parents see cloth nappies and disposables as an either-or choice. The hybrid approach—budget disposables by day, premium by night for leak prevention—is a practical middle ground that few new families consider. Reduces the barrier to cost-saving.",
+    "fit_score": "high",
+    "why_it_works": "Addresses a common overspending trap: buying premium nappies all day when you only need them overnight. Concrete savings figure ($200+). Practical, doable, no all-or-nothing commitment. Shows that cost-saving doesn't mean compromise on performance.",
+    "recurring_theme_match": "Avoiding common overspending traps; Cost-per-use comparison"
+  }
+]

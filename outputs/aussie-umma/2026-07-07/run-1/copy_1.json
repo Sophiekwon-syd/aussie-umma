@@ -1,0 +1,131 @@
+{
+  "topic": "Centrelink 2026-27 가족 소득 추정 제출 시즌",
+  "slug": "centrelink-income-estimate",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "센터링크",
+      "headline": "411,000 가구가 아직 <em>안 했다</em>",
+      "subtitle": "7월 첫째 주, 지금 myGov를 확인하세요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "Centrelink 소득 추정 메일, 그냥 <strong>넘기셨나요</strong>?",
+      "answer": "매년 4-6월 오는 NFYA 서신. '나중에' 미루면 7월 6일 CCS가 중단됩니다."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "가족 소득 추정",
+      "explanation": "Centrelink가 FTB와 CCS 지급액을 계산하기 위해 가족의 <strong>예상 총소득(ATI)</strong>을 매년 제출받는 제도예요.",
+      "punchline": "작년 소득이 그대로 적용된다고 생각하면 오산입니다."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "Data",
+      "headline": "지금 이대로면 CCS가 7월 6일 <em>중단</em>됩니다",
+      "chips": ["FTB 17만", "CCS 24만", "위험 41만+", "중단 7/6"],
+      "explanation": "출처: Services Australia. 6월 30일까지 소득을 확정하지 않으면 CCS는 7월 6일부터 중단, 소급 지급도 안 됩니다."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "루틴",
+      "headline": "지금 당장, 이 순서로 하세요",
+      "entries": [
+        {
+          "label": "STEP 1",
+          "text": "2024-25년 소득부터 <strong>확정</strong>하기"
+        },
+        {
+          "label": "STEP 2",
+          "text": "2026-27년 소득 추정치 제출하기"
+        },
+        {
+          "label": "STEP 3",
+          "text": "제출 후 영수증 ID 저장하기"
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "소득 종류",
+      "headline": "ATI에 꼭 포함해야 할 소득 3가지",
+      "items": [
+        {
+          "title": "호주 과세 소득",
+          "description": "호주에서 발생한 근로·사업·투자 소득 모두 포함입니다."
+        },
+        {
+          "title": "한국 해외 소득",
+          "description": "한국 부동산 임대료, 이자, 연금도 호주 달러로 환산해 신고해야 해요."
+        },
+        {
+          "title": "추가 조정 항목",
+          "description": "프린지 베네핏, 초과연금 기여금, 순투자 손실도 ATI에 포함됩니다."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "체크리스트",
+      "headline": "myGov 5분 체크리스트",
+      "intro": "지금 당장 이 순서로 따라 하세요",
+      "items": [
+        "myGov 로그인 후 Centrelink 접속",
+        "MENU > My family > Family assistance 선택",
+        "Family income estimate에서 ATI 입력",
+        "제출 후 영수증 ID 캡처"
+      ],
+      "takeaway": "5분이면 끝납니다. 오늘 꼭 확인하세요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이건 꼭 하세요, 이건 하지 마세요",
+      "do": [
+        "해외 소득 포함해 신고",
+        "연중 변동 시 업데이트",
+        "영수증 ID 바로 저장"
+      ],
+      "dont": [
+        "소득 추정 미루기",
+        "작년 소득 그대로 두기",
+        "초과연금 기여금 누락"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "가이드",
+      "headline": "소득 추정 제출, 3단계로 끝내기",
+      "steps": [
+        {
+          "title": "myGov 로그인",
+          "description": "myGov 계정으로 로그인하고 Centrelink 메뉴로 이동하세요."
+        },
+        {
+          "title": "가족 소득 메뉴",
+          "description": "MENU > My family > Family assistance > Family income estimate 순서로 따라가세요."
+        },
+        {
+          "title": "ATI 입력 후 제출",
+          "description": "2026-27년 예상 소득을 입력하고 제출. 영수증 ID는 꼭 저장하세요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "지금<br /><em>확인</em>하세요",
+      "message": "CCS 중단은 생각보다 가깝습니다. <strong>지금 myGov에 로그인</strong>해서 소득을 확인하세요.",
+      "comment_prompt": "이미 하셨다면 댓글로 다른 엄마들도 알려주세요"
+    }
+  ]
+}

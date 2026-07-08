@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centrelink Income Estimate | Nappyprice</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+/*
+  PASTE THIS ENTIRE FILE VERBATIM as the <style> block in every generated carousel.
+  Then override ONLY --accent (with ACCENT_PRIMARY) and --blue (with ACCENT_SECONDARY).
+  Do NOT invent new variables. Do NOT modify any other values.
+*/
+
+:root {
+  --bg: #FFF7F0;
+  --card-bg: #FFFCF9;
+  --elevated: #FBF1EA;
+  --ink: #2B2622;
+  --ink2: #6B625B;
+  --ink3: #A89E95;
+  --ink4: #E7DCD2;
+  --accent: #C6F135;           /* lime green */
+  --accent-dim: rgba(198, 241, 53, 0.14);
+  --blue: #3B82F6;             /* blue */
+  --red: #E5484D;
+  --border: rgba(43, 35, 32, 0.08);
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-en: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans KR", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--bg);
+  font-family: var(--font-en);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px 100px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: var(--card-bg);
+  background-image: none;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.ci {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px;
+  position: relative;
+  z-index: 2;
+}
+.dots {
+  display: flex;
+  gap: 10px;
+}
+.dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ink4);
+  display: block;
+}
+.dots i.on {
+  background: var(--accent);
+  width: 28px;
+  border-radius: 4px;
+}
+.td {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  word-break: keep-all;
+}
+.td.xl { font-size: 96px; }
+.td.lg { font-size: 84px; }
+.td.md { font-size: 76px; }
+.tb {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--ink2);
+  line-height: 1.65;
+  word-break: keep-all;
+}
+.tb strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.tl {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 48px;
+}
+.ta { color: var(--accent); }
+.tm { color: var(--ink3); }
+.en { font-family: var(--font-en); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.badge-a {
+  background: var(--accent);
+  color: #000;
+}
+.div-a {
+  width: 56px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 2px;
+  border: none;
+  margin: 32px 0;
+}
+.wm {
+  position: absolute;
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 1;
+  line-height: 0.8;
+}
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(160px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.top {
+  position: absolute;
+  top: 68px;
+  left: 90px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 5;
+  margin: 0;
+}
+.handle {
+  position: absolute;
+  top: 165px;
+  right: 90px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.handle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Centered content block — wrap non-.top content to keep it visible in 1:1 crop */
+.center-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cover */
+.cover-56 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-en);
+  font-size: 780px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.06;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+  letter-spacing: -40px;
+}
+.cover-56::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 15%, var(--card-bg) 80%);
+}
+.c1 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c1 .cover-sub {
+  margin-bottom: 48px;
+  max-width: 85%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.c1 .cover-cta {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Hook */
+.c2 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c2 .hook-q {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+  word-break: keep-all;
+  max-width: 92%;
+}
+.c2 .hook-q strong {
+  color: var(--accent);
+  font-weight: 900;
+}
+.c2 .hook-ans {
+  margin-top: 56px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Definition */
+.def-hl {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 800;
+}
+.def-box {
+  margin-top: 56px;
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.def-box-text {
+  font-size: 28px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.def-box-text strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Data chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 40px 0;
+}
+.chip {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chip .cd {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Routine */
+.rb {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+.rb:last-child { border-bottom: none; }
+.rb-t {
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  min-width: 90px;
+  text-transform: uppercase;
+}
+.rb-x {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
+.rb-x strong { color: var(--accent); font-weight: 800; }
+
+/* Approaches / Cards */
+.ap {
+  padding: 40px 44px;
+  border-radius: 28px;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15%;
+  bottom: 15%;
+  width: 5px;
+  background: var(--ink4);
+  border-radius: 0 5px 5px 0;
+}
+.ap:nth-child(1)::before { background: var(--accent); }
+.ap:nth-child(2)::before { background: var(--blue); }
+.ap:nth-child(3)::before { background: var(--ink3); }
+.ap-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+.ap-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Actions / Checklist */
+.ai {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ai:last-child { border-bottom: none; }
+.ai-d {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.takeaway {
+  margin-top: 32px;
+  padding: 28px 40px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+}
+
+/* Do/Don't Grid */
+.cg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+.cc {
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--elevated);
+  border: 1px solid var(--border);
+}
+.cc.do { border-top: 5px solid var(--accent); }
+.cc.dn { border-top: 5px solid var(--red); }
+.cc.cmp { border-top: 5px solid var(--blue); }
+.cc-l {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.cc.do .cc-l { color: var(--accent); }
+.cc.dn .cc-l { color: var(--red); }
+.cc.cmp .cc-l { color: var(--blue); }
+.ci-item {
+  font-size: 22px;
+  color: var(--ink2);
+  line-height: 1.6;
+  padding: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.ci-item::before {
+  content: "\2022";
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.cc.dn .ci-item::before { color: var(--red); }
+.cc.cmp .ci-item::before { color: var(--blue); }
+
+/* Steps */
+.si {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: flex-start;
+}
+.si-n {
+  font-family: var(--font-en);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  min-width: 80px;
+}
+.si-c {
+  flex: 1;
+}
+.si-t {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+.si-d {
+  font-size: 24px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Timeline */
+.ti {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-left: 3px solid var(--border);
+  margin-left: 5px;
+  padding-left: 36px;
+  position: relative;
+}
+.ti::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 42px;
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--accent-dim);
+}
+.ti:last-child { border-left-color: transparent; }
+.ti-year {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ti-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.ti-desc {
+  font-size: 23px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+/* Comparison row */
+.cmp-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+}
+.cmp-row:last-child { border-bottom: none; }
+.cmp-h {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink3);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+.cmp-v {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.cmp-v.accent { color: var(--accent); }
+
+/* Quote */
+.quote {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+  text-align: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.quote strong { color: var(--accent); font-weight: 900; }
+.quote-author {
+  margin-top: 48px;
+  font-size: 26px;
+  color: var(--accent);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Stat */
+.stat-val {
+  font-family: var(--font-display);
+  font-size: 260px;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -10px;
+}
+.stat-label {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--ink);
+  text-align: center;
+  margin-top: 24px;
+}
+.stat-desc {
+  font-size: 26px;
+  color: var(--ink2);
+  text-align: center;
+  margin-top: 20px;
+  max-width: 85%;
+}
+
+/* CTA */
+.c10 .ci {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 28px 72px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 56px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cta-hint {
+  margin-top: 40px;
+  font-size: 22px;
+  color: var(--ink3);
+}
+
+/* ===== Bilingual: Korean subtitle (small, muted, beneath the English line) ===== */
+.ko-sub {
+  font-family: var(--font-kr);
+  color: var(--ink3);
+  font-weight: 400;
+  word-break: keep-all;
+}
+.ko-sub.label { font-size: 17px; letter-spacing: 1px; margin-top: 2px; margin-bottom: 44px; }
+.ko-sub.head  { font-size: 30px; line-height: 1.45; margin-top: 18px; }
+.ko-sub.body  { font-size: 21px; line-height: 1.45; margin-top: 8px; }
+
+/* ===== Bar compare (cost vs save) ===== */
+.bar-cmp { margin-top: 48px; display: flex; flex-direction: column; gap: 40px; }
+.bar-row { display: flex; flex-direction: column; gap: 14px; }
+.bar-label {
+  display: flex; align-items: baseline; justify-content: space-between;
+  font-size: 30px; font-weight: 700; color: var(--ink);
+}
+.bar-val { font-family: var(--font-en); font-weight: 900; letter-spacing: -1px; }
+.bar-track {
+  height: 46px; border-radius: 12px; background: var(--elevated);
+  border: 1px solid var(--border); overflow: hidden;
+}
+.bar-fill { height: 100%; border-radius: 12px 0 0 12px; }
+.bar-fill.cost { background: var(--accent); }
+.bar-fill.save { background: var(--blue); }
+
+/* ===== Split contrast (this vs that) ===== */
+.split { margin-top: 40px; display: flex; align-items: stretch; gap: 0; position: relative; }
+.split-col { flex: 1; padding: 48px 40px; text-align: center; }
+.split-v {
+  font-family: var(--font-display); font-size: 132px; font-weight: 900;
+  line-height: 1; letter-spacing: -6px;
+}
+.split-col.cost .split-v { color: var(--accent); }
+.split-col.save .split-v { color: var(--blue); }
+.split-l { font-size: 26px; font-weight: 700; color: var(--ink2); margin-top: 20px; }
+.split-div { width: 1px; background: var(--border); align-self: stretch; }
+.split-cap { text-align: center; font-size: 26px; color: var(--ink2); margin-top: 40px; line-height: 1.55; }
+
+/* ===== Big number (hero figure; reuses .stat-val sizing) ===== */
+.big-num { text-align: center; margin: 32px 0; }
+.big-num .stat-val { margin: 0 auto; }
+
+/* ===== Dark statement card (rhythm beat) ===== */
+.card.dark { background: var(--ink); }
+.card.dark .handle { color: var(--card-bg); }
+.card.dark .stmt {
+  font-size: 60px; font-weight: 800; line-height: 1.3; text-align: center;
+  color: var(--card-bg); max-width: 92%; margin: 0 auto; word-break: keep-all;
+}
+.card.dark .stmt strong { color: var(--accent); font-weight: 900; }
+.card.dark .ko-sub { color: rgba(255,252,249,0.55); }
+
+/* ===== Save-bait sheet (screenshot artifact) ===== */
+.sheet {
+  margin-top: 40px; border-radius: 28px; background: var(--card-bg);
+  border: 2px solid var(--ink); padding: 44px 48px; position: relative;
+}
+.sheet-tag {
+  position: absolute; top: -18px; left: 44px; background: var(--accent); color: #000;
+  font-family: var(--font-en); font-size: 15px; font-weight: 800; letter-spacing: 3px;
+  text-transform: uppercase; padding: 8px 20px; border-radius: 100px;
+}
+.sheet-title { font-size: 34px; font-weight: 900; color: var(--ink); margin-bottom: 24px; }
+.sheet-row {
+  display: flex; align-items: flex-start; gap: 18px; padding: 20px 0;
+  border-bottom: 1px solid var(--border); font-size: 27px; font-weight: 600;
+  color: var(--ink); line-height: 1.5;
+}
+.sheet-row:last-child { border-bottom: none; }
+.sheet-row::before {
+  content: "\2713"; color: var(--blue); font-weight: 900; font-size: 1.1em; line-height: 1.4;
+}
+.sheet-foot { margin-top: 24px; font-size: 22px; color: var(--ink3); text-align: center; }
+  </style>
+</head>
+<body>
+
+<!-- Card 1: Cover -->
+<div class="card c1">
+  <span class="handle">@nappyprice</span>
+  <div class="glow" style="width:500px;height:500px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.06;"></div>
+  <div class="cover-56">01</div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:40px">센터링크</div>
+    <div style="margin-bottom:16px">
+      <div class="td xl">411,000 가구가 아직 <span class="ta">안 했다</span></div>
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <div class="cover-sub tb">7월 첫째 주, 지금 myGov를 확인하세요</div>
+    <div class="cover-cta">슬라이드 <span>→</span></div>
+  </div>
+</div>
+
+<!-- Card 2: Hook -->
+<div class="card c2">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="hook-q">Centrelink 소득 추정 메일, 그냥 <strong>넘기셨나요</strong>?</div>
+    <div class="hook-ans">매년 4-6월 오는 NFYA 서신. '나중에' 미루면 7월 6일 CCS가 중단됩니다.</div>
+  </div>
+</div>
+
+<!-- Card 3: Definition -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">DEFINITION</div>
+      <div class="td md" style="margin-bottom:36px"><span class="def-hl">가족 소득 추정</span>이란?</div>
+      <div class="def-box">
+        <p class="def-box-text">Centrelink가 FTB와 CCS 지급액을 계산하기 위해 가족의 <strong>예상 총소득(ATI)</strong>을 매년 제출받는 제도예요.</p>
+      </div>
+      <p class="tb" style="margin-top:36px"><strong>작년 소득이 그대로 적용된다고 생각하면 오산입니다.</strong></p>
+    </div>
+  </div>
+</div>
+
+<!-- Card 4: Data -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">DATA</div>
+      <div class="td md" style="margin-bottom:36px">지금 이대로면 CCS가 7월 6일 <span class="ta">중단</span>됩니다</div>
+      <div class="chips">
+        <div class="chip">FTB 17만</div>
+        <div class="chip">CCS 24만</div>
+        <div class="chip">위험 41만+</div>
+        <div class="chip">중단 7/6</div>
+      </div>
+      <div class="tb">출처: Services Australia. 6월 30일까지 소득을 확정하지 않으면 CCS는 7월 6일부터 중단, 소급 지급도 안 됩니다.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 5: Routine -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">루틴</div>
+      <div class="td md" style="margin-bottom:36px">지금 당장, 이 순서로 하세요</div>
+      <div class="rb">
+        <div class="rb-t">STEP 1</div>
+        <div class="rb-x">2024-25년 소득부터 <strong>확정</strong>하기</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">STEP 2</div>
+        <div class="rb-x">2026-27년 소득 추정치 제출하기</div>
+      </div>
+      <div class="rb">
+        <div class="rb-t">STEP 3</div>
+        <div class="rb-x">제출 후 영수증 ID 저장하기</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 6: Categories -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">소득 종류</div>
+      <div class="td md" style="margin-bottom:36px">ATI에 꼭 포함해야 할 소득 3가지</div>
+      <div class="ap">
+        <div class="ap-t">호주 과세 소득</div>
+        <div class="ap-d">호주에서 발생한 근로·사업·투자 소득 모두 포함입니다.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">한국 해외 소득</div>
+        <div class="ap-d">한국 부동산 임대료, 이자, 연금도 호주 달러로 환산해 신고해야 해요.</div>
+      </div>
+      <div class="ap">
+        <div class="ap-t">추가 조정 항목</div>
+        <div class="ap-d">프린지 베네핏, 초과연금 기여금, 순투자 손실도 ATI에 포함됩니다.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 7: Checklist -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">체크리스트</div>
+      <div class="td md" style="margin-bottom:36px">myGov 5분 체크리스트</div>
+      <p class="tb" style="margin-bottom:36px">지금 당장 이 순서로 따라 하세요</p>
+      <div class="ai">
+        <span class="ai-d"></span>myGov 로그인 후 Centrelink 접속
+      </div>
+      <div class="ai">
+        <span class="ai-d"></span>MENU &gt; My family &gt; Family assistance 선택
+      </div>
+      <div class="ai">
+        <span class="ai-d"></span>Family income estimate에서 ATI 입력
+      </div>
+      <div class="ai">
+        <span class="ai-d"></span>제출 후 영수증 ID 캡처
+      </div>
+      <div class="takeaway">5분이면 끝납니다. 오늘 꼭 확인하세요.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 8: Do/Don't -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="td md" style="margin-bottom:36px">이건 꼭 하세요, 이건 하지 마세요</div>
+      <div class="cg">
+        <div class="cc do">
+          <div class="cc-l">Do</div>
+          <div class="ci-item">해외 소득 포함해 신고</div>
+          <div class="ci-item">연중 변동 시 업데이트</div>
+          <div class="ci-item">영수증 ID 바로 저장</div>
+        </div>
+        <div class="cc dn">
+          <div class="cc-l">Don't</div>
+          <div class="ci-item">소득 추정 미루기</div>
+          <div class="ci-item">작년 소득 그대로 두기</div>
+          <div class="ci-item">초과연금 기여금 누락</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 9: Steps -->
+<div class="card">
+  <span class="handle">@nappyprice</span>
+  <div class="ci">
+    <div class="center-block">
+      <div class="tl">가이드</div>
+      <div class="td md" style="margin-bottom:36px">소득 추정 제출, 3단계로 끝내기</div>
+      <div class="si">
+        <div class="si-n">01</div>
+        <div class="si-c">
+          <div class="si-t">myGov 로그인</div>
+          <div class="si-d">myGov 계정으로 로그인하고 Centrelink 메뉴로 이동하세요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">02</div>
+        <div class="si-c">
+          <div class="si-t">가족 소득 메뉴</div>
+          <div class="si-d">MENU &gt; My family &gt; Family assistance &gt; Family income estimate 순서로 따라가세요.</div>
+        </div>
+      </div>
+      <div class="si">
+        <div class="si-n">03</div>
+        <div class="si-c">
+          <div class="si-t">ATI 입력 후 제출</div>
+          <div class="si-d">2026-27년 예상 소득을 입력하고 제출. 영수증 ID는 꼭 저장하세요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 10: CTA -->
+<div class="card c10">
+  <span class="handle">@nappyprice</span>
+  <div class="glow" style="width:350px;height:350px;bottom:-80px;left:-60px;"></div>
+  <div class="ci">
+    <div class="badge badge-a en" style="margin-bottom:28px">SAVE &amp; SHARE</div>
+    <div class="td md" style="text-align:center;margin-bottom:20px">
+      지금<br /><span class="ta">확인</span>하세요
+    </div>
+    <hr class="div-a" style="margin:0 auto 24px" />
+    <p class="tb" style="text-align:center;max-width:80%">CCS 중단은 생각보다 가깝습니다. <strong>지금 myGov에 로그인</strong>해서 소득을 확인하세요.</p>
+    <div class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+      저장하기 →
+    </div>
+    <p class="cta-hint">이미 하셨다면 댓글로 다른 엄마들도 알려주세요</p>
+  </div>
+</div>
+
+</body>
+</html>

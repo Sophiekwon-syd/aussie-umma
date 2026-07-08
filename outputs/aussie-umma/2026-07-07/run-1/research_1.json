@@ -1,0 +1,180 @@
+{
+  "topic": "Centrelink 2026-27 가족 소득 추정 제출 시즌: 늦으면 CCS·FTB 중단, 워킹맘 체크리스트",
+  "angle": "7월은 새 회계연도 시작. Centrelink가 2026-27 가족 소득 추정치를 제출하라고 요구하는 달이다. 제출하지 않으면 CCS와 FTB가 중단될 위험이 있다. myGov에서 소득 추정치를 제출하는 구체적인 방법과 엄마들이 자주 실수하는 부분을 실전 가이드로 제공.",
+  "summary": "매년 4-6월, Services Australia는 FTB와 CCS를 받는 모든 가족에게 새 회계연도(2026-27)의 가족 소득 추정치를 제출하도록 요청한다. 제출하지 않으면 자동으로 작년 소득에 물가상승률이 적용된 '기본 추정치'로 지급이 계속되지만, 2024-25년도 소득 확정(세금보고 또는 비신고 통보)을 6월 30일까지 하지 않으면 CCS는 7월 6일부터 중단되고 FTB는 전액 환수 대상이 된다. 약 41만 가구가 아직 소득을 확정하지 않아 위험에 처해 있다.",
+  "definition": "가족 소득 추정(Family Income Estimate)은 Centrelink가 FTB(가족 세금 혜택)와 CCS(보육 보조금) 지급액을 계산하기 위해 가족의 예상 조정 과세 소득(Adjusted Taxable Income)을 매년 제출받는 제도다. 정확히 추정해야 과다 지급(환수)이나 과소 지급(나중에 일괄 정산)을 피할 수 있다.",
+  "key_facts": [
+    {
+      "fact": "Services Australia는 2026년 5월부터 FTB 가구 약 17만 가구, CCS 가구 약 24만 가구에 2024-25년도 소득을 6월 30일까지 확정하라는 공식 알림을 발송했다.",
+      "source": "Services Australia General Manager Hank Jongen 공식 칼럼 (2026년 6월 9일) - servicesaustralia.gov.au/hank-jongen-important-deadline-families-cant-afford-to-miss"
+    },
+    {
+      "fact": "매년 4월부터 6월 사이에 Centrelink는 NFYA(New Financial Year Assessment) 서신을 발송하며, 고객은 Centrelink 온라인 계정(myGov) 또는 Express Plus Centrelink 앱을 통해 새 회계연도의 가족 소득 추정치를 제출할 수 있다.",
+      "source": "Services Australia - 'It's time to estimate your 2026-27 family income' (2026년 5월 18일 게시) - servicesaustralia.gov.au/its-time-to-estimate-your-2026-27-family-income"
+    },
+    {
+      "fact": "소득 추정치를 제출하지 않으면 Centrelink가 자동으로 이전 소득에 AWE(평균 주간 소득) 상승률을 반영한 '자동 상향 조정(automatic uplift)' 추정치를 적용한다. 이 추정치는 고객이 직접 제출한 합리적인 추정치보다 높을 수 있어 과다 지급 위험이 있다.",
+      "source": "DSS Family Assistance Guide 4.9.1 - 'Overview of new financial year assessments' - guides.dss.gov.au/family-assistance-guide/4/9/1"
+    },
+    {
+      "fact": "6월 30일까지 2024-25년도 소득을 확정하지 않으면 FTB 수급자는 해당 연도에 받은 모든 FTB를 전액 환불해야 하며, 추가 지급(탑업, 체불분, 보충액)을 받을 수 없다.",
+      "source": "Services Australia - 'Helping you get the right outcome at tax time' - servicesaustralia.gov.au/helping-you-get-right-outcome-tax-time?context=60271"
+    },
+    {
+      "fact": "CCS 수급자가 6월 30일까지 소득을 확정하지 않으면 CCS 지급이 7월 6일부터 중단되며, 이후 소득을 확인해도 중단 기간에 대한 소급 지급은 이루어지지 않는다.",
+      "source": "Yahoo Finance - 'Centrelink deadline Aussie families cannot afford to miss just weeks away' (2026년 5월 31일) - au.finance.yahoo.com/news/centrelink-deadline-aussie-families-cant-afford-to-miss-just-weeks-away-052900712.html"
+    },
+    {
+      "fact": "2026-27년 CCS 보조율: 가족 합산 소득 $88,520 이하이면 90%, $88,521~$538,519 사이는 $5,000 증가마다 1%씩 감소, $538,520 이상이면 0% (단, 연말 정산 시 소급 적용). 둘째 5세 이하 자녀는 더 높은 보조율 적용.",
+      "source": "Department of Education - 'Child Care Subsidy hourly rate caps are changing' + Services Australia - 'Your income can affect Child Care Subsidy' - education.gov.au, servicesaustralia.gov.au/your-income-can-affect-child-care-subsidy"
+    },
+    {
+      "fact": "조정 과세 소득(ATI)에는 과세 소득뿐 아니라 신고 대상 프린지 베네핏, 신고 대상 초과연금 기여금, 순투자 손실(네거티브 기어링 포함), 비과세 연금/급여, 해외 소득이 모두 포함된다. 반면 FTB, CCS, 렌트 어시스턴스 등은 제외된다.",
+      "source": "Services Australia - 'What adjusted taxable income is' - servicesaustralia.gov.au/what-adjusted-taxable-income?context=21911"
+    },
+    {
+      "fact": "연중 소득 변동이 있을 때는 언제든 myGov를 통해 추정치를 업데이트할 수 있다. 직장 변경, 승진, 파트너 취업, 잔업·보너스 변동 등 모든 상황이 해당된다.",
+      "source": "Services Australia - 'Update your family income estimate' - servicesaustralia.gov.au/centrelink-online-account-help-update-your-family-income-estimate"
+    },
+    {
+      "fact": "해외 소득(한국에서 발생한 소득)도 호주 달러로 환산하여 가족 소득 추정치에 포함해야 한다. Centrelink는 매년 7월 1일 기준 고정 환율을 사용한다.",
+      "source": "Services Australia - 'Foreign income for family assistance' - servicesaustralia.gov.au/foreign-income-for-family-assistance?context=22151"
+    }
+  ],
+  "statistics": [
+    {
+      "number": "170,000",
+      "context": "아직 2024-25년 소득을 확정하지 않은 FTB(가족 세금 혜택) 수급 가구 수",
+      "source": "Services Australia / Hank Jongen 칼럼 (2026년 6월)"
+    },
+    {
+      "number": "241,000",
+      "context": "아직 2024-25년 소득을 확정하지 않은 CCS(보육 보조금) 수급 가구 수",
+      "source": "Services Australia / Hank Jongen 칼럼 (2026년 6월)"
+    },
+    {
+      "number": "411,000+",
+      "context": "소득 미확정으로 지급 중단 위험에 처한 총 가구 수 (FTB + CCS)",
+      "source": "Yahoo Finance / Services Australia 공식 발표"
+    },
+    {
+      "number": "90%",
+      "context": "2026-27년 CCS 최대 보조율 (합산 소득 $88,520 이하 가구 기준)",
+      "source": "Department of Education"
+    },
+    {
+      "number": "$88,520",
+      "context": "2026-27년 CCS 최대 보조율(90%)을 받을 수 있는 가족 합산 소득 상한 (2025-26년 $85,279에서 인상)",
+      "source": "Department of Education"
+    },
+    {
+      "number": "95%",
+      "context": "둘째 5세 이하 자녀에 대한 CCS 최대 보조율 (합산 소득 $143,273 이하 가구)",
+      "source": "Department of Education"
+    },
+    {
+      "number": "5분",
+      "context": "Hank Jongen Services Australia 총괄 매니저가 언급한 소득 확인에 걸리는 시간 ('a simple 5-minute task')",
+      "source": "Services Australia / Yahoo Finance"
+    },
+    {
+      "number": "7월 6일",
+      "context": "CCS 지급 중단 시점: 6월 30일까지 소득을 확정하지 않은 가구는 이날부터 보육 보조금이 끊기고 보육료 전액을 본인이 부담해야 함",
+      "source": "Services Australia / Yahoo Finance"
+    }
+  ],
+  "angles": [
+    {
+      "title": "긴급 액션: CCS 중단 D-day, 지금 myGov 확인하세요",
+      "description": "6월 30일까지 2024-25년 소득을 확정하지 않으면 CCS가 7월 6일부터 중단된다는 긴급 경고 중심. 아직 세금보고를 안 했다면 ATO에, 세금보고 의무가 없다면 Centrelink 앱에서 'Advise tax non-lodgement' 버튼 하나로 해결 가능하다는 액션 위주 접근.",
+      "why_works": "데드라인이 임박했고('just weeks away') 결과가 구체적(CCS 중단, FTB 전액 환수)이어서 행동 유도력이 높다."
+    },
+    {
+      "title": "실전 가이드: myGov에서 5분 만에 소득 추정 제출하는 법",
+      "description": "myGov 로그인부터 메뉴 경로(MENU > My family > Family assistance > Family income estimate), 각 입력 필드 설명, 영수증 ID 저장까지 단계별 가이드. 한국어로 myGov 화면을 보여주는 상세 설명.",
+      "why_works": "한국 엄마들은 '어디로 들어가야 하는지' 자체를 몰라서 제출을 미루는 경우가 많다. 화면 경로를 구체적으로 알려주면 저장률이 높아진다."
+    },
+    {
+      "title": "한국 엄마들이 자주 실수하는 Centrelink 소득 신고 5가지",
+      "description": "조정 과세 소득(ATI) 개념 착각, 해외 소득(한국 급여/임대) 미신고, 파트너 소득 누락, 초과연금 기여금(salary sacrifice super) 포함해야 하는데 누락, 연중 소득 변동 시 업데이트 안 함 등 한국 엄마들에게 실제로 자주 발생하는 실수 유형 정리.",
+      "why_works": "실수 사례는 공감+정보 전달에 효과적이다. '나도 그랬어'라는 반응을 이끌어내며 저장 동기를 높인다."
+    },
+    {
+      "title": "워킹맘 계산기: 우리 집 CCS, 2026-27년에 얼마나 받을까?",
+      "description": "2026-27년 CCS 보조율 테이블을 소득 구간별로 정리하고, 소득별 예상 보조율을 계산하는 방법 제시. 둘째 아이의 Higher CCS 혜택, 시간당 상한액(cap) 변동 등 구체적인 금액 정보 포함.",
+      "why_works": "계산기/테이블 형식은 인스타그램에서 저장률이 매우 높은 포맷이다. 워킹맘에게 '내가 얼마나 받을 수 있나'는 가장 관심 있는 주제."
+    }
+  ],
+  "pain_points": [
+    {
+      "pain": "언어 장벽으로 인한 정보 사각지대",
+      "detail": "Services Australia의 안내문과 NFYA 서신이 모두 영어로 발송된다. Centrelink는 공식적인 한국어 서비스를 제공하지 않아, 영어가 익숙하지 않은 엄마들은 안내문을 받고도 무엇을 해야 할지 모르고 지나치는 경우가 많다. 특히 '소득 추정(income estimate)'과 '소득 확정(income confirmation)'이 다른 개념이라는 것을 모르고 둘 다 놓치는 사례가 발생한다."
+    },
+    {
+      "pain": "조정 과세 소득(ATI) 개념 이해의 어려움",
+      "detail": "한국에서는 단순히 '연봉'만 신고하면 되지만 호주는 ATI 개념이 복잡하다. 과세 소득에 salary sacrifice 초과연금, 프린지 베네핏, 네거티브 기어링 손실 등을 더해야 한다. 이 개념을 몰라서 실제 소득보다 낮게 추정했다가 1-2년 후 큰 금액의 환수 청구를 받는 경우가 있다."
+    },
+    {
+      "pain": "해외 소득(한국) 신고 의무 인식 부족",
+      "detail": "한국에 남아있는 부동산 임대 소득, 한국 회사에서 받는 연금이나 소득, 배우자의 한국 취업 소득 등을 Centrelink에 신고해야 한다는 사실을 모르는 엄마들이 많다. 특히 '호주에서 과세되지 않는 소득은 신고하지 않아도 된다'고 오해하는 경우가 흔하다."
+    },
+    {
+      "pain": "데드라인 인식 부족과 미루는 습관",
+      "detail": "NFYA 서신을 받고도 '언제든 할 수 있지' 하고 미루다가 7월 1일이 지나면 자동 상향 조정된 소득 추정치가 적용된다는 사실을 모른다. 특히 6월 30일은 소득 확정(세금보고 또는 비신고 통보)의 데드라인인데, 이게 소득 추정(income estimate)과 완전히 다른 프로세스라는 점을 혼동한다."
+    },
+    {
+      "pain": "myGov 메뉴 구조 익숙하지 않음",
+      "detail": "한국에서 갓 이주한 엄마들은 myGov와 Centrelink 온라인 계정 인터페이스가 낯설다. 메뉴 위치를 몰라서 'Family assistance' 항목을 찾지 못하고, 'Update income estimate' 버튼을 찾아 헤매는 경우가 많다."
+    }
+  ],
+  "common_misconception": "많은 엄마들이 '소득 추정치를 제출하지 않으면 Centrelink가 알아서 조용히 지급을 중단한다'고 생각하지만, 실제로는 Centrelink가 기본 추정치(자동 상향 조정)를 적용해 지급을 계속한다. 문제는 이 기본 추정치가 실제 소득보다 낮을 경우 연말 정산 때 큰 금액의 환수(overpayment debt)가 발생한다는 점이다. 또 다른 큰 오해는 '세금보고를 안 해도 Centrelink가 내 소득을 모른다'는 것인데, ATO와 Centrelink는 데이터를 공유하며 소득 미확정 시 CCS는 7월 6일부터 무조건 중단된다.",
+  "practical_steps": [
+    "myGov에 로그인한 뒤 Centrelink 선택, MENU > My family > Family assistance > Family income estimate 경로로 이동한다.",
+    "2026-27 탭을 선택하고 'Update income estimate' 버튼을 클릭한 후, 본인과 파트너의 예상 adjusted taxable income(조정 과세 소득)을 항목별로 입력한다.",
+    "해외 소득(한국 급여, 임대 수입 등)이 있다면 호주 달러로 환산하여 'Foreign income' 항목에 반드시 포함한다.",
+    "salary sacrifice로 초과연금을 넣고 있다면 'Reportable super contributions' 항목에 포함시킨다 (과세 소득에 이미 반영되지 않았는지 확인).",
+    "2024-25년 세금보고를 아직 안 했다면 ATO에 당장 제출한다. 세금보고 의무가 없다면 Centrelink 앱에서 More > Advise tax non-lodgement로 비신고 통보를 한다.",
+    "영수증 ID(Receipt ID)를 반드시 저장한다. 추후 문제 발생 시 확인용으로 필요하다.",
+    "연중 소득 변동(승진, 이직, 잔업 증가, 파트너 취업 등)이 생기면 즉시 업데이트한다. 14일 이내 권장."
+  ],
+  "contrasting_approaches": [
+    {
+      "label": "직접 추정 제출",
+      "description": "본인이 예상하는 adjusted taxable income을 직접 입력하는 방식. 가장 정확하지만 ATI 구성 항목을 제대로 이해해야 하며, 너무 낮게 잡으면 연말 환수 위험이 있다. 반대로 너무 높게 잡으면 평소에 덜 받고 연말에 일괄 정산받게 된다."
+    },
+    {
+      "label": "Centrelink 기본 추정치 수용",
+      "description": "아무것도 제출하지 않으면 Centrelink가 작년 소득에 AWE(평균 임금 상승률)을 반영한 기본 추정치를 자동 적용한다. 별도 입력이 필요 없어 편리하지만, 실제 소득보다 낮거나 높을 수 있어 연말 정산 때 예상치 못한 결과가 발생할 수 있다."
+    }
+  ],
+  "do_examples": [
+    "소득 추정치를 제출할 때는 다소 높게 잡는 것이 안전하다. 연말에 돌려받는 것은 문제없지만, 환수는 부담이다.",
+    "연중 소득이 변동될 때마다 즉시 myGov에서 업데이트한다. 특히 파트너가 취업하거나 승진했을 때 놓치기 쉽다.",
+    "6월 30일 전에 2024-25년 세금보고를 완료하거나, 세금보고 의무가 없으면 Centrelink 앱에서 'Advise tax non-lodgement'를 꼭 클릭한다."
+  ],
+  "dont_examples": [
+    "소득 추정이 '귀찮아서' 또는 '언제든 할 수 있어서' 미루지 않는다. CCS는 7월 6일에 바로 중단되며, 소급 복구되지 않는다.",
+    "한국에서 발생한 임대 소득이나 한국 회사 연금을 '호주 과세 대상이 아니니까'라고 생각하고 누락하지 않는다. 해외 소득은 반드시 신고해야 하며 환율은 Centrelink가 매년 7월 1일 기준 고정 환율을 적용한다.",
+    "파트너가 '내 이름으로는 Centrelink를 안 쓰니까'라고 해도 파트너의 소득 정보 입력을 빼먹지 않는다. CCS와 FTB는 가족 합산 소득 기준이므로 파트너 소득 누락 시 큰 문제가 발생할 수 있다."
+  ],
+  "hook": "170,000 FTB 가구 + 241,000 CCS 가구 — 총 41만 가구가 6월 30일 데드라인을 넘기면 CCS는 7월 6일에 바로 중단되고, FTB는 받았던 돈을 전부 토해내야 한다. Services Australia 국장이 직접 '5분만 투자하면 된다'고 경고했지만, 한국 엄마들은 이 사실조차 모르는 경우가 대부분이다.",
+  "key_message": "7월 첫째 주, 지금 myGov에 로그인해서 2026-27년 가족 소득 추정치를 제출하고, 2024-25년 소득이 아직 확정되지 않았다면 세금보고 또는 비신고 통보를 6월 30일 전에 완료하세요. CCS는 7월 6일에 바로 중단되고 소급 복구가 안 됩니다. 한국 엄마들이 자주 실수하는 조정 과세 소득(ATI) 항목 — 특히 해외 소득과 salary sacrifice 초과연금 — 을 꼭 확인하세요.",
+  "search_sources_used": [
+    "https://www.servicesaustralia.gov.au/its-time-to-estimate-your-2026-27-family-income",
+    "https://www.servicesaustralia.gov.au/your-family-income-estimate-for-family-assistance-payments?context=41186",
+    "https://www.servicesaustralia.gov.au/centrelink-online-account-help-update-your-family-income-estimate",
+    "https://www.servicesaustralia.gov.au/hank-jongen-important-deadline-families-cant-afford-to-miss",
+    "https://www.servicesaustralia.gov.au/what-adjusted-taxable-income?context=21911",
+    "https://www.servicesaustralia.gov.au/how-we-use-adjusted-taxable-income?context=21911",
+    "https://www.servicesaustralia.gov.au/foreign-income-for-family-assistance?context=22151",
+    "https://www.servicesaustralia.gov.au/helping-you-get-right-outcome-tax-time?context=60271",
+    "https://www.servicesaustralia.gov.au/when-we-balance-your-child-care-subsidy?context=41186",
+    "https://www.servicesaustralia.gov.au/your-income-can-affect-child-care-subsidy?context=41186",
+    "https://guides.dss.gov.au/family-assistance-guide/4/9/1",
+    "http://operational.servicesaustralia.gov.au/public/Pages/families/007-07130000-01.html",
+    "https://au.finance.yahoo.com/news/centrelink-deadline-aussie-families-cant-afford-to-miss-just-weeks-away-052900712.html",
+    "https://au.finance.yahoo.com/news/centrelink-reminder-for-nearly-half-a-million-aussie-families-to-keep-payments-flowing-055929131.html",
+    "https://www.education.gov.au/early-childhood/announcements/child-care-subsidy-hourly-rate-caps-are-changing-soon-1",
+    "https://guides.dss.gov.au/family-assistance-guide/3/2/1"
+  ]
+}

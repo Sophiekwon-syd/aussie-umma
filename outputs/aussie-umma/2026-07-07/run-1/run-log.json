@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "started_at": "2026-07-07T07:38:00Z",
+  "finished_at": "2026-07-07T08:35:00Z",
+  "trigger_source": "local",
+  "github_run_id": null,
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "Centrelink 2026-27 가족 소득 추정 제출 시즌: 늦으면 CCS·FTB 중단, 워킹맘 체크리스트",
+      "slug": "centrelink-income-estimate",
+      "html_file": "outputs/aussie-umma/2026-07-07/run-1/centrelink-income-estimate.html",
+      "copy_file": "outputs/aussie-umma/2026-07-07/run-1/copy_1.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-01.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-02.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-03.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-04.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-05.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-06.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-07.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-08.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-09.png",
+    "outputs/aussie-umma/2026-07-07/run-1/images/centrelink-income-estimate-10.png"
+  ]
+}

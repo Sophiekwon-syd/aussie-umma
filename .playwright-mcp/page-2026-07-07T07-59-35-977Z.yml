@@ -1,0 +1,67 @@
+- generic [ref=e2]:
+  - link "본문 바로가기" [ref=e4] [cursor=pointer]:
+    - /url: "#container"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "뒤로가기" [ref=e7] [cursor=pointer]:
+        - generic [ref=e9]: 뒤로가기
+      - listbox "언어선택" [ref=e11] [cursor=pointer]: English
+  - generic [ref=e13]:
+    - link "네이버" [ref=e15] [cursor=pointer]:
+      - /url: https://m.naver.com
+      - heading "네이버" [level=1] [ref=e16]:
+        - generic [ref=e17]: 네이버
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - textbox "아이디 또는 전화번호" [active] [ref=e25] [cursor=pointer]
+            - generic: ID or Phone number
+          - generic [ref=e26]:
+            - textbox "비밀번호" [ref=e27] [cursor=pointer]
+            - generic: Password
+        - button "Sign in" [ref=e28] [cursor=pointer]
+        - generic [ref=e29]:
+          - checkbox "Stay signed in" [checked] [ref=e30] [cursor=pointer]
+          - generic [ref=e31] [cursor=pointer]: Stay signed in
+        - generic [ref=e33]: Make it safer
+        - button "Sign in with a passkey 패스키로그인 버튼" [ref=e34] [cursor=pointer]:
+          - text: Sign in with a passkey
+          - generic [ref=e35]: 패스키로그인 버튼
+      - list [ref=e36]:
+        - listitem [ref=e37]:
+          - generic [ref=e38]:
+            - text: Find
+            - link "ID" [ref=e39] [cursor=pointer]:
+              - /url: https://nid.naver.com/user2/api/route?m=routeIdInquiry&lang=en_US
+            - text: or
+            - link "Password" [ref=e40] [cursor=pointer]:
+              - /url: https://nid.naver.com/user2/api/route?m=routePwInquiry&lang=en_US
+        - listitem [ref=e41]:
+          - link "Sign up" [ref=e42] [cursor=pointer]:
+            - /url: https://nid.naver.com/user2/V2Join?m=agree&lang=en_US&realname=Y
+      - list [ref=e44]:
+        - listitem [ref=e45]:
+          - link "Apple" [ref=e46] [cursor=pointer]:
+            - /url: /oauth/global/initSNS?idp_cd=apple&locale=en_US&svctype=262144&postDataKey=&url=https%3A%2F%2Fclip.naver.com%2Fmy&confirm.login=false&cp_cd=
+            - generic [ref=e47]: Apple
+        - listitem [ref=e48]:
+          - link "Google" [ref=e49] [cursor=pointer]:
+            - /url: /oauth/global/initSNS?idp_cd=google&locale=en_US&svctype=262144&postDataKey=&url=https%3A%2F%2Fclip.naver.com%2Fmy&confirm.login=false&cp_cd=
+            - generic [ref=e50]: Google
+        - listitem [ref=e51]:
+          - link "LINE" [ref=e52] [cursor=pointer]:
+            - /url: /oauth/global/initSNS?idp_cd=line&locale=en_US&svctype=262144&postDataKey=&url=https%3A%2F%2Fclip.naver.com%2Fmy&confirm.login=false&cp_cd=
+            - generic [ref=e53]: LINE
+  - contentinfo [ref=e54]:
+    - generic [ref=e55]:
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "Chatbot" [ref=e58] [cursor=pointer]:
+            - /url: https://nca.naver.com/chat/account/view
+        - listitem [ref=e59]:
+          - link "Help" [ref=e60] [cursor=pointer]:
+            - /url: https://help.naver.com/service/5640/category/bookmark?lang=ko
+      - link "네이버" [ref=e62] [cursor=pointer]:
+        - /url: https://www.navercorp.com/
+        - generic [ref=e64]: 네이버

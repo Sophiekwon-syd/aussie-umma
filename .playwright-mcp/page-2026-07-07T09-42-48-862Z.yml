@@ -1,0 +1,6 @@
+- generic [active] [ref=f8e1]:
+  - heading "403 Authentication Required" [level=1] [ref=f8e2]
+  - paragraph [ref=f8e3]: To access mitmproxy, please enter the password or authentication token printed in the console.
+  - generic [ref=f8e4]:
+    - textbox [ref=f8e6]
+    - button "Submit" [ref=f8e7]

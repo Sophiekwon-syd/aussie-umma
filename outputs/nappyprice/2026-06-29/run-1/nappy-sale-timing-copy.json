@@ -1,0 +1,185 @@
+{
+  "topic": "When Supermarkets Put Nappies on Sale: The Timing Pattern Most Aussie Parents Miss",
+  "slug": "nappy-sale-timing",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "Timing & Sales",
+      "topic_badge_ko": "타이밍과 세일",
+      "headline": "Supermarkets Have a Nappy Sale <em>Pattern</em> You Can Use",
+      "headline_ko": "기저귀 세일에는 규칙이 있어요",
+      "subtitle": "Major Australian retailers change nappy promotions every six weeks. Once you know when, you can save $300–$500 a year.",
+      "subtitle_ko": "콜레스와 울울스 기저귀 세일은 예측 가능해요. 언제 사느냐로 연 $300-$500을 절약할 수 있어요."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "Most parents buy nappies every week without checking if a <strong>discount is coming in 2–3 weeks</strong>.",
+      "question_ko": "대부분의 부모들은 2~3주 뒤 세일을 모르고 매주 풀 가격에 기저귀를 사요.",
+      "answer": "Timing saves 20–40% on the same pack.",
+      "answer_ko": "언제 사느냐에 따라 같은 제품을 20~40% 더 싸게 살 수 있어요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "section_label_ko": "알아두기",
+      "term": "Nappy Sale Cycle",
+      "term_ko": "기저귀 세일 사이클",
+      "explanation": "Both Coles and Woolworths change their weekly specials every Wednesday morning at 8–9am AEST. Major brands like Huggies and BabyLove rotate in and out of <strong>promotion roughly every six weeks</strong>—creating predictable windows when you can buy at 20–40% off.",
+      "explanation_ko": "콜레스와 울울스는 매주 수요일 아침 8~9시에 세일을 바꿔요. 유기스, 베이비러브 같은 주요 브랜드는 약 6주마다 세일이 돌아와요. 그 시간에 사면 20~40% 할인을 받을 수 있어요.",
+      "punchline": "Predictable. Cyclical. Saves money.",
+      "punchline_ko": "예측 가능하고, 반복돼요. 돈을 절약해요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "The Numbers",
+      "section_label_ko": "숫자로 보기",
+      "headline": "20–40% Off, Every <em>Six Weeks</em>",
+      "headline_ko": "6주마다 20~40% 세일",
+      "chips": ["6-week cycle", "20–40% off", "6–8 nappies/day", "$300–$500/year"],
+      "chips_ko": ["6주 주기", "20~40% 할인", "일 6~8장", "연 $300-$500 절약"],
+      "explanation": "A typical Australian baby uses 6–8 nappies daily after newborn stage. Over a year, that costs $300–$700 in mid-range brands. Smart timing on just four sale cycles can save $300–$500 annually."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "Build the Habit",
+      "section_label_ko": "습관 만들기",
+      "headline": "Make Wednesday Morning Your Sale Check",
+      "headline_ko": "수요일 아침을 세일 체크 시간으로",
+      "entries": [
+        {
+          "label": "WED 8:30am",
+          "label_ko": "수요일 8시 30분",
+          "text": "Set a phone reminder. Open the Coles Flybuys and Woolworths Rewards apps and check the latest <strong>nappy specials</strong>.",
+          "text_ko": "휴대폰 알림을 설정해요. 콜레스 플라이바이스와 울울스 리워드 앱을 열고 기저귀 세일을 확인해요."
+        },
+        {
+          "label": "WED–TUE",
+          "label_ko": "수~화요일",
+          "text": "Specials run for seven days (Wednesday to Tuesday). Plan your shopping window before bestsellers run out.",
+          "text_ko": "세일은 7일 동안 돼요. 인기 상품이 떨어지기 전에 사야 돼요."
+        },
+        {
+          "label": "4–6 WEEKS",
+          "label_ko": "4~6주",
+          "text": "Track the pattern yourself: record prices every time you see your preferred brand on special. After 6–8 weeks, the cycle becomes <strong>obvious</strong>.",
+          "text_ko": "세일에 나온 가격을 기록해요. 6~8주 후면 패턴이 보여요."
+        }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "How to Spot Cycles",
+      "section_label_ko": "세일 타이밍 알아내기",
+      "headline": "Three Ways to Track the Pattern",
+      "headline_ko": "세일을 추적하는 3가지 방법",
+      "items": [
+        {
+          "title": "Loyalty App Alerts",
+          "title_ko": "로열티 앱 알림",
+          "description": "Enable baby-care notifications in Coles Flybuys and Woolworths Rewards. You'll often get personalized offers 7–10 days before general specials.",
+          "description_ko": "콜레스와 울울스 앱에서 육아 용품 알림을 켜요. 일반 세일보다 먼저 맞춤 할인을 받을 수 있어요."
+        },
+        {
+          "title": "Check Weekly Catalogues",
+          "title_ko": "주간 카탈로그 확인",
+          "description": "Visit Coles and Woolworths websites or apps every Wednesday at 8:30am to see which brands are on promotion that week.",
+          "description_ko": "수요일 아침 8시 30분에 콜레스와 울울스 웹사이트를 확인해요. 그 주에 어떤 브랜드가 세일인지 볼 수 있어요."
+        },
+        {
+          "title": "Check OzBargain & Forums",
+          "title_ko": "오즈버게인과 커뮤니티 확인",
+          "description": "Parents share what's on sale this week on OzBargain.com.au and Australian parenting Facebook groups. You'll spot patterns faster.",
+          "description_ko": "부모들이 오즈버게인과 페이스북 육아 그룹에서 이번 주 세일을 공유해요. 패턴을 더 빨리 알 수 있어요."
+        }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Start This Week",
+      "section_label_ko": "이번 주 시작하기",
+      "headline": "Four Actions to Take Right Now",
+      "headline_ko": "지금 할 4가지",
+      "intro": "You don't need an app or special skill. Just these four simple steps.",
+      "intro_ko": "복잡한 앱이나 기술은 필요 없아요. 이 4가지만 해도 돼요.",
+      "items": [
+        "Add a Wednesday 8:30am reminder to your phone",
+        "수요일 아침 8시 30분 휴대폰 알림 설정하기",
+        "Open Coles Flybuys and Woolworths Rewards apps and enable baby-care notifications",
+        "콜레스와 울울스 앱에서 육아용품 알림 켜기",
+        "Visit OzBargain.com.au or a parenting Facebook group and note what's on sale this week",
+        "오즈버게인 또는 페이스북 육아 그룹에서 이번 주 세일 확인하기",
+        "Record your current nappy spend by saving three weeks of receipt prices in a notes app",
+        "지난 3주 기저귀 가격을 기록해서 현재 지출액 파악하기"
+      ],
+      "takeaway": "Once you know the pattern, you'll never overpay again.",
+      "takeaway_ko": "패턴을 알면 풀 가격으로 사지 않아요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "Bulk Buy on Sale. Don't Hoard the Wrong Size.",
+      "headline_ko": "세일 때 대량 구매해요. 사이즈는 신중하게.",
+      "do": [
+        "Buy 8–12 weeks of supplies when nappies go on sale (400–600 nappies if baby uses ~50/week). Your discount multiplies.",
+        "세일 때 8~12주분 사기 (아기가 주 50장 쓰면 400~600장). 할인이 쌓여요.",
+        "Track your baby's size and check when they typically size up. Plan bulk buys around that timeline.",
+        "아기의 기저귀 사이즈 기록하고 언제 올라가는지 알아두기. 그걸 기준으로 계획하기.",
+        "Compare unit price (price ÷ quantity) across pack sizes and brands. Bigger is not always cheaper per nappy.",
+        "한 장당 가격으로 비교하기. 큰 박스가 항상 더 싼 건 아니에요."
+      ],
+      "dont": [
+        "Don't buy full-price nappies this week if you know a sale is coming in 2–3 weeks. Wait for the cycle.",
+        "2~3주 안에 세일이 있을 것 같으면 지금 풀 가격에 사지 말아요. 세일을 기다려요.",
+        "Don't hoard six months of newborn nappies on a single sale. Babies size up every 2–3 months and you'll waste stock.",
+        "신생아 사이즈를 6개월치 사지 말아요. 아기가 2~3개월마다 올라가서 버리게 돼요.",
+        "Don't ignore budget supermarket brands (ALDI Mamia, Coles CUB, Woolworths Little Ones). A pack costs $0.15–$0.30 per nappy vs $0.30–$0.45 for mid-range.",
+        "알디, 콜레스 예산 브랜드를 무시하지 마세요. 한 장에 $0.15-$0.30vs 중급 브랜드 $0.30-$0.45."
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Map Your Cycle",
+      "section_label_ko": "세일 사이클 찾기",
+      "headline": "Three-Step Tracking Method",
+      "headline_ko": "3단계 추적법",
+      "steps": [
+        {
+          "title": "Record Price & Date",
+          "title_ko": "가격과 날짜 기록",
+          "description": "Every time you see your preferred nappy brand on sale in a Coles or Woolworths catalogue (in-store or app), write down the price, pack size, brand name, and date.",
+          "description_ko": "선호하는 기저귀 브랜드가 세일에 나올 때마다 가격, 박스 크기, 브랜드, 날짜를 기록해요."
+        },
+        {
+          "title": "Do This for 6–8 Weeks",
+          "title_ko": "6~8주 동안 계속",
+          "description": "Stick with it through at least 1–2 full cycles of each brand. Aim for 6–8 weeks of data before you look for the pattern.",
+          "description_ko": "각 브랜드 1~2번 세일을 보려면 최소 6~8주는 해야 해요. 그럼 패턴이 보여요."
+        },
+        {
+          "title": "Spot the Gap & Plan Ahead",
+          "title_ko": "간격을 찾고 계획하기",
+          "description": "If Huggies was on sale on June 1 and July 12, the gap is 41 days—roughly six weeks. Plan your next big buy to coincide with the predictable promotion window.",
+          "description_ko": "세일 날짜 사이의 간격을 보면 패턴이 보여요. 다음 큰 구매를 그 타이밍에 맞춰 해요."
+        }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "Stop Paying <em>Full Price</em>",
+      "headline_ko": "풀 가격에서 벗어나요",
+      "message": "Nappy sales follow a <strong>predictable six-week cycle</strong>. Timing your bulk buys saves $300–$500 annually—the biggest quick win for parents on a budget.",
+      "message_ko": "기저귀 세일은 예측 가능한 6주 주기예요. 타이밍을 맞춰서 사면 연 $300-$500을 절약할 수 있어요.",
+      "comment_prompt": "Which supermarket's sale cycle have you noticed? Share your pattern in the comments.",
+      "comment_prompt_ko": "어떤 마트의 세일 패턴을 찾아봤나요? 댓글에 공유해주세요."
+    }
+  ]
+}

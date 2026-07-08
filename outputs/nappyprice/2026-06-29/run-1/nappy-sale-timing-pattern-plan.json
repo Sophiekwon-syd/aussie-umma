@@ -1,0 +1,86 @@
+{
+  "topic": "When Supermarkets Put Nappies on Sale: The Timing Pattern Most Aussie Parents Miss",
+  "angle": "Understanding the predictable six-week sale cycle at Coles and Woolworths so parents can time bulk purchases for maximum savings—saving $300–$500 per year.",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "headline": "Supermarkets Have a Nappy Sale Pattern You Can Use",
+      "key_message": "Major Australian supermarkets don't run nappy sales randomly—they rotate brands in and out on a predictable six-week cycle, and knowing this pattern saves $300–$500 per year.",
+      "content_note": "Research angle: The Six-Week Rotation",
+      "layout_hint": "Bold headline with visual representation of a repeating cycle (calendar or circular icon). Clean, friendly design to signal opportunity rather than urgency."
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "headline": "Most Parents Pay Full Price When a Sale is Coming in 2–3 Weeks",
+      "key_message": "Many families buy nappies every week or two without checking if a discount is predictable soon. Timing changes everything—waiting a few weeks can save 20–40% on the same pack.",
+      "content_note": "Research: Practical tips and relatable scenarios",
+      "layout_hint": "Conversational tone with a visual contrast: full-price vs sale-price callout. Build empathy for the time-poor parent."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "headline": "What's a Nappy Sale Cycle?",
+      "key_message": "Both Coles and Woolworths change specials every Wednesday morning (8–9am AEST). Major nappy brands like Huggies and BabyLove rotate in and out of promotion approximately every six weeks, creating predictable windows when you can bulk-buy at 20–40% off.",
+      "content_note": "Research key facts: Wednesday update times, six-week rotation, 20–40% discount range",
+      "layout_hint": "Simple, clean definitions. Use small calendar/clock icons to reinforce timing. No brand names in copy—refer to 'major brands' or 'supermarket brands'."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "headline": "The Math: 20–40% Off, Every Six Weeks",
+      "key_message": "When nappies go on sale, discounts typically range 20–40% for major brands. A typical Australian baby uses 6–8 nappies daily, costing $300–$700 annually. Timing bulk purchases to sale windows can save $300–$500 per year.",
+      "content_note": "Research statistics: discount depth (20–40%), daily usage (6–8 nappies/day), annual cost range ($300–$700), annual savings potential ($300–$500)",
+      "layout_hint": "Bold numbers with clear comparisons. Cite source: 'Australian supermarket product rotation patterns; Happy Little Camper pricing data.' Avoid alarmism; frame as opportunity."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "headline": "Make It a Wednesday-Morning Habit",
+      "key_message": "Set a phone reminder for 8:30am every Wednesday to check Coles and Woolworths catalogues the moment specials update. Over 4–6 weeks, you'll see which brands cycle onto promotion first—then plan your bulk buy accordingly.",
+      "content_note": "Research practical tip: Wednesday update timing, 4–6 week tracking window to identify patterns",
+      "layout_hint": "Show a simple weekly rhythm: Wednesday check-in as part of the parent's routine (e.g. morning coffee time, school-run prep). Use time-slot visual hierarchy."
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "headline": "Three Ways to Spot Sale Cycles",
+      "key_message": "Track manually (set calendar reminders for predicted sale dates), use loyalty app alerts (Coles Flybuys and Woolworths Rewards send personalized nappy offers), or check multiple retailers weekly (Coles, Woolworths, Chemist Warehouse—different brands on sale on different weeks).",
+      "content_note": "Research angles: Loyalty Program Personalization; Practical tips about tracking, apps, and multi-retailer comparison",
+      "layout_hint": "Three distinct sections or columns: (1) Manual tracking, (2) Loyalty app alerts, (3) Multi-retailer check. Use consistent visual treatment for each approach."
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "headline": "Start This Week: Four Actions",
+      "key_message": "1) Add a Wednesday 8:30am reminder to your phone. 2) Open the Coles Flybuys and Woolworths Rewards apps and enable baby-care notifications. 3) Visit OzBargain.com.au to see what parents say is on sale this week. 4) Check your current nappy spend by recording three weeks of prices in a notes app.",
+      "content_note": "Research practical tips: reminders, loyalty apps, OzBargain community, price tracking",
+      "layout_hint": "Numbered checklist (1–4). Keep each action to one sentence. Visual or checkbox-style layout to signal doability."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "Do: Buy 8–12 Week Supply on Sale. Don't: Hoard the Wrong Size.",
+      "key_message": "DO: When nappies go on sale, buy 8–12 weeks of supplies (400–600 nappies if baby uses ~50/week) to maximize your discount savings. DON'T: Hoard six months of newborn nappies on a single sale—babies size up every 2–3 months and you may waste stock.",
+      "content_note": "Research do/don't examples: bulk-buy strategy, storage/size-progression timing",
+      "layout_hint": "Two-column contrast layout. DO column in friendly/positive tone; DON'T column in cautionary (but not alarmist) tone. Use visual weight to make the DO stand out."
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "headline": "Your First Step: Map the Cycle",
+      "key_message": "Step 1: Record the sale price for your preferred nappy brand every time you see it advertised in a Coles or Woolworths catalogue. Step 2: Do this for 6–8 weeks and note the date gaps. Step 3: When you spot a pattern (e.g. 'Huggies on sale every 6 weeks'), plan your next bulk purchase to align with that predictable window.",
+      "content_note": "Research practical tip: price tracking, six-week pattern recognition, predictive bulk-buying",
+      "layout_hint": "Numbered steps (1–3). Each step is actionable and builds toward the main insight. Use visual progression or arrows to show sequence."
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "Ready to Stop Overpaying?",
+      "key_message": "Knowing when nappies go on sale is one of the biggest money-savers for parents on a tight budget. Save this carousel so you can refer back to it as you track your first sale cycles. And share it with a parent who's still paying full price every week.",
+      "content_note": "Research: cost-saving potential ($300–$500/year), recurring theme: avoiding overspending traps",
+      "layout_hint": "Warm, empowering closing. Include clear save/share prompt. End with the CTA text from config.json: 'Save this →' (English) / '저장하기' (Korean). No urgency or fear framing."
+    }
+  ]
+}
