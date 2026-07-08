@@ -1,0 +1,86 @@
+{
+  "topic": "Nappy Unit Pricing Mastery",
+  "angle": "How to look past the box price and calculate cost-per-change to save hundreds of dollars a year.",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "headline": "Stop Overpaying: The <em>Unit Price</em> Trick",
+      "key_message": "Introduction to the concept of unit pricing for nappies to save parents money.",
+      "content_note": "Focus on looking past box prices.",
+      "layout_hint": "Standard Cover Layout"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "headline": "Are You Buying the Right Box?",
+      "key_message": "Rhetorical question questioning if parents assume the biggest box is always cheapest.",
+      "content_note": "Focus on the pain point of rising baby expenses.",
+      "layout_hint": "Standard Hook Layout"
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "headline": "What is Nappy Unit Pricing?",
+      "key_message": "Definition of unit pricing: calculating the cost of a single nappy inside the pack.",
+      "content_note": "Definition of Unit Pricing.",
+      "layout_hint": "Definition Card Layout"
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "headline": "The <em>Real Cost</em> of 8,000 Nappies",
+      "key_message": "Data point: a baby uses 6k-8k nappies, and the difference in unit price can save over $1,200.",
+      "content_note": "Nappy counts and lifetime costs.",
+      "layout_hint": "Data Chips Layout"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "headline": "Optimize Your Daily Nappy Routine",
+      "key_message": "Routine tip: Use store brands for frequent day changes and premium nappies for overnight.",
+      "content_note": "Hybrid nappy strategy routine.",
+      "layout_hint": "Routine Slot Layout"
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "headline": "Three Smart Ways to Buy",
+      "key_message": "Different approaches: Store Brand Loyalty vs. Premium Sale Chasing.",
+      "content_note": "Contrasting approaches to buying nappies.",
+      "layout_hint": "Categories Layout"
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "headline": "Your Smart Nappy Shopping Checklist",
+      "key_message": "Quick checks to ensure you're getting the best unit price.",
+      "content_note": "Practical steps checklist.",
+      "layout_hint": "Checklist Layout"
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "Do's and Don'ts of Nappy Shopping",
+      "key_message": "Comparison of good habits (checking shelf labels) vs bad habits (assuming big is cheap).",
+      "content_note": "Do's and Don'ts examples.",
+      "layout_hint": "Do/Don't Split Grid"
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "headline": "Three Steps to Instant Savings",
+      "key_message": "Simple workflow: Check unit price → Calculate if missing → Buy hybrid packs.",
+      "content_note": "Numbered steps to start today.",
+      "layout_hint": "Numbered Steps Layout"
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "Start <em>Saving</em> Today",
+      "key_message": "Call to action: Save this guide and share it with other budget-conscious parents.",
+      "content_note": "Closing CTA text.",
+      "layout_hint": "CTA Layout"
+    }
+  ]
+}

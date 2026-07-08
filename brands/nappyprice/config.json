@@ -1,0 +1,44 @@
+{
+  "brand": { "name": "NAPPYPRICE", "account": "@nappyprice" },
+
+  "content": {
+    "niche": "Helping parents in Australia cut the cost of nappies, wipes, and baby essentials. Practical, numbers-driven money-saving tips. Cards are bilingual: English primary with a smaller Korean subtitle.",
+    "target_audience": "Budget-conscious parents of babies and toddlers living in Australia. Korean-speaking parents are a core segment, so every card carries a Korean subtitle beneath the English.",
+    "tone": "A savvy, friendly deal-finding friend. Upbeat, concrete, never preachy. Lead with the practical tip, back it with a real number, end with a clear next step.",
+    "topics_to_avoid": [
+      "Medical or safety claims about specific products",
+      "Naming or criticising specific brands or retailers in card copy",
+      "Sponsored or affiliate-style framing",
+      "Time-sensitive live prices or current deals (deferred to phase 2)",
+      "Any tip whose accuracy depends on a price that changes week to week"
+    ],
+    "recurring_themes": [
+      "Cost-per-use / cost-per-change comparison",
+      "Wipes value and bulk-buying",
+      "Subscribe-and-save and sale-cycle timing",
+      "Reusable vs disposable trade-offs",
+      "Baby-essential starter checklists on a budget",
+      "Avoiding common overspending traps"
+    ],
+    "search_contexts": [
+      "Australian nappy and wipes pricing trends and cost-per-use analysis",
+      "Major Australian retailer baby-product sale cycles and timing",
+      "Reusable vs disposable nappy total-cost comparisons in Australia",
+      "Parenting forums and groups: how Australian parents save on nappies and wipes",
+      "Baby essentials budgeting guides for new Australian parents"
+    ],
+    "hashtags": "#nappyprice #babyonabudget #aussieparents #nappies #babyessentials #호주육아 #호주맘 #육아템",
+    "cta_text": { "en": "Save this →", "ko": "저장하기" }
+  },
+
+  "design": { "theme": "light-friendly", "accent_primary": "#FF6F5E", "accent_secondary": "#1FB6A6" },
+
+  "card": { "bilingual": true, "primary": "English", "subtitle": "Korean" },
+
+  "pipeline": {
+    "carousels_per_run": 1,
+    "card_count_range": [7, 11],
+    "default_target": 9,
+    "card_spine": ["cover", "hook", "...", "sheet", "cta"]
+  }
+}

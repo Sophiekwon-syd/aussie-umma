@@ -1,0 +1,246 @@
+{
+  "topic": "Cloth Nappies: The 7-Month Break-Even",
+  "slug": "cloth-nappies",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": {
+        "en": "NAPPY COSTS",
+        "ko": "기저귀 비용"
+      },
+      "headline": {
+        "en": "8,000 nappies. One decision. <em>Break-even in 7 months.</em>",
+        "ko": "8,000장의 기저귀. 한 가지 선택. <em>7개월 만에 본전 찬다.</em>"
+      },
+      "subtitle": {
+        "en": "How to cut your nappy spend in half.",
+        "ko": "기저귀 비용을 반으로 줄이는 방법."
+      }
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": {
+        "en": "You're spending $2,500+ on nappies by toilet training. <strong>Want to cut that in half?</strong>",
+        "ko": "배변훈련까지 기저귀에 2,500달러 이상을 쓰고 있어요. <strong>그 돈을 반으로 줄일 수 있다면?</strong>"
+      },
+      "answer": {
+        "en": "Cloth nappies pay for themselves in 7 months. Then you're banking $400–$600 a year.",
+        "ko": "천 기저귀는 7개월 안에 본전이 돌아와요. 그 이후로는 매년 400~600달러씩 절약된답니다."
+      }
+    },
+    {
+      "card": 3,
+      "type": "big_number",
+      "section_label": {
+        "en": "THE COST DIFFERENCE",
+        "ko": "비용 차이"
+      },
+      "value": {
+        "en": "$2,500–$4,000",
+        "ko": "$2,500–$4,000"
+      },
+      "label": {
+        "en": "Disposable nappies (birth to toilet training)",
+        "ko": "일회용 기저귀 (출생부터 배변훈련까지)"
+      },
+      "context": {
+        "en": "Cloth nappies cost under $1,000 total, including washing.",
+        "ko": "천 기저귀는 세탁비를 포함해도 $1,000 미만이에요."
+      }
+    },
+    {
+      "card": 4,
+      "type": "statement",
+      "statement": {
+        "en": "Modern cloth nappies aren't your parents' cloth nappies. <strong>They're easier to use, wash, and way less stinky when done right.</strong>",
+        "ko": "현대식 천 기저귀는 부모님 세대의 천 기저귀가 아니에요. <strong>사용하기도 쉽고, 세탁도 간단하고, 제대로 하면 냄새도 거의 안 난답니다.</strong>"
+      }
+    },
+    {
+      "card": 5,
+      "type": "split",
+      "left": {
+        "value": {
+          "en": "$0.50",
+          "ko": "$0.50"
+        },
+        "label": {
+          "en": "Per nappy",
+          "ko": "한 장당"
+        },
+        "tone": "cost"
+      },
+      "right": {
+        "value": {
+          "en": "$0.09",
+          "ko": "$0.09"
+        },
+        "label": {
+          "en": "Per nappy",
+          "ko": "한 장당"
+        },
+        "tone": "save"
+      },
+      "caption": {
+        "en": "Disposable vs cloth, amortised after year 1.",
+        "ko": "일회용 vs 천 기저귀, 1년 후 평균 비용."
+      }
+    },
+    {
+      "card": 6,
+      "type": "definition",
+      "section_label": {
+        "en": "WHAT IT MEANS",
+        "ko": "의미"
+      },
+      "term": {
+        "en": "Break-Even",
+        "ko": "본전점 (Break-Even)"
+      },
+      "explanation": {
+        "en": "The month when cloth nappy savings equal your upfront cost. For Australian families, that's around <strong>7 months of daily use</strong>.",
+        "ko": "천 기저귀 절약액이 초기 구매 비용과 같아지는 시점이에요. 호주 가정의 경우, <strong>매일 사용했을 때 약 7개월</strong> 정도예요."
+      },
+      "punchline": {
+        "en": "After break-even, every nappy is profit.",
+        "ko": "본전을 찬 이후로는 매 장마다 이득이에요."
+      }
+    },
+    {
+      "card": 7,
+      "type": "categories",
+      "section_label": {
+        "en": "THREE WAYS TO GO CLOTH",
+        "ko": "천 기저귀 사용 방법 3가지"
+      },
+      "headline": {
+        "en": "Pick what fits your life.",
+        "ko": "당신의 생활에 맞는 방법을 선택하세요."
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Full-time cloth (24-nappy stash)",
+            "ko": "풀타임 천 기저귀 (24장 세트)"
+          },
+          "description": {
+            "en": "Use cloth exclusively from birth. Upfront cost: $720–$1,000. Saves you $2,000+ over 2.5 years. Max savings.",
+            "ko": "출생부터 천 기저귀만 사용해요. 초기 비용: $720–$1,000. 2.5년간 $2,000 이상 절약. 최대 절감액."
+          }
+        },
+        {
+          "title": {
+            "en": "Hybrid or part-time (8–12 nappies)",
+            "ko": "혼합형 또는 부분 사용 (8~12장)"
+          },
+          "description": {
+            "en": "Use cloth at home, disposables on outings. Upfront cost: $240–$500. Saves you $1,000+ over 2.5 years. Less commitment.",
+            "ko": "집에서는 천 기저귀, 외출할 땐 일회용을 써요. 초기 비용: $240–$500. 2.5년간 $1,000 이상 절약. 부담 적음."
+          }
+        },
+        {
+          "title": {
+            "en": "Overnight boost (cloth day, disposable night)",
+            "ko": "야간 부스트 (낮에는 천, 밤에는 일회용)"
+          },
+          "description": {
+            "en": "Use cloth full-time during the day, switch to disposables overnight. Captures 70–80% of total savings.",
+            "ko": "낮에는 천 기저귀, 밤에는 일회용을 써요. 전체 절약액의 70~80%를 챙길 수 있어요."
+          }
+        }
+      ]
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": {
+        "en": "Getting started (and what to skip).",
+        "ko": "시작하기 (그리고 피해야 할 것들)."
+      },
+      "do": [
+        {
+          "en": "Start with a trial stash of 8–12 nappies on weekends.",
+          "ko": "주말에 8~12장 정도로 시작해서 시험해보세요."
+        },
+        {
+          "en": "Use your council's cloth nappy rebate (up to $200).",
+          "ko": "지역 의회의 천 기저귀 리베이트($200까지)를 활용하세요."
+        },
+        {
+          "en": "Track your nappy spending for one month before deciding.",
+          "ko": "결정하기 전에 한 달간 기저귀 비용을 기록해보세요."
+        }
+      ],
+      "dont": [
+        {
+          "en": "Don't assume cloth nappies smell bad.",
+          "ko": "천 기저귀가 냄새 난다고 생각하지 마세요."
+        },
+        {
+          "en": "Don't commit to 24 nappies immediately.",
+          "ko": "처음부터 24장을 사지 마세요."
+        },
+        {
+          "en": "Don't forget to check secondhand options and apply for all available rebates.",
+          "ko": "중고 기저귀와 모든 리베이트 프로그램을 확인하는 걸 잊지 마세요."
+        }
+      ]
+    },
+    {
+      "card": 9,
+      "type": "sheet",
+      "tag": {
+        "en": "CHEAT SHEET",
+        "ko": "참고 자료"
+      },
+      "title": {
+        "en": "Cloth Nappy Break-Even: The Numbers",
+        "ko": "천 기저귀 본전점: 숫자로 정리"
+      },
+      "rows": [
+        {
+          "en": "8,000 nappies: birth to toilet training",
+          "ko": "8,000장: 출생부터 배변훈련까지"
+        },
+        {
+          "en": "$2,500–$4,000: cost of disposables (2.5–3 years)",
+          "ko": "$2,500–$4,000: 일회용 기저귀 비용 (2.5~3년)"
+        },
+        {
+          "en": "Under $1,000: cost of cloth nappies (including washing)",
+          "ko": "$1,000 미만: 천 기저귀 비용 (세탁료 포함)"
+        },
+        {
+          "en": "7 months: break-even timeline (full-time use)",
+          "ko": "7개월: 본전 기간 (풀타임 사용)"
+        },
+        {
+          "en": "$400–$600: annual savings per child after break-even",
+          "ko": "연간 $400~$600: 아이당 본전 이후 절약액"
+        }
+      ],
+      "footnote": {
+        "en": "Figures based on average Australian nappy costs and council rebate data.",
+        "ko": "호주 기저귀 평균 비용 및 지역 의회 리베이트 데이터 기준."
+      }
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": {
+        "en": "Ready to save $2,000? <em>Save this carousel</em> + share with a parent drowning in nappy costs.",
+        "ko": "$2,000을 절약할 준비가 되셨나요? <em>이 캐러셀을 저장하고</em> 기저귀 비용 때문에 힘들어하는 부모님과 공유하세요."
+      },
+      "message": {
+        "en": "The math checks out. And modern cloth nappies are way easier than you think.",
+        "ko": "계산은 맞아요. 그리고 현대식 천 기저귀는 생각보다 훨씬 쉬워요."
+      },
+      "comment_prompt": {
+        "en": "Have you tried cloth nappies? What was your break-even timeline?",
+        "ko": "천 기저귀를 써본 적 있으세요? 당신의 본전점은 몇 개월이었나요?"
+      }
+    }
+  ]
+}

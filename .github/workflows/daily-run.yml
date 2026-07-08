@@ -1,8 +1,7 @@
 name: Daily Carousel
 on:
   schedule:
-    - cron: '30 17 * * *'   # 2:30am KST (UTC+9 → 17:30 UTC)
-    - cron: '30 7 * * *'    # 5:30pm AEST (UTC+10 → 07:30 UTC)
+    - cron: '0 16 * * *'    # 2:00am AEST Sydney (UTC+10 → 16:00 UTC); ~3am during AEDT (cron is UTC, no DST)
   workflow_dispatch:
 
 permissions:
@@ -28,7 +27,7 @@ jobs:
       - name: Run daily pipeline
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: claude --dangerously-skip-permissions -p "/daily-run"
+        run: claude --dangerously-skip-permissions -p "/daily-run aussie-umma"
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v5
@@ -45,6 +44,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add outputs/ topic-memory.json
+          git add outputs/ brands/*/topic-memory.json
           git diff --cached --quiet || git commit -m "carousel: ${{ github.run_id }}"
           git push origin main

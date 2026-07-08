@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "AUSSIE UMMA",
-    "account": "@aussie.umma"
+    "account": "@nappyprice"
   },
 
   "content": {
@@ -40,8 +40,10 @@
     "accent_secondary": "#3B82F6"
   },
 
+  "card": { "bilingual": false, "primary": "Korean" },
+
   "pipeline": {
-    "carousels_per_run": 2,
+    "carousels_per_run": 1,
     "cards_per_carousel": 10
   }
 }

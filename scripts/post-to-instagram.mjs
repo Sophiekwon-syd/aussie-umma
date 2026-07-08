@@ -1,26 +1,28 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { resolveBrandSecrets, formatCta } from './post-to-instagram.helpers.mjs';
 
 const API = 'https://graph.facebook.com/v21.0';
-const IG_TOKEN = process.env.IG_ACCESS_TOKEN;
-const IG_USER_ID = process.env.IG_USER_ID;
-const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/aussie-umma';
-const REF = process.env.GITHUB_SHA || 'main';
 const DELAY_BETWEEN_POSTS_MS = 60_000;
 const POLL_INTERVAL_MS = 5_000;
 const POLL_MAX_TRIES = 36;
+
+const args = parseArgs(process.argv.slice(2));
+const brand = args.brand || 'aussie-umma';
+const { token: IG_TOKEN, userId: IG_USER_ID } = resolveBrandSecrets(brand, process.env);
+const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/nappyprice';
+const REF = process.env.GITHUB_SHA || 'main';
 
 if (!IG_TOKEN || !IG_USER_ID) {
   console.error('IG_ACCESS_TOKEN and IG_USER_ID env vars are required.');
   process.exit(1);
 }
 
-const args = parseArgs(process.argv.slice(2));
 const date = args.date || new Date().toISOString().slice(0, 10);
-const baseDir = path.join('outputs', date);
+const baseDir = path.join('outputs', brand, date);
 
-const config = JSON.parse(await fs.readFile('config.json', 'utf8'));
+const config = JSON.parse(await fs.readFile(path.join('brands', brand, 'config.json'), 'utf8'));
 
 const runDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
   .filter((e) => e.isDirectory() && /^run-\d+$/.test(e.name))
@@ -176,9 +178,9 @@ function buildCaption(copy, topicEntry, config) {
   const cover = copy.cards.find((c) => c.type === 'cover') || {};
   const headline = stripHtml(cover.headline_accent ? `${cover.headline} ${cover.headline_accent}` : cover.headline || topicEntry.topic);
   const subtitle = stripHtml(cover.subtitle || '');
-  const cta = config.content?.cta_text || '';
+  const cta = formatCta(config.content?.cta_text);
   const handle = config.brand?.account || '';
-  const tags = '#호주육아 #호주맘 #한국엄마 #호주생활 #육아정보 #aussiemum #aussieumma';
+  const tags = config.content?.hashtags || '';
   return [headline, subtitle, '', [cta, handle].filter(Boolean).join(' '), '', tags]
     .filter((line) => line !== undefined)
     .join('\n');

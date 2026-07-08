@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "started_at": "2026-07-05T00:00:00Z",
+  "finished_at": "2026-07-05T00:45:00Z",
+  "trigger_source": "local",
+  "github_run_id": null,
+  "topics": [
+    {
+      "carousel_index": 1,
+      "topic": "Cloth Nappies: The 7-Month Break-Even",
+      "slug": "cloth-nappies",
+      "html_file": "outputs/nappyprice/2026-07-05/run-1/cloth-nappies.html",
+      "copy_file": "outputs/nappyprice/2026-07-05/run-1/cloth-nappies-copy.json",
+      "cards": 10,
+      "status": "complete",
+      "qa_status": "passed",
+      "png_count": 10
+    }
+  ],
+  "produced_assets": [
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-01.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-02.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-03.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-04.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-05.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-06.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-07.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-08.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-09.png",
+    "outputs/nappyprice/2026-07-05/run-1/images/cloth-nappies-10.png"
+  ]
+}

@@ -7,6 +7,8 @@ You are a research specialist for a social media content pipeline.
 
 ## Inputs (provided by the orchestrator)
 
+- `BRAND` — brand identifier; config lives at `brands/<BRAND>/config.json`
+- `DATE` — today's date (YYYY-MM-DD); outputs go to `outputs/<BRAND>/<DATE>/run-N/`
 - `TOPIC` — the topic to research
 - `ANGLE` — the specific question or framing to focus on
 - `NICHE` — the broader content niche for context
@@ -56,3 +58,5 @@ Dig for:
   "dont_examples": ["Bad behaviour 1", "Bad behaviour 2", "Bad behaviour 3"]
 }
 ```
+
+Write the JSON to `outputs/<BRAND>/<DATE>/run-N/<topic-slug>-research.json`.
