@@ -1,240 +1,78 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { resolveBrandSecrets, formatCta } from './post-to-instagram.helpers.mjs';
 
 const API = 'https://graph.facebook.com/v21.0';
-const DELAY_BETWEEN_POSTS_MS = 60_000;
-const POLL_INTERVAL_MS = 5_000;
-const POLL_MAX_TRIES = 36;
 
-const args = parseArgs(process.argv.slice(2));
-const brand = args.brand || 'aussie-umma';
-const { token: IG_TOKEN, userId: IG_USER_ID } = resolveBrandSecrets(brand, process.env);
-const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/nappyprice';
+const REPO = process.env.GITHUB_REPOSITORY || 'Sophiekwon-syd/content-pipeline';
 const REF = process.env.GITHUB_SHA || 'main';
 
+const IG_TOKEN = process.env.IG_ACCESS_TOKEN;
+const IG_USER_ID = process.env.IG_USER_ID;
 if (!IG_TOKEN || !IG_USER_ID) {
   console.error('IG_ACCESS_TOKEN and IG_USER_ID env vars are required.');
   process.exit(1);
 }
 
-const date = args.date || new Date().toISOString().slice(0, 10);
-const baseDir = path.join('outputs', brand, date);
+const dateArgIdx = process.argv.indexOf('--date');
+const date = dateArgIdx >= 0 ? process.argv[dateArgIdx + 1] : new Date().toISOString().slice(0, 10);
+const baseDir = path.join('outputs', date);
 
-const config = JSON.parse(await fs.readFile(path.join('brands', brand, 'config.json'), 'utf8'));
-
-const runDirs = (await fs.readdir(baseDir, { withFileTypes: true }))
-  .filter((e) => e.isDirectory() && /^run-\d+$/.test(e.name))
-  .map((e) => path.join(baseDir, e.name))
-  .sort((a, b) => {
-    const na = Number(path.basename(a).slice(4));
-    const nb = Number(path.basename(b).slice(4));
-    return na - nb;
-  });
-
-if (runDirs.length === 0) {
-  console.error(`No run-N/ subdirectories found in ${baseDir} — nothing to post.`);
-  process.exit(1);
+let slugs;
+try {
+  slugs = (await fs.readdir(baseDir, { withFileTypes: true }))
+    .filter((e) => e.isDirectory())
+    .map((e) => e.name);
+} catch {
+  console.log(`No outputs directory for ${date} — nothing to post.`);
+  process.exit(0);
 }
-
-const allTopics = [];
-for (const runDir of runDirs) {
-  try {
-    const log = JSON.parse(await fs.readFile(path.join(runDir, 'run-log.json'), 'utf8'));
-    for (const t of log.topics || []) {
-      allTopics.push({ ...t, _runDir: runDir });
-    }
-  } catch (err) {
-    console.warn(`[skip run] ${runDir} — cannot read run-log.json: ${err.message}`);
-  }
-}
-console.log(`Discovered ${runDirs.length} run(s), ${allTopics.length} topic(s) total.`);
+console.log(`Found ${slugs.length} topic(s): ${slugs.join(', ')}`);
 
 const logPath = path.join(baseDir, 'instagram-log.json');
-const existingResults = await readExistingResults(logPath);
-const alreadyPostedSlugs = new Set(existingResults.map((r) => r.slug));
-if (alreadyPostedSlugs.size > 0) {
-  console.log(`Found existing instagram-log.json with ${alreadyPostedSlugs.size} posted slug(s): ${[...alreadyPostedSlugs].join(', ')}`);
-}
+let posted = [];
+try { posted = JSON.parse(await fs.readFile(logPath, 'utf8')); } catch {}
 
-const results = [...existingResults];
-let topicIndex = 0;
-let postedThisRun = 0;
+for (const slug of slugs) {
+  if (posted.includes(slug)) { console.log(`[skip] ${slug} — already posted`); continue; }
 
-for (const topic of allTopics) {
-  topicIndex += 1;
-
-  const passedQa = topic.qa_status === 'passed';
-  const statusOk = topic.status === 'success' || topic.status === 'complete';
-  if (!passedQa && !statusOk) {
-    console.log(`[skip] ${topic.topic} — qa_status=${topic.qa_status} status=${topic.status}`);
-    continue;
-  }
-
-  const htmlFile = topic.html_file || topic.carousel_file;
-  if (!htmlFile) {
-    console.log(`[skip] ${topic.topic} — no html_file/carousel_file in run-log`);
-    continue;
-  }
-  const slug = path.basename(htmlFile, '.html');
-
-  if (alreadyPostedSlugs.has(slug)) {
-    console.log(`[skip] ${slug} — already posted (in instagram-log.json)`);
-    continue;
-  }
-
-  const runDir = topic._runDir;
-  const imgDir = path.join(runDir, 'images');
-  const files = (await fs.readdir(imgDir))
-    .filter((f) => f.startsWith(`${slug}-`) && f.endsWith('.png'))
-    .sort();
-
-  if (files.length !== 10) {
-    console.error(`[skip] ${slug} — expected 10 images in ${imgDir}, found ${files.length}`);
-    continue;
-  }
-
-  const runDirUrl = runDir.split(path.sep).join('/');
-  const urls = files.map(
-    (f) => `https://raw.githubusercontent.com/${REPO}/${REF}/${runDirUrl}/images/${f}`,
-  );
-
-  const copyFile = topic.copy_file
-    ? path.basename(topic.copy_file)
-    : `copy_${topic.carousel_index}.json`;
-  const copyPath = path.join(runDir, copyFile);
-  const copy = JSON.parse(await fs.readFile(copyPath, 'utf8'));
-  const caption = buildCaption(copy, topic, config);
-
-  console.log(`\n[${topicIndex}/${allTopics.length}] ${topic.topic}`);
-  console.log(`  run=${path.basename(runDir)}  slug=${slug}  images=${urls.length}`);
-
-  if (postedThisRun > 0) {
-    console.log(`  pausing ${DELAY_BETWEEN_POSTS_MS / 1000}s before next post...`);
-    await sleep(DELAY_BETWEEN_POSTS_MS);
-  }
-
-  const childIds = [];
-  for (let i = 0; i < urls.length; i++) {
-    const id = await createContainer({ image_url: urls[i], is_carousel_item: 'true' });
-    console.log(`  item ${String(i + 1).padStart(2, '0')}: container=${id}`);
-    childIds.push(id);
-  }
-
-  const carouselId = await createContainer({
-    media_type: 'CAROUSEL',
-    children: childIds.join(','),
-    caption,
-  });
-  console.log(`  carousel: container=${carouselId}`);
-
-  await waitForReady(carouselId);
-
-  const postId = await publish(carouselId);
-  console.log(`  PUBLISHED: ${postId}`);
-
-  results.push({
-    topic: topic.topic,
-    slug,
-    carousel_container_id: carouselId,
-    ig_media_id: postId,
-    image_urls: urls,
-    posted_at: new Date().toISOString(),
-  });
-  postedThisRun += 1;
-}
-
-if (postedThisRun === 0) {
-  if (results.length === 0) {
-    console.log(`\nNo new posts to publish — 0 eligible topics across ${runDirs.length} run(s) in ${baseDir}.`);
-  } else {
-    console.log(`\nNo new posts to publish — all eligible topics already in ${logPath}.`);
-  }
-} else {
-  await fs.writeFile(
-    logPath,
-    JSON.stringify(
-      { date, last_run_at: new Date().toISOString(), repo: REPO, ref: REF, results },
-      null,
-      2,
-    ),
-  );
-  console.log(`\nWrote ${logPath} — ${postedThisRun} new post(s) this run, ${results.length} total.`);
-}
-
-async function readExistingResults(p) {
+  const imgDir = path.join(baseDir, slug, 'carousel', 'images');
+  let files;
   try {
-    const raw = await fs.readFile(p, 'utf8');
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed.results) ? parsed.results.filter((r) => r.ig_media_id) : [];
-  } catch (err) {
-    if (err.code === 'ENOENT') return [];
-    throw err;
+    files = (await fs.readdir(imgDir)).filter((f) => f.startsWith('card-') && f.endsWith('.png')).sort();
+  } catch { console.log(`[skip] ${slug} — no images/`); continue; }
+  if (!files.length) { console.log(`[skip] ${slug} — no PNGs`); continue; }
+
+  console.log(`Posting ${slug}: ${files.length} images`);
+
+  const urls = files.map((f) => `https://raw.githubusercontent.com/${REPO}/${REF}/${path.join(baseDir, slug, 'carousel', 'images', f)}`);
+
+  const itemIds = [];
+  for (const url of urls) {
+    const res = await fetch(`${API}/${IG_USER_ID}/media?image_url=${encodeURIComponent(url)}&access_token=${IG_TOKEN}`, { method: 'POST' });
+    const d = await res.json();
+    if (d.id) { itemIds.push(d.id); console.log(`  image: ${d.id}`); }
+    else { console.error(`  image fail: ${JSON.stringify(d)}`); }
   }
+  if (!itemIds.length) { console.error(`[fail] ${slug}`); continue; }
+
+  let caption = '호주 육아 정보 @aussie.umma\n\n#호주육아';
+  try {
+    const brief = await fs.readFile(path.join(baseDir, slug, 'brief.md'), 'utf8');
+    const m = brief.match(/^# Topic: (.+)$/m);
+    if (m) caption = `${m[1]}\n\n호주 육아 정보 @aussie.umma\n\n#호주육아 #호주도서관 #호주엄마`;
+  } catch {}
+
+  const cr = await fetch(`${API}/${IG_USER_ID}/media?caption=${encodeURIComponent(caption)}&media_type=CAROUSEL&children=${itemIds.join('%2C')}&access_token=${IG_TOKEN}`, { method: 'POST' });
+  const cj = await cr.json();
+  if (!cj.id) { console.error(`[fail] carousel: ${JSON.stringify(cj)}`); continue; }
+  console.log(`  carousel: ${cj.id}`);
+
+  const pr = await fetch(`${API}/${IG_USER_ID}/media_publish?creation_id=${cj.id}&access_token=${IG_TOKEN}`, { method: 'POST' });
+  const pj = await pr.json();
+  if (pj.id) { console.log(`  published: ${pj.id}`); posted.push(slug); }
+  else { console.error(`  publish fail: ${JSON.stringify(pj)}`); }
 }
 
-function buildCaption(copy, topicEntry, config) {
-  const cover = copy.cards.find((c) => c.type === 'cover') || {};
-  const headline = stripHtml(cover.headline_accent ? `${cover.headline} ${cover.headline_accent}` : cover.headline || topicEntry.topic);
-  const subtitle = stripHtml(cover.subtitle || '');
-  const cta = formatCta(config.content?.cta_text);
-  const handle = config.brand?.account || '';
-  const tags = config.content?.hashtags || '';
-  return [headline, subtitle, '', [cta, handle].filter(Boolean).join(' '), '', tags]
-    .filter((line) => line !== undefined)
-    .join('\n');
-}
-
-function stripHtml(s) {
-  return (s || '').replace(/<[^>]+>/g, '').trim();
-}
-
-async function createContainer(params) {
-  const body = new URLSearchParams({ ...params, access_token: IG_TOKEN });
-  const r = await fetch(`${API}/${IG_USER_ID}/media`, { method: 'POST', body });
-  const j = await r.json();
-  if (!r.ok || !j.id) {
-    throw new Error(`createContainer failed: ${JSON.stringify(j)}`);
-  }
-  return j.id;
-}
-
-async function publish(creationId) {
-  const body = new URLSearchParams({ creation_id: creationId, access_token: IG_TOKEN });
-  const r = await fetch(`${API}/${IG_USER_ID}/media_publish`, { method: 'POST', body });
-  const j = await r.json();
-  if (!r.ok || !j.id) {
-    throw new Error(`publish failed: ${JSON.stringify(j)}`);
-  }
-  return j.id;
-}
-
-async function waitForReady(id) {
-  for (let i = 0; i < POLL_MAX_TRIES; i++) {
-    const r = await fetch(`${API}/${id}?fields=status_code&access_token=${IG_TOKEN}`);
-    const j = await r.json();
-    if (j.status_code === 'FINISHED') return;
-    if (j.status_code === 'ERROR' || j.status_code === 'EXPIRED') {
-      throw new Error(`container ${id} reached terminal state ${j.status_code}: ${JSON.stringify(j)}`);
-    }
-    await sleep(POLL_INTERVAL_MS);
-  }
-  throw new Error(`container ${id} not FINISHED after ${POLL_MAX_TRIES} polls`);
-}
-
-function parseArgs(argv) {
-  const out = {};
-  for (let i = 0; i < argv.length; i++) {
-    if (argv[i].startsWith('--')) {
-      const key = argv[i].slice(2);
-      const val = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : 'true';
-      out[key] = val;
-    }
-  }
-  return out;
-}
-
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
+await fs.writeFile(logPath, JSON.stringify(posted, null, 2));
+console.log(`Done. Posted ${posted.length}.`);
