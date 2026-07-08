@@ -1,0 +1,13 @@
+{
+  "brand": "aussie-umma", "date": "2026-07-09", "run": 1,
+  "topics": [{
+    "slug": "mchn-green-book-guide",
+    "title": "호주 MCHN 무료 아기 건강검진",
+    "topic": "호주 MCHN 무료 아기 건강검진",
+    "caption": "호주에서는 아기가 태어나는 순간부터 5세까지 무료 건강검진을 집 근처에서 받을 수 있어요. MCHN이 Green Book을 주고 예약도 알아서 잡아줘요.",
+    "card_count": 10, "language": "ko",
+    "qa_status": "passed", "status": "success",
+    "carousel_file": "mchn-green-book-guide.html",
+    "carousel_index": 1
+  }]
+}
