@@ -1,0 +1,46 @@
+{
+  "cards": [
+    {
+      "type": "cover",
+      "headline": "호주 도서관",
+      "headline_accent": "무료 육아 프로그램",
+      "subtitle": "당신 동네에도 이미 있어요"
+    },
+    {
+      "type": "hook",
+      "headline": "나도 처음엔 몰랐어요."
+    },
+    {
+      "type": "body",
+      "headline": "전부 무료예요."
+    },
+    {
+      "type": "body",
+      "headline": "0-12개월 Baby Rhyme Time"
+    },
+    {
+      "type": "body",
+      "headline": "1-3세 Toddler Time"
+    },
+    {
+      "type": "body",
+      "headline": "3-5세 Storytime"
+    },
+    {
+      "type": "statement",
+      "headline": "육아는 혼자 하는 게 아니에요"
+    },
+    {
+      "type": "body",
+      "headline": "영어 못해도 괜찮아요"
+    },
+    {
+      "type": "sheet",
+      "headline": "찾는 법 진짜 쉬워요"
+    },
+    {
+      "type": "cta",
+      "headline": "집 근처 도서관 한 번만 검색해보세요"
+    }
+  ]
+}
