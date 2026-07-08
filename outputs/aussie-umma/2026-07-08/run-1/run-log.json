@@ -6,9 +6,13 @@
     {
       "slug": "library-free-kids-programs",
       "title": "호주 도서관 무료 육아 프로그램",
+      "topic": "호주 도서관 무료 육아 프로그램",
       "caption": "호주에 살면서 매주 도서관에서 열리는 무료 아기 수업이 있다는 거, 알고 있었나요? Baby Rhyme Time, Toddler Time, Storytime까지. 전부 무료. 예약 불필요. 그냥 가면 돼요.",
       "card_count": 10,
-      "language": "ko"
+      "language": "ko",
+      "qa_status": "passed",
+      "status": "success",
+      "carousel_file": "library-free-kids-programs.html"
     }
   ]
 }
