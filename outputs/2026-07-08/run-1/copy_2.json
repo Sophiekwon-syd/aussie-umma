@@ -1,0 +1,104 @@
+{
+  "topic": "Term 3 방과후 프로그램(OSHC) 자리 확보 전쟁: 워킹맘이 놓치면 안 되는 예약 타이밍",
+  "slug": "term3-oshc-reservation-timing",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "Term 3 방과후 프로그램",
+      "headline": "지금 확인 안 하면<br /><em>대기자 명단</em>에서 새 학기 시작",
+      "subtitle": "CCS 승인 문자, 그거 자리 확보 아니었어요"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "CCS 승인 문자 보고 안심했는데<br />방과후는 <strong>대기자 명단</strong>?",
+      "answer": "당황스러운 게 당연해요. 사실 이 둘은 완전히 다른 절차거든요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "OSHC",
+      "explanation": "'OSHC'를 검색하면 유학생 건강보험(Overseas Student Health Cover)이 먼저 뜨지만, 우리가 찾는 건 학교의 방과전후 돌봄인 <strong>Outside School Hours Care</strong>예요. 예약도 매주 고정되는 recurring booking과 필요할 때만 넣는 casual booking, 두 가지로 나뉘어요.",
+      "punchline": "매주 자리를 걸어두는 가정이, 사실상 그 자리를 먼저 차지하는 거예요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "Fact Check",
+      "headline": "<em>자격</em>과 자리는 다른 이야기예요",
+      "chips": ["3 Day Guarantee", "2주 72시간", "우선순위 3단계", "자리는 별도 신청"],
+      "explanation": "2026년 1월부터 3 Day Guarantee가 시행되면서, CCS 대상 가정은 2주에 최소 72시간(주 3일) 보조 보육을 보장받아요. 특정 사유가 있으면 100시간까지 늘어나요. 정부는 자리 우선순위도 3단계로 정해뒀어요. 1순위 학대·방임 위험 아동, 2순위 맞벌이·한부모 근로 요건 충족 가정, 3순위 그 외 아동이에요. (출처: Australian Government Department of Education) 하지만 이건 전부 '자격' 이야기예요. 방과후 자리는 제공업체에 따로 신청해야 생겨요."
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "Timeline",
+      "headline": "Term 3 준비, 3단계면 충분해요",
+      "entries": [
+        { "label": "지금", "text": "학교 공지나 포털에서 <strong>예약 오픈</strong> 여부부터 확인하세요." },
+        { "label": "이번 주", "text": "재원 중이어도 재등록이 자동인지 직접 물어보고, recurring booking을 걸어두세요." },
+        { "label": "학기 직전", "text": "이미 마감이라면 waitlist에 이름을 올리고 포털 알림을 켜두세요." }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "Options",
+      "headline": "자리 확보, 이 세 갈래 중 하나예요",
+      "items": [
+        { "title": "Recurring booking", "description": "매주 자리를 고정하는 방식이라, 사실상 우선 선점 효과가 있어요." },
+        { "title": "Casual booking", "description": "필요할 때만 넣는 방식이라, 마감되면 자리 잡기가 어려워요." },
+        { "title": "Waitlist", "description": "선착순으로 운영되고 등록은 무료이며, 자리가 나면 SMS나 이메일로 알려줘요." }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Today's To-do",
+      "headline": "오늘 바로 해볼 수 있는 것들",
+      "intro": "학기 시작 전, 이 네 가지만 확인해보세요.",
+      "items": [
+        "제공업체 포털에서 예약 오픈 여부 확인",
+        "재원 중이어도 재등록 자동 여부 직접 확인",
+        "맞벌이·한부모 근로 요건 제공업체에 전달",
+        "CCS 신청과 자리 확보, 두 트랙으로 동시 진행"
+      ],
+      "takeaway": "자격 신청과 자리 확보는 따로 챙겨야 해요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이것만은 기억해두세요",
+      "do": [
+        "학기 2~3주 전 예약 오픈 여부 확인",
+        "재등록 자동 여부 직접 확인",
+        "맞벌이 요건 명확히 전달 후 우선순위 문의"
+      ],
+      "dont": [
+        "CCS 승인만 믿고 예약 미루기",
+        "'OSHC' 검색 첫 결과를 방과후 정보로 착각",
+        "재등록 갱신일 놓치기"
+      ]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Action",
+      "headline": "지금 시작하는 3단계",
+      "steps": [
+        { "title": "예약 걸기", "description": "포털이나 학교 공지에서 예약 오픈을 확인하고, recurring booking으로 먼저 자리를 걸어두세요." },
+        { "title": "대기자 등록", "description": "이미 마감이라면 즉시 waitlist에 이름을 올리고, 맞벌이 등 우선순위 사유를 제공업체에 알리세요." },
+        { "title": "임시로 메우기", "description": "자리가 날 때까지 vacation care나 casual booking으로 채우면서, 포털 알림을 켜두고 정기적으로 확인하세요." }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "자격은 정부가,<br /><em>자리</em>는 내가",
+      "message": "CCS는 <strong>자격</strong>을 승인해줄 뿐이에요. 방과후 프로그램의 실제 자리는, 오늘 나의 확인과 신청이 만들어요.",
+      "comment_prompt": "이미 대기자 명단에 오르셨다면, 어떻게 하고 계신지 댓글로 나눠주세요"
+    }
+  ]
+}

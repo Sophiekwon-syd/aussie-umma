@@ -1,0 +1,64 @@
+{
+  "topic": "Term 3 방과후 프로그램(OSHC) 자리 확보 전쟁: 워킹맘이 놓치면 안 되는 예약 타이밍",
+  "angle": "직장맘이 OSHC(Outside School Hours Care) 예약 시스템을 이해하고, 이미 늦었더라도 자리를 확보하거나 대안을 찾을 수 있도록 돕는 것",
+  "summary": "호주의 방과후 돌봄(OSHC)은 학교가 아닌 Xplor Home, OSHClub, Camp Australia 같은 개별 제공업체 포털에서 따로 예약해야 하며, 학기 초에는 기존 이용 가족에게 먼저 예약 우선권이 주어지는 구조라 새로 신청하는 가정이 대기자 명단에 밀리기 쉽다. 다만 연방 정부의 'Priority of Access Guidelines'는 맞벌이 부모(Priority 2)와 비영어권 배경 가정에 실질적인 우선순위를 부여하고 있어, 워킹맘 가정이 생각보다 불리한 위치가 아니라는 점을 아는 것이 중요하다. CCS(보육료 보조금)는 OSHC에도 동일하게 적용되지만 등록과 신청 절차가 자동이 아니므로 별도로 챙겨야 한다.",
+  "definition": "OSHC(Outside School Hours Care)는 초등학생을 대상으로 학교 시작 전(Before School Care)과 방과 후(After School Care), 그리고 방학 중(Vacation Care)에 운영되는 돌봄 프로그램이다. 학교가 직접 운영하기도 하지만, 대부분 OSHClub, Camp Australia, Xplor 같은 외부 위탁 업체가 학교 부지 내에서 운영하며, 학부모는 학교가 아닌 해당 업체의 앱이나 웹포털을 통해 별도로 등록(enrolment)과 예약(booking)을 해야 한다. 주의: 한국어로 'OSHC'를 검색하면 대부분 유학생 의료보험(Overseas Student Health Cover) 관련 정보가 나오므로, 방과후 돌봄을 찾을 때는 반드시 영어로 'Outside School Hours Care' 또는 학교명 + 'OSHC/after school care'로 검색해야 한다.",
+  "key_facts": [
+    { "fact": "OSHC는 학교가 아니라 개별 위탁 업체(OSHClub, Camp Australia, Xplor 기반 학교 자체 운영 등)가 운영하며, 예약은 각 업체의 앱/웹포털(Xplor Home 앱, OSHClub 앱, Camp Australia 앱 등)에서 별도로 진행해야 한다. 예약 전에 먼저 'enrolment(등록)'을 완료해야 세션 예약이 가능하다.", "source": "OSHClub, Camp Australia, Xplor Education 공식 안내" },
+    { "fact": "예약 유형은 크게 정기 예약(Permanent/Early Bird)과 캐주얼 예약(Casual/Flexible/Last Minute)으로 나뉜다. 정기 예약은 매주 같은 요일에 자리를 고정 확보하는 방식으로 변경/취소 시 통상 2주 전 통보가 필요하며, 업체에 따라 15일 이상 미리 예약하면 요금 할인도 있다. 반면 캐주얼/라스트미닛 예약은 자리가 남아있을 때만 가능해 학기 초처럼 수요가 몰리는 시기엔 확보가 어렵다.", "source": "OSHClub 'Booking Types and Fees' 안내 페이지" },
+    { "fact": "많은 서비스가 신학기 직전, 기존 이용 가족에게 몇 주간의 '우선 예약 기간'을 먼저 주고, 그 기간이 끝난 뒤에야 신규 가족 예약/등록을 받는 구조로 운영된다. 즉 이미 다니고 있던 가정이 새로 등록하는 가정보다 구조적으로 유리하다.", "source": "OSHClub 등 업체 운영 안내(연간 재등록 프로세스에서 확인된 일반적 패턴)" },
+    { "fact": "CCS(Child Care Subsidy, 보육료 보조금)는 장기 보육(long day care)뿐 아니라 OSHC를 포함한 정부 승인 보육 서비스 전반에 동일하게 적용된다. 대상은 13세 이하 자녀(중학교 진학 전까지 예외 있음)이며, 부모가 시민권자/영주권자/특정 비자 소지자여야 하고, 예방접종 요건도 충족해야 한다.", "source": "Services Australia 'Child Care Subsidy', Department of Education 'Child Care Subsidy'" },
+    { "fact": "2026년 1월 5일부터 CCS 적격 가정은 최소 2주(fortnight)당 72시간의 보조 대상 돌봄 시간을 보장받으며, 특정 조건(활동 테스트 등)을 충족하면 최대 100시간까지 보조받을 수 있다. 실제 보조 비율(%)은 가구 소득에 따라 결정된다.", "source": "Department of Education 'Child Care Subsidy', Services Australia" },
+    { "fact": "CCS는 보통 이용료 청구 전 자동으로 공제되는 방식으로 제공업체에 직접 지급되지만, 이를 위해서는 부모가 Services Australia(centrelink)에 CCS를 별도로 신청/등록하고, 자녀를 해당 OSHC 서비스에 CCS 대상으로 연결(complete enrolment via provider)해야 한다. 이 절차가 늦어지면 처음 몇 주는 전액을 선지급하고 나중에 환급받는 상황이 생길 수 있다.", "source": "Services Australia, Department of Education" },
+    { "fact": "연방 정부의 'Priority of Access Guidelines'는 보육 자리가 부족할 때 다음 순서로 배정하도록 규정한다: Priority 1 - 학대·방임 위험에 처한 아동, Priority 2 - 부모(한부모 포함) 모두가 근로·훈련·학업 조건(work, training, study test)을 충족하는 가정의 아동, Priority 3 - 그 외 아동. 이 조건을 충족하는 데 필요한 최소 근무시간은 정해져 있지 않고, 주중 어느 시점에 근로/훈련/학업 활동만 있으면 된다.", "source": "Australian Government Priority of Access Guidelines for Child Care Services (Dept of Education/Training 안내자료, NRCS·ECMS 등 기관 요약본)" },
+    { "fact": "같은 Priority 등급 안에서도 원주민(Aboriginal/Torres Strait Islander) 가정, 장애가 있는 가족 구성원, 저소득/소득지원 대상 가정, 그리고 비영어권 배경(Non-English speaking background, NESB) 가정에는 추가 고려가 주어진다고 명시되어 있다. 즉 한국어를 주로 쓰는 맞벌이 이민 가정은 서류상으로는 상당히 높은 우선순위 그룹에 해당한다.", "source": "Priority of Access Guidelines for Child Care Services (연방 지침 요약본, NRCS/Darlo Play Centre/ECMS 등 게재)" },
+    { "fact": "다만 이 우선순위 지침은 자리가 '이미 배정된 상태에서 재조정이 필요할 때'(예: 기존 이용자를 밀어내고 더 높은 우선순위 아동에게 자리를 줘야 할 때, 최소 14일 사전 통보 필요) 주로 작동하는 원칙이며, 학기 초처럼 예약창이 열리자마자 선착순으로 마감되는 상황 자체를 막아주지는 않는다. 따라서 우선순위만 믿고 예약을 미루면 안 된다.", "source": "Priority of Access Guidelines 요약본 종합 해석" },
+    { "fact": "개별 서비스는 연방 최소 기준 위에 자체적인 대기자 명단/배정 정책을 추가로 운영하도록 권장되며, 실제 대기자 처리 방식(선착순, 형제자매 우선, 재학 우선 등)은 학교/업체마다 다르다. 따라서 '전국 공통 규칙'은 없고 반드시 해당 학교의 OSHC 제공업체에 직접 문의해야 한다.", "source": "Department of Education 'Outside School Hours Care' 안내" },
+    { "fact": "한국어로 'OSHC'를 검색하면 거의 전부 유학생 의료보험(Overseas Student Health Cover) 관련 결과만 나오고, 초등학생 방과후 돌봄에 대한 한국어 정보는 사실상 존재하지 않는다는 것이 실제 검색으로 확인됐다. 이는 대상 독자가 겪는 '영어 정보 접근성 문제'를 그대로 보여주는 사례다.", "source": "직접 검색 확인 (student-insurance.com, oshcaustralia.com.au, mklsydney.com 등 한국어 유학 정보 사이트 다수)" }
+  ],
+  "statistics": {
+    "note": "OSHC 대기자 비율, 전국 자리 부족률, 워킹맘 영향도에 대한 공신력 있는 전국 단위 통계는 이번 조사에서 확인되지 않았다. 아래는 실제로 확인 가능한 정량적 사실이며, 그 외 수치는 추정하거나 지어내지 않았다.",
+    "verified_numbers": [
+      { "stat": "2026년 1월 5일부터 CCS 적격 가정은 2주당 최소 72시간의 보조 대상 돌봄시간을 보장받음(조건 충족 시 최대 100시간)", "source": "Department of Education, Services Australia" },
+      { "stat": "일부 업체(OSHClub)의 자체 요금 예시에서 정기 예약이 세션당 약 $40, 캐주얼 예약이 세션당 약 $45로 정기 예약이 더 저렴함 — 이는 해당 업체 한 곳의 요금 구조 예시이며 전국 평균이 아님", "source": "OSHClub 자체 요금 페이지(업체별 상이)" }
+    ]
+  },
+  "common_misconception": "많은 이민 초기 워킹맘들은 '자리가 없으면 그냥 운이 나쁜 것'이라거나 '나는 이민자라서 후순위일 것'이라고 생각하기 쉽다. 하지만 실제로는 (1) 대부분의 예약 마감은 우선순위 문제가 아니라 '기존 이용 가족에게 먼저 열리는 예약창'을 놓쳐서 생기는 구조적 문제이고, (2) 연방 지침상 맞벌이 부모는 이미 Priority 2에 해당하며 비영어권 가정은 추가 고려 대상이기도 하다. 문제는 차별이 아니라 정보와 타이밍이다.",
+  "practical_steps": [
+    "학기 시작 최소 2~3주 전에 학교 뉴스레터/이메일에서 OSHC 제공업체 이름을 확인하고, 해당 업체 앱(Xplor Home, OSHClub, Camp Australia 등)에 자녀를 먼저 'enrolment(등록)'부터 완료한다 — 등록 없이는 예약 자체가 불가능하다.",
+    "정기적으로 필요한 요일이 있다면 캐주얼 예약이 아니라 정기(Permanent/Early Bird) 예약으로 신청한다. 정기 예약은 자리를 고정으로 확보하고 비용도 더 저렴한 경우가 많다.",
+    "Services Australia에서 CCS 신청/갱신 상태를 미리 확인하고, 선택한 OSHC 제공업체와 자녀 정보가 CCS에 정확히 연결되어 있는지 점검한다 — 등록이 늦으면 초반 몇 주는 전액을 선지급해야 할 수 있다.",
+    "이미 대기자 명단에 올랐다면, 같은 학교에 복수의 제공업체가 있는지 확인하고 모두에 대기 신청을 해두며, 매일 아침 '라스트미닛/캐주얼' 취소 자리가 생기는지 앱으로 확인한다.",
+    "학교 오피스(school office)나 P&C에 직접 연락해 대기 상황과 자체 우선순위 정책(형제자매 우선, 재학생 우선 등)을 문의한다 — 이는 업체 앱만 봐서는 알 수 없는 정보다.",
+    "맞벌이 상태(work, training, study test 충족)와 필요 시 비영어권 배경(NESB)이라는 점을 등록 시 명확히 밝혀, 우선순위 배정이 필요한 상황에서 불이익을 받지 않도록 한다.",
+    "당장 자리가 없다면 다른 워킹맘과의 카풀/품앗이 돌봄, 방과후 학원(스포츠, 음악 등 사설 애프터케어), 조부모/베이비시터 등 임시 대안을 병행해 공백을 메운다."
+  ],
+  "contrasting_approaches": [
+    { "label": "예약 시스템 완전 정복형 접근", "description": "OSHClub/Xplor/Camp Australia 앱 사용법, 정기 vs 캐주얼 예약, CCS 연동 절차를 단계별로 알려주는 실용 매뉴얼형 콘텐츠. '몰라서 놓쳤다'를 막는 데 초점." },
+    { "label": "권리·우선순위 인식형 접근", "description": "Priority of Access Guidelines를 근거로 맞벌이·비영어권 가정도 이미 법적 우선순위 그룹에 있다는 사실을 알려, '나는 을이 아니다'라는 심리적 자신감을 주는 데 초점." },
+    { "label": "이미 놓친 사람을 위한 대응형 접근", "description": "Term 3가 이미 시작된 시점(오늘 2026-07-08)에서, 대기자 명단에 오른 가정이 지금 당장 취할 수 있는 현실적 액션(복수 대기 신청, 라스트미닛 슬롯, 임시 대안)에 집중." },
+    { "label": "커뮤니티 정보 공유형 접근", "description": "학교/업체마다 규칙이 다르다는 점을 강조하며, '우리 학교는 이랬다'는 식의 구체적 사례·팁을 서로 공유하도록 유도하는 커뮤니티 지향 콘텐츠 — 저장·공유가 많이 되는 형태." }
+  ],
+  "hook": "한국어로 'OSHC'를 검색하면 방과후 돌봄이 아니라 유학생 의료보험 정보만 나온다 — 이 정보 격차 자체가, 아이 방과후 자리 하나 구하려고 밤새 검색하다 지친 워킹맘의 현실을 그대로 보여준다.",
+  "do_examples": [
+    "학기 시작 최소 2~3주 전에 학교가 위탁한 OSHC 업체를 확인하고 바로 enrolment(등록)부터 끝내기",
+    "필요한 요일이 정해져 있다면 캐주얼이 아니라 정기(Permanent) 예약으로 신청해 자리를 고정 확보하기",
+    "대기자 명단에 올랐을 때 학교 오피스에 직접 연락해 자체 우선순위 정책과 실제 대기 순번을 확인하기",
+    "CCS 신청 상태와 제공업체 연결 여부를 사전에 점검해 전액 선지급 상황을 피하기"
+  ],
+  "dont_examples": [
+    "'어차피 이민자라 후순위일 것'이라 지레짐작하고 등록·예약 자체를 미루기",
+    "우선순위 지침만 믿고 예약창이 열렸는데도 등록을 늦추기",
+    "학교 안내 이메일을 확인하지 않고 예약 시작일을 놓치기",
+    "캐주얼/라스트미닛 예약만으로 정기적인 방과후 돌봄 수요를 해결하려 하기"
+  ],
+  "sources": [
+    "OSHClub (공식 홈페이지, Booking Types and Fees, Child Care Subsidy 안내 페이지)",
+    "Camp Australia (공식 홈페이지, OSHC Explained 블로그, Child Care Subsidy/3 Day Guarantee 페이지)",
+    "Australian Government Department of Education (Child Care Subsidy, Outside School Hours Care, 3 Day Guarantee, Priority of Access Guidelines 관련 페이지)",
+    "Services Australia (Child Care Subsidy 페이지 및 사례 설명 페이지)",
+    "Priority of Access Guidelines for Child Care Services 요약본 (NRCS, Darlo Play Centre, ECMS 등 보육기관이 게재한 연방 지침 요약 자료)",
+    "Xplor Education (OSHC 서비스 기능 설명 페이지)",
+    "한국어 유학 정보 사이트 다수(student-insurance.com, oshcaustralia.com.au, mklsydney.com 등) — 'OSHC' 용어의 한국어 검색 결과가 유학생 건강보험에 편중되어 있음을 확인하기 위한 참고 검색"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "topic": "호주 초등학교 성적표(리포트) 해석 가이드: A-E 등급의 진짜 의미",
+  "slug": "school-report-grade-guide",
+  "cards": [
+    {
+      "card": 1,
+      "type": "cover",
+      "topic_badge": "성적표 가이드",
+      "headline": "성적표에 <em>C</em> 받아왔는데...",
+      "subtitle": "그거 나쁜 거 아니에요, 진짜로"
+    },
+    {
+      "card": 2,
+      "type": "hook",
+      "question": "혹시 자녀 성적표 열자마자 <strong>C</strong> 보고 심장 철렁하셨나요?",
+      "answer": "한국식 등수 감각으로 보면 그런데, 호주 성적표는 완전히 다르게 읽어야 해요."
+    },
+    {
+      "card": 3,
+      "type": "definition",
+      "section_label": "Definition",
+      "term": "절대평가 (Criteria-referenced)",
+      "explanation": "호주 성적표의 A-E 등급은 반 친구들과 줄 세우는 석차가 아니에요. 그 학년까지 배운 <strong>교육과정 성취기준</strong>에 아이가 얼마나 도달했는지를 보는 거예요.",
+      "punchline": "선생님은 반에서 A를 몇 명, C를 몇 명 줘야 하는지 정해두지 않아요."
+    },
+    {
+      "card": 4,
+      "type": "data",
+      "section_label": "Fact Check",
+      "headline": "C는 사실 <em>정상</em>이에요",
+      "chips": ["A: 매우 드묾", "B: 탄탄한 성취", "C: 학년 기준 충족", "D·E: 초기 단계"],
+      "explanation": "C는 '해당 학년에서 기대되는 성취를 보이고 있다'는 뜻이에요. 한 교사는 학급 전체 영어 과목에서 B는 2~3명, A는 한 명도 없었다고 말했어요. (NESA, Whirlpool Forums)"
+    },
+    {
+      "card": 5,
+      "type": "routine",
+      "section_label": "Timeline",
+      "headline": "성적표 받은 날, 이렇게 흘러가요",
+      "entries": [
+        { "label": "하교길", "text": "아이가 성적표 봉투를 들고 집에 와요. 표정만 보고 미리 걱정하지 마세요." },
+        { "label": "저녁", "text": "부모가 조용히 봉투를 열어봐요. 등급보다 <strong>Effort</strong> 칸부터 먼저 보세요." },
+        { "label": "다음날", "text": "아이와 짧게 대화 나눠요. '뭐가 재밌었어?' 정도로 가볍게 물어보면 충분해요." }
+      ]
+    },
+    {
+      "card": 6,
+      "type": "categories",
+      "section_label": "3 Lenses",
+      "headline": "성적표, 이 세 가지로 나눠 읽으세요",
+      "items": [
+        { "title": "등급 (A-E)", "description": "그 시점까지 배운 내용을 얼마나 이해했는지 보여주는 절대평가 기준이에요." },
+        { "title": "노력 (Effort)", "description": "등급과는 완전히 별개 항목으로, 아이의 끈기와 참여도, 학습 태도를 보여줘요." },
+        { "title": "과목별 코멘트", "description": "상당수는 등급에 따라 정해진 문구라, '왜 이 등급인지' 설명으로 이해하면 돼요." }
+      ]
+    },
+    {
+      "card": 7,
+      "type": "checklist",
+      "section_label": "Today's To-do",
+      "headline": "오늘 바로 확인해보세요",
+      "intro": "성적표 받으면 순서대로 이것만 체크하면 돼요.",
+      "items": ["Effort 칸 먼저 보기", "코멘트에서 다음 단계 찾기", "NAPLAN과 구분해서 받아들이기", "우리 학교 등급 체계 확인하기"],
+      "takeaway": "등급 하나보다 이 네 가지가 훨씬 더 많은 걸 말해줘요."
+    },
+    {
+      "card": 8,
+      "type": "do_dont",
+      "headline": "이것만은 기억하세요",
+      "do": ["Effort와 코멘트 먼저 읽기", "면담에서 잘하는 점 구체적으로 묻기", "학교마다 다른 등급 체계 확인하기"],
+      "dont": ["C 보자마자 다그치기", "A 기준으로 아이 평가절하하기", "실망한 표정 그대로 드러내기"]
+    },
+    {
+      "card": 9,
+      "type": "steps",
+      "section_label": "Next Step",
+      "headline": "성적표 받은 후, 이 순서대로",
+      "steps": [
+        { "title": "등급 체계 확인", "description": "우리 아이 학교가 속한 주(state)의 등급 기준부터 확인해요." },
+        { "title": "Effort·코멘트 정독", "description": "등급보다 노력 평가와 코멘트를 먼저 꼼꼼히 읽어요." },
+        { "title": "면담 질문 준비", "description": "잘하는 점, 막힐 때 태도, 다음 단계, 집에서 도울 방법을 구체적으로 물어봐요." }
+      ]
+    },
+    {
+      "card": 10,
+      "type": "cta",
+      "headline": "아이의 성장은<br /><em>등급</em>보다 커요",
+      "message": "알파벳 하나에 아이의 하루하루가 다 담기진 않아요. 다음 성적표 받을 때 다시 꺼내보게 <strong>지금 저장</strong>해두세요.",
+      "comment_prompt": "비슷한 경험 있으시면 댓글로 나눠주세요"
+    }
+  ]
+}

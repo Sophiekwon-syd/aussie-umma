@@ -1,0 +1,90 @@
+{
+  "topic": "Term 3 방과후 프로그램(OSHC) 자리 확보 전쟁: 워킹맘이 놓치면 안 되는 예약 타이밍",
+  "angle": "패닉 공감 → 시스템 이해 → 실질적 확보 전략, 이미 대기자 명단에 올랐어도 할 수 있는 일",
+  "context_note": "Term 3 2026 start dates vary by state — Queensland begins 13 July 2026, NSW begins 21 July 2026 (Eastern/Western division), Victoria dates confirmed under the 2026-2030 calendar but not itemised in sources consulted. Content should say 'mid-to-late July, 주마다 다름' rather than a single national date.",
+  "key_facts": [
+    {
+      "fact": "'OSHC'라는 약어는 두 가지 완전히 다른 의미로 쓰인다: (1) Overseas Student Health Cover — 유학생 건강보험, (2) Outside School Hours Care — 학교의 방과전·방과후 돌봄 프로그램. 한국 부모가 'OSHC'를 검색하면 유학생 보험 사이트가 먼저 뜨는 경우가 많아 혼란이 생긴다.",
+      "source": "검색 결과 비교 관찰 (oshcaustralia.com.au 등 유학생보험 사이트 vs Dept of Education OSHC 페이지)"
+    },
+    {
+      "fact": "대부분의 OSHC 제공업체(OSHClub, Camp Australia 등)는 두 가지 예약 방식을 운영한다: 매주 고정되는 'Recurring/permanent booking'과 필요할 때만 넣는 'Casual booking'. 정기 예약을 미리 걸어둔 가정이 사실상 자리를 선점하는 구조다.",
+      "source": "OSHClub — Make a Booking / Bookings and Cancellations Policy"
+    },
+    {
+      "fact": "세션이 마감되면 대기자 명단(waitlist)이 열리며, 선착순(first come, first served)으로 운영된다. 자리가 나면 제공업체가 SMS·이메일로 즉시 통보하고, 대기 등록 자체에는 비용이 들지 않는다(전환 전 취소하면 요금 없음).",
+      "source": "OSHClub — Bookings and Cancellations Policy"
+    },
+    {
+      "fact": "많은 학교/제공업체는 신학기·신년도 시작 전 기존 재원 가정에게 약 4주 정도의 '우선 등록 기간(priority window)'을 주고, 그 기간이 지난 뒤에야 신규 가정의 등록을 받는다. 즉 이미 다니고 있던 아이들이 시스템상 먼저 자리를 확정하고, 신규 신청 가정은 그다음 순번이 된다.",
+      "source": "OSHC 제공업체·학교 P&C 안내문 (예: Eatons Hills P&C OSH Club 안내)"
+    },
+    {
+      "fact": "호주 연방정부의 공식 'Priority of Access Guidelines for Child Care Services'는 보육 자리 배정 우선순위를 3단계로 규정한다: 1순위 학대·방임 위험 아동, 2순위 한부모 또는 양쪽 부모 모두 근로/학업/훈련 요건(Family Assistance Act 14조)을 충족하는 가정의 아동, 3순위 그 외 모든 아동. 원주민·장애가족 아동은 각 순위 내에서 추가 우선권을 받는다.",
+      "source": "Australian Government Department of Education — Priority of Access Guidelines for Child Care Services"
+    },
+    {
+      "fact": "CCS(Child Care Subsidy)는 OSHC(방과후 돌봄)에도 장시간 보육(long day care)과 동일한 방식으로 적용된다. 정부가 보조금을 제공업체에 직접 지급해 부모가 내는 갭피(gap fee)만 줄여주는 구조이며, 소득에 따라 보조율이 정해진다.",
+      "source": "Services Australia — Child Care Subsidy / OSHClub CCS 안내 페이지"
+    },
+    {
+      "fact": "2026년 1월 5일부터 기존의 '활동 테스트(activity test)'가 폐지되고 '3 Day Guarantee'로 전환됐다. CCS 대상 가정은 부모의 근로·학업 시간과 무관하게 최소 2주당 72시간(주 3일)의 보조 보육을 보장받는다. 2주당 인정 활동시간이 48시간 이상이거나 특정 예외 사유(원주민 아동, ACCS 수급 등)에 해당하면 2주당 100시간까지 확대된다.",
+      "source": "Australian Government Department of Education — 3 Day Guarantee / Services Australia Child Care Subsidy changes"
+    },
+    {
+      "fact": "가장 중요한 함정: CCS 보조금 자격이 있다는 것과 실제 방과후 프로그램 '자리'를 확보하는 것은 완전히 별개의 절차다. 보조금 대상자여도 제공업체에 별도로 자리를 신청·확보해야 하며, 특히 수요가 높은 지역/학교는 보조금 자격과 무관하게 대기자 명단에 오를 수 있다.",
+      "source": "Australian Government Department of Education — 3 Day Guarantee 안내 (Families are not guaranteed a place with a provider)"
+    },
+    {
+      "fact": "일부 OSHC 서비스는 학기·학년이 바뀔 때 예약이 자동으로 이어지지 않고, 매 학년도 또는 매 학기 가정이 다시 등록 양식을 제출해야 자리가 유지된다. 이 갱신을 놓치면 계속 다니던 아이도 대기자 명단으로 밀릴 수 있다.",
+      "source": "여러 OSHC 제공업체/학교 안내 페이지 종합 (예: NSW 학교 OSHC FAQ)"
+    },
+    {
+      "fact": "대기자 명단에 이미 올라간 경우 실질적으로 할 수 있는 일: 제공업체에 직접 연락해 우선순위 사유(맞벌이/한부모 근로 요건) 명시하기, vacation care나 casual booking으로 임시 대체하기, 인근 다른 학교의 OSHC(지역사회 이용 가능 시)나 등록된 가정 보육(family day care) 대안 확인하기, 정기적으로 포털을 확인해 취소 발생 시 빠르게 잡기.",
+      "source": "OSHClub/Camp Australia 예약·대기 정책 및 일반 제공업체 FAQ 종합"
+    }
+  ],
+  "statistics_note": "국가 단위의 OSHC 이용률, 평균 대기 기간, 대기자 명단에 오른 가정의 비율 등에 대한 신뢰할 수 있는 공개 통계는 이번 조사에서 찾지 못했다. 숫자를 지어내는 대신, CCS의 '2주당 72시간(3 Day Guarantee)' 및 '2주당 100시간(고활동/예외 가정)' 기준, 그리고 우선순위 3단계 체계처럼 정부가 공식 발표한 제도적 수치만 사실로 제시한다.",
+  "key_facts_are_qualitative": true,
+  "common_misconception": "많은 부모가 'CCS 보조금을 신청해서 승인받으면 자리도 자동으로 생긴다'고 오해한다. 실제로는 보조금 자격(재정 지원)과 자리 확보(제공업체와의 개별 예약)는 완전히 다른 절차이며, 보조금 대상이어도 원하는 학교의 방과후 프로그램은 꽉 차서 대기해야 할 수 있다. 또한 'OSHC'를 검색했을 때 유학생 보험 정보가 먼저 나와 혼란을 겪는 경우도 흔하다.",
+  "practical_steps": [
+    "Term 3 시작 최소 2~3주 전, 학교 공지나 제공업체 포털(OSHClub, Camp Australia, Xplor Home 등)에서 예약 오픈 여부를 미리 확인한다",
+    "재원 중인 자녀가 있다면 학기/학년 전환 시 재등록(re-enrolment)이 자동인지 별도 신청이 필요한지 반드시 확인한다",
+    "필요한 요일이 정해져 있다면 'casual booking'보다 'recurring/permanent booking'으로 먼저 걸어 자리를 선점한다",
+    "이미 마감됐다면 대기자 명단에 즉시 이름을 올리고(비용 없음), 포털 알림을 켜둔다",
+    "맞벌이·한부모 근로 요건에 해당한다면 이를 제공업체에 명확히 알려 Priority of Access 2순위 해당 여부를 문의한다",
+    "CCS 신청(마이가브/Centrelink)과 제공업체 자리 확보를 별개의 두 트랙으로 동시에 진행한다 — 하나가 됐다고 다른 하나가 자동으로 되지 않는다",
+    "당장 자리가 없다면 vacation care나 casual booking으로 임시로 메우면서 대기자 순번을 유지한다"
+  ],
+  "contrasting_approaches": [
+    {
+      "label": "선제적 예약형",
+      "description": "학기 시작 훨씬 전에 정기 예약(recurring booking)을 걸어두고, 재등록 갱신일을 캘린더에 표시해두는 방식. 초기 품이 들지만 대기자 명단에 오를 확률이 낮다."
+    },
+    {
+      "label": "임기응변 대응형",
+      "description": "필요할 때마다 casual booking으로 대응하다가 특정 주에 자리가 없으면 대기자 명단에 오르고, 그 사이 vacation care·조부모·연차 등으로 공백을 메우는 방식. 유연하지만 매번 불확실성을 감수해야 한다."
+    }
+  ],
+  "hook": "CCS 보조금은 '자격'을 승인해줄 뿐, 학교 방과후 프로그램의 실제 '자리'는 보장해주지 않는다 — 이 둘을 같은 것으로 착각하는 순간 대기자 명단에서 학기를 시작하게 된다.",
+  "do_examples": [
+    "학기 시작 2~3주 전 포털에서 예약 오픈 여부를 먼저 확인한다",
+    "재원 중이어도 재등록이 자동인지 직접 학교/제공업체에 확인한다",
+    "맞벌이·근로 요건을 제공업체에 명확히 알려 우선순위 대상 여부를 확인한다",
+    "CCS 신청과 자리 확보를 별개의 절차로 동시에 진행한다"
+  ],
+  "dont_examples": [
+    "CCS 승인만 받으면 자리도 자동으로 생긴다고 안심하고 예약을 미룬다",
+    "'OSHC'를 검색해서 나온 첫 결과(유학생 보험)를 방과후 프로그램 정보로 착각한다",
+    "재등록 갱신일을 놓쳐 계속 다니던 아이가 대기자 명단으로 밀리게 둔다",
+    "대기자 명단에 오른 뒤 아무 조치 없이 통보만 기다린다"
+  ],
+  "sources": [
+    "Australian Government Department of Education — Outside School Hours Care, Priority of Access Guidelines for Child Care Services, 3 Day Guarantee page",
+    "Services Australia — Child Care Subsidy examples and CCS changes (3 Day Guarantee, effective 5 Jan 2026)",
+    "OSHClub — Make a Booking, Bookings and Cancellations Policy, Child Care Subsidy parent-support page",
+    "Camp Australia — OSHC service FAQs",
+    "NSW Department of Education / Queensland Department of Education — 2026 school term calendars (Term 3 start dates)",
+    "CCS Checker AU — OSHC and CCS guide"
+  ]
+}
