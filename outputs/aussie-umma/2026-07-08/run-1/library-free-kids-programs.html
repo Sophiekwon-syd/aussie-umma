@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>호주 도서관 무료 육아 프로그램</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:#050505; --card-bg:#080808; --elevated:#0e0e0e;
+      --ink:#fff; --ink2:#ccc; --ink3:#888; --ink4:#333;
+      --accent:#C6F135; --accent-dim:rgba(198,241,53,0.15);
+      --blue:#3B82F6; --red:#ff4d4d;
+      --border:rgba(255,255,255,0.07);
+      --font-kr:"Noto Sans KR",sans-serif;
+      --font-en:"Space Grotesk",sans-serif;
+    }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    body{background:#000;font-family:var(--font-kr);color:var(--ink);display:flex;flex-direction:column;align-items:center;gap:10px;padding:60px 20px 100px;-webkit-font-smoothing:antialiased}
+    .card{width:1080px;height:1350px;background:var(--card-bg);position:relative;overflow:hidden;display:flex;flex-direction:column}
+    .card::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:50;opacity:0.04;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:180px}
+    .ci{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:90px;position:relative;z-index:2}
+    .td{font-family:var(--font-en);font-weight:900;line-height:1.05;letter-spacing:-2px;word-break:keep-all}
+    .td-kr{font-family:var(--font-kr);font-weight:900;line-height:1.15;letter-spacing:-3px;word-break:keep-all}
+    .td.xl{font-size:96px}.td.lg{font-size:82px}.td.md{font-size:72px}
+    .tb{font-size:30px;font-weight:400;color:var(--ink2);line-height:1.65;word-break:keep-all}
+    .tb strong{font-weight:700;color:var(--ink)}
+    .ta{color:var(--accent)}.tm{color:var(--ink3)}
+    .en{font-family:var(--font-en)}
+    .badge{display:inline-flex;align-items:center;padding:12px 28px;border-radius:100px;font-size:17px;font-weight:800;width:fit-content;text-transform:uppercase;letter-spacing:2px}
+    .badge-a{background:var(--accent);color:#000}
+    .div-a{width:56px;height:5px;background:var(--accent);border-radius:2px;border:none;margin:32px 0}
+    .handle{position:absolute;top:165px;right:90px;font-size:18px;font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:3px;z-index:10;display:inline-flex;align-items:center;gap:10px}
+    .handle::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+    .glow{position:absolute;border-radius:50%;background:var(--accent);filter:blur(160px);opacity:0.07;pointer-events:none;z-index:0}
+    .center-block{flex:1;display:flex;flex-direction:column;justify-content:center}
+
+    /* cover card */
+    .c1 .cover-sub{max-width:85%;font-size:36px;font-weight:500;margin-top:40px}
+    .c1 .cover-cta{font-size:22px;font-weight:800;color:var(--accent);margin-top:48px}
+
+    /* statement card (dark rhythm) */
+    .c5 .tb{font-size:30px;line-height:1.7}
+    .c5 .td{font-size:72px;line-height:1.15}
+
+    /* cta card */
+    .c10 .big-cta{font-size:64px;font-weight:900;color:var(--accent);font-family:var(--font-en);letter-spacing:-1px}
+
+    /* body text max-width for readability when centered */
+    .ci .tb{max-width:720px}
+  </style>
+</head>
+<body>
+
+<!-- Card 1: Cover -->
+<section class="card c1">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:600px;height:600px;top:-200px;right:-200px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:40px">호주 육아 꿀팁</div>
+    <div class="td-kr" style="font-size:80px">호주 도서관</div>
+    <div class="td-kr" style="font-size:80px;margin-top:4px">무료 육아 프로그램</div>
+    <div class="cover-sub tm">당신 동네에도 이미 있어요</div>
+    <div class="cover-cta">Baby Rhyme Time · Toddler Time · Storytime</div>
+  </div>
+</section>
+
+<!-- Card 2: Hook -->
+<section class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:500px;height:500px;top:100px;left:-150px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:48px">솔직히 말하면</div>
+    <div class="td-kr td lg" style="font-size:52px;line-height:1.2;letter-spacing:-2px">
+      나도 처음엔 몰랐어요.<br>매주 집 앞 도서관에서<br>공짜 아기 수업이<br>열린다는 사실을.
+    </div>
+    <div class="div-a"></div>
+    <div class="tb" style="font-size:26px">
+      근데 알고 나니까 매주 가요.<br>둘째까지 3년째. 진짜에요.
+    </div>
+  </div>
+</section>
+
+<!-- Card 3: $0 FREE — big reveal early -->
+<section class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:600px;height:600px;top:50%;left:50%;transform:translate(-50%,-50%)"></div>
+  <div class="ci">
+    <div class="td xl" style="font-family:var(--font-en);font-size:180px;color:var(--accent);line-height:1;letter-spacing:-8px">$0</div>
+    <div class="tb" style="margin-top:20px;font-size:36px">
+      <strong>전부 무료</strong>예요.<br>
+      예약도, 회원증도, 주소 제한도<br>아무것도 필요 없어요.
+    </div>
+    <div class="tb" style="margin-top:16px;font-size:24px;color:var(--ink3)">
+      그냥 문 열고 들어가면 끝.
+    </div>
+  </div>
+</section>
+
+<!-- Card 4: Baby Rhyme Time -->
+<section class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:400px;height:400px;top:200px;right:-100px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:30px">0 - 12개월</div>
+    <div class="td md" class="td-kr" style="font-size:60px;margin-bottom:40px">Baby<br>Rhyme Time</div>
+    <div class="tb">
+      아기 무릎에 앉히고<br>노래 따라 부르는 30분.<br>생후 6주부터 와도 돼요.<br>진짜 다들 그렇게 시작해요.
+    </div>
+  </div>
+</section>
+
+<!-- Card 5: Toddler Time -->
+<section class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:400px;height:400px;top:300px;left:-100px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:30px">1 - 3세</div>
+    <div class="td md" class="td-kr" style="font-size:60px;margin-bottom:40px">Toddler<br>Time</div>
+    <div class="tb">
+      그림책 보고 노래하고<br>친구랑 인사하고 기다리는 법.<br>한국에선 문화센터 돈 내고 하는 걸<br>여기선 공짜로. 말이 돼요?
+    </div>
+  </div>
+</section>
+
+<!-- Card 6: Storytime -->
+<section class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:400px;height:400px;top:150px;right:-100px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:30px">3 - 5세</div>
+    <div class="td md" class="td-kr" style="font-size:60px;margin-bottom:40px">Story<br>time</div>
+    <div class="tb">
+      그림책 읽고 만들기 활동까지<br>45분 알차게 놀아요.<br>초등학교 가기 전에<br>앉아서 수업 듣는 연습, 여기서 끝.
+    </div>
+  </div>
+</section>
+
+<!-- Card 7: Statement -->
+<section class="card c5">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:600px;height:600px;top:300px;left:-200px;background:var(--blue)"></div>
+  <div class="ci">
+    <div class="td-kr td lg" style="font-size:64px;line-height:1.15;letter-spacing:-3px">
+      육아는<br>혼자 하는 게 아니에요
+    </div>
+    <div class="div-a"></div>
+    <div class="tb" style="font-size:28px">
+      도서관 프로그램 끝나고 나면<br>다른 엄마들이 말 걸어요.<br>"몇 개월이에요?" 여기서부터<br>연결이 시작되는 거예요.
+    </div>
+  </div>
+</section>
+
+<!-- Card 8: English not required -->
+<section class="card c2">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:400px;height:400px;top:200px;right:-100px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:30px">걱정 마요</div>
+    <div class="tb" style="font-size:36px">
+      영어 못해도<br><strong>진짜 아무 문제 없어요</strong>.<br><br>
+      사서분들이 다 리드해주고<br>노래 가사는 매주 똑같아서<br>두세 번 가면 나도 따라 불러요.
+    </div>
+  </div>
+</section>
+
+<!-- Card 9: Sheet (save-bait) -->
+<section class="card c9">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:500px;height:500px;top:-100px;right:-100px"></div>
+  <div class="ci">
+    <div class="badge badge-a" style="margin-bottom:40px">저장 필수</div>
+    <div class="td md" class="td-kr" style="font-size:48px;margin-bottom:48px">찾는 법 진짜 쉬워요</div>
+    <div class="tb" style="font-size:26px;line-height:2.2">
+      <strong>1.</strong> 구글에 "[지역명] library storytime"<br>
+      <strong>2.</strong> 카운슬 도서관 사이트 들어가기<br>
+      <strong>3.</strong> Children's programs에서 요일/시간 확인<br>
+      <strong>4.</strong> "Drop-in"이면 예약 없이 그냥 고고<br>
+      <strong>5.</strong> 5-10분 일찍 가서 자리 잡으면 끝
+    </div>
+    <div class="tb" style="margin-top:32px;font-size:22px;color:var(--ink3)">
+      학기 중에만 하니까 방학 전에 확인하세요
+    </div>
+  </div>
+</section>
+
+<!-- Card 10: CTA -->
+<section class="card c10">
+  <div class="handle">@nappyprice</div>
+  <div class="glow" style="width:700px;height:700px;top:50%;left:50%;transform:translate(-50%,-50%)"></div>
+  <div class="ci">
+    <div class="tb" style="font-size:30px;margin-bottom:24px">내일 아침, 커피 한 잔 마시면서</div>
+    <div class="td-kr td lg" style="font-size:60px;margin-bottom:16px">집 근처 도서관<br>한 번만 검색해보세요</div>
+    <div class="div-a"></div>
+    <div class="tb" style="font-size:24px;margin-top:32px;line-height:1.8">
+      첫 발걸음이 제일 어렵지<br>두 번째부터는 그냥 루틴이에요.<br>당신 동네에도 이미 다 있어요.
+    </div>
+    <div class="big-cta" style="margin-top:60px">저장하기 →</div>
+  </div>
+</section>
+
+</body>
+</html>
